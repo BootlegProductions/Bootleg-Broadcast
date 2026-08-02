@@ -1,0 +1,90 @@
+{
+  "months": {
+    "january": {
+      "days": 31,
+      "channels_per_day_min": 10,
+      "channels_per_day_max": 10,
+      "ad_break_placeholders": 6032
+    },
+    "february": {
+      "days": 28,
+      "channels_per_day_min": 10,
+      "channels_per_day_max": 10,
+      "ad_break_placeholders": 5481
+    },
+    "march": {
+      "days": 31,
+      "channels_per_day_min": 10,
+      "channels_per_day_max": 10,
+      "ad_break_placeholders": 6080
+    },
+    "april": {
+      "days": 30,
+      "channels_per_day_min": 10,
+      "channels_per_day_max": 10,
+      "ad_break_placeholders": 6124
+    },
+    "may": {
+      "days": 31,
+      "channels_per_day_min": 10,
+      "channels_per_day_max": 10,
+      "ad_break_placeholders": 6072
+    },
+    "june": {
+      "days": 30,
+      "channels_per_day_min": 10,
+      "channels_per_day_max": 10,
+      "ad_break_placeholders": 5941
+    },
+    "july": {
+      "days": 31,
+      "channels_per_day_min": 10,
+      "channels_per_day_max": 10,
+      "ad_break_placeholders": 6016
+    },
+    "august": {
+      "days": 31,
+      "channels_per_day_min": 10,
+      "channels_per_day_max": 10,
+      "ad_break_placeholders": 5999
+    },
+    "september": {
+      "days": 30,
+      "channels_per_day_min": 10,
+      "channels_per_day_max": 10,
+      "ad_break_placeholders": 5849
+    },
+    "october": {
+      "days": 31,
+      "channels_per_day_min": 10,
+      "channels_per_day_max": 10,
+      "ad_break_placeholders": 1872
+    },
+    "november": {
+      "days": 30,
+      "channels_per_day_min": 10,
+      "channels_per_day_max": 10,
+      "ad_break_placeholders": 5761
+    },
+    "december": {
+      "days": 31,
+      "channels_per_day_min": 10,
+      "channels_per_day_max": 10,
+      "ad_break_placeholders": 57
+    }
+  },
+  "advert_pools": {
+    "90s Toons": 188,
+    "AAA": 1085,
+    "Cartoons Cartoons": 500,
+    "Dickleodeon": 0,
+    "Dizzy": 60,
+    "GirlyPop": 0,
+    "Japanime": 317,
+    "Off-Licence TV": 809,
+    "Star Spangled TV": 202,
+    "What": 0
+  },
+  "unsorted_incorporated": 1795,
+  "low_confidence": 1628
+}

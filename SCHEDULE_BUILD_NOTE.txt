@@ -1,0 +1,1057 @@
+BOOTLEG BROADCAST — VERSION 0.12 FULL-DAY / ADVERT PASS
+
+Schedule changes:
+- Ordinary days now rotate a manageable group of programmes rather than dumping every series into every day.
+- Each selected series receives two consecutive episodes as a daily block.
+- Daytime blocks remain before nighttime blocks.
+- A single movie/special is used periodically rather than stacking several films together.
+- Approved marathon channels retain one weekly single-season marathon day.
+- October and December remain isolated seasonal schedules.
+- Start/end channel idents remain in every channel day.
+
+Advert system:
+- Added adverts.json containing channel-specific advert pools.
+- Schedule JSON files contain lightweight AdBreak placeholders.
+- app.js expands each break at runtime with five randomly selected adverts.
+- Recent advert history reduces immediate repeats during the same visit.
+- Exact 2–5 minute duration cannot be guaranteed because the markdown contains URLs but no clip durations.
+
+Advert links loaded: 3161
+Unsorted links incorporated: 1795
+Low-confidence/category-default assignments: 1628
+
+Unsorted assignment summary:
+- Christmas -> 90s Toons: 1
+- Christmas -> AAA: 1
+- Christmas -> Cartoons Cartoons: 9
+- Christmas -> Dickleodeon: 15
+- Christmas -> Dizzy: 354
+- Christmas -> GirlyPop: 2
+- Christmas -> Off-Licence TV: 2
+- Christmas -> Star Spangled TV: 8
+- Halloween -> AAA: 2
+- Halloween -> Cartoons Cartoons: 129
+- Halloween -> Dickleodeon: 13
+- Halloween -> Dizzy: 2
+- Halloween -> Star Spangled TV: 4
+- Other Holidays -> 90s Toons: 1
+- Other Holidays -> Cartoons Cartoons: 13
+- Other Holidays -> Dickleodeon: 16
+- Other Holidays -> Dizzy: 218
+- Other Holidays -> GirlyPop: 2
+- Other Holidays -> Star Spangled TV: 7
+- movies -> 90s Toons: 2
+- movies -> AAA: 2
+- movies -> Cartoons Cartoons: 1
+- movies -> Dickleodeon: 3
+- movies -> GirlyPop: 1
+- movies -> Japanime: 11
+- movies -> Off-Licence TV: 1
+- movies -> Star Spangled TV: 379
+- movies -> What: 1
+- series -> AAA: 1
+- series -> Off-Licence TV: 8
+- series -> Star Spangled TV: 586
+
+LOW-CONFIDENCE ASSIGNMENTS (review if desired):
+- [Christmas] Dizzy: A Caillou Christmas (1)
+  https://archive.org/download/christmas-specials_202412/A%20Caillou%20Christmas%20%281%29.mp4
+- [Christmas] Dizzy: A Caillou Christmas (10)
+  https://archive.org/download/christmas-specials_202412/A%20Caillou%20Christmas%20%2810%29.mp4
+- [Christmas] Dizzy: A Caillou Christmas (11)
+  https://archive.org/download/christmas-specials_202412/A%20Caillou%20Christmas%20%2811%29.mp4
+- [Christmas] Dizzy: A Caillou Christmas (12)
+  https://archive.org/download/christmas-specials_202412/A%20Caillou%20Christmas%20%2812%29.mp4
+- [Christmas] Dizzy: A Caillou Christmas (2)
+  https://archive.org/download/christmas-specials_202412/A%20Caillou%20Christmas%20%282%29.mp4
+- [Christmas] Dizzy: A Caillou Christmas (3)
+  https://archive.org/download/christmas-specials_202412/A%20Caillou%20Christmas%20%283%29.mp4
+- [Christmas] Dizzy: A Caillou Christmas (4)
+  https://archive.org/download/christmas-specials_202412/A%20Caillou%20Christmas%20%284%29.mp4
+- [Christmas] Dizzy: A Caillou Christmas (5)
+  https://archive.org/download/christmas-specials_202412/A%20Caillou%20Christmas%20%285%29.mp4
+- [Christmas] Dizzy: A Caillou Christmas (6)
+  https://archive.org/download/christmas-specials_202412/A%20Caillou%20Christmas%20%286%29.mp4
+- [Christmas] Dizzy: A Caillou Christmas (7)
+  https://archive.org/download/christmas-specials_202412/A%20Caillou%20Christmas%20%287%29.mp4
+- [Christmas] Dizzy: A Caillou Christmas (8)
+  https://archive.org/download/christmas-specials_202412/A%20Caillou%20Christmas%20%288%29.mp4
+- [Christmas] Dizzy: A Caillou Christmas (9)
+  https://archive.org/download/christmas-specials_202412/A%20Caillou%20Christmas%20%289%29.mp4
+- [Christmas] Dizzy: A Muppet Family Christmas (Extended Version)
+  https://archive.org/download/christmas-specials_202412/A%20Muppet%20Family%20Christmas%20%28Extended%20Version%29.mp4
+- [Christmas] Dizzy: A Muppet Family Christmas
+  https://archive.org/download/christmas-specials_202412/A%20Muppet%20Family%20Christmas.mp4
+- [Christmas] Dizzy: A Very Merry Christmas (2011)
+  https://archive.org/download/christmas-specials_202412/A%20Very%20Merry%20Christmas%20%282011%29.mp4
+- [Christmas] Dizzy: All Grown Up! - The Finster Who Stole Christmas
+  https://archive.org/download/christmas-specials_202412/All%20Grown%20Up%21%20-%20The%20Finster%20Who%20Stole%20Christmas%20.mp4
+- [Christmas] Dizzy: Allegra's Window - Mr. Cook's Christmas
+  https://archive.org/download/christmas-specials_202412/Allegra%27s%20Window%20-%20Mr.%20Cook%27s%20Christmas.mp4
+- [Christmas] Dizzy: Baby Jake - Baby Jake Loves Christmas
+  https://archive.org/download/christmas-specials_202412/Baby%20Jake%20-%20Baby%20Jake%20Loves%20Christmas.ia.mp4
+- [Christmas] Dizzy: Baby Jake - Baby Jake Loves Christmas
+  https://archive.org/download/christmas-specials_202412/Baby%20Jake%20-%20Baby%20Jake%20Loves%20Christmas.mp4
+- [Christmas] Dizzy: Baby Songs Christmas
+  https://archive.org/download/christmas-specials_202412/Baby%20Songs%20Christmas.ia.mp4
+- [Christmas] Dizzy: Baby Songs Christmas
+  https://archive.org/download/christmas-specials_202412/Baby%20Songs%20Christmas.mp4
+- [Christmas] Dizzy: Barney & Friends - A Very Merry Christmas
+  https://archive.org/download/christmas-specials_202412/Barney%20%26%20Friends%20-%20A%20Very%20Merry%20Christmas.mp4
+- [Christmas] Dizzy: Barney & Friends - A Visit to Santa
+  https://archive.org/download/christmas-specials_202412/Barney%20%26%20Friends%20-%20A%20Visit%20to%20Santa.mp4
+- [Christmas] Dizzy: Barney & Friends - Barney's Christmas Star
+  https://archive.org/download/christmas-specials_202412/Barney%20%26%20Friends%20-%20Barney%27s%20Christmas%20Star.mp4
+- [Christmas] Dizzy: Barney & Friends - Barney's Night Before Christmas
+  https://archive.org/download/christmas-specials_202412/Barney%20%26%20Friends%20-%20Barney%27s%20Night%20Before%20Christmas.mp4
+- [Christmas] Dizzy: Barney & Friends - Gift of the Dinos:A Visit to Santa
+  https://archive.org/download/christmas-specials_202412/Barney%20%26%20Friends%20-%20Gift%20of%20the%20Dinos%3AA%20Visit%20to%20Santa.mp4
+- [Christmas] Dizzy: Barney & Friends - Gift of the Dinos:Winter
+  https://archive.org/download/christmas-specials_202412/Barney%20%26%20Friends%20-%20Gift%20of%20the%20Dinos%3AWinter.mp4
+- [Christmas] Dizzy: Barney & Friends - Winter:Summer
+  https://archive.org/download/christmas-specials_202412/Barney%20%26%20Friends%20-%20Winter%3ASummer.ia.mp4
+- [Christmas] Dizzy: Barney & Friends - Winter:Summer
+  https://archive.org/download/christmas-specials_202412/Barney%20%26%20Friends%20-%20Winter%3ASummer.mp4
+- [Christmas] Dizzy: Barney & Friends- Winter
+  https://archive.org/download/christmas-specials_202412/Barney%20%26%20Friends-%20Winter.mp4
+- [Christmas] Dizzy: Barney & The Backyard Gang - Waiting for Santa
+  https://archive.org/download/christmas-specials_202412/Barney%20%26%20The%20Backyard%20Gang%20-%20Waiting%20for%20Santa.mp4
+- [Christmas] Dizzy: Barney (1989) - Barney's Christmas Surprise
+  https://archive.org/download/christmas-specials_202412/Barney%20%281989%29%20-%20Barney%27s%20Christmas%20Surprise.mp4
+- [Christmas] Dizzy: Barney (1989) - Barney's Winter Holiday
+  https://archive.org/download/christmas-specials_202412/Barney%20%281989%29%20-%20Barney%27s%20Winter%20Holiday.mp4
+- [Christmas] Dizzy: Barney - A Very Merry Christmas
+  https://archive.org/download/christmas-specials_202412/Barney%20-%20A%20Very%20Merry%20Christmas.mp4
+- [Christmas] Dizzy: Barney - Barney's Night Before Christmas
+  https://archive.org/download/christmas-specials_202412/Barney%20-%20Barney%27s%20Night%20Before%20Christmas.mp4
+- [Christmas] Dizzy: Barney's Christmas Star (2002)
+  https://archive.org/download/christmas-specials_202412/Barney%27s%20Christmas%20Star%20%282002%29.mp4
+- [Christmas] Dizzy: Barney's Night Before Christmas (1999)
+  https://archive.org/download/christmas-specials_202412/Barney%27s%20Night%20Before%20Christmas%20%281999%29.mp4
+- [Christmas] Dizzy: Bear in the Big Blue House - A Berry Bear Christmas (Part 1)
+  https://archive.org/download/christmas-specials_202412/Bear%20in%20the%20Big%20Blue%20House%20-%20A%20Berry%20Bear%20Christmas%20%28Part%201%29.mp4
+- [Christmas] Dizzy: Bear in the Big Blue House - A Berry Bear Christmas (Part 2)
+  https://archive.org/download/christmas-specials_202412/Bear%20in%20the%20Big%20Blue%20House%20-%20A%20Berry%20Bear%20Christmas%20%28Part%202%29.mp4
+- [Christmas] Dizzy: Bear in the Big Blue House - A Berry Bear Christmas
+  https://archive.org/download/christmas-specials_202412/Bear%20in%20the%20Big%20Blue%20House%20-%20A%20Berry%20Bear%20Christmas.ia.mp4
+- [Christmas] Dizzy: Bear in the Big Blue House - A Berry Bear Christmas
+  https://archive.org/download/christmas-specials_202412/Bear%20in%20the%20Big%20Blue%20House%20-%20A%20Berry%20Bear%20Christmas.mp4
+- [Christmas] Dizzy: Big City Greens - Green Christmas
+  https://archive.org/download/christmas-specials_202412/Big%20City%20Greens%20-%20Green%20Christmas.mp4
+- [Christmas] Dizzy: Blue's Clues - Blue's Big Holiday
+  https://archive.org/download/christmas-specials_202412/Blue%27s%20Clues%20-%20Blue%27s%20Big%20Holiday.mp4
+- [Christmas] Dizzy: Blue's Clues - Blue's First Holiday
+  https://archive.org/download/christmas-specials_202412/Blue%27s%20Clues%20-%20Blue%27s%20First%20Holiday.mp4
+- [Christmas] Dizzy: Blue's Room - Holiday Wishes
+  https://archive.org/download/christmas-specials_202412/Blue%27s%20Room%20-%20Holiday%20Wishes.mp4
+- [Christmas] Dizzy: Bob The Builder - A Christmas to Remember
+  https://archive.org/download/christmas-specials_202412/Bob%20The%20Builder%20-%20A%20Christmas%20to%20Remember.ia.mp4
+- [Christmas] Dizzy: Bob The Builder - A Christmas to Remember
+  https://archive.org/download/christmas-specials_202412/Bob%20The%20Builder%20-%20A%20Christmas%20to%20Remember.mp4
+- [Christmas] Dizzy: Bob the Builder - Bob's White Christmas
+  https://archive.org/download/christmas-specials_202412/Bob%20the%20Builder%20-%20Bob%27s%20White%20Christmas.mp4
+- [Christmas] Dizzy: Cabbage Patch Kids - Cabbage Patch Kids First Christmas
+  https://archive.org/download/christmas-specials_202412/Cabbage%20Patch%20Kids%20-%20Cabbage%20Patch%20Kids%20First%20Christmas.ia.mp4
+- [Christmas] Dizzy: Cabbage Patch Kids - Cabbage Patch Kids First Christmas
+  https://archive.org/download/christmas-specials_202412/Cabbage%20Patch%20Kids%20-%20Cabbage%20Patch%20Kids%20First%20Christmas.mp4
+- [Christmas] Dizzy: Cabbage Patch Kids - Vernon's Christmas
+  https://archive.org/download/christmas-specials_202412/Cabbage%20Patch%20Kids%20-%20Vernon%27s%20Christmas.mp4
+- [Christmas] Dizzy: Caillou - Caillou's Holiday Movie
+  https://archive.org/download/christmas-specials_202412/Caillou%20-%20Caillou%27s%20Holiday%20Movie.mp4
+- [Christmas] Dizzy: ChalkZone - When Santas Collide
+  https://archive.org/download/christmas-specials_202412/ChalkZone%20-%20When%20Santas%20Collide.mp4
+- [Christmas] Dizzy: Charlie and Lola - How Many More Minutes Until Christmas
+  https://archive.org/download/christmas-specials_202412/Charlie%20and%20Lola%20-%20How%20Many%20More%20Minutes%20Until%20Christmas.mp4
+- [Christmas] Dizzy: Christmas Tales & Tunes
+  https://archive.org/download/christmas-specials_202412/Christmas%20Tales%20%26%20Tunes.ia.mp4
+- [Christmas] Dizzy: Christmas Tales & Tunes
+  https://archive.org/download/christmas-specials_202412/Christmas%20Tales%20%26%20Tunes.mp4
+- [Christmas] Dizzy: Curious George - A Very Monkey Christmas
+  https://archive.org/download/christmas-specials_202412/Curious%20George%20-%20A%20Very%20Monkey%20Christmas.mp4
+- [Christmas] Dizzy: Daniel Tiger's Neighborhood - Snowflake Day
+  https://archive.org/download/christmas-specials_202412/Daniel%20Tiger%27s%20Neighborhood%20-%20Snowflake%20Day.ia.mp4
+- [Christmas] Dizzy: Daniel Tiger's Neighborhood - Snowflake Day
+  https://archive.org/download/christmas-specials_202412/Daniel%20Tiger%27s%20Neighborhood%20-%20Snowflake%20Day.mp4
+- [Christmas] Dizzy: Daniel Tiger's Neighborhood - The Neighborhood Nutcracker
+  https://archive.org/download/christmas-specials_202412/Daniel%20Tiger%27s%20Neighborhood%20-%20The%20Neighborhood%20Nutcracker.ia.mp4
+- [Christmas] Dizzy: Daniel Tiger's Neighborhood - The Neighborhood Nutcracker
+  https://archive.org/download/christmas-specials_202412/Daniel%20Tiger%27s%20Neighborhood%20-%20The%20Neighborhood%20Nutcracker.mp4
+- [Christmas] Dizzy: Danny Phantom - The Fright Before Christmas
+  https://archive.org/download/christmas-specials_202412/Danny%20Phantom%20-%20The%20Fright%20Before%20Christmas.ia.mp4
+- [Christmas] Dizzy: Danny Phantom - The Fright Before Christmas
+  https://archive.org/download/christmas-specials_202412/Danny%20Phantom%20-%20The%20Fright%20Before%20Christmas.mp4
+- [Christmas] Dizzy: Dinosaur Train - Don's Winter Wish:Festival of Lights
+  https://archive.org/download/christmas-specials_202412/Dinosaur%20Train%20-%20Don%27s%20Winter%20Wish%3AFestival%20of%20Lights.ia.mp4
+- [Christmas] Dizzy: Dinosaur Train - Don's Winter Wish:Festival of Lights
+  https://archive.org/download/christmas-specials_202412/Dinosaur%20Train%20-%20Don%27s%20Winter%20Wish%3AFestival%20of%20Lights.mp4
+- [Christmas] Dizzy: Doc McStuffins - A Very McStuffins Christmas
+  https://archive.org/download/christmas-specials_202412/Doc%20McStuffins%20-%20A%20Very%20McStuffins%20Christmas.mp4
+- [Christmas] Dizzy: Fireman Sam - Let it Snow
+  https://archive.org/download/christmas-specials_202412/Fireman%20Sam%20-%20Let%20it%20Snow.mp4
+- [Christmas] Dizzy: Fireman Sam - Snow Business
+  https://archive.org/download/christmas-specials_202412/Fireman%20Sam%20-%20Snow%20Business.mp4
+- [Christmas] Dizzy: Fisher-Price Little People - Christmas Discoveries (French)
+  https://archive.org/download/christmas-specials_202412/Fisher-Price%20Little%20People%20-%20Christmas%20Discoveries%20%28French%29.mp4
+- [Christmas] Dizzy: Fisher-Price Little People - Christmas Discoveries (Spanish)
+  https://archive.org/download/christmas-specials_202412/Fisher-Price%20Little%20People%20-%20Christmas%20Discoveries%20%28Spanish%29.mp4
+- [Christmas] Dizzy: Fisher-Price Little People - Christmas Discoveries
+  https://archive.org/download/christmas-specials_202412/Fisher-Price%20Little%20People%20-%20Christmas%20Discoveries.mp4
+- [Christmas] Dizzy: Fisher-Price Little People - Christmas Fun
+  https://archive.org/download/christmas-specials_202412/Fisher-Price%20Little%20People%20-%20Christmas%20Fun.mp4
+- [Christmas] Dizzy: Franklin - Franklin's Christmas Gift:Franklin's Granny
+  https://archive.org/download/christmas-specials_202412/Franklin%20-%20Franklin%27s%20Christmas%20Gift%3AFranklin%27s%20Granny.ia.mp4
+- [Christmas] Dizzy: Franklin - Franklin's Christmas Gift:Franklin's Granny
+  https://archive.org/download/christmas-specials_202412/Franklin%20-%20Franklin%27s%20Christmas%20Gift%3AFranklin%27s%20Granny.mp4
+- [Christmas] Dizzy: Gift of the Dinos:A Visit to Santa (2007)
+  https://archive.org/download/christmas-specials_202412/Gift%20of%20the%20Dinos%3AA%20Visit%20to%20Santa%20%282007%29.ia.mp4
+- [Christmas] Dizzy: Gift of the Dinos:A Visit to Santa (2007)
+  https://archive.org/download/christmas-specials_202412/Gift%20of%20the%20Dinos%3AA%20Visit%20to%20Santa%20%282007%29.mp4
+- [Christmas] Dizzy: Gift of the Dinos:Winter (2010)
+  https://archive.org/download/christmas-specials_202412/Gift%20of%20the%20Dinos%3AWinter%20%282010%29.ia.mp4
+- [Christmas] Dizzy: Gift of the Dinos:Winter (2010)
+  https://archive.org/download/christmas-specials_202412/Gift%20of%20the%20Dinos%3AWinter%20%282010%29.mp4
+- [Christmas] Dizzy: Go, Diego, Go! - Diego Saves Christmas
+  https://archive.org/download/christmas-specials_202412/Go%2C%20Diego%2C%20Go%21%20-%20Diego%20Saves%20Christmas.mp4
+- [Christmas] Dizzy: Green Balloon Club - A Green Balloon Club Christmas
+  https://archive.org/download/christmas-specials_202412/Green%20Balloon%20Club%20-%20A%20Green%20Balloon%20Club%20Christmas.ia.mp4
+- [Christmas] Dizzy: Green Balloon Club - A Green Balloon Club Christmas
+  https://archive.org/download/christmas-specials_202412/Green%20Balloon%20Club%20-%20A%20Green%20Balloon%20Club%20Christmas.mp4
+- [Christmas] Dizzy: Gullah Gullah Island - A Gullah Gullah Christmas
+  https://archive.org/download/christmas-specials_202412/Gullah%20Gullah%20Island%20-%20A%20Gullah%20Gullah%20Christmas.mp4
+- [Christmas] Dizzy: Hanna-Barbera's Christmas Sing-A-Long!
+  https://archive.org/download/christmas-specials_202412/Hanna-Barbera%27s%20Christmas%20Sing-A-Long%21.ia.mp4
+- [Christmas] Dizzy: Hanna-Barbera's Christmas Sing-A-Long!
+  https://archive.org/download/christmas-specials_202412/Hanna-Barbera%27s%20Christmas%20Sing-A-Long%21.mp4
+- [Christmas] Dizzy: Hey Arnold! - Arnold's Christmas
+  https://archive.org/download/christmas-specials_202412/Hey%20Arnold%21%20-%20Arnold%27s%20Christmas.mp4
+- [Christmas] Dizzy: Hey Duggee - The Christmas Badge
+  https://archive.org/download/christmas-specials_202412/Hey%20Duggee%20-%20The%20Christmas%20Badge.mp4
+- [Christmas] Dizzy: Hey Duggee - The Snowman Badge
+  https://archive.org/download/christmas-specials_202412/Hey%20Duggee%20-%20The%20Snowman%20Badge.mp4
+- [Christmas] Dizzy: Hey Duggee - The Summer Holiday Badge
+  https://archive.org/download/christmas-specials_202412/Hey%20Duggee%20-%20The%20Summer%20Holiday%20Badge.mp4
+- [Christmas] Dizzy: Invader Zim - The Most Horrible X-Mas Ever
+  https://archive.org/download/christmas-specials_202412/Invader%20Zim%20-%20The%20Most%20Horrible%20X-Mas%20Ever.mp4
+- [Christmas] Dizzy: Jack's Big Music Show - Snow Day
+  https://archive.org/download/christmas-specials_202412/Jack%27s%20Big%20Music%20Show%20-%20Snow%20Day.mp4
+- [Christmas] Dizzy: Jay Jay the Jet Plane S01E12 Jay Jay's Christmas Adventure (December 21, 1998, Ready Set Learn on TLC)
+  https://archive.org/download/christmas-specials_202412/Jay%20Jay%20the%20Jet%20Plane%20S01E12%20Jay%20Jay%27s%20Christmas%20Adventure%20%28December%2021%2C%201998%2C%20Ready%20Set%20Learn%20on%20TLC%29.mp4
+- [Christmas] Dizzy: JoJo's Circus - A Circus Town Christmas
+  https://archive.org/download/christmas-specials_202412/JoJo%27s%20Circus%20-%20A%20Circus%20Town%20Christmas.ia.mp4
+- [Christmas] Dizzy: JoJo's Circus - A Circus Town Christmas
+  https://archive.org/download/christmas-specials_202412/JoJo%27s%20Circus%20-%20A%20Circus%20Town%20Christmas.mp4
+- [Christmas] Dizzy: Johnny and the Sprites - A Very Spritely Holiday
+  https://archive.org/download/christmas-specials_202412/Johnny%20and%20the%20Sprites%20-%20A%20Very%20Spritely%20Holiday.ia.mp4
+- [Christmas] Dizzy: Johnny and the Sprites - A Very Spritely Holiday
+  https://archive.org/download/christmas-specials_202412/Johnny%20and%20the%20Sprites%20-%20A%20Very%20Spritely%20Holiday.mp4
+- [Christmas] Dizzy: Kathie Lee's Rockn Tots Cafe - A Christmas Giff
+  https://archive.org/download/christmas-specials_202412/Kathie%20Lee%27s%20Rockn%20Tots%20Cafe%20-%20A%20Christmas%20Giff.mp4
+- [Christmas] Dizzy: Kids Sing Christmas Around The World Video (1993)
+  https://archive.org/download/christmas-specials_202412/Kids%20Sing%20Christmas%20Around%20The%20World%20Video%20%281993%29.ia.mp4
+- [Christmas] Dizzy: Kids Sing Christmas Around The World Video (1993)
+  https://archive.org/download/christmas-specials_202412/Kids%20Sing%20Christmas%20Around%20The%20World%20Video%20%281993%29.mp4
+- [Christmas] Dizzy: Kids Sing Christmas Video
+  https://archive.org/download/christmas-specials_202412/Kids%20Sing%20Christmas%20Video.mp4
+- [Christmas] Dizzy: Kidsongs - We Wish You A Merry Christmas
+  https://archive.org/download/christmas-specials_202412/Kidsongs%20-%20We%20Wish%20You%20A%20Merry%20Christmas.mp4
+- [Christmas] Dizzy: Kindergarten - Hooray For Holidays
+  https://archive.org/download/christmas-specials_202412/Kindergarten%20-%20Hooray%20For%20Holidays.mp4
+- [Christmas] Dizzy: Kipper - Christmas Eve
+  https://archive.org/download/christmas-specials_202412/Kipper%20-%20Christmas%20Eve.mp4
+- [Christmas] Dizzy: LazyTown - LazyTown's Surprise Santa
+  https://archive.org/download/christmas-specials_202412/LazyTown%20-%20LazyTown%27s%20Surprise%20Santa.mp4
+- [Christmas] Dizzy: Let's Go Luna - Luna’s Christmas Around the World
+  https://archive.org/download/christmas-specials_202412/Let%27s%20Go%20Luna%20-%20Luna%E2%80%99s%20Christmas%20Around%20the%20World.mp4
+- [Christmas] Dizzy: Little Bear - Family Bathtime:Winter Wonderland:Mitzi's Mess
+  https://archive.org/download/christmas-specials_202412/Little%20Bear%20-%20Family%20Bathtime%3AWinter%20Wonderland%3AMitzi%27s%20Mess.mp4
+- [Christmas] Dizzy: Little Bear - Snowball Fight:Winter Solstice:Snowbound
+  https://archive.org/download/christmas-specials_202412/Little%20Bear%20-%20Snowball%20Fight%3AWinter%20Solstice%3ASnowbound.mp4
+- [Christmas] Dizzy: Little Bear - The First Frost:Hello Snow:Duck And The Winter Moon
+  https://archive.org/download/christmas-specials_202412/Little%20Bear%20-%20The%20First%20Frost%3AHello%20Snow%3ADuck%20And%20The%20Winter%20Moon.mp4
+- [Christmas] Dizzy: Little Bill - Merry Christmas Little Bill
+  https://archive.org/download/christmas-specials_202412/Little%20Bill%20-%20Merry%20Christmas%20Little%20Bill.mp4
+- [Christmas] Dizzy: Little Einsteins - The Christmas Wish
+  https://archive.org/download/christmas-specials_202412/Little%20Einsteins%20-%20The%20Christmas%20Wish.mp4
+- [Christmas] Dizzy: Maisy - Snow; Cards; Christmas Tree; Christmas
+  https://archive.org/download/christmas-specials_202412/Maisy%20-%20Snow%3B%20Cards%3B%20Christmas%20Tree%3B%20Christmas.ia.mp4
+- [Christmas] Dizzy: Maisy - Snow; Cards; Christmas Tree; Christmas
+  https://archive.org/download/christmas-specials_202412/Maisy%20-%20Snow%3B%20Cards%3B%20Christmas%20Tree%3B%20Christmas.mp4
+- [Christmas] Dizzy: Milo Murphy’s Law - A Christmas Peril
+  https://archive.org/download/christmas-specials_202412/Milo%20Murphy%E2%80%99s%20Law%20-%20A%20Christmas%20Peril.mp4
+- [Christmas] Dizzy: Mister Rogers' Neighborhood - Christmastime With Mister Rogers
+  https://archive.org/download/christmas-specials_202412/Mister%20Rogers%27%20Neighborhood%20-%20Christmastime%20With%20Mister%20Rogers.mp4
+- [Christmas] Dizzy: Muppet Babies (1984) - Muppets in Toyland
+  https://archive.org/download/christmas-specials_202412/Muppet%20Babies%20%281984%29%20-%20Muppets%20in%20Toyland.mp4
+- [Christmas] Dizzy: Muppet Babies (2018) - A Very Muppet Babies Christmas; Summer’s Super Fabulous Holiday Surprise
+  https://archive.org/download/christmas-specials_202412/Muppet%20Babies%20%282018%29%20-%20A%20Very%20Muppet%20Babies%20Christmas%3B%20Summer%E2%80%99s%20Super%20Fabulous%20Holiday%20Surprise.ia.mp4
+- [Christmas] Dizzy: Muppet Babies (2018) - A Very Muppet Babies Christmas; Summer’s Super Fabulous Holiday Surprise
+  https://archive.org/download/christmas-specials_202412/Muppet%20Babies%20%282018%29%20-%20A%20Very%20Muppet%20Babies%20Christmas%3B%20Summer%E2%80%99s%20Super%20Fabulous%20Holiday%20Surprise.mp4
+- [Christmas] Dizzy: My First Festivals - Christmas
+  https://archive.org/download/christmas-specials_202412/My%20First%20Festivals%20-%20Christmas.ia.mp4
+- [Christmas] Dizzy: My First Festivals - Christmas
+  https://archive.org/download/christmas-specials_202412/My%20First%20Festivals%20-%20Christmas.mp4
+- [Christmas] Dizzy: My Friends Tigger & Pooh - Super Sleuth Christmas Movie
+  https://archive.org/download/christmas-specials_202412/My%20Friends%20Tigger%20%26%20Pooh%20-%20Super%20Sleuth%20Christmas%20Movie.mp4
+- [Christmas] Dizzy: Out of the Box - Happy Holidays
+  https://archive.org/download/christmas-specials_202412/Out%20of%20the%20Box%20-%20Happy%20Holidays.mp4
+- [Christmas] Dizzy: Patrick The Snowman (Short Version)
+  https://archive.org/download/christmas-specials_202412/Patrick%20The%20Snowman%20%28Short%20Version%29.mp4
+- [Christmas] Dizzy: Patrick the Snowman
+  https://archive.org/download/christmas-specials_202412/Patrick%20the%20Snowman.mp4
+- [Christmas] Dizzy: Peg + Cat - The Christmas Problem
+  https://archive.org/download/christmas-specials_202412/Peg%20%2B%20Cat%20-%20The%20Christmas%20Problem.ia.mp4
+- [Christmas] Dizzy: Peg + Cat - The Christmas Problem
+  https://archive.org/download/christmas-specials_202412/Peg%20%2B%20Cat%20-%20The%20Christmas%20Problem.mp4
+- [Christmas] Dizzy: Pepper Ann - A Kosher Christmas
+  https://archive.org/download/christmas-specials_202412/Pepper%20Ann%20-%20A%20Kosher%20Christmas.mp4
+- [Christmas] Dizzy: Pingu - Pingu's Family Celebrate Christmas
+  https://archive.org/download/christmas-specials_202412/Pingu%20-%20Pingu%27s%20Family%20Celebrate%20Christmas.mp4
+- [Christmas] Dizzy: Plankton's Holiday Hits
+  https://archive.org/download/christmas-specials_202412/Plankton%27s%20Holiday%20Hits.mp4
+- [Christmas] Dizzy: Robot and Monster - Baconmas
+  https://archive.org/download/christmas-specials_202412/Robot%20and%20Monster%20-%20Baconmas.mp4
+- [Christmas] Dizzy: Rocket Power - A Rocket X-Mas
+  https://archive.org/download/christmas-specials_202412/Rocket%20Power%20-%20A%20Rocket%20X-Mas.ia.mp4
+- [Christmas] Dizzy: Rocket Power - A Rocket X-Mas
+  https://archive.org/download/christmas-specials_202412/Rocket%20Power%20-%20A%20Rocket%20X-Mas.mp4
+- [Christmas] Dizzy: Rolie Polie Olie - Starry Starry Night; Snowie; Jingle Jangle Day's Eve
+  https://archive.org/download/christmas-specials_202412/Rolie%20Polie%20Olie%20-%20Starry%20Starry%20Night%3B%20Snowie%3B%20Jingle%20Jangle%20Day%27s%20Eve.ia.mp4
+- [Christmas] Dizzy: Rolie Polie Olie - Starry Starry Night; Snowie; Jingle Jangle Day's Eve
+  https://archive.org/download/christmas-specials_202412/Rolie%20Polie%20Olie%20-%20Starry%20Starry%20Night%3B%20Snowie%3B%20Jingle%20Jangle%20Day%27s%20Eve.mp4
+- [Christmas] Dizzy: Rosie's Rules - Rosie's Christmas in Mexico
+  https://archive.org/download/christmas-specials_202412/Rosie%27s%20Rules%20-%20Rosie%27s%20Christmas%20in%20Mexico.mp4
+- [Christmas] Dizzy: See & Sing Christmas Favorites (1985) (Soundtrack Album)
+  https://archive.org/download/christmas-specials_202412/See%20%26%20Sing%20Christmas%20Favorites%20%281985%29%20%28Soundtrack%20Album%29.ia.mp4
+- [Christmas] Dizzy: See & Sing Christmas Favorites (1985) (Soundtrack Album)
+  https://archive.org/download/christmas-specials_202412/See%20%26%20Sing%20Christmas%20Favorites%20%281985%29%20%28Soundtrack%20Album%29.mp4
+- [Christmas] Dizzy: See & Sing Christmas Favorites (1985)
+  https://archive.org/download/christmas-specials_202412/See%20%26%20Sing%20Christmas%20Favorites%20%281985%29.ia.mp4
+- [Christmas] Dizzy: See & Sing Christmas Favorites (1985)
+  https://archive.org/download/christmas-specials_202412/See%20%26%20Sing%20Christmas%20Favorites%20%281985%29.mp4
+- [Christmas] Dizzy: See & Sing Christmas Favorites (1985, VHS)
+  https://archive.org/download/christmas-specials_202412/See%20%26%20Sing%20Christmas%20Favorites%20%281985%2C%20VHS%29.ia.mp4
+- [Christmas] Dizzy: See & Sing Christmas Favorites (1985, VHS)
+  https://archive.org/download/christmas-specials_202412/See%20%26%20Sing%20Christmas%20Favorites%20%281985%2C%20VHS%29.mp4
+- [Christmas] Dizzy: Sid The Science Kid - Sid's Holiday Adventure
+  https://archive.org/download/christmas-specials_202412/Sid%20The%20Science%20Kid%20-%20Sid%27s%20Holiday%20Adventure.mp4
+- [Christmas] Dizzy: Special Agent Oso - The Living Holiday Lights (Part 1)
+  https://archive.org/download/christmas-specials_202412/Special%20Agent%20Oso%20-%20The%20Living%20Holiday%20Lights%20%28Part%201%29.mp4
+- [Christmas] Dizzy: Special Agent Oso - The Living Holiday Lights (Part 2)
+  https://archive.org/download/christmas-specials_202412/Special%20Agent%20Oso%20-%20The%20Living%20Holiday%20Lights%20%28Part%202%29.mp4
+- [Christmas] Dizzy: Star vs. the Forces of Evil - Stump Day; Holiday Spellcial
+  https://archive.org/download/christmas-specials_202412/Star%20vs.%20the%20Forces%20of%20Evil%20-%20Stump%20Day%3B%20Holiday%20Spellcial.mp4
+- [Christmas] Dizzy: Super WHY! - The Nutcracker
+  https://archive.org/download/christmas-specials_202412/Super%20WHY%21%20-%20The%20Nutcracker.ia.mp4
+- [Christmas] Dizzy: Super WHY! - The Nutcracker
+  https://archive.org/download/christmas-specials_202412/Super%20WHY%21%20-%20The%20Nutcracker.mp4
+- [Christmas] Dizzy: Super WHY! - Twas the Night Before Christmas
+  https://archive.org/download/christmas-specials_202412/Super%20WHY%21%20-%20Twas%20the%20Night%20Before%20Christmas.mp4
+- [Christmas] Dizzy: T.U.F.F. Puppy - A Doomed Christmas
+  https://archive.org/download/christmas-specials_202412/T.U.F.F.%20Puppy%20-%20A%20Doomed%20Christmas.mp4
+- [Christmas] Dizzy: TaleSpin - Jolly Molly Christmas
+  https://archive.org/download/christmas-specials_202412/TaleSpin%20-%20Jolly%20Molly%20Christmas.mp4
+- [Christmas] Dizzy: Team Umizoomi - Santa’s Little Fixers
+  https://archive.org/download/christmas-specials_202412/Team%20Umizoomi%20-%20Santa%E2%80%99s%20Little%20Fixers.mp4
+- [Christmas] Dizzy: Teletubbies - Christmas Carols
+  https://archive.org/download/christmas-specials_202412/Teletubbies%20-%20Christmas%20Carols.mp4
+- [Christmas] Dizzy: Teletubbies - Christmas Crackers
+  https://archive.org/download/christmas-specials_202412/Teletubbies%20-%20Christmas%20Crackers.ia.mp4
+- [Christmas] Dizzy: Teletubbies - Christmas Crackers
+  https://archive.org/download/christmas-specials_202412/Teletubbies%20-%20Christmas%20Crackers.mp4
+- [Christmas] Dizzy: Teletubbies - Christmas In Finland
+  https://archive.org/download/christmas-specials_202412/Teletubbies%20-%20Christmas%20In%20Finland.mp4
+- [Christmas] Dizzy: Teletubbies - Christmas In South Africa
+  https://archive.org/download/christmas-specials_202412/Teletubbies%20-%20Christmas%20In%20South%20Africa.mp4
+- [Christmas] Dizzy: Teletubbies - Christmas In Spain
+  https://archive.org/download/christmas-specials_202412/Teletubbies%20-%20Christmas%20In%20Spain.ia.mp4
+- [Christmas] Dizzy: Teletubbies - Christmas In Spain
+  https://archive.org/download/christmas-specials_202412/Teletubbies%20-%20Christmas%20In%20Spain.mp4
+- [Christmas] Dizzy: Teletubbies - Christmas In The Snow (Vol.1 It's Snowing) (2000 VHS Rip)
+  https://archive.org/download/christmas-specials_202412/Teletubbies%20-%20Christmas%20In%20The%20Snow%20%28Vol.1%20It%27s%20Snowing%29%20%282000%20VHS%20Rip%29.mp4
+- [Christmas] Dizzy: Teletubbies - Christmas In The Snow (Vol.2 The Snow Tubby) (2000 VHS Rip)
+  https://archive.org/download/christmas-specials_202412/Teletubbies%20-%20Christmas%20In%20The%20Snow%20%28Vol.2%20The%20Snow%20Tubby%29%20%282000%20VHS%20Rip%29.mp4
+- [Christmas] Dizzy: Teletubbies - Christmas In The UK
+  https://archive.org/download/christmas-specials_202412/Teletubbies%20-%20Christmas%20In%20The%20UK.mp4
+- [Christmas] Dizzy: Teletubbies - Christmas Tree
+  https://archive.org/download/christmas-specials_202412/Teletubbies%20-%20Christmas%20Tree.ia.mp4
+- [Christmas] Dizzy: Teletubbies - Christmas Tree
+  https://archive.org/download/christmas-specials_202412/Teletubbies%20-%20Christmas%20Tree.mp4
+- [Christmas] Dizzy: Teletubbies - Making Christmas Cards
+  https://archive.org/download/christmas-specials_202412/Teletubbies%20-%20Making%20Christmas%20Cards.mp4
+- [Christmas] Dizzy: Teletubbies - Merry Christmas, Teletubbies! Vol 1 Dipsy
+  https://archive.org/download/christmas-specials_202412/Teletubbies%20-%20Merry%20Christmas%2C%20Teletubbies%21%20Vol%201%20Dipsy%20.mp4
+- [Christmas] Dizzy: Teletubbies - Merry Christmas, Teletubbies! Vol 2 Tinky Winky
+  https://archive.org/download/christmas-specials_202412/Teletubbies%20-%20Merry%20Christmas%2C%20Teletubbies%21%20Vol%202%20Tinky%20Winky%20.mp4
+- [Christmas] Dizzy: Teletubbies - Snowball
+  https://archive.org/download/christmas-specials_202412/Teletubbies%20-%20Snowball.ia.mp4
+- [Christmas] Dizzy: Teletubbies - Snowball
+  https://archive.org/download/christmas-specials_202412/Teletubbies%20-%20Snowball.mp4
+- [Christmas] Dizzy: Teletubbies - Snowy Story
+  https://archive.org/download/christmas-specials_202412/Teletubbies%20-%20Snowy%20Story.mp4
+- [Christmas] Dizzy: Teletubbies： Merry Christmas, Teletubbies! 1999 VHS
+  https://archive.org/download/christmas-specials_202412/Teletubbies%EF%BC%9A%20Merry%20Christmas%2C%20Teletubbies%21%201999%20VHS.mp4
+- [Christmas] Dizzy: The Baby Club - Christmas Bells (0)
+  https://archive.org/download/christmas-specials_202412/The%20Baby%20Club%20-%20Christmas%20Bells%20%280%29.ia.mp4
+- [Christmas] Dizzy: The Baby Club - Christmas Bells (0)
+  https://archive.org/download/christmas-specials_202412/The%20Baby%20Club%20-%20Christmas%20Bells%20%280%29.mp4
+- [Christmas] Dizzy: The Baby Club - Christmas Bells (1)
+  https://archive.org/download/christmas-specials_202412/The%20Baby%20Club%20-%20Christmas%20Bells%20%281%29.ia.mp4
+- [Christmas] Dizzy: The Baby Club - Christmas Bells (1)
+  https://archive.org/download/christmas-specials_202412/The%20Baby%20Club%20-%20Christmas%20Bells%20%281%29.mp4
+- [Christmas] Dizzy: The Baby Club - Christmas Bells
+  https://archive.org/download/christmas-specials_202412/The%20Baby%20Club%20-%20Christmas%20Bells.ia.mp4
+- [Christmas] Dizzy: The Baby Club - Christmas Bells
+  https://archive.org/download/christmas-specials_202412/The%20Baby%20Club%20-%20Christmas%20Bells.mp4
+- [Christmas] Dizzy: The Backyardigans - The Action Elves Save Christmas Eve
+  https://archive.org/download/christmas-specials_202412/The%20Backyardigans%20-%20The%20Action%20Elves%20Save%20Christmas%20Eve.mp4
+- [Christmas] Dizzy: The Big Comfy Couch - Comfy And Joy Christmas
+  https://archive.org/download/christmas-specials_202412/The%20Big%20Comfy%20Couch%20-%20Comfy%20And%20Joy%20Christmas.mp4
+- [Christmas] Dizzy: The Care Bears' Nutcracker Suite (1988)
+  https://archive.org/download/christmas-specials_202412/The%20Care%20Bears%27%20Nutcracker%20Suite%20%281988%29.ia.mp4
+- [Christmas] Dizzy: The Care Bears' Nutcracker Suite (1988)
+  https://archive.org/download/christmas-specials_202412/The%20Care%20Bears%27%20Nutcracker%20Suite%20%281988%29.mp4
+- [Christmas] Dizzy: The Casagrandes - A Very Casagrandes Christmas
+  https://archive.org/download/christmas-specials_202412/The%20Casagrandes%20-%20A%20Very%20Casagrandes%20Christmas.mp4
+- [Christmas] Dizzy: The Christmas Toy
+  https://archive.org/download/christmas-specials_202412/The%20Christmas%20Toy.mp4
+- [Christmas] Dizzy: The Doodlebops - A Happy Doodle Holiday
+  https://archive.org/download/christmas-specials_202412/The%20Doodlebops%20-%20A%20Happy%20Doodle%20Holiday.mp4
+- [Christmas] Dizzy: The Fresh Beat Band - Fresh Beats in Toyland
+  https://archive.org/download/christmas-specials_202412/The%20Fresh%20Beat%20Band%20-%20Fresh%20Beats%20in%20Toyland.mp4
+- [Christmas] Dizzy: The Huggabug Club - Huggabug's Cuddly Christmas (Extended Version)
+  https://archive.org/download/christmas-specials_202412/The%20Huggabug%20Club%20-%20Huggabug%27s%20Cuddly%20Christmas%20%28Extended%20Version%29.ia.mp4
+- [Christmas] Dizzy: The Huggabug Club - Huggabug's Cuddly Christmas (Extended Version)
+  https://archive.org/download/christmas-specials_202412/The%20Huggabug%20Club%20-%20Huggabug%27s%20Cuddly%20Christmas%20%28Extended%20Version%29.mp4
+- [Christmas] Dizzy: The Huggabug Club - Huggabug's Cuddly Christmas
+  https://archive.org/download/christmas-specials_202412/The%20Huggabug%20Club%20-%20Huggabug%27s%20Cuddly%20Christmas.ia.mp4
+- [Christmas] Dizzy: The Huggabug Club - Huggabug's Cuddly Christmas
+  https://archive.org/download/christmas-specials_202412/The%20Huggabug%20Club%20-%20Huggabug%27s%20Cuddly%20Christmas.mp4
+- [Christmas] Dizzy: The Koala Brothers - The Koala Brothers' Outback Christmas
+  https://archive.org/download/christmas-specials_202412/The%20Koala%20Brothers%20-%20The%20Koala%20Brothers%27%20Outback%20Christmas.ia.mp4
+- [Christmas] Dizzy: The Koala Brothers - The Koala Brothers' Outback Christmas
+  https://archive.org/download/christmas-specials_202412/The%20Koala%20Brothers%20-%20The%20Koala%20Brothers%27%20Outback%20Christmas.mp4
+- [Christmas] Dizzy: The Magic School Bus - Holiday Special
+  https://archive.org/download/christmas-specials_202412/The%20Magic%20School%20Bus%20-%20Holiday%20Special.mp4
+- [Christmas] Dizzy: The Wiggles - It’s Always Christmas With You!
+  https://archive.org/download/christmas-specials_202412/The%20Wiggles%20-%20It%E2%80%99s%20Always%20Christmas%20With%20You%21.mp4
+- [Christmas] Dizzy: The Wiggles - Santa's Rockin'!
+  https://archive.org/download/christmas-specials_202412/The%20Wiggles%20-%20Santa%27s%20Rockin%27%21.mp4
+- [Christmas] Dizzy: The Wiggles - Wiggly Wiggly Christmas
+  https://archive.org/download/christmas-specials_202412/The%20Wiggles%20-%20Wiggly%20Wiggly%20Christmas.mp4
+- [Christmas] Dizzy: The Wild Thornberrys - Have Yourself a Very Thornberry Little Christmas
+  https://archive.org/download/christmas-specials_202412/The%20Wild%20Thornberrys%20-%20Have%20Yourself%20a%20Very%20Thornberry%20Little%20Christmas.mp4
+- [Christmas] Dizzy: The Wubbulous World of Dr. Seuss - Mrs. Zabarelli's Holiday Baton
+  https://archive.org/download/christmas-specials_202412/The%20Wubbulous%20World%20of%20Dr.%20Seuss%20-%20Mrs.%20Zabarelli%27s%20Holiday%20Baton.ia.mp4
+- [Christmas] Dizzy: The Wubbulous World of Dr. Seuss - Mrs. Zabarelli's Holiday Baton
+  https://archive.org/download/christmas-specials_202412/The%20Wubbulous%20World%20of%20Dr.%20Seuss%20-%20Mrs.%20Zabarelli%27s%20Holiday%20Baton.mp4
+- [Christmas] Dizzy: Time for School - Christmas at School (Extended Version)
+  https://archive.org/download/christmas-specials_202412/Time%20for%20School%20-%20Christmas%20at%20School%20%28Extended%20Version%29.ia.mp4
+- [Christmas] Dizzy: Time for School - Christmas at School (Extended Version)
+  https://archive.org/download/christmas-specials_202412/Time%20for%20School%20-%20Christmas%20at%20School%20%28Extended%20Version%29.mp4
+- [Christmas] Dizzy: Time for School - Christmas at School
+  https://archive.org/download/christmas-specials_202412/Time%20for%20School%20-%20Christmas%20at%20School.ia.mp4
+- [Christmas] Dizzy: Time for School - Christmas at School
+  https://archive.org/download/christmas-specials_202412/Time%20for%20School%20-%20Christmas%20at%20School.mp4
+- [Christmas] Dizzy: Together We Can - All About United States Heritage and Holidays
+  https://archive.org/download/christmas-specials_202412/Together%20We%20Can%20-%20All%20About%20United%20States%20Heritage%20and%20Holidays.ia.mp4
+- [Christmas] Dizzy: Together We Can - All About United States Heritage and Holidays
+  https://archive.org/download/christmas-specials_202412/Together%20We%20Can%20-%20All%20About%20United%20States%20Heritage%20and%20Holidays.mp4
+- [Christmas] Dizzy: Together We Can - What Are Some Holidays Celebrated in the United States
+  https://archive.org/download/christmas-specials_202412/Together%20We%20Can%20-%20What%20Are%20Some%20Holidays%20Celebrated%20in%20the%20United%20States.mp4
+- [Christmas] Dizzy: Waiting for Santa (1990)
+  https://archive.org/download/christmas-specials_202412/Waiting%20for%20Santa%20%281990%29.mp4
+- [Christmas] Dizzy: Weather Hunters - Christmas in Africa
+  https://archive.org/download/christmas-specials_202412/Weather%20Hunters%20-%20Christmas%20in%20Africa.ia.mp4
+- [Christmas] Dizzy: Weather Hunters - Christmas in Africa
+  https://archive.org/download/christmas-specials_202412/Weather%20Hunters%20-%20Christmas%20in%20Africa.mp4
+- [Christmas] Dizzy: Weather Hunters - No Snow Snow Day
+  https://archive.org/download/christmas-specials_202412/Weather%20Hunters%20-%20No%20Snow%20Snow%20Day.ia.mp4
+- [Christmas] Dizzy: Weather Hunters - No Snow Snow Day
+  https://archive.org/download/christmas-specials_202412/Weather%20Hunters%20-%20No%20Snow%20Snow%20Day.mp4
+- [Christmas] Dizzy: Wee Sing - The Best Christmas Ever
+  https://archive.org/download/christmas-specials_202412/Wee%20Sing%20-%20The%20Best%20Christmas%20Ever.ia.mp4
+- [Christmas] Dizzy: Wee Sing - The Best Christmas Ever
+  https://archive.org/download/christmas-specials_202412/Wee%20Sing%20-%20The%20Best%20Christmas%20Ever.mp4
+- [Christmas] Dizzy: Wild Kratts - A Creature Christmas
+  https://archive.org/download/christmas-specials_202412/Wild%20Kratts%20-%20A%20Creature%20Christmas.ia.mp4
+- [Christmas] Dizzy: Wild Kratts - A Creature Christmas
+  https://archive.org/download/christmas-specials_202412/Wild%20Kratts%20-%20A%20Creature%20Christmas.mp4
+- [Christmas] Dizzy: Wimzie's House -The Perfect Christmas
+  https://archive.org/download/christmas-specials_202412/Wimzie%27s%20House%20-The%20Perfect%20Christmas.mp4
+- [Christmas] Dizzy: Winter:Summer (2006)
+  https://archive.org/download/christmas-specials_202412/Winter%3ASummer%20%282006%29.ia.mp4
+- [Christmas] Dizzy: Winter:Summer (2006)
+  https://archive.org/download/christmas-specials_202412/Winter%3ASummer%20%282006%29.mp4
+- [Christmas] Dizzy: WordWorld - The Christmas Star; A Christmas Present For Dog
+  https://archive.org/download/christmas-specials_202412/WordWorld%20-%20The%20Christmas%20Star%3B%20A%20Christmas%20Present%20For%20Dog.ia.mp4
+- [Christmas] Dizzy: WordWorld - The Christmas Star; A Christmas Present For Dog
+  https://archive.org/download/christmas-specials_202412/WordWorld%20-%20The%20Christmas%20Star%3B%20A%20Christmas%20Present%20For%20Dog.mp4
+- [Christmas] Dizzy: Yo Gabba Gabba! - A Very Awesome Christmas
+  https://archive.org/download/christmas-specials_202412/Yo%20Gabba%20Gabba%21%20-%20A%20Very%20Awesome%20Christmas.mp4
+- [Christmas] Dizzy: Yo Gabba Gabba! - Christmas
+  https://archive.org/download/christmas-specials_202412/Yo%20Gabba%20Gabba%21%20-%20Christmas.mp4
+- [Christmas] Dizzy: You're Invited To Mary-Kate & Ashleys Christmas Party
+  https://archive.org/download/christmas-specials_202412/You%27re%20Invited%20To%20Mary-Kate%20%26%20Ashleys%20Christmas%20Party.mp4
+- [Christmas] Dizzy: A. Christmas Eve On Sesame Street
+  https://archive.org/download/christmas-specials_202412/A.%20Christmas%20Eve%20On%20Sesame%20Street.mp4
+- [Christmas] Dizzy: C. Elmo Saves Christmas
+  https://archive.org/download/christmas-specials_202412/C.%20Elmo%20Saves%20Christmas.mp4
+- [Christmas] Dizzy: D. Elmo's World Happy Holidays! (2002 VHS)
+  https://archive.org/download/christmas-specials_202412/D.%20Elmo%27s%20World%20Happy%20Holidays%21%20%282002%20VHS%29.mp4
+- [Christmas] Dizzy: E. A Sesame Street Christmas Carol
+  https://archive.org/download/christmas-specials_202412/E.%20A%20Sesame%20Street%20Christmas%20Carol.ia.mp4
+- [Christmas] Dizzy: E. A Sesame Street Christmas Carol
+  https://archive.org/download/christmas-specials_202412/E.%20A%20Sesame%20Street%20Christmas%20Carol.mp4
+- [Christmas] Dizzy: Elmo and Tango - Happy Holidays
+  https://archive.org/download/christmas-specials_202412/Elmo%20and%20Tango%20-%20Happy%20Holidays.ia.mp4
+- [Christmas] Dizzy: Elmo and Tango - Happy Holidays
+  https://archive.org/download/christmas-specials_202412/Elmo%20and%20Tango%20-%20Happy%20Holidays.mp4
+- [Christmas] Dizzy: Elmo's World - Happy Holidays!
+  https://archive.org/download/christmas-specials_202412/Elmo%27s%20World%20-%20Happy%20Holidays%21.mp4
+- [Christmas] Dizzy: Elmo's World - Winter Holidays
+  https://archive.org/download/christmas-specials_202412/Elmo%27s%20World%20-%20Winter%20Holidays.mp4
+- [Christmas] Dizzy: F. Sesame Street Elmo's Christmas Countdown
+  https://archive.org/download/christmas-specials_202412/F.%20Sesame%20Street%20%20%20Elmo%27s%20Christmas%20Countdown.mp4
+- [Christmas] Dizzy: G. Sesame Street Once Upon A Sesame Street Christmas
+  https://archive.org/download/christmas-specials_202412/G.%20Sesame%20Street%20Once%20Upon%20A%20Sesame%20Street%20Christmas.ia.mp4
+- [Christmas] Dizzy: G. Sesame Street Once Upon A Sesame Street Christmas
+  https://archive.org/download/christmas-specials_202412/G.%20Sesame%20Street%20Once%20Upon%20A%20Sesame%20Street%20Christmas.mp4
+- [Christmas] Dizzy: Sesame Street - A Sesame Street Christmas Carol
+  https://archive.org/download/christmas-specials_202412/Sesame%20Street%20-%20A%20Sesame%20Street%20Christmas%20Carol.ia.mp4
+- [Christmas] Dizzy: Sesame Street - A Sesame Street Christmas Carol
+  https://archive.org/download/christmas-specials_202412/Sesame%20Street%20-%20A%20Sesame%20Street%20Christmas%20Carol.mp4
+- [Christmas] Dizzy: Sesame Street - Christmas Eve on Sesame Street
+  https://archive.org/download/christmas-specials_202412/Sesame%20Street%20-%20Christmas%20Eve%20on%20Sesame%20Street.mp4
+- [Christmas] Dizzy: Sesame Street - Elmo Saves Christmas
+  https://archive.org/download/christmas-specials_202412/Sesame%20Street%20-%20Elmo%20Saves%20Christmas.mp4
+- [Christmas] Dizzy: Sesame Street - Elmo and Tango's Nutcracker
+  https://archive.org/download/christmas-specials_202412/Sesame%20Street%20-%20Elmo%20and%20Tango%27s%20Nutcracker.mp4
+- [Christmas] Dizzy: Sesame Street - Elmo's Christmas Countdown
+  https://archive.org/download/christmas-specials_202412/Sesame%20Street%20-%20Elmo%27s%20Christmas%20Countdown.mp4
+- [Christmas] Dizzy: Sesame Street - Holiday At Hooper's
+  https://archive.org/download/christmas-specials_202412/Sesame%20Street%20-%20Holiday%20At%20Hooper%27s.mp4
+- [Christmas] Dizzy: Sesame Street - Once Upon A Sesame Street Christmas
+  https://archive.org/download/christmas-specials_202412/Sesame%20Street%20-%20Once%20Upon%20A%20Sesame%20Street%20Christmas.ia.mp4
+- [Christmas] Dizzy: Sesame Street - Once Upon A Sesame Street Christmas
+  https://archive.org/download/christmas-specials_202412/Sesame%20Street%20-%20Once%20Upon%20A%20Sesame%20Street%20Christmas.mp4
+- [Christmas] Dizzy: '00-Christtro
+  https://archive.org/download/adventures-in--christmas/%2700-Christtro.ia.mp4
+- [Christmas] Dizzy: 00-Christtro
+  https://archive.org/download/adventures-in--christmas/00-Christtro.ia.mp4
+- [Christmas] Dizzy: A Beverly Hillbilly’s Christmas at Hooterville (1963)
+  https://archive.org/download/adventures-in--christmas/A%20Beverly%20Hillbilly%E2%80%99s%20Christmas%20at%20Hooterville%20%281963%29.ia.mp4
+- [Christmas] Dizzy: A Beverly Hillbilly’s Christmas at Hooterville (1963)
+  https://archive.org/download/adventures-in--christmas/A%20Beverly%20Hillbilly%E2%80%99s%20Christmas%20at%20Hooterville%20%281963%29.mp4
+- [Christmas] Dizzy: A Charlie Brown Christmas (1965)
+  https://archive.org/download/adventures-in--christmas/A%20Charlie%20Brown%20Christmas%20%281965%29.mp4
+- [Christmas] Dizzy: A Christmas Carol (1971)
+  https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20%281971%29.ia.mp4
+- [Christmas] Dizzy: A Christmas Carol (1971)
+  https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20%281971%29.mp4
+- [Christmas] Dizzy: A Christmas Carol (1984)
+  https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20%281984%29.mp4
+- [Christmas] Dizzy: A Christmas Carol (1997)
+  https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20%281997%29.ia.mp4
+- [Christmas] Dizzy: A Christmas Carol (1997)
+  https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20%281997%29.mp4
+- [Christmas] Dizzy: A Christmas Carol (1999)
+  https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20%281999%29.ia.mp4
+- [Christmas] Dizzy: A Christmas Carol (1999)
+  https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20%281999%29.mp4
+- [Christmas] Dizzy: A Christmas Story (1983)
+  https://archive.org/download/adventures-in--christmas/A%20Christmas%20Story%20%281983%29.mp4
+- [Christmas] Dizzy: A Claymation Christmas Celebration (1987)
+  https://archive.org/download/adventures-in--christmas/A%20Claymation%20Christmas%20Celebration%20%281987%29.mp4
+- [Christmas] Dizzy: A Cosmic Christmas (1977)
+  https://archive.org/download/adventures-in--christmas/A%20Cosmic%20Christmas%20%281977%29.mp4
+- [Christmas] Dizzy: A Disney Christmas Gift (1982)
+  https://archive.org/download/adventures-in--christmas/A%20Disney%20Christmas%20Gift%20%281982%29.mp4
+- [Christmas] Dizzy: A Fairy Tale Christmas (2005)
+  https://archive.org/download/adventures-in--christmas/A%20Fairy%20Tale%20Christmas%20%282005%29.mp4
+- [Christmas] Dizzy: A Flintstone Christmas (1977)
+  https://archive.org/download/adventures-in--christmas/A%20Flintstone%20Christmas%20%281977%29.mp4
+- [Christmas] Dizzy: A Flintstones Christmas Carol (1994)
+  https://archive.org/download/adventures-in--christmas/A%20Flintstones%20Christmas%20Carol%20%281994%29.mp4
+- [Christmas] Dizzy: A Garfield Christmas (1987)
+  https://archive.org/download/adventures-in--christmas/A%20Garfield%20Christmas%20%281987%29.ia.mp4
+- [Christmas] Dizzy: A Garfield Christmas (1987)
+  https://archive.org/download/adventures-in--christmas/A%20Garfield%20Christmas%20%281987%29.mp4
+- [Christmas] Dizzy: A Hobo's Christmas (1987)
+  https://archive.org/download/adventures-in--christmas/A%20Hobo%27s%20Christmas%20%281987%29.mp4
+- [Christmas] Dizzy: A Muppet Family Christmas (1987)
+  https://archive.org/download/adventures-in--christmas/A%20Muppet%20Family%20Christmas%20%281987%29.mp4
+- [Christmas] Dizzy: A Pink Christmas (1978)
+  https://archive.org/download/adventures-in--christmas/A%20Pink%20Christmas%20%281978%29.mp4
+- [Christmas] Dizzy: A Sesame Street Christmas Carol (2006)
+  https://archive.org/download/adventures-in--christmas/A%20Sesame%20Street%20Christmas%20Carol%20%282006%29.mp4
+- [Christmas] Dizzy: A Snow White Christmas (1980)
+  https://archive.org/download/adventures-in--christmas/A%20Snow%20White%20Christmas%20%281980%29.ia.mp4
+- [Christmas] Dizzy: A Snow White Christmas (1980)
+  https://archive.org/download/adventures-in--christmas/A%20Snow%20White%20Christmas%20%281980%29.mp4
+- [Christmas] Dizzy: A Very Pink Christmas (2011)
+  https://archive.org/download/adventures-in--christmas/A%20Very%20Pink%20Christmas%20%282011%29.ia.mp4
+- [Christmas] Dizzy: A Very Pink Christmas (2011)
+  https://archive.org/download/adventures-in--christmas/A%20Very%20Pink%20Christmas%20%282011%29.mp4
+- [Christmas] Dizzy: A Walt Disney Christmas (1982)
+  https://archive.org/download/adventures-in--christmas/A%20Walt%20Disney%20Christmas%20%281982%29.mp4
+- [Christmas] Dizzy: A Wish for Wings That Work (1991)
+  https://archive.org/download/adventures-in--christmas/A%20Wish%20for%20Wings%20That%20Work%20%281991%29.mp4
+- [Christmas] Dizzy: Adventures In Odyssey Electric Christmas (1994)
+  https://archive.org/download/adventures-in--christmas/Adventures%20In%20Odyssey%20Electric%20Christmas%20%281994%29.mp4
+- [Christmas] Dizzy: Adventures Of Sonic The Hedgehog - Sonic Christmas Blast (1996)
+  https://archive.org/download/adventures-in--christmas/Adventures%20Of%20Sonic%20The%20Hedgehog%20-%20Sonic%20Christmas%20Blast%20%281996%29.mp4
+- [Christmas] Dizzy: Beauty and the Beast The Enchanted Christmas (1997)
+  https://archive.org/download/adventures-in--christmas/Beauty%20and%20the%20Beast%20The%20Enchanted%20Christmas%20%281997%29.mp4
+- [Christmas] Dizzy: Bugs Bunny's Looney Christmas Tales (1979)
+  https://archive.org/download/adventures-in--christmas/Bugs%20Bunny%27s%20Looney%20Christmas%20Tales%20%281979%29.mp4
+- [Christmas] Dizzy: Buzz Lightyear of Star Command Holiday Time (2000)
+  https://archive.org/download/adventures-in--christmas/Buzz%20Lightyear%20of%20Star%20Command%20Holiday%20Time%20%282000%29.mp4
+- [Christmas] Dizzy: Charlie Brown Christmas (Original 1965 Airing)
+  https://archive.org/download/adventures-in--christmas/Charlie%20Brown%20Christmas%20%28Original%201965%20Airing%29.mp4
+- [Christmas] Dizzy: Christmas Comes But Once a Year (1936)
+  https://archive.org/download/adventures-in--christmas/Christmas%20Comes%20But%20Once%20a%20Year%20%281936%29.ia.mp4
+- [Christmas] Dizzy: Christmas Comes But Once a Year (1936)
+  https://archive.org/download/adventures-in--christmas/Christmas%20Comes%20But%20Once%20a%20Year%20%281936%29.mp4
+- [Christmas] Dizzy: Codename Kids Next Door - Operation N.A.U.G.H.T.Y (2005)
+  https://archive.org/download/adventures-in--christmas/Codename%20Kids%20Next%20Door%20-%20Operation%20N.A.U.G.H.T.Y%20%282005%29.ia.mp4
+- [Christmas] Dizzy: Codename Kids Next Door - Operation N.A.U.G.H.T.Y (2005)
+  https://archive.org/download/adventures-in--christmas/Codename%20Kids%20Next%20Door%20-%20Operation%20N.A.U.G.H.T.Y%20%282005%29.mp4
+- [Christmas] Dizzy: Danny Phantom – The Fright Before Christmas (2005)
+  https://archive.org/download/adventures-in--christmas/Danny%20Phantom%20%E2%80%93%20The%20Fright%20Before%20Christmas%20%282005%29.mp4
+- [Christmas] Dizzy: Ernest Saves Christmas (1988)
+  https://archive.org/download/adventures-in--christmas/Ernest%20Saves%20Christmas%20%281988%29.mp4
+- [Christmas] Dizzy: Fat Albert and The Cosby Kids - The Fat Albert Christmas Special (1977)
+  https://archive.org/download/adventures-in--christmas/Fat%20Albert%20and%20The%20Cosby%20Kids%20-%20The%20Fat%20Albert%20Christmas%20Special%20%281977%29.ia.mp4
+- [Christmas] Dizzy: Fat Albert and The Cosby Kids - The Fat Albert Christmas Special (1977)
+  https://archive.org/download/adventures-in--christmas/Fat%20Albert%20and%20The%20Cosby%20Kids%20-%20The%20Fat%20Albert%20Christmas%20Special%20%281977%29.mp4
+- [Christmas] Dizzy: Frosty Returns (1993)
+  https://archive.org/download/adventures-in--christmas/Frosty%20Returns%20%281993%29.mp4
+- [Christmas] Dizzy: Frosty The Snowman (1969)
+  https://archive.org/download/adventures-in--christmas/Frosty%20The%20Snowman%20%281969%29.mp4
+- [Christmas] Dizzy: Frosty the Snowman (1953)
+  https://archive.org/download/adventures-in--christmas/Frosty%20the%20Snowman%20%281953%29.mp4
+- [Christmas] Dizzy: George and the Christmas Star (1985)
+  https://archive.org/download/adventures-in--christmas/George%20and%20the%20Christmas%20Star%20%281985%29.mp4
+- [Christmas] Dizzy: Gilligan's Island Birds Gotta Fly, Fish Gotta Talk (1964)
+  https://archive.org/download/adventures-in--christmas/Gilligan%27s%20Island%20Birds%20Gotta%20Fly%2C%20Fish%20Gotta%20Talk%20%281964%29.mp4
+- [Christmas] Dizzy: Grandma Got Run Over by a Reindeer (2000)
+  https://archive.org/download/adventures-in--christmas/Grandma%20Got%20Run%20Over%20by%20a%20Reindeer%20%282000%29.mp4
+- [Christmas] Dizzy: He-Man & She-Ra - A Christmas Special (1985)
+  https://archive.org/download/adventures-in--christmas/He-Man%20%26%20She-Ra%20-%20A%20Christmas%20Special%20%281985%29.ia.mp4
+- [Christmas] Dizzy: He-Man & She-Ra - A Christmas Special (1985)
+  https://archive.org/download/adventures-in--christmas/He-Man%20%26%20She-Ra%20-%20A%20Christmas%20Special%20%281985%29.mp4
+- [Christmas] Dizzy: Hey Arnold – Arnold’s Christmas (1996)
+  https://archive.org/download/adventures-in--christmas/Hey%20Arnold%20%E2%80%93%20Arnold%E2%80%99s%20Christmas%20%281996%29.mp4
+- [Christmas] Dizzy: Home Alone (1990)
+  https://archive.org/download/adventures-in--christmas/Home%20Alone%20%281990%29.mp4
+- [Christmas] Dizzy: Home Alone 2 Lost in New York (1992)
+  https://archive.org/download/adventures-in--christmas/Home%20Alone%202%20Lost%20in%20New%20York%20%281992%29.mp4
+- [Christmas] Dizzy: House of Mouse - Mickey's Magical Christmas Snowed in at the House of Mouse (2001)
+  https://archive.org/download/adventures-in--christmas/House%20of%20Mouse%20-%20Mickey%27s%20Magical%20Christmas%20Snowed%20in%20at%20the%20House%20of%20Mouse%20%282001%29.mp4
+- [Christmas] Dizzy: How the Grinch Stole Christmas (2000)
+  https://archive.org/download/adventures-in--christmas/How%20the%20Grinch%20Stole%20Christmas%20%282000%29.mp4
+- [Christmas] Dizzy: How the Grinch Stole Christmas! (1966)
+  https://archive.org/download/adventures-in--christmas/How%20the%20Grinch%20Stole%20Christmas%21%20%281966%29.mp4
+- [Christmas] Dizzy: I Want a Dog for Christmas, Charlie Brown (2003)
+  https://archive.org/download/adventures-in--christmas/I%20Want%20a%20Dog%20for%20Christmas%2C%20Charlie%20Brown%20%282003%29.mp4
+- [Christmas] Dizzy: Ice Age A Mammoth Christmas (2011)
+  https://archive.org/download/adventures-in--christmas/Ice%20Age%20A%20Mammoth%20Christmas%20%282011%29.mp4
+- [Christmas] Dizzy: It's a Wonderful Life (1946)
+  https://archive.org/download/adventures-in--christmas/It%27s%20a%20Wonderful%20Life%20%281946%29.mp4
+- [Christmas] Dizzy: Life with Louie - A Christmas Surprise for Mrs. Stillman (1994)
+  https://archive.org/download/adventures-in--christmas/Life%20with%20Louie%20-%20A%20Christmas%20Surprise%20for%20Mrs.%20Stillman%20%281994%29.ia.mp4
+- [Christmas] Dizzy: Life with Louie - A Christmas Surprise for Mrs. Stillman (1994)
+  https://archive.org/download/adventures-in--christmas/Life%20with%20Louie%20-%20A%20Christmas%20Surprise%20for%20Mrs.%20Stillman%20%281994%29.mp4
+- [Christmas] Dizzy: Miracle on 34th Street (1947)
+  https://archive.org/download/adventures-in--christmas/Miracle%20on%2034th%20Street%20%281947%29.mp4
+- [Christmas] Dizzy: Miracle on 34th Street (1994)
+  https://archive.org/download/adventures-in--christmas/Miracle%20on%2034th%20Street%20%281994%29.mp4
+- [Christmas] Dizzy: Mister Magoo's Christmas Carol (1962)
+  https://archive.org/download/adventures-in--christmas/Mister%20Magoo%27s%20Christmas%20Carol%20%281962%29.mp4
+- [Christmas] Dizzy: Petticoat Junction CANNONBALL CHRISTMAS (1963)
+  https://archive.org/download/adventures-in--christmas/Petticoat%20Junction%20CANNONBALL%20CHRISTMAS%20%281963%29.ia.mp4
+- [Christmas] Dizzy: Petticoat Junction CANNONBALL CHRISTMAS (1963)
+  https://archive.org/download/adventures-in--christmas/Petticoat%20Junction%20CANNONBALL%20CHRISTMAS%20%281963%29.mp4
+- [Christmas] Dizzy: Rise of the Guardians (2012)
+  https://archive.org/download/adventures-in--christmas/Rise%20of%20the%20Guardians%20%282012%29.mp4
+- [Christmas] Dizzy: Rudolph The Red Nosed Reindeer (1964)
+  https://archive.org/download/adventures-in--christmas/Rudolph%20The%20Red%20Nosed%20Reindeer%20%281964%29.mp4
+- [Christmas] Dizzy: Rudolph The Red-Nosed Reindeer (1948)
+  https://archive.org/download/adventures-in--christmas/Rudolph%20The%20Red-Nosed%20Reindeer%20%281948%29.ia.mp4
+- [Christmas] Dizzy: Rudolph The Red-Nosed Reindeer (1948)
+  https://archive.org/download/adventures-in--christmas/Rudolph%20The%20Red-Nosed%20Reindeer%20%281948%29.mp4
+- [Christmas] Dizzy: Santa Claus is Coming to town (1970)
+  https://archive.org/download/adventures-in--christmas/Santa%20Claus%20is%20Coming%20to%20town%20%281970%29.mp4
+- [Christmas] Dizzy: Scrooge (1935)
+  https://archive.org/download/adventures-in--christmas/Scrooge%20%281935%29.ia.mp4
+- [Christmas] Dizzy: Scrooge (1935)
+  https://archive.org/download/adventures-in--christmas/Scrooge%20%281935%29.mp4
+- [Christmas] Dizzy: Sherlock Holmes THE CHRISTMAS PUDDING (1955)
+  https://archive.org/download/adventures-in--christmas/Sherlock%20Holmes%20THE%20CHRISTMAS%20PUDDING%20%281955%29.ia.mp4
+- [Christmas] Dizzy: Sherlock Holmes THE CHRISTMAS PUDDING (1955)
+  https://archive.org/download/adventures-in--christmas/Sherlock%20Holmes%20THE%20CHRISTMAS%20PUDDING%20%281955%29.mp4
+- [Christmas] Dizzy: Shrek the Halls (2007)
+  https://archive.org/download/adventures-in--christmas/Shrek%20the%20Halls%20%282007%29.mp4
+- [Christmas] Dizzy: The Berenstain Bears Christmas Tree (1979)
+  https://archive.org/download/adventures-in--christmas/The%20Berenstain%20Bears%20Christmas%20Tree%20%281979%29.ia.mp4
+- [Christmas] Dizzy: The Berenstain Bears Christmas Tree (1979)
+  https://archive.org/download/adventures-in--christmas/The%20Berenstain%20Bears%20Christmas%20Tree%20%281979%29.mp4
+- [Christmas] Dizzy: The Christmas Carol (1949)
+  https://archive.org/download/adventures-in--christmas/The%20Christmas%20Carol%20%281949%29.ia.mp4
+- [Christmas] Dizzy: The Christmas Carol (1949)
+  https://archive.org/download/adventures-in--christmas/The%20Christmas%20Carol%20%281949%29.mp4
+- [Christmas] Dizzy: The Emperor’s New School A Giftmas Story (2007)
+  https://archive.org/download/adventures-in--christmas/The%20Emperor%E2%80%99s%20New%20School%20%20A%20Giftmas%20Story%20%282007%29.mp4
+- [Christmas] Dizzy: The Fresh Prince of Bel-Air - Christmas Show (1991)
+  https://archive.org/download/adventures-in--christmas/The%20Fresh%20Prince%20of%20Bel-Air%20-%20Christmas%20Show%20%281991%29.mp4
+- [Christmas] Dizzy: The Life and Adventures of Santa Claus (1985)
+  https://archive.org/download/adventures-in--christmas/The%20Life%20and%20Adventures%20of%20Santa%20Claus%20%281985%29.mp4
+- [Christmas] Dizzy: The Little Drummer Boy (1968)
+  https://archive.org/download/adventures-in--christmas/The%20Little%20Drummer%20Boy%20%281968%29.mp4
+- [Christmas] Dizzy: The Muppet Christmas Carol (1992)
+  https://archive.org/download/adventures-in--christmas/The%20Muppet%20Christmas%20Carol%20%281992%29.mp4
+- [Christmas] Dizzy: The Nativity Story (2005)
+  https://archive.org/download/adventures-in--christmas/The%20Nativity%20Story%20%282005%29.mp4
+- [Christmas] Dizzy: The Polar Express (2004)
+  https://archive.org/download/adventures-in--christmas/The%20Polar%20Express%20%282004%29.mp4
+- [Christmas] Dizzy: The Real Ghostbusters - - Xmas Marks the Spot (1986)
+  https://archive.org/download/adventures-in--christmas/The%20Real%20Ghostbusters%20-%20%20-%20Xmas%20Marks%20the%20Spot%20%281986%29.ia.mp4
+- [Christmas] Dizzy: The Real Ghostbusters - - Xmas Marks the Spot (1986)
+  https://archive.org/download/adventures-in--christmas/The%20Real%20Ghostbusters%20-%20%20-%20Xmas%20Marks%20the%20Spot%20%281986%29.mp4
+- [Christmas] Dizzy: The Small One (1978)
+  https://archive.org/download/adventures-in--christmas/The%20Small%20One%20%281978%29.ia.mp4
+- [Christmas] Dizzy: The Small One (1978)
+  https://archive.org/download/adventures-in--christmas/The%20Small%20One%20%281978%29.mp4
+- [Christmas] Dizzy: The Snowman (1932)
+  https://archive.org/download/adventures-in--christmas/The%20Snowman%20%281932%29.mp4
+- [Christmas] Dizzy: The Snowman (1982)
+  https://archive.org/download/adventures-in--christmas/The%20Snowman%20%281982%29.mp4
+- [Christmas] Dizzy: The Snowman and The Snowdog (2014)
+  https://archive.org/download/adventures-in--christmas/The%20Snowman%20and%20The%20Snowdog%20%282014%29.mp4
+- [Christmas] Dizzy: The Star Wars Holiday Special (1978)
+  https://archive.org/download/adventures-in--christmas/The%20Star%20Wars%20Holiday%20Special%20%281978%29.ia.mp4
+- [Christmas] Dizzy: The Star Wars Holiday Special (1978)
+  https://archive.org/download/adventures-in--christmas/The%20Star%20Wars%20Holiday%20Special%20%281978%29.mp4
+- [Christmas] Dizzy: The Twilight Zone - The Night of the Meek (1960)
+  https://archive.org/download/adventures-in--christmas/The%20Twilight%20Zone%20-%20The%20Night%20of%20the%20Meek%20%281960%29.mp4
+- [Christmas] Dizzy: The Year without a Santa Claus (1974)
+  https://archive.org/download/adventures-in--christmas/The%20Year%20without%20a%20Santa%20Claus%20%281974%29.mp4
+- [Christmas] Dizzy: Twas the Night Before Christmas (1974)
+  https://archive.org/download/adventures-in--christmas/Twas%20the%20Night%20Before%20Christmas%20%281974%29.mp4
+- [Christmas] Dizzy: Twas the Night Before Christmas (1992)
+  https://archive.org/download/adventures-in--christmas/Twas%20the%20Night%20Before%20Christmas%20%281992%29.ia.mp4
+- [Christmas] Dizzy: Twas the Night Before Christmas (1992)
+  https://archive.org/download/adventures-in--christmas/Twas%20the%20Night%20Before%20Christmas%20%281992%29.mp4
+- [Christmas] Dizzy: VeggieTales – The Toy That Saved Christmas (1996)
+  https://archive.org/download/adventures-in--christmas/VeggieTales%20%E2%80%93%20The%20Toy%20That%20Saved%20Christmas%20%281996%29.mp4
+- [Christmas] Dizzy: White Christmas (1954)
+  https://archive.org/download/adventures-in--christmas/White%20Christmas%20%281954%29.mp4
+- [Christmas] Dizzy: Yogi's First Christmas (1980)
+  https://archive.org/download/adventures-in--christmas/Yogi%27s%20First%20Christmas%20%281980%29.mp4
+- [Christmas] Dizzy: zChristtro
+  https://archive.org/download/adventures-in--christmas/zChristtro.ia.mp4
+- [Christmas] Dizzy: zChristtro
+  https://archive.org/download/adventures-in--christmas/zChristtro.mp4
+- [Halloween] Cartoons Cartoons: Brady Bunch - Fright Night [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Brady%20Bunch%20-%20Fright%20Night%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Brady Bunch - Fright Night [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Brady%20Bunch%20-%20Fright%20Night%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Clarissa Explains It All - Haunted House [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Clarissa%20Explains%20It%20All%20-%20Haunted%20House%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Clarissa Explains It All - Haunted House [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Clarissa%20Explains%20It%20All%20-%20Haunted%20House%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Doug - Nightmare On Jumbo Street [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Doug%20-%20Nightmare%20On%20Jumbo%20Street%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Doug - Nightmare On Jumbo Street [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Doug%20-%20Nightmare%20On%20Jumbo%20Street%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Eerie, Indiana - America's Scariest Home Video (Enhanced]
+  https://archive.org/download/halloween_specials_collection/Eerie%2C%20Indiana%20-%20America%27s%20Scariest%20Home%20Video%20%28Enhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Eerie, Indiana - America's Scariest Home Video (Enhanced]
+  https://archive.org/download/halloween_specials_collection/Eerie%2C%20Indiana%20-%20America%27s%20Scariest%20Home%20Video%20%28Enhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Family Matters - Stevil II [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Family%20Matters%20-%20Stevil%20II%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Family Matters - Stevil II [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Family%20Matters%20-%20Stevil%20II%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: George Lopez - Halloween Cheer [Enhanced]
+  https://archive.org/download/halloween_specials_collection/George%20Lopez%20-%20Halloween%20Cheer%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: George Lopez - Halloween Cheer [Enhanced]
+  https://archive.org/download/halloween_specials_collection/George%20Lopez%20-%20Halloween%20Cheer%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Goosebumps - The Haunted Mask II [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Goosebumps%20-%20The%20Haunted%20Mask%20II%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Goosebumps - The Haunted Mask II [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Goosebumps%20-%20The%20Haunted%20Mask%20II%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Goosebumps - The Haunted Mask [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Goosebumps%20-%20The%20Haunted%20Mask%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Goosebumps - The Haunted Mask [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Goosebumps%20-%20The%20Haunted%20Mask%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: HGTV Room To Room Halloween [Enhanced]
+  https://archive.org/download/halloween_specials_collection/HGTV%20Room%20To%20Room%20Halloween%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: HGTV Room To Room Halloween [Enhanced]
+  https://archive.org/download/halloween_specials_collection/HGTV%20Room%20To%20Room%20Halloween%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Hangin’ With Mr. Cooper - Halloween [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Hangin%E2%80%99%20With%20Mr.%20Cooper%20-%20Halloween%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Hangin’ With Mr. Cooper - Halloween [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Hangin%E2%80%99%20With%20Mr.%20Cooper%20-%20Halloween%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Hey Arnold - Four-Eyed Jack [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Hey%20Arnold%20-%20Four-Eyed%20Jack%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Hey Arnold - Four-Eyed Jack [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Hey%20Arnold%20-%20Four-Eyed%20Jack%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Hey Arnold - Halloween [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Hey%20Arnold%20-%20Halloween%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Hey Arnold - Halloween [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Hey%20Arnold%20-%20Halloween%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Hey Arnold - Haunted Train [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Hey%20Arnold%20-%20Haunted%20Train%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Hey Arnold - Haunted Train [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Hey%20Arnold%20-%20Haunted%20Train%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Home Improvement - Crazy For You [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Home%20Improvement%20-%20Crazy%20For%20You%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Home Improvement - Crazy For You [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Home%20Improvement%20-%20Crazy%20For%20You%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Home Improvement - The Haunting Of Taylor House [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Home%20Improvement%20-%20The%20Haunting%20Of%20Taylor%20House%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Home Improvement - The Haunting Of Taylor House [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Home%20Improvement%20-%20The%20Haunting%20Of%20Taylor%20House%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: It's the Great Pumpkin, Charlie Brown [Enhanced]
+  https://archive.org/download/halloween_specials_collection/It%27s%20the%20Great%20Pumpkin%2C%20Charlie%20Brown%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: It's the Great Pumpkin, Charlie Brown [Enhanced]
+  https://archive.org/download/halloween_specials_collection/It%27s%20the%20Great%20Pumpkin%2C%20Charlie%20Brown%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Kenan And Kel - Two Heads Are Better Than None [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Kenan%20And%20Kel%20-%20Two%20Heads%20Are%20Better%20Than%20None%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Kenan And Kel - Two Heads Are Better Than None [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Kenan%20And%20Kel%20-%20Two%20Heads%20Are%20Better%20Than%20None%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Martin - The Night He Came Home [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Martin%20-%20The%20Night%20He%20Came%20Home%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Moesha - Halloween Part 1 [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Moesha%20-%20Halloween%20Part%201%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Moesha - Halloween Part 1 [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Moesha%20-%20Halloween%20Part%201%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Muppets - Alice Cooper [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Muppets%20-%20Alice%20Cooper%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Muppets - Alice Cooper [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Muppets%20-%20Alice%20Cooper%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Muppets - Vincent Price [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Muppets%20-%20Vincent%20Price%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Muppets - Vincent Price [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Muppets%20-%20Vincent%20Price%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Parent' Hood - The Taxi Man [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Parent%27%20Hood%20-%20The%20Taxi%20Man%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Parent' Hood - The Taxi Man [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Parent%27%20Hood%20-%20The%20Taxi%20Man%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Rocko's Modern Life - Ed Is Dead [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Rocko%27s%20Modern%20Life%20-%20Ed%20Is%20Dead%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Rocko's Modern Life - Ed Is Dead [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Rocko%27s%20Modern%20Life%20-%20Ed%20Is%20Dead%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Rocko's Modern Life - Frosted Frights [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Rocko%27s%20Modern%20Life%20-%20Frosted%20Frights%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Rocko's Modern Life - Frosted Frights [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Rocko%27s%20Modern%20Life%20-%20Frosted%20Frights%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Rocko’s Modern Life - Ed Is Dead [Alternate] [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Rocko%E2%80%99s%20Modern%20Life%20-%20Ed%20Is%20Dead%20%5BAlternate%5D%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Rocko’s Modern Life - Ed Is Dead [Alternate] [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Rocko%E2%80%99s%20Modern%20Life%20-%20Ed%20Is%20Dead%20%5BAlternate%5D%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Rocko’s Modern Life - Sugar Frosted Frights [Alternate] [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Rocko%E2%80%99s%20Modern%20Life%20-%20Sugar%20Frosted%20Frights%20%5BAlternate%5D%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Rocko’s Modern Life - Sugar Frosted Frights [Alternate] [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Rocko%E2%80%99s%20Modern%20Life%20-%20Sugar%20Frosted%20Frights%20%5BAlternate%5D%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Roseanne - BOO! [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Roseanne%20-%20BOO%21%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Roseanne - BOO! [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Roseanne%20-%20BOO%21%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Roseanne - Halloween IV [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Roseanne%20-%20Halloween%20IV%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Roseanne - Halloween IV [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Roseanne%20-%20Halloween%20IV%20%5BEnhanced%5D.mp4
+- [Halloween] Dickleodeon: Rugrats - Candy Bar Creep Show [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Rugrats%20-%20Candy%20Bar%20Creep%20Show%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Dickleodeon: Rugrats - Candy Bar Creep Show [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Rugrats%20-%20Candy%20Bar%20Creep%20Show%20%5BEnhanced%5D.mp4
+- [Halloween] Dickleodeon: Rugrats - The Last Babysitter [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Rugrats%20-%20The%20Last%20Babysitter%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Dickleodeon: Rugrats - The Last Babysitter [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Rugrats%20-%20The%20Last%20Babysitter%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Scooby Doo On Zombie Island [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Scooby%20Doo%20On%20Zombie%20Island%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Scooby Doo On Zombie Island [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Scooby%20Doo%20On%20Zombie%20Island%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Shining Time Station Spooky Hour
+  https://archive.org/download/halloween_specials_collection/Shining%20Time%20Station%20Spooky%20Hour.ia.mp4
+- [Halloween] Cartoons Cartoons: Shining Time Station Spooky Hour
+  https://archive.org/download/halloween_specials_collection/Shining%20Time%20Station%20Spooky%20Hour.mp4
+- [Halloween] Cartoons Cartoons: Sister Sister - Halloween [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Sister%20Sister%20-%20Halloween%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Sister Sister - Halloween [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Sister%20Sister%20-%20Halloween%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Step By Step - Dream Lover [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Step%20By%20Step%20-%20Dream%20Lover%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Step By Step - Dream Lover [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Step%20By%20Step%20-%20Dream%20Lover%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: The Eric Andre New Year's Eve Spooktacular [Enhanced]
+  https://archive.org/download/halloween_specials_collection/The%20Eric%20Andre%20New%20Year%27s%20Eve%20Spooktacular%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: The Eric Andre New Year's Eve Spooktacular [Enhanced]
+  https://archive.org/download/halloween_specials_collection/The%20Eric%20Andre%20New%20Year%27s%20Eve%20Spooktacular%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: The Scooby Doo Project [Enhanced]
+  https://archive.org/download/halloween_specials_collection/The%20Scooby%20Doo%20Project%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: The Scooby Doo Project [Enhanced]
+  https://archive.org/download/halloween_specials_collection/The%20Scooby%20Doo%20Project%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Unhappily Ever After - Halloween XXVII aka Hair Stalker [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Unhappily%20Ever%20After%20-%20Halloween%20XXVII%20aka%20Hair%20Stalker%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Unhappily Ever After - Halloween XXVII aka Hair Stalker [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Unhappily%20Ever%20After%20-%20Halloween%20XXVII%20aka%20Hair%20Stalker%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Unhappily Ever After - Halloween XXVII aka Hair Stalker
+  https://archive.org/download/halloween_specials_collection/Unhappily%20Ever%20After%20-%20Halloween%20XXVII%20aka%20Hair%20Stalker.ia.mp4
+- [Halloween] Cartoons Cartoons: Unsolved Mysteries - Halloween Special [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Unsolved%20Mysteries%20-%20Halloween%20Special%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Wayan’s Bros - Scared Straight [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Wayan%E2%80%99s%20Bros%20-%20Scared%20Straight%20%5BEnhanced%5D.ia.mp4
+- [Halloween] Cartoons Cartoons: Wayan’s Bros - Scared Straight [Enhanced]
+  https://archive.org/download/halloween_specials_collection/Wayan%E2%80%99s%20Bros%20-%20Scared%20Straight%20%5BEnhanced%5D.mp4
+- [Halloween] Cartoons Cartoons: Aaahh!!! Real Monsters - The Switching Hour
+  https://archive.org/download/all-grown-up-tp-kf_202510/Aaahh%21%21%21%20Real%20Monsters%20-%20The%20Switching%20Hour.ia.mp4
+- [Halloween] Cartoons Cartoons: Aaahh!!! Real Monsters - The Switching Hour
+  https://archive.org/download/all-grown-up-tp-kf_202510/Aaahh%21%21%21%20Real%20Monsters%20-%20The%20Switching%20Hour.mp4
+- [Halloween] Cartoons Cartoons: All Grown Up! - TP+KF
+  https://archive.org/download/all-grown-up-tp-kf_202510/All%20Grown%20Up%21%20-%20TP%2BKF.mp4
+- [Halloween] Cartoons Cartoons: As Told By Ginger - I Spy a Witch
+  https://archive.org/download/all-grown-up-tp-kf_202510/As%20Told%20By%20Ginger%20-%20I%20Spy%20a%20Witch.ia.mp4
+- [Halloween] Cartoons Cartoons: As Told By Ginger - I Spy a Witch
+  https://archive.org/download/all-grown-up-tp-kf_202510/As%20Told%20By%20Ginger%20-%20I%20Spy%20a%20Witch.mp4
+- [Halloween] Cartoons Cartoons: Back at the Barnyard - Back at the Booyard
+  https://archive.org/download/all-grown-up-tp-kf_202510/Back%20at%20the%20Barnyard%20-%20Back%20at%20the%20Booyard.mp4
+- [Halloween] Cartoons Cartoons: Breadwinners - Night of the Living Bread
+  https://archive.org/download/all-grown-up-tp-kf_202510/Breadwinners%20-%20Night%20of%20the%20Living%20Bread.mp4
+- [Halloween] Cartoons Cartoons: Bunsen Is a Beast - Beast Halloween Ever
+  https://archive.org/download/all-grown-up-tp-kf_202510/Bunsen%20Is%20a%20Beast%20-%20Beast%20Halloween%20Ever.mp4
+- [Halloween] Cartoons Cartoons: CatDog - CatDogula
+  https://archive.org/download/all-grown-up-tp-kf_202510/CatDog%20-%20CatDogula.mp4
+- [Halloween] Cartoons Cartoons: Catscratch - Scaredy Cat
+  https://archive.org/download/all-grown-up-tp-kf_202510/Catscratch%20-%20Scaredy%20Cat.mp4
+- [Halloween] Cartoons Cartoons: ChalkZone - Pumpkin Love
+  https://archive.org/download/all-grown-up-tp-kf_202510/ChalkZone%20-%20Pumpkin%20Love.mp4
+- [Halloween] Cartoons Cartoons: Codename Kids Next Door - Operation T.R.I.C.K.Y
+  https://archive.org/download/all-grown-up-tp-kf_202510/Codename%20Kids%20Next%20Door%20-%20Operation%20T.R.I.C.K.Y.ia.mp4
+- [Halloween] Cartoons Cartoons: Codename Kids Next Door - Operation T.R.I.C.K.Y
+  https://archive.org/download/all-grown-up-tp-kf_202510/Codename%20Kids%20Next%20Door%20-%20Operation%20T.R.I.C.K.Y.mp4
+- [Halloween] Cartoons Cartoons: Craig of the Creek - Trick or Creek
+  https://archive.org/download/all-grown-up-tp-kf_202510/Craig%20of%20the%20Creek%20-%20Trick%20or%20Creek.mp4
+- [Halloween] Cartoons Cartoons: Danny Phantom - Fright Knight
+  https://archive.org/download/all-grown-up-tp-kf_202510/Danny%20Phantom%20-%20Fright%20Knight.ia.mp4
+- [Halloween] Cartoons Cartoons: Danny Phantom - Fright Knight
+  https://archive.org/download/all-grown-up-tp-kf_202510/Danny%20Phantom%20-%20Fright%20Knight.mp4
+- [Halloween] Cartoons Cartoons: Doug - Doug’s Halloween Adventure
+  https://archive.org/download/all-grown-up-tp-kf_202510/Doug%20-%20Doug%E2%80%99s%20Halloween%20Adventure.mp4
+- [Halloween] Cartoons Cartoons: Fanboy & Chum Chum - There Will Be Shrieks
+  https://archive.org/download/all-grown-up-tp-kf_202510/Fanboy%20%26%20Chum%20Chum%20-%20There%20Will%20Be%20Shrieks.mp4
+- [Halloween] Cartoons Cartoons: Foster's Home for Imaginary Friends - Nightmare on Wilson Way
+  https://archive.org/download/all-grown-up-tp-kf_202510/Foster%27s%20Home%20for%20Imaginary%20Friends%20-%20Nightmare%20on%20Wilson%20Way.mp4
+- [Halloween] Cartoons Cartoons: Harvey Beaks - Technoscare
+  https://archive.org/download/all-grown-up-tp-kf_202510/Harvey%20Beaks%20-%20Technoscare.mp4
+- [Halloween] Cartoons Cartoons: Hey Arnold! - Arnold’s Halloween
+  https://archive.org/download/all-grown-up-tp-kf_202510/Hey%20Arnold%21%20-%20Arnold%E2%80%99s%20Halloween.mp4
+- [Halloween] Cartoons Cartoons: Invader Zim - Halloween Spectacular of Spooky Doom
+  https://archive.org/download/all-grown-up-tp-kf_202510/Invader%20Zim%20-%20Halloween%20Spectacular%20of%20Spooky%20Doom.mp4
+- [Halloween] Cartoons Cartoons: Middlemost Post - More Scary Stories to Tell Your Cloud
+  https://archive.org/download/all-grown-up-tp-kf_202510/Middlemost%20Post%20-%20More%20Scary%20Stories%20to%20Tell%20Your%20Cloud.mp4
+- [Halloween] Cartoons Cartoons: My Gym Partner’s a Monkey - It’s the Scary Old Custodian, Adam Lyon
+  https://archive.org/download/all-grown-up-tp-kf_202510/My%20Gym%20Partner%E2%80%99s%20a%20Monkey%20-%20It%E2%80%99s%20the%20Scary%20Old%20Custodian%2C%20Adam%20Lyon.ia.mp4
+- [Halloween] Cartoons Cartoons: My Gym Partner’s a Monkey - It’s the Scary Old Custodian, Adam Lyon
+  https://archive.org/download/all-grown-up-tp-kf_202510/My%20Gym%20Partner%E2%80%99s%20a%20Monkey%20-%20It%E2%80%99s%20the%20Scary%20Old%20Custodian%2C%20Adam%20Lyon.mp4
+- [Halloween] Cartoons Cartoons: Rocket Power - The Night Before
+  https://archive.org/download/all-grown-up-tp-kf_202510/Rocket%20Power%20-%20The%20Night%20Before.ia.mp4
+- [Halloween] Cartoons Cartoons: Rocket Power - The Night Before
+  https://archive.org/download/all-grown-up-tp-kf_202510/Rocket%20Power%20-%20The%20Night%20Before.mp4
+- [Halloween] Cartoons Cartoons: Rocko’s Modern Life - Sugar Frosted Frights
+  https://archive.org/download/all-grown-up-tp-kf_202510/Rocko%E2%80%99s%20Modern%20Life%20-%20Sugar%20Frosted%20Frights.ia.mp4
+- [Halloween] Cartoons Cartoons: Rocko’s Modern Life - Sugar Frosted Frights
+  https://archive.org/download/all-grown-up-tp-kf_202510/Rocko%E2%80%99s%20Modern%20Life%20-%20Sugar%20Frosted%20Frights.mp4
+- [Halloween] Dickleodeon: Rugrats - Curse of the Werewuff
+  https://archive.org/download/all-grown-up-tp-kf_202510/Rugrats%20-%20Curse%20of%20the%20Werewuff.mp4
+- [Halloween] Cartoons Cartoons: Sanjay and Craig - Halloweenies
+  https://archive.org/download/all-grown-up-tp-kf_202510/Sanjay%20and%20Craig%20-%20Halloweenies.mp4
+- [Halloween] Cartoons Cartoons: T.U.F.F. Puppy - Happy Howl-O-Ween
+  https://archive.org/download/all-grown-up-tp-kf_202510/T.U.F.F.%20Puppy%20-%20Happy%20Howl-O-Ween.mp4
+- [Halloween] Cartoons Cartoons: Teen Titans Go! - Halloween
+  https://archive.org/download/all-grown-up-tp-kf_202510/Teen%20Titans%20Go%21%20-%20Halloween.mp4
+- [Halloween] Cartoons Cartoons: Teenage Mutant Ninja Turtles (2012) - (Part 1) The Curse of Savanti Romero
+  https://archive.org/download/all-grown-up-tp-kf_202510/Teenage%20Mutant%20Ninja%20Turtles%20%282012%29%20-%20%28Part%201%29%20The%20Curse%20of%20Savanti%20Romero.mp4
+- [Halloween] Cartoons Cartoons: Teenage Mutant Ninja Turtles (2012) - (Part 2) The Crypt of Dracula
+  https://archive.org/download/all-grown-up-tp-kf_202510/Teenage%20Mutant%20Ninja%20Turtles%20%282012%29%20-%20%28Part%202%29%20The%20Crypt%20of%20Dracula.mp4
+- [Halloween] Cartoons Cartoons: Teenage Mutant Ninja Turtles (2012) - (Part 3) The Frankenstein Experiment
+  https://archive.org/download/all-grown-up-tp-kf_202510/Teenage%20Mutant%20Ninja%20Turtles%20%282012%29%20-%20%28Part%203%29%20The%20Frankenstein%20Experiment.mp4
+- [Halloween] Cartoons Cartoons: Teenage Mutant Ninja Turtles (2012) - (Part 4) Monsters Among Us!
+  https://archive.org/download/all-grown-up-tp-kf_202510/Teenage%20Mutant%20Ninja%20Turtles%20%282012%29%20-%20%28Part%204%29%20Monsters%20Among%20Us%21.mp4
+- [Halloween] Cartoons Cartoons: The Amazing World of Gumball - Halloween
+  https://archive.org/download/all-grown-up-tp-kf_202510/The%20Amazing%20World%20of%20Gumball%20-%20Halloween.ia.mp4
+- [Halloween] Cartoons Cartoons: The Amazing World of Gumball - Halloween
+  https://archive.org/download/all-grown-up-tp-kf_202510/The%20Amazing%20World%20of%20Gumball%20-%20Halloween.mp4
+- [Halloween] Cartoons Cartoons: The Angry Beavers - The Day the World Got Really Screwed Up!
+  https://archive.org/download/all-grown-up-tp-kf_202510/The%20Angry%20Beavers%20-%20The%20Day%20the%20World%20Got%20Really%20Screwed%20Up%21.mp4
+- [Halloween] Cartoons Cartoons: The Casagrandes - Curse of the Candy Goblin
+  https://archive.org/download/all-grown-up-tp-kf_202510/The%20Casagrandes%20-%20Curse%20of%20the%20Candy%20Goblin.mp4
+- [Halloween] Cartoons Cartoons: The Casagrandes - New Haunts
+  https://archive.org/download/all-grown-up-tp-kf_202510/The%20Casagrandes%20-%20New%20Haunts.mp4
+- [Halloween] Cartoons Cartoons: The Life and Times of Juniper Lee - It’s the Great Pumpkin, Juniper Lee
+  https://archive.org/download/all-grown-up-tp-kf_202510/The%20Life%20and%20Times%20of%20Juniper%20Lee%20-%20It%E2%80%99s%20the%20Great%20Pumpkin%2C%20Juniper%20Lee.mp4
+- [Halloween] Cartoons Cartoons: The Loud House - Great Lakes Freakout!
+  https://archive.org/download/all-grown-up-tp-kf_202510/The%20Loud%20House%20-%20Great%20Lakes%20Freakout%21.mp4
+- [Halloween] Cartoons Cartoons: The Mighty B! - Catatonic
+  https://archive.org/download/all-grown-up-tp-kf_202510/The%20Mighty%20B%21%20-%20Catatonic.mp4
+- [Halloween] Cartoons Cartoons: The Wild Thornberrys - Blood Sisters
+  https://archive.org/download/all-grown-up-tp-kf_202510/The%20Wild%20Thornberrys%20-%20Blood%20Sisters.mp4
+- [Halloween] Cartoons Cartoons: The X's - The Haunting of Homebase
+  https://archive.org/download/all-grown-up-tp-kf_202510/The%20X%27s%20-%20The%20Haunting%20of%20Homebase.mp4
+- [Halloween] Cartoons Cartoons: We Bare Bears - Charlie’s Halloween Thing
+  https://archive.org/download/all-grown-up-tp-kf_202510/We%20Bare%20Bears%20-%20Charlie%E2%80%99s%20Halloween%20Thing.mp4
+- [Other Holidays] Dizzy: Clifford the Big Red Dog - Boo!
+  https://archive.org/download/christmas-specials_202412/Clifford%20the%20Big%20Red%20Dog%20-%20Boo%21.mp4
+- [Other Holidays] Dizzy: Clifford's Puppy Days - Clifford The Scary Puppy; Things That Go Bump
+  https://archive.org/download/christmas-specials_202412/Clifford%27s%20Puppy%20Days%20-%20Clifford%20The%20Scary%20Puppy%3B%20Things%20That%20Go%20Bump.mp4
+- [Other Holidays] Dizzy: Sesame Street - A Magical Halloween Adventure
+  https://archive.org/download/christmas-specials_202412/Sesame%20Street%20-%20A%20Magical%20Halloween%20Adventure.mp4
+- [Other Holidays] Dizzy: A Pup Named Scooby-Doo - Ghost Who's Coming to Dinner
+  https://archive.org/download/christmas-specials_202412/A%20Pup%20Named%20Scooby-Doo%20-%20Ghost%20Who%27s%20Coming%20to%20Dinner.mp4
+- [Other Holidays] Dizzy: Adventures from the Book of Virtues - A Christmas Carol (Part 1)
+  https://archive.org/download/christmas-specials_202412/Adventures%20from%20the%20Book%20of%20Virtues%20-%20A%20Christmas%20Carol%20%28Part%201%29.mp4
+- [Other Holidays] Dizzy: Adventures from the Book of Virtues - A Christmas Carol (Part 2)
+  https://archive.org/download/christmas-specials_202412/Adventures%20from%20the%20Book%20of%20Virtues%20-%20A%20Christmas%20Carol%20%28Part%202%29.mp4
+- [Other Holidays] Dizzy: Angelina Ballerina - Henry’s Halloween
+  https://archive.org/download/christmas-specials_202412/Angelina%20Ballerina%20-%20Henry%E2%80%99s%20Halloween.mp4
+- [Other Holidays] Dizzy: Back at the Barnyard - Back at the Booyard
+  https://archive.org/download/christmas-specials_202412/Back%20at%20the%20Barnyard%20-%20Back%20at%20the%20Booyard.mp4
+- [Other Holidays] Dizzy: Barney & Friends - Barney's Halloween Party
+  https://archive.org/download/christmas-specials_202412/Barney%20%26%20Friends%20-%20Barney%27s%20Halloween%20Party.mp4
+- [Other Holidays] Dizzy: Barney’s Halloween Party
+  https://archive.org/download/christmas-specials_202412/Barney%E2%80%99s%20Halloween%20Party.mp4
+- [Other Holidays] Dizzy: Bear in the Big Blue House - Halloween Bear
+  https://archive.org/download/christmas-specials_202412/Bear%20in%20the%20Big%20Blue%20House%20-%20Halloween%20Bear.mp4
+- [Other Holidays] Dizzy: Charlie And Lola - What Can I Wear For Halloween
+  https://archive.org/download/christmas-specials_202412/Charlie%20And%20Lola%20-%20What%20Can%20I%20Wear%20For%20Halloween.ia.mp4
+- [Other Holidays] Dizzy: Charlie And Lola - What Can I Wear For Halloween
+  https://archive.org/download/christmas-specials_202412/Charlie%20And%20Lola%20-%20What%20Can%20I%20Wear%20For%20Halloween.mp4
+- [Other Holidays] Dizzy: Craig of the Creek - Trick or Creek
+  https://archive.org/download/christmas-specials_202412/Craig%20of%20the%20Creek%20-%20Trick%20or%20Creek.mp4
+- [Other Holidays] Dizzy: Fish Hooks - Halloween Haul
+  https://archive.org/download/christmas-specials_202412/Fish%20Hooks%20-%20Halloween%20Haul.mp4
+- [Other Holidays] Dizzy: Franklin - Franklin Has a Sleepover:Franklin's Halloween
+  https://archive.org/download/christmas-specials_202412/Franklin%20-%20Franklin%20Has%20a%20Sleepover%3AFranklin%27s%20Halloween.ia.mp4
+- [Other Holidays] Dizzy: Franklin - Franklin Has a Sleepover:Franklin's Halloween
+  https://archive.org/download/christmas-specials_202412/Franklin%20-%20Franklin%20Has%20a%20Sleepover%3AFranklin%27s%20Halloween.mp4
+- [Other Holidays] Dizzy: Franklin - Franklin's Halloween
+  https://archive.org/download/christmas-specials_202412/Franklin%20-%20Franklin%27s%20Halloween.ia.mp4
+- [Other Holidays] Dizzy: Franklin - Franklin's Halloween
+  https://archive.org/download/christmas-specials_202412/Franklin%20-%20Franklin%27s%20Halloween.mp4
+- [Other Holidays] Dizzy: Go, Diego, Go! - Freddie the Fruit Bat Saves Halloween!
+  https://archive.org/download/christmas-specials_202412/Go%2C%20Diego%2C%20Go%21%20-%20Freddie%20the%20Fruit%20Bat%20Saves%20Halloween%21.ia.mp4
+- [Other Holidays] Dizzy: Go, Diego, Go! - Freddie the Fruit Bat Saves Halloween!
+  https://archive.org/download/christmas-specials_202412/Go%2C%20Diego%2C%20Go%21%20-%20Freddie%20the%20Fruit%20Bat%20Saves%20Halloween%21.mp4
+- [Other Holidays] Dizzy: Handy Mandy - Halloween
+  https://archive.org/download/christmas-specials_202412/Handy%20Mandy%20-%20Halloween.mp4
+- [Other Holidays] Dizzy: Hey Arnold! - Arnold’s Halloween
+  https://archive.org/download/christmas-specials_202412/Hey%20Arnold%21%20-%20Arnold%E2%80%99s%20Halloween.mp4
+- [Other Holidays] Dizzy: Higglytown Heroes - Higgly Halloween
+  https://archive.org/download/christmas-specials_202412/Higglytown%20Heroes%20-%20Higgly%20Halloween.ia.mp4
+- [Other Holidays] Dizzy: Higglytown Heroes - Higgly Halloween
+  https://archive.org/download/christmas-specials_202412/Higglytown%20Heroes%20-%20Higgly%20Halloween.mp4
+- [Other Holidays] Dizzy: Invader Zim - Halloween Spectacular of Spooky Doom
+  https://archive.org/download/christmas-specials_202412/Invader%20Zim%20-%20Halloween%20Spectacular%20of%20Spooky%20Doom.mp4
+- ...and 1128 additional low-confidence assignments.

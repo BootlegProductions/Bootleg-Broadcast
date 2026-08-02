@@ -1,0 +1,546 @@
+:root {
+  --stage-width: min(100vw, calc(100vh * 16 / 9));
+  --stage-height: min(100vh, calc(100vw * 9 / 16));
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  background: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/*
+  The stage is a locked 16:9 composition.
+  The background, CRT frame, player and overlays all live inside this one box,
+  so they scale together instead of drifting apart on different screens.
+*/
+#stage {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: var(--stage-width);
+  height: var(--stage-height);
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  background: #000;
+}
+
+/* BACKGROUND ROOM */
+#room-bg {
+  position: absolute;
+  inset: 0;
+
+  background-image: url("assets/background/background.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  background-size: cover;
+
+  z-index: 0;
+}
+@media (max-width: 1000px) {
+
+  #room-bg {
+    background-size: contain;
+    background-color: black;
+  }
+
+}
+
+#vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  background: radial-gradient(
+    circle at center,
+    rgba(0,0,0,0) 40%,
+    rgba(0,0,0,0.5) 75%,
+    rgba(0,0,0,0.9) 100%
+  );
+}
+
+#tv-container {
+  position: absolute;
+  width: 65%;
+  left: 40%;
+  top: -8%;
+  z-index: 2;
+}
+
+#tv-frame {
+  position: relative;
+  display: block;
+  width: 100%;
+  z-index: 3;
+  pointer-events: none;
+}
+
+#screen {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 55%;
+  height: 67%;
+  overflow: hidden;
+  background: black;
+  border-radius: 0;
+  z-index: 2;
+  transform:
+    perspective(900px)
+    rotateY(3deg)
+    rotateX(0deg)
+    skewY(-5deg);
+  transform-origin: center center;
+}
+
+#player {
+  width: 100%;
+  height: 100%;
+  margin-left: -1.5%;
+  margin-top: -1.5%;
+  object-fit: cover;
+  filter:
+    contrast(1.2)
+    brightness(1.1)
+    blur(0.3px)
+    saturate(1.2);
+}
+
+#power {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  background: black;
+  color: lime;
+  padding: 15px 25px;
+  font-family: monospace;
+  border: 2px solid lime;
+  cursor: pointer;
+  z-index: 5;
+}
+
+#channelOverlay {
+  position: absolute;
+  top: 35px;
+  left: 32px;
+  z-index: 5;
+  color: rgb(44, 224, 65);
+  font-family: monospace;
+  font-size: 18px;
+  text-shadow: 2px 2px 4px black;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+#channelNumber,
+#channelNameOverlay {
+  display: block;
+}
+
+#static {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  z-index: 4;
+  pointer-events: none;
+  background: url("assets/static/static.gif") center center / cover no-repeat;
+}
+
+/* CRT FLICKER */
+#crt-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      rgba(0,0,0,0) 0px,
+      rgba(0,0,0,0) 2px,
+      rgba(0,0,0,0.25) 3px
+    ),
+    repeating-linear-gradient(
+      to right,
+      rgba(255,0,0,.03) 0px,
+      rgba(0,255,0,.03) 1px,
+      rgba(0,0,255,.03) 2px
+    );
+  mix-blend-mode: multiply;
+  opacity: .6;
+  animation: crtFlicker .15s infinite;
+}
+
+@keyframes crtFlicker {
+  0% { opacity: .6; }
+  50% { opacity: .65; }
+  100% { opacity: .6; }
+}
+
+#scheduleOverlay {
+  position: absolute;
+  left: 6%;
+  top: 10%;
+  width: 84%;
+  max-height: 78%;
+
+  z-index: 25;
+  display: none;
+
+  background: rgba(0, 10, 0, 0.92);
+  color: #7CFF7C;
+  border: 2px solid #7CFF7C;
+  box-shadow: 0 0 12px rgba(124, 255, 124, 0.45);
+
+  padding: 14px;
+  font-family: monospace;
+  font-size: clamp(10px, 1.1vw, 14px);
+  text-align: left;
+
+  overflow: hidden;
+  pointer-events: none;
+
+   transform:
+    skewY(1deg)
+    rotateY(-1deg);
+  transform-origin: center center;
+  clip-path: none;
+}
+
+.schedule-item {
+  padding: 6px 8px;
+  margin-bottom: 5px;
+  border-left: 3px solid rgba(124, 255, 124, 0.4);
+  background: rgba(0, 40, 0, 0.35);
+}
+
+.schedule-item.now-playing {
+  border: 2px solid #00ff66;
+  background: rgba(0, 255, 80, 0.18);
+  color: white;
+  text-shadow: 0 0 6px #00ff66;
+}
+
+.schedule-marker {
+  display: inline-block;
+  min-width: 54px;
+  font-weight: bold;
+  color: #00ff66;
+}
+
+#scheduleOverlay.active {
+  display: block;
+}
+
+#scheduleOverlay h3 {
+  margin: 0 0 12px;
+  font-size: 18px;
+}
+
+#scheduleOverlay div {
+  margin-bottom: 6px;
+}
+
+#controls {
+  position: fixed;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  z-index: 10;
+  white-space: nowrap;
+}
+
+button {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}
+
+@media (min-width: 1001px) {
+  :root {
+    --stage-width: 100vw;
+    --stage-height: 100vh;
+  }
+
+  #stage {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+/* REMOTE CONTROL */
+
+#remote-control {
+  position: fixed;
+  left: 20%;
+  bottom: -380px;
+  transform: translateX(-50%);
+  z-index: 100;
+
+  width: 320px;
+
+  transition:
+    bottom 0.45s cubic-bezier(.2,.8,.2,1);
+
+  user-select: none;
+}
+
+#remote-control:hover,
+#remote-control.active {
+  bottom: -24px;
+}
+
+#remote-handle {
+  width: 140px;
+  margin: 0 auto;
+
+  background: linear-gradient(
+    to bottom,
+    #555,
+    #2d2d2d
+  );
+
+  color: #cfcfcf;
+
+  padding: 12px 0;
+
+  border-radius: 18px 18px 0 0;
+
+  font-family: monospace;
+  font-size: 13px;
+  letter-spacing: 2px;
+
+  border: 2px solid #111;
+  border-bottom: none;
+
+  box-shadow:
+    0 0 18px rgba(0,0,0,.45);
+}
+
+.remote-body {
+  background:
+    linear-gradient(
+      to bottom,
+      #444,
+      #1e1e1e
+    );
+
+  border-radius: 28px 28px 0 0;
+
+  padding: 20px 20px 40px;
+
+  border: 2px solid #111;
+
+  box-shadow:
+    0 0 30px rgba(0,0,0,.55);
+
+  backdrop-filter: blur(4px);
+}
+
+.remote-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.remote-btn {
+  flex: 1;
+
+  background:
+    linear-gradient(
+      to bottom,
+      #5f5f5f,
+      #303030
+    );
+
+  color: white;
+
+  border: 1px solid #111;
+
+  border-radius: 14px;
+
+  padding: 12px 10px;
+
+  cursor: pointer;
+
+  font-size: 12px;
+  font-family: monospace;
+
+  transition:
+    transform .08s ease,
+    background .15s ease;
+}
+
+.remote-btn:hover {
+  background:
+    linear-gradient(
+      to bottom,
+      #6a6a6a,
+      #383838
+    );
+}
+
+.remote-btn:active {
+  transform: translateY(2px);
+}
+
+.power-btn {
+  color: #ff7b7b;
+}
+
+.big-btn {
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+#remote-ir {
+  width: 10px;
+  height: 10px;
+  margin: 6px auto 10px;
+
+  border-radius: 50%;
+  background: #320000;
+  box-shadow: 0 0 4px rgba(255, 0, 0, 0.2);
+
+  transition: background 0.08s ease, box-shadow 0.08s ease;
+}
+
+#remote-ir.flash {
+  background: red;
+  box-shadow:
+    0 0 8px red,
+    0 0 18px rgba(255, 0, 0, 0.9);
+}
+
+/* MINI CHANNEL LOGOS (bugs) */
+#channelBug {
+  position: absolute;
+  right: 8%;
+  bottom: 6%;
+  max-width: 16%;
+  max-height: 12%;
+  z-index: 6;
+  opacity: 0.72;
+  pointer-events: none;
+  object-fit: contain;
+  filter: drop-shadow(0 0 4px rgba(0,0,0,0.8));
+}
+
+/* MOBILE / SMALL TOUCH SCREENS — authoritative overrides */
+@media screen and (max-width: 700px) {
+  #room-bg {
+    background-image: url("assets/background/mobile-background.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #000;
+  }
+
+  #tv-frame {
+    content: url("assets/crt/crt-front.png");
+  }
+
+  #stage {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  #tv-container {
+    width: 115vw;
+    left: -7%;
+    top: 18%;
+  }
+
+  #screen {
+    top: 10%;
+    left: 11%;
+    width: 65%;
+    height: 75%;
+    transform: none;
+    transform-origin: center center;
+    border-radius: 12px;
+    touch-action: pan-y;
+  }
+
+  #player {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+    transform: none;
+  }
+
+  #power {
+    font-size: 12px;
+    padding: 10px 14px;
+  }
+
+  #channelOverlay {
+    top: 24px;
+    left: 22px;
+    font-size: 14px;
+  }
+
+  #scheduleOverlay {
+    font-size: 11px;
+    padding: 10px;
+  }
+
+  #scheduleOverlay h3 {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .schedule-item {
+    padding: 4px 6px;
+    margin-bottom: 3px;
+  }
+
+  .schedule-marker {
+    min-width: 48px;
+  }
+
+  #channelBug {
+    right: 8%;
+    bottom: 15%;
+    max-width: 18%;
+    max-height: 12%;
+  }
+
+  #remote-control {
+    left: 50%;
+    bottom: -280px;
+    width: 92vw;
+    max-width: 340px;
+    transform: translateX(-50%) scale(0.66);
+    transform-origin: bottom center;
+  }
+
+  #remote-control:hover,
+  #remote-control.active {
+    bottom: 8px;
+  }
+}

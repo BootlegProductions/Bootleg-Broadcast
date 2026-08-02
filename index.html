@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bootleg Broadcast</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="assets/crt angle/crt angle.png">
+</head>
+<body>
+
+<div id="stage">
+  <div id="room-bg"></div>
+  <div id="vignette"></div>
+
+  <div id="tv-container">
+    <div id="screen">
+            <!-- SCHEDULE DISPLAY -->
+      <div id="scheduleOverlay"></div>
+
+      <video id="player"></video>
+      <div id="crt-overlay"></div>
+            <img id="channelBug" src="" alt="Channel logo">
+
+
+      <!-- CHANNEL DISPLAY -->
+      <div id="channelOverlay">
+        <span id="channelNumber"></span>
+        <span id="channelNameOverlay"></span>
+      </div>
+
+      <!-- STATIC EFFECT -->
+      <div id="static"></div>
+
+    </div>
+
+    <img src="assets/crt angle/crt angle.png" id="tv-frame" alt="CRT television frame">
+
+    <div id="power">
+      CLICK TO TURN ON TV
+    </div>
+  </div>
+</div>
+
+
+
+<div id="remote-control">
+  <div id="remote-handle">REMOTE</div>
+
+  <div class="remote-body">
+      <div id="remote-ir"></div>
+
+    <div class="remote-row">
+      <button class="remote-btn power-btn" onclick="togglePower()">POWER</button>
+      <button class="remote-btn" onclick="toggleMute()">MUTE</button>
+    </div>
+
+    <div class="remote-row">
+      <button class="remote-btn" onclick="prevChannel()">CH -</button>
+      <button class="remote-btn" onclick="nextChannel()">CH +</button>
+    </div>
+
+    <div class="remote-row">
+      <button class="remote-btn" onclick="volumeDown()">VOL -</button>
+      <button class="remote-btn" onclick="volumeUp()">VOL +</button>
+    </div>
+
+    <div class="remote-row">
+      <button class="remote-btn" onclick="toggleScheduleOverlay()">GUIDE</button>
+      <button class="remote-btn" onclick="toggleVideoFullscreen()">FULL</button>
+    </div>
+
+    <div class="remote-row">
+      <button class="remote-btn big-btn" onclick="toggleBigPicture()">BIG PICTURE</button>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
