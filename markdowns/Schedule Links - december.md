@@ -21,7 +21,15 @@ https://archive.org/download/adventures-in--christmas/Ed%20Edd%20n%20Eddy%20Spec
 #### Movie/Special:
 https://archive.org/download/adventures-in--christmas/Johnny%20Bravo%20Specials%20%20A%20Johnny%20Bravo%20Christmas%20%282001%29.mp4
 
-
+### Christmas specials:
+#### Season: 1
+https://archive.org/download/christmas-specials_202412/Ed%2C%20Edd%20n%20Eddy%20-%20Ed%2C%20Edd%20n%20Eddy%E2%80%99s%20Jingle%20Jingle%20Jangle.mp4
+https://archive.org/download/christmas-specials_202412/The%20Grim%20Adventures%20of%20Billy%20%26%20Mandy%20-%20Billy%20%26%20Mandy%20Save%20Christmas.mp4
+https://archive.org/download/christmas-specials_202412/The%20Powerpuff%20Girls%20-%20%E2%80%98Twas%20the%20Fight%20Before%20Christmas%20.mp4
+https://archive.org/download/adventures-in--christmas/A%20Beverly%20Hillbilly%E2%80%99s%20Christmas%20at%20Hooterville%20%281963%29.ia.mp4
+https://archive.org/download/adventures-in--christmas/A%20Beverly%20Hillbilly%E2%80%99s%20Christmas%20at%20Hooterville%20%281963%29.mp4
+https://archive.org/download/adventures-in--christmas/Courage%20the%20Cowardly%20Dog%20-%20A%20Beaver%27s%20TaleThe%20Nutcracker%20%282002%29.mp4
+https://archive.org/download/adventures-in--christmas/Ed%20Edd%20n%20Eddy%20Special%20Ed%2C%20Edd%20n%20Eddy%E2%80%99s%20Jingle%20Jingle%20Jangle%20%282004%29.mp4
 
 ## Time Slot - Nighttime(8pm-5am):
 ### Billy & Mandy:

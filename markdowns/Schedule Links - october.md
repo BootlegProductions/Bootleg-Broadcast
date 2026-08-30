@@ -752,6 +752,12 @@ https://archive.org/download/whatsnewscoobydooseason1hd/What%27s%20New%2C%20Scoo
 #### Special:
 https://ia601303.us.archive.org/24/items/ed-edd-n-eddys-big-picture-show_202509/Ed%2C%20Edd%20n%20Eddy/Ed%2C%20Edd%20n%20Eddy%27s%20Boo-Haw%20Haw.ia.mp4
 
+### Halloween Specials:
+#### Season: 1
+https://archive.org/download/halloween_specials_collection/Cow%20and%20Chicken%20-%20Halloween%20With%20Dead%20Ghost%20Coast%20To%20Coast%20%5BEnhanced%5D.ia.mp4
+
+https://archive.org/download/halloween_specials_collection/Dexter%E2%80%99s%20Laboratory%20-%20Filet%20Of%20Soul%20%5BEnhanced%5D.ia.mp4
+
 ### Scooby-Doo (2002):
 #### Movie:
 https://archive.org/download/28-days-later_202505/Scooby-Doo%20%282002%29.mp4

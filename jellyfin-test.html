@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Jellyfin Browser Test</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 24px;
+      background: #111;
+      color: #eee;
+    }
+
+    button {
+      cursor: pointer;
+      padding: 8px 12px;
+      margin: 4px;
+    }
+
+    #shows,
+    #episodes {
+      margin-top: 20px;
+    }
+
+    .show-button,
+    .episode-button {
+      display: block;
+      width: min(600px, 100%);
+      text-align: left;
+      margin: 6px 0;
+    }
+
+    #status {
+      white-space: pre-wrap;
+      margin-top: 16px;
+    }
+
+    #videoPlayer {
+      display: none;
+      width: min(900px, 100%);
+      margin-top: 20px;
+      background: black;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Jellyfin Browser Test</h1>
+
+  <button id="loadShowsButton">Load Cartoons</button>
+
+  <div id="status">Ready.</div>
+
+  <section id="shows"></section>
+  <section id="episodes"></section>
+
+  <video id="videoPlayer" controls></video>
+
+  <script>
+    const JELLYFIN_URL = "http://192.168.0.184:8096";
+
+    // Keep this file local. Do not commit the real key to GitHub.
+    const JELLYFIN_API_KEY = "e196df24559843679918242cab90c2d1";
+
+    const loadShowsButton = document.getElementById("loadShowsButton");
+    const status = document.getElementById("status");
+    const showsContainer = document.getElementById("shows");
+    const episodesContainer = document.getElementById("episodes");
+    const videoPlayer = document.getElementById("videoPlayer");
+
+    async function jellyfinFetch(path) {
+      const response = await fetch(`${JELLYFIN_URL}${path}`, {
+        headers: {
+          "X-Emby-Token": JELLYFIN_API_KEY
+        }
+      });
+
+      if (!response.ok) {
+        throw new Error(
+          `Jellyfin request failed: ${response.status} ${response.statusText}`
+        );
+      }
+
+      return response.json();
+    }
+
+    async function getCartoonsLibrary() {
+      const libraries = await jellyfinFetch("/Library/VirtualFolders");
+
+      return libraries.find(library => library.Name === "Shows");
+    }
+
+    async function loadShows() {
+      status.textContent = "Loading cartoons...";
+      showsContainer.innerHTML = "";
+      episodesContainer.innerHTML = "";
+      videoPlayer.style.display = "none";
+      videoPlayer.removeAttribute("src");
+
+      try {
+        const cartoonsLibrary = await getCartoonsLibrary();
+
+        if (!cartoonsLibrary) {
+          throw new Error('Could not find the Jellyfin library named "Shows".');
+        }
+
+        const query = new URLSearchParams({
+          ParentId: cartoonsLibrary.ItemId,
+          Recursive: "false",
+          IncludeItemTypes: "Series",
+          SortBy: "SortName",
+          SortOrder: "Ascending",
+          Fields: "Overview,ProductionYear"
+        });
+
+        const data = await jellyfinFetch(`/Items?${query}`);
+
+        if (!data.Items?.length) {
+          status.textContent = "No cartoon series were returned.";
+          return;
+        }
+
+        status.textContent = `${data.Items.length} shows found. Select one:`;
+
+        for (const show of data.Items) {
+          const button = document.createElement("button");
+
+          button.className = "show-button";
+          button.textContent = show.ProductionYear
+            ? `${show.Name} (${show.ProductionYear})`
+            : show.Name;
+
+          button.addEventListener("click", () => {
+            loadEpisodes(show);
+          });
+
+          showsContainer.appendChild(button);
+        }
+      } catch (error) {
+        console.error(error);
+        status.textContent = `Could not load shows:\n${error.message}`;
+      }
+    }
+
+    async function loadEpisodes(show) {
+      status.textContent = `Loading episodes for ${show.Name}...`;
+      episodesContainer.innerHTML = "";
+      videoPlayer.pause();
+      videoPlayer.style.display = "none";
+      videoPlayer.removeAttribute("src");
+
+      try {
+        const query = new URLSearchParams({
+          SeriesId: show.Id,
+          UserId: "",
+          Fields: "Overview,SeasonName,IndexNumber,ParentIndexNumber,RunTimeTicks",
+          SortBy: "ParentIndexNumber,IndexNumber,SortName",
+          SortOrder: "Ascending"
+        });
+
+        const data = await jellyfinFetch(`/Shows/${show.Id}/Episodes?${query}`);
+
+        if (!data.Items?.length) {
+          status.textContent = `No episodes were returned for ${show.Name}.`;
+          return;
+        }
+
+        status.textContent =
+          `${data.Items.length} episodes found for ${show.Name}. Select one:`;
+
+        const heading = document.createElement("h2");
+        heading.textContent = show.Name;
+        episodesContainer.appendChild(heading);
+
+        for (const episode of data.Items) {
+          const seasonNumber = episode.ParentIndexNumber ?? 0;
+          const episodeNumber = episode.IndexNumber ?? 0;
+
+          const button = document.createElement("button");
+          button.className = "episode-button";
+          button.textContent =
+            `S${String(seasonNumber).padStart(2, "0")}` +
+            `E${String(episodeNumber).padStart(2, "0")} — ` +
+            `${episode.Name}`;
+
+          button.addEventListener("click", () => {
+            playEpisode(episode);
+          });
+
+          episodesContainer.appendChild(button);
+        }
+      } catch (error) {
+        console.error(error);
+        status.textContent = `Could not load episodes:\n${error.message}`;
+      }
+    }
+
+    function playEpisode(episode) {
+      const streamUrl =
+        `${JELLYFIN_URL}/Videos/${episode.Id}/stream` +
+        `?Static=true` +
+        `&api_key=${encodeURIComponent(JELLYFIN_API_KEY)}`;
+
+      status.textContent = `Playing: ${episode.SeriesName} — ${episode.Name}`;
+
+      videoPlayer.src = streamUrl;
+      videoPlayer.style.display = "block";
+
+      videoPlayer.play().catch(error => {
+        console.error(error);
+
+        status.textContent =
+          `The episode was loaded, but the browser could not play it:\n` +
+          error.message;
+      });
+    }
+
+    loadShowsButton.addEventListener("click", loadShows);
+  </script>
+</body>
+</html>
