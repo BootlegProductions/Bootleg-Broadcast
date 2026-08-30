@@ -1,0 +1,26 @@
+Bootleg Broadcast v0.24 — Schedule Expansion + Branding
+
+- Preserved all existing schedule items and ordering.
+- Added one rotating two-episode Additional Links block per channel/day.
+- New blocks are inserted before each channel's ending ident.
+- Existing advert-break structure preserved; one normal ad break is inserted between the two new episodes.
+- Additional Links are mapped by their channel folders.
+- Paired .ia.mp4/.mp4 links are deduplicated, preferring the ordinary .mp4 link.
+- Movies and October pools are left untouched for a later dedicated movie/seasonal scheduling pass.
+- Schedule guide restyled for cleaner alignment and legibility.
+- Added supplied Bootleg Broadcast logo at top-left with a subtle intermittent signal glitch.
+- Playback, idents, existing adverts, remote and channel logic unchanged.
+
+Additional episode entries added:
+  90s Toons: 730
+  AAA: 730
+  Cartoons Cartoons: 730
+  Dickleodeon: 730
+  Dizzy: 0
+  GirlyPop: 697
+  Japanime: 730
+  Off-Licence TV: 730
+  Star Spangled TV: 730
+  What: 730
+
+Total additional episodes scheduled: 6537

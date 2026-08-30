@@ -8,16 +8,18 @@
 <link rel="icon" type="image/png" href="assets/crt angle/crt angle.png">
 </head>
 <body>
+  <div id="site-brand" aria-label="Bootleg Broadcast">
+    <img src="assets/branding/bootleg-broadcast-logo.png" alt="" id="site-brand-logo">
+    <span id="site-brand-text">BOOTLEG BROADCAST</span>
+  </div>
 
 <div id="stage">
   <div id="room-bg"></div>
+  <div id="ambient-glow"></div>
   <div id="vignette"></div>
 
   <div id="tv-container">
     <div id="screen">
-            <!-- SCHEDULE DISPLAY -->
-      <div id="scheduleOverlay"></div>
-
       <video id="player"></video>
       <div id="crt-overlay"></div>
             <img id="channelBug" src="" alt="Channel logo">
@@ -33,6 +35,10 @@
       <div id="static"></div>
 
     </div>
+
+    <!-- SCHEDULE DISPLAY
+         Kept outside #screen so it does not inherit the CRT glass skew. -->
+    <div id="scheduleOverlay"></div>
 
     <img src="assets/crt angle/crt angle.png" id="tv-frame" alt="CRT television frame">
 

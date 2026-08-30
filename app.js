@@ -80,11 +80,16 @@ function updateChannelBug(channelName) {
 }
 
 
+function setRoomPowerState(isOn) {
+  document.body.classList.toggle("tv-powered-on", Boolean(isOn));
+}
+
 /* -------------------- POWER BUTTON -------------------- */
 
 powerBtn.addEventListener("click", () => {
   started = true;
   player.muted = false;
+  setRoomPowerState(true);
 
   playSound(tvOnSound);
   showChannelOverlay();
@@ -182,7 +187,6 @@ function expandTodayAdBreaks() {
     channel._advertBreaksExpanded = true;
   });
 }
-
 
 
 function getTodaySchedule() {
@@ -584,9 +588,11 @@ function togglePower() {
   }
 
   if (player.paused) {
+    setRoomPowerState(true);
     playSound(tvOnSound);
     player.play().catch(() => {});
   } else {
+    setRoomPowerState(false);
     playSound(tvOffSound);
     player.pause();
   }
@@ -617,10 +623,8 @@ function flashRemoteIR() {
   }, 120);
 }
 
-const remote = document.getElementById("remote-control");
-
-if (remote) {
-  remote.addEventListener("click", (e) => {
+if (remoteControl) {
+  remoteControl.addEventListener("click", (e) => {
     if (e.target.closest(".remote-btn")) {
       playSound(remoteButtonSound);
       flashRemoteIR();
@@ -628,6 +632,54 @@ if (remote) {
   });
 }
 
+/* Touch remote drawer: swipe up to reveal, swipe down to hide.
+   Tapping the small REMOTE handle also toggles it. */
+if (remoteControl) {
+  const remoteHandle = document.getElementById("remote-handle");
+  let remoteTouchStartY = 0;
+  let remoteTouchStartX = 0;
+  let remoteTouchMoved = false;
+
+  remoteControl.addEventListener("touchstart", (event) => {
+    const touch = event.changedTouches[0];
+    remoteTouchStartY = touch.clientY;
+    remoteTouchStartX = touch.clientX;
+    remoteTouchMoved = false;
+  }, { passive: true });
+
+  remoteControl.addEventListener("touchmove", (event) => {
+    const touch = event.changedTouches[0];
+    const deltaY = touch.clientY - remoteTouchStartY;
+    const deltaX = touch.clientX - remoteTouchStartX;
+    if (Math.abs(deltaY) > 10 || Math.abs(deltaX) > 10) {
+      remoteTouchMoved = true;
+    }
+  }, { passive: true });
+
+  remoteControl.addEventListener("touchend", (event) => {
+    const touch = event.changedTouches[0];
+    const deltaY = touch.clientY - remoteTouchStartY;
+    const deltaX = touch.clientX - remoteTouchStartX;
+
+    const verticalSwipe =
+      Math.abs(deltaY) > 42 &&
+      Math.abs(deltaY) > Math.abs(deltaX) * 1.15;
+
+    if (!verticalSwipe) return;
+
+    if (deltaY < 0) {
+      remoteControl.classList.add("active");
+    } else {
+      remoteControl.classList.remove("active");
+    }
+  }, { passive: true });
+
+  remoteHandle?.addEventListener("click", (event) => {
+    if (remoteTouchMoved) return;
+    event.stopPropagation();
+    remoteControl.classList.toggle("active");
+  });
+}
 
 
 /* -------------------- Mobile Device Functions -------------------- */

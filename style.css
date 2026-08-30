@@ -1,6 +1,20 @@
+/* ==========================================================================
+   BOOTLEG BROADCAST — CLEAN RESPONSIVE STYLESHEET
+   v0.22
+   ========================================================================== */
+
+/* ==========================================================================
+   1. GLOBAL / BASE LAYOUT
+   ========================================================================== */
+
 :root {
-  --stage-width: min(100vw, calc(100vh * 16 / 9));
-  --stage-height: min(100vh, calc(100vw * 9 / 16));
+  --stage-width: 100vw;
+  --stage-height: 100vh;
+
+  --crt-green: #7cff7c;
+  --crt-bright-green: #00ff66;
+
+  --remote-width: 248px;
 }
 
 * {
@@ -13,7 +27,7 @@ body {
   width: 100%;
   min-height: 100%;
   background: #000;
-  color: white;
+  color: #fff;
   font-family: Arial, sans-serif;
   text-align: center;
   overflow: hidden;
@@ -23,11 +37,16 @@ body {
   min-height: 100vh;
 }
 
-/*
-  The stage is a locked 16:9 composition.
-  The background, CRT frame, player and overlays all live inside this one box,
-  so they scale together instead of drifting apart on different screens.
-*/
+@supports (height: 100dvh) {
+  :root {
+    --stage-height: 100dvh;
+  }
+
+  body {
+    min-height: 100dvh;
+  }
+}
+
 #stage {
   position: fixed;
   left: 50%;
@@ -39,47 +58,168 @@ body {
   background: #000;
 }
 
-/* BACKGROUND ROOM */
+/* ==========================================================================
+   2. ROOM / AMBIENT LIGHTING
+   ========================================================================== */
+
 #room-bg {
   position: absolute;
   inset: 0;
+  z-index: 0;
 
-  background-image: url("assets/background/background.png");
+  background-image: url("assets/background/Background-Desktop.png");
   background-repeat: no-repeat;
   background-position: center center;
-
   background-size: cover;
-
-  z-index: 0;
+  background-color: #000;
 }
-@media (max-width: 1000px) {
 
-  #room-bg {
-    background-size: contain;
-    background-color: black;
+#ambient-glow {
+  position: absolute;
+  inset: -8%;
+  z-index: 1;
+  pointer-events: none;
+
+  opacity: 0.38;
+
+  background:
+    radial-gradient(
+      ellipse at 62% 48%,
+      rgba(255, 136, 35, 0.46) 0%,
+      rgba(255, 104, 20, 0.22) 28%,
+      rgba(210, 68, 8, 0.09) 49%,
+      transparent 72%
+    );
+
+  filter: blur(22px) saturate(1.2);
+  mix-blend-mode: screen;
+
+  animation: warmRoomPulse 6.8s ease-in-out infinite;
+
+  transition:
+    opacity 0.8s ease,
+    filter 0.8s ease;
+}
+
+body.tv-powered-on #ambient-glow {
+  opacity: 0.62;
+  filter: blur(18px) saturate(1.35) brightness(1.08);
+  animation-name: warmRoomPulsePowered;
+  animation-duration: 5.4s;
+}
+
+@keyframes warmRoomPulse {
+  0%, 100% {
+    opacity: 0.31;
+    transform: scale(0.99);
   }
 
+  48% {
+    opacity: 0.43;
+    transform: scale(1.018);
+  }
+
+  54% {
+    opacity: 0.37;
+    transform: scale(1.006);
+  }
+}
+
+@keyframes warmRoomPulsePowered {
+  0%, 100% {
+    opacity: 0.54;
+    transform: scale(0.995);
+  }
+
+  35% {
+    opacity: 0.66;
+    transform: scale(1.018);
+  }
+
+  38% {
+    opacity: 0.57;
+    transform: scale(1.004);
+  }
+
+  41% {
+    opacity: 0.68;
+    transform: scale(1.022);
+  }
+
+  70% {
+    opacity: 0.60;
+    transform: scale(1.01);
+  }
 }
 
 #vignette {
   position: absolute;
   inset: 0;
-  pointer-events: none;
   z-index: 1;
-  background: radial-gradient(
-    circle at center,
-    rgba(0,0,0,0) 40%,
-    rgba(0,0,0,0.5) 75%,
-    rgba(0,0,0,0.9) 100%
-  );
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.5) 75%,
+      rgba(0, 0, 0, 0.9) 100%
+    );
 }
 
+/* ==========================================================================
+   3. TV / CRT — DESKTOP BASE
+   ========================================================================== */
+
 #tv-container {
-  position: absolute;
-  width: 65%;
-  left: 40%;
-  top: -8%;
+  position: fixed;
   z-index: 2;
+
+  width: 920px;
+
+  left: 50%;
+  bottom: -125px;
+
+  transform: none;
+}
+
+/* Local warm flicker around the television itself. */
+#tv-container::before {
+  content: "";
+  position: absolute;
+  inset: 8% 12% 8% 4%;
+  z-index: 0;
+  pointer-events: none;
+
+  border-radius: 38%;
+
+  background:
+    radial-gradient(
+      ellipse at 42% 45%,
+      rgba(255, 159, 48, 0.46) 0%,
+      rgba(255, 104, 22, 0.24) 34%,
+      rgba(226, 74, 8, 0.10) 52%,
+      transparent 74%
+    );
+
+  filter: blur(38px) saturate(1.35);
+  opacity: 0.42;
+}
+
+body.tv-powered-on #tv-container::before {
+  opacity: 0.88;
+  animation: tvWarmFlicker 3.8s steps(1, end) infinite;
+}
+
+@keyframes tvWarmFlicker {
+  0%, 6%, 17%, 31%, 49%, 66%, 81%, 100% { opacity: 0.84; }
+  7%   { opacity: 0.67; }
+  18%  { opacity: 0.91; }
+  32%  { opacity: 0.74; }
+  50%  { opacity: 0.88; }
+  67%  { opacity: 0.70; }
+  82%  { opacity: 0.92; }
+  83%  { opacity: 0.78; }
 }
 
 #tv-frame {
@@ -88,32 +228,42 @@ body {
   width: 100%;
   z-index: 3;
   pointer-events: none;
+
+  content: url("assets/crt angle/crt angle.png");
 }
 
 #screen {
   position: absolute;
-  top: 15%;
-  left: 10%;
-  width: 55%;
-  height: 67%;
-  overflow: hidden;
-  background: black;
-  border-radius: 0;
   z-index: 2;
+
+  top: 12%;
+  left: 9.1%;
+  width: 53.9%;
+  height: 67.5%;
+
+  overflow: hidden;
+  background: #000;
+
+  border-radius: 1.2% 1.4% 1.5% 1%;
+
   transform:
-    perspective(900px)
-    rotateY(3deg)
-    rotateX(0deg)
-    skewY(-5deg);
+    perspective(1080px)
+    rotateY(0deg)
+    skewY(0deg);
+
   transform-origin: center center;
 }
 
 #player {
   width: 100%;
   height: 100%;
-  margin-left: -1.5%;
-  margin-top: -1.5%;
+  top: 50px;
+
+  margin-left: -1.4%;
+  margin-top: -1.2%;
+
   object-fit: cover;
+
   filter:
     contrast(1.2)
     brightness(1.1)
@@ -121,32 +271,74 @@ body {
     saturate(1.2);
 }
 
-#power {
+/* ==========================================================================
+   4. CRT EFFECTS / OVERLAYS
+   ========================================================================== */
+
+#crt-overlay {
   position: absolute;
-  top: 40%;
-  left: 35%;
-  transform: translate(-50%, -50%);
-  background: black;
-  color: lime;
-  padding: 15px 25px;
-  font-family: monospace;
-  border: 2px solid lime;
-  cursor: pointer;
+  inset: 0;
+  z-index: 4;
+  pointer-events: none;
+
+  opacity: 0.6;
+
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0,
+      rgba(0, 0, 0, 0) 2px,
+      rgba(0, 0, 0, 0.25) 3px
+    ),
+    repeating-linear-gradient(
+      to right,
+      rgba(255, 0, 0, 0.03) 0,
+      rgba(0, 255, 0, 0.03) 1px,
+      rgba(0, 0, 255, 0.03) 2px
+    );
+
+  mix-blend-mode: multiply;
+  animation: crtFlicker 0.15s infinite;
+}
+
+@keyframes crtFlicker {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 0.65; }
+}
+
+#static {
+  position: absolute;
+  inset: 0;
   z-index: 5;
+  pointer-events: none;
+
+  opacity: 0;
+
+  background:
+    url("assets/static/static.gif")
+    center center / cover
+    no-repeat;
 }
 
 #channelOverlay {
   position: absolute;
-  top: 35px;
-  left: 32px;
-  z-index: 5;
+  z-index: 20;
+
+  top: 60px;
+  left: 24px;
+
   color: rgb(44, 224, 65);
+
   font-family: monospace;
   font-size: 18px;
-  text-shadow: 2px 2px 4px black;
+  text-align: left;
+
+  text-shadow: 2px 2px 4px #000;
+
   pointer-events: none;
+
   opacity: 0;
-  transition: opacity 0.6s ease;
+  transition: opacity 0.7s ease;
 }
 
 #channelNumber,
@@ -154,94 +346,101 @@ body {
   display: block;
 }
 
-#static {
+#channelBug {
   position: absolute;
-  inset: 0;
-  opacity: 0;
-  z-index: 4;
+  z-index: 6;
+
+  right: 7%;
+  bottom: 7%;
+
+  max-width: 15%;
+  max-height: 11%;
+
+  opacity: 0.72;
+
+  object-fit: contain;
+
   pointer-events: none;
-  background: url("assets/static/static.gif") center center / cover no-repeat;
+
+  filter:
+    drop-shadow(0 0 4px rgba(0, 0, 0, 0.8));
 }
 
-/* CRT FLICKER */
-#crt-overlay {
+/* ==========================================================================
+   5. POWER BUTTON
+   ========================================================================== */
+
+#power {
   position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 2;
-  background:
-    repeating-linear-gradient(
-      to bottom,
-      rgba(0,0,0,0) 0px,
-      rgba(0,0,0,0) 2px,
-      rgba(0,0,0,0.25) 3px
-    ),
-    repeating-linear-gradient(
-      to right,
-      rgba(255,0,0,.03) 0px,
-      rgba(0,255,0,.03) 1px,
-      rgba(0,0,255,.03) 2px
-    );
-  mix-blend-mode: multiply;
-  opacity: .6;
-  animation: crtFlicker .15s infinite;
+  z-index: 8;
+
+  left: 35%;
+  top: 40%;
+
+  transform: translate(-50%, -50%);
+
+  padding: 15px 25px;
+
+  border: 2px solid lime;
+
+  background: #000;
+  color: lime;
+
+  font-family: monospace;
+
+  cursor: pointer;
 }
 
-@keyframes crtFlicker {
-  0% { opacity: .6; }
-  50% { opacity: .65; }
-  100% { opacity: .6; }
-}
+/* ==========================================================================
+   6. SCHEDULE GUIDE
+   ========================================================================== */
 
 #scheduleOverlay {
   position: absolute;
-  left: 6%;
-  top: 10%;
-  width: 84%;
-  max-height: 78%;
-
   z-index: 25;
   display: none;
 
-  background: rgba(0, 10, 0, 0.92);
-  color: #7CFF7C;
-  border: 2px solid #7CFF7C;
-  box-shadow: 0 0 12px rgba(124, 255, 124, 0.45);
+  left: 34%;
+  top: 45%;
+  width: 50%;
+  max-height: 75%;
 
-  padding: 14px;
-  font-family: monospace;
-  font-size: clamp(10px, 1.1vw, 14px);
+  transform:
+    translate(-50%, -50%)
+    perspective(900px)
+    rotateY(-6deg)
+    skewY(-1deg);
+
+  transform-origin: right center;
+
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  padding: 10px;
+
+  border: 1px solid rgba(88, 255, 115, 0.82);
+  border-radius: 3px;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(0, 17, 5, 0.95),
+      rgba(0, 8, 3, 0.92)
+    );
+
+  color: #a6ffa6;
+
+  box-shadow:
+    0 0 9px rgba(63, 255, 92, 0.18),
+    inset 0 0 16px rgba(0, 255, 80, 0.035);
+
+  font-family: "Courier New", Courier, monospace;
+  font-size: 11px;
+  line-height: 1.2;
   text-align: left;
 
-  overflow: hidden;
   pointer-events: none;
-
-   transform:
-    skewY(1deg)
-    rotateY(-1deg);
-  transform-origin: center center;
-  clip-path: none;
-}
-
-.schedule-item {
-  padding: 6px 8px;
-  margin-bottom: 5px;
-  border-left: 3px solid rgba(124, 255, 124, 0.4);
-  background: rgba(0, 40, 0, 0.35);
-}
-
-.schedule-item.now-playing {
-  border: 2px solid #00ff66;
-  background: rgba(0, 255, 80, 0.18);
-  color: white;
-  text-shadow: 0 0 6px #00ff66;
-}
-
-.schedule-marker {
-  display: inline-block;
-  min-width: 54px;
-  font-weight: bold;
-  color: #00ff66;
 }
 
 #scheduleOverlay.active {
@@ -249,298 +448,1066 @@ body {
 }
 
 #scheduleOverlay h3 {
-  margin: 0 0 12px;
-  font-size: 18px;
+  margin: 0 0 7px;
+  padding: 0 0 6px;
+
+  border-bottom: 1px solid rgba(95, 255, 119, 0.32);
+
+  color: #c1ffc1;
+
+  font-size: 15px;
+  line-height: 1.1;
 }
 
-#scheduleOverlay div {
-  margin-bottom: 6px;
+.schedule-item {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 7px;
+  align-items: start;
+
+  margin: 0;
+  padding: 4px 5px;
+
+  border-left: 2px solid rgba(103, 255, 123, 0.16);
+
+  background: rgba(0, 38, 8, 0.22);
 }
 
-#controls {
-  position: fixed;
-  left: 50%;
-  bottom: 18px;
-  transform: translateX(-50%);
-  z-index: 10;
+.schedule-item + .schedule-item {
+  margin-top: 2px;
+}
+
+.schedule-item.now-playing {
+  border: 1px solid rgba(0, 255, 85, 0.88);
+  border-left: 3px solid #00ff66;
+
+  background: rgba(0, 255, 80, 0.10);
+
+  color: #f0fff0;
+
+  box-shadow:
+    inset 0 0 10px rgba(0, 255, 80, 0.06);
+}
+
+.schedule-marker {
+  display: block;
+
+  min-width: 0;
+
+  color: #00ff66;
+
+  font-size: 10px;
+  font-weight: 700;
   white-space: nowrap;
 }
 
-button {
-  background: #333;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  margin: 5px;
-  cursor: pointer;
+.schedule-title {
+  min-width: 0;
+
+  color: #a6ffa6;
+
+  font-size: 11px;
+  line-height: 1.17;
+
+  overflow-wrap: anywhere;
 }
 
-button:hover {
-  background: #555;
+.schedule-item.now-playing .schedule-title {
+  color: #f2fff2;
 }
 
-@media (min-width: 1001px) {
-  :root {
-    --stage-width: 100vw;
-    --stage-height: 100vh;
+/* Tablet portrait */
+@media screen
+  and (min-width: 701px)
+  and (max-width: 1180px)
+  and (orientation: portrait) {
+
+  #scheduleOverlay {
+    width: 54%;
+    max-height: 58%;
+    padding: 7px;
+    transform: translate(-50%, -50%);
   }
 
-  #stage {
-    width: 100vw;
-    height: 100vh;
+  #scheduleOverlay h3 {
+    margin-bottom: 5px;
+    padding-bottom: 4px;
+    font-size: 11px;
   }
+
+  .schedule-item {
+    grid-template-columns: 31px minmax(0, 1fr);
+    gap: 4px;
+    padding: 2px 3px;
+  }
+
+  .schedule-marker { font-size: 7px; }
+  .schedule-title  { font-size: 8px; line-height: 1.11; }
 }
 
-/* REMOTE CONTROL */
+/* Mobile portrait */
+@media screen
+  and (max-width: 700px)
+  and (orientation: portrait) {
+
+  #scheduleOverlay {
+    width: 54%;
+    max-height: 57%;
+    padding: 4px;
+    transform: translate(-50%, -50%);
+  }
+
+  #scheduleOverlay h3 {
+    margin-bottom: 3px;
+    padding-bottom: 3px;
+    font-size: 8px;
+  }
+
+  .schedule-item {
+    grid-template-columns: 24px minmax(0, 1fr);
+    gap: 3px;
+    padding: 2px;
+  }
+
+  .schedule-marker { font-size: 5.5px; }
+  .schedule-title  { font-size: 6px; line-height: 1.08; }
+}
+
+/* Phone landscape */
+@media screen
+  and (orientation: landscape)
+  and (max-height: 500px) {
+
+  #scheduleOverlay {
+    width: 40%;
+    max-height: 53%;
+    padding: 6px;
+    transform: translate(-50%, -50%) rotate(-0.8deg);
+  }
+
+  #scheduleOverlay h3 { font-size: 10px; }
+
+  .schedule-item {
+    grid-template-columns: 28px minmax(0, 1fr);
+  }
+
+  .schedule-marker { font-size: 6px; }
+  .schedule-title  { font-size: 7px; }
+}
+
+/* Tablet / iPad landscape */
+@media screen
+  and (orientation: landscape)
+  and (min-height: 501px) 
+  and (max-width: 1366px) {
+
+  #scheduleOverlay {
+    width: 40%;
+    max-height: 54%;
+    padding: 8px;
+    transform: translate(-50%, -50%) rotate(-0.8deg);
+  }
+
+  #scheduleOverlay h3 { font-size: 12px; }
+
+  .schedule-item {
+    grid-template-columns: 34px minmax(0, 1fr);
+  }
+
+  .schedule-marker { font-size: 7px; }
+  .schedule-title  { font-size: 9px; }
+}
+
+/* ==========================================================================
+   7. REMOTE CONTROL
+   ========================================================================== */
 
 #remote-control {
   position: fixed;
-  left: 20%;
-  bottom: -380px;
-  transform: translateX(-50%);
   z-index: 100;
 
-  width: 320px;
+  left: 18%;
+  bottom: 0;
+
+  width: var(--remote-width);
+
+  transform:
+    translate(-50%, calc(100% - 42px));
+
+  transform-origin: bottom center;
 
   transition:
-    bottom 0.45s cubic-bezier(.2,.8,.2,1);
+    transform 0.34s cubic-bezier(0.2, 0.78, 0.2, 1);
+
+  filter:
+    drop-shadow(0 16px 18px rgba(0, 0, 0, 0.5));
 
   user-select: none;
+  touch-action: none;
 }
 
-#remote-control:hover,
 #remote-control.active {
-  bottom: -24px;
+  transform: translate(-50%, 10px);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  #remote-control:hover {
+    transform: translate(-50%, 10px);
+  }
 }
 
 #remote-handle {
-  width: 140px;
-  margin: 0 auto;
+  width: 106px;
+  min-height: 42px;
 
-  background: linear-gradient(
-    to bottom,
-    #555,
-    #2d2d2d
-  );
+  margin: 0 auto -2px;
+  padding: 9px 0 8px;
 
-  color: #cfcfcf;
+  border: 1px solid #050505;
+  border-bottom: 0;
 
-  padding: 12px 0;
+  border-radius: 14px 14px 3px 3px;
 
-  border-radius: 18px 18px 0 0;
+  background:
+    linear-gradient(#343434, #131313);
 
-  font-family: monospace;
-  font-size: 13px;
-  letter-spacing: 2px;
+  color: #d2d2d2;
 
-  border: 2px solid #111;
-  border-bottom: none;
+  font: 9px/1 monospace;
+  letter-spacing: 2.2px;
 
   box-shadow:
-    0 0 18px rgba(0,0,0,.45);
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    0 -3px 12px rgba(0, 0, 0, 0.42);
+
+  cursor: grab;
+}
+
+#remote-handle::after {
+  content: "▲  PULL REMOTE";
+
+  display: block;
+
+  margin-top: 5px;
+
+  color: #9a9a9a;
+
+  font-size: 7px;
+  letter-spacing: 0.8px;
 }
 
 .remote-body {
+  position: relative;
+
+  padding: 17px 16px 38px;
+
+  border: 2px solid #050505;
+
+  border-radius:
+    24px 24px 34px 34px;
+
   background:
     linear-gradient(
-      to bottom,
-      #444,
-      #1e1e1e
+      90deg,
+      rgba(255, 255, 255, 0.025),
+      transparent 16%,
+      transparent 84%,
+      rgba(255, 255, 255, 0.02)
+    ),
+    linear-gradient(
+      #242424,
+      #111 58%,
+      #090909
     );
-
-  border-radius: 28px 28px 0 0;
-
-  padding: 20px 20px 40px;
-
-  border: 2px solid #111;
 
   box-shadow:
-    0 0 30px rgba(0,0,0,.55);
-
-  backdrop-filter: blur(4px);
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    inset 0 -8px 18px rgba(0, 0, 0, 0.55);
 }
 
-.remote-row {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 12px;
-}
+.remote-body::before {
+  content: "BOOTLEG";
 
-.remote-btn {
-  flex: 1;
+  display: block;
 
-  background:
-    linear-gradient(
-      to bottom,
-      #5f5f5f,
-      #303030
-    );
+  margin: -3px 0 10px;
 
-  color: white;
+  color: #858585;
 
-  border: 1px solid #111;
+  font:
+    bold 9px/1 Arial,
+    sans-serif;
 
-  border-radius: 14px;
+  letter-spacing: 2px;
 
-  padding: 12px 10px;
-
-  cursor: pointer;
-
-  font-size: 12px;
-  font-family: monospace;
-
-  transition:
-    transform .08s ease,
-    background .15s ease;
-}
-
-.remote-btn:hover {
-  background:
-    linear-gradient(
-      to bottom,
-      #6a6a6a,
-      #383838
-    );
-}
-
-.remote-btn:active {
-  transform: translateY(2px);
-}
-
-.power-btn {
-  color: #ff7b7b;
-}
-
-.big-btn {
-  font-size: 11px;
-  letter-spacing: 1px;
+  text-shadow:
+    0 -1px 0 #000;
 }
 
 #remote-ir {
-  width: 10px;
-  height: 10px;
-  margin: 6px auto 10px;
+  width: 7px;
+  height: 7px;
 
+  margin: 4px auto 13px;
+
+  border: 1px solid #080000;
   border-radius: 50%;
-  background: #320000;
-  box-shadow: 0 0 4px rgba(255, 0, 0, 0.2);
 
-  transition: background 0.08s ease, box-shadow 0.08s ease;
+  background: #210000;
+
+  transition:
+    background 0.08s ease,
+    box-shadow 0.08s ease;
 }
 
 #remote-ir.flash {
   background: red;
+
   box-shadow:
     0 0 8px red,
     0 0 18px rgba(255, 0, 0, 0.9);
 }
 
-/* MINI CHANNEL LOGOS (bugs) */
-#channelBug {
-  position: absolute;
-  right: 8%;
-  bottom: 6%;
-  max-width: 16%;
-  max-height: 12%;
-  z-index: 6;
-  opacity: 0.72;
-  pointer-events: none;
-  object-fit: contain;
-  filter: drop-shadow(0 0 4px rgba(0,0,0,0.8));
+.remote-row {
+  display: flex;
+
+  gap: 9px;
+
+  margin-bottom: 10px;
 }
 
-/* MOBILE / SMALL TOUCH SCREENS — authoritative overrides */
-@media screen and (max-width: 700px) {
+.remote-btn {
+  flex: 1;
+
+  min-height: 36px;
+
+  margin: 0;
+  padding: 9px 7px;
+
+  border: 1px solid #060606;
+
+  border-radius: 9px;
+
+  background:
+    linear-gradient(
+      #454545 0%,
+      #303030 45%,
+      #252525 100%
+    );
+
+  color: #d7d7d7;
+
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.12),
+    0 2px 2px rgba(0, 0, 0, 0.65);
+
+  font:
+    bold 9px/1 monospace;
+
+  letter-spacing: 0.35px;
+
+  text-shadow:
+    0 -1px 0 #111;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.08s ease,
+    background 0.15s ease;
+}
+
+.remote-btn:hover {
+  background:
+    linear-gradient(
+      #555,
+      #303030
+    );
+}
+
+.remote-btn:active {
+  transform:
+    translateY(2px)
+    scale(0.98);
+
+  box-shadow:
+    inset 0 2px 4px
+    rgba(0, 0, 0, 0.65);
+}
+
+.power-btn {
+  flex: 0 0 42%;
+
+  border-radius: 18px;
+
+  background:
+    linear-gradient(
+      #b73535,
+      #711919
+    );
+
+  color: #fff;
+}
+
+.big-btn {
+  min-height: 31px;
+
+  border-radius: 8px;
+
+  font-size: 8px;
+  letter-spacing: 0.7px;
+}
+
+/* ==========================================================================
+   8. TABLET PORTRAIT
+   701px–1180px, portrait
+   ========================================================================== */
+
+@media screen
+  and (min-width: 701px)
+  and (max-width: 1180px)
+  and (orientation: portrait) {
+
   #room-bg {
-    background-image: url("assets/background/mobile-background.png");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: #000;
+    background-image:
+      url("assets/background/Background-Tablet.png");
   }
 
   #tv-frame {
-    content: url("assets/crt/crt-front.png");
-  }
-
-  #stage {
-    width: 100vw;
-    height: 100vh;
+    content:
+      url("assets/crt/crt-front.png");
   }
 
   #tv-container {
-    width: 115vw;
-    left: -7%;
-    top: 18%;
+    position: absolute;
+    bottom: auto;
+
+    width: min(72vw, 700px);
+
+    left: 50%;
+    top: 15%;
+
+    transform:
+      translateX(-50%);
   }
 
   #screen {
-    top: 10%;
-    left: 11%;
+    top: 10.3%;
+    left: 10.9%;
+
     width: 65%;
-    height: 75%;
-    transform: none;
-    transform-origin: center center;
+    height: 74.3%;
+
     border-radius: 12px;
+
+    transform: none;
+
     touch-action: pan-y;
   }
 
   #player {
-    width: 100%;
-    height: 100%;
-    margin: 0;
+    width: 102%;
+    height: 102%;
+
+    margin: -1%;
+
     object-fit: cover;
-    transform: none;
   }
 
   #power {
+    left: 43%;
+    top: 44%;
+
     font-size: 12px;
+
     padding: 10px 14px;
   }
 
   #channelOverlay {
     top: 24px;
     left: 22px;
+
     font-size: 14px;
-  }
-
-  #scheduleOverlay {
-    font-size: 11px;
-    padding: 10px;
-  }
-
-  #scheduleOverlay h3 {
-    font-size: 15px;
-    margin-bottom: 8px;
-  }
-
-  .schedule-item {
-    padding: 4px 6px;
-    margin-bottom: 3px;
-  }
-
-  .schedule-marker {
-    min-width: 48px;
   }
 
   #channelBug {
     right: 8%;
     bottom: 15%;
+
     max-width: 18%;
     max-height: 12%;
   }
 
-  #remote-control {
-    left: 50%;
-    bottom: -280px;
-    width: 92vw;
-    max-width: 340px;
-    transform: translateX(-50%) scale(0.66);
-    transform-origin: bottom center;
+  #scheduleOverlay {
+    left: 43%;
+    top: 45%;
+
+    width: 56%;
+    max-height: 62%;
+
+    transform:
+      translate(-50%, -50%);
+
+    padding: 8px;
+
+    font-size: 10px;
   }
 
-  #remote-control:hover,
+  #scheduleOverlay h3 {
+    margin-bottom: 7px;
+    font-size: 14px;
+  }
+
+  .schedule-item {
+    margin-bottom: 2px;
+    padding: 3px 5px;
+  }
+
+  #remote-control {
+    left: 50%;
+    width: 224px;
+  }
+
   #remote-control.active {
-    bottom: 8px;
+    transform: translate(-50%, 8px);
+  }
+
+  #remote-handle {
+    width: 96px;
+
+    padding: 8px 0 7px;
+  }
+
+  .remote-body {
+    padding: 14px 14px 34px;
+  }
+
+  .remote-btn {
+    min-height: 33px;
+    font-size: 8px;
+  }
+}
+
+/* ==========================================================================
+   9. MOBILE PORTRAIT
+   <= 700px, portrait
+   ========================================================================== */
+
+@media screen
+  and (max-width: 700px)
+  and (orientation: portrait) {
+
+  #room-bg {
+    background-image:
+      url("assets/background/Background-Mobile.png");
+  }
+
+  #tv-frame {
+    content:
+      url("assets/crt/crt-front.png");
+  }
+
+  #tv-container {
+    position: absolute;
+    bottom: auto;
+
+    width: 88vw;
+
+    left: 50%;
+    top: 20%;
+
+    transform:
+      translateX(-50%);
+  }
+
+  #screen {
+    top: 10.3%;
+    left: 10.9%;
+
+    width: 65%;
+    height: 74.3%;
+
+    border-radius: 10px;
+
+    transform: none;
+
+    touch-action: pan-y;
+  }
+
+  #player {
+    width: 102%;
+    height: 102%;
+
+    margin: -1%;
+
+    object-fit: cover;
+  }
+
+  #power {
+    left: 43%;
+    top: 44%;
+
+    padding: 8px 11px;
+
+    font-size: 10px;
+  }
+
+  #channelOverlay {
+    top: 18px;
+    left: 17px;
+
+    font-size: 11px;
+  }
+
+  #channelBug {
+    right: 8%;
+    bottom: 15%;
+
+    max-width: 18%;
+    max-height: 12%;
+  }
+
+  #scheduleOverlay {
+    left: 43%;
+    top: 45%;
+
+    width: 55%;
+    max-height: 58%;
+
+    transform:
+      translate(-50%, -50%);
+
+    overflow: hidden;
+
+    padding: 5px;
+
+    font-size: 7px;
+    line-height: 1.15;
+  }
+
+  #scheduleOverlay h3 {
+    margin: 0 0 4px;
+
+    font-size: 9px;
+    line-height: 1.1;
+  }
+
+  .schedule-item {
+    margin-bottom: 1px;
+    padding: 2px 3px;
+  }
+
+  .schedule-marker {
+    min-width: 27px;
+
+    font-size: 6px;
+  }
+
+  .schedule-title {
+    font-size: 7px;
+    line-height: 1.15;
+  }
+
+  #remote-control {
+    left: 50%;
+
+    width: 224px;
+  }
+
+  #remote-control.active {
+    transform:
+      translate(-50%, 8px);
+  }
+
+  #remote-handle {
+    width: 96px;
+
+    padding: 8px 0 7px;
+  }
+
+  .remote-body {
+    padding:
+      14px 14px 34px;
+  }
+
+  .remote-btn {
+    min-height: 33px;
+
+    font-size: 8px;
+  }
+}
+
+/* Short phones such as iPhone SE. */
+@media screen
+  and (max-width: 420px)
+  and (max-height: 720px)
+  and (orientation: portrait) {
+
+  #tv-container {
+    width: 89vw;
+    top: 13.5%;
+  }
+
+  #scheduleOverlay {
+    left: 43%;
+    top: 43%;
+
+    width: 56%;
+    max-height: 59.5%;
+
+    padding: 4px;
+
+    font-size: 6px;
+  }
+
+  #scheduleOverlay h3 {
+    font-size: 8px;
+  }
+
+  .schedule-marker {
+    min-width: 24px;
+
+    font-size: 5.5px;
+  }
+
+  .schedule-title {
+    font-size: 6px;
+  }
+}
+
+/* ==========================================================================
+   10. PHONE LANDSCAPE
+   <= 500px viewport height, landscape
+   ========================================================================== */
+
+@media screen
+  and (orientation: landscape)
+  and (max-height: 500px) {
+
+  #room-bg {
+    background-image:
+      url("assets/background/Background-Desktop.png");
+  }
+
+  #tv-frame {
+    content:
+      url("assets/crt angle/crt angle.png");
+  }
+
+  #tv-container {
+    position: absolute;
+    bottom: auto;
+
+    width: min(75vw, 900px);
+
+    left: calc(54% + 100px);
+    top: -3%;
+
+    transform: translateX(-50%);
+  }
+
+  #screen {
+    top: 11.6%;
+    left: 9.1%;
+
+    width: 53.9%;
+    height: 67.5%;
+
+    border-radius:
+      1.2% 1.4% 1.5% 1%;
+
+    transform:
+      perspective(1050px)
+      rotateY(1.8deg)
+      skewY(1.15deg);
+  }
+
+  #player {
+    width: 103%;
+    height: 103.5%;
+
+    margin-left: -1.4%;
+    margin-top: -1.2%;
+  }
+
+  #power {
+    left: 35%;
+    top: 40%;
+  }
+
+#scheduleOverlay {
+  left: 35%;
+  top: 45%;
+
+  width: 39%;
+  max-height: 52%;
+
+  transform:
+    translate(-50%, -50%)
+    rotate(-1.2deg);
+
+  padding: 5px;
+
+  font-size: 7px;
+}
+
+#scheduleOverlay h3 {
+  font-size: 9px;
+}
+
+.schedule-marker {
+  min-width: 27px;
+  font-size: 6px;
+}
+
+.schedule-title {
+  font-size: 7px;
+}
+
+  .schedule-item {
+    margin-bottom: 2px;
+    padding: 3px 4px;
+  }
+}
+
+/* LARGER PHONES IN LANDSCAPE — excludes iPhone SE */
+@media screen
+  and (orientation: landscape)
+  and (min-width: 760px)
+  and (max-width: 1000px)
+  and (max-height: 500px) {
+
+  #tv-container {
+    position: absolute;
+    bottom: auto;
+
+    width: min(82vw, 520px);
+
+    left: calc(56% + 160px);
+    top: -5%;
+
+    transform: translateX(-50%);
+  }
+}
+
+/* ==========================================================================
+   11. TABLET LANDSCAPE
+   501px–900px viewport height, <= 1366px width
+   ========================================================================== */
+
+@media screen
+  and (orientation: landscape)
+  and (min-height: 501px)
+  and (max-height: 900px)
+  and (max-width: 1366px) {
+
+  #room-bg {
+    background-image:
+      url("assets/background/Background-Desktop.png");
+  }
+
+  #tv-frame {
+    content:
+      url("assets/crt angle/crt angle.png");
+  }
+
+  #tv-container {
+    position: absolute;
+    bottom: auto;
+
+    width: min(86vw, 1100px);
+
+    left: 75%;
+    top: -5%;
+
+    transform:
+      translateX(-50%);
+  }
+
+  #screen {
+    top: 11.6%;
+    left: 9.1%;
+
+    width: 53.9%;
+    height: 67.5%;
+
+    border-radius:
+      1.2% 1.4% 1.5% 1%;
+
+    transform:
+      perspective(1050px)
+      rotateY(1.8deg)
+      skewY(1.15deg);
+  }
+
+  #player {
+    width: 103%;
+    height: 103.5%;
+
+    margin-left: -1.4%;
+    margin-top: -1.2%;
+  }
+
+  #power {
+    left: 35%;
+    top: 40%;
+  }
+
+  #scheduleOverlay {
+    left: 35%;
+    top: 45%;
+
+    width: 45%;
+    max-height: 58%;
+
+    transform:
+      translate(-50%, -50%)
+      rotate(-2deg);
+
+    padding: 10px;
+
+    font-size: 10px;
+  }
+
+  #scheduleOverlay h3 {
+    margin-bottom: 7px;
+    font-size: 14px;
+  }
+
+  #remote-control {
+    left: 50%;
+    width: 224px;
+  }
+
+  #remote-control.active {
+    transform:
+      translate(-50%, 8px);
+  }
+}
+
+/* IPAD PRO LANDSCAPE */
+@media screen
+  and (orientation: landscape)
+  and (min-height: 901px)
+  and (max-height: 1100px)
+  and (min-width: 1180px)
+  and (max-width: 1400px) {
+
+  #tv-container {
+    position: absolute;
+    bottom: auto;
+
+    width: min(90vw, 1220px);
+
+    left: 72%;
+    top: -3%;
+
+    transform: translateX(-50%);
+  }
+}
+
+/* ==========================================================================
+   12. ACCESSIBILITY / REDUCED MOTION
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  #ambient-glow,
+  #crt-overlay,
+  body.tv-powered-on #tv-container::before {
+    animation: none !important;
+  }
+}
+
+
+/* ==========================================================================
+   SITE BRAND / SIGNAL GLITCH
+   ========================================================================== */
+
+#site-brand {
+  position: fixed;
+  top: 15px;
+  left: 17px;
+  z-index: 120;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 5px 9px 5px 5px;
+
+  border: 1px solid rgba(226, 131, 255, 0.20);
+  border-radius: 8px;
+
+  background: rgba(0, 0, 0, 0.30);
+  backdrop-filter: blur(3px);
+
+  color: #f7ddff;
+
+  font-family: monospace;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.15px;
+
+  text-shadow:
+    0 0 5px rgba(212, 101, 255, 0.78),
+    1px 0 rgba(0, 255, 255, 0.30);
+
+  pointer-events: none;
+
+  animation: brandSignalGlitch 7.5s steps(1, end) infinite;
+}
+
+#site-brand-logo {
+  display: block;
+
+  width: 76px;
+  height: 76px;
+
+  object-fit: contain;
+
+  filter:
+    drop-shadow(0 0 5px rgba(209, 102, 255, 0.72));
+}
+
+#site-brand-text {
+  white-space: nowrap;
+}
+
+@keyframes brandSignalGlitch {
+  0%, 89%, 93%, 100% {
+    transform: translate(0, 0);
+    filter: none;
+  }
+
+  90% {
+    transform: translate(1px, 0);
+    filter: hue-rotate(10deg);
+  }
+
+  91% {
+    transform: translate(-2px, 1px);
+    filter: contrast(1.15);
+  }
+
+  92% {
+    transform: translate(1px, -1px);
+    filter: hue-rotate(-12deg);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #site-brand {
+    top: 8px;
+    left: 8px;
+    gap: 5px;
+
+    padding: 3px 6px 3px 3px;
+
+    font-size: 9px;
+    letter-spacing: 0.7px;
+  }
+
+  #site-brand-logo {
+    width: 28px;
+    height: 28px;
   }
 }
