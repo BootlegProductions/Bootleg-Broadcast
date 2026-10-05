@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-10-01T11:01:30Z",
+  "method": "Sample range GET and MP4 header check, not full browser playback",
+  "samples": [
+    {
+      "month": "october",
+      "channel": "90s Toons",
+      "title": "Archie's Weird Mysteries - E01 (Attack of the Killer Spuds)",
+      "url": "https://archive.org/download/archies-weird-mysteries-complete-series-1999/Archie%27s%20Weird%20Mysteries%20-%20E01%20%28Attack%20of%20the%20Killer%20Spuds%29.mp4",
+      "http_status": 206,
+      "content_type": "video/mp4",
+      "bytes_read": 65536,
+      "mp4_header": true
+    },
+    {
+      "month": "october",
+      "channel": "Star Spangled TV",
+      "title": "Freddy\u2019s Nightmares \u2014 S01E01 No More Mr Nice Guy",
+      "url": "https://archive.org/download/a_nightmare_on_elm_street/A%20Nightmare%20on%20Elm%20Street/Freddy%27s%20Nightmares/S01/Freddys.Nightmare.S01E01.No.More.Mr.Nice.Guy.mp4",
+      "http_status": 206,
+      "content_type": "video/mp4",
+      "bytes_read": 65536,
+      "mp4_header": true
+    },
+    {
+      "month": "october",
+      "channel": "What",
+      "title": "The Scariest Places on Earth - Ep 01 - Satan's Dormitory",
+      "url": "https://archive.org/download/the-scariest-places-on-earth-collection/Scariest%20Places%20On%20Earth/The%20Scariest%20Places%20on%20Earth%20-%20Ep%2001%20-%20Satan%27s%20Dormitory.mp4",
+      "http_status": 206,
+      "content_type": "video/mp4",
+      "bytes_read": 65536,
+      "mp4_header": true
+    },
+    {
+      "month": "december",
+      "channel": "90s Toons",
+      "title": "Batman The Animated Series - Christmas with the Joker (1992)",
+      "url": "https://archive.org/download/adventures-in--christmas/Batman%20The%20Animated%20Series%20-%20Christmas%20with%20the%20Joker%20%281992%29.mp4",
+      "http_status": 206,
+      "content_type": "video/mp4",
+      "bytes_read": 65536,
+      "mp4_header": true
+    },
+    {
+      "month": "december",
+      "channel": "Cartoons Cartoons",
+      "title": "Codename Kids Next Door - Operation N.A.U.G.H.T.Y (2005)",
+      "url": "https://archive.org/download/adventures-in--christmas/Codename%20Kids%20Next%20Door%20-%20Operation%20N.A.U.G.H.T.Y%20%282005%29.ia.mp4",
+      "http_status": 206,
+      "content_type": "video/mp4",
+      "bytes_read": 65536,
+      "mp4_header": true
+    },
+    {
+      "month": "december",
+      "channel": "Off-Licence TV",
+      "title": "Merry Christmas Mr Bean (1992)",
+      "url": "https://archive.org/download/adventures-in--christmas/Merry%20Christmas%20Mr%20Bean%20%281992%29.ia.mp4",
+      "http_status": 206,
+      "content_type": "video/mp4",
+      "bytes_read": 65536,
+      "mp4_header": true
+    }
+  ]
+}

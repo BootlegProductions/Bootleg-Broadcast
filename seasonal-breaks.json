@@ -1,0 +1,373 @@
+{
+  "october": {
+    "ident": "assets/seasonal-idents/october.mp4",
+    "adverts": [
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "2006 Pumpkin Carving",
+        "url": "https://archive.org/download/AdultswimBumps/2006_Pumpkin_Carving.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 29.37,
+        "filename": "2006_Pumpkin_Carving.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/AdultswimBumps",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        }
+      },
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "2009 Pumpkins",
+        "url": "https://archive.org/download/AdultswimBumps/2009_Pumpkins.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 15.09,
+        "filename": "2009_Pumpkins.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/AdultswimBumps",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        }
+      },
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "2011 Halloween Question to AS",
+        "url": "https://archive.org/download/AdultswimBumps/2011_Halloween_Question_to_AS.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 15.25,
+        "filename": "2011_Halloween_Question_to_AS.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/AdultswimBumps",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        },
+        "daypart": "Evening"
+      },
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "CH Halloween Costumes",
+        "url": "https://archive.org/download/AdultswimBumps/CH_Halloween_Costumes.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 15.22,
+        "filename": "CH_Halloween_Costumes.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/AdultswimBumps",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        }
+      },
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "CN Halloween Kids Costumes",
+        "url": "https://archive.org/download/AdultswimBumps/CN_Halloween_Kids_Costumes.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 15.38,
+        "filename": "CN_Halloween_Kids_Costumes.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/AdultswimBumps",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        }
+      },
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "Carved Pumpkins 2010",
+        "url": "https://archive.org/download/AdultswimBumps/Carved_Pumpkins_2010.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 15.19,
+        "filename": "Carved_Pumpkins_2010.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/AdultswimBumps",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        }
+      },
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "MTV - Indent - Halloween Horror",
+        "url": "https://archive.org/download/nick-gas-heroes-of-the-game-the-driveway/Ad%20Blocks/BUMPERS/MTV%20Bumpers/MTV%20-%20Indent%20-%20Halloween%20Horror.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 11.98,
+        "filename": "Ad Blocks/BUMPERS/MTV Bumpers/MTV - Indent - Halloween Horror.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/nick-gas-heroes-of-the-game-the-driveway",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        },
+        "daypart": "Evening"
+      },
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "MTV - Indent - Vampire (Halloween)",
+        "url": "https://archive.org/download/nick-gas-heroes-of-the-game-the-driveway/Ad%20Blocks/BUMPERS/MTV%20Bumpers/MTV%20-%20Indent%20-%20Vampire%20%28Halloween%29.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 10.81,
+        "filename": "Ad Blocks/BUMPERS/MTV Bumpers/MTV - Indent - Vampire (Halloween).mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/nick-gas-heroes-of-the-game-the-driveway",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        },
+        "daypart": "Evening"
+      },
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "MTV - Indent - Vampire",
+        "url": "https://archive.org/download/nick-gas-heroes-of-the-game-the-driveway/Ad%20Blocks/BUMPERS/MTV%20Bumpers/MTV%20-%20Indent%20-%20Vampire.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 10.68,
+        "filename": "Ad Blocks/BUMPERS/MTV Bumpers/MTV - Indent - Vampire.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/nick-gas-heroes-of-the-game-the-driveway",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        },
+        "daypart": "Evening"
+      },
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "CN Generic Halloween Doors",
+        "url": "https://archive.org/download/nick-gas-heroes-of-the-game-the-driveway/Ad%20Blocks/BUMPERS/Cartoon%20Network%20Bumpers/2%20-%20Station%20IDs/CN%20Generic%20Halloween%20Doors.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 9.48,
+        "filename": "Ad Blocks/BUMPERS/Cartoon Network Bumpers/2 - Station IDs/CN Generic Halloween Doors.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/nick-gas-heroes-of-the-game-the-driveway",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        }
+      },
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "CN Generic Halloween Skeleton",
+        "url": "https://archive.org/download/nick-gas-heroes-of-the-game-the-driveway/Ad%20Blocks/BUMPERS/Cartoon%20Network%20Bumpers/2%20-%20Station%20IDs/CN%20Generic%20Halloween%20Skeleton.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 6.04,
+        "filename": "Ad Blocks/BUMPERS/Cartoon Network Bumpers/2 - Station IDs/CN Generic Halloween Skeleton.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/nick-gas-heroes-of-the-game-the-driveway",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        }
+      }
+    ]
+  },
+  "december": {
+    "ident": "assets/seasonal-idents/december.mp4",
+    "adverts": [
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "1975 Says Merry Christmas",
+        "url": "https://archive.org/download/AdultswimBumps/1975_Says_Merry_Christmas.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 10.18,
+        "filename": "1975_Says_Merry_Christmas.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/AdultswimBumps",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        }
+      },
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "2003 Christmas Champagne",
+        "url": "https://archive.org/download/AdultswimBumps/2003_Christmas_Champagne.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 14.82,
+        "filename": "2003_Christmas_Champagne.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/AdultswimBumps",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        },
+        "daypart": "Evening"
+      },
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "AS Exploiting Christmas Value",
+        "url": "https://archive.org/download/AdultswimBumps/AS_Exploiting_Christmas_Value.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 15.22,
+        "filename": "AS_Exploiting_Christmas_Value.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/AdultswimBumps",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        },
+        "daypart": "Evening"
+      },
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "Cartoon Theatre - A Flintstones Christmas Carol Premiere 1999",
+        "url": "https://archive.org/download/nick-gas-heroes-of-the-game-the-driveway/Ad%20Blocks/BUMPERS/CN%20Ads/Cartoon%20Theatre%20-%20A%20Flintstones%20Christmas%20Carol%20Premiere%201999.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 30.63,
+        "filename": "Ad Blocks/BUMPERS/CN Ads/Cartoon Theatre - A Flintstones Christmas Carol Premiere 1999.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/nick-gas-heroes-of-the-game-the-driveway",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        }
+      },
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "CN Generic Christmas Lights",
+        "url": "https://archive.org/download/nick-gas-heroes-of-the-game-the-driveway/Ad%20Blocks/BUMPERS/Cartoon%20Network%20Bumpers/2%20-%20Station%20IDs/CN%20Generic%20Christmas%20Lights.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 9.18,
+        "filename": "Ad Blocks/BUMPERS/Cartoon Network Bumpers/2 - Station IDs/CN Generic Christmas Lights.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/nick-gas-heroes-of-the-game-the-driveway",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        }
+      },
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "CN Generic Christmas Santa",
+        "url": "https://archive.org/download/nick-gas-heroes-of-the-game-the-driveway/Ad%20Blocks/BUMPERS/Cartoon%20Network%20Bumpers/2%20-%20Station%20IDs/CN%20Generic%20Christmas%20Santa.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 5.21,
+        "filename": "Ad Blocks/BUMPERS/Cartoon Network Bumpers/2 - Station IDs/CN Generic Christmas Santa.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/nick-gas-heroes-of-the-game-the-driveway",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        }
+      },
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "Ahf Christmas Sale Advert",
+        "url": "https://archive.org/download/AhfChristmasSaleAdvert/Ahf%20Christmas%20Sale%20Advert.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 12.88,
+        "filename": "Ahf Christmas Sale Advert.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/AhfChristmasSaleAdvert",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        }
+      },
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "Allder's Christmas Sale",
+        "url": "https://archive.org/download/AlldersChristmasSale/Allder%27s%20Christmas%20Sale.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 12.44,
+        "filename": "Allder's Christmas Sale.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/AlldersChristmasSale",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        }
+      }
+    ]
+  },
+  "regular": {
+    "ident": "",
+    "adverts": [
+      {
+        "type": "Advert",
+        "show": "Commercial Break",
+        "title": "Cartoon Network - Bumper - Powerpuff Girls CN City Era Bumper 360p",
+        "url": "https://archive.org/download/nick-gas-heroes-of-the-game-the-driveway/Ad%20Blocks/BUMPERS/Cartoon%20Network%20Bumpers/Cartoon%20Network%20-%20Bumper%20-%20Powerpuff%20Girls%20CN%20City%20Era%20Bumper_360p.mp4",
+        "link_status": "unknown",
+        "duration_seconds": 12.05,
+        "filename": "Ad Blocks/BUMPERS/Cartoon Network Bumpers/Cartoon Network - Bumper - Powerpuff Girls CN City Era Bumper_360p.mp4",
+        "metadata_filename_confirmed": true,
+        "source_page": "https://archive.org/details/nick-gas-heroes-of-the-game-the-driveway",
+        "direct_link_check": {
+          "http_status": 206,
+          "content_type": "video/mp4",
+          "mp4_header_confirmed": true
+        }
+      }
+    ]
+  },
+  "city": [
+    {
+      "type": "Advert",
+      "show": "Commercial Break",
+      "title": "Cartoon Network - Bumper - Powerpuff Girls CN City Era Bumper 360p",
+      "url": "https://archive.org/download/nick-gas-heroes-of-the-game-the-driveway/Ad%20Blocks/BUMPERS/Cartoon%20Network%20Bumpers/Cartoon%20Network%20-%20Bumper%20-%20Powerpuff%20Girls%20CN%20City%20Era%20Bumper_360p.mp4",
+      "link_status": "unknown",
+      "duration_seconds": 12.05,
+      "filename": "Ad Blocks/BUMPERS/Cartoon Network Bumpers/Cartoon Network - Bumper - Powerpuff Girls CN City Era Bumper_360p.mp4",
+      "metadata_filename_confirmed": true,
+      "source_page": "https://archive.org/details/nick-gas-heroes-of-the-game-the-driveway",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      }
+    }
+  ],
+  "fireplace": {
+    "type": "Filler",
+    "title": "Fireplace HD",
+    "url": "https://archive.org/download/fireplacehd/Fireplace%20HD.mp4",
+    "duration_seconds": 8194.99,
+    "source_page": "https://archive.org/details/fireplacehd",
+    "direct_link_check": {
+      "http_status": 206,
+      "content_type": "video/mp4",
+      "mp4_header_confirmed": true
+    }
+  }
+}

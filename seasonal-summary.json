@@ -1,0 +1,192 @@
+{
+  "october": {
+    "days": 31,
+    "source_pool_programmes": {
+      "90s Toons": 366,
+      "AAA": 68,
+      "Cartoons Cartoons": 68,
+      "Dickleodeon": 144,
+      "Dizzy": 77,
+      "GirlyPop": 92,
+      "Japanime": 171,
+      "Off-Licence TV": 73,
+      "Star Spangled TV": 107,
+      "What": 25
+    },
+    "daily_minimum": 8,
+    "featured_movies": [
+      {
+        "date": 1,
+        "channel": "Star Spangled TV",
+        "title": "A Nightmare on Elm Street (1984) "
+      },
+      {
+        "date": 2,
+        "channel": "Star Spangled TV",
+        "title": "Freddy vs. Jason (2003) "
+      },
+      {
+        "date": 3,
+        "channel": "Star Spangled TV",
+        "title": "Gremlins (1984)"
+      },
+      {
+        "date": 4,
+        "channel": "Star Spangled TV",
+        "title": "Gremlins 2: The New Batch (1990)"
+      },
+      {
+        "date": 5,
+        "channel": "Star Spangled TV",
+        "title": "Ghost Rider (2007)"
+      },
+      {
+        "date": 6,
+        "channel": "Star Spangled TV",
+        "title": "Ghost Rider: Spirit of Vengeance (2011)"
+      },
+      {
+        "date": 7,
+        "channel": "Star Spangled TV",
+        "title": "Abraham Lincoln Vampire Hunter (2012)"
+      },
+      {
+        "date": 8,
+        "channel": "Star Spangled TV",
+        "title": "Beetlejuice (1988)"
+      },
+      {
+        "date": 9,
+        "channel": "Star Spangled TV",
+        "title": "The Cabin in the Woods (2011)"
+      },
+      {
+        "date": 10,
+        "channel": "Star Spangled TV",
+        "title": "Spawn"
+      },
+      {
+        "date": 11,
+        "channel": "Star Spangled TV",
+        "title": "Halloween (2007)"
+      },
+      {
+        "date": 12,
+        "channel": "Star Spangled TV",
+        "title": "Halloween 2 (2009)"
+      },
+      {
+        "date": 13,
+        "channel": "Star Spangled TV",
+        "title": "Five Nights at Freddy\u2019s (2023)"
+      },
+      {
+        "date": 14,
+        "channel": "Star Spangled TV",
+        "title": "Five Nights at Freddy\u2019s 2 (2025)"
+      },
+      {
+        "date": 15,
+        "channel": "Star Spangled TV",
+        "title": "The Shining (1997)"
+      },
+      {
+        "date": 16,
+        "channel": "Star Spangled TV",
+        "title": "The Slumber Party Massacre (1982)"
+      },
+      {
+        "date": 17,
+        "channel": "Star Spangled TV",
+        "title": "The Texas Chain Saw Massacre (1974)"
+      },
+      {
+        "date": 18,
+        "channel": "Star Spangled TV",
+        "title": "The Texas Chainsaw Massacre 2 (1986)"
+      },
+      {
+        "date": 19,
+        "channel": "Star Spangled TV",
+        "title": "Scream (1996)"
+      },
+      {
+        "date": 20,
+        "channel": "Star Spangled TV",
+        "title": "Hellraiser (1987)"
+      },
+      {
+        "date": 21,
+        "channel": "Star Spangled TV",
+        "title": "Hellraiser II (1988)"
+      },
+      {
+        "date": 22,
+        "channel": "Star Spangled TV",
+        "title": "The Blair Witch Project (1999)"
+      },
+      {
+        "date": 23,
+        "channel": "Star Spangled TV",
+        "title": "A Nightmare on Elm Street (1984) "
+      },
+      {
+        "date": 24,
+        "channel": "Star Spangled TV",
+        "title": "Freddy vs. Jason (2003) "
+      },
+      {
+        "date": 25,
+        "channel": "Star Spangled TV",
+        "title": "Gremlins (1984)"
+      },
+      {
+        "date": 26,
+        "channel": "Star Spangled TV",
+        "title": "Gremlins 2: The New Batch (1990)"
+      },
+      {
+        "date": 27,
+        "channel": "Star Spangled TV",
+        "title": "Ghost Rider (2007)"
+      },
+      {
+        "date": 28,
+        "channel": "Star Spangled TV",
+        "title": "Ghost Rider: Spirit of Vengeance (2011)"
+      },
+      {
+        "date": 29,
+        "channel": "Star Spangled TV",
+        "title": "Abraham Lincoln Vampire Hunter (2012)"
+      },
+      {
+        "date": 30,
+        "channel": "Star Spangled TV",
+        "title": "Beetlejuice (1988)"
+      },
+      {
+        "date": 31,
+        "channel": "Star Spangled TV",
+        "title": "The Cabin in the Woods (2011)"
+      }
+    ]
+  },
+  "december": {
+    "days": 31,
+    "source_pool_programmes": {
+      "90s Toons": 9,
+      "AAA": 9,
+      "Cartoons Cartoons": 14,
+      "Dickleodeon": 79,
+      "Dizzy": 17,
+      "GirlyPop": 5,
+      "Japanime": 19,
+      "Off-Licence TV": 27,
+      "Star Spangled TV": 40,
+      "What": 20
+    },
+    "daily_minimum": 5,
+    "featured_movies": []
+  }
+}

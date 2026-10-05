@@ -1,0 +1,22 @@
+Bootleg Broadcast v0.26 — Viewer Experience & Reliability Pass
+
+- Added CRT-style status messages for tuning, retries, backup sources, signal loss,
+  volume, mute, power and standby.
+- Corrected the Guide so adverts and idents are not mistaken for the programme
+  currently playing. During a break it now identifies the break and marks the
+  following programme as UP NEXT.
+- Added persistent browser memory for the current channel, per-channel playback
+  position, volume, mute state and remote drawer position.
+- Replaced pause-based power detection with an explicit television power state.
+- Added an on-screen HELP panel covering keyboard and touch controls.
+- Added visible keyboard focus styling and improved dialog/status semantics.
+- Made retry and alternate-source keys unique to the date, channel and playlist
+  position so identically titled programmes cannot share failure state.
+- Added visible messages for missing schedules and empty channels.
+- Escaped schedule text before inserting it into the Guide.
+- Optimised oversized 2000px channel logos for their small on-screen use.
+- Re-encoded local 1080p channel idents to web-friendly 720p H.264 and retained
+  fast-start metadata. The complete site was reduced from about 291 MB to 149 MB.
+
+All programme schedules, advert pools, source URLs, alternate URLs, artwork and
+the established CRT-room layout are otherwise preserved.

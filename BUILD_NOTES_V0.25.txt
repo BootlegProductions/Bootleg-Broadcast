@@ -1,0 +1,23 @@
+Bootleg Broadcast v0.25 — Full Additional Links + Source Fallback Pass
+
+- Merged all current channel-specific Additional Links into their matching markdown libraries.
+- Rebuilt the Additional Links schedule layer so every supplied channel-specific Additional Link appears somewhere in the 12-month broadcast schedule, rather than limiting each channel to two additions per day.
+- Existing programme/ad/ident schedule content is preserved; v0.24 Additional-Link duplicates are removed before the v0.25 redistribution.
+- Added source fallback support to app.js. Items may carry an `alternates` array. After two load failures the player tries the next alternate before skipping.
+- Added manual alternate-source test: press A while a programme is selected/playing to cycle its attached alternate source.
+- Trailer Park Boys legacy scheduled entries now use the newly supplied TPB sources first, with the previous source retained as an alternate, making TPB an immediate fallback test case.
+- Movies, October and December remain dedicated non-channel pools and were not sprayed across unrelated channels. Their source files remain intact.
+
+Channel-specific Additional Links scheduled: 
+  90s Toons: 268
+  AAA: 1148
+  Cartoons Cartoons: 2252
+  Dickleodeon: 423
+  GirlyPop: 1000
+  Japanime: 3497
+  Off-Licence TV: 702
+  Star Spangled TV: 1836
+  What: 1163
+
+Total: 12289
+Trailer Park Boys legacy schedule entries replaced: 614

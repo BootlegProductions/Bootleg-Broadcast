@@ -1,0 +1,20 @@
+{
+  "result": "passed",
+  "seasons": {
+    "october": {
+      "days": 31,
+      "channels": 10,
+      "minimum_daily_programmes_per_channel": 7,
+      "maximum_daily_programmes_per_channel": 26
+    },
+    "december": {
+      "days": 31,
+      "channels": 10,
+      "minimum_daily_programmes_per_channel": 5,
+      "maximum_daily_programmes_per_channel": 41
+    }
+  },
+  "browser_visual_qa": "Unavailable in this environment; static build has no permitted browser preview",
+  "player_logic": "Verified by tools/verify_player.cjs",
+  "remote_source_checks": "See source-probes.json and link-audit.json; metadata presence is not full playback verification"
+}

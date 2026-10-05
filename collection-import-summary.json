@@ -1,0 +1,24 @@
+{
+  "verified_programmes": 903,
+  "scheduled_unique_imports": 903,
+  "by_rotation": {
+    "october": 129,
+    "december": 110,
+    "regular": 664
+  },
+  "by_channel": {
+    "Star Spangled TV": 52,
+    "Dizzy": 66,
+    "90s Toons": 297,
+    "AAA": 42,
+    "Dickleodeon": 138,
+    "GirlyPop": 4,
+    "Japanime": 27,
+    "Cartoons Cartoons": 232,
+    "Off-Licence TV": 45
+  },
+  "unconfirmed_direct_links": 0,
+  "held_source_entries": 877,
+  "new_schedule_slots": 7677,
+  "existing_programme_sources_enriched": 184
+}

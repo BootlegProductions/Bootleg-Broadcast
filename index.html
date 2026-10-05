@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bootleg Broadcast</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Bootleg Broadcast — CRT Television</title>
+<meta name="description" content="Tune into Bootleg Broadcast: ten channels on a classic CRT television, with Halloween and Christmas rotations.">
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/png" href="assets/crt angle/crt angle.png">
 </head>
@@ -15,14 +16,28 @@
 
 <div id="stage">
   <div id="room-bg"></div>
+  <div id="halloween-decorations" aria-hidden="true">
+    <img class="halloween-web web-left" src="assets/halloween/spiderweb.webp" alt="">
+    <img class="halloween-web web-right" src="assets/halloween/spiderweb.webp" alt="">
+    <img class="pumpkin-lights lights-second" src="assets/halloween/pumpkin-lights.png" alt="">
+    <img class="halloween-bat bat-extra-one" src="assets/halloween/bat.png" alt="">
+    <img class="halloween-bat bat-extra-two" src="assets/halloween/bat.png" alt="">
+    <img class="halloween-candle" src="assets/halloween/candle.png" alt="">
+    <img class="pumpkin-lights" src="assets/halloween/pumpkin-lights.png" alt="">
+    <img class="halloween-bat bat-left" src="assets/halloween/bat.png" alt="">
+    <img class="halloween-bat bat-right" src="assets/halloween/bat.png" alt="">
+    <img class="horror-tapes" src="assets/halloween/horror-vhs-stack.webp" alt="">
+  </div>
   <div id="ambient-glow"></div>
   <div id="vignette"></div>
 
   <div id="tv-container">
     <div id="screen">
-      <video id="player"></video>
+      <video id="player" playsinline preload="metadata"></video>
+      <div id="broadcast-card" hidden><span id="broadcast-card-channel"></span><strong id="broadcast-card-title"></strong><span id="broadcast-card-next"></span></div>
       <div id="crt-overlay"></div>
-            <img id="channelBug" src="" alt="Channel logo">
+      <img id="channelBug" src="" alt="">
+      <div id="statusOverlay" role="status" aria-live="polite"></div>
 
 
       <!-- CHANNEL DISPLAY -->
@@ -38,27 +53,27 @@
 
     <!-- SCHEDULE DISPLAY
          Kept outside #screen so it does not inherit the CRT glass skew. -->
-    <div id="scheduleOverlay"></div>
+    <div id="scheduleOverlay" role="dialog" aria-label="Channel guide"></div>
 
     <img src="assets/crt angle/crt angle.png" id="tv-frame" alt="CRT television frame">
 
-    <div id="power">
-      CLICK TO TURN ON TV
-    </div>
+    <button id="power" type="button">CLICK TO TURN ON TV</button>
   </div>
 </div>
 
 
 
 <div id="remote-control">
-  <div id="remote-handle">REMOTE</div>
+  <button id="remote-handle" type="button" aria-expanded="true" aria-controls="remote-body">REMOTE</button>
 
-  <div class="remote-body">
+  <div class="remote-body" id="remote-body">
+    <div id="remote-display" aria-live="polite"></div>
+    <div id="season-label"></div><button type="button" class="remote-btn" id="broadcast-button" aria-pressed="true">LIVE · UK</button>
       <div id="remote-ir"></div>
 
     <div class="remote-row">
-      <button class="remote-btn power-btn" onclick="togglePower()">POWER</button>
-      <button class="remote-btn" onclick="toggleMute()">MUTE</button>
+      <button id="power-button" aria-pressed="false" class="remote-btn power-btn" onclick="togglePower()">POWER</button>
+      <button class="remote-btn" id="mute-button" aria-pressed="false" onclick="toggleMute()">MUTE</button>
     </div>
 
     <div class="remote-row">
@@ -78,10 +93,54 @@
 
     <div class="remote-row">
       <button class="remote-btn big-btn" onclick="toggleBigPicture()">BIG PICTURE</button>
+      <button class="remote-btn" onclick="openGuide()">BROWSE</button>
     </div>
+    <div class="remote-keypad" aria-label="Channel keypad">
+      <button class="remote-btn" onclick="enterDigit(1)">1</button><button class="remote-btn" onclick="enterDigit(2)">2</button><button class="remote-btn" onclick="enterDigit(3)">3</button>
+      <button class="remote-btn" onclick="enterDigit(4)">4</button><button class="remote-btn" onclick="enterDigit(5)">5</button><button class="remote-btn" onclick="enterDigit(6)">6</button>
+      <button class="remote-btn" onclick="enterDigit(7)">7</button><button class="remote-btn" onclick="enterDigit(8)">8</button><button class="remote-btn" onclick="enterDigit(9)">9</button>
+      <button class="remote-btn" onclick="tuneChannel(lastChannel)" aria-label="Return to last channel">LAST</button><button class="remote-btn" onclick="enterDigit(0)">0</button><button class="remote-btn" onclick="commitDigits()">OK</button>
+    </div>
+    <div class="remote-row"><button class="remote-btn" onclick="skipProgramme(-1)" aria-label="Previous programme">PREV</button><button class="remote-btn" id="pause-button" onclick="togglePause()">PLAY</button><button class="remote-btn" onclick="skipProgramme(1)" aria-label="Next programme">NEXT</button></div>
+    <div class="remote-row"><button class="remote-btn" id="source-button">SOURCE</button><button class="remote-btn" onclick="restartProgramme()">RESTART</button><button class="remote-btn" onclick="toggleHelp()">HELP</button></div>
   </div>
 </div>
 
+<dialog id="guidePanel" aria-labelledby="guide-title">
+  <div class="guide-header"><div><p class="guide-kicker">BOOTLEG BROADCAST</p><h2 id="guide-title">PROGRAMME GUIDE</h2></div><button id="guide-close" type="button" aria-label="Close programme guide">×</button></div>
+  <div class="guide-controls"><label>Month<select id="guide-month"><option value="january">January</option><option value="february">February</option><option value="march">March</option><option value="april">April</option><option value="may">May</option><option value="june">June</option><option value="july">July</option><option value="august">August</option><option value="september">September</option><option value="october">October</option><option value="november">November</option><option value="december">December</option></select></label><label>Day<select id="guide-day"></select></label><button id="guide-today" type="button">BACK TO TODAY</button></div>
+  <p id="guide-notice"></p><p id="broadcast-mode"></p>
+  <div class="guide-controls"><label class="guide-channel-label">Channel<select id="guide-channel"></select></label><label class="guide-search-label">Find a programme<input id="guide-search" type="search" placeholder="Title or show…"></label></div>
+  <div class="guide-summary"><span id="guide-count"></span><a href="reports.html" target="_blank" rel="noopener noreferrer">SOURCE REPORTS</a><a href="sources.html" target="_blank" rel="noopener noreferrer">SOURCE LIBRARY</a></div>
+  <div id="guide-list"></div><p id="feedback-state" role="status">Connecting source feedback…</p>
+</dialog>
+
+<div id="helpOverlay" role="dialog" aria-modal="true" aria-labelledby="helpTitle">
+  <div class="help-card">
+    <button id="helpClose" type="button" aria-label="Close controls help">×</button>
+    <h2 id="helpTitle">TV CONTROLS</h2>
+    <div class="help-grid">
+      <span>← / →</span><span>Change channel</span>
+      <span>↑ / ↓</span><span>Volume</span>
+      <span>0–9</span><span>Channel number (10 for channel 10)</span>
+      <span>P / Space</span><span>Power / Play or pause</span>
+      <span>M</span><span>Mute</span>
+      <span>S / G</span><span>Screen guide / Browse all schedules</span>
+      <span>N</span><span>Next programme</span>
+      <span>F</span><span>Fullscreen video</span>
+      <span>B</span><span>Big picture</span>
+      <span>R</span><span>Show remote</span>
+      <span>A</span><span>Retry or try alternate source</span>
+    </div>
+    <p>Search, skip, restart and pause leave the shared broadcast temporarily. Use RETURN TO BROADCAST to rejoin immediately; a selection returns automatically when it ends.</p><p>On touch screens, swipe across the TV to change channel and swipe the remote handle upward to open it.</p>
+  </div>
+</div>
+
+<script src="hosting-config.js"></script>
+<script src="broadcast-clock.js"></script>
+<script src="broadcast-ui.js"></script>
 <script src="app.js"></script>
+<script src="webmcp.js"></script>
+<script src="mobile-layout.js"></script>
 </body>
 </html>

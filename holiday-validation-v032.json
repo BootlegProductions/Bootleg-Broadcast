@@ -1,0 +1,20 @@
+{
+  "plans": 3650,
+  "new_entries": 81,
+  "holiday_airtime_slots": {
+    "new-year": 76,
+    "valentine": 95,
+    "st-patrick": 21,
+    "easter": 52,
+    "thanksgiving": 70,
+    "christmas": 1050
+  },
+  "checks": [
+    "all 2026 channel days have contiguous bounds",
+    "date gating",
+    "adult dayparts",
+    "new-source airtime",
+    "2027/2028 movable Easter including UK DST",
+    "corrected false seasonal tags"
+  ]
+}

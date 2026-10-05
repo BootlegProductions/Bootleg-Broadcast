@@ -1,0 +1,1445 @@
+{
+  "programmes": [
+    {
+      "type": "Episode",
+      "show": "Downtown",
+      "title": "Downtown — Trip or Treat",
+      "url": "https://archive.org/download/mtvs-downtown_202209/Downtown/MTV%27s%20Downtown%2C%201x13%20Trip%20or%20Treat.mp4",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "link_status": "range_checked",
+      "channel": "AAA",
+      "archive_identifier": "mtvs-downtown_202209",
+      "filename": "Downtown/MTV's Downtown, 1x13 Trip or Treat.mp4",
+      "duration_seconds": 1299.78,
+      "source_page": "https://archive.org/details/mtvs-downtown_202209",
+      "archive_format": "MPEG4",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:33:10.216952+00:00"
+      },
+      "codec_check": {
+        "unconfirmed": "Command '['ffprobe', '-v', 'error', '-rw_timeout', '10000000', '-probesize', '4000000', '-analyzedur"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "daypart": "Evening"
+    },
+    {
+      "type": "Episode",
+      "show": "Ben 10",
+      "title": "Ben 10 — The Return",
+      "url": "https://archive.org/download/ben-10-complete-season-3/SEASON%203%20EPISODES%20H.264%20DVD%20RIP/S03%20E11%20The%20Return.mp4",
+      "alternates": [
+        "https://archive.org/download/ben-10-complete-season-3/SEASON%203%20EPISODES%20H.264%20DVD%20RIP/S03%20E11%20The%20Return.mp4"
+      ],
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "link_status": "range_checked",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "ben-10-complete-season-3",
+      "filename": "SEASON 3 EPISODES H.264 DVD RIP/S03 E11 The Return.mp4",
+      "duration_seconds": 1327.03,
+      "source_page": "https://archive.org/details/ben-10-complete-season-3",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:33:14.162823+00:00"
+      },
+      "codec_check": {
+        "unconfirmed": "Command '['ffprobe', '-v', 'error', '-rw_timeout', '10000000', '-probesize', '4000000', '-analyzedur"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "type": "Episode",
+      "show": "Ben 10",
+      "title": "Ben 10 — Be Afraid of the Dark",
+      "url": "https://archive.org/download/ben-10-complete-season-3/SEASON%203%20EPISODES%20H.264%20DVD%20RIP/S03%20E12%20Be%20Afraid%20of%20the%20Dark.mp4",
+      "alternates": [
+        "https://archive.org/download/ben-10-complete-season-3/SEASON%203%20EPISODES%20H.264%20DVD%20RIP/S03%20E12%20Be%20Afraid%20of%20the%20Dark.mp4"
+      ],
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "link_status": "range_checked",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "ben-10-complete-season-3",
+      "filename": "SEASON 3 EPISODES H.264 DVD RIP/S03 E12 Be Afraid of the Dark.mp4",
+      "duration_seconds": 1329.0,
+      "source_page": "https://archive.org/details/ben-10-complete-season-3",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:33:14.120632+00:00"
+      },
+      "codec_check": {
+        "unconfirmed": "Command '['ffprobe', '-v', 'error', '-rw_timeout', '10000000', '-probesize', '4000000', '-analyzedur"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "type": "Episode",
+      "show": "Courage the Cowardly Dog",
+      "title": "Courage the Cowardly Dog — Courage Meets the Mummy",
+      "url": "https://archive.org/download/2x-12-the-house-of-discontent-the-sand-whale-strikes/2x04%20%281%29%20-%20Courage%20Meets%20the%20Mummy.mp4",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "link_status": "range_checked",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "2x-12-the-house-of-discontent-the-sand-whale-strikes",
+      "filename": "2x04 (1) - Courage Meets the Mummy.mp4",
+      "duration_seconds": 653.88,
+      "source_page": "https://archive.org/details/2x-12-the-house-of-discontent-the-sand-whale-strikes",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:32:56.689906+00:00"
+      },
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ]
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "seasonal_month": "regular",
+      "broadcast_window": {
+        "start_hour": 18,
+        "end_hour": 7
+      },
+      "seasonal_priority": {
+        "october": 4
+      }
+    },
+    {
+      "type": "Episode",
+      "show": "I Am Weasel",
+      "title": "I Am Weasel — I Am Franken-Weasel",
+      "url": "https://archive.org/download/i-am-weasel-season-5-ntsc-pitched/I.Am.Weasel.S05E22.I.Am.Franken-Weasel.576i.DVD.Remux.DD.2.0.MPEG2-WMAA.mp4",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "link_status": "range_checked",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "i-am-weasel-season-5-ntsc-pitched",
+      "filename": "I.Am.Weasel.S05E22.I.Am.Franken-Weasel.576i.DVD.Remux.DD.2.0.MPEG2-WMAA.mp4",
+      "duration_seconds": 424.12,
+      "source_page": "https://archive.org/details/i-am-weasel-season-5-ntsc-pitched",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:33:20.620534+00:00"
+      },
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ]
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "type": "Episode",
+      "show": "Courage the Cowardly Dog",
+      "title": "Courage the Cowardly Dog — Courage Meets Bigfoot",
+      "url": "https://archive.org/download/dexters-laboratory-s-01-e-01c-tv-super-pals/Courage%20the%20Cowardly%20Dog%20S01E02b%20Courage%20Meets%20Big%20Foot.mp4",
+      "alternates": [
+        "https://archive.org/download/dexters-laboratory-s-01-e-01c-tv-super-pals/Courage%20the%20Cowardly%20Dog%20S01E02b%20Courage%20Meets%20Big%20Foot.mp4"
+      ],
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "link_status": "range_checked",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "dexters-laboratory-s-01-e-01c-tv-super-pals",
+      "filename": "Courage the Cowardly Dog S01E02b Courage Meets Big Foot.mp4",
+      "duration_seconds": 640.59,
+      "source_page": "https://archive.org/details/dexters-laboratory-s-01-e-01c-tv-super-pals",
+      "archive_format": "MPEG4",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:33:10.840567+00:00"
+      },
+      "codec_check": {
+        "unconfirmed": "Command '['ffprobe', '-v', 'error', '-rw_timeout', '10000000', '-probesize', '4000000', '-analyzedur"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "seasonal_month": "regular",
+      "broadcast_window": {
+        "start_hour": 18,
+        "end_hour": 7
+      },
+      "seasonal_priority": {
+        "october": 4
+      }
+    },
+    {
+      "type": "Episode",
+      "show": "The Amazing World of Gumball",
+      "title": "The Amazing World of Gumball — The Mirror / The Man (paired episode)",
+      "url": "https://archive.org/download/the.-amazing.-world.of.-gumball.-season-3/The.Amazing.World.of.Gumball.S03E23E24.The.Mirror_TheMan.720p.WEB-DL.x264-Pahe.in.mp4",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "link_status": "range_checked",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "the.-amazing.-world.of.-gumball.-season-3",
+      "filename": "The.Amazing.World.of.Gumball.S03E23E24.The.Mirror_TheMan.720p.WEB-DL.x264-Pahe.in.mp4",
+      "duration_seconds": 1370.41,
+      "source_page": "https://archive.org/details/the.-amazing.-world.of.-gumball.-season-3",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:33:26.695548+00:00"
+      },
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ]
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "type": "Episode",
+      "show": "LazyTown",
+      "title": "LazyTown — Cry Dinosaur",
+      "url": "https://archive.org/download/lazytown-hd-episodes-collection/LazyTown%20S01E13%20Cry%20Dinosaur%201080p%20HD.mp4",
+      "alternates": [
+        "https://archive.org/download/lazytown-hd-episodes-collection/LazyTown%20S01E13%20Cry%20Dinosaur%201080p%20HD.mp4"
+      ],
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "link_status": "range_checked",
+      "channel": "GirlyPop",
+      "archive_identifier": "lazytown-hd-episodes-collection",
+      "filename": "LazyTown S01E13 Cry Dinosaur 1080p HD.mp4",
+      "duration_seconds": 1418.09,
+      "source_page": "https://archive.org/details/lazytown-hd-episodes-collection",
+      "archive_format": "MPEG4",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:33:41.255038+00:00"
+      },
+      "codec_check": {
+        "unconfirmed": "Command '['ffprobe', '-v', 'error', '-rw_timeout', '10000000', '-probesize', '4000000', '-analyzedur"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "type": "Episode",
+      "show": "LazyTown",
+      "title": "LazyTown — Haunted Castle",
+      "url": "https://archive.org/download/lazytown-hd-episodes-collection/LazyTown%20S02E05%20Haunted%20Castle%201080p%20HD.mp4",
+      "alternates": [
+        "https://archive.org/download/lazytown-hd-episodes-collection/LazyTown%20S02E05%20Haunted%20Castle%201080p%20HD.mp4"
+      ],
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "link_status": "range_checked",
+      "channel": "GirlyPop",
+      "archive_identifier": "lazytown-hd-episodes-collection",
+      "filename": "LazyTown S02E05 Haunted Castle 1080p HD.mp4",
+      "duration_seconds": 1394.22,
+      "source_page": "https://archive.org/details/lazytown-hd-episodes-collection",
+      "archive_format": "MPEG4",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:33:41.217686+00:00"
+      },
+      "codec_check": {
+        "unconfirmed": "Command '['ffprobe', '-v', 'error', '-rw_timeout', '10000000', '-probesize', '4000000', '-analyzedur"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "type": "Episode",
+      "show": "Family Matters",
+      "title": "Family Matters — Stevil II: This Time He's Not Alone",
+      "url": "https://archive.org/download/familymatters_202507/Season%209/Family%20Matters%20-%209x07%20-%20Stevil%20II.%20This%20Time%20He%27s%20Not%20Alone%20%28TV-DVDRip%20H%C3%A5%C2%AET%29.mp4",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "link_status": "range_checked",
+      "channel": "Star Spangled TV",
+      "archive_identifier": "familymatters_202507",
+      "filename": "Season 9/Family Matters - 9x07 - Stevil II. This Time He's Not Alone (TV-DVDRip Hå®T).mp4",
+      "duration_seconds": 1270.27,
+      "source_page": "https://archive.org/details/familymatters_202507",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:33:27.650629+00:00"
+      },
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ]
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "type": "Episode",
+      "show": "Family Matters",
+      "title": "Family Matters — Best Friends",
+      "url": "https://archive.org/download/familymatters_202507/season%205/Family%20Matters%20-%205x06%20-%20Best%20Friends%20%28TV-DVDRip%20H%C3%A5%C2%AET%29.mp4",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "link_status": "range_checked",
+      "channel": "Star Spangled TV",
+      "archive_identifier": "familymatters_202507",
+      "filename": "season 5/Family Matters - 5x06 - Best Friends (TV-DVDRip Hå®T).mp4",
+      "duration_seconds": 1299.33,
+      "source_page": "https://archive.org/details/familymatters_202507",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:33:32.497160+00:00"
+      },
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ]
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "alternates": [
+        "https://archive.org/download/familymatters_202507/season%205/Family%20Matters%20-%205x06%20-%20Best%20Friends.mp4"
+      ]
+    },
+    {
+      "type": "Episode",
+      "show": "Family Matters",
+      "title": "Family Matters — Whose Kid Is It Anyway?",
+      "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x06%20-%20Whose%20Kid%20is%20it%20Anyway%20%28TvDvd%29%20%28Hart%29.mp4",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "link_status": "range_checked",
+      "channel": "Star Spangled TV",
+      "archive_identifier": "familymatters_202507",
+      "filename": "Season 4/Family Matters - 4x06 - Whose Kid is it Anyway (TvDvd) (Hart).mp4",
+      "duration_seconds": 1291.69,
+      "source_page": "https://archive.org/details/familymatters_202507",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:33:45.432666+00:00"
+      },
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ]
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "type": "Episode",
+      "show": "Family Matters",
+      "title": "Family Matters — Dark and Stormy Night",
+      "url": "https://archive.org/download/familymatters_202507/Season%206/Family%20Matters%20-%206x06%20-%20Dark%20and%20Stormy%20Night%20%28TV-DVDRip%20H%C3%A5%C2%AET%29.mp4",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "link_status": "range_checked",
+      "channel": "Star Spangled TV",
+      "archive_identifier": "familymatters_202507",
+      "filename": "Season 6/Family Matters - 6x06 - Dark and Stormy Night (TV-DVDRip Hå®T).mp4",
+      "duration_seconds": 1298.33,
+      "source_page": "https://archive.org/details/familymatters_202507",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:33:46.668873+00:00"
+      },
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ]
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "Ed, Edd n Eddy",
+      "title": "Ed, Edd n Eddy — Boo Haw Haw",
+      "channel": "Cartoons Cartoons",
+      "type": "Special",
+      "archive_identifier": "ed-edd-n-eddy-collection-480p",
+      "filename": "Ed, Edd n Eddy - S00 E04 - Ed, Edd n Eddy's Boo Haw Haw (720p).mp4",
+      "url": "https://archive.org/download/ed-edd-n-eddy-collection-480p/Ed%2C%20Edd%20n%20Eddy%20-%20S00%20E04%20-%20Ed%2C%20Edd%20n%20Eddy%27s%20Boo%20Haw%20Haw%20%28720p%29.mp4",
+      "duration_seconds": 1399.98,
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/ed-edd-n-eddy-collection-480p",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:35:57.139291+00:00"
+      },
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ]
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "Aqua Teen Hunger Force",
+      "title": "Aqua Teen Hunger Force — The Shaving",
+      "channel": "AAA",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/ATHF S02E15 The Shaving.mp4",
+      "duration_seconds": 691.9,
+      "daypart": "Evening",
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/ATHF%20S02E15%20The%20Shaving.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:42:09.367899+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "Adventure Time",
+      "title": "Adventure Time — Slumber Party Panic",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/Adventure Time Halloween/Adventure Time S01E01 Slumber Party Panic.mp4",
+      "duration_seconds": 712.24,
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/Adventure%20Time%20Halloween/Adventure%20Time%20S01E01%20Slumber%20Party%20Panic.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:42:18.756329+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "Adventure Time",
+      "title": "Adventure Time — The Creeps",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/Adventure Time Halloween/Adventure Time S03E12 The Creeps.mp4",
+      "duration_seconds": 707.71,
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/Adventure%20Time%20Halloween/Adventure%20Time%20S03E12%20The%20Creeps.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:42:18.851460+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "Adventure Time",
+      "title": "Adventure Time — From Bad to Worse",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/Adventure Time Halloween/Adventure Time S03E13 From Bad to Worse.mp4",
+      "duration_seconds": 707.63,
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/Adventure%20Time%20Halloween/Adventure%20Time%20S03E13%20From%20Bad%20to%20Worse.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:42:18.859447+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "Adventure Time",
+      "title": "Adventure Time — No One Can Hear You",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/Adventure Time Halloween/Adventure Time S03E15 No One Can Hear You.mp4",
+      "duration_seconds": 703.79,
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/Adventure%20Time%20Halloween/Adventure%20Time%20S03E15%20No%20One%20Can%20Hear%20You.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:42:18.848079+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "Adventure Time",
+      "title": "Adventure Time — Ghost Fly",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/Adventure Time Halloween/Adventure Time S06E17 Ghost Fly.mp4",
+      "duration_seconds": 706.22,
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/Adventure%20Time%20Halloween/Adventure%20Time%20S06E17%20Ghost%20Fly.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:42:18.923979+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "Adventure Time",
+      "title": "Adventure Time — Stakes Pt 1 Marceline The Vampire Queen",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/Adventure Time Halloween/Adventure Time S07E06 Stakes Pt 1 Marceline The Vampire Queen.mp4",
+      "duration_seconds": 684.14,
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/Adventure%20Time%20Halloween/Adventure%20Time%20S07E06%20Stakes%20Pt%201%20Marceline%20The%20Vampire%20Queen.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:42:42.105657+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "Adventure Time",
+      "title": "Adventure Time — Stakes Pt 2 Everything Stays",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/Adventure Time Halloween/Adventure Time S07E07 Stakes Pt 2 Everything Stays.mp4",
+      "duration_seconds": 667.88,
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/Adventure%20Time%20Halloween/Adventure%20Time%20S07E07%20Stakes%20Pt%202%20Everything%20Stays.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:42:42.256508+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "Adventure Time",
+      "title": "Adventure Time — Stakes Pt 3 Vamps About",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/Adventure Time Halloween/Adventure Time S07E08 Stakes Pt 3 Vamps About.mp4",
+      "duration_seconds": 684.14,
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/Adventure%20Time%20Halloween/Adventure%20Time%20S07E08%20Stakes%20Pt%203%20Vamps%20About.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:42:42.255534+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "Adventure Time",
+      "title": "Adventure Time — Stakes Pt 4 Empress Eyes",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/Adventure Time Halloween/Adventure Time S07E09 Stakes Pt 4 Empress Eyes.mp4",
+      "duration_seconds": 667.78,
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/Adventure%20Time%20Halloween/Adventure%20Time%20S07E09%20Stakes%20Pt%204%20Empress%20Eyes.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:42:42.444428+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "Adventure Time",
+      "title": "Adventure Time — Stakes Pt 5 May I Come In",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/Adventure Time Halloween/Adventure Time S07E10 Stakes Pt 5 May I Come In.mp4",
+      "duration_seconds": 684.22,
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/Adventure%20Time%20Halloween/Adventure%20Time%20S07E10%20Stakes%20Pt%205%20May%20I%20Come%20In.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:42:42.446996+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "Adventure Time",
+      "title": "Adventure Time — Stakes Pt 6 Take Her Back",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/Adventure Time Halloween/Adventure Time S07E11 Stakes Pt 6 Take Her Back.mp4",
+      "duration_seconds": 648.23,
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/Adventure%20Time%20Halloween/Adventure%20Time%20S07E11%20Stakes%20Pt%206%20Take%20Her%20Back.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:42:42.265140+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "Adventure Time",
+      "title": "Adventure Time — Stakes Pt 7 Checkmate",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/Adventure Time Halloween/Adventure Time S07E12 Stakes Pt 7 Checkmate.mp4",
+      "duration_seconds": 684.14,
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/Adventure%20Time%20Halloween/Adventure%20Time%20S07E12%20Stakes%20Pt%207%20Checkmate.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:43:18.726781+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "Adventure Time",
+      "title": "Adventure Time — Stakes Pt 8 The Dark Cloud",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/Adventure Time Halloween/Adventure Time S07E13 Stakes Pt 8 The Dark Cloud.mp4",
+      "duration_seconds": 667.97,
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/Adventure%20Time%20Halloween/Adventure%20Time%20S07E13%20Stakes%20Pt%208%20The%20Dark%20Cloud.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:43:18.610299+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "Adventure Time",
+      "title": "Adventure Time — Blank Eyed Girl",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/Adventure Time Halloween/Adventure Time S07E19 Blank Eyed Girl.mp4",
+      "duration_seconds": 671.15,
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/Adventure%20Time%20Halloween/Adventure%20Time%20S07E19%20Blank%20Eyed%20Girl.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:43:18.495560+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": true
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "American Dad!",
+      "title": "American Dad! — Best Little Horror House in Langley Falls",
+      "channel": "AAA",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/American Dad Halloween/American Dad S06E03 Best Little Horror House in Langley Falls.mp4",
+      "duration_seconds": 1313.9,
+      "daypart": "Evening",
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/American%20Dad%20Halloween/American%20Dad%20S06E03%20Best%20Little%20Horror%20House%20in%20Langley%20Falls.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:43:18.667849+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "American Dad!",
+      "title": "American Dad! — Hot Water",
+      "channel": "AAA",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/American Dad Halloween/American Dad S07E01 Hot Water.mp4",
+      "duration_seconds": 1313.58,
+      "daypart": "Evening",
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/American%20Dad%20Halloween/American%20Dad%20S07E01%20Hot%20Water.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:43:18.777871+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "American Dad!",
+      "title": "American Dad! — Hurricane!",
+      "channel": "AAA",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/American Dad Halloween/American Dad S07E02 Hurricane!.mp4",
+      "duration_seconds": 1313.71,
+      "daypart": "Evening",
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/American%20Dad%20Halloween/American%20Dad%20S07E02%20Hurricane%21.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:43:18.590483+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "American Dad!",
+      "title": "American Dad! — Poltergasm",
+      "channel": "AAA",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/American Dad Halloween/American Dad S09E02 Poltergasm.mp4",
+      "duration_seconds": 1299.73,
+      "daypart": "Evening",
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/American%20Dad%20Halloween/American%20Dad%20S09E02%20Poltergasm.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:43:53.689682+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "American Dad!",
+      "title": "American Dad! — The Witches of Langley",
+      "channel": "AAA",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/American Dad Halloween/American Dad S12E09 The Witches of Langley.mp4",
+      "duration_seconds": 1269.27,
+      "daypart": "Evening",
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/American%20Dad%20Halloween/American%20Dad%20S12E09%20The%20Witches%20of%20Langley.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:43:53.589420+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": false
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "BoJack Horseman",
+      "title": "BoJack Horseman — Mr. Peanutbutter’s Boos",
+      "channel": "AAA",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/BoJack.Horseman.S05E08.Mr..Peanutbutter's.Boos.mp4",
+      "duration_seconds": 1563.98,
+      "daypart": "Evening",
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/BoJack.Horseman.S05E08.Mr..Peanutbutter%27s.Boos.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:43:53.687713+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": true
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "Cow and Chicken",
+      "title": "Cow and Chicken — Halloween with Dead Ghost, Coast to Coast",
+      "channel": "Cartoons Cartoons",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/Cow and Chicken S02E02b Halloween with Dead Ghost, Coast to Coast.mp4",
+      "duration_seconds": 394.52,
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/Cow%20and%20Chicken%20S02E02b%20Halloween%20with%20Dead%20Ghost%2C%20Coast%20to%20Coast.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:43:53.497570+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": true
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october"
+    },
+    {
+      "show": "Chozen",
+      "title": "Chozen — Scurry Stories",
+      "channel": "AAA",
+      "archive_identifier": "chozen.s-01e-13-mesc",
+      "filename": "Halloween Specials/chozen.s01e13 - Mesc.mp4",
+      "duration_seconds": 1245.22,
+      "daypart": "Evening",
+      "url": "https://archive.org/download/chozen.s-01e-13-mesc/Halloween%20Specials/chozen.s01e13%20-%20Mesc.mp4",
+      "type": "Episode",
+      "source": "Additional supplied Halloween wishlist October 2026",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-05T12:43:53.587668+00:00"
+      },
+      "codec_check": {
+        "mp4_sample_entry_check": {
+          "h264_avc": true,
+          "mp4a_audio": true
+        },
+        "method": "MP4 head and tail byte ranges; sample-entry markers, not full playback."
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "season": 1,
+      "episode": 13,
+      "identity_reference": "https://thetvdb.com/series/chozen/allseasons/official"
+    }
+  ],
+  "held": [
+    {
+      "title": "Butt-O-Ween & Beavis and Butt-Head Do Christmas.mp4",
+      "reason": "Mixed Halloween/Christmas compilation: needs chapter offsets before scheduling."
+    },
+    {
+      "title": "Butt-O-Ween & Beavis and Butt-Head Do Christmas1.mp4",
+      "reason": "Mixed Halloween/Christmas compilation: needs chapter offsets before scheduling."
+    },
+    {
+      "title": "Butt-O-Ween & Beavis and Butt-Head Do Christmas2.mp4",
+      "reason": "Mixed Halloween/Christmas compilation: needs chapter offsets before scheduling."
+    },
+    {
+      "title": "Halloween Specials/Bobs Burgers Halloween/Bob's Burgers - S03E02 - [x265.AC3].mkv",
+      "reason": "Original MKV is not a broadly supported browser source; waiting for a checked H.264 MP4 derivative.",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc"
+    },
+    {
+      "title": "Halloween Specials/Bobs Burgers Halloween/Bob's Burgers - S04E02 - [x265.AC3].mkv",
+      "reason": "Original MKV is not a broadly supported browser source; waiting for a checked H.264 MP4 derivative.",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc"
+    },
+    {
+      "title": "Halloween Specials/Bobs Burgers Halloween/Bob's Burgers - S05E02 - [x265.EAC3].mkv",
+      "reason": "Original MKV is not a broadly supported browser source; waiting for a checked H.264 MP4 derivative.",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc"
+    },
+    {
+      "title": "Halloween Specials/Bobs Burgers Halloween/Bob's Burgers - S06E03 - [x265.EAC3].mkv",
+      "reason": "Original MKV is not a broadly supported browser source; waiting for a checked H.264 MP4 derivative.",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc"
+    },
+    {
+      "title": "Halloween Specials/Bobs Burgers Halloween/Bob's Burgers - S07E03 - [x265.EAC3].mkv",
+      "reason": "Original MKV is not a broadly supported browser source; waiting for a checked H.264 MP4 derivative.",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc"
+    },
+    {
+      "title": "Halloween Specials/Bobs Burgers Halloween/Bob's Burgers - S08E03 - [x265.EAC3].mkv",
+      "reason": "Original MKV is not a broadly supported browser source; waiting for a checked H.264 MP4 derivative.",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc"
+    },
+    {
+      "title": "Halloween Specials/Bobs Burgers Halloween/Bob's Burgers - S09E04 - [x265.EAC3].mkv",
+      "reason": "Original MKV is not a broadly supported browser source; waiting for a checked H.264 MP4 derivative.",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc"
+    },
+    {
+      "title": "Halloween Specials/Bobs Burgers Halloween/Bobs Burgers S16E03 720p WEB H264-JFF[EZTVx.to].mkv",
+      "reason": "Original MKV is not a broadly supported browser source; waiting for a checked H.264 MP4 derivative.",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc"
+    },
+    {
+      "title": "Halloween Specials/Bobs Burgers Halloween/Bobs.Burgers.S15E04.1080p.HEVC.x265-MeGusta.mkv",
+      "reason": "Original MKV is not a broadly supported browser source; waiting for a checked H.264 MP4 derivative.",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc"
+    },
+    {
+      "title": "Halloween Specials/Bobs Burgers Halloween/S10E04.mkv",
+      "reason": "Original MKV is not a broadly supported browser source; waiting for a checked H.264 MP4 derivative.",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc"
+    },
+    {
+      "title": "Halloween Specials/Bobs Burgers Halloween/S11E04.mkv",
+      "reason": "Original MKV is not a broadly supported browser source; waiting for a checked H.264 MP4 derivative.",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc"
+    },
+    {
+      "title": "Halloween Specials/Bobs Burgers Halloween/S12E03.mkv",
+      "reason": "Original MKV is not a broadly supported browser source; waiting for a checked H.264 MP4 derivative.",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc"
+    },
+    {
+      "title": "Halloween Specials/Bobs Burgers Halloween/S13E06.mkv",
+      "reason": "Original MKV is not a broadly supported browser source; waiting for a checked H.264 MP4 derivative.",
+      "source_page": "https://archive.org/details/chozen.s-01e-13-mesc"
+    }
+  ],
+  "verification": "Exact named episode identity from metadata; MP4 header/range and duration checked; codec probe where available. No full playback review.",
+  "added_source_entries": 23,
+  "programming_policy": {
+    "year_round_shows": "Courage remains available every month, 18:00–07:00 UK.",
+    "october": "Courage double bill starts 18:00 UK daily. Halloween-tagged programmes get extra rotation weight; special-only entries retain October eligibility."
+  }
+}

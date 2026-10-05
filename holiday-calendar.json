@@ -1,0 +1,67 @@
+{
+  "timezone": "Europe/London",
+  "year": 2026,
+  "dates": {
+    "valentine": [
+      [
+        2,
+        14
+      ]
+    ],
+    "st-patrick": [
+      [
+        3,
+        17
+      ]
+    ],
+    "easter": [
+      [
+        4,
+        5
+      ]
+    ],
+    "thanksgiving": [
+      [
+        11,
+        26
+      ]
+    ],
+    "new-year": [
+      [
+        1,
+        1
+      ],
+      [
+        12,
+        31
+      ]
+    ],
+    "christmas": [
+      [
+        12,
+        24
+      ],
+      [
+        12,
+        25
+      ],
+      [
+        12,
+        26
+      ]
+    ]
+  },
+  "annual_rules": {
+    "valentine": "14 February",
+    "st-patrick": "17 March",
+    "easter": "Western Easter Sunday, recalculated each year",
+    "thanksgiving": "US Thanksgiving: fourth Thursday of November",
+    "new-year": "31 December and 1 January",
+    "christmas": "December rotation; spotlight on 24, 25 and 26 December"
+  },
+  "backend_required": false,
+  "date_sources": [
+    "https://www.timeanddate.com/holidays/uk/easter-sunday",
+    "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+  ]
+}

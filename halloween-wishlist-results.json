@@ -1,0 +1,1349 @@
+{
+  "unique_halloween_programmes": 25,
+  "new_searchable_entries": 25,
+  "channels": {
+    "Japanime": 8,
+    "Cartoons Cartoons": 7,
+    "Dickleodeon": 3,
+    "GirlyPop": 3,
+    "Off-Licence TV": 1,
+    "Star Spangled TV": 2,
+    "90s Toons": 1
+  },
+  "verification": "Metadata identity and MP4 range response only; not a complete playback or subtitle review.",
+  "programmes": [
+    {
+      "channel": "Japanime",
+      "show": "Digimon Ghost Game",
+      "title": "Digimon Ghost Game — E04 — The Doll’s Manor",
+      "archive_identifier": "digimon-ghost-game-complete-series",
+      "filename": "Digimon Ghost Game Complete Series/04 - The Doll's Manor.mp4",
+      "episode": 4,
+      "daypart": "Evening",
+      "language": "Japanese with English subtitles",
+      "identity_basis": "Named episode / numbered source matched to supplied Halloween episode list",
+      "url": "https://archive.org/download/digimon-ghost-game-complete-series/Digimon%20Ghost%20Game%20Complete%20Series/04%20-%20The%20Doll%27s%20Manor.mp4",
+      "duration_seconds": 1397.66,
+      "type": "Episode",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "source_page": "https://archive.org/details/digimon-ghost-game-complete-series",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:16.034651+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "jpn"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Japanime",
+      "show": "Digimon Ghost Game",
+      "title": "Digimon Ghost Game — E49 — The Crimson Harvest Festival",
+      "archive_identifier": "digimon-ghost-game-complete-series",
+      "filename": "Digimon Ghost Game Complete Series/49 - The Crimson Harvest Festival.mp4",
+      "episode": 49,
+      "daypart": "Evening",
+      "language": "Japanese with English subtitles",
+      "identity_basis": "Named episode / numbered source matched to supplied Halloween episode list",
+      "url": "https://archive.org/download/digimon-ghost-game-complete-series/Digimon%20Ghost%20Game%20Complete%20Series/49%20-%20The%20Crimson%20Harvest%20Festival.mp4",
+      "duration_seconds": 1397.7,
+      "type": "Episode",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "source_page": "https://archive.org/details/digimon-ghost-game-complete-series",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:16.032255+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "jpn"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Japanime",
+      "show": "Ouran High School Host Club",
+      "title": "Ouran High School Host Club — E21 — Until the Day It Becomes a Pumpkin!",
+      "archive_identifier": "ourankoukouhostclub_202001",
+      "filename": "(Hi10)_Ouran_Koukousei_Host_bu_-_21_(BD_1080p)_(a-S).mp4",
+      "episode": 21,
+      "daypart": "Daytime",
+      "language": "Source collection lists dual audio; derivative audio language/subtitles not reviewed",
+      "identity_basis": "Named episode / numbered source matched to supplied Halloween episode list",
+      "url": "https://archive.org/download/ourankoukouhostclub_202001/%28Hi10%29_Ouran_Koukousei_Host_bu_-_21_%28BD_1080p%29_%28a-S%29.mp4",
+      "duration_seconds": 1256.11,
+      "type": "Episode",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "source_page": "https://archive.org/details/ourankoukouhostclub_202001",
+      "archive_format": "h.264",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:16.280709+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Japanime",
+      "show": "PaRappa the Rapper",
+      "title": "PaRappa the Rapper — E12 — Is It Scary?",
+      "archive_identifier": "parappa-the-rapper-full-anime-subbed-dvd-version",
+      "filename": "Parappa The Rapper - Episode 12 Is It Scary.ia.mp4",
+      "episode": 12,
+      "daypart": "Daytime",
+      "language": "Japanese with English subtitles",
+      "identity_basis": "Named episode / numbered source matched to supplied Halloween episode list",
+      "url": "https://archive.org/download/parappa-the-rapper-full-anime-subbed-dvd-version/Parappa%20The%20Rapper%20-%20Episode%2012%20Is%20It%20Scary.ia.mp4",
+      "duration_seconds": 1397.33,
+      "type": "Episode",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "source_page": "https://archive.org/details/parappa-the-rapper-full-anime-subbed-dvd-version",
+      "archive_format": "h.264 IA",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:15.805565+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          },
+          {
+            "codec_name": "bin_data",
+            "codec_type": "data"
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Japanime",
+      "show": "Digimon Universe: Appli Monsters",
+      "title": "Digimon Universe: Appli Monsters — E04 — I Shall Have You in Costume! Cameramon’s Halloween Scandal!",
+      "archive_identifier": "digimon-universe-appli-monsters-episode-02_202610",
+      "filename": "Digimon Universe Appli Monsters Episode 04.mp4",
+      "episode": 4,
+      "daypart": "Daytime",
+      "language": "Japanese with English subtitles",
+      "identity_basis": "Named episode / numbered source matched to supplied Halloween episode list",
+      "url": "https://archive.org/download/digimon-universe-appli-monsters-episode-02_202610/Digimon%20Universe%20Appli%20Monsters%20Episode%2004.mp4",
+      "duration_seconds": 1462.35,
+      "type": "Episode",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "source_page": "https://archive.org/details/digimon-universe-appli-monsters-episode-02_202610",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:15.367567+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Japanime",
+      "show": "Suite PreCure",
+      "title": "Suite PreCure — E37 — Wakuwaku! Everyone Transform for Halloween Nya!",
+      "archive_identifier": "suite-precure-sub",
+      "filename": "Suite Precure 37.mp4",
+      "episode": 37,
+      "daypart": "Daytime",
+      "language": "Japanese with English subtitles",
+      "identity_basis": "Named episode / numbered source matched to supplied Halloween episode list",
+      "url": "https://archive.org/download/suite-precure-sub/Suite%20Precure%2037.mp4",
+      "duration_seconds": 1484.82,
+      "type": "Episode",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "source_page": "https://archive.org/details/suite-precure-sub",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:16.819931+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Japanime",
+      "show": "Lady Jewelpet",
+      "title": "Lady Jewelpet — E30 — The Ladies’ Halloween Party",
+      "archive_identifier": "eng-sub-lady-jewelpet-s6",
+      "filename": "S6 Lady Jewelpet/S6 E30 The Ladies' Halloween Party.mp4",
+      "episode": 30,
+      "daypart": "Daytime",
+      "language": "Japanese with English subtitles",
+      "identity_basis": "Named episode / numbered source matched to supplied Halloween episode list",
+      "url": "https://archive.org/download/eng-sub-lady-jewelpet-s6/S6%20Lady%20Jewelpet/S6%20E30%20The%20Ladies%27%20Halloween%20Party.mp4",
+      "duration_seconds": 1460.16,
+      "type": "Episode",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "source_page": "https://archive.org/details/eng-sub-lady-jewelpet-s6",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:18.923711+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Japanime",
+      "show": "Jewelpet Magical Change",
+      "title": "Jewelpet Magical Change — E31 — The Hunt for Jewel Land’s Treasure! / Invasion of the Pumpkin People!",
+      "archive_identifier": "eng-sub-jewelpet-magical-change-s7",
+      "filename": "S7 Magical Change/S7 E31 The Hunt for Jewel Land's Treasure! : Invasion of the Pumpkin People!.mp4",
+      "episode": 31,
+      "daypart": "Daytime",
+      "language": "Japanese with English subtitles",
+      "identity_basis": "Named episode / numbered source matched to supplied Halloween episode list",
+      "url": "https://archive.org/download/eng-sub-jewelpet-magical-change-s7/S7%20Magical%20Change/S7%20E31%20The%20Hunt%20for%20Jewel%20Land%27s%20Treasure%21%20%3A%20Invasion%20of%20the%20Pumpkin%20People%21.mp4",
+      "duration_seconds": 1459.89,
+      "type": "Episode",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "source_page": "https://archive.org/details/eng-sub-jewelpet-magical-change-s7",
+      "archive_format": "MPEG4",
+      "link_status": "range_checked",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:15.364370+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Cartoons Cartoons",
+      "type": "Episode",
+      "show": "Regular Show",
+      "title": "Regular Show — Terror Tales of the Park V",
+      "url": "https://archive.org/download/regularshow_cn/The%20Regular%20Show%20S01-S08%20%2B%20Movie%20%2B%20Shorts%20%5B1080p%20BluRay%20x265%20HEVC%2010bit%5D/Season%207/Regular.Show.S07E09.Terror.Tales.of.the.Park.V.1080p.WEB-DL.x265.10bit.AAC.2.0-ImE.mp4",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "link_status": "range_checked",
+      "archive_identifier": "regularshow_cn",
+      "filename": "The Regular Show S01-S08 + Movie + Shorts [1080p BluRay x265 HEVC 10bit]/Season 7/Regular.Show.S07E09.Terror.Tales.of.the.Park.V.1080p.WEB-DL.x265.10bit.AAC.2.0-ImE.mp4",
+      "identity_basis": "Distinctive episode title matched to supplied Halloween list",
+      "duration_seconds": 1342.08,
+      "source_page": "https://archive.org/details/regularshow_cn",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:25.079625+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Cartoons Cartoons",
+      "type": "Episode",
+      "show": "Regular Show",
+      "title": "Regular Show — Terror Tales of the Park VI",
+      "url": "https://archive.org/download/regularshow_cn/The%20Regular%20Show%20S01-S08%20%2B%20Movie%20%2B%20Shorts%20%5B1080p%20BluRay%20x265%20HEVC%2010bit%5D/Season%208/Regular.Show.S08E19-20.Terror.Tales.of.the.Park.VI.1080p.WEB-DL.x265.10bit.AAC.2.0-ImE%5BUTR%5D.mp4",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "link_status": "range_checked",
+      "archive_identifier": "regularshow_cn",
+      "filename": "The Regular Show S01-S08 + Movie + Shorts [1080p BluRay x265 HEVC 10bit]/Season 8/Regular.Show.S08E19-20.Terror.Tales.of.the.Park.VI.1080p.WEB-DL.x265.10bit.AAC.2.0-ImE[UTR].mp4",
+      "identity_basis": "Distinctive episode title matched to supplied Halloween list",
+      "duration_seconds": 1347.35,
+      "source_page": "https://archive.org/details/regularshow_cn",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:25.086240+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Cartoons Cartoons",
+      "type": "Episode",
+      "show": "Camp Lazlo",
+      "title": "Camp Lazlo — Hallobeanies",
+      "url": "https://archive.org/download/camp-lazlo-s-03-e-01-hello-summer-goodbye-camp-301/Camp%20Lazlo%20Episodes/Season%202/Camp%20Lazlo%20-%20S02E01%20-%20Hallobeanies%20%28201a%29.mp4",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "link_status": "range_checked",
+      "archive_identifier": "camp-lazlo-s-03-e-01-hello-summer-goodbye-camp-301",
+      "filename": "Camp Lazlo Episodes/Season 2/Camp Lazlo - S02E01 - Hallobeanies (201a).mp4",
+      "identity_basis": "Distinctive episode title matched to supplied Halloween list",
+      "duration_seconds": 764.49,
+      "source_page": "https://archive.org/details/camp-lazlo-s-03-e-01-hello-summer-goodbye-camp-301",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:25.007368+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Cartoons Cartoons",
+      "type": "Episode",
+      "show": "Regular Show",
+      "title": "Regular Show — Terror Tales of the Park II",
+      "url": "https://archive.org/download/regularshow_cn/The%20Regular%20Show%20S01-S08%20%2B%20Movie%20%2B%20Shorts%20%5B1080p%20BluRay%20x265%20HEVC%2010bit%5D/Season%204/Regular%20Show%20S04E04%20Terror%20Tales%20Of%20The%20Park%20Ii%20Web-DL%202.0%201080p%20x265%20HEVC-ByteShare%5BUTR%5D.mp4",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "link_status": "range_checked",
+      "archive_identifier": "regularshow_cn",
+      "filename": "The Regular Show S01-S08 + Movie + Shorts [1080p BluRay x265 HEVC 10bit]/Season 4/Regular Show S04E04 Terror Tales Of The Park Ii Web-DL 2.0 1080p x265 HEVC-ByteShare[UTR].mp4",
+      "identity_basis": "Distinctive episode title matched to supplied Halloween list",
+      "duration_seconds": 1349.29,
+      "source_page": "https://archive.org/details/regularshow_cn",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:25.730741+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Cartoons Cartoons",
+      "type": "Episode",
+      "show": "Regular Show",
+      "title": "Regular Show — Terror Tales of the Park III",
+      "url": "https://archive.org/download/regularshow_cn/The%20Regular%20Show%20S01-S08%20%2B%20Movie%20%2B%20Shorts%20%5B1080p%20BluRay%20x265%20HEVC%2010bit%5D/Season%205/Regular%20Show%20S05E08%20Terror%20Tales%20of%20The%20Park%20III%20Web-DL%202.0%201080p%20x265%20HEVC-ByteShare%5BUTR%5D.mp4",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "link_status": "range_checked",
+      "archive_identifier": "regularshow_cn",
+      "filename": "The Regular Show S01-S08 + Movie + Shorts [1080p BluRay x265 HEVC 10bit]/Season 5/Regular Show S05E08 Terror Tales of The Park III Web-DL 2.0 1080p x265 HEVC-ByteShare[UTR].mp4",
+      "identity_basis": "Distinctive episode title matched to supplied Halloween list",
+      "duration_seconds": 1341.62,
+      "source_page": "https://archive.org/details/regularshow_cn",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:25.718174+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Cartoons Cartoons",
+      "type": "Episode",
+      "show": "Regular Show",
+      "title": "Regular Show — Terror Tales of the Park IV",
+      "url": "https://archive.org/download/regularshow_cn/The%20Regular%20Show%20S01-S08%20%2B%20Movie%20%2B%20Shorts%20%5B1080p%20BluRay%20x265%20HEVC%2010bit%5D/Season%206/Regular%20Show%20S06E04%20Terror%20Tales%20Of%20The%20Park%20IV%20Web-DL%202.0%201080p%20x265%20HEVC-ByteShare%5BUTR%5D.mp4",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "link_status": "range_checked",
+      "archive_identifier": "regularshow_cn",
+      "filename": "The Regular Show S01-S08 + Movie + Shorts [1080p BluRay x265 HEVC 10bit]/Season 6/Regular Show S06E04 Terror Tales Of The Park IV Web-DL 2.0 1080p x265 HEVC-ByteShare[UTR].mp4",
+      "identity_basis": "Distinctive episode title matched to supplied Halloween list",
+      "duration_seconds": 1345.0,
+      "source_page": "https://archive.org/details/regularshow_cn",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:25.174717+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Cartoons Cartoons",
+      "type": "Episode",
+      "show": "The Grim Adventures of Billy & Mandy",
+      "title": "The Grim Adventures of Billy & Mandy — Grim or Gregory?",
+      "url": "https://archive.org/download/een-e-s-03-e-04a-dueling-eds/TGAOB%26M%20S01E08a%20Grim%20or%20Gregory.ia.mp4",
+      "alternates": [
+        "https://archive.org/download/een-e-s-03-e-04a-dueling-eds/TGAOB%26M%20S01E08a%20Grim%20or%20Gregory.mp4"
+      ],
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "link_status": "range_checked",
+      "archive_identifier": "een-e-s-03-e-04a-dueling-eds",
+      "filename": "TGAOB&M S01E08a Grim or Gregory.ia.mp4",
+      "identity_basis": "Distinctive episode title matched to supplied Halloween list",
+      "duration_seconds": 428.59,
+      "source_page": "https://archive.org/details/een-e-s-03-e-04a-dueling-eds",
+      "archive_format": "h.264 IA",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:26.225519+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Dickleodeon",
+      "type": "Episode",
+      "show": "The Fairly OddParents",
+      "title": "The Fairly OddParents — Scary Godparents",
+      "url": "https://archive.org/download/0x-08-scouts-honor/2x12%20Scary%20Godparents.mp4",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "link_status": "range_checked",
+      "archive_identifier": "0x-08-scouts-honor",
+      "filename": "2x12 Scary Godparents.mp4",
+      "identity_basis": "Distinctive episode title matched to supplied Halloween list",
+      "duration_seconds": 1506.21,
+      "source_page": "https://archive.org/details/0x-08-scouts-honor",
+      "archive_format": "MPEG4",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:25.248930+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Dickleodeon",
+      "type": "Episode",
+      "show": "The Life and Times of Juniper Lee",
+      "title": "The Life and Times of Juniper Lee — It’s the Great Pumpkin, Juniper Lee",
+      "url": "https://archive.org/download/the.life.and.times.of.juniper.lee.2005-2007.season.1-3.1080p.dual.audio/The.Life.and.Times.of.Juniper.Lee.S02E02.Its.the.Great.Pumpkin.Juniper.Lee.1080p.HMAX.WEB-DL.DD2.0.H.264.DUAL-LUKAS.mp4",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "link_status": "range_checked",
+      "archive_identifier": "the.life.and.times.of.juniper.lee.2005-2007.season.1-3.1080p.dual.audio",
+      "filename": "The.Life.and.Times.of.Juniper.Lee.S02E02.Its.the.Great.Pumpkin.Juniper.Lee.1080p.HMAX.WEB-DL.DD2.0.H.264.DUAL-LUKAS.mp4",
+      "identity_basis": "Distinctive episode title matched to supplied Halloween list",
+      "duration_seconds": 1358.26,
+      "source_page": "https://archive.org/details/the.life.and.times.of.juniper.lee.2005-2007.season.1-3.1080p.dual.audio",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:34.131613+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "alternates": [
+        "https://archive.org/download/juniper-lee-105-not-in-my-backyard-moonsong/juniper%20lee%20201%20it%27s%20the%20great%20pumpkin%2C%20juniper%20lee%20%5Bmoonsong%5D.mp4"
+      ],
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Dickleodeon",
+      "type": "Episode",
+      "show": "The Life and Times of Juniper Lee",
+      "title": "The Life and Times of Juniper Lee — Party Monsters",
+      "url": "https://archive.org/download/the.life.and.times.of.juniper.lee.2005-2007.season.1-3.1080p.dual.audio/The.Life.and.Times.of.Juniper.Lee.S02E13.Party.Monsters.1080p.HMAX.WEB-DL.DD2.0.H.264.DUAL-LUKAS.mp4",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "link_status": "range_checked",
+      "archive_identifier": "the.life.and.times.of.juniper.lee.2005-2007.season.1-3.1080p.dual.audio",
+      "filename": "The.Life.and.Times.of.Juniper.Lee.S02E13.Party.Monsters.1080p.HMAX.WEB-DL.DD2.0.H.264.DUAL-LUKAS.mp4",
+      "identity_basis": "Distinctive episode title matched to supplied Halloween list",
+      "duration_seconds": 1348.04,
+      "source_page": "https://archive.org/details/the.life.and.times.of.juniper.lee.2005-2007.season.1-3.1080p.dual.audio",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:34.280460+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "alternates": [
+        "https://archive.org/download/juniper-lee-105-not-in-my-backyard-moonsong/juniper%20lee%20301%20party%20monsters%20%5Bmoonsong%5D.mp4"
+      ],
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "GirlyPop",
+      "type": "Episode",
+      "show": "Arthur",
+      "title": "Arthur - S04E05-E06 - Buster's Breathless + The Fright Stuff SDTV",
+      "url": "https://archive.org/download/arthur-1996-complete_202203/Season%204/Arthur%20-%20S04E05-E06%20-%20Buster%27s%20Breathless%20%2B%20The%20Fright%20Stuff%20SDTV.mp4",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "link_status": "range_checked",
+      "archive_identifier": "arthur-1996-complete_202203",
+      "filename": "Season 4/Arthur - S04E05-E06 - Buster's Breathless + The Fright Stuff SDTV.mp4",
+      "identity_basis": "Distinctive episode title matched to supplied Halloween list",
+      "duration_seconds": 1591.54,
+      "source_page": "https://archive.org/details/arthur-1996-complete_202203",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:33.941393+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "GirlyPop",
+      "type": "Episode",
+      "show": "Arthur",
+      "title": "Arthur - S00E06 - Arthur and the Haunted Treehouse HDTV-1080p",
+      "url": "https://archive.org/download/arthur-1996-complete_202203/Specials/Arthur%20-%20S00E06%20-%20Arthur%20and%20the%20Haunted%20Treehouse%20HDTV-1080p.mp4",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "link_status": "range_checked",
+      "archive_identifier": "arthur-1996-complete_202203",
+      "filename": "Specials/Arthur - S00E06 - Arthur and the Haunted Treehouse HDTV-1080p.mp4",
+      "identity_basis": "Distinctive episode title matched to supplied Halloween list",
+      "duration_seconds": 3407.67,
+      "source_page": "https://archive.org/details/arthur-1996-complete_202203",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:33.997925+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "GirlyPop",
+      "type": "Episode",
+      "show": "Arthur",
+      "title": "Arthur - S11E13-E14 - Hic or Treat + Mr. Alwaysright SDTV",
+      "url": "https://archive.org/download/arthur-1996-complete_202203/Season%2011/Arthur%20-%20S11E13-E14%20-%20Hic%20or%20Treat%20%2B%20Mr.%20Alwaysright%20SDTV.mp4",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "link_status": "range_checked",
+      "archive_identifier": "arthur-1996-complete_202203",
+      "filename": "Season 11/Arthur - S11E13-E14 - Hic or Treat + Mr. Alwaysright SDTV.mp4",
+      "identity_basis": "Distinctive episode title matched to supplied Halloween list",
+      "duration_seconds": 1586.76,
+      "source_page": "https://archive.org/details/arthur-1996-complete_202203",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:33.999635+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Off-Licence TV",
+      "type": "Episode",
+      "show": "Dennis & Gnasher",
+      "title": "Dennis & Gnasher — Haunted House",
+      "url": "https://archive.org/download/dennis-the-menace-gnasher-the-complete-collection-1996-98/Dennis%20%26%20Gnasher%20%281998%29%20S02E06%20-%20Haunted%20House.mp4",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "link_status": "range_checked",
+      "alternates": [
+        "https://archive.org/download/random-tv-shows-and-movies/Dennis%20%26%20Gnasher%20(1998)%20S02E06%20-%20Haunted%20House.mp4"
+      ],
+      "archive_identifier": "dennis-the-menace-gnasher-the-complete-collection-1996-98",
+      "filename": "Dennis & Gnasher (1998) S02E06 - Haunted House.mp4",
+      "identity_basis": "Distinctive episode title matched to supplied Halloween list",
+      "duration_seconds": 1279.42,
+      "source_page": "https://archive.org/details/dennis-the-menace-gnasher-the-complete-collection-1996-98",
+      "archive_format": "MPEG4",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:33.803494+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "eng"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Star Spangled TV",
+      "type": "Episode",
+      "show": "Family Matters",
+      "title": "Family Matters — Dog Day Halloween",
+      "url": "https://archive.org/download/familymatters_202507/season%202/Family%20Matters%20-%202x07%20-%20Dog%20Day%20Halloween%20%28TV-DVDRip%20H%C3%A5%C2%AET%29.mp4",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "link_status": "range_checked",
+      "archive_identifier": "familymatters_202507",
+      "filename": "season 2/Family Matters - 2x07 - Dog Day Halloween (TV-DVDRip Hå®T).mp4",
+      "identity_basis": "Distinctive episode title matched to supplied Halloween list",
+      "duration_seconds": 1261.8,
+      "source_page": "https://archive.org/details/familymatters_202507",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:43.220574+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Star Spangled TV",
+      "type": "Special",
+      "show": "The Magic School Bus",
+      "title": "The Magic School Bus — A Magic School Bus Halloween (1995)",
+      "url": "https://archive.org/download/msbpbs/Specials/27%20A%20Magic%20School%20Bus%20Halloween.ia.mp4",
+      "alternates": [
+        "https://archive.org/download/msbpbs/Specials/27%20A%20Magic%20School%20Bus%20Halloween.mp4",
+        "https://archive.org/download/msbpbs/Specials/A%20Magic%20School%20Bus%20Halloween%20%281995%29.ia.mp4"
+      ],
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "link_status": "range_checked",
+      "archive_identifier": "msbpbs",
+      "filename": "Specials/27 A Magic School Bus Halloween.ia.mp4",
+      "identity_basis": "Distinctive episode title matched to supplied Halloween list",
+      "duration_seconds": 3426.92,
+      "source_page": "https://archive.org/details/msbpbs",
+      "archive_format": "h.264 IA",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:42.941265+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "channel": "90s Toons",
+      "type": "Episode",
+      "show": "Men in Black: The Series",
+      "title": "Men in Black: The Series — The Jack O’Lantern Syndrome",
+      "url": "https://archive.org/download/men-in-black-the-series-1997/Men%20In%20Black%20The%20Series%20%281997%29/Men%20In%20Black%20The%20Series%20%281997%29%20S02/Men%20In%20Black%20The%20Series%20-%2002x06%20-%20The%20Jack%20O%60Lantern%20Syndrome.mp4",
+      "source": "Supplied Halloween wishlist checked October 2026",
+      "link_status": "range_checked",
+      "archive_identifier": "men-in-black-the-series-1997",
+      "filename": "Men In Black The Series (1997)/Men In Black The Series (1997) S02/Men In Black The Series - 02x06 - The Jack O`Lantern Syndrome.mp4",
+      "identity_basis": "Distinctive episode title matched to supplied Halloween list",
+      "duration_seconds": 1280.72,
+      "source_page": "https://archive.org/details/men-in-black-the-series-1997",
+      "archive_format": "h.264",
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true,
+        "checked_at": "2026-10-02T00:39:42.635526+00:00"
+      },
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "schedule_months": [
+        10
+      ],
+      "extra_theme_months": [
+        10
+      ],
+      "seasonal_month": "october",
+      "codec_check": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "pix_fmt": "yuv420p",
+            "tags": {
+              "language": "und"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "tags": {
+              "language": "und"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "held": [
+    {
+      "title": "You and Idol PreCure — E38 — Taking a Step Together! WIN-WIN Halloween!",
+      "source_page": "https://archive.org/details/38-you-and-idol-precure-english",
+      "reason": "Collection explicitly lists English soft subtitles; confirm/export browser captions before scheduling."
+    },
+    {
+      "title": "Wonderful PreCure — E39 — Niko Evolution!",
+      "source_page": "https://archive.org/details/39-wonderful-precure-english",
+      "reason": "Collection explicitly lists English soft subtitles; confirm/export browser captions before scheduling."
+    },
+    {
+      "title": "Hirogaru Sky! PreCure — E39 — Great Witch Yoyo and the Halloween Party!",
+      "source_page": "https://archive.org/details/hirogaru-sky-precure-epsiode-39",
+      "reason": "Episode identity confirmed; English audio/subtitle presentation not verified."
+    },
+    {
+      "title": "Mahou Tsukai Pretty Cure! — E39 — Today Is Halloween! Everyone Must Smile!",
+      "source_page": "https://archive.org/details/mahou-tsukai-pretty-cure-complete-season",
+      "reason": "MP4 derivative found, but subtitle preservation from original MKV needs review."
+    },
+    {
+      "title": "Tropical-Rouge! Pretty Cure — E35 — Exciting Halloween! Don’t Lose, Manatsu!",
+      "source_page": "https://archive.org/details/serenae-tropical-rouge-precure",
+      "reason": "MP4 derivative found, but subtitle preservation from original MKV needs review."
+    }
+  ]
+}
