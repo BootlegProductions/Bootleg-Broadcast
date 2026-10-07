@@ -1,9 +1,0 @@
-Bootleg Broadcast v0.27.1 — Guide Fit Adjustment
-
-- Reduced the Guide width from 49% to 46% of the television container.
-- Reduced its maximum height from 62% to 56%.
-- Moved it slightly down and right inside the CRT glass.
-- Tightened padding and marker width without returning to the previously tiny,
-  illegible Guide text.
-- Scheduling, Trailer Park Boys sources, fallback behaviour and all v0.27
-  programme data are unchanged.

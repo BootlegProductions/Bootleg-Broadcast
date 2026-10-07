@@ -6,3 +6,6 @@
 .library-controls {display:grid;grid-template-columns:2fr 1fr;gap:16px;margin:24px 0;}
 .library-shell > .source-actions {flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:flex-start;}
 @media(max-width:600px){.library-controls {grid-template-columns:1fr;}}
+.table-scroll{overflow-x:auto}table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:.65rem;border-bottom:1px solid #445047}#audit-form{display:flex;gap:1rem;align-items:end;flex-wrap:wrap}#audit-summary{padding:1rem 0;color:#b5e1b0}.source-actions label{display:block}.source-actions select{max-width:100%}
+
+@media(min-width:761px){.filters{grid-template-columns:repeat(3,minmax(0,1fr))}.source-actions{max-width:270px}}

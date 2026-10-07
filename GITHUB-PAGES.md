@@ -1,9 +1,0 @@
-# Deployment preference
-GitHub Pages is the primary production target. Keep vanilla static client and relative asset/data paths compatible with /Bootleg-Broadcast/. Provide a ready-to-extract ZIP after updates. Do not publish updates without an explicit deployment request; the user is still tweaking. Backend services remain optional until a suitable backend is agreed. Keep device-clock fallback and per-visit failure skipping functional. Export must explain that server clock and central repair database are unavailable on Pages alone.
-
-# Seasonal programming
-Courage is eligible year-round from 18:00 to 07:00 Europe/London. October has a rotating Courage double bill at 18:00 daily plus increased Halloween rotation weight. Preserve UK daylight saving and morning age blocks. User uploads must have verified exact filenames, durations and playable browser media before entering live pools; retain unready files as held candidates.
-
-# Holiday calendar
-The static timed planner calculates holiday dates in the actual UK year: Valentine 14 February, St Patrick 17 March, Western Easter Sunday, US Thanksgiving on November's fourth Thursday, and New Year on 31 December/1 January. Christmas retains a whole-December rotation with 24–26 December spotlights. Use date eligibility for dedicated episodes and wider windows for generic seasonal films. Do not infer Easter from Eastern State/Easter Island or Christmas from the word Holiday alone. Keep unresolved codec/language/compilation sources held and document exact filenames, durations and codec evidence. Date previews use the current UK year; snapshots must not freeze future Easter/Thanksgiving dates.
-retry

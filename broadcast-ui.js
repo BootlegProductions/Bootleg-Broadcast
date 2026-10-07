@@ -2,7 +2,7 @@
 const Broadcast=(()=>{
  let pools={},breaks={},cache=null,cacheSchedule=null,cacheKey='',mode='live',selected=null,holding=false,slotKey='',syncing=false,clockSynced=false;
  let anchor=Date.now(),anchorPerf=performance.now();
- const failed=new Set(),repairs=new Map(),queued=new Map();
+ const failed=new Set();try{for(const url of Object.keys(JSON.parse(localStorage.getItem('bootleg.source.flags')||'{}')))failed.add(url);}catch{}const repairs=new Map(),queued=new Map();
  let client;try{client=sessionStorage.getItem('bootleg.report.client');if(!client){client=crypto.randomUUID();sessionStorage.setItem('bootleg.report.client',client);}}catch{client=crypto.randomUUID();}
  const now=()=>anchor+(performance.now()-anchorPerf);
  async function clock(){if(globalThis.BOOTLEG_HOSTING?.backend===false){anchor=Date.now();anchorPerf=performance.now();clockSynced=false;return;}const before=performance.now();try{const r=await fetch('/api/time',{cache:'no-store'});if(!r.ok)throw Error();const data=await r.json();if(!Number.isFinite(data.server_time))throw Error();anchor=data.server_time+(performance.now()-before)/2;anchorPerf=performance.now();clockSynced=true;}catch{clockSynced=false;}}
@@ -39,7 +39,7 @@ const Broadcast=(()=>{
   if(!poweredOn)togglePower();else{safePlay();armSourceTimeout();}showChannelOverlay();
  }
  function choose(channel,index){const p=getTodaySchedule()?.channels?.[channel]?.playlist?.[index];if(!p||NON_PROGRAMME.has(p.type)||p.type==='Filler'||p.presentation)return;resetPlayer();currentChannel=channel;currentIndex=index;selected={...p};mode='ondemand';slotKey='ondemand:'+p.url;play();if(!poweredOn)togglePower();showChannelOverlay();closeGuide();}
- function chooseItem(p){if(p.broadcast_held){showStatus('SOURCE HELD FOR COMPATIBILITY REVIEW',3000);return;}resetPlayer();const index=getTodaySchedule()?.channels?.findIndex(c=>c.name===p.channel);if(index>=0)currentChannel=index;selected={...p};mode='ondemand';slotKey='ondemand:'+p.url;play();if(!poweredOn)togglePower();showChannelOverlay();}
+ function chooseItem(p){if(p.broadcast_held||failed.has(p.url)){showStatus('SOURCE HELD FOR REVIEW',3000);return;}resetPlayer();const index=getTodaySchedule()?.channels?.findIndex(c=>c.name===p.channel);if(index>=0)currentChannel=index;selected={...p};mode='ondemand';slotKey='ondemand:'+p.url;play();if(!poweredOn)togglePower();showChannelOverlay();}
  function skip(direction){const c=getCurrentChannelData();if(!c)return;const next=nextProgrammeIndex(c.playlist,currentIndex,direction);if(next>=0)choose(currentChannel,next);}
  function restart(){const p=item();if(!p)return;resetPlayer();selected={...p};mode='ondemand';play();if(!poweredOn)togglePower();}
  function alternate(manual=false){const p=item(),urls=sources(p);let next=sourceIndex+1;while(next<urls.length&&blocked(urls[next]))next++;if(next>=urls.length){if(!manual)return false;next=urls.findIndex(u=>!blocked(u));if(next<0)return false;}sourceRetry=0;stalledAttempts=0;clearCard();loadItemSource(p,next,seek());return true;}

@@ -1,0 +1,434 @@
+{
+  "catalogue_entries": 25502,
+  "restored_existing_anime_links": 1329,
+  "new_english_track_checked_anime": 3,
+  "promoted_urls": [
+    "https://archive.org/download/another-dub/Another/Another%20%28Dub%29%20Episode%204.mp4",
+    "https://archive.org/download/barakamon-dub/Barakamon/Barakamon%20%28Dub%29%20Episode%204.mp4",
+    "https://archive.org/download/maison-ikkoku-english-dub/Maison%20Ikkoku/EP.4.360p.mp4"
+  ],
+  "language_review_pending": [
+    {
+      "title": "Satsuriku no Tenshi (Dub) Episode 1.mp4",
+      "show": "Angels of Death Satsuriku No Tenshi ( Dub)",
+      "url": "https://archive.org/download/angels-of-death-satsuriku-no-tenshi-dub/Angels%20of%20death/Satsuriku%20no%20Tenshi%20%28Dub%29%20Episode%201.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Satsuriku no Tenshi (Dub) Episode 2.mp4",
+      "show": "Angels of Death Satsuriku No Tenshi ( Dub)",
+      "url": "https://archive.org/download/angels-of-death-satsuriku-no-tenshi-dub/Angels%20of%20death/Satsuriku%20no%20Tenshi%20%28Dub%29%20Episode%202.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Satsuriku no Tenshi (Dub) Episode 3.mp4",
+      "show": "Angels of Death Satsuriku No Tenshi ( Dub)",
+      "url": "https://archive.org/download/angels-of-death-satsuriku-no-tenshi-dub/Angels%20of%20death/Satsuriku%20no%20Tenshi%20%28Dub%29%20Episode%203.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Satsuriku no Tenshi (Dub) Episode 4.mp4",
+      "show": "Angels of Death Satsuriku No Tenshi ( Dub)",
+      "url": "https://archive.org/download/angels-of-death-satsuriku-no-tenshi-dub/Angels%20of%20death/Satsuriku%20no%20Tenshi%20%28Dub%29%20Episode%204.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Bakugan (Dub) Episode 1.mp4",
+      "show": "Bakugan ( Dub)",
+      "url": "https://archive.org/download/bakugan-dub/Bakugan/Bakugan%20%28Dub%29%20Episode%201.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Bakugan (Dub) Episode 2.mp4",
+      "show": "Bakugan ( Dub)",
+      "url": "https://archive.org/download/bakugan-dub/Bakugan/Bakugan%20%28Dub%29%20Episode%202.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Bakugan (Dub) Episode 3.mp4",
+      "show": "Bakugan ( Dub)",
+      "url": "https://archive.org/download/bakugan-dub/Bakugan/Bakugan%20%28Dub%29%20Episode%203.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Bakugan (Dub) Episode 4.mp4",
+      "show": "Bakugan ( Dub)",
+      "url": "https://archive.org/download/bakugan-dub/Bakugan/Bakugan%20%28Dub%29%20Episode%204.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Ep. 01 - Awakening.mp4",
+      "show": "Shinzo (English Dub)",
+      "url": "https://archive.org/download/shinzo-english-dub/Shinzo%20%28English%20Dub%29/Ep.%2001%20-%20Awakening.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Ep. 02 - Bee-Ware The Hunters.mp4",
+      "show": "Shinzo (English Dub)",
+      "url": "https://archive.org/download/shinzo-english-dub/Shinzo%20%28English%20Dub%29/Ep.%2002%20-%20Bee-Ware%20The%20Hunters.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Ep. 03 - Web of Evil.mp4",
+      "show": "Shinzo (English Dub)",
+      "url": "https://archive.org/download/shinzo-english-dub/Shinzo%20%28English%20Dub%29/Ep.%2003%20-%20Web%20of%20Evil.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Ep. 04 - Day at the Park.mp4",
+      "show": "Shinzo (English Dub)",
+      "url": "https://archive.org/download/shinzo-english-dub/Shinzo%20%28English%20Dub%29/Ep.%2004%20-%20Day%20at%20the%20Park.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Great Teacher Onizuka (Dub) Episode 1.mp4",
+      "show": "Great Teacher Onizuka ( Dub)",
+      "url": "https://archive.org/download/great-teacher-onizuka-dub/Great%20Teacher%20Onizuka/Great%20Teacher%20Onizuka%20%28Dub%29%20Episode%201.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Great Teacher Onizuka (Dub) Episode 2.mp4",
+      "show": "Great Teacher Onizuka ( Dub)",
+      "url": "https://archive.org/download/great-teacher-onizuka-dub/Great%20Teacher%20Onizuka/Great%20Teacher%20Onizuka%20%28Dub%29%20Episode%202.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Great Teacher Onizuka (Dub) Episode 3.mp4",
+      "show": "Great Teacher Onizuka ( Dub)",
+      "url": "https://archive.org/download/great-teacher-onizuka-dub/Great%20Teacher%20Onizuka/Great%20Teacher%20Onizuka%20%28Dub%29%20Episode%203.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Great Teacher Onizuka (Dub) Episode 4.mp4",
+      "show": "Great Teacher Onizuka ( Dub)",
+      "url": "https://archive.org/download/great-teacher-onizuka-dub/Great%20Teacher%20Onizuka/Great%20Teacher%20Onizuka%20%28Dub%29%20Episode%204.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "[Anime Time] Black Lagoon - 001 - The Black Lagoon.mp4",
+      "show": "Black Lagoon (1080p) (English + Japanese)",
+      "url": "https://archive.org/download/anime-time-black-lagoon-007-calm-down-two-men/%5BAnime%20Time%5D%20Black%20Lagoon%20-%20001%20-%20The%20Black%20Lagoon.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "[Anime Time] Black Lagoon - 002 - Mangrove Heaven.mp4",
+      "show": "Black Lagoon (1080p) (English + Japanese)",
+      "url": "https://archive.org/download/anime-time-black-lagoon-007-calm-down-two-men/%5BAnime%20Time%5D%20Black%20Lagoon%20-%20002%20-%20Mangrove%20Heaven.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "[Anime Time] Black Lagoon - 003 - Ring-Ding Ship Chase.mp4",
+      "show": "Black Lagoon (1080p) (English + Japanese)",
+      "url": "https://archive.org/download/anime-time-black-lagoon-007-calm-down-two-men/%5BAnime%20Time%5D%20Black%20Lagoon%20-%20003%20-%20Ring-Ding%20Ship%20Chase.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Death Note - 01x01 - Rebirth.mp4",
+      "show": "Death Note (1080p) (English + Japanese)",
+      "url": "https://archive.org/download/death-note_1080p_2007/Death%20Note%20-%2001x01%20-%20Rebirth.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Death Note - 01x02 - Confrontation.mp4",
+      "show": "Death Note (1080p) (English + Japanese)",
+      "url": "https://archive.org/download/death-note_1080p_2007/Death%20Note%20-%2001x02%20-%20Confrontation.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Death Note - 01x03 - Dealings.mp4",
+      "show": "Death Note (1080p) (English + Japanese)",
+      "url": "https://archive.org/download/death-note_1080p_2007/Death%20Note%20-%2001x03%20-%20Dealings.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "[AnimeRG] Parasyte -the maxim- 01 [1080p] [x265] [pseudo].mp4",
+      "show": "Parasyte The Maxim (1080p) (English + Japanese)",
+      "url": "https://archive.org/download/anime-rg_parasyte-the-maxim_1080p_2015/%5BAnimeRG%5D%20Parasyte%20-the%20maxim-%2001%20%5B1080p%5D%20%5Bx265%5D%20%5Bpseudo%5D.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "[AnimeRG] Parasyte -the maxim- 02 [1080p] [x265] [pseudo].mp4",
+      "show": "Parasyte The Maxim (1080p) (English + Japanese)",
+      "url": "https://archive.org/download/anime-rg_parasyte-the-maxim_1080p_2015/%5BAnimeRG%5D%20Parasyte%20-the%20maxim-%2002%20%5B1080p%5D%20%5Bx265%5D%20%5Bpseudo%5D.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "[AnimeRG] Parasyte -the maxim- 03 [1080p] [x265] [pseudo].mp4",
+      "show": "Parasyte The Maxim (1080p) (English + Japanese)",
+      "url": "https://archive.org/download/anime-rg_parasyte-the-maxim_1080p_2015/%5BAnimeRG%5D%20Parasyte%20-the%20maxim-%2003%20%5B1080p%5D%20%5Bx265%5D%20%5Bpseudo%5D.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "[DB]Cowboy Bebop_-_01_(Dual Audio_10bit_BD1080p_x265).mp4",
+      "show": "[DB] Cowboy Bebop (1080p) (English + Japanese)",
+      "url": "https://archive.org/download/db-bebop-of-the-cowboys-1080p/%5BDB%5DCowboy%20Bebop_-_01_%28Dual%20Audio_10bit_BD1080p_x265%29.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "[DB]Cowboy Bebop_-_02_(Dual Audio_10bit_BD1080p_x265).mp4",
+      "show": "[DB] Cowboy Bebop (1080p) (English + Japanese)",
+      "url": "https://archive.org/download/db-bebop-of-the-cowboys-1080p/%5BDB%5DCowboy%20Bebop_-_02_%28Dual%20Audio_10bit_BD1080p_x265%29.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "[DB]Cowboy Bebop_-_03_(Dual Audio_10bit_BD1080p_x265).mp4",
+      "show": "[DB] Cowboy Bebop (1080p) (English + Japanese)",
+      "url": "https://archive.org/download/db-bebop-of-the-cowboys-1080p/%5BDB%5DCowboy%20Bebop_-_03_%28Dual%20Audio_10bit_BD1080p_x265%29.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Monster - Chapter 01 - Herr Dr. Tenma.mp4",
+      "show": "Monster Upscale beta",
+      "url": "https://archive.org/download/monster-upscale-beta/Monster%20-%20Chapter%2001%20-%20Herr%20Dr.%20Tenma.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Monster - Chapter 02 - Downfall.mp4",
+      "show": "Monster Upscale beta",
+      "url": "https://archive.org/download/monster-upscale-beta/Monster%20-%20Chapter%2002%20-%20Downfall.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    },
+    {
+      "title": "Monster - Chapter 03 - Murder Case.mp4",
+      "show": "Monster Upscale beta",
+      "url": "https://archive.org/download/monster-upscale-beta/Monster%20-%20Chapter%2003%20-%20Murder%20Case.mp4",
+      "reason": "First audio track lacks an English language tag; mixed-language upload metadata cannot confirm the default MP4 audio."
+    }
+  ],
+  "holds": [
+    {
+      "title": "S5 EP 46 Spanish Fly",
+      "url": "https://archive.org/download/s-7-ep-41-beavis-butthead-are-dead/S5/S5%20EP%2046%20Spanish%20Fly.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "Ben 10 — Be Afraid of the Dark",
+      "url": "https://archive.org/download/ben-10-complete-season-3/SEASON%203%20EPISODES%20H.264%20DVD%20RIP/S03%20E12%20Be%20Afraid%20of%20the%20Dark.mp4",
+      "reason": "Complete MP4 metadata audio codecs: ['ac3']"
+    },
+    {
+      "title": "Ben 10 — The Return",
+      "url": "https://archive.org/download/ben-10-complete-season-3/SEASON%203%20EPISODES%20H.264%20DVD%20RIP/S03%20E11%20The%20Return.mp4",
+      "reason": "Complete MP4 metadata audio codecs: ['ac3']"
+    },
+    {
+      "title": "Futurama S05E12 Spanish Fry",
+      "url": "https://archive.org/download/futurama-s-05-m-01-benders-big-score-2007-360p-re-blurip_202607/Futurama/Futurama%20S05%20%28360p%20re-dvdrip%29/Futurama%20S05E12%20Spanish%20Fry.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "Futurama S05E12 Spanish Fry",
+      "url": "https://archive.org/download/futu-4/Futurama%20S05E12%20Spanish%20Fry.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "Futurama S05E12 Spanish Fry.ia",
+      "url": "https://archive.org/download/futu-4/Futurama%20S05E12%20Spanish%20Fry.ia.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "The New Scooby Doo Mysteries S01E01",
+      "url": "https://archive.org/download/random-tv-shows-and-movies/The%20New%20Scooby%20Doo%20Mysteries%20S01E01.mp4",
+      "reason": "Viewer reports Spanish audio in this collection; English replacement needed."
+    },
+    {
+      "title": "The New Scooby Doo Mysteries S01E02",
+      "url": "https://archive.org/download/random-tv-shows-and-movies/The%20New%20Scooby%20Doo%20Mysteries%20S01E02.mp4",
+      "reason": "Viewer reports Spanish audio in this collection; English replacement needed."
+    },
+    {
+      "title": "The New Scooby Doo Mysteries S01E03",
+      "url": "https://archive.org/download/random-tv-shows-and-movies/The%20New%20Scooby%20Doo%20Mysteries%20S01E03.mp4",
+      "reason": "Viewer reports Spanish audio in this collection; English replacement needed."
+    },
+    {
+      "title": "The New Scooby Doo Mysteries S01E04",
+      "url": "https://archive.org/download/random-tv-shows-and-movies/The%20New%20Scooby%20Doo%20Mysteries%20S01E04.mp4",
+      "reason": "Viewer reports Spanish audio in this collection; English replacement needed."
+    },
+    {
+      "title": "The New Scooby Doo Mysteries S01E05",
+      "url": "https://archive.org/download/random-tv-shows-and-movies/The%20New%20Scooby%20Doo%20Mysteries%20S01E05.mp4",
+      "reason": "Viewer reports Spanish audio in this collection; English replacement needed."
+    },
+    {
+      "title": "The New Scooby Doo Mysteries S01E06",
+      "url": "https://archive.org/download/random-tv-shows-and-movies/The%20New%20Scooby%20Doo%20Mysteries%20S01E06.mp4",
+      "reason": "Viewer reports Spanish audio in this collection; English replacement needed."
+    },
+    {
+      "title": "The New Scooby Doo Mysteries S01E07",
+      "url": "https://archive.org/download/random-tv-shows-and-movies/The%20New%20Scooby%20Doo%20Mysteries%20S01E07.mp4",
+      "reason": "Viewer reports Spanish audio in this collection; English replacement needed."
+    },
+    {
+      "title": "The New Scooby Doo Mysteries S01E08",
+      "url": "https://archive.org/download/random-tv-shows-and-movies/The%20New%20Scooby%20Doo%20Mysteries%20S01E08.mp4",
+      "reason": "Viewer reports Spanish audio in this collection; English replacement needed."
+    },
+    {
+      "title": "The New Scooby Doo Mysteries S01E09",
+      "url": "https://archive.org/download/random-tv-shows-and-movies/The%20New%20Scooby%20Doo%20Mysteries%20S01E09.mp4",
+      "reason": "Viewer reports Spanish audio in this collection; English replacement needed."
+    },
+    {
+      "title": "The New Scooby Doo Mysteries S01E10",
+      "url": "https://archive.org/download/random-tv-shows-and-movies/The%20New%20Scooby%20Doo%20Mysteries%20S01E10.mp4",
+      "reason": "Viewer reports Spanish audio in this collection; English replacement needed."
+    },
+    {
+      "title": "The New Scooby Doo Mysteries S01E11",
+      "url": "https://archive.org/download/random-tv-shows-and-movies/The%20New%20Scooby%20Doo%20Mysteries%20S01E11.mp4",
+      "reason": "Viewer reports Spanish audio in this collection; English replacement needed."
+    },
+    {
+      "title": "The New Scooby Doo Mysteries S01E12",
+      "url": "https://archive.org/download/random-tv-shows-and-movies/The%20New%20Scooby%20Doo%20Mysteries%20S01E12.mp4",
+      "reason": "Viewer reports Spanish audio in this collection; English replacement needed."
+    },
+    {
+      "title": "The New Scooby Doo Mysteries S01E13",
+      "url": "https://archive.org/download/random-tv-shows-and-movies/The%20New%20Scooby%20Doo%20Mysteries%20S01E13.mp4",
+      "reason": "Viewer reports Spanish audio in this collection; English replacement needed."
+    },
+    {
+      "title": "S07E01.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E01.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E02.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E02.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E03.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E03.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E04.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E04.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E05.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E05.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E06.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E06.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E07.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E07.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E08.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E08.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E09.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E09.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E10.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E10.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E11.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E11.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E12.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E12.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E13.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E13.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E14.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E14.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E15.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E15.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E16.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E16.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E17.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E17.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E18.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E18.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E19.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E19.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E20.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E20.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E21.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E21.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E22.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E22.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E23.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E23.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E24.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E24.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E25.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E25.mp4",
+      "reason": "Source explicitly labelled non-English"
+    },
+    {
+      "title": "S07E26.mp4",
+      "url": "https://archive.org/download/totallyspies7_202511/S07E26.mp4",
+      "reason": "Source explicitly labelled non-English"
+    }
+  ],
+  "rules": [
+    "Beastars exclusively Japanime, at most four episodes per day",
+    "Rotation balances series rather than counting every episode as a separate show vote",
+    "Original collected links remain searchable with their actual evidence status",
+    "First-track English tags checked for new anime promotions; untagged mixed-language files not promoted"
+  ],
+  "english_audio_track_checks": 12,
+  "mixed_language_claims": 295,
+  "cleanup_documents": 16
+}
