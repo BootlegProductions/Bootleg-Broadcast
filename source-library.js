@@ -15,7 +15,7 @@ function option(value,label){const o=document.createElement('option');o.value=va
 async function init(){
  const params=new URLSearchParams(location.search);
  $('archive-form').addEventListener('submit',e=>{e.preventDefault();window.open(archiveURL($('archive-query').value,$('archive-scope').value),'_blank','noopener,noreferrer');});
- try{const r=await fetch('source-library.json');if(!r.ok)throw Error('unavailable');const data=await r.json();programmes=data.programmes;
+ try{const r=await fetch('source-library.json?v=0341');if(!r.ok)throw Error('unavailable');const data=await r.json();programmes=data.programmes;
  [...new Set(programmes.flatMap(p=>p.channels||[p.channel]))].sort().forEach(ch=>$('library-channel').append(option(ch,ch)));
  [...new Set(programmes.flatMap(p=>p.seasonal_tags||[]))].sort((a,b)=>(labels[a]||a).localeCompare(labels[b]||b)).forEach(t=>$('library-tag').append(option(t,labels[t]||t)));
  monthNames.forEach((m,i)=>$('library-month').append(option(i+1,m)));

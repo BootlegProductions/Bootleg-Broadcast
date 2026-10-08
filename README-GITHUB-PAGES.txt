@@ -1,4 +1,4 @@
-BOOTLEG BROADCAST — GitHub Pages v0.33
+BOOTLEG BROADCAST — GitHub Pages v0.34.1
 
 UPDATE
 1. In GitHub Desktop select your existing Bootleg-Broadcast repository. Fetch/Pull origin before copying files.

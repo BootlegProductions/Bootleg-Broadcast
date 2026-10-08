@@ -1,5 +1,30 @@
 BOOTLEG BROADCAST — VERSION HISTORY
 
+v0.34.1 — 7 October 2026
+Independent sample review and collection identity corrections
+- Randomly sampled 90s Toons on 22 November, 21 October and 16 December 2026. Full timetables and check results are included in 90s-Toons-Three-Day-Schedules.txt and three-day-audit.json.
+- Unified Men in Black and Cadillacs and Dinosaurs collection aliases. Alternate collections with conflicting or uncertain episode identities remain searchable but are held out of automatic broadcasts.
+- Parse episode numbers directly from explicit filename markers before trusting old imported numeric fields. Corrects Cadillacs records previously all labelled episode 13, plus numbered files using Episode/EP/AG and Zelda filename patterns.
+- Christmas-named episodes and Christmas specials now stay in December; winter horror programmes retain their existing seasonal eligibility. This removes Christmas specials leaking into October or normal November rotation.
+- Sample checks compare URLs, canonical content identities and numbered episodes; the three main ordered double bills are checked against sorted collection order.
+- All legacy-source language and playback limitations still apply. These are timetable/data checks, not an independent verification of every video's contents or the official broadcast order of every series.
+- No additional obsolete files need deleting. This complete ZIP replaces the earlier v0.34 ZIP.
+
+v0.34 — 7 October 2026
+Ordered programming and full-day repeat protection
+- Repeat protection now spans the entire UK broadcast day, including transitions between morning, afternoon, evening and after-hours blocks.
+- Content identities prevent the same numbered episode being aired again from another source URL. A special cannot loop to fill a small gap.
+- Restored broadcast-eligible episode collections to the live pools, rather than limiting the clock to the small seasonal subset.
+- 90s Toons starts its core ordered block at 07:00 UK: two episodes of X-Men (1992), two Spider-Man (1994), then two Godzilla: The Series (1998), with station breaks. The next day continues two episodes further along each series; the collection wraps after its final episode.
+- Regular episode groups use consecutive pairs and a four-episode daily ceiling; the three core series use two. Their date-based sequence advances daily, independent of when a viewer opens the site. Holiday spotlight episodes are exceptions to regular serial order.
+- X-Men Evolution, Wolverine and the X-Men, Marvel Anime X-Men, Spider-Man Unlimited, Pokemon Advanced and Dragon Ball variants keep separate identities and episode order.
+- No verified MTV Spider-Man collection was present in the restored files; this release does not invent links for it.
+- Christmas and other holiday features draw unique specials alongside regular series. October Courage priority, UK time, child/adult dayparts and the December fireplace remain.
+- The audit now detects repeated content, not just repeated URLs, and displays the precise series name when available.
+- Source language status is preserved. This is a scheduling update, not a new playback, audio or subtitle review of all legacy links. Missing runtimes still use estimates; ident presentation covers short boundary gaps.
+- The CRT presentation is unchanged. No backend or additional hosting is required.
+- See release-validation.json for checks and example dates. Existing cleanup instructions remain in FILES-TO-DELETE.txt; no additional files need deletion for v0.34.
+
 v0.33 — 7 October 2026
 - Complete source catalogue reconciled from original monthly schedules, programme library, broadcast pools, collected link documents and current GitHub additions. Original X-Men, Spider-Man, Fox Kids and anime collections are searchable.
 - Anime previously present in broadcast schedules restored to the timed pool. Series-balanced rotation prevents large episode collections from monopolising airtime. Beastars is exclusive to Japanime and capped at four episodes per UK day.

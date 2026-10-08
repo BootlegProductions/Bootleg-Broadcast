@@ -12,20 +12,34 @@ const holidayNames={'christmas':'Christmas','valentine':'Valentine’s Day','st-
 function easterDate(year){const a=year%19,b=Math.floor(year/100),c=year%100,d=Math.floor(b/4),e=b%4,f=Math.floor((b+8)/25),g=Math.floor((b-f+1)/3),h=(19*a+b-d-g+15)%30,i=Math.floor(c/4),k=c%4,l=(32+2*e+2*i-h-k)%7,m=Math.floor((a+11*h+22*l)/451),n=h+l-7*m+114;return [Math.floor(n/31),n%31+1];}
 function holidayDates(year){const first=new Date(Date.UTC(year,10,1)).getUTCDay();return {'christmas':[[12,24],[12,25],[12,26]],'valentine':[[2,14]],'st-patrick':[[3,17]],'easter':[easterDate(year)],'thanksgiving':[[11,1+(4-first+7)%7+21]],'new-year':[[1,1],[12,31]]};}
 const eventsOn=(year,month,day)=>Object.entries(holidayDates(year)).filter(([,dates])=>dates.some(([m,d])=>month===m&&day===d)).map(([name])=>name);
-const holidayEligible=(p,year,month,day)=>!p.holiday_events?.length||p.holiday_events.some(event=>event==='christmas'?month===12:(holidayDates(year)[event]||[]).some(([m,d])=>month===m&&day===d));
+const holidayEligible=(p,year,month,day)=>(!(/christmas|\bxmas\b/i.test(p.show+' '+p.title)||(['Movie','Special'].includes(p.type)&&(p.seasonal_tags||[]).includes('christmas')))||month===12)&&(!p.holiday_events?.length||p.holiday_events.some(event=>event==='christmas'?month===12:(holidayDates(year)[event]||[]).some(([m,d])=>month===m&&day===d)));
 const seasonalWeight=(p,month,active)=>{if(active.some(event=>[...(p.holiday_events||[]),...(p.holiday_priority||[]),...(p.seasonal_tags||[])].includes(event)))return 6;if(month===10)return octoberWeight(p);if(month===12)return (p.seasonal_tags||[]).includes('christmas')?3:(p.seasonal_tags||[]).some(t=>['winter','snow'].includes(t))?2:1;return 1;};
 const isClassic=p=>/jetsons|flintstones|tom and jerry|looney tunes|merry melodies|popeye|wacky races/i.test(p.show+' '+p.title);
 const isKidsAnime=p=>!/digimon ghost game/i.test(p.show+' '+p.title)&&/shinzo|cardcaptors|mew mew power|pok[eé]mon|hamtaro|digimon|bakugan|jewelpet|precure|pretty cure|parappa|doraemon|yu-gi-oh|beyblade|sonic/i.test(p.show+' '+p.title);
-const seriesKey=p=>p.series_key||String(p.show||p.title).toLowerCase().replace(/\s*[-—]?\s*(?:complete |all )?(?:season|seasons|series)\b.*/i,'').replace(/[^a-z0-9]/g,''),
+const seriesKey=p=>p.series_id||p.series_key||String(p.show||p.title).toLowerCase().replace(/\s*[-—]?\s*(?:complete |all )?(?:season|seasons|series)\b.*/i,'').replace(/[^a-z0-9]/g,''),
  isAdult=p=>p.daypart==='Evening'||/^monster(?:\s*\(|$)/i.test(p.show)||/80s horror anime|queen.?s blade|high school dxd|desert punk|prison school|maken ki|valkyrie drive|hajimete no gal|to love ru|witchblade|bayonetta|paranoia agent|paprika|cyberpunk|chaos.?head|death parade|another|angels of death|maison ikkoku|great teacher onizuka|black lagoon|cowboy bebop|overlord|welcome to the nhk|urusei yatsura|cromartie|gilgamesh|beastars|berserk|gintama|evangelion|death note|akira|perfect blue|ghost in the shell|elfen lied|higurashi|hellsing|parasyte|ninja scroll|tokyo ghoul|attack on titan|serial experiments|devilman|misery|the thing|creepshow|black christmas|30 days of night|the shining/i.test(p.show+' '+p.title);
 function seconds(p){if(p.type==='Ident')return 12;const duration=Number(p.duration_seconds);if(duration>0)return Math.ceil(duration);if(p.type==='Advert')return 30;return 1800;}
+function contentKey(p){
+ if(p.content_id)return p.content_id;
+ const key=seriesKey(p), episode=p.episode_number??p.episode, season=p.season_number??p.season;
+ if(p.type==='Episode'&&episode!=null&&Number.isFinite(Number(episode)))return key+':'+(season||1)+':'+Number(episode);
+ const title=String(p.title||p.show).toLowerCase().replace(/\.mp4$/,'').replace(/[^a-z0-9]/g,'');
+ return p.broadcast_identity||key+':'+title;
+}
+const episodeSort=(a,b)=>(Number(a.season_number??a.season)||1)-(Number(b.season_number??b.season)||1)||(Number(a.episode_number??a.episode)||0)-(Number(b.episode_number??b.episode)||0)||String(a.filename||a.title).localeCompare(String(b.filename||b.title),undefined,{numeric:true});
 function clean(items){const originals=new Set(items.map(p=>p?.url));const seen=new Set();return items.filter(p=>!p?.broadcast_held&&p?.url&&!(p.url.includes('.ia.mp4')&&originals.has(p.url.replace('.ia.mp4','.mp4')))&&!['Ident','Advert','AdBreak'].includes(p.type)&&!seen.has(p.broadcast_identity||p.url)&&seen.add(p.broadcast_identity||p.url));}
 function plan({year,month,day,channel,items=[],pools={},breaks={}}){
  const start=wall(year,month,day),nextDate=new Date(Date.UTC(year,month-1,day+1)),end=wall(nextDate.getUTCFullYear(),nextDate.getUTCMonth()+1,nextDate.getUTCDate());
  const known=new Map((pools[channel]||[]).map(p=>[p.url,p]));
  const candidates=clean([...items.map(p=>known.has(p.url)?{...p,...known.get(p.url)}:p),...(pools[channel]||[])]).filter(p=>(!p.preferred_channel||p.preferred_channel===channel)&&(!p.schedule_months?.length||p.schedule_months.includes(month))&&(p.type!=='Movie'||p.duration_seconds>0)&&holidayEligible(p,year,month,day));
  const bounds=[0,2.5,7,12,18,21,24];if(channel==='Cartoons Cartoons')bounds.push(8);if(month===12)bounds.push(3,4);bounds.sort((a,b)=>a-b);
- const showCounts=new Map();const slots=[],seed=`v5:${year}-${month}-${day}:${channel}`;
+ const showCounts=new Map(),used=new Set(),cursors=new Map();const slots=[],seed=`v6:${year}-${month}-${day}:${channel}`;
+ const ordinal=Math.floor((Date.UTC(year,month-1,day)-Date.UTC(year,0,1))/86400000);
+ const priority=['xmen1992','spiderman1994','godzilla1998'];
+ const allGroups=new Map();for(const p of candidates){const k=seriesKey(p);if(!allGroups.has(k))allGroups.set(k,[]);allGroups.get(k).push(p);}
+ for(const [k,rows] of allGroups){rows.sort(episodeSort);const seen=new Set();allGroups.set(k,rows.filter(p=>!seen.has(contentKey(p))&&seen.add(contentKey(p))));}
+ const limit=p=>Number(p.daily_episode_limit)||(p.type==='Episode'?4:2);
+ const available=p=>!used.has(contentKey(p))&&(showCounts.get(seriesKey(p))||0)<limit(p);
  const activeEvents=eventsOn(year,month,day);
  const season=month===10?'october':month===12?'december':'regular';
  const ident={type:'Ident',title:month===10?'Halloween on Bootleg Broadcast':month===12?'Christmas on Bootleg Broadcast':channel+' · Stay tuned',show:channel,url:breaks[season]?.ident||breaks.regular?.ident||items.find(p=>p.type==='Ident'&&p.url)?.url||'',duration_seconds:12};
@@ -43,27 +57,31 @@ function plan({year,month,day,channel,items=[],pools={},breaks={}}){
    else if(h>=12&&h<21){eligible=candidates.filter(p=>!isAdult(p));label=h<18?'Anime afternoons':'Anime evenings';}
    else{eligible=candidates.filter(isAdult);label=afterHours?'After hours':'Anime after dark';}
   }else if(h>=7&&h<21)eligible=candidates.filter(p=>!isAdult(p));
-  eligible=eligible.filter(p=>inWindow(p,h));
+  eligible=eligible.filter(p=>inWindow(p,h)&&!(channel==='90s Toons'&&h<7&&priority.includes(seriesKey(p))));
   if(!eligible.length){append({...ident,title:label+' · Intermission',presentation:true},t,(stop-t)/1000,label);continue;}
   // Extra rounds increase October airtime without making these year-round shows exclusive to October.
   const groups=new Map();for(const p of eligible){const key=seriesKey(p);if(!groups.has(key))groups.set(key,[]);groups.get(key).push(p);}
-  const rotation=[];const weighted=[...groups].map(([key,rows])=>({key,rows,weight:Math.min(6,Math.max(...rows.map(p=>seasonalWeight(p,month,activeEvents)))),current:0,index:hash(seed+':'+h+':'+key)%rows.length}));
+  const rotation=[];const weighted=[...groups].map(([key,rows])=>({key,rows,weight:Math.min(6,Math.max(...rows.map(p=>seasonalWeight(p,month,activeEvents)))),current:0,index:0}));
   const totalWeight=weighted.reduce((n,x)=>n+x.weight,0);
   for(let i=0;i<totalWeight;i++){for(const x of weighted)x.current+=x.weight;const next=weighted.reduce((a,b)=>b.current>a.current?b:a);next.current-=totalWeight;rotation.push(next);}
-  const withinCap=p=>seriesKey(p)!=='beastars'||(showCounts.get('beastars')||0)<4;
+  const withinCap=available;
   const courage=month===10&&channel==='Cartoons Cartoons'&&h===18?eligible.filter(isCourage):[];
   const event=activeEvents[0]||(month===12?'christmas':null);
   const holidayFeature=event&&[12,18,21].includes(h)?eligible.filter(p=>[...(p.holiday_events||[]),...(p.holiday_priority||[]),...(p.seasonal_tags||[])].includes(event)):[];
   const featurePool=courage.length?courage:holidayFeature;
   const featureLabel=courage.length?'Courage · October evening double bill':(holidayNames[event]||'Holiday')+' · '+(activeEvents.length?'holiday spotlight':'seasonal spotlight');
   const featured=featurePool.length?Array.from({length:Math.min(activeEvents.length?3:2,featurePool.length)},(_,i)=>featurePool[(hash(year+':'+month+':'+(courage.length?'courage':event))+(day-1)*2+i)%featurePool.length]):[];
-  const offset=hash(seed+':'+h)%rotation.length;let n=0;const recent=[],recentShows=[];
+  if(channel==='90s Toons'&&h===7){const serial=[];for(const k of priority){const rows=allGroups.get(k)||[];if(rows.length)for(let i=0;i<Math.min(2,rows.length);i++)serial.push(rows[(ordinal*2+i)%rows.length]);}featured.unshift(...serial);}
+  const eligibleSet=new Set(eligible);
+  const offset=hash(seed+':'+h)%rotation.length;let n=0;const recentShows=[];let paired=null;
+  const nextEpisode=group=>{const rows=allGroups.get(group.key),stride=limit(rows[0]);if((showCounts.get(group.key)||0)>=stride)return null;let cursor=cursors.get(group.key)??(ordinal*stride)%rows.length;for(let i=0;i<rows.length;i++){const p=rows[(cursor+i)%rows.length];if(eligibleSet.has(p)&&available(p)&&seconds(p)*1000<=stop-t-12000){cursors.set(group.key,(cursor+i+1)%rows.length);return p;}}return null;};
   while(t<stop){
-   let chosen=featured.shift()||null;if(chosen&&seconds(chosen)*1000>stop-t-12000)chosen=null;const isFeatured=Boolean(chosen);
-   if(!chosen)for(let j=0;j<rotation.length;j++){const group=rotation[(offset+n+j)%rotation.length],p=group.rows[group.index%group.rows.length];if(withinCap(p)&&!recent.includes(p.url)&&(groups.size<3||!recentShows.includes(seriesKey(p)))&&seconds(p)*1000<=stop-t-12000){chosen=p;group.index++;n+=j+1;break;}}
-   if(!chosen)for(const p of eligible){if(withinCap(p)&&!recent.includes(p.url)&&seconds(p)*1000<=stop-t-12000){chosen=p;break;}}
+   let chosen=featured.shift()||null;if(chosen&&(!available(chosen)||seconds(chosen)*1000>stop-t-12000))chosen=null;const isFeatured=Boolean(chosen);
+   if(!chosen&&paired){chosen=nextEpisode(paired);paired=null;}
+   if(!chosen)for(let j=0;j<rotation.length;j++){const group=rotation[(offset+n+j)%rotation.length];if(groups.size>=3&&recentShows.includes(group.key))continue;chosen=nextEpisode(group);if(chosen){n+=j+1;if(chosen.type==='Episode')paired=group;break;}}
+   if(!chosen)for(const group of weighted){chosen=nextEpisode(group);if(chosen)break;}
    if(!chosen){append({...ident,title:'Back shortly · '+channel,presentation:true},t,(stop-t)/1000,label);break;}
-   recent.push(chosen.url);if(recent.length>2)recent.shift();recentShows.push(seriesKey(chosen));if(recentShows.length>1)recentShows.shift();showCounts.set(seriesKey(chosen),(showCounts.get(seriesKey(chosen))||0)+1);
+   used.add(contentKey(chosen));recentShows.push(seriesKey(chosen));if(recentShows.length>1)recentShows.shift();showCounts.set(seriesKey(chosen),(showCounts.get(seriesKey(chosen))||0)+1);
    const len=seconds(chosen);append(chosen,t,len,isFeatured?featureLabel:label);t+=len*1000;
    // Every programme is followed by a station ident and a short themed break.
    if(stop-t>=12000){append(ident,t,12,label);t+=12000;}
@@ -72,8 +90,8 @@ function plan({year,month,day,channel,items=[],pools={},breaks={}}){
    if(channel==='Cartoons Cartoons'&&breaks.city?.length&&stop-t>=30000){const bumper=breaks.city[hash(seed+':city:'+t)%breaks.city.length],len=Math.min(seconds(bumper),30);append({...bumper,type:'Ident'},t,len,label);t+=len*1000;}
   }
  }
- return {start,end,slots,version:'v5',holiday_events:activeEvents,holiday_labels:activeEvents.map(e=>holidayNames[e]),date:`${year}-${String(month).padStart(2,'0')}-${String(day).padStart(2,'0')}`};
+ return {start,end,slots,version:'v6',holiday_events:activeEvents,holiday_labels:activeEvents.map(e=>holidayNames[e]),date:`${year}-${String(month).padStart(2,'0')}-${String(day).padStart(2,'0')}`};
 }
 function locate(plan,now){const index=plan.slots.findIndex(s=>now>=s.start&&now<s.end);return index<0?null:{index,item:plan.slots[index],offset:(now-plan.slots[index].start)/1000};}
-root.BootlegClock={seriesKey,parts,wall,hash,plan,locate,isClassic,isKidsAnime,isAdult,easterDate,holidayDates,eventsOn,holidayEligible};
+root.BootlegClock={contentKey,seriesKey,parts,wall,hash,plan,locate,isClassic,isKidsAnime,isAdult,easterDate,holidayDates,eventsOn,holidayEligible};
 })(globalThis);

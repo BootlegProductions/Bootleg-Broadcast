@@ -1,0 +1,219 @@
+{
+  "selection": "Random dates selected before generating the corrected plans",
+  "dates": [
+    {
+      "year": 2026,
+      "month": 11,
+      "day": 22
+    },
+    {
+      "year": 2026,
+      "month": 10,
+      "day": 21
+    },
+    {
+      "year": 2026,
+      "month": 12,
+      "day": 16
+    }
+  ],
+  "results": [
+    {
+      "date": "2026-11-22",
+      "programmes": 52,
+      "distinctSeries": 23,
+      "duplicateUrls": 0,
+      "duplicateContent": 0,
+      "failures": [],
+      "core": [
+        {
+          "time": "07:00",
+          "show": "X-Men: The Animated Series (1992)",
+          "title": "EP43 - The Dark Phoenix, Part IV The Fate of the Phoenix"
+        },
+        {
+          "time": "07:30",
+          "show": "X-Men: The Animated Series (1992)",
+          "title": "EP44 - Orphan's End"
+        },
+        {
+          "time": "08:00",
+          "show": "Spider-Man: The Animated Series (1994)",
+          "title": "01x01 Night of the Lizard"
+        },
+        {
+          "time": "08:31",
+          "show": "Spider-Man: The Animated Series (1994)",
+          "title": "01x02 The Spider Slayer"
+        },
+        {
+          "time": "09:01",
+          "show": "Godzilla: The Series (1998)",
+          "title": "1x11 - DeadLoch"
+        },
+        {
+          "time": "09:32",
+          "show": "Godzilla: The Series (1998)",
+          "title": "1x12 - Monster Wars (Part 1)"
+        }
+      ],
+      "seasonal": [
+        "A Pup Named Scooby-Doo - S03E07 - Catcher on the Sly",
+        "Scooby-Doo Where Are You S03E06",
+        "Scooby-Doo Where Are You S03E07",
+        "Scooby-Doo Where Are You S03E08",
+        "Scooby-Doo Where Are You S03E09",
+        "The Scooby-Doo Show - S01E15 - The Ghost of the Bad Humor Man",
+        "The Scooby-Doo Show - S01E16 - The Spirits of '76",
+        "The Scooby-Doo Show - S02E01 - The Curse of Viking Lake"
+      ],
+      "next_day_core_progression": true
+    },
+    {
+      "date": "2026-10-21",
+      "programmes": 58,
+      "distinctSeries": 24,
+      "duplicateUrls": 0,
+      "duplicateContent": 0,
+      "failures": [],
+      "core": [
+        {
+          "time": "07:00",
+          "show": "X-Men: The Animated Series (1992)",
+          "title": "EP55 - One Man's Worth (Part 2)"
+        },
+        {
+          "time": "07:30",
+          "show": "X-Men: The Animated Series (1992)",
+          "title": "EP56 - Proteus (Part 1)"
+        },
+        {
+          "time": "08:00",
+          "show": "Spider-Man: The Animated Series (1994)",
+          "title": "01x02 The Spider Slayer"
+        },
+        {
+          "time": "08:31",
+          "show": "Spider-Man: The Animated Series (1994)",
+          "title": "01x03 Return of the Spider Slayers"
+        },
+        {
+          "time": "09:01",
+          "show": "Godzilla: The Series (1998)",
+          "title": "2x06 - End of the Line"
+        },
+        {
+          "time": "09:32",
+          "show": "Godzilla: The Series (1998)",
+          "title": "2x07 - What A Long Strange Trip It's Been"
+        }
+      ],
+      "seasonal": [
+        "1946 - Bugs Bunny - Hair-Raising Hare",
+        "1978 - What a Nightmare, Charlie Brown!",
+        "A Pup Named Scooby-Doo - S01E03 - Wanted Cheddar Alive",
+        "A Pup Named Scooby-Doo - S01E04 - The Schnook Who Took My Comic Book",
+        "S02E10 Neat and Clean -- Nothing But the Tooth",
+        "S02E011 Water Way to Go -- Cold Turkey",
+        "Casper’s Halloween Special",
+        "A Pup Named Scooby-Doo - S03E07 - Catcher on the Sly",
+        "Garfield's Halloween Adventure",
+        "Halloween Is Grinch Night",
+        "It's the Great Pumpkin, Charlie Brown",
+        "Witch's Night Out (1978)",
+        "Men in Black: The Series — The Jack O’Lantern Syndrome",
+        "Scooby-Doo Where Are You S03E16",
+        "Filmation's Ghostbusters — The Looking-Glass Warrior",
+        "Filmation's Ghostbusters — Laser and Future Rock",
+        "1947 - Daffy Duck - Birth Of A Notion",
+        "A Pup Named Scooby-Doo - S03E08 - The Wrath of Waitro",
+        "Scooby-Doo Where Are You S01E01",
+        "Scooby-Doo Where Are You S01E02",
+        "Filmation's Ghostbusters — Runaway Choo Choo",
+        "Filmation's Ghostbusters — Dynamite Dinosaurs",
+        "The Scooby-Doo Show - S01E13 - Scooby-Doo, Where's the Crew",
+        "The Scooby-Doo Show - S01E14 - The Ghost That Sacked the Quarterback",
+        "S02E012 Made in Japan II",
+        "S02E013 Not a Leg to Stand On",
+        "The Scooby-Doo Show - S01E15 - The Ghost of the Bad Humor Man",
+        "The Scooby-Doo Show - S01E16 - The Spirits of '76"
+      ],
+      "next_day_core_progression": true
+    },
+    {
+      "date": "2026-12-16",
+      "programmes": 43,
+      "distinctSeries": 37,
+      "duplicateUrls": 0,
+      "duplicateContent": 0,
+      "failures": [],
+      "core": [
+        {
+          "time": "07:00",
+          "show": "X-Men: The Animated Series (1992)",
+          "title": "EP15 - Till Death Do Us Part Pt. 2"
+        },
+        {
+          "time": "07:30",
+          "show": "X-Men: The Animated Series (1992)",
+          "title": "EP16 - Whatever It Takes"
+        },
+        {
+          "time": "08:00",
+          "show": "Spider-Man: The Animated Series (1994)",
+          "title": "04x08 The Return of the Green Goblin"
+        },
+        {
+          "time": "08:31",
+          "show": "Spider-Man: The Animated Series (1994)",
+          "title": "04x09 The Haunting of Mary Jane Watson"
+        },
+        {
+          "time": "09:01",
+          "show": "Godzilla: The Series (1998)",
+          "title": "1x19 - An Early Frost"
+        },
+        {
+          "time": "09:31",
+          "show": "Godzilla: The Series (1998)",
+          "title": "1x20 - Trust No One"
+        }
+      ],
+      "seasonal": [
+        "Frosty the Snowman (1953)",
+        "Mister Magoo's Christmas Carol (1962)",
+        "1. It's A Wonderful Tiny Toon's Christmas Special 1996 WARNER HOME VIDEO VHS",
+        "1992b - It's Christmastime Again, Charlie Brown",
+        "2003b - I Want a Dog for Christmas, Charlie Brown",
+        "Twas The Night Before Christmas (1974)",
+        "2002b - Charlie Brown's Christmas Tales",
+        "Frosty The Snowman (1969)",
+        "Alvin and the Chipmunks Christmas Special",
+        "Fat Albert and The Cosby Kids - The Fat Albert Christmas Special (1977)",
+        "Pinocchios Christmas (1980)",
+        "The First Christmas The Story of the First Christmas Snow (1975)",
+        "Hanna-Barbera's Christmas Sing-A-Long!",
+        "Life with Louie - A Christmas Surprise for Mrs. Stillman (1994)",
+        "Nestor, The Long-Eared Christmas Donkey (1977)",
+        "The Leprechauns Christmas Gold (1981)",
+        "The Little Rascals Christmas Special",
+        "The Real Ghostbusters -  - Xmas Marks the Spot (1986)",
+        "The Smurfs_ Christmas Special & Tis the Season to Be Smurfy (1982)",
+        "The Tick-The Tick Loves Santa! (1995)",
+        "Men in Black: The Series — The Black Christmas",
+        "Yogi's First Christmas (1980)"
+      ],
+      "next_day_core_progression": true
+    }
+  ],
+  "version": "0.34.1",
+  "checks": [
+    "Exact URL repeats",
+    "Canonical content repeats, including collection aliases",
+    "Series/season/episode repeats and core pair ordering",
+    "Next-day continuation of all three core double bills"
+  ],
+  "limitations": [
+    "Schedule/data review only, not a watch-through, source availability or audio/subtitle verification."
+  ]
+}

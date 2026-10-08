@@ -1,38 +1,46 @@
 {
-  "plans": 3650,
-  "catalogue_entries": 25502,
-  "min_daily_anime_series": 22,
-  "max_daily_beastars_episodes": 3,
-  "holiday_airtime": {
-    "new-year": 79,
-    "valentine": 112,
-    "st-patrick": 32,
-    "easter": 83,
-    "thanksgiving": 79,
-    "christmas": 969
-  },
-  "checks": [
-    "source completeness and unique URLs",
-    "all-year schedule bounds",
-    "holiday eligibility and retained holiday additions",
-    "mature dayparts",
-    "kids/classic mornings",
-    "Beastars channel exclusivity and daily cap",
-    "anime variety",
-    "future Easter/DST",
-    "language filters and reported Spanish holds"
+  "version": "0.34.1",
+  "channelDaysChecked": 3650,
+  "failures": [],
+  "samples": [
+    {
+      "month": 10,
+      "channel": "GirlyPop",
+      "programmes": 48,
+      "intermissionMinutes": 20.65,
+      "frosty": []
+    },
+    {
+      "month": 10,
+      "channel": "90s Toons",
+      "programmes": 53,
+      "intermissionMinutes": 26.1,
+      "frosty": []
+    },
+    {
+      "month": 12,
+      "channel": "GirlyPop",
+      "programmes": 44,
+      "intermissionMinutes": 88.28333333333333,
+      "frosty": []
+    },
+    {
+      "month": 12,
+      "channel": "90s Toons",
+      "programmes": 42,
+      "intermissionMinutes": 60.43333333333332,
+      "frosty": [
+        "Frosty the Snowman (1953)",
+        "Frosty The Snowman (1969)"
+      ]
+    }
   ],
-  "static_checks": [
-    "TV boot and JSON loading",
-    "channel controls",
-    "on-demand selection and return to broadcast",
-    "December preview/fireplace",
-    "bounded failure hold",
-    "local language-flag deep-link hold",
-    "no absent API calls",
-    "source library UI initializes and searches original X-Men",
-    "language filter and flag persistence/clearing",
-    "local HTML assets and all month rotations"
+  "notes": [
+    "No programme content identity repeats within a UK day.",
+    "90s Toons ordered primary double bills checked on every day of 2026.",
+    "Durations without source metadata are estimated; no fresh playback/language verification claimed."
   ],
-  "verification_limit": "No fresh browser-rendered screenshots or whole-file spoken-audio/subtitle review."
+  "daypartEdgePlansChecked": 40,
+  "daypartFailures": [],
+  "independentThreeDayAudit": "three-day-audit.json"
 }
