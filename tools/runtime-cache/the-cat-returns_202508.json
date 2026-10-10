@@ -1,0 +1,257 @@
+{
+  "identifier": "the-cat-returns_202508",
+  "files": [
+    {
+      "name": "1 - Nausicaä of the Valley of the Wind.ia.mp4",
+      "length": "7087.13",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "1 - Nausicaä of the Valley of the Wind.mp4",
+      "length": "7087.13",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "12 - My Neighbors the Yamadas.ia.mp4",
+      "length": "6232.77",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "12 - My Neighbors the Yamadas.mp4",
+      "length": "6232.77",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "16 - Tales from Earthsea English.ia.mp4",
+      "length": "6932.76",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "16 - Tales from Earthsea English.mp4",
+      "length": "6932.76",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "20 - The Wind Rises.ia.mp4",
+      "length": "7579.6",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "20 - The Wind Rises.mp4",
+      "length": "7579.6",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "All_Movies/Castle in the Sky (1986).mp4",
+      "length": "7473.77",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "All_Movies/From Up on Poppy Hill.ia.mp4",
+      "length": "5490.86",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "All_Movies/From Up on Poppy Hill.mp4",
+      "length": "5490.86",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "All_Movies/Grave of the Fireflies.ia.mp4",
+      "length": "5305.67",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "All_Movies/Grave of the Fireflies.mp4",
+      "length": "5305.67",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "All_Movies/Howl's Moving Castle.mp4",
+      "length": "7149.15",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "All_Movies/Kiki's Delivery Service (1989).mp4",
+      "length": "6287.24",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "All_Movies/Only Yesterday.ia.mp4",
+      "length": "7155.48",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "All_Movies/Only Yesterday.mp4",
+      "length": "7155.48",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "All_Movies/Pom Poko (1994).ia.mp4",
+      "length": "7151.31",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "All_Movies/Pom Poko (1994).mp4",
+      "length": "7151.31",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "All_Movies/Ponyo (2008) .mp4",
+      "length": "6175.25",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "All_Movies/Porco Rosso (1992) .mp4",
+      "length": "5599.95",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "All_Movies/Princess Mononoke.ia.mp4",
+      "length": "8013.68",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "All_Movies/Princess Mononoke.mp4",
+      "length": "8013.68",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "All_Movies/Spirited Away (2001).mp4",
+      "length": "7472.33",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "All_Movies/TOTORO.mp4",
+      "length": "5189.57",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "All_Movies/The Cat Returns.mp4",
+      "length": "4504.04",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "All_Movies/The Ocean Waves.mp4",
+      "length": "4326.88",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "All_Movies/The Red Turtle(2016).ia.mp4",
+      "length": "4849.67",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "All_Movies/The Red Turtle(2016).mp4",
+      "length": "4849.67",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "All_Movies/The Secret World of Arrietty.mp4",
+      "length": "5647.6",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "All_Movies/The Tale of the Princess Kaguya.ia.mp4",
+      "length": "8233.43",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "All_Movies/The Tale of the Princess Kaguya.mp4",
+      "length": "8233.43",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "All_Movies/Watch The Boy and the Heron.ia.mp4",
+      "length": "7436.99",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "All_Movies/Watch The Boy and the Heron.mp4",
+      "length": "7436.99",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "All_Movies/When Marnie Was There.ia.mp4",
+      "length": "6162.03",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "All_Movies/When Marnie Was There.mp4",
+      "length": "6162.03",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "All_Movies/Whisper of the Heart.ia.mp4",
+      "length": "6666.74",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "All_Movies/Whisper of the Heart.mp4",
+      "length": "6666.74",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Aya to Majo.ia.mp4",
+      "length": "4967.09",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Aya to Majo.mp4",
+      "length": "4967.09",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Mary and the Witch's Flower.ia.mp4",
+      "length": "6169.37",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Mary and the Witch's Flower.mp4",
+      "length": "6169.37",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

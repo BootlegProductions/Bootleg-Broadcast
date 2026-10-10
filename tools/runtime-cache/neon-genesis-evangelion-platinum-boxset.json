@@ -1,0 +1,503 @@
+{
+  "identifier": "neon-genesis-evangelion-platinum-boxset",
+  "files": [
+    {
+      "name": "EVANGELION_VOL_1_PLATINUM.mp4",
+      "length": "5648.62",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_1_PLATINUM1.mp4",
+      "length": "7130.3",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_1_PLATINUM10.mp4",
+      "length": "131.13",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_1_PLATINUM11.mp4",
+      "length": "186.05",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_1_PLATINUM12.mp4",
+      "length": "55",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_1_PLATINUM2.mp4",
+      "length": "1441.84",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_1_PLATINUM4.mp4",
+      "length": "1522.39",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_1_PLATINUM5.mp4",
+      "length": "4246.25",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_1_PLATINUM6.mp4",
+      "length": "242.71",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_1_PLATINUM7.mp4",
+      "length": "96.13",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_1_PLATINUM8.mp4",
+      "length": "2924.13",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_1_PLATINUM9.mp4",
+      "length": "1442.01",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_2_PLATINUM.mp4",
+      "length": "7065.8",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_2_PLATINUM1.mp4",
+      "length": "164.7",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_2_PLATINUM10.mp4",
+      "length": "172.04",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_2_PLATINUM11.mp4",
+      "length": "224.76",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_2_PLATINUM12.mp4",
+      "length": "211.71",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_2_PLATINUM13.mp4",
+      "length": "54.99",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_2_PLATINUM3.mp4",
+      "length": "5663.03",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_2_PLATINUM4.mp4",
+      "length": "4340.57",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_2_PLATINUM5.mp4",
+      "length": "1442.11",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_2_PLATINUM6.mp4",
+      "length": "2938.57",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_2_PLATINUM7.mp4",
+      "length": "1457.36",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_2_PLATINUM8.mp4",
+      "length": "1362.53",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_2_PLATINUM9.mp4",
+      "length": "211.21",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_3_PLATINUM.mp4",
+      "length": "5728.03",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_3_PLATINUM10.mp4",
+      "length": "1506.14",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_3_PLATINUM11.mp4",
+      "length": "1442.14",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_3_PLATINUM2.mp4",
+      "length": "1506.64",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_3_PLATINUM3.mp4",
+      "length": "4245.91",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_3_PLATINUM4.mp4",
+      "length": "1146.85",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_3_PLATINUM5.mp4",
+      "length": "162.8",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_3_PLATINUM6.mp4",
+      "length": "211.18",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_3_PLATINUM7.mp4",
+      "length": "131.17",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_3_PLATINUM8.mp4",
+      "length": "186.09",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_3_PLATINUM9.mp4",
+      "length": "2843.91",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_4_PLATINUM.mp4",
+      "length": "4326.53",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_4_PLATINUM10.mp4",
+      "length": "1279.55",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_4_PLATINUM2.mp4",
+      "length": "1427.09",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_4_PLATINUM3.mp4",
+      "length": "2844.35",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_4_PLATINUM4.mp4",
+      "length": "445.51",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_4_PLATINUM5.mp4",
+      "length": "101.74",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_4_PLATINUM6.mp4",
+      "length": "169.1",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_4_PLATINUM7.mp4",
+      "length": "131.2",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_4_PLATINUM8.mp4",
+      "length": "186.29",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_4_PLATINUM9.mp4",
+      "length": "1522.16",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_5_PLATINUM.mp4",
+      "length": "1774.71",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_5_PLATINUM1.mp4",
+      "length": "4327.13",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_5_PLATINUM10.mp4",
+      "length": "1357.63",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_5_PLATINUM11.mp4",
+      "length": "1360.8",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_5_PLATINUM2.mp4",
+      "length": "2844.98",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_5_PLATINUM3.mp4",
+      "length": "1522.99",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_5_PLATINUM4.mp4",
+      "length": "1507.58",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_5_PLATINUM5.mp4",
+      "length": "164.67",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_5_PLATINUM6.mp4",
+      "length": "131.2",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_5_PLATINUM7.mp4",
+      "length": "172.27",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_5_PLATINUM8.mp4",
+      "length": "226.33",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_5_PLATINUM9.mp4",
+      "length": "1275.66",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_6_PLATINUM.mp4",
+      "length": "5057.29",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_6_PLATINUM1.mp4",
+      "length": "4247.15",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_6_PLATINUM11.mp4",
+      "length": "3375.38",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_6_PLATINUM12.mp4",
+      "length": "1649.95",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_6_PLATINUM2.mp4",
+      "length": "2924.93",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_6_PLATINUM3.mp4",
+      "length": "1522.66",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_6_PLATINUM4.mp4",
+      "length": "1442.38",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_6_PLATINUM5.mp4",
+      "length": "1359.13",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_6_PLATINUM6.mp4",
+      "length": "163",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_6_PLATINUM7.mp4",
+      "length": "123.86",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_6_PLATINUM8.mp4",
+      "length": "131.2",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_6_PLATINUM9.mp4",
+      "length": "186.29",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_7_PLATINUM.mp4",
+      "length": "4366.43",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_7_PLATINUM1.mp4",
+      "length": "4193.06",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_7_PLATINUM10.mp4",
+      "length": "2911.58",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_7_PLATINUM11.mp4",
+      "length": "1508.28",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_7_PLATINUM12.mp4",
+      "length": "1508.28",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_7_PLATINUM13.mp4",
+      "length": "186.22",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_7_PLATINUM3.mp4",
+      "length": "618.69",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_7_PLATINUM4.mp4",
+      "length": "791.86",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_7_PLATINUM5.mp4",
+      "length": "164.67",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_7_PLATINUM6.mp4",
+      "length": "101.17",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_7_PLATINUM7.mp4",
+      "length": "211.31",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_7_PLATINUM8.mp4",
+      "length": "106.17",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "EVANGELION_VOL_7_PLATINUM9.mp4",
+      "length": "1362.5",
+      "format": "h.264",
+      "source": "derivative"
+    }
+  ]
+}

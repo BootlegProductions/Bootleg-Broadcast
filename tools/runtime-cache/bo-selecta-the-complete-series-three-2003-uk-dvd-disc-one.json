@@ -1,0 +1,17 @@
+{
+  "identifier": "bo-selecta-the-complete-series-three-2003-uk-dvd-disc-one",
+  "files": [
+    {
+      "name": "Bo Selecta! The Complete Series Three (2003 UK DVD Disc One).ia.mp4",
+      "length": "7402.16",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Bo Selecta! The Complete Series Three (2003 UK DVD Disc One).mp4",
+      "length": "7402.16",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

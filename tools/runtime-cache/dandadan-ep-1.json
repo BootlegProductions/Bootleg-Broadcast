@@ -1,0 +1,113 @@
+{
+  "identifier": "dandadan-ep-1",
+  "files": [
+    {
+      "name": "Dandadan (S01E01).mp4",
+      "length": "1437.13",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Dandadan (S01E02).mp4",
+      "length": "1437.13",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Dandadan (S01E03).mp4",
+      "length": "1437.13",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Dandadan (S01E04).mp4",
+      "length": "1437.22",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Dandadan (S01E05).mp4",
+      "length": "1437.22",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Dandadan (S01E06).mp4",
+      "length": "1437.22",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Dandadan (S01E07).mp4",
+      "length": "1437.22",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Dandadan (S01E08).mp4",
+      "length": "1422.15",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Dandadan (S01E09).ia.mp4",
+      "length": "1279.52",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Dandadan (S01E09).mp4",
+      "length": "1279.52",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Dandadan (S01E10).ia.mp4",
+      "length": "1422.12",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Dandadan (S01E10).mp4",
+      "length": "1422.12",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Dandadan (S01E11).ia.mp4",
+      "length": "1422.12",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Dandadan (S01E11).mp4",
+      "length": "1422.12",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Dandadan (S01E12).ia.mp4",
+      "length": "1407.12",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Dandadan (S01E12).mp4",
+      "length": "1407.12",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Dandadan (S02E01).ia.mp4",
+      "length": "1447.09",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Dandadan (S02E01).mp4",
+      "length": "1447.09",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

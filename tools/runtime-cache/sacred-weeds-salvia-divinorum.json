@@ -1,0 +1,53 @@
+{
+  "identifier": "sacred-weeds-salvia-divinorum",
+  "files": [
+    {
+      "name": "Sacred Weeds Amanita Muscara.ia.mp4",
+      "length": "3015.9",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Sacred Weeds Amanita Muscara.mp4",
+      "length": "3015.9",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Sacred Weeds Blue Lilly.ia.mp4",
+      "length": "3020.22",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Sacred Weeds Blue Lilly.mp4",
+      "length": "3020.22",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Sacred Weeds Henbane.ia.mp4",
+      "length": "2830.61",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Sacred Weeds Henbane.mp4",
+      "length": "2830.61",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Sacred Weeds Salvia Divinorum.ia.mp4",
+      "length": "3014.65",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Sacred Weeds Salvia Divinorum.mp4",
+      "length": "3014.65",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

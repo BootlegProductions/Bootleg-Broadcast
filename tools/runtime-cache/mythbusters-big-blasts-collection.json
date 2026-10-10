@@ -1,0 +1,101 @@
+{
+  "identifier": "mythbusters-big-blasts-collection",
+  "files": [
+    {
+      "name": "MYTHBUSTERS_BIG_BLAST_COLL_DISC1.mp4",
+      "length": "2973.04",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_BIG_BLAST_COLL_DISC11.mp4",
+      "length": "2972.04",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_BIG_BLAST_COLL_DISC13.mp4",
+      "length": "2585.05",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_BIG_BLAST_COLL_DISC14.mp4",
+      "length": "66.07",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_BIG_BLAST_COLL_DISC15.mp4",
+      "length": "44.01",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_BIG_BLAST_COLL_DISC16.mp4",
+      "length": "32.03",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_BIG_BLAST_COLL_DISC17.mp4",
+      "length": "2503.1",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_BIG_BLAST_COLL_DISC18.mp4",
+      "length": "2973.04",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_BIG_BLAST_COLL_DISC2.mp4",
+      "length": "2521.06",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_BIG_BLAST_COLL_DISC21.mp4",
+      "length": "2508.11",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_BIG_BLAST_COLL_DISC22.mp4",
+      "length": "2502.1",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_BIG_BLAST_COLL_DISC24.mp4",
+      "length": "66.07",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_BIG_BLAST_COLL_DISC25.mp4",
+      "length": "44.01",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_BIG_BLAST_COLL_DISC26.mp4",
+      "length": "32.03",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_BIG_BLAST_COLL_DISC27.mp4",
+      "length": "2466.07",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_BIG_BLAST_COLL_DISC28.mp4",
+      "length": "2495.1",
+      "format": "h.264",
+      "source": "derivative"
+    }
+  ]
+}

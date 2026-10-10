@@ -1,0 +1,17 @@
+{
+  "identifier": "the-devil-and-daniel-mouse-1978",
+  "files": [
+    {
+      "name": "The Devil and Daniel Mouse (1978).ia.mp4",
+      "length": "1367.8",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "The Devil and Daniel Mouse (1978).mp4",
+      "length": "1367.8",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

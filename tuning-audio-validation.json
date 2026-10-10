@@ -1,0 +1,1 @@
+{"version":"0.36","status":"passed","checks":["Tuning volume follows player volume","Stop timer caps burst at 140 ms","Rapid changes leave one timer","Muting stops sound and blocks playback","Power-off blocks tuning sound"]}

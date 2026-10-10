@@ -1,0 +1,77 @@
+{
+  "identifier": "destroyed-in-seconds-2009",
+  "files": [
+    {
+      "name": "DIS_Disc1.mp4",
+      "length": "1362.25",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "DIS_Disc11.mp4",
+      "length": "1329.32",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "DIS_Disc14.mp4",
+      "length": "1350.73",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "DIS_Disc15.mp4",
+      "length": "1263.72",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "DIS_Disc16.mp4",
+      "length": "1248.52",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "DIS_Disc17.mp4",
+      "length": "1234.89",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "DIS_Disc2.mp4",
+      "length": "1347.92",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "DIS_Disc21.mp4",
+      "length": "1331.79",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "DIS_Disc24.mp4",
+      "length": "1327.95",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "DIS_Disc25.mp4",
+      "length": "1251.85",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "DIS_Disc26.mp4",
+      "length": "1249.9",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "DIS_Disc27.mp4",
+      "length": "1283.92",
+      "format": "h.264",
+      "source": "derivative"
+    }
+  ]
+}

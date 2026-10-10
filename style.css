@@ -1849,7 +1849,7 @@ body[data-season="october"] #halloween-decorations {display:block;}
 .bat-right {top:16%;right:5%;transform:rotate(14deg);}
 .bat-extra-one {top:16%;left:30%;width:5vw;transform:rotate(12deg);}
 .bat-extra-two {top:33%;left:37%;width:4.5vw;transform:rotate(-22deg);}
-.halloween-candle {width:7vw;height:auto;left:13%;bottom:52%;filter:drop-shadow(0 0 12px rgba(255,154,40,.3));}
+.halloween-candle {width:7vw;height:auto;left:13%;bottom:48.5%;filter:drop-shadow(0 0 12px rgba(255,154,40,.3));}
 .horror-tapes {width:clamp(110px,17vw,300px);height:auto;right:1.5%;bottom:3%;}
 @media(orientation:portrait) and (max-width:1400px){
  .halloween-web {width:46vw;}
@@ -1870,3 +1870,11 @@ body[data-season="october"] #halloween-decorations {display:block;}
 }
 /* The candle belongs to the full desktop VHS composition. */
 body.mobile-scene .halloween-candle {display:none !important;}
+
+/* v0.36: candles sit on the VHS stack and follow the CRT frame on desktop. */
+.tv-halloween-candle {display:none;position:absolute;pointer-events:none;width:7.2%;height:auto;z-index:6;filter:drop-shadow(0 0 10px rgba(255,154,40,.28));}
+body[data-season="october"] .tv-halloween-candle {display:block;}
+.candle-tv-one {left:38%;bottom:93.3%;}
+.candle-tv-two {left:47%;bottom:94.5%;width:5.8%;}
+body.mobile-scene .tv-halloween-candle {display:none!important;}
+@media (max-width:1400px) and (orientation:portrait) {.tv-halloween-candle {display:none!important;}}

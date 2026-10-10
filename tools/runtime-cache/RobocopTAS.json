@@ -1,0 +1,77 @@
+{
+  "identifier": "RobocopTAS",
+  "files": [
+    {
+      "name": "01_-_Crime_Wave.mp4",
+      "length": "1283.48",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "02_-_The_Scrambler.mp4",
+      "length": "1282.36",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "03_-_Project_Deathspore.mp4",
+      "length": "1282.54",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "04_-_The_Brotherhood.mp4",
+      "length": "1281.32",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "05_-_The_Man_in_the_Iron_Suit.mp4",
+      "length": "1282.96",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "06_-_The_Hot_Seat.mp4",
+      "length": "1281",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "07_-_No_News_Is_Good_News.mp4",
+      "length": "1285.01",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "08_-_Night_of_the_Archer.mp4",
+      "length": "1263.88",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "09_-_Rumble_in_Old_Detroit.mp4",
+      "length": "1266.88",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "10_-_A_Robot_s_Revenge.mp4",
+      "length": "1267.48",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "11_-_Into_the_Wilderness.mp4",
+      "length": "1281.62",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "12_-_Menace_of_the_Mind.mp4",
+      "length": "1267.9",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

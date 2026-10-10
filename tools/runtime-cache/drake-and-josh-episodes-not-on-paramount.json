@@ -1,0 +1,65 @@
+{
+  "identifier": "drake-and-josh-episodes-not-on-paramount",
+  "files": [
+    {
+      "name": "Blues Brothers.ia.mp4",
+      "length": "1429.7",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Blues Brothers.mp4",
+      "length": "1429.7",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Driver's License.mp4",
+      "length": "1423.03",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Dune Buggy.mp4",
+      "length": "1464.44",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Guitar.mp4",
+      "length": "1426.12",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Little Diva.mp4",
+      "length": "1428.96",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Number 1 Fan.mp4",
+      "length": "1428.03",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Pilot Episode.mp4",
+      "length": "1462.51",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "The Gary Grill.ia.mp4",
+      "length": "1430.61",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "The Gary Grill.mp4",
+      "length": "1430.61",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

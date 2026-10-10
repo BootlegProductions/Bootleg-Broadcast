@@ -1,0 +1,101 @@
+{
+  "identifier": "da-ali-g-show-s2",
+  "files": [
+    {
+      "name": "ALI_G_S2_D1.mp4",
+      "length": "1733.8",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "ALI_G_S2_D11.mp4",
+      "length": "1646.61",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "ALI_G_S2_D12.mp4",
+      "length": "1651.95",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "ALI_G_S2_D14.mp4",
+      "length": "963.53",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "ALI_G_S2_D15.mp4",
+      "length": "102.34",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "ALI_G_S2_D16.mp4",
+      "length": "233.73",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "ALI_G_S2_D2.mp4",
+      "length": "2349.88",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "ALI_G_S2_D21.mp4",
+      "length": "1827.26",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "ALI_G_S2_D210.mp4",
+      "length": "224.29",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "ALI_G_S2_D22.mp4",
+      "length": "1752.55",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "ALI_G_S2_D23.mp4",
+      "length": "1834.27",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "ALI_G_S2_D24.mp4",
+      "length": "253.89",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "ALI_G_S2_D25.mp4",
+      "length": "248.65",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "ALI_G_S2_D26.mp4",
+      "length": "472.84",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "ALI_G_S2_D28.mp4",
+      "length": "102.34",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "ALI_G_S2_D29.mp4",
+      "length": "232.4",
+      "format": "h.264",
+      "source": "derivative"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "identifier": "21-s-1e-21",
+  "files": [
+    {
+      "name": "Toradora!/s1/01 - s1e1.ia.mp4",
+      "length": "1506.16",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/01 - s1e1.mp4",
+      "length": "1506.16",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/02 - s1e2.ia.mp4",
+      "length": "1416.16",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/02 - s1e2.mp4",
+      "length": "1416.16",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/03 - s1e3.ia.mp4",
+      "length": "1416.11",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/03 - s1e3.mp4",
+      "length": "1416.11",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/04 - s1e4.ia.mp4",
+      "length": "1416.11",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/04 - s1e4.mp4",
+      "length": "1416.11",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/05 - s1e5.ia.mp4",
+      "length": "1416.11",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/05 - s1e5.mp4",
+      "length": "1416.11",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/06 - s1e6.ia.mp4",
+      "length": "1415.32",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/06 - s1e6.mp4",
+      "length": "1415.32",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/07 - s1e7.ia.mp4",
+      "length": "1416.11",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/07 - s1e7.mp4",
+      "length": "1416.11",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/08 - s1e8.ia.mp4",
+      "length": "1416.09",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/08 - s1e8.mp4",
+      "length": "1416.09",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/09 - s1e9.ia.mp4",
+      "length": "1416.11",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/09 - s1e9.mp4",
+      "length": "1416.11",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/10 - s1e10.ia.mp4",
+      "length": "1416.21",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/10 - s1e10.mp4",
+      "length": "1416.21",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/11 - s1e11.ia.mp4",
+      "length": "1416.11",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/11 - s1e11.mp4",
+      "length": "1416.11",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/12 - s1e12.ia.mp4",
+      "length": "1416.21",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/12 - s1e12.mp4",
+      "length": "1416.21",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/13 - s1e13.ia.mp4",
+      "length": "1416.16",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/13 - s1e13.mp4",
+      "length": "1416.16",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/14 - s1e14.ia.mp4",
+      "length": "1416.16",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/14 - s1e14.mp4",
+      "length": "1416.16",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/15 - s1e15.ia.mp4",
+      "length": "1416.09",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/15 - s1e15.mp4",
+      "length": "1416.09",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/16 - s1e16.ia.mp4",
+      "length": "1416.09",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/16 - s1e16.mp4",
+      "length": "1416.09",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/17 - s1e17.ia.mp4",
+      "length": "1416.09",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/17 - s1e17.mp4",
+      "length": "1416.09",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/18 - s1e18.ia.mp4",
+      "length": "1416.11",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/18 - s1e18.mp4",
+      "length": "1416.11",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/19 - s1e19.ia.mp4",
+      "length": "1416.09",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/19 - s1e19.mp4",
+      "length": "1416.09",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/20 - s1e20.ia.mp4",
+      "length": "1416.07",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/20 - s1e20.mp4",
+      "length": "1416.07",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/21 - s1e21.ia.mp4",
+      "length": "1416.09",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/21 - s1e21.mp4",
+      "length": "1416.09",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/22 - s1e22.ia.mp4",
+      "length": "1416.09",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/22 - s1e22.mp4",
+      "length": "1416.09",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/23 - s1e23.ia.mp4",
+      "length": "1416.17",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/23 - s1e23.mp4",
+      "length": "1416.17",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/24 - s1e24.ia.mp4",
+      "length": "1416.07",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/24 - s1e24.mp4",
+      "length": "1416.07",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Toradora!/s1/25 - s1e25.ia.mp4",
+      "length": "1401.11",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Toradora!/s1/25 - s1e25.mp4",
+      "length": "1401.11",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "0.36.1",
+  "status": "passed",
+  "authored_sources_scheduled": 14,
+  "checks": [
+    "All eleven updated/new series actually air",
+    "Magic School Bus 52 and Liberty\u2019s Kids 40 measured episodes",
+    "Only three Futurama episodes, weekly Sunday appointment",
+    "AAA pilots on Friday late-night four-week cycle",
+    "Four Futurama films and Party Wagon on occasional first Sundays",
+    "No added one-off or film repeated within 28 days",
+    "Source-limit list reflects three remaining missing shows",
+    "Actual roster counts agree with its grouped programme list"
+  ],
+  "errors": []
+}

@@ -1,0 +1,17 @@
+{
+  "identifier": "dexters-laboratory-ego-trip_20230227",
+  "files": [
+    {
+      "name": "Dexter's Laboratory Ego Trip.ia.mp4",
+      "length": "2990.12",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Dexter's Laboratory Ego Trip.mp4",
+      "length": "2990.12",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+BOOTLEG BROADCAST v0.36.1 — RESTORATION STATUS
+288 distinct films now actually air across all ten channels (648 screenings in 2026), with full runtimes and at least 28 days between repeats on a channel.
+See FILM-CALENDAR.txt for exact films, dates and UK times.
+129 series collections restored or expanded and integrated into authored runs; see CHANNEL-LINEUP.txt for the full actual lineup.
+The list below uses deduplicated, measured episode profiles, not raw upload/file counts.
+An available run completes before its next named series takes the block. Not every show airs every day.
+All original markdown links remain searchable, including held sources.
+Original Japanime dub/sub access is accepted following your confirmation. English dub uploads are preferred where duplicates are identified.
+Sample MP4 headers/runtime metadata do not prove every complete video or subtitle track.
+
+90S TOONS
+- Harlem Globetrotters — 17 measured episodes; scheduled in 2026
+- RoboCop: The Animated Series — 12 measured episodes; scheduled in 2026
+- Sherlock Holmes In The 22nd Century — 26 measured episodes; scheduled in 2026
+- Street Sharks — 40 measured episodes; scheduled in 2026
+- The Avengers: United They Stand — 13 measured episodes; scheduled in 2026
+
+CARTOONS CARTOONS
+- Duck Dodgers — 48 measured episodes; scheduled in 2026
+- Hi Hi Puffy AmiYumi — 39 measured episodes; scheduled in 2026
+- Loonatics Unleashed — 26 measured episodes; scheduled in 2026
+- Mucha Lucha — 9 measured episodes; scheduled in 2026
+- Secret Mountain Fort Awesome — 13 measured episodes; scheduled in 2026
+- Skatoony (UK) — 38 measured episodes; scheduled in 2026
+- Teen Titans — 65 measured episodes; scheduled in 2026
+- The Amazing World of Gumball — 56 measured episodes; scheduled in 2026
+- The Land Before Time (TV Series) — 26 measured episodes; scheduled in 2026
+- Xiaolin Chronicles — 9 measured episodes; scheduled in 2026
+- Xiaolin Showdown — 52 measured episodes; scheduled in 2026
+
+JAPANIME
+- 7 Seeds — 24 measured episodes; scheduled in 2026
+- 91 Days — 12 measured episodes; scheduled in 2026
+- Absolute Duo — 12 measured episodes; scheduled in 2026
+- Air Gear — 25 measured episodes; scheduled in 2026
+- Akashic Records of Bastard Magic Instructor — 12 measured episodes; scheduled in 2026
+- Amagami SS — 26 measured episodes; scheduled in 2026
+- Amagi Brilliant Park — 13 measured episodes; scheduled in 2026
+- Amnesia — 12 measured episodes; scheduled in 2026
+- Angel Cop all OVA's 1989-1994 — 6 measured episodes; scheduled in 2026
+- Angels of Death — 16 measured episodes; scheduled in 2026
+- Ano Natsu De Matteru — 12 measured episodes; scheduled in 2026
+- Another — 12 measured episodes; scheduled in 2026
+- Assassination Classroom — 22 measured episodes; scheduled in 2026
+- Assassins Pride — 12 measured episodes; scheduled in 2026
+- Azur Lane — 12 measured episodes; scheduled in 2026
+- Bakuman — 75 measured episodes; scheduled in 2026
+- Barakamon — 12 measured episodes; scheduled in 2026
+- Chaos;Head — 12 measured episodes; scheduled in 2026
+- Clannad — 47 measured episodes; scheduled in 2026
+- Crest of the Stars — 13 measured episodes; scheduled in 2026
+- Cromartie High School — 26 measured episodes; scheduled in 2026
+- Cross Game — 50 measured episodes; scheduled in 2026
+- Cyberpunk: Edgerunners — 10 measured episodes; scheduled in 2026
+- Dandadan — 13 measured episodes; scheduled in 2026
+- Danmachi - Sword Oratoria — 12 measured episodes; scheduled in 2026
+- Death Parade — 12 measured episodes; scheduled in 2026
+- Desert Punk — 24 measured episodes; scheduled in 2026
+- Dirty Pair — 35 measured episodes; scheduled in 2026
+- Dirty Pair Flash — 16 measured episodes; scheduled in 2026
+- Dominion Tank Police — 4 measured episodes; scheduled in 2026
+- Durarara!! — 25 measured episodes; scheduled in 2026
+- Eden of the East — 11 measured episodes; scheduled in 2026
+- Elfen Lied — 13 measured episodes; scheduled in 2026
+- Ergo Proxy (Japanese) — 23 measured episodes; scheduled in 2026
+- Frieren Beyond Journey's End — 28 measured episodes; scheduled in 2026
+- Genshiken — 12 measured episodes; scheduled in 2026
+- Gintama — 340 measured episodes; scheduled in 2026
+- Golden Boy — 6 measured episodes; scheduled in 2026
+- Great Teacher Onizuka — 43 measured episodes; scheduled in 2026
+- Hajimete No Gal — 10 measured episodes; scheduled in 2026
+- Heaven's Lost Property — 13 measured episodes; scheduled in 2026
+- High School DxD — 24 measured episodes; scheduled in 2026
+- ItaKiss — 25 measured episodes; scheduled in 2026
+- Jormungand — 24 measured episodes; scheduled in 2026
+- Kyouran Kazoku Nikki — 26 measured episodes; scheduled in 2026
+- Little Witch Academia — 25 measured episodes; scheduled in 2026
+- Love Hina Again — 3 measured episodes; scheduled in 2026
+- Maid Sama! — 26 measured episodes; scheduled in 2026
+- Maison Ikkoku — 96 measured episodes; scheduled in 2026
+- Maken-Ki! — 12 measured episodes; scheduled in 2026
+- Monster — 74 measured episodes; scheduled in 2026
+- Neo Ranga — 1 measured episodes; scheduled in 2026
+- No Game, No Life — 12 measured episodes; scheduled in 2026
+- Overlord — 39 measured episodes; scheduled in 2026
+- Panty & Stocking with Garterbelt — 13 measured episodes; scheduled in 2026
+- Paranoia Agent — 13 measured episodes; scheduled in 2026
+- Parasyte -the maxim- — 24 measured episodes; scheduled in 2026
+- Powerpuff Girls Z — 52 measured episodes; scheduled in 2026
+- Prison School — 12 measured episodes; scheduled in 2026
+- Queen's Blade — 36 measured episodes; scheduled in 2026
+- Re:Zero — 24 measured episodes; scheduled in 2026
+- Reincarnated as a Sword — 12 measured episodes; scheduled in 2026
+- Revolutionary Girl Utena — 39 measured episodes; scheduled in 2026
+- Rosario + Vampire — 12 measured episodes; scheduled in 2026
+- Sekirei — 13 measured episodes; scheduled in 2026
+- Snow White with the Red Hair — 24 measured episodes; scheduled in 2026
+- Sonny Boy — 12 measured episodes; scheduled in 2026
+- Steins;Gate — 25 measured episodes; scheduled in 2026
+- The Helpful Fox Senko-san — 11 measured episodes; scheduled in 2026
+- The Melancholy of Haruhi Suzumiya — 28 measured episodes; scheduled in 2026
+- To Love-Ru — 26 measured episodes; scheduled in 2026
+- Toradora! — 25 measured episodes; scheduled in 2026
+- Trigun — 26 measured episodes; scheduled in 2026
+- Urusei Yatsura — 69 measured episodes; scheduled in 2026
+- Valkyrie Drive: Mermaid — 12 measured episodes; scheduled in 2026
+- Vandread — 13 measured episodes; scheduled in 2026
+- WataMote — 12 measured episodes; scheduled in 2026
+- Welcome to the NHK — 24 measured episodes; scheduled in 2026
+- Witchblade — 24 measured episodes; scheduled in 2026
+- Wolf’s Rain — 16 measured episodes; scheduled in 2026
+- X-Men (Marvel Anime) — 12 measured episodes; scheduled in 2026
+- Yamada-kun and the Seven Witches — 12 measured episodes; scheduled in 2026
+
+OFF-LICENCE TV
+- Brass Eye — 7 measured episodes; scheduled in 2026
+- Kitchen Nightmares (US) — 10 measured episodes; scheduled in 2026
+- Sacred Weeds — 4 measured episodes; scheduled in 2026
+- The Moaning of Life — 11 measured episodes; scheduled in 2026
+- The Ricky Gervais Show — 39 measured episodes; scheduled in 2026
+- Utopia (UK) — 12 measured episodes; scheduled in 2026
+
+STAR SPANGLED TV
+- Buffy the Vampire Slayer — 8 measured episodes; scheduled in 2026
+- Norm Macdonald Live — 33 measured episodes; scheduled in 2026
+- The O.C. — 91 measured episodes; scheduled in 2026
+- The Office (US) — 171 measured episodes; scheduled in 2026
+- To Catch a Predator — 18 measured episodes; scheduled in 2026
+
+AAA
+- Aeon Flux — 10 measured episodes; scheduled in 2026
+- Dan Vs. — 53 measured episodes; scheduled in 2026
+- Final Space — 36 measured episodes; scheduled in 2026
+- Fish Police — 6 measured episodes; scheduled in 2026
+- Stripperella — 13 measured episodes; scheduled in 2026
+- The Oblongs — 13 measured episodes; scheduled in 2026
+
+DICKLEODEON
+- Drake & Josh — 8 measured episodes; scheduled in 2026
+- Maxie's World — 16 measured episodes; scheduled in 2026
+- The Zeta Project — 26 measured episodes; scheduled in 2026
+
+GIRLYPOP
+- Mary-Kate and Ashley in Action! — 19 measured episodes; scheduled in 2026
+- Sonic the Hedgehog (SatAM) — 26 measured episodes; scheduled in 2026
+- Tattooed Teenage Alien Fighters From Beverly Hills — 40 measured episodes; scheduled in 2026
+
+DIZZY
+- Total Drama Island — 27 measured episodes; scheduled in 2026
+
+WHAT
+- Doomsday Preppers — 51 measured episodes; scheduled in 2026
+- Louis Theroux — 3 measured episodes; scheduled in 2026
+- Man v. Food — 77 measured episodes; scheduled in 2026
+- Man v. Food Nation — 19 measured episodes; scheduled in 2026
+- Maximum Exposure — 50 measured episodes; scheduled in 2026
+- Most Shocking — 42 measured episodes; scheduled in 2026
+- Overhaulin' — 11 measured episodes; scheduled in 2026
+
+HELD FOR EPISODE MAPPING — NOT DECLARED DEAD
+These need identified episode/chapter boundaries or are films rather than a regular series:
+- Japanime — Comic Party Revolution (2003–2005)
+- Japanime — Nanaka 6/17 (2003)
+- Japanime — Gilgamesh (2003–2004)
+- Japanime — Chance Pop Session (2001)
+- Japanime — Gunsmith Cats
+- Japanime — Assassination Classroom Season 1 (ENGLISH DUB)
+- Japanime — Ghost In The Shell movies dubbed
+- Japanime — Initial D (2005)
+- Japanime — Slayers The Motion Picture ( 1995)
+- Off-Licence TV — Da Ali G Show Da Compleet First Seazon
+- Off-Licence TV — Da Ali G Show Da Compleet Second Seazon
+- Star Spangled TV — The Dukes The Complete Series
+- What — Hardcore Pawn
+- What — Destroyed in Seconds (2009)
+- What — Destroyed in Seconds Volume 1-8
+- What — Mythbusters Big Blasts Collection
+- What — Mythbusters Season 1
+- What — Mythbusters Season 2
+- What — Mythbusters Season 3
+- What — Pimp My Ride The Complete First Season
+- What — Pimp My Ride The Complete Second Season
+- What — Unsolved Mysteries Bizarre Murders
+- What — Unsolved Mysteries Ghosts
+- What — Unsolved Mysteries UFOs
+- What — Viva La Bam Complete Seasons 2 & 3
+- What — Viva La Bam Complete Seasons 4 & 5
+- What — jackass the box set
+- What — jackass the lost tapes
+
+KNOWN SOURCE LIMITS
+- Samurai Jack, Zoey 101, and Fullmetal Alchemist/Brotherhood original collection: no working identified replacement integrated.
+- Family Guy ordinary series remains unavailable; catalogue feature/special links are retained.
+- Futurama is limited to three weekly TV episodes and four occasional films, rather than claiming a full series.
+- Martin Mystery: metadata available, sampled direct files returned server errors; unresolved and not integrated.
+- UK Prank Patrol and individually mapped Creature Comforts still need usable sources.
+- Disc/chapter compilations stay searchable. They are not given invented episode identities. Some pre-existing DVD programmes remain labelled as recordings.
+
+RELEASE CHECKS
+See release-validation.json, restoration-validation.json, addition-validation.json and playback-validation.json.
+Browser visual preview was unavailable; extra desktop candle placement still needs a user preview.
+No full independent viewing/audio/subtitle review was completed.
+This ZIP contains the 2026 calendar. Rebuild next year; unfinished runs are documented in series-run-calendar.json.

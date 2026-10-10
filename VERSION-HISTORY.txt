@@ -1,4 +1,50 @@
+v0.36.1 — 10 October 2026
+Restored films to dated, full-length weekly appointments on all ten channels. Fixed film/special titles losing their names and distinct films being treated as duplicates. Added an explicit editorial film calendar, 28-day per-channel film repeat gap, seasonal October/December priorities and alternating Pokémon/other anime cinema outside those months. Kept restored series runs and core morning blocks; station idents and named episode fallbacks fill remaining airtime. Duplicate movie encodes share an identity, with the exact chosen copy preserved. Commentary copies are held. All existing source links and original assets retained.
+Validation: full-year calendar, actual film placements, full measured lengths, film repeat gaps and restored series succession. No new external playback or language review.
+
+v0.36 — 10 October 2026
+Restored original markdown series to authored programme runs with ordered episodes and whole-series succession. Expanded actual airtime and rebuilt all twelve monthly schedules; kept core breakfast/classic blocks and weekly pilot/film appointments. Recovered The Office (US) and Buffy from account collections, with measured filenames/runtimes and readable series labels. Preserved the full searchable original catalogue and marked original Japanime dub/sub access as user confirmed. DVD recordings without episode mapping and known failed sources remain documented rather than silently omitted. Added actual run dates, restored-source status and updated channel roster. Lowered the foreground VHS candle and added two desktop CRT candles. Replaced channel-change audio with a quieter 120 ms tuning burst, stopped on mute/power-off.
+Validation: full calendar coverage, UK DST, measured airtime, episode repeats, restored run succession, original links/assets, brand routing and playback recovery. No full independent language/video review; browser visual preview was unavailable. GitHub Pages export; no live publish.
+
 BOOTLEG BROADCAST — VERSION HISTORY
+
+v0.35.2 — 9 October 2026
+Expanded cartoons, educational mornings and AAA pilot nights
+- Reviewed Saturday Morning Cartoons ordered by all-time downloads/views; imported exact original MP4 files with measured runtimes. Existing content was retained, with distinct series identities.
+- Star Spangled TV now has 52 Magic School Bus and 40 Liberty’s Kids episodes available for its existing morning appointments.
+- Added named weekly appointments for Beast Wars, ReBoot, The Batman (2004), Alvin and the Chipmunks (1983), Dragon Tales, Digimon Data Squad, Mickey Mouse Works and The Secret Saturdays. The Secret Saturdays receives an extra October appointment.
+- AAA Friday 22:00 Pilot & Oddities Night uses four explicit weeks: Korgoth/Rude Removal; Modifyers/Constant Payne/Boo Boo Runs Wild; Amazing Screw-On Head/He-Hog; Welcome to Eltingville/Groovenians. Remaining airtime uses Home Movies, Beavis and Butt-Head and station breaks. Rude Removal is the released censored copy, not an AI-de-censored upload. Pilots are not all labelled banned.
+- Recovered three identifiable Futurama television episodes, scheduled weekly Sunday 13:00; four Futurama films and Party Wagon receive occasional first-Sunday animation feature appointments. No daily three-episode loop and no daily movie marathon.
+- No schedule-ready replacement was found for Samurai Jack, Zoey 101 or the original Fullmetal Alchemist. Alternative-platform listings were not treated as direct playable sources. Fullmetal Alchemist: Brotherhood is a separate series.
+- Excluded Serbian Mickey Mouse Works files, cut copies and duplicate episode encodes. New English claims come from uploader metadata, not a complete independent spoken-audio review.
+- CHANNEL-LINEUP.txt and channel-lineup.json are generated from every actual compiled 2026 schedule, excluding adverts, idents and fireplace filler. Refreshed catalogue date/month filters against the finished calendar.
+- Rebuilt all 3,650 channel-days and checked measured runtimes, same-day repeats, UK clock changes, brand routing, playback recovery and authored pilot/feature placement. Sampled added direct files separately; external availability can change.
+- Preserved CRT presentation, mobile styles and original assets. Full static GitHub Pages export; no new obsolete files beyond FILES-TO-DELETE.txt.
+
+v0.35.1 — 9 October 2026
+H2O and Evangelion replacement sources
+- Imported exact direct MP4 filenames and measured runtimes from Oliver’s three H2O replacement collections: 26 episodes per season, 78 episodes total.
+- Restored H2O to Dickleodeon’s 19:00 and 23:00 appointments, preserving series/season/episode order and same-day duplicate prevention.
+- Imported 26 regular Neon Genesis Evangelion episodes from evadubbed and restored Japanime’s 02:30 appointment. Excluded director’s-cut duplicates from the regular sequence.
+- The evadubbed uploader declares English and the original dub; this is uploader evidence, not independent spoken-audio verification. All three H2O uploaders declare English.
+- Reviewed entiretyofeva but did not schedule its MP4s: its uploader explicitly warns about the MP4 audio/subtitle conversions and recommends MKV playback/audio selection instead.
+- H2O S03E04, Valentine’s Day, is tagged for the 14 February holiday spotlight.
+- Rebuilt all 2026 monthly timetables and refreshed the lineup guide, source-limit list and automated checks. Four collections remain unavailable: Samurai Jack, Zoey 101, Fullmetal Alchemist and Futurama.
+- Full static GitHub Pages export; no additional files require deleting beyond FILES-TO-DELETE.txt.
+
+v0.35 — 8 October 2026
+Written television schedules and static playback recovery
+- Reconstructed all ten channels with explicit editorial appointments and named fallbacks. The browser follows precompiled monthly timetables; it no longer selects shows using weighted/random rotation.
+- Compiled every channel-day for 2026 using measured Archive filename runtimes and local ident durations. Compact break sequences expand to actual playable adverts/idents at playback.
+- Ordered series continue across days with separate identities for different X-Men, Spider-Man, Pokémon and Dragon Ball series. Same-day episode/special duplicates are prevented.
+- British children’s programmes occupy the morning; daytime and evening programmes have dedicated slots. Added original MP4 records for ChuckleVision series 5, The Office UK including Christmas specials, and a Wednesday Jeremy Kyle appointment.
+- Japanime has children’s morning blocks and older programmes later. Feature-length anime films are reserved for Saturday cinema. Courage has additional October evening capacity.
+- Channel-specific station idents fill breaks. Cartoon Network/Toon City bumpers stay on Cartoons Cartoons; Disney branding stays on Dizzy. Early-ending and exhausted failed videos fall back to that channel’s own ident until the next written slot.
+- Source failures are saved as local browser flags, visible/exportable on SOURCE REPORTS and in the source catalogue. A shared repair backend is still optional and disabled for GitHub Pages.
+- Readable series and evidenced episode titles replace raw filename/codec labels. Unknown DVD episode names are explicitly labelled as DVD programmes; no episode names were invented.
+- Added editorial authoring files, reproducible build/verification tools, a readable lineup guide, and current validation reports. Retained the full searchable catalogue, CRT artwork and mobile layout.
+- Validation passes all 3,650 channel-days including UK daylight-saving changes, measured clip expansion and playback recovery. This is not a full playback or spoken-language review of every remote video.
+- Six legacy collections currently lack usable metadata; available series fill those authored slots. See BROADCAST-LINEUP-GUIDE.txt for source limits and three complete sample days.
 
 v0.34.1 — 7 October 2026
 Independent sample review and collection identity corrections

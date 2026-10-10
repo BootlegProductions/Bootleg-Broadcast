@@ -1,0 +1,1180 @@
+{
+  "xmen": {
+    "name": "X-Men: The Animated Series (1992)",
+    "shows": [
+      "X-men"
+    ]
+  },
+  "spiderman": {
+    "name": "Spider-Man: The Animated Series (1994)",
+    "shows": [
+      "Spider-man"
+    ]
+  },
+  "godzilla": {
+    "name": "Godzilla: The Series (1998)",
+    "shows": [
+      "Godzilla"
+    ]
+  },
+  "spiderman-unlimited": {
+    "name": "Spider-Man Unlimited",
+    "shows": [
+      "Spider-Man Unlimited"
+    ]
+  },
+  "xmen-evolution": {
+    "name": "X-Men: Evolution",
+    "shows": [
+      "X-Men: Evolution"
+    ]
+  },
+  "wolverine-xmen": {
+    "name": "Wolverine and the X-Men",
+    "shows": [
+      "Wolverine and the X-Men"
+    ]
+  },
+  "gargoyles": {
+    "name": "Gargoyles",
+    "shows": [
+      "Gargoyles"
+    ]
+  },
+  "batman-beyond": {
+    "name": "Batman Beyond",
+    "shows": [
+      "Batman Beyond"
+    ]
+  },
+  "iron-man": {
+    "name": "Iron Man (1994)",
+    "shows": [
+      "Iron Man (1994)"
+    ]
+  },
+  "hulk": {
+    "name": "The Incredible Hulk (1994)",
+    "shows": [
+      "The Incredible Hulk (1994)"
+    ]
+  },
+  "mib": {
+    "name": "Men in Black: The Series",
+    "shows": [
+      "Men In Black The Series (1997)",
+      "Men in Black: The Series"
+    ]
+  },
+  "cadillacs": {
+    "name": "Cadillacs and Dinosaurs",
+    "shows": [
+      "Cadillacs and Dinosaurs"
+    ]
+  },
+  "tick": {
+    "name": "The Tick",
+    "shows": [
+      "The Tick"
+    ]
+  },
+  "earthworm": {
+    "name": "Earthworm Jim",
+    "shows": [
+      "Earthworm Jim"
+    ]
+  },
+  "freakazoid": {
+    "name": "Freakazoid!",
+    "shows": [
+      "Freakazoid! Complete Season 1-2 (1995-1997)"
+    ]
+  },
+  "pinky": {
+    "name": "Pinky and the Brain",
+    "shows": [
+      "Pinky And The Brain"
+    ]
+  },
+  "gadget": {
+    "name": "Inspector Gadget",
+    "shows": [
+      "Inspector Gadget"
+    ]
+  },
+  "jackie": {
+    "name": "Jackie Chan Adventures",
+    "shows": [
+      "Jackie Chan Adventures"
+    ]
+  },
+  "scooby": {
+    "name": "Scooby-Doo, Where Are You!",
+    "shows": [
+      "Scooby-Doo Where Are You"
+    ]
+  },
+  "pup-scooby": {
+    "name": "A Pup Named Scooby-Doo",
+    "shows": [
+      "A Pup Named Scooby-Doo"
+    ]
+  },
+  "scooby-show": {
+    "name": "The Scooby-Doo Show",
+    "shows": [
+      "The Scooby-Doo Show"
+    ]
+  },
+  "beetlejuice": {
+    "name": "Beetlejuice",
+    "shows": [
+      "Beetlejuice"
+    ]
+  },
+  "bump": {
+    "name": "Bump in the Night",
+    "shows": [
+      "Bump in the Night"
+    ]
+  },
+  "ghostbusters": {
+    "name": "The Real Ghostbusters",
+    "shows": [
+      "The Real Ghostbusters"
+    ]
+  },
+  "jetsons": {
+    "name": "The Jetsons",
+    "shows": [
+      "The Jetsons"
+    ]
+  },
+  "flintstones": {
+    "name": "The Flintstones",
+    "shows": [
+      "THE FLINTSTONES SEASON 2 partial series"
+    ]
+  },
+  "tom-jerry": {
+    "name": "Tom and Jerry",
+    "shows": [
+      "Tom and Jerry"
+    ]
+  },
+  "wacky": {
+    "name": "Wacky Races",
+    "shows": [
+      "Wacky Races"
+    ]
+  },
+  "dexter": {
+    "name": "Dexter’s Laboratory",
+    "shows": [
+      "Dexter's Laboratory",
+      "Dexter's Laboratory The Complete Series"
+    ]
+  },
+  "powerpuff": {
+    "name": "The Powerpuff Girls (1998)",
+    "shows": [
+      "The Powerpuff Girls",
+      "The Powerpuff Girls (1998) The Complete Series",
+      "Powerpuff Girls (Complete Series)"
+    ]
+  },
+  "ed-edd-eddy": {
+    "name": "Ed, Edd n Eddy",
+    "shows": [
+      "Ed, Edd n Eddy"
+    ]
+  },
+  "cow-chicken": {
+    "name": "Cow and Chicken",
+    "shows": [
+      "Cow and Chicken"
+    ]
+  },
+  "weasel": {
+    "name": "I Am Weasel",
+    "shows": [
+      "I Am Weasel Season 5 [NTSC Pitched]",
+      "I Am Weasel"
+    ]
+  },
+  "courage": {
+    "name": "Courage the Cowardly Dog",
+    "shows": [
+      "Courage the Cowardly Dog"
+    ]
+  },
+  "billy-mandy": {
+    "name": "The Grim Adventures of Billy & Mandy",
+    "shows": [
+      "The Grim Adventures of Billy & Mandy"
+    ]
+  },
+  "samurai": {
+    "name": "Samurai Jack",
+    "shows": [
+      "Samurai Jack"
+    ]
+  },
+  "ben10": {
+    "name": "Ben 10 (2005)",
+    "shows": [
+      "Ben 10"
+    ]
+  },
+  "knd": {
+    "name": "Codename: Kids Next Door",
+    "shows": [
+      "Kids Next Door (KND)"
+    ]
+  },
+  "fosters": {
+    "name": "Foster’s Home for Imaginary Friends",
+    "shows": [
+      "Foster's Home For Imaginary Friends The Complete Series"
+    ]
+  },
+  "camp-lazlo": {
+    "name": "Camp Lazlo",
+    "shows": [
+      "Camp Lazlo",
+      "Camp Lazlo All Episodes HD (+Shorts)"
+    ]
+  },
+  "johnny": {
+    "name": "Johnny Bravo / JBVO",
+    "shows": [
+      "JBVO (Johnny Bravo)",
+      "Various JBVO Episodes (2000-2001)"
+    ]
+  },
+  "regular-show": {
+    "name": "Regular Show",
+    "shows": [
+      "Regular Show",
+      "Regular Show (SEASON FULL & EPISODE)"
+    ]
+  },
+  "adventure": {
+    "name": "Adventure Time",
+    "shows": [
+      "Adventure Time"
+    ]
+  },
+  "garden": {
+    "name": "Over the Garden Wall",
+    "shows": [
+      "Over the Garden Wall"
+    ]
+  },
+  "mucha": {
+    "name": "Mucha Lucha",
+    "shows": [
+      "Mucha Lucha - Seasons 1 and 2 (some episodes)"
+    ]
+  },
+  "spongebob": {
+    "name": "SpongeBob SquarePants",
+    "shows": [
+      "SpongeBob SquarePants"
+    ]
+  },
+  "arnold": {
+    "name": "Hey Arnold!",
+    "shows": [
+      "Hey Arnold!"
+    ]
+  },
+  "fairly": {
+    "name": "The Fairly OddParents",
+    "shows": [
+      "The Fairly OddParents",
+      "The Whole Fairly Oddparents Franchise"
+    ]
+  },
+  "jimmy": {
+    "name": "The Adventures of Jimmy Neutron",
+    "shows": [
+      "The Whole Jimmy Neutron Franchise (Reupload)"
+    ]
+  },
+  "avatar": {
+    "name": "Avatar: The Last Airbender",
+    "shows": [
+      "Avatar The Last Airbender"
+    ]
+  },
+  "korra": {
+    "name": "The Legend of Korra",
+    "shows": [
+      "The Legend of Korra"
+    ]
+  },
+  "teenage-robot": {
+    "name": "My Life as a Teenage Robot",
+    "shows": [
+      "My Life as a Teenage Robot"
+    ]
+  },
+  "amanda": {
+    "name": "The Amanda Show",
+    "shows": [
+      "The Amanda Show"
+    ]
+  },
+  "zoey": {
+    "name": "Zoey 101",
+    "shows": [
+      "Zoey 101"
+    ]
+  },
+  "h2o": {
+    "name": "H2O: Just Add Water",
+    "shows": [
+      "H2O"
+    ]
+  },
+  "are-you-afraid": {
+    "name": "Are You Afraid of the Dark?",
+    "shows": [
+      "Are You Afraid of the Dark?"
+    ]
+  },
+  "static": {
+    "name": "Static Shock",
+    "shows": [
+      "Static Shock (2000–2004)"
+    ]
+  },
+  "arthur": {
+    "name": "Arthur",
+    "shows": [
+      "Arthur",
+      "Arthur (1996) Complete as aired version"
+    ]
+  },
+  "lazytown": {
+    "name": "LazyTown",
+    "shows": [
+      "LazyTown HD Episodes Collection",
+      "LazyTown"
+    ]
+  },
+  "pingu": {
+    "name": "Pingu",
+    "shows": [
+      "Pingu Seasons 1 to 6",
+      "Pingu"
+    ]
+  },
+  "zoo": {
+    "name": "64 Zoo Lane",
+    "shows": [
+      "64 Zoo Lane 25-Episode Compilation (1999-2002)"
+    ]
+  },
+  "franny": {
+    "name": "Franny’s Feet",
+    "shows": [
+      "Franny's Feet"
+    ]
+  },
+  "hello-kitty": {
+    "name": "Hello Kitty’s Furry Tale Theater",
+    "shows": [
+      "Hello Kitty's Furry Tale Theater - Full Episodes",
+      "Hello Kitty"
+    ]
+  },
+  "strawberry": {
+    "name": "Strawberry Shortcake",
+    "shows": [
+      "Strawberry Shortcake"
+    ]
+  },
+  "6teen": {
+    "name": "6teen",
+    "shows": [
+      "6teen"
+    ]
+  },
+  "braceface": {
+    "name": "Braceface",
+    "shows": [
+      "Braceface (2001–2006)"
+    ]
+  },
+  "bratz": {
+    "name": "Bratz",
+    "shows": [
+      "Bratz"
+    ]
+  },
+  "mona": {
+    "name": "Mona the Vampire",
+    "shows": [
+      "Mona the Vampire"
+    ]
+  },
+  "ruby": {
+    "name": "Ruby Gloom",
+    "shows": [
+      "Ruby Gloom"
+    ]
+  },
+  "sabrina": {
+    "name": "Sabrina: The Animated Series",
+    "shows": [
+      "Sabrina The Animated Series"
+    ]
+  },
+  "spies": {
+    "name": "Totally Spies!",
+    "shows": [
+      "Totally Spies"
+    ]
+  },
+  "winx": {
+    "name": "Winx Club",
+    "shows": [
+      "Winx Club"
+    ]
+  },
+  "trollz": {
+    "name": "Trollz",
+    "shows": [
+      "Trollz (2005)"
+    ]
+  },
+  "pokemon": {
+    "name": "Pokémon: Original Series",
+    "shows": [
+      "Pokémon"
+    ]
+  },
+  "pokemon-advanced": {
+    "name": "Pokémon Advanced",
+    "shows": [
+      "Pokémon Advanced"
+    ]
+  },
+  "cardcaptors": {
+    "name": "Cardcaptors",
+    "shows": [
+      "Cardcaptors"
+    ]
+  },
+  "mewmew": {
+    "name": "Mew Mew Power",
+    "shows": [
+      "Mew Mew Power"
+    ]
+  },
+  "shinzo": {
+    "name": "Shinzo",
+    "shows": [
+      "Shinzo (English Dub)"
+    ]
+  },
+  "bakugan": {
+    "name": "Bakugan",
+    "shows": [
+      "Bakugan ( Dub)",
+      "Bakugan Collection",
+      "Bakugan 52 Episode DVD Collection Season 1 Cartoon Network"
+    ]
+  },
+  "dragonball": {
+    "name": "Dragon Ball",
+    "shows": [
+      "Dragonball"
+    ]
+  },
+  "dbkai": {
+    "name": "Dragon Ball Z Kai",
+    "shows": [
+      "Dragon Ball Z Kai 01-167 (Yamamoto Score + Kikuchi Score)  Sumitomo Score [DUB]"
+    ]
+  },
+  "fma": {
+    "name": "Fullmetal Alchemist",
+    "shows": [
+      "Full Metal Alchemist"
+    ]
+  },
+  "ouran": {
+    "name": "Ouran High School Host Club",
+    "shows": [
+      "Ouran High School Host Club [Dual Audio 10bit BD 1440x1080]",
+      "Ouran High School Host Club"
+    ]
+  },
+  "azumanga": {
+    "name": "Azumanga Daioh",
+    "shows": [
+      "Azumanga Daioh (2002)"
+    ]
+  },
+  "bebop": {
+    "name": "Cowboy Bebop",
+    "shows": [
+      "[DB] Cowboy Bebop (1080p) (English + Japanese)"
+    ]
+  },
+  "noir": {
+    "name": "Noir",
+    "shows": [
+      "Noir (2001)"
+    ]
+  },
+  "deathnote": {
+    "name": "Death Note",
+    "shows": [
+      "Death Note"
+    ]
+  },
+  "evangelion": {
+    "name": "Neon Genesis Evangelion",
+    "shows": [
+      "Neon Genesis Evangelion"
+    ]
+  },
+  "blacklagoon": {
+    "name": "Black Lagoon",
+    "shows": [
+      "Black Lagoon (2006)"
+    ]
+  },
+  "beastars": {
+    "name": "Beastars",
+    "shows": [
+      "Beastars"
+    ]
+  },
+  "hellsing": {
+    "name": "Hellsing",
+    "shows": [
+      "Hellsing (2001) "
+    ]
+  },
+  "lain": {
+    "name": "Serial Experiments Lain",
+    "shows": [
+      "Serial Experiments Lain"
+    ]
+  },
+  "ghost-stories": {
+    "name": "Ghost Stories",
+    "shows": [
+      "Ghost Stories (2000–2001) "
+    ]
+  },
+  "tracy": {
+    "name": "The Story of Tracy Beaker",
+    "shows": [
+      "The Story of Tracy Beaker"
+    ]
+  },
+  "slammer": {
+    "name": "The Slammer",
+    "shows": [
+      "The Slammer"
+    ]
+  },
+  "dennis": {
+    "name": "Dennis & Gnasher",
+    "shows": [
+      "Dennis & Gnasher (1996)",
+      "Dennis & Gnasher (1998)"
+    ]
+  },
+  "trapdoor": {
+    "name": "The Trap Door",
+    "shows": [
+      "Trap Door"
+    ]
+  },
+  "wallace": {
+    "name": "Wallace & Gromit",
+    "shows": [
+      "Wallace & Gromit"
+    ]
+  },
+  "grizzly": {
+    "name": "Grizzly Tales for Gruesome Kids",
+    "shows": [
+      "Grizzly Tales For Gruesome Kids"
+    ]
+  },
+  "horrible": {
+    "name": "Horrible Histories",
+    "shows": [
+      "Horrible Histories - Season 1 (2009)"
+    ]
+  },
+  "mrbean": {
+    "name": "Mr. Bean",
+    "shows": [
+      "Mr. Bean"
+    ]
+  },
+  "robotwars": {
+    "name": "Robot Wars (UK)",
+    "shows": [
+      "Robot Wars (1998–2004)"
+    ]
+  },
+  "topgear": {
+    "name": "Top Gear (UK)",
+    "shows": [
+      "Top Gear The Complete Season 10",
+      "Top Gear The Complete Season 11",
+      "Top Gear The Complete Season 12"
+    ]
+  },
+  "doctorwho": {
+    "name": "Doctor Who",
+    "shows": [
+      "Doctor Who"
+    ]
+  },
+  "countdown": {
+    "name": "8 Out of 10 Cats Does Countdown",
+    "shows": [
+      "8 Out of 10 Cats Does Countdown"
+    ]
+  },
+  "littlebritain": {
+    "name": "Little Britain",
+    "shows": [
+      "Little Britain"
+    ]
+  },
+  "come-fly": {
+    "name": "Come Fly With Me",
+    "shows": [
+      "Come Fly With Me"
+    ]
+  },
+  "idiot": {
+    "name": "An Idiot Abroad",
+    "shows": [
+      "Idiot Abroad"
+    ]
+  },
+  "moaning": {
+    "name": "The Moaning of Life",
+    "shows": [
+      "Moaning Of Life"
+    ]
+  },
+  "itcrowd": {
+    "name": "The IT Crowd",
+    "shows": [
+      "The IT Crowd"
+    ]
+  },
+  "peep": {
+    "name": "Peep Show",
+    "shows": [
+      "Peep Show"
+    ]
+  },
+  "alan": {
+    "name": "I’m Alan Partridge",
+    "shows": [
+      "I'm Alan Partridge"
+    ]
+  },
+  "father-ted": {
+    "name": "Father Ted",
+    "shows": [
+      "Father Ted (TV Series 1995-1998)",
+      "Father Ted"
+    ]
+  },
+  "reddwarf": {
+    "name": "Red Dwarf",
+    "shows": [
+      "Red Dwarf"
+    ]
+  },
+  "boosh": {
+    "name": "The Mighty Boosh",
+    "shows": [
+      "The Mighty Boosh"
+    ]
+  },
+  "inbetweeners": {
+    "name": "The Inbetweeners",
+    "shows": [
+      "The Inbetweeners"
+    ]
+  },
+  "blackmirror": {
+    "name": "Black Mirror",
+    "shows": [
+      "Black Mirror"
+    ]
+  },
+  "utopia": {
+    "name": "Utopia (UK)",
+    "shows": [
+      "Utopia"
+    ]
+  },
+  "beinghuman": {
+    "name": "Being Human (UK)",
+    "shows": [
+      "Being Human"
+    ]
+  },
+  "sherlock": {
+    "name": "Sherlock",
+    "shows": [
+      "BBC Sherlock (2010)"
+    ]
+  },
+  "simpsons": {
+    "name": "The Simpsons",
+    "shows": [
+      "The Simpsons"
+    ]
+  },
+  "futurama": {
+    "name": "Futurama",
+    "shows": [
+      "Futurama"
+    ]
+  },
+  "american-dad": {
+    "name": "American Dad!",
+    "shows": [
+      "American Dad",
+      "American Dad!"
+    ]
+  },
+  "duckman": {
+    "name": "Duckman",
+    "shows": [
+      "Duckman"
+    ]
+  },
+  "critic": {
+    "name": "The Critic",
+    "shows": [
+      "The Critic (1994–1995)"
+    ]
+  },
+  "home-movies": {
+    "name": "Home Movies",
+    "shows": [
+      "Home Movies Cartoon Series",
+      "Home Movies Complete Season 1-4",
+      "Home Movies Season One"
+    ]
+  },
+  "boondocks": {
+    "name": "The Boondocks",
+    "shows": [
+      "The Boondocks"
+    ]
+  },
+  "aqua": {
+    "name": "Aqua Teen Hunger Force",
+    "shows": [
+      "Aqua Teen Hunger Force"
+    ]
+  },
+  "beavis": {
+    "name": "Beavis and Butt-Head",
+    "shows": [
+      "Beavis & Butthead"
+    ]
+  },
+  "venture": {
+    "name": "The Venture Bros.",
+    "shows": [
+      "Venture Bros"
+    ]
+  },
+  "downtown": {
+    "name": "MTV’s Downtown",
+    "shows": [
+      "MTV's Downtown Complete Season 1 (1999)",
+      "Downtown"
+    ]
+  },
+  "undergrads": {
+    "name": "Undergrads",
+    "shows": [
+      "Undergrads"
+    ]
+  },
+  "maxx": {
+    "name": "The Maxx",
+    "shows": [
+      "The Maxx MTV Complete Season 1 (1996)",
+      "The Maxx"
+    ]
+  },
+  "primal": {
+    "name": "Primal",
+    "shows": [
+      "Primal"
+    ]
+  },
+  "drawn": {
+    "name": "Drawn Together",
+    "shows": [
+      "Drawn Together"
+    ]
+  },
+  "katz": {
+    "name": "Dr. Katz, Professional Therapist",
+    "shows": [
+      "Dr. Katz, Professional Therapist (1995–2002)"
+    ]
+  },
+  "clerks": {
+    "name": "Clerks: The Animated Series",
+    "shows": [
+      "Clerks: The Animated Series (2000)"
+    ]
+  },
+  "chozen": {
+    "name": "Chozen",
+    "shows": [
+      "Chozen"
+    ]
+  },
+  "magicbus": {
+    "name": "The Magic School Bus",
+    "shows": [
+      "The Magic School Bus",
+      "The Magic School Bus on PBS"
+    ]
+  },
+  "libertykids": {
+    "name": "Liberty’s Kids",
+    "shows": [
+      "Liberty’s Kids",
+      "Liberty's Kids Est. 1776 [Full Series]"
+    ]
+  },
+  "familymatters": {
+    "name": "Family Matters",
+    "shows": [
+      "Family Matters",
+      "Family Matters complete series"
+    ]
+  },
+  "homeimprovement": {
+    "name": "Home Improvement",
+    "shows": [
+      "Home Improvement The Complete First Season",
+      "Home Improvement The Complete Sixth Season"
+    ]
+  },
+  "allfamily": {
+    "name": "All in the Family",
+    "shows": [
+      "All In The Family The Complete First Season",
+      "All In The Family The Complete Second Season",
+      "All In The Family The Complete Third Season",
+      "All In The Family The Complete Fourth Season"
+    ]
+  },
+  "dukes": {
+    "name": "The Dukes of Hazzard",
+    "shows": [
+      "The Dukes of Hazzard The Complete First Season",
+      "The Dukes of Hazzard The Complete Second Season",
+      "The Dukes of Hazzard The Complete Third Season",
+      "The Dukes of Hazzard The Complete Fourth Season"
+    ]
+  },
+  "malcolm": {
+    "name": "Malcolm in the Middle",
+    "shows": [
+      "Malcolm in the Middle"
+    ]
+  },
+  "70s": {
+    "name": "That ’70s Show",
+    "shows": [
+      "That 70's Show"
+    ]
+  },
+  "afhv": {
+    "name": "America’s Funniest Home Videos",
+    "shows": [
+      "Americas Funniest Home Videos"
+    ]
+  },
+  "cops": {
+    "name": "Cops",
+    "shows": [
+      "Cops"
+    ]
+  },
+  "jerry": {
+    "name": "The Jerry Springer Show",
+    "shows": [
+      "The Jerry Springer Show"
+    ]
+  },
+  "madtv": {
+    "name": "MADtv",
+    "shows": [
+      "MADtv"
+    ]
+  },
+  "osbournes": {
+    "name": "The Osbournes",
+    "shows": [
+      "The Osbournes The First Season",
+      "The Osbournes The 2nd Season",
+      "The Osbournes 2.5"
+    ]
+  },
+  "jackass": {
+    "name": "Jackass",
+    "shows": [
+      "Jackass complete series"
+    ]
+  },
+  "trailerpark": {
+    "name": "Trailer Park Boys",
+    "shows": [
+      "Trailer Park Boys"
+    ]
+  },
+  "twilight": {
+    "name": "The Twilight Zone",
+    "shows": [
+      "The Twilight Zone"
+    ]
+  },
+  "cosmos": {
+    "name": "Cosmos: A Personal Voyage",
+    "shows": [
+      "Cosmos A Personal Voyage"
+    ]
+  },
+  "attenborough": {
+    "name": "David Attenborough",
+    "shows": [
+      "David Attenborough"
+    ]
+  },
+  "nova": {
+    "name": "NOVA",
+    "shows": [
+      "PBS Nova Documentaries"
+    ]
+  },
+  "river": {
+    "name": "River Monsters",
+    "shows": [
+      "River Monsters"
+    ]
+  },
+  "mayday": {
+    "name": "Mayday / Air Crash Investigation",
+    "shows": [
+      "Mayday / Air Crash Investigation"
+    ]
+  },
+  "insearch": {
+    "name": "In Search Of…",
+    "shows": [
+      "In Search Of…"
+    ]
+  },
+  "ancient": {
+    "name": "Ancient Aliens",
+    "shows": [
+      "Ancient Aliens"
+    ]
+  },
+  "animalx": {
+    "name": "Animal X",
+    "shows": [
+      "Animal X"
+    ]
+  },
+  "clarke": {
+    "name": "Arthur C. Clarke’s Mysterious World",
+    "shows": [
+      "Arthur C. Clarke’s Mysterious World"
+    ]
+  },
+  "haunted": {
+    "name": "Most Haunted",
+    "shows": [
+      "Most Haunted"
+    ]
+  },
+  "losttapes": {
+    "name": "Lost Tapes",
+    "shows": [
+      "Lost Tapes"
+    ]
+  },
+  "ghosthunters": {
+    "name": "Ghost Hunters",
+    "shows": [
+      "Ghost Hunters (1996)",
+      "Ghost Hunters"
+    ]
+  },
+  "hauntedhistory": {
+    "name": "Haunted History",
+    "shows": [
+      "Haunted History"
+    ]
+  },
+  "scariest": {
+    "name": "Scariest Places on Earth",
+    "shows": [
+      "Scariest Places on Earth"
+    ]
+  },
+  "recess": {
+    "name": "Recess",
+    "shows": [
+      "Recess"
+    ]
+  },
+  "phineas": {
+    "name": "Phineas and Ferb",
+    "shows": [
+      "Phineas and Ferb"
+    ]
+  },
+  "kim": {
+    "name": "Kim Possible",
+    "shows": [
+      "Kim Possible"
+    ]
+  },
+  "lilo": {
+    "name": "Lilo & Stitch: The Series",
+    "shows": [
+      "Lilo & Stitch The Series"
+    ]
+  },
+  "fillmore": {
+    "name": "Fillmore!",
+    "shows": [
+      "Fillmore!"
+    ]
+  },
+  "jake": {
+    "name": "American Dragon: Jake Long",
+    "shows": [
+      "American Dragon Jake Long"
+    ]
+  },
+  "gravity": {
+    "name": "Gravity Falls",
+    "shows": [
+      "Gravity Falls"
+    ]
+  },
+  "evenstevens": {
+    "name": "Even Stevens",
+    "shows": [
+      "Even Stevens"
+    ]
+  },
+  "lizzie": {
+    "name": "Lizzie McGuire",
+    "shows": [
+      "Lizzie McGuire"
+    ]
+  },
+  "hannah": {
+    "name": "Hannah Montana",
+    "shows": [
+      "Hannah Montana"
+    ]
+  },
+  "phil": {
+    "name": "Phil of the Future",
+    "shows": [
+      "Phil of the Future"
+    ]
+  },
+  "chuckle": {
+    "name": "ChuckleVision",
+    "shows": [
+      "ChuckleVision"
+    ]
+  },
+  "office-uk": {
+    "name": "The Office (UK)",
+    "shows": [
+      "The Office (UK)"
+    ]
+  },
+  "jeremy": {
+    "name": "The Jeremy Kyle Show",
+    "shows": [
+      "The Jeremy Kyle Show"
+    ]
+  },
+  "beast-wars": {
+    "name": "Beast Wars: Transformers",
+    "shows": [
+      "Beast Wars: Transformers"
+    ]
+  },
+  "reboot": {
+    "name": "ReBoot",
+    "shows": [
+      "ReBoot"
+    ]
+  },
+  "the-batman": {
+    "name": "The Batman (2004)",
+    "shows": [
+      "The Batman (2004)"
+    ]
+  },
+  "alvin-1983": {
+    "name": "Alvin and the Chipmunks (1983)",
+    "shows": [
+      "Alvin and the Chipmunks (1983)"
+    ]
+  },
+  "dragon-tales": {
+    "name": "Dragon Tales",
+    "shows": [
+      "Dragon Tales"
+    ]
+  },
+  "digimon-data-squad": {
+    "name": "Digimon Data Squad",
+    "shows": [
+      "Digimon Data Squad"
+    ]
+  },
+  "mickey-works": {
+    "name": "Mickey Mouse Works",
+    "shows": [
+      "Mickey Mouse Works"
+    ]
+  },
+  "secret-saturdays": {
+    "name": "The Secret Saturdays",
+    "shows": [
+      "The Secret Saturdays"
+    ]
+  }
+}

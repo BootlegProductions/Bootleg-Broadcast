@@ -1,0 +1,143 @@
+{
+  "identifier": "mythbusters-s3",
+  "files": [
+    {
+      "name": "MYTHBUSTERS_S3_DISC1.mp4",
+      "length": "3002.7",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC12.mp4",
+      "length": "3002.7",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC13.mp4",
+      "length": "3002.7",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC14.mp4",
+      "length": "3063.13",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC15.mp4",
+      "length": "3002.7",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC2.mp4",
+      "length": "3002.3",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC22.mp4",
+      "length": "3001.3",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC23.mp4",
+      "length": "241.51",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC24.mp4",
+      "length": "30.1",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC25.mp4",
+      "length": "131.23",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC26.mp4",
+      "length": "61.8",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC27.mp4",
+      "length": "3062.23",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC28.mp4",
+      "length": "3001.34",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC29.mp4",
+      "length": "3001.77",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC3.mp4",
+      "length": "3061.7",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC32.mp4",
+      "length": "3001.3",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC33.mp4",
+      "length": "241.51",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC34.mp4",
+      "length": "30.1",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC35.mp4",
+      "length": "131.23",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC36.mp4",
+      "length": "61.8",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC37.mp4",
+      "length": "3001.8",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC38.mp4",
+      "length": "3061.66",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S3_DISC39.mp4",
+      "length": "3001.8",
+      "format": "h.264",
+      "source": "derivative"
+    }
+  ]
+}

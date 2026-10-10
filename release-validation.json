@@ -1,46 +1,22 @@
 {
-  "version": "0.34.1",
-  "channelDaysChecked": 3650,
-  "failures": [],
-  "samples": [
-    {
-      "month": 10,
-      "channel": "GirlyPop",
-      "programmes": 48,
-      "intermissionMinutes": 20.65,
-      "frosty": []
-    },
-    {
-      "month": 10,
-      "channel": "90s Toons",
-      "programmes": 53,
-      "intermissionMinutes": 26.1,
-      "frosty": []
-    },
-    {
-      "month": 12,
-      "channel": "GirlyPop",
-      "programmes": 44,
-      "intermissionMinutes": 88.28333333333333,
-      "frosty": []
-    },
-    {
-      "month": 12,
-      "channel": "90s Toons",
-      "programmes": 42,
-      "intermissionMinutes": 60.43333333333332,
-      "frosty": [
-        "Frosty the Snowman (1953)",
-        "Frosty The Snowman (1969)"
-      ]
-    }
-  ],
-  "notes": [
-    "No programme content identity repeats within a UK day.",
-    "90s Toons ordered primary double bills checked on every day of 2026.",
-    "Durations without source metadata are estimated; no fresh playback/language verification claimed."
-  ],
-  "daypartEdgePlansChecked": 40,
-  "daypartFailures": [],
-  "independentThreeDayAudit": "three-day-audit.json"
+  "version": "0.36.1",
+  "channel_days": 3650,
+  "programme_slots": 174426,
+  "month_file_bytes": {
+    "april.json": 14309300,
+    "august.json": 14729299,
+    "december.json": 14030487,
+    "february.json": 13314249,
+    "january.json": 14792578,
+    "july.json": 14804517,
+    "june.json": 14221458,
+    "march.json": 14733390,
+    "may.json": 14752415,
+    "november.json": 14259999,
+    "october.json": 14869685,
+    "september.json": 14319193
+  },
+  "errors": [],
+  "status": "passed",
+  "scope": "Static schedule integrity, measured runtimes, same-day duplicates, day coverage including UK daylight saving, brand routing, classic mornings and weekly anime films. Full external video playback/audio was not tested."
 }

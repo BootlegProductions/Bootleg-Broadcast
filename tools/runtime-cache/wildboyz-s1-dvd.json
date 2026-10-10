@@ -1,0 +1,17 @@
+{
+  "identifier": "wildboyz-s1-dvd",
+  "files": [
+    {
+      "name": "Wildboyz D1.mp4",
+      "length": "87.72",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Wildboyz D2.mp4",
+      "length": "38.54",
+      "format": "h.264",
+      "source": "derivative"
+    }
+  ]
+}

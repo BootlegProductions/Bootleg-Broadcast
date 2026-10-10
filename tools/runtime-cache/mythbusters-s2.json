@@ -1,0 +1,95 @@
+{
+  "identifier": "mythbusters-s2",
+  "files": [
+    {
+      "name": "MYTHBUSTERS_S2_DISC1.mp4",
+      "length": "2670.77",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S2_DISC11.mp4",
+      "length": "240.67",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S2_DISC12.mp4",
+      "length": "2591.89",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S2_DISC16.mp4",
+      "length": "2600.37",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S2_DISC2.mp4",
+      "length": "2611.48",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S2_DISC21.mp4",
+      "length": "180.16",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S2_DISC24.mp4",
+      "length": "2663.03",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S2_DISC26.mp4",
+      "length": "2638.14",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S2_DISC3.mp4",
+      "length": "2574.21",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S2_DISC31.mp4",
+      "length": "240.67",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S2_DISC32.mp4",
+      "length": "2556.59",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S2_DISC36.mp4",
+      "length": "2611.71",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S2_DISC4.mp4",
+      "length": "2560.36",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S2_DISC41.mp4",
+      "length": "240.67",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "MYTHBUSTERS_S2_DISC44.mp4",
+      "length": "2546.88",
+      "format": "h.264",
+      "source": "derivative"
+    }
+  ]
+}

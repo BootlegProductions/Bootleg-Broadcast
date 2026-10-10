@@ -1,0 +1,77 @@
+{
+  "identifier": "watamotesub",
+  "files": [
+    {
+      "name": "episode01s1.mp4",
+      "length": "1435.02",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "episode02s1.mp4",
+      "length": "1432.06",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "episode03s1.mp4",
+      "length": "1432.14",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "episode04s1.mp4",
+      "length": "1432.14",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "episode05s1.mp4",
+      "length": "1432.14",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "episode06s1.mp4",
+      "length": "1432.14",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "episode07s1.mp4",
+      "length": "1432.14",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "episode08s1.mp4",
+      "length": "1431.02",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "episode09s1.mp4",
+      "length": "1432.14",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "episode10s1.mp4",
+      "length": "1432.51",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "episode11s1.mp4",
+      "length": "1432.42",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "episode12s1.mp4",
+      "length": "1417.44",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

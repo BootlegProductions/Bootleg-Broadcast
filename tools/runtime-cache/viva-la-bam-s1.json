@@ -1,0 +1,17 @@
+{
+  "identifier": "viva-la-bam-s1",
+  "files": [
+    {
+      "name": "Viva la Bam D1.mp4",
+      "length": "43.64",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Viva la Bam D2.mp4",
+      "length": "98.3",
+      "format": "h.264",
+      "source": "derivative"
+    }
+  ]
+}

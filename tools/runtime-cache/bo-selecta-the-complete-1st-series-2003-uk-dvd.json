@@ -1,0 +1,17 @@
+{
+  "identifier": "bo-selecta-the-complete-1st-series-2003-uk-dvd",
+  "files": [
+    {
+      "name": "Bo Selecta! The Complete 1st Series (2003 UK DVD).ia.mp4",
+      "length": "8527.49",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Bo Selecta! The Complete 1st Series (2003 UK DVD).mp4",
+      "length": "8527.49",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

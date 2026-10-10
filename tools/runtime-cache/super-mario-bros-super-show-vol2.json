@@ -1,0 +1,323 @@
+{
+  "identifier": "super-mario-bros-super-show-vol2",
+  "files": [
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D1.mp4",
+      "length": "7965.93",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D11.mp4",
+      "length": "1395.43",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D110.mp4",
+      "length": "1364.97",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D112.mp4",
+      "length": "266",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D113.mp4",
+      "length": "105.44",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D114.mp4",
+      "length": "106.14",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D115.mp4",
+      "length": "268.6",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D116.mp4",
+      "length": "107.21",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D117.mp4",
+      "length": "266.83",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D118.mp4",
+      "length": "266.2",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D119.mp4",
+      "length": "100.63",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D12.mp4",
+      "length": "1560.83",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D120.mp4",
+      "length": "103.3",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D121.mp4",
+      "length": "104.47",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D122.mp4",
+      "length": "107.88",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D13.mp4",
+      "length": "1396.36",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D14.mp4",
+      "length": "1396.36",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D15.mp4",
+      "length": "1398.5",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D16.mp4",
+      "length": "1428.76",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D17.mp4",
+      "length": "482.68",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D18.mp4",
+      "length": "941.68",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D19.mp4",
+      "length": "349.72",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D2.mp4",
+      "length": "7969.27",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D21.mp4",
+      "length": "1396",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D210.mp4",
+      "length": "1344.31",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D22.mp4",
+      "length": "1560.46",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D23.mp4",
+      "length": "1398.33",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D24.mp4",
+      "length": "1398.03",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D25.mp4",
+      "length": "1398.7",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D26.mp4",
+      "length": "1428.03",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D27.mp4",
+      "length": "329.36",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D29.mp4",
+      "length": "941.34",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D3.mp4",
+      "length": "7968.44",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D31.mp4",
+      "length": "1397.4",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D310.mp4",
+      "length": "1170.54",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D32.mp4",
+      "length": "1560.86",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D33.mp4",
+      "length": "1399.43",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D34.mp4",
+      "length": "1397.33",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D35.mp4",
+      "length": "1560.06",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D36.mp4",
+      "length": "1426.66",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D37.mp4",
+      "length": "1107.64",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D39.mp4",
+      "length": "478.45",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D4.mp4",
+      "length": "7977.11",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D41.mp4",
+      "length": "1560.83",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D410.mp4",
+      "length": "440.41",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D411.mp4",
+      "length": "1312.68",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D42.mp4",
+      "length": "1398.93",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D43.mp4",
+      "length": "1400.43",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D44.mp4",
+      "length": "1563.16",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D45.mp4",
+      "length": "1562.13",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D46.mp4",
+      "length": "1591.03",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D47.mp4",
+      "length": "1105.37",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "SUPER_MARIO_BROS_VOL2_D49.mp4",
+      "length": "271.87",
+      "format": "h.264",
+      "source": "derivative"
+    }
+  ]
+}

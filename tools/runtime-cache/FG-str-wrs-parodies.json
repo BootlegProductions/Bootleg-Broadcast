@@ -1,0 +1,23 @@
+{
+  "identifier": "FG-str-wrs-parodies",
+  "files": [
+    {
+      "name": "S06 E01 Blue Harvest.mp4",
+      "length": "2856.33",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S08 E20 Something Something Something Darkside.mp4",
+      "length": "3284",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S09 E18 It's a Trap.mp4",
+      "length": "3395.41",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

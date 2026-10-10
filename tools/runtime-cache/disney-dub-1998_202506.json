@@ -1,0 +1,17 @@
+{
+  "identifier": "disney-dub-1998_202506",
+  "files": [
+    {
+      "name": "Disney Dub (1998).ia.mp4",
+      "length": "6187.29",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Disney Dub (1998).mp4",
+      "length": "6187.29",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

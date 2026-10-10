@@ -1,0 +1,7 @@
+v0.36 — delete only these exact obsolete paths from your existing repository after copying the new files:
+
+90s-Toons-Three-Day-Schedules.txt
+three-day-audit.json
+tools/rebuild_schedules.py
+
+Do not delete your original source collections, assets, GitHub repository settings or unrelated files. All historical release notes remain in VERSION-HISTORY.txt.

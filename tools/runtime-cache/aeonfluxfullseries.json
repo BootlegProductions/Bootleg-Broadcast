@@ -1,0 +1,101 @@
+{
+  "identifier": "aeonfluxfullseries",
+  "files": [
+    {
+      "name": "EP 1.mp4",
+      "length": "744.5",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "EP 2.mp4",
+      "length": "195.63",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "EP 3.mp4",
+      "length": "250.33",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "EP 4.mp4",
+      "length": "184.11",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "EP 5.mp4",
+      "length": "263.01",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "EP 6.mp4",
+      "length": "325.87",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S 1 EP 1.mp4",
+      "length": "1349.73",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S 1 EP 10.mp4",
+      "length": "1293.4",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S 1 EP 2.mp4",
+      "length": "1302.43",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S 1 EP 3.mp4",
+      "length": "1416.14",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S 1 EP 4.mp4",
+      "length": "1354.4",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S 1 EP 5.mp4",
+      "length": "1384.14",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S 1 EP 6.mp4",
+      "length": "1351.82",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S 1 EP 7.mp4",
+      "length": "1298.69",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S 1 EP 8.mp4",
+      "length": "1280.84",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S 1 EP 9.mp4",
+      "length": "1327.37",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

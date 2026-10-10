@@ -1,0 +1,19 @@
+{
+  "version": "0.36.1",
+  "status": "passed",
+  "all_twelve_months": true,
+  "entrypoint_at_root": true,
+  "original_assets_preserved_byte_for_byte": 47,
+  "original_markdowns_preserved_byte_for_byte": 13,
+  "all_automated_checks": "passed",
+  "browser_visual_preview": "unavailable; no claim of fresh visual verification",
+  "full_external_playback_audio_review": false,
+  "backend_required": false,
+  "calendar_year": 2026,
+  "files": 1534,
+  "notes": [
+    "Contains original assets and source documents, all twelve compiled month schedules, catalogue, static player, reports, authored lineups and measured runtime cache.",
+    "No live site was published.",
+    "Only exact paths in FILES-TO-DELETE.txt are recommended for deletion."
+  ]
+}

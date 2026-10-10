@@ -1,0 +1,317 @@
+{
+  "identifier": "jackass-the-boxset",
+  "files": [
+    {
+      "name": "JACKASS_D1.mp4",
+      "length": "7586.45",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D12.mp4",
+      "length": "0.03",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D15.mp4",
+      "length": "152.05",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D16.mp4",
+      "length": "135.37",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D4.mp4",
+      "length": "3014.65",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D410.mp4",
+      "length": "92.06",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D411.mp4",
+      "length": "65.04",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D412.mp4",
+      "length": "64.7",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D413.mp4",
+      "length": "70.71",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D414.mp4",
+      "length": "110.68",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D415.mp4",
+      "length": "97.4",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D416.mp4",
+      "length": "1607.04",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D417.mp4",
+      "length": "157.06",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D418.mp4",
+      "length": "343.38",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D419.mp4",
+      "length": "16.72",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D42.mp4",
+      "length": "107.69",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D420.mp4",
+      "length": "0.03",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D421.mp4",
+      "length": "2565.03",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D43.mp4",
+      "length": "232.67",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D44.mp4",
+      "length": "391.03",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D45.mp4",
+      "length": "381.68",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D46.mp4",
+      "length": "164.07",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D48.mp4",
+      "length": "304.08",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_D49.mp4",
+      "length": "366.33",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC1.mp4",
+      "length": "7586.45",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC12.mp4",
+      "length": "0.03",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC15.mp4",
+      "length": "152.05",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC16.mp4",
+      "length": "135.37",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC2.mp4",
+      "length": "7295.98",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC24.mp4",
+      "length": "16.72",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC3.mp4",
+      "length": "7124.53",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC34.mp4",
+      "length": "16.72",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC4.mp4",
+      "length": "3014.65",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC410.mp4",
+      "length": "92.06",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC411.mp4",
+      "length": "65.04",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC412.mp4",
+      "length": "64.7",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC413.mp4",
+      "length": "70.71",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC414.mp4",
+      "length": "110.68",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC415.mp4",
+      "length": "97.4",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC416.mp4",
+      "length": "1607.04",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC417.mp4",
+      "length": "157.06",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC418.mp4",
+      "length": "343.38",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC419.mp4",
+      "length": "16.72",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC42.mp4",
+      "length": "107.69",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC420.mp4",
+      "length": "0.03",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC421.mp4",
+      "length": "2565.03",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC43.mp4",
+      "length": "232.67",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC44.mp4",
+      "length": "391.03",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC45.mp4",
+      "length": "381.68",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC46.mp4",
+      "length": "164.07",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC48.mp4",
+      "length": "304.08",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "JACKASS_DISC49.mp4",
+      "length": "366.33",
+      "format": "h.264",
+      "source": "derivative"
+    }
+  ]
+}

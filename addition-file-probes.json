@@ -1,0 +1,264 @@
+{
+  "checked_at": "2026-10-09T00:48:14.723622+00:00",
+  "scope": "First/last imported episode per series and all added one-offs/films; first 4096 bytes only. This does not verify full playback, spoken language or subtitle tracks.",
+  "results": [
+    {
+      "url": "https://archive.org/download/korgoth-of-barbaria-s-01-e-01/Korgoth%20of%20Barbaria%20-%20S01E01.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/the-modifyers-pilot/The%20Modifyers%20Pilot.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/constant_payne/Constant%20Payne%202001%20Pilot%20480p%20YT%20WEB-DL%20Opus%202.0%20H.264-void.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/the_groovenians/The%20Groovenians%20%282002%29.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/the-amazing-screw-on-head-2006/The.Amazing.Screw.On.Head-PHRENiAC.2006.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/he-hog-the-atomic-pig-unedited-pilot-john-k-1999/HeHog%20The%20Atomic%20Pig%20UNEDITED%20PILOT%20%20John%20K%201999.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/tomp-3.cc-welcome-to-eltingville-dvd-rip-full-version-360p/tomp3.cc%20-%20Welcome%20to%20Eltingville%20DVD%20RIP%20FULL%20VERSION_360p.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/dexters.-laboratory.-s-00-e-01-rude.-removal.-banned.-episode.-1080p.-aac-2.0.x-264-obfuscated/Dexters.Laboratory.S00E01-Rude.Removal.Banned.Episode.1080p.AAC2.0.x264-Obfuscated.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/ren-stimpy-extras/Ren%20and%20Stimpy%20Extras/Ren%20and%20Stimpy%20Other%20Material/Spumco%20%28creators%20of%20Ren%20%26%20Stimpy%29%20-%20Ranger%20Smith%20-%20%20Boo%20Boo%20Runs%20Wild.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/party-wagon-2004/Party%20Wagon.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/futurama.-benders.-big.-score.-2007.720p.-web-dl.x-265-heteam_202502/Futurama.Benders.Big.Score.2007.720p.WEB-DL.x265-HETeam.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/futurama.-benders.-big.-score.-2007.720p.-web-dl.x-265-heteam_202502/Futurama.Benders.Game.2008.720p.BluRay.x265-HETeam.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/futurama.-benders.-big.-score.-2007.720p.-web-dl.x-265-heteam_202502/Futurama.Into.The.Wild.Green.Yonder.2009.720p.BluRay.x265-HETeam.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/futurama.-benders.-big.-score.-2007.720p.-web-dl.x-265-heteam_202502/Futurama.The.Beast.with.a.Billion.Backs.720p.WEB-DL.x265-HETeam.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/MSBTVSeries/01%20Gets%20Lost%20in%20Space.mp4",
+      "error": null,
+      "initial_error": "HTTP Error 500: Internal Server Error",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096,
+      "retry_succeeded": true
+    },
+    {
+      "url": "https://archive.org/download/MSBTVSeries/52%20Takes%20a%20Dive.mp4",
+      "error": null,
+      "initial_error": "HTTP Error 500: Internal Server Error",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096,
+      "retry_succeeded": true
+    },
+    {
+      "url": "https://archive.org/download/libertys-kids-est-1776-full-animated-series/Ep01%20-%20The%20Boston%20Tea%20Party%20%28Pilot%2C%20Part%20I%29.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/libertys-kids-est-1776-full-animated-series/Ep40%20-%20We%20The%20People.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/beastwarstransformers1080p/Beast%20Wars%20-%20Transformers%2001x01%20-%20Beast%20Wars%20%28Part%201%29%20%5B1080p%20AI%5D.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/beastwarstransformers1080p/Beast%20Wars%20-%20Transformers%2003x13%20-%20Nemesis%20%28Part%202%29%20%5B1080p%20AI%5D.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/Reboot-HD/Reboot%20HD/ReBoot%20-%20Season%201%20Episode%201%20-%20The%20Tearing%20%284K%20Upscale%29%20%281080p_24fps_H264-128kbit_AAC%29.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/Reboot-HD/Reboot%20HD/ReBoot%20Season%201%20Episode%2012%20-%20Identity%20Crisis%20Part%201%20%284K%20Upscale%29%20%281080p_24fps_H264-128kbit_AAC%29.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/the-batman-03x-01/The%20Batman%2001x01.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/the-batman-03x-01/The%20Batman%2005x13.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/1983-alvin-and-the-chipmunks-complete/Alvin%20%26%20The%20Chipmunks%20%281983%29%20Complete/Season%201%20Complete/S1E01%20The%20C-Team%20%2B%20The%20Chipettes.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/1983-alvin-and-the-chipmunks-complete/Alvin%20%26%20The%20Chipmunks%20%281983%29%20Complete/Season%208%20Complete/S8E12%20Sploosh.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/DragonTalesTVSeries/Dragon.Tales.S01E01.To.Fly.with.Dragons.-.The.Forest.of.Darkness.WEBRip.AAC2.0.x264-SA89.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/DragonTalesTVSeries/Dragon.Tales.S03E30.Finders.Keepers.-.A.Storybook.Ending.WEBRip.AAC2.0.x264-SA89.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/digimon-data-squad-the-complete-series/Digimon%20Data%20Squad%20-%20The%20Complete%20Series/01%20-%20There%20are%20Monsters%20Among%20Us%21.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/digimon-data-squad-the-complete-series/Digimon%20Data%20Squad%20-%20The%20Complete%20Series/48%20-%20The%20Ultimate%20Farewell.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/Mickey-Mouse-Works/Mickey%20Mouse%20Works%20%281999%29/Season%201/Mickey%20Mouse%20Works%20-%20S01E01%20-%20%2801%29%20Train%20Tracks..%20%5BVHSRip%5D.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/Mickey-Mouse-Works/Mickey%20Mouse%20Works%20%281999%29/Season%202/Mickey%20Mouse%20Works%20-%20S02E12%20-%20%2825%29%20Bird%20Brained%20Donald..%20%5BDVB%5D.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/the-secret-saturdays-the-complete-series-2008/The%20Secret%20Saturdays%20S01E01%20The%20Kur%20Stone%20-%20Pt-01.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/the-secret-saturdays-the-complete-series-2008/The%20Secret%20Saturdays%20S02E10%20War%20of%20the%20Cryptids.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/futurama.-benders.-big.-score.-2007.720p.-web-dl.x-265-heteam_202502/Futurama%20S03E02%20Parasites%20Lost%20-1080p%20x265%2010bit%20Joy-.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    },
+    {
+      "url": "https://archive.org/download/futurama.-benders.-big.-score.-2007.720p.-web-dl.x-265-heteam_202502/Futurama%20S03E19%20Roswell%20That%20Ends%20Well%20%20%5B1080p%20x265%2010bit%20Joy%5D.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "mp4_header": true,
+      "bytes_read": 4096
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "identifier": "s-1-netflix",
+  "files": [
+    {
+      "name": "S1 E1 Early Reel.mp4",
+      "length": "87.98",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "S1 E10 Mystery.mp4",
+      "length": "680.02",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E11 Prank.mp4",
+      "length": "701.52",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E12 Gi.mp4",
+      "length": "701.03",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E13 Kiss.mp4",
+      "length": "701.6",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E14 Party.mp4",
+      "length": "700.69",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E15 Refund.mp4",
+      "length": "701.24",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E16 Robot.mp4",
+      "length": "700.48",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E17 Picnic.mp4",
+      "length": "701.52",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E18 Goons.mp4",
+      "length": "700.85",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E19 Secret.mp4",
+      "length": "701.24",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E2 Third.mp4",
+      "length": "701.22",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "S1 E20 Sock.mp4",
+      "length": "700.87",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E21 Genius.mp4",
+      "length": "701.31",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E22 Mustache.mp4",
+      "length": "699.72",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E23 Date.mp4",
+      "length": "700.87",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E24 Club.mp4",
+      "length": "701.2",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E25 Wand.mp4",
+      "length": "700.43",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E26 Ape.mp4",
+      "length": "699.2",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E27 Poltergeist.mp4",
+      "length": "701.1",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E28 Quest.mp4",
+      "length": "700.96",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "S1 E29 Spoon.mp4",
+      "length": "701.29",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "S1 E3 Debt.mp4",
+      "length": "700.2",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "S1 E30 Car.mp4",
+      "length": "699.36",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E31 Curse.mp4",
+      "length": "690.74",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E32 Microwave.mp4",
+      "length": "701.26",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E33 Meddler.mp4",
+      "length": "651.18",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E34 Helmet.mp4",
+      "length": "685.35",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E35 Fight.mp4",
+      "length": "635.41",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E36 End.mp4",
+      "length": "717.43",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "S1 E37 DVD.mp4",
+      "length": "701.95",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "S1 E4 Pressure.mp4",
+      "length": "701.24",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E5 Painting.mp4",
+      "length": "700.87",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E6 Responsible.mp4",
+      "length": "700.17",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "S1 E7 Dress.mp4",
+      "length": "717.29",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "S1 E8 Laziest.mp4",
+      "length": "700.52",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "S1 E9 Ghost.mp4",
+      "length": "701.31",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

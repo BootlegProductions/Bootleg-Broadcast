@@ -1,0 +1,29 @@
+{
+  "identifier": "20260103_20260103_0343",
+  "files": [
+    {
+      "name": "Part 1 The Path To Dictatorship.mp4",
+      "length": "3532.87",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Part II The Rise of the Demon.mp4",
+      "length": "3487.41",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Part III Death and Decay.ia.mp4",
+      "length": "3514.67",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Part III Death and Decay.mp4",
+      "length": "3514.67",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

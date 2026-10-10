@@ -1,0 +1,1 @@
+{"status":"passed","expanded_channel_days":3650,"checks":["Measured break expansion and UK midnight coverage","Early video end plays own channel ident","Ident loops seek within actual duration","Next scheduled programme resumes at fixed time","Exhausted retries flag source durably and play ident","Static reports show and clear saved source flags without a backend"]}

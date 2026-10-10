@@ -1,0 +1,47 @@
+{
+  "identifier": "bakuman-english-dub",
+  "files": [
+    {
+      "name": "Bakuman-Episode-1.mp4",
+      "length": "1470.15",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Bakuman-Episode-2.mp4",
+      "length": "1469.73",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Bakuman-Episode-3.mp4",
+      "length": "1469.82",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Bakuman-Episode-4.mp4",
+      "length": "1469.87",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Bakuman-Episode-5.mp4",
+      "length": "1467.97",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Bakuman-Episode-6.mp4",
+      "length": "1468.01",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Bakuman-Episode-7.mp4",
+      "length": "1470.01",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

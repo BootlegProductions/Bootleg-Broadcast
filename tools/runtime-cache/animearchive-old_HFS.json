@@ -1,0 +1,83 @@
+{
+  "identifier": "animearchive-old_HFS",
+  "files": [
+    {
+      "name": "HFS_HFS-S1-1_HFS0001-EN_simulcast.mp4",
+      "length": "1425.01",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "HFS_HFS-S1-1_HFS0001-EN_uncut.mp4",
+      "length": "1425.13",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "HFS_HFS-S1-1_HFS0002-EN_simulcast.mp4",
+      "length": "1425.13",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "HFS_HFS-S1-1_HFS0002-EN_uncut.mp4",
+      "length": "1424.93",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "HFS_HFS-S1-1_HFS0003-EN_simulcast.mp4",
+      "length": "1425.09",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "HFS_HFS-S1-1_HFS0004-EN_simulcast.mp4",
+      "length": "1424.97",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "HFS_HFS-S1-1_HFS0006-EN_simulcast.mp4",
+      "length": "1425.13",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "HFS_HFS-S1-1_HFS0007-EN_simulcast.mp4",
+      "length": "1425.05",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "HFS_HFS-S1-1_HFS0008-EN_simulcast.mp4",
+      "length": "1425.09",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "HFS_HFS-S1-1_HFS0009-EN_simulcast.mp4",
+      "length": "1425.05",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "HFS_HFS-S1-1_HFS0010-EN_simulcast.mp4",
+      "length": "1425.09",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "HFS_HFS-S1-1_HFS0011-EN_simulcast.mp4",
+      "length": "1425.05",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "HFS_HFS-S1-1_HFS0012-EN_simulcast.mp4",
+      "length": "1425.18",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "identifier": "final-space_202209",
+  "files": [
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E01.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1282.67",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E01.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1282.66",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E02.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1314.11",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E02.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1314.1",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E03.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1295.6",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E03.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1295.58",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E04.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1291.59",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E04.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1291.57",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E05.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1294.46",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E05.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1294.45",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E06.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1283.5",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E06.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1283.49",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E07.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1291.33",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E07.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1291.33",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E08.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1288.66",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E08.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1288.66",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E09.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1258.22",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E09.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1258.21",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E10.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1305.47",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S01.1080p.BluRay.x265-RARBG/Final.Space.S01E10.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1305.46",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E01.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1297.79",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E01.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1297.79",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E02.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1268.31",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E02.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1268.31",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E03.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1270.32",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E03.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1270.3",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E04.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1269.7",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E04.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1269.69",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E05.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1270.36",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E05.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1270.35",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E06.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1266.97",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E06.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1266.97",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E07.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1291.97",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E07.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1291.96",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E08.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1286.04",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E08.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1286.03",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E09.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1270.32",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E09.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1270.3",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E10.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1281.79",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E10.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1281.78",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E11.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1270.32",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E11.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1270.3",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E12.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1273.73",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E12.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1273.73",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E13.1080p.BluRay.x265-RARBG.ia.mp4",
+      "length": "1323.07",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S02.1080p.BluRay.x265-RARBG/Final.Space.S02E13.1080p.BluRay.x265-RARBG.mp4",
+      "length": "1323.07",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E01.1080p.WEBRip.x265-RARBG.ia.mp4",
+      "length": "1269.01",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E01.1080p.WEBRip.x265-RARBG.mp4",
+      "length": "1269",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E02.1080p.WEBRip.x265-RARBG.ia.mp4",
+      "length": "1269.4",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E02.1080p.WEBRip.x265-RARBG.mp4",
+      "length": "1269.39",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E03.1080p.WEBRip.x265-RARBG.ia.mp4",
+      "length": "1262.32",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E03.1080p.WEBRip.x265-RARBG.mp4",
+      "length": "1262.32",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E04.1080p.WEBRip.x265-RARBG.ia.mp4",
+      "length": "1266.35",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E04.1080p.WEBRip.x265-RARBG.mp4",
+      "length": "1266.35",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E05.1080p.WEBRip.x265-RARBG.ia.mp4",
+      "length": "1269.42",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E05.1080p.WEBRip.x265-RARBG.mp4",
+      "length": "1269.42",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E06.1080p.WEBRip.x265-RARBG.ia.mp4",
+      "length": "1269.4",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E06.1080p.WEBRip.x265-RARBG.mp4",
+      "length": "1269.39",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E07.1080p.WEBRip.x265-RARBG.ia.mp4",
+      "length": "1266.35",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E07.1080p.WEBRip.x265-RARBG.mp4",
+      "length": "1266.35",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E08.1080p.WEBRip.x265-RARBG.ia.mp4",
+      "length": "1266.35",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E08.1080p.WEBRip.x265-RARBG.mp4",
+      "length": "1266.35",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E09.1080p.WEBRip.x265-RARBG.ia.mp4",
+      "length": "1269.4",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E09.1080p.WEBRip.x265-RARBG.mp4",
+      "length": "1269.39",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E10.1080p.WEBRip.x265-RARBG.ia.mp4",
+      "length": "1269.4",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E10.1080p.WEBRip.x265-RARBG.mp4",
+      "length": "1269.39",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E11.1080p.WEBRip.x265-RARBG.ia.mp4",
+      "length": "1266.35",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E11.1080p.WEBRip.x265-RARBG.mp4",
+      "length": "1266.35",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E12.1080p.WEBRip.x265-RARBG.ia.mp4",
+      "length": "1266.35",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E12.1080p.WEBRip.x265-RARBG.mp4",
+      "length": "1266.35",
+      "format": "MPEG4",
+      "source": "original"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E13.1080p.WEBRip.x265-RARBG.ia.mp4",
+      "length": "1266.35",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Final.Space.S03.1080p.WEBRip.x265-RARBG/Final.Space.S03E13.1080p.WEBRip.x265-RARBG.mp4",
+      "length": "1266.35",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

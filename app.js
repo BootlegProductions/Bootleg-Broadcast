@@ -1,4 +1,4 @@
-/* Bootleg Broadcast v0.34.1 — CRT television, seasonal rotation and source recovery. */
+/* Bootleg Broadcast v0.36.1 — CRT television, seasonal rotation and source recovery. */
 'use strict';
 const $ = id => document.getElementById(id);
 const player = $('player');
@@ -16,7 +16,7 @@ let lastGoodScheduleState=null;
 let statusTimer, recoveryTimer, sourceTimer, channelTimer, staticTimer, digitTimer;
 let consecutiveFailures=0, sourceIndex=0, sourceRetry=0, stalledAttempts=0, pendingSeek=0, digits='', lastChannel=0;
 let guideReturnFocus=null, helpReturnFocus=null, dayStamp=`${ukParts().year}-${ukParts().month}-${ukParts().day}`;
-const sounds={on:new Audio('assets/tv on sfx/tv on sfx.mp3'),off:new Audio('assets/tv off sfx/tv off sfx.mp3'),channel:new Audio('assets/static sfx/channel switch static.mp3'),button:new Audio('assets/remote button sfx/remote button sfx.mp3')};
+const sounds={on:new Audio('assets/tv on sfx/tv on sfx.mp3'),off:new Audio('assets/tv off sfx/tv off sfx.mp3'),channel:new Audio('assets/static sfx/channel-tune-short.wav'),button:new Audio('assets/remote button sfx/remote button sfx.mp3')};
 const logos={'90s Toons':'90s Cartoons Logo.png','Cartoons Cartoons':'Cartoons Cartoons Logo.png','AAA':'AAA Logo.png','Off-Licence TV':'Off Licence TV Logo.png','Japanime':'Japanime Logo.png','Star Spangled TV':'Star Spangled TV Logo.png','What':'What Logo.png','Dizzy':'Dizzy Logo.png','Dickleodeon':'Dickleodeon Logo.png','GirlyPop':'Girly Pop Logo.png'};
 player.volume=Math.max(0,Math.min(1,Number.isFinite(settings.volume)?settings.volume:0.7));
 player.muted=Boolean(settings.muted);
@@ -39,25 +39,28 @@ function updateChannelBug(name){const logo=logos[name];$('channelBug').style.dis
 function updateRemote(){Broadcast.remote();const c=getCurrentChannelData(),i=getCurrentItem();$('remote-display').textContent=`${poweredOn?(player.paused?'PAUSED':'ON'):'STANDBY'} · CH ${String(currentChannel+1).padStart(2,'0')} · ${player.muted?'MUTE':Math.round(player.volume*100)+'%'}\n${c?.name||'Loading schedule…'}\n${i?.title||''}`;$('pause-button').textContent=poweredOn&&!player.paused?'PAUSE':'PLAY';$('mute-button').setAttribute('aria-pressed',String(player.muted));$('power-button').setAttribute('aria-pressed',String(poweredOn));$('remote-handle').setAttribute('aria-expanded',String(remoteControl.classList.contains('active')));$('season-label').textContent=`${currentMonth==='october'?'HALLOWEEN':currentMonth==='december'?'CHRISTMAS':currentMonth.toUpperCase()} · ${previewDate?'PREVIEW '+previewDate:'TODAY'}`;}
 function updateChannelOverlay(){$('channelNumber').textContent='CH '+String(currentChannel+1).padStart(2,'0');$('channelNameOverlay').textContent=getCurrentChannelData()?.name||'';updateChannelBug(getCurrentChannelData()?.name);}
 function showChannelOverlay(){clearTimeout(channelTimer);$('channelOverlay').style.opacity=1;channelTimer=setTimeout(()=>$('channelOverlay').style.opacity=0,2000);}
-function showStatic(){clearTimeout(staticTimer);$('static').style.opacity=1;staticTimer=setTimeout(()=>$('static').style.opacity=0,280);}
+let channelNoiseTimer;
+function stopChannelNoise(){clearTimeout(channelNoiseTimer);sounds.channel.pause();sounds.channel.currentTime=0;}
+function playChannelNoise(){stopChannelNoise();if(player.muted||!poweredOn)return;sounds.channel.volume=0.045*player.volume;sounds.channel.play().catch(()=>{});channelNoiseTimer=setTimeout(stopChannelNoise,140);}
+function showStatic(){clearTimeout(staticTimer);$('static').style.opacity=1;staticTimer=setTimeout(()=>$('static').style.opacity=0,140);}
 function cancelRecovery(){clearTimeout(recoveryTimer);clearTimeout(sourceTimer);}
 function resetPlayer(){++tuningGeneration;cancelRecovery();player.onloadedmetadata=null;player.pause();player.removeAttribute('src');player.load();}
 function armSourceTimeout(delay=22000){clearTimeout(sourceTimer);if(!poweredOn)return;const generation=tuningGeneration;sourceTimer=setTimeout(()=>{if(generation===tuningGeneration&&poweredOn&&!player.paused)recoverSource('SIGNAL TIMED OUT');else if(generation===tuningGeneration&&poweredOn&&player.readyState<2)recoverSource('SIGNAL TIMED OUT');},delay);}
 function safePlay(){if(!poweredOn||!player.getAttribute('src'))return;player.play().catch(err=>{if(err.name==='NotAllowedError')showStatus('PRESS PLAY TO START',0);else if(err.name==='NotSupportedError')recoverSource('SOURCE UNSUPPORTED');});}
-function loadItemSource(item,index=0,seek=0){cancelRecovery();const sources=getItemSources(item);if(!sources.length)return false;sourceIndex=index;pendingSeek=seek;const generation=++tuningGeneration;player.onloadedmetadata=()=>{if(generation!==tuningGeneration)return;if(Broadcast.mode()==='live')pendingSeek=Broadcast.seek();if(pendingSeek>0&&Number.isFinite(player.duration)){if(pendingSeek>=player.duration&&!item.loop){Broadcast.presentation('Back shortly · '+getCurrentChannelData()?.name);return;}player.currentTime=Math.min(pendingSeek,Math.max(0,player.duration-0.1));}pendingSeek=0;if(poweredOn)safePlay();};player.src=sources[index];player.load();if(poweredOn){showStatus(index?'TRYING BACKUP SOURCE…':'TUNING…',0);armSourceTimeout();safePlay();}updateRemote();return true;}
+function loadItemSource(item,index=0,seek=0){cancelRecovery();const sources=getItemSources(item);if(!sources.length)return false;sourceIndex=index;pendingSeek=seek;const generation=++tuningGeneration;player.onloadedmetadata=()=>{if(generation!==tuningGeneration)return;if(Broadcast.mode()==='live')pendingSeek=Broadcast.seek();if(pendingSeek>0&&Number.isFinite(player.duration)){if(pendingSeek>=player.duration&&!item.loop){Broadcast.fillGap();return;}player.currentTime=Math.min(pendingSeek,Math.max(0,player.duration-0.1));}pendingSeek=0;if(poweredOn)safePlay();};player.src=sources[index];player.load();if(poweredOn){showStatus(index?'TRYING BACKUP SOURCE…':'TUNING…',0);armSourceTimeout();safePlay();}updateRemote();return true;}
 function tryNextAlternateSource(manual=false){return Broadcast.alternate(manual);}
 function recoverSource(reason){return Broadcast.recover(reason);}
 function nextProgrammeIndex(items,from,direction=1){for(let step=1;step<=items.length;step++){const n=(from+direction*step+items.length*2)%items.length;if(items[n]?.url&&!NON_PROGRAMME.has(items[n].type)&&items[n].type!=='Filler'&&!items[n].presentation)return n;}return -1;}
 function playCurrent(){return Broadcast.play();}
 function loadChannel(){return Broadcast.load();}
-function tuneChannel(index){const channels=getTodaySchedule()?.channels;if(!channels?.length)return;saveChannelState();lastChannel=currentChannel;currentChannel=((index%channels.length)+channels.length)%channels.length;consecutiveFailures=0;resetPlayer();if(poweredOn)playSound(sounds.channel,0.08);showStatic();loadChannel();showChannelOverlay();persistSettings();}
+function tuneChannel(index){const channels=getTodaySchedule()?.channels;if(!channels?.length)return;saveChannelState();lastChannel=currentChannel;currentChannel=((index%channels.length)+channels.length)%channels.length;consecutiveFailures=0;resetPlayer();if(poweredOn)playChannelNoise();showStatic();loadChannel();showChannelOverlay();persistSettings();}
 function nextChannel(){tuneChannel(currentChannel+1);}
 function prevChannel(){tuneChannel(currentChannel-1);}
 function skipProgramme(direction=1){return Broadcast.skip(direction);}
 function restartProgramme(){return Broadcast.restart();}
-function togglePower(){if(!schedule){showStatus('LOADING SCHEDULE…',1800);return;}poweredOn=!poweredOn;started=started||poweredOn;document.body.classList.toggle('tv-powered-on',poweredOn);$('power').hidden=poweredOn;cancelRecovery();if(poweredOn){playSound(sounds.on);if(Broadcast.mode()==='live')Broadcast.sync(true);if(!player.getAttribute('src')&&!Broadcast.holding())loadChannel();safePlay();armSourceTimeout();showChannelOverlay();}else{saveChannelState();player.pause();hideStatus();$('channelOverlay').style.opacity=0;playSound(sounds.off);}updateChannelBug(getCurrentChannelData()?.name);updateRemote();}
+function togglePower(){if(!schedule){showStatus('LOADING SCHEDULE…',1800);return;}poweredOn=!poweredOn;started=started||poweredOn;document.body.classList.toggle('tv-powered-on',poweredOn);$('power').hidden=poweredOn;cancelRecovery();if(poweredOn){playSound(sounds.on);if(Broadcast.mode()==='live')Broadcast.sync(true);if(!player.getAttribute('src')&&!Broadcast.holding())loadChannel();safePlay();armSourceTimeout();showChannelOverlay();}else{stopChannelNoise();saveChannelState();player.pause();hideStatus();$('channelOverlay').style.opacity=0;playSound(sounds.off);}updateChannelBug(getCurrentChannelData()?.name);updateRemote();}
 function togglePause(){return Broadcast.pause();}
-function toggleMute(){player.muted=!player.muted;showStatus(player.muted?'MUTED':`VOLUME ${Math.round(player.volume*100)}`);persistSettings();updateRemote();}
+function toggleMute(){player.muted=!player.muted;if(player.muted)stopChannelNoise();showStatus(player.muted?'MUTED':`VOLUME ${Math.round(player.volume*100)}`);persistSettings();updateRemote();}
 function changeVolume(delta){player.volume=Math.max(0,Math.min(1,player.volume+delta));if(delta>0)player.muted=false;showStatus(`VOLUME ${Math.round(player.volume*100)}`);persistSettings();updateRemote();}
 function volumeUp(){changeVolume(0.1);}
 function volumeDown(){changeVolume(-0.1);}

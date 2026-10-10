@@ -1,0 +1,17 @@
+{
+  "identifier": "family-guy-stewie-the-untold-story",
+  "files": [
+    {
+      "name": "Family Guy Stewie The Untold Story.ia.mp4",
+      "length": "5303.51",
+      "format": "h.264 IA",
+      "source": "derivative"
+    },
+    {
+      "name": "Family Guy Stewie The Untold Story.mp4",
+      "length": "5303.51",
+      "format": "MPEG4",
+      "source": "original"
+    }
+  ]
+}

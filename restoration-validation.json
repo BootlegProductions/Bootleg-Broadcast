@@ -1,0 +1,10 @@
+{
+  "version": "0.36.1",
+  "status": "passed",
+  "restored_series_with_actual_airtime": 129,
+  "ordered_episode_transitions_checked": 10443,
+  "original_markdown_links_preserved": 21363,
+  "tuning_noise_seconds": 0.12,
+  "errors": [],
+  "scope": "Static authored runs, measured media metadata, full original catalogue and short tuning audio. Not a complete Archive playback, subtitle or browser visual review."
+}

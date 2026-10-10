@@ -1,0 +1,3484 @@
+{
+  "schema_version": 1,
+  "year": 2026,
+  "timezone": "Europe/London",
+  "note": "Hand-authored appointments and successor series runs. Each run plays evidenced episodes in order; the next series takes over after completion. The browser reads finished monthly JSON files.",
+  "channels": {
+    "90s Toons": [
+      {
+        "at": "00:00",
+        "series": "tick",
+        "episodes": 2,
+        "fallback": [
+          "gadget",
+          "pinky",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "01:00",
+        "series": "mib",
+        "episodes": 2,
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "02:00",
+        "series": "pup-scooby",
+        "episodes": 1,
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "02:30",
+        "series": "beetlejuice",
+        "episodes": 2,
+        "block": "After hours",
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "03:30",
+        "series": "ghostbusters",
+        "episodes": 2,
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "04:30",
+        "series": "bump",
+        "episodes": 3,
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "05:30",
+        "series": "scooby-show",
+        "episodes": 2,
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "06:30",
+        "series": "gadget",
+        "episodes": 1,
+        "fallback": [
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "07:00",
+        "series": "xmen",
+        "episodes": 2,
+        "block": "Fox Kids breakfast",
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "08:00",
+        "series": "spiderman",
+        "episodes": 2,
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "09:00",
+        "series": "godzilla",
+        "episodes": 2,
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "10:00",
+        "series": "gadget",
+        "episodes": 2,
+        "fallback": [
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "11:00",
+        "series": "pinky",
+        "episodes": 2,
+        "fallback": [
+          "gadget",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "12:00",
+        "series": "@run:90s-toons-1200",
+        "episodes": 2,
+        "block": "Afternoon action — complete series runs"
+      },
+      {
+        "at": "13:00",
+        "series": "iron-man",
+        "episodes": 2,
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "14:00",
+        "series": "hulk",
+        "episodes": 2,
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "15:00",
+        "series": "jackie",
+        "episodes": 2,
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "16:00",
+        "series": "spiderman-unlimited",
+        "episodes": 2,
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "17:00",
+        "series": "@run:90s-toons-1700",
+        "episodes": 2,
+        "block": "Classic adventure — complete series runs"
+      },
+      {
+        "at": "18:00",
+        "series": "gargoyles",
+        "episodes": 2,
+        "block": "Evening animation",
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "19:00",
+        "series": "batman-beyond",
+        "episodes": 2,
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "20:00",
+        "series": "freakazoid",
+        "episodes": 2,
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "21:00",
+        "series": "scooby",
+        "episodes": 2,
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "22:00",
+        "series": "ghostbusters",
+        "episodes": 2,
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      },
+      {
+        "at": "23:00",
+        "series": "beetlejuice",
+        "episodes": 2,
+        "fallback": [
+          "gadget",
+          "pinky",
+          "tick",
+          "earthworm"
+        ]
+      }
+    ],
+    "Cartoons Cartoons": [
+      {
+        "at": "00:00",
+        "series": "ed-edd-eddy",
+        "episodes": 2,
+        "fallback": [
+          "dexter",
+          "billy-mandy",
+          "knd",
+          "mucha"
+        ],
+        "unavailable_preference": "samurai"
+      },
+      {
+        "at": "01:00",
+        "series": "billy-mandy",
+        "episodes": 3,
+        "fallback": [
+          "dexter",
+          "knd",
+          "mucha"
+        ]
+      },
+      {
+        "at": "02:00",
+        "series": "garden",
+        "episodes": 2,
+        "fallback": [
+          "dexter",
+          "billy-mandy",
+          "knd",
+          "mucha"
+        ]
+      },
+      {
+        "at": "02:30",
+        "series": "courage",
+        "episodes": 2,
+        "block": "After hours",
+        "fallback": [
+          "dexter",
+          "billy-mandy",
+          "knd",
+          "mucha"
+        ]
+      },
+      {
+        "at": "03:00",
+        "series": "cow-chicken",
+        "episodes": 4,
+        "fallback": [
+          "dexter",
+          "billy-mandy",
+          "knd",
+          "mucha"
+        ]
+      },
+      {
+        "at": "04:00",
+        "series": "weasel",
+        "episodes": 4,
+        "fallback": [
+          "dexter",
+          "billy-mandy",
+          "knd",
+          "mucha"
+        ]
+      },
+      {
+        "at": "05:00",
+        "series": "camp-lazlo",
+        "episodes": 2,
+        "fallback": [
+          "dexter",
+          "billy-mandy",
+          "knd",
+          "mucha"
+        ]
+      },
+      {
+        "at": "06:00",
+        "series": "fosters",
+        "episodes": 2,
+        "fallback": [
+          "dexter",
+          "billy-mandy",
+          "knd",
+          "mucha"
+        ]
+      },
+      {
+        "at": "07:00",
+        "series": "wacky",
+        "episodes": 3,
+        "block": "Early cartoons",
+        "fallback": [
+          "dexter",
+          "billy-mandy",
+          "knd",
+          "mucha"
+        ]
+      },
+      {
+        "at": "08:00",
+        "series": "jetsons",
+        "episodes": 2,
+        "block": "Classic cartoon mornings",
+        "fallback": [
+          "flintstones",
+          "tom-jerry",
+          "wacky"
+        ]
+      },
+      {
+        "at": "09:00",
+        "series": "flintstones",
+        "episodes": 2,
+        "fallback": [
+          "jetsons",
+          "tom-jerry",
+          "wacky"
+        ]
+      },
+      {
+        "at": "10:00",
+        "series": "tom-jerry",
+        "episodes": 4,
+        "fallback": [
+          "jetsons",
+          "flintstones",
+          "wacky"
+        ]
+      },
+      {
+        "at": "10:30",
+        "series": "wacky",
+        "episodes": 2,
+        "fallback": [
+          "jetsons",
+          "flintstones",
+          "tom-jerry"
+        ]
+      },
+      {
+        "at": "11:00",
+        "series": "jetsons",
+        "episodes": 2,
+        "fallback": [
+          "flintstones",
+          "tom-jerry",
+          "wacky"
+        ]
+      },
+      {
+        "at": "12:00",
+        "series": "dexter",
+        "episodes": 4,
+        "block": "Cartoon Network afternoons",
+        "fallback": [
+          "billy-mandy",
+          "knd",
+          "mucha"
+        ]
+      },
+      {
+        "at": "13:00",
+        "series": "powerpuff",
+        "episodes": 4,
+        "fallback": [
+          "dexter",
+          "billy-mandy",
+          "knd",
+          "mucha"
+        ]
+      },
+      {
+        "at": "14:00",
+        "series": "ed-edd-eddy",
+        "episodes": 4,
+        "fallback": [
+          "dexter",
+          "billy-mandy",
+          "knd",
+          "mucha"
+        ]
+      },
+      {
+        "at": "15:00",
+        "series": "knd",
+        "episodes": 2,
+        "fallback": [
+          "dexter",
+          "billy-mandy",
+          "mucha"
+        ]
+      },
+      {
+        "at": "16:00",
+        "series": "@run:cartoons-cartoons-1600",
+        "episodes": 2,
+        "block": "Afternoon action — complete series runs"
+      },
+      {
+        "at": "17:00",
+        "series": "@run:cartoons-cartoons-1700",
+        "episodes": 2,
+        "block": "After school cartoons — complete series runs"
+      },
+      {
+        "at": "18:00",
+        "series": "courage",
+        "episodes": 2,
+        "block": "Courage evening double bill",
+        "fallback": [
+          "dexter",
+          "billy-mandy",
+          "knd",
+          "mucha"
+        ]
+      },
+      {
+        "at": "19:00",
+        "series": "billy-mandy",
+        "episodes": 3,
+        "fallback": [
+          "dexter",
+          "knd",
+          "mucha"
+        ]
+      },
+      {
+        "at": "20:00",
+        "series": "regular-show",
+        "episodes": 4,
+        "fallback": [
+          "adventure",
+          "dexter",
+          "billy-mandy",
+          "knd",
+          "mucha"
+        ]
+      },
+      {
+        "at": "21:00",
+        "series": "adventure",
+        "episodes": 4,
+        "fallback": [
+          "dexter",
+          "billy-mandy",
+          "knd",
+          "mucha"
+        ]
+      },
+      {
+        "at": "22:00",
+        "series": "regular-show",
+        "episodes": 2,
+        "fallback": [
+          "dexter",
+          "billy-mandy",
+          "knd",
+          "mucha"
+        ],
+        "unavailable_preference": "samurai"
+      },
+      {
+        "at": "23:00",
+        "series": "garden",
+        "episodes": 3,
+        "fallback": [
+          "dexter",
+          "billy-mandy",
+          "knd",
+          "mucha"
+        ]
+      }
+    ],
+    "Japanime": [
+      {
+        "at": "00:00",
+        "series": "@run:japanime-0000",
+        "episodes": 2,
+        "block": "Adults after midnight — complete series runs"
+      },
+      {
+        "at": "01:00",
+        "series": "@run:japanime-0100",
+        "episodes": 2,
+        "block": "Adults after midnight — complete series runs"
+      },
+      {
+        "at": "02:00",
+        "series": "lain",
+        "episodes": 1,
+        "fallback": [
+          "noir",
+          "deathnote",
+          "bebop",
+          "blacklagoon"
+        ]
+      },
+      {
+        "at": "02:30",
+        "series": "evangelion",
+        "episodes": 2,
+        "block": "After hours",
+        "fallback": [
+          "noir",
+          "deathnote",
+          "bebop",
+          "blacklagoon"
+        ]
+      },
+      {
+        "at": "03:30",
+        "series": "noir",
+        "episodes": 2,
+        "fallback": [
+          "deathnote",
+          "bebop",
+          "blacklagoon"
+        ]
+      },
+      {
+        "at": "04:30",
+        "series": "ghost-stories",
+        "episodes": 2,
+        "fallback": [
+          "noir",
+          "deathnote",
+          "bebop",
+          "blacklagoon"
+        ]
+      },
+      {
+        "at": "05:30",
+        "series": "deathnote",
+        "episodes": 2,
+        "fallback": [
+          "noir",
+          "bebop",
+          "blacklagoon"
+        ]
+      },
+      {
+        "at": "06:30",
+        "series": "@run:japanime-0630",
+        "episodes": 1,
+        "block": "Anime stories — complete series runs"
+      },
+      {
+        "at": "07:00",
+        "series": "pokemon",
+        "episodes": 2,
+        "block": "Kids anime breakfast",
+        "fallback": [
+          "pokemon-advanced",
+          "cardcaptors",
+          "mewmew"
+        ]
+      },
+      {
+        "at": "08:00",
+        "series": "cardcaptors",
+        "episodes": 2,
+        "fallback": [
+          "pokemon",
+          "pokemon-advanced",
+          "mewmew"
+        ]
+      },
+      {
+        "at": "09:00",
+        "series": "mewmew",
+        "episodes": 2,
+        "fallback": [
+          "pokemon",
+          "pokemon-advanced",
+          "cardcaptors"
+        ]
+      },
+      {
+        "at": "10:00",
+        "series": "pokemon-advanced",
+        "episodes": 2,
+        "fallback": [
+          "pokemon",
+          "cardcaptors",
+          "mewmew"
+        ]
+      },
+      {
+        "at": "11:00",
+        "series": "shinzo",
+        "episodes": 2,
+        "fallback": [
+          "bakugan",
+          "cardcaptors",
+          "pokemon",
+          "pokemon-advanced",
+          "mewmew"
+        ]
+      },
+      {
+        "at": "12:00",
+        "series": "dragonball",
+        "episodes": 2,
+        "block": "Anime afternoons",
+        "fallback": [
+          "dbkai",
+          "azumanga",
+          "cardcaptors"
+        ]
+      },
+      {
+        "at": "13:00",
+        "series": "dbkai",
+        "episodes": 2,
+        "fallback": [
+          "dragonball",
+          "azumanga",
+          "cardcaptors"
+        ]
+      },
+      {
+        "at": "14:00",
+        "series": "@run:japanime-1400",
+        "episodes": 2,
+        "unavailable_preference": "fma",
+        "block": "Family anime afternoons — complete series runs"
+      },
+      {
+        "at": "15:00",
+        "series": "@run:japanime-1500",
+        "episodes": 2,
+        "block": "Afternoon anime stories — complete series runs"
+      },
+      {
+        "at": "16:00",
+        "series": "@run:japanime-1600",
+        "episodes": 2,
+        "block": "Afternoon anime adventures — complete series runs"
+      },
+      {
+        "at": "17:00",
+        "series": "@run:japanime-1700",
+        "episodes": 2,
+        "block": "Anime stories — complete series runs"
+      },
+      {
+        "at": "18:00",
+        "series": "dbkai",
+        "episodes": 2,
+        "fallback": [
+          "dragonball",
+          "azumanga",
+          "cardcaptors"
+        ]
+      },
+      {
+        "at": "19:00",
+        "series": "@run:japanime-1900",
+        "episodes": 2,
+        "unavailable_preference": "fma",
+        "block": "Evening anime mystery — complete series runs"
+      },
+      {
+        "at": "20:00",
+        "series": "@run:japanime-2000",
+        "episodes": 2,
+        "block": "Evening anime stories — complete series runs"
+      },
+      {
+        "at": "21:00",
+        "series": "bebop",
+        "episodes": 2,
+        "block": "Anime after dark",
+        "fallback": [
+          "noir",
+          "deathnote",
+          "blacklagoon"
+        ]
+      },
+      {
+        "at": "22:00",
+        "series": "@run:japanime-2200",
+        "episodes": 2,
+        "block": "Late anime thrillers — complete series runs"
+      },
+      {
+        "at": "23:00",
+        "series": "beastars",
+        "episodes": 2,
+        "fallback": [
+          "noir",
+          "deathnote",
+          "bebop",
+          "blacklagoon"
+        ]
+      }
+    ],
+    "Off-Licence TV": [
+      {
+        "at": "00:00",
+        "series": "@run:off-licence-tv-0000",
+        "episodes": 2,
+        "block": "After dark drama and documentaries — complete series runs",
+        "end": "02:00"
+      },
+      {
+        "at": "02:00",
+        "series": "inbetweeners",
+        "episodes": 1,
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "alan",
+          "horrible"
+        ]
+      },
+      {
+        "at": "02:30",
+        "series": "peep",
+        "episodes": 1,
+        "block": "After hours",
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "alan",
+          "horrible"
+        ]
+      },
+      {
+        "at": "03:00",
+        "series": "reddwarf",
+        "episodes": 2,
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "alan",
+          "horrible"
+        ]
+      },
+      {
+        "at": "04:00",
+        "series": "boosh",
+        "episodes": 2,
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "alan",
+          "horrible"
+        ]
+      },
+      {
+        "at": "05:00",
+        "series": "alan",
+        "episodes": 2,
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "horrible"
+        ]
+      },
+      {
+        "at": "06:00",
+        "series": "mrbean",
+        "episodes": 2,
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "alan",
+          "horrible"
+        ]
+      },
+      {
+        "at": "07:00",
+        "series": "trapdoor",
+        "episodes": 1,
+        "fallback": [
+          "chuckle",
+          "tracy",
+          "dennis",
+          "horrible",
+          "grizzly"
+        ]
+      },
+      {
+        "at": "07:20",
+        "series": "dennis",
+        "episodes": 1,
+        "fallback": [
+          "chuckle",
+          "tracy",
+          "horrible",
+          "grizzly"
+        ]
+      },
+      {
+        "at": "07:45",
+        "series": "tracy",
+        "episodes": 1,
+        "fallback": [
+          "chuckle",
+          "dennis",
+          "horrible",
+          "grizzly"
+        ]
+      },
+      {
+        "at": "08:15",
+        "series": "slammer",
+        "episodes": 1,
+        "fallback": [
+          "chuckle",
+          "tracy",
+          "dennis",
+          "horrible",
+          "grizzly"
+        ]
+      },
+      {
+        "at": "08:50",
+        "series": "chuckle",
+        "episodes": 1,
+        "fallback": [
+          "tracy",
+          "dennis",
+          "horrible",
+          "grizzly"
+        ]
+      },
+      {
+        "at": "09:10",
+        "series": "wallace",
+        "episodes": 1,
+        "fallback": [
+          "chuckle",
+          "tracy",
+          "dennis",
+          "horrible",
+          "grizzly"
+        ]
+      },
+      {
+        "at": "09:45",
+        "series": "grizzly",
+        "episodes": 1,
+        "fallback": [
+          "chuckle",
+          "tracy",
+          "dennis",
+          "horrible"
+        ]
+      },
+      {
+        "at": "10:00",
+        "series": "tracy",
+        "episodes": 1,
+        "fallback": [
+          "chuckle",
+          "dennis",
+          "horrible",
+          "grizzly"
+        ]
+      },
+      {
+        "at": "10:30",
+        "series": "horrible",
+        "episodes": 1,
+        "fallback": [
+          "chuckle",
+          "tracy",
+          "dennis",
+          "grizzly"
+        ]
+      },
+      {
+        "at": "11:00",
+        "series": "mrbean",
+        "episodes": 1,
+        "block": "Family mornings",
+        "fallback": [
+          "chuckle",
+          "tracy",
+          "dennis",
+          "horrible",
+          "grizzly"
+        ]
+      },
+      {
+        "at": "11:30",
+        "series": "dennis",
+        "episodes": 1,
+        "fallback": [
+          "chuckle",
+          "tracy",
+          "dennis",
+          "horrible",
+          "grizzly"
+        ]
+      },
+      {
+        "at": "12:00",
+        "series": "robotwars",
+        "episodes": 1,
+        "block": "British daytime",
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "alan",
+          "horrible"
+        ]
+      },
+      {
+        "at": "13:00",
+        "series": "topgear",
+        "episodes": 1,
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "alan",
+          "horrible"
+        ]
+      },
+      {
+        "at": "14:00",
+        "series": "littlebritain",
+        "episodes": 1,
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "alan",
+          "horrible"
+        ]
+      },
+      {
+        "at": "14:30",
+        "series": "mrbean",
+        "episodes": 1,
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "alan",
+          "horrible"
+        ]
+      },
+      {
+        "at": "15:00",
+        "series": "robotwars",
+        "episodes": 1,
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "alan",
+          "horrible"
+        ]
+      },
+      {
+        "at": "16:00",
+        "series": "topgear",
+        "episodes": 1,
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "alan",
+          "horrible"
+        ]
+      },
+      {
+        "at": "17:00",
+        "series": "@run:off-licence-tv-1700",
+        "episodes": 1,
+        "block": "Travel and kitchen programmes — complete series runs"
+      },
+      {
+        "at": "18:00",
+        "series": "reddwarf",
+        "episodes": 1,
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "alan",
+          "horrible"
+        ]
+      },
+      {
+        "at": "18:30",
+        "series": "come-fly",
+        "episodes": 1,
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "alan",
+          "horrible"
+        ]
+      },
+      {
+        "at": "19:00",
+        "series": "doctorwho",
+        "episodes": 1,
+        "block": "British evenings",
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "alan",
+          "horrible"
+        ]
+      },
+      {
+        "at": "20:00",
+        "series": "countdown",
+        "episodes": 1,
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "alan",
+          "horrible"
+        ]
+      },
+      {
+        "at": "21:00",
+        "series": "office-uk",
+        "episodes": 1,
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "alan",
+          "horrible"
+        ]
+      },
+      {
+        "at": "21:30",
+        "series": "itcrowd",
+        "episodes": 1,
+        "fallback": [
+          "father-ted",
+          "alan",
+          "horrible"
+        ]
+      },
+      {
+        "at": "22:00",
+        "series": "father-ted",
+        "episodes": 1,
+        "fallback": [
+          "itcrowd",
+          "alan",
+          "horrible"
+        ]
+      },
+      {
+        "at": "22:30",
+        "series": "alan",
+        "episodes": 1,
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "horrible"
+        ]
+      },
+      {
+        "at": "23:00",
+        "series": "@run:off-licence-tv-2300",
+        "episodes": 1,
+        "block": "Late comedy — complete series runs"
+      },
+      {
+        "at": "23:30",
+        "series": "inbetweeners",
+        "episodes": 1,
+        "fallback": [
+          "itcrowd",
+          "father-ted",
+          "alan",
+          "horrible"
+        ]
+      }
+    ],
+    "Star Spangled TV": [
+      {
+        "at": "00:00",
+        "series": "trailerpark",
+        "episodes": 2,
+        "fallback": [
+          "familymatters",
+          "homeimprovement",
+          "allfamily",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "01:00",
+        "series": "jackass",
+        "episodes": 2,
+        "fallback": [
+          "familymatters",
+          "homeimprovement",
+          "allfamily",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "02:00",
+        "series": "osbournes",
+        "episodes": 1,
+        "fallback": [
+          "familymatters",
+          "homeimprovement",
+          "allfamily",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "02:30",
+        "series": "twilight",
+        "episodes": 2,
+        "block": "After hours",
+        "fallback": [
+          "familymatters",
+          "homeimprovement",
+          "allfamily",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "03:30",
+        "series": "allfamily",
+        "episodes": 2,
+        "fallback": [
+          "familymatters",
+          "homeimprovement",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "04:30",
+        "series": "dukes",
+        "episodes": 1,
+        "fallback": [
+          "familymatters",
+          "homeimprovement",
+          "allfamily",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "05:30",
+        "series": "familymatters",
+        "episodes": 2,
+        "fallback": [
+          "homeimprovement",
+          "allfamily",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "06:30",
+        "series": "magicbus",
+        "episodes": 1,
+        "fallback": [
+          "familymatters",
+          "homeimprovement",
+          "allfamily",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "07:00",
+        "series": "libertykids",
+        "episodes": 2,
+        "block": "Family breakfast",
+        "fallback": [
+          "familymatters",
+          "homeimprovement",
+          "allfamily",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "08:00",
+        "series": "magicbus",
+        "episodes": 2,
+        "fallback": [
+          "familymatters",
+          "homeimprovement",
+          "allfamily",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "09:00",
+        "series": "familymatters",
+        "episodes": 2,
+        "fallback": [
+          "homeimprovement",
+          "allfamily",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "10:00",
+        "series": "homeimprovement",
+        "episodes": 2,
+        "fallback": [
+          "familymatters",
+          "allfamily",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "11:00",
+        "series": "afhv",
+        "episodes": 1,
+        "fallback": [
+          "familymatters",
+          "homeimprovement",
+          "allfamily",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "12:00",
+        "series": "dukes",
+        "episodes": 1,
+        "block": "American daytime",
+        "fallback": [
+          "familymatters",
+          "homeimprovement",
+          "allfamily",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "13:00",
+        "series": "allfamily",
+        "episodes": 2,
+        "fallback": [
+          "familymatters",
+          "homeimprovement",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "14:00",
+        "series": "familymatters",
+        "episodes": 2,
+        "fallback": [
+          "homeimprovement",
+          "allfamily",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "15:00",
+        "series": "@run:star-spangled-tv-1500",
+        "episodes": 3,
+        "block": "US comedy — complete series runs",
+        "end": "17:00"
+      },
+      {
+        "at": "17:00",
+        "series": "malcolm",
+        "episodes": 2,
+        "fallback": [
+          "familymatters",
+          "homeimprovement",
+          "allfamily"
+        ]
+      },
+      {
+        "at": "18:00",
+        "series": "@run:star-spangled-tv-1800",
+        "episodes": 1,
+        "block": "US evening drama — complete series runs"
+      },
+      {
+        "at": "19:00",
+        "series": "cops",
+        "episodes": 2,
+        "fallback": [
+          "familymatters",
+          "homeimprovement",
+          "allfamily",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "20:00",
+        "series": "jerry",
+        "episodes": 1,
+        "fallback": [
+          "familymatters",
+          "homeimprovement",
+          "allfamily",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "21:00",
+        "series": "madtv",
+        "episodes": 1,
+        "fallback": [
+          "familymatters",
+          "homeimprovement",
+          "allfamily",
+          "malcolm"
+        ]
+      },
+      {
+        "at": "22:00",
+        "series": "@run:star-spangled-tv-2200",
+        "episodes": 2,
+        "block": "Late US factual and comedy — complete series runs",
+        "end": "24:00"
+      }
+    ],
+    "AAA": [
+      {
+        "at": "00:00",
+        "series": "@run:aaa-0000",
+        "episodes": 2,
+        "block": "Late animation — complete series runs"
+      },
+      {
+        "at": "01:00",
+        "series": "beavis",
+        "episodes": 4,
+        "fallback": [
+          "american-dad",
+          "critic",
+          "duckman",
+          "katz"
+        ]
+      },
+      {
+        "at": "02:00",
+        "series": "aqua",
+        "episodes": 2,
+        "fallback": [
+          "american-dad",
+          "critic",
+          "duckman",
+          "katz"
+        ]
+      },
+      {
+        "at": "02:30",
+        "series": "primal",
+        "episodes": 2,
+        "block": "After hours",
+        "fallback": [
+          "american-dad",
+          "critic",
+          "duckman",
+          "katz"
+        ]
+      },
+      {
+        "at": "03:30",
+        "series": "maxx",
+        "episodes": 3,
+        "fallback": [
+          "american-dad",
+          "critic",
+          "duckman",
+          "katz"
+        ]
+      },
+      {
+        "at": "04:30",
+        "series": "duckman",
+        "episodes": 2,
+        "fallback": [
+          "american-dad",
+          "critic",
+          "katz"
+        ]
+      },
+      {
+        "at": "05:30",
+        "series": "katz",
+        "episodes": 2,
+        "fallback": [
+          "american-dad",
+          "critic",
+          "duckman"
+        ]
+      },
+      {
+        "at": "06:30",
+        "series": "home-movies",
+        "episodes": 1,
+        "fallback": [
+          "american-dad",
+          "critic",
+          "duckman",
+          "katz"
+        ]
+      },
+      {
+        "at": "07:00",
+        "series": "simpsons",
+        "episodes": 2,
+        "block": "Animation breakfast",
+        "fallback": [
+          "american-dad",
+          "critic",
+          "duckman",
+          "katz"
+        ]
+      },
+      {
+        "at": "08:00",
+        "series": "duckman",
+        "episodes": 2,
+        "fallback": [
+          "american-dad",
+          "critic",
+          "katz"
+        ],
+        "unavailable_preference": "futurama"
+      },
+      {
+        "at": "09:00",
+        "series": "critic",
+        "episodes": 2,
+        "fallback": [
+          "american-dad",
+          "duckman",
+          "katz"
+        ]
+      },
+      {
+        "at": "10:00",
+        "series": "home-movies",
+        "episodes": 2,
+        "fallback": [
+          "american-dad",
+          "critic",
+          "duckman",
+          "katz"
+        ]
+      },
+      {
+        "at": "11:00",
+        "series": "undergrads",
+        "episodes": 2,
+        "fallback": [
+          "american-dad",
+          "critic",
+          "duckman",
+          "katz"
+        ]
+      },
+      {
+        "at": "12:00",
+        "series": "simpsons",
+        "episodes": 2,
+        "block": "Afternoon animation",
+        "fallback": [
+          "american-dad",
+          "critic",
+          "duckman",
+          "katz"
+        ]
+      },
+      {
+        "at": "13:00",
+        "series": "american-dad",
+        "episodes": 2,
+        "fallback": [
+          "critic",
+          "duckman",
+          "katz"
+        ],
+        "unavailable_preference": "futurama"
+      },
+      {
+        "at": "14:00",
+        "series": "clerks",
+        "episodes": 2,
+        "fallback": [
+          "american-dad",
+          "critic",
+          "duckman",
+          "katz"
+        ]
+      },
+      {
+        "at": "15:00",
+        "series": "home-movies",
+        "episodes": 2,
+        "fallback": [
+          "american-dad",
+          "critic",
+          "duckman",
+          "katz"
+        ]
+      },
+      {
+        "at": "16:00",
+        "series": "critic",
+        "episodes": 2,
+        "fallback": [
+          "american-dad",
+          "duckman",
+          "katz"
+        ]
+      },
+      {
+        "at": "17:00",
+        "series": "undergrads",
+        "episodes": 2,
+        "fallback": [
+          "american-dad",
+          "critic",
+          "duckman",
+          "katz"
+        ]
+      },
+      {
+        "at": "18:00",
+        "series": "american-dad",
+        "episodes": 2,
+        "block": "Evening animation",
+        "fallback": [
+          "critic",
+          "duckman",
+          "katz"
+        ]
+      },
+      {
+        "at": "19:00",
+        "series": "venture",
+        "episodes": 2,
+        "fallback": [
+          "american-dad",
+          "critic",
+          "duckman",
+          "katz"
+        ]
+      },
+      {
+        "at": "20:00",
+        "series": "@run:aaa-2000",
+        "episodes": 2,
+        "block": "Animation comedy — complete series runs"
+      },
+      {
+        "at": "21:00",
+        "series": "boondocks",
+        "episodes": 2,
+        "block": "Adult animation",
+        "fallback": [
+          "american-dad",
+          "critic",
+          "duckman",
+          "katz"
+        ]
+      },
+      {
+        "at": "22:00",
+        "series": "aqua",
+        "episodes": 4,
+        "fallback": [
+          "american-dad",
+          "critic",
+          "duckman",
+          "katz"
+        ]
+      },
+      {
+        "at": "23:00",
+        "series": "chozen",
+        "episodes": 2,
+        "fallback": [
+          "american-dad",
+          "critic",
+          "duckman",
+          "katz"
+        ]
+      }
+    ],
+    "Dickleodeon": [
+      {
+        "at": "00:00",
+        "series": "are-you-afraid",
+        "episodes": 2,
+        "fallback": [
+          "arnold",
+          "avatar",
+          "teenage-robot",
+          "spongebob"
+        ]
+      },
+      {
+        "at": "01:00",
+        "series": "korra",
+        "episodes": 2,
+        "fallback": [
+          "arnold",
+          "avatar",
+          "teenage-robot",
+          "spongebob"
+        ]
+      },
+      {
+        "at": "02:00",
+        "series": "static",
+        "episodes": 1,
+        "fallback": [
+          "arnold",
+          "avatar",
+          "teenage-robot",
+          "spongebob"
+        ]
+      },
+      {
+        "at": "02:30",
+        "series": "avatar",
+        "episodes": 2,
+        "block": "After hours",
+        "fallback": [
+          "arnold",
+          "teenage-robot",
+          "spongebob"
+        ]
+      },
+      {
+        "at": "03:30",
+        "series": "teenage-robot",
+        "episodes": 3,
+        "fallback": [
+          "arnold",
+          "avatar",
+          "spongebob"
+        ]
+      },
+      {
+        "at": "04:30",
+        "series": "arnold",
+        "episodes": 3,
+        "fallback": [
+          "avatar",
+          "teenage-robot",
+          "spongebob"
+        ]
+      },
+      {
+        "at": "05:30",
+        "series": "spongebob",
+        "episodes": 3,
+        "fallback": [
+          "arnold",
+          "avatar",
+          "teenage-robot"
+        ]
+      },
+      {
+        "at": "06:30",
+        "series": "fairly",
+        "episodes": 2,
+        "fallback": [
+          "arnold",
+          "avatar",
+          "teenage-robot",
+          "spongebob"
+        ]
+      },
+      {
+        "at": "07:00",
+        "series": "spongebob",
+        "episodes": 4,
+        "block": "Nick breakfast",
+        "fallback": [
+          "arnold",
+          "avatar",
+          "teenage-robot"
+        ]
+      },
+      {
+        "at": "08:00",
+        "series": "fairly",
+        "episodes": 3,
+        "fallback": [
+          "arnold",
+          "avatar",
+          "teenage-robot",
+          "spongebob"
+        ]
+      },
+      {
+        "at": "09:00",
+        "series": "jimmy",
+        "episodes": 2,
+        "fallback": [
+          "arnold",
+          "avatar",
+          "teenage-robot",
+          "spongebob"
+        ]
+      },
+      {
+        "at": "10:00",
+        "series": "arnold",
+        "episodes": 3,
+        "fallback": [
+          "avatar",
+          "teenage-robot",
+          "spongebob"
+        ]
+      },
+      {
+        "at": "11:00",
+        "series": "@run:dickleodeon-1100",
+        "episodes": 2,
+        "block": "Nick afternoon adventures — complete series runs"
+      },
+      {
+        "at": "12:00",
+        "series": "spongebob",
+        "episodes": 4,
+        "block": "Nick afternoons",
+        "fallback": [
+          "arnold",
+          "avatar",
+          "teenage-robot"
+        ]
+      },
+      {
+        "at": "13:00",
+        "series": "fairly",
+        "episodes": 3,
+        "fallback": [
+          "arnold",
+          "avatar",
+          "teenage-robot",
+          "spongebob"
+        ]
+      },
+      {
+        "at": "14:00",
+        "series": "jimmy",
+        "episodes": 2,
+        "fallback": [
+          "arnold",
+          "avatar",
+          "teenage-robot",
+          "spongebob"
+        ]
+      },
+      {
+        "at": "15:00",
+        "series": "avatar",
+        "episodes": 2,
+        "fallback": [
+          "arnold",
+          "teenage-robot",
+          "spongebob"
+        ]
+      },
+      {
+        "at": "16:00",
+        "series": "static",
+        "episodes": 2,
+        "fallback": [
+          "arnold",
+          "avatar",
+          "teenage-robot",
+          "spongebob"
+        ]
+      },
+      {
+        "at": "17:00",
+        "series": "@run:dickleodeon-1700",
+        "episodes": 2,
+        "block": "Nick comedy — complete series runs"
+      },
+      {
+        "at": "18:00",
+        "series": "korra",
+        "episodes": 2,
+        "fallback": [
+          "arnold",
+          "avatar",
+          "teenage-robot",
+          "spongebob"
+        ],
+        "unavailable_preference": "zoey"
+      },
+      {
+        "at": "19:00",
+        "series": "h2o",
+        "episodes": 2,
+        "fallback": [
+          "arnold",
+          "avatar",
+          "teenage-robot",
+          "spongebob"
+        ]
+      },
+      {
+        "at": "20:00",
+        "series": "korra",
+        "episodes": 2,
+        "fallback": [
+          "arnold",
+          "avatar",
+          "teenage-robot",
+          "spongebob"
+        ]
+      },
+      {
+        "at": "21:00",
+        "series": "are-you-afraid",
+        "episodes": 2,
+        "fallback": [
+          "arnold",
+          "avatar",
+          "teenage-robot",
+          "spongebob"
+        ]
+      },
+      {
+        "at": "22:00",
+        "series": "amanda",
+        "episodes": 2,
+        "fallback": [
+          "arnold",
+          "avatar",
+          "teenage-robot",
+          "spongebob"
+        ]
+      },
+      {
+        "at": "23:00",
+        "series": "h2o",
+        "episodes": 2,
+        "fallback": [
+          "arnold",
+          "avatar",
+          "spongebob"
+        ]
+      }
+    ],
+    "GirlyPop": [
+      {
+        "at": "00:00",
+        "series": "ruby",
+        "episodes": 2,
+        "fallback": [
+          "arthur",
+          "spies",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "01:00",
+        "series": "mona",
+        "episodes": 3,
+        "fallback": [
+          "arthur",
+          "spies",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "02:00",
+        "series": "sabrina",
+        "episodes": 1,
+        "fallback": [
+          "arthur",
+          "spies",
+          "mona"
+        ]
+      },
+      {
+        "at": "02:30",
+        "series": "spies",
+        "episodes": 2,
+        "block": "After hours",
+        "fallback": [
+          "arthur",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "03:30",
+        "series": "winx",
+        "episodes": 2,
+        "fallback": [
+          "arthur",
+          "spies",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "04:30",
+        "series": "trollz",
+        "episodes": 2,
+        "fallback": [
+          "arthur",
+          "spies",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "05:30",
+        "series": "hello-kitty",
+        "episodes": 2,
+        "fallback": [
+          "arthur",
+          "spies",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "06:30",
+        "series": "pingu",
+        "episodes": 3,
+        "fallback": [
+          "arthur",
+          "spies",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "07:00",
+        "series": "zoo",
+        "episodes": 3,
+        "block": "Little viewers breakfast",
+        "fallback": [
+          "arthur",
+          "spies",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "08:00",
+        "series": "franny",
+        "episodes": 3,
+        "fallback": [
+          "arthur",
+          "spies",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "09:00",
+        "series": "lazytown",
+        "episodes": 2,
+        "fallback": [
+          "arthur",
+          "spies",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "10:00",
+        "series": "arthur",
+        "episodes": 2,
+        "fallback": [
+          "spies",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "11:00",
+        "series": "strawberry",
+        "episodes": 2,
+        "fallback": [
+          "arthur",
+          "spies",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "12:00",
+        "series": "hello-kitty",
+        "episodes": 2,
+        "block": "Family afternoons",
+        "fallback": [
+          "arthur",
+          "spies",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "13:00",
+        "series": "sabrina",
+        "episodes": 2,
+        "fallback": [
+          "arthur",
+          "spies",
+          "mona"
+        ]
+      },
+      {
+        "at": "14:00",
+        "series": "bratz",
+        "episodes": 2,
+        "fallback": [
+          "arthur",
+          "spies",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "15:00",
+        "series": "@run:girlypop-1500",
+        "episodes": 2,
+        "block": "After school adventures — complete series runs"
+      },
+      {
+        "at": "16:00",
+        "series": "spies",
+        "episodes": 2,
+        "fallback": [
+          "arthur",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "17:00",
+        "series": "winx",
+        "episodes": 2,
+        "fallback": [
+          "arthur",
+          "spies",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "18:00",
+        "series": "braceface",
+        "episodes": 2,
+        "fallback": [
+          "arthur",
+          "spies",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "19:00",
+        "series": "6teen",
+        "episodes": 2,
+        "fallback": [
+          "arthur",
+          "spies",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "20:00",
+        "series": "spies",
+        "episodes": 2,
+        "fallback": [
+          "arthur",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "21:00",
+        "series": "mona",
+        "episodes": 2,
+        "fallback": [
+          "arthur",
+          "spies",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "22:00",
+        "series": "ruby",
+        "episodes": 2,
+        "fallback": [
+          "arthur",
+          "spies",
+          "mona",
+          "sabrina"
+        ]
+      },
+      {
+        "at": "23:00",
+        "series": "braceface",
+        "episodes": 2,
+        "fallback": [
+          "arthur",
+          "spies",
+          "mona",
+          "sabrina"
+        ]
+      }
+    ],
+    "Dizzy": [
+      {
+        "at": "00:00",
+        "series": "gravity",
+        "episodes": 2,
+        "fallback": [
+          "recess",
+          "kim",
+          "fillmore",
+          "phineas"
+        ]
+      },
+      {
+        "at": "01:00",
+        "series": "xmen-evolution",
+        "episodes": 2,
+        "fallback": [
+          "recess",
+          "kim",
+          "fillmore",
+          "phineas"
+        ]
+      },
+      {
+        "at": "02:00",
+        "series": "wolverine-xmen",
+        "episodes": 1,
+        "fallback": [
+          "recess",
+          "kim",
+          "fillmore",
+          "phineas"
+        ]
+      },
+      {
+        "at": "02:30",
+        "series": "kim",
+        "episodes": 2,
+        "block": "After hours",
+        "fallback": [
+          "recess",
+          "fillmore",
+          "phineas"
+        ]
+      },
+      {
+        "at": "03:30",
+        "series": "jake",
+        "episodes": 2,
+        "fallback": [
+          "recess",
+          "kim",
+          "fillmore",
+          "phineas"
+        ]
+      },
+      {
+        "at": "04:30",
+        "series": "fillmore",
+        "episodes": 2,
+        "fallback": [
+          "recess",
+          "kim",
+          "phineas"
+        ]
+      },
+      {
+        "at": "05:30",
+        "series": "lilo",
+        "episodes": 2,
+        "fallback": [
+          "recess",
+          "kim",
+          "fillmore",
+          "phineas"
+        ]
+      },
+      {
+        "at": "06:30",
+        "series": "recess",
+        "episodes": 2,
+        "fallback": [
+          "kim",
+          "fillmore",
+          "phineas"
+        ]
+      },
+      {
+        "at": "07:00",
+        "series": "recess",
+        "episodes": 3,
+        "block": "Disney breakfast",
+        "fallback": [
+          "kim",
+          "fillmore",
+          "phineas"
+        ]
+      },
+      {
+        "at": "08:00",
+        "series": "phineas",
+        "episodes": 3,
+        "fallback": [
+          "recess",
+          "kim",
+          "fillmore"
+        ]
+      },
+      {
+        "at": "09:00",
+        "series": "lilo",
+        "episodes": 2,
+        "fallback": [
+          "recess",
+          "kim",
+          "fillmore",
+          "phineas"
+        ]
+      },
+      {
+        "at": "10:00",
+        "series": "kim",
+        "episodes": 2,
+        "fallback": [
+          "recess",
+          "fillmore",
+          "phineas"
+        ]
+      },
+      {
+        "at": "11:00",
+        "series": "fillmore",
+        "episodes": 2,
+        "fallback": [
+          "recess",
+          "kim",
+          "phineas"
+        ]
+      },
+      {
+        "at": "12:00",
+        "series": "phineas",
+        "episodes": 3,
+        "block": "Disney afternoons",
+        "fallback": [
+          "recess",
+          "kim",
+          "fillmore"
+        ]
+      },
+      {
+        "at": "13:00",
+        "series": "recess",
+        "episodes": 3,
+        "fallback": [
+          "kim",
+          "fillmore",
+          "phineas"
+        ]
+      },
+      {
+        "at": "14:00",
+        "series": "@run:dizzy-1400",
+        "episodes": 2,
+        "block": "Afternoon animation — complete series runs"
+      },
+      {
+        "at": "15:00",
+        "series": "kim",
+        "episodes": 2,
+        "fallback": [
+          "recess",
+          "fillmore",
+          "phineas"
+        ]
+      },
+      {
+        "at": "16:00",
+        "series": "fillmore",
+        "episodes": 2,
+        "fallback": [
+          "recess",
+          "kim",
+          "phineas"
+        ]
+      },
+      {
+        "at": "17:00",
+        "series": "gravity",
+        "episodes": 2,
+        "fallback": [
+          "recess",
+          "kim",
+          "fillmore",
+          "phineas"
+        ]
+      },
+      {
+        "at": "18:00",
+        "series": "evenstevens",
+        "episodes": 2,
+        "fallback": [
+          "recess",
+          "kim",
+          "fillmore",
+          "phineas"
+        ]
+      },
+      {
+        "at": "19:00",
+        "series": "lizzie",
+        "episodes": 2,
+        "fallback": [
+          "recess",
+          "kim",
+          "fillmore",
+          "phineas"
+        ]
+      },
+      {
+        "at": "20:00",
+        "series": "hannah",
+        "episodes": 2,
+        "fallback": [
+          "recess",
+          "kim",
+          "fillmore",
+          "phineas"
+        ]
+      },
+      {
+        "at": "21:00",
+        "series": "phil",
+        "episodes": 2,
+        "fallback": [
+          "recess",
+          "kim",
+          "fillmore",
+          "phineas"
+        ]
+      },
+      {
+        "at": "22:00",
+        "series": "xmen-evolution",
+        "episodes": 2,
+        "fallback": [
+          "recess",
+          "kim",
+          "fillmore",
+          "phineas"
+        ]
+      },
+      {
+        "at": "23:00",
+        "series": "wolverine-xmen",
+        "episodes": 2,
+        "fallback": [
+          "recess",
+          "kim",
+          "fillmore",
+          "phineas"
+        ]
+      }
+    ],
+    "What": [
+      {
+        "at": "00:00",
+        "series": "haunted",
+        "episodes": 1,
+        "fallback": [
+          "insearch",
+          "clarke",
+          "animalx",
+          "ghosthunters"
+        ]
+      },
+      {
+        "at": "01:00",
+        "series": "scariest",
+        "episodes": 1,
+        "fallback": [
+          "insearch",
+          "clarke",
+          "animalx",
+          "ghosthunters"
+        ]
+      },
+      {
+        "at": "02:00",
+        "series": "losttapes",
+        "episodes": 1,
+        "fallback": [
+          "insearch",
+          "clarke",
+          "animalx",
+          "ghosthunters"
+        ]
+      },
+      {
+        "at": "02:30",
+        "series": "ghosthunters",
+        "episodes": 2,
+        "block": "After hours",
+        "fallback": [
+          "insearch",
+          "clarke",
+          "animalx"
+        ]
+      },
+      {
+        "at": "03:30",
+        "series": "hauntedhistory",
+        "episodes": 1,
+        "fallback": [
+          "insearch",
+          "clarke",
+          "animalx",
+          "ghosthunters"
+        ]
+      },
+      {
+        "at": "04:30",
+        "series": "clarke",
+        "episodes": 2,
+        "fallback": [
+          "insearch",
+          "animalx",
+          "ghosthunters"
+        ]
+      },
+      {
+        "at": "05:30",
+        "series": "insearch",
+        "episodes": 2,
+        "fallback": [
+          "clarke",
+          "animalx",
+          "ghosthunters"
+        ]
+      },
+      {
+        "at": "06:30",
+        "series": "animalx",
+        "episodes": 1,
+        "fallback": [
+          "insearch",
+          "clarke",
+          "ghosthunters"
+        ]
+      },
+      {
+        "at": "07:00",
+        "series": "attenborough",
+        "episodes": 1,
+        "block": "Nature mornings",
+        "fallback": [
+          "insearch",
+          "clarke",
+          "animalx",
+          "ghosthunters"
+        ]
+      },
+      {
+        "at": "08:00",
+        "series": "cosmos",
+        "episodes": 1,
+        "fallback": [
+          "insearch",
+          "clarke",
+          "animalx",
+          "ghosthunters"
+        ]
+      },
+      {
+        "at": "09:15",
+        "series": "nova",
+        "episodes": 1,
+        "fallback": [
+          "insearch",
+          "clarke",
+          "animalx",
+          "ghosthunters"
+        ]
+      },
+      {
+        "at": "10:15",
+        "series": "river",
+        "episodes": 1,
+        "fallback": [
+          "insearch",
+          "clarke",
+          "animalx",
+          "ghosthunters"
+        ]
+      },
+      {
+        "at": "11:15",
+        "series": "animalx",
+        "episodes": 1,
+        "fallback": [
+          "insearch",
+          "clarke",
+          "ghosthunters"
+        ]
+      },
+      {
+        "at": "12:00",
+        "series": "mayday",
+        "episodes": 1,
+        "block": "Factual afternoons",
+        "fallback": [
+          "insearch",
+          "clarke",
+          "animalx",
+          "ghosthunters"
+        ]
+      },
+      {
+        "at": "13:00",
+        "series": "@run:what-1300",
+        "episodes": 1,
+        "block": "Factual daytime — complete series runs"
+      },
+      {
+        "at": "14:00",
+        "series": "@run:what-1400",
+        "episodes": 2,
+        "block": "Documentary features — complete series runs",
+        "end": "16:00"
+      },
+      {
+        "at": "16:00",
+        "series": "insearch",
+        "episodes": 2,
+        "fallback": [
+          "clarke",
+          "animalx",
+          "ghosthunters"
+        ]
+      },
+      {
+        "at": "17:00",
+        "series": "clarke",
+        "episodes": 2,
+        "fallback": [
+          "insearch",
+          "animalx",
+          "ghosthunters"
+        ]
+      },
+      {
+        "at": "18:00",
+        "series": "@run:what-1800",
+        "episodes": 1,
+        "block": "Factual evenings — complete series runs"
+      },
+      {
+        "at": "19:00",
+        "series": "hauntedhistory",
+        "episodes": 1,
+        "fallback": [
+          "insearch",
+          "clarke",
+          "animalx",
+          "ghosthunters"
+        ]
+      },
+      {
+        "at": "20:30",
+        "series": "ghosthunters",
+        "episodes": 1,
+        "fallback": [
+          "insearch",
+          "clarke",
+          "animalx"
+        ]
+      },
+      {
+        "at": "21:00",
+        "series": "ghosthunters",
+        "episodes": 2,
+        "fallback": [
+          "insearch",
+          "clarke",
+          "animalx"
+        ]
+      },
+      {
+        "at": "22:00",
+        "series": "scariest",
+        "episodes": 1,
+        "fallback": [
+          "insearch",
+          "clarke",
+          "animalx",
+          "ghosthunters"
+        ]
+      },
+      {
+        "at": "23:00",
+        "series": "losttapes",
+        "episodes": 2,
+        "fallback": [
+          "insearch",
+          "clarke",
+          "animalx",
+          "ghosthunters"
+        ]
+      }
+    ]
+  },
+  "weekly_overrides": {
+    "Japanime": {
+      "5": {
+        "11:00": {
+          "series": "digimon-data-squad",
+          "episodes": 2
+        },
+        "23:00": {
+          "series": "@run:japanime-2200",
+          "episodes": 2,
+          "block": "Late anime thrillers — complete series runs"
+        }
+      }
+    },
+    "Off-Licence TV": {
+      "2": {
+        "12:00": {
+          "series": "jeremy",
+          "episodes": 1,
+          "end": "13:15",
+          "fallback": [
+            "robotwars"
+          ]
+        },
+        "13:15": {
+          "series": "mrbean",
+          "episodes": 1,
+          "end": "13:45"
+        },
+        "13:45": {
+          "series": "grizzly",
+          "episodes": 3,
+          "end": "14:00"
+        }
+      },
+      "6": {
+        "19:00": {
+          "series": "sherlock",
+          "end": "21:00",
+          "episodes": 1,
+          "fallback": [
+            "doctorwho"
+          ]
+        }
+      }
+    },
+    "90s Toons": {
+      "5": {
+        "14:00": {
+          "series": "beast-wars",
+          "episodes": 2
+        }
+      },
+      "6": {
+        "14:00": {
+          "series": "reboot",
+          "episodes": 2
+        },
+        "10:00": {
+          "series": "alvin-1983",
+          "episodes": 2
+        }
+      },
+      "4": {
+        "19:00": {
+          "series": "the-batman",
+          "episodes": 2
+        }
+      }
+    },
+    "Cartoons Cartoons": {
+      "3": {
+        "16:00": {
+          "series": "secret-saturdays",
+          "episodes": 2
+        }
+      }
+    },
+    "GirlyPop": {
+      "5": {
+        "08:00": {
+          "series": "dragon-tales",
+          "episodes": 2
+        }
+      }
+    },
+    "Dizzy": {
+      "6": {
+        "09:00": {
+          "series": "mickey-works",
+          "episodes": 2
+        }
+      }
+    },
+    "AAA": {
+      "6": {
+        "13:00": {
+          "series": "futurama",
+          "episodes": 1,
+          "end": "13:30"
+        },
+        "13:30": {
+          "series": "american-dad",
+          "episodes": 1,
+          "end": "14:00"
+        }
+      },
+      "4": {
+        "22:00": {
+          "series": "@pilot-showcase",
+          "episodes": 3,
+          "end": "23:00",
+          "fallback": [
+            "home-movies",
+            "beavis"
+          ],
+          "block": "Pilot & Oddities Night"
+        }
+      }
+    }
+  },
+  "seasonal_slots": {
+    "october": {
+      "90s Toons": [
+        "12:00",
+        "21:00"
+      ],
+      "Cartoons Cartoons": [
+        "19:00",
+        "21:00"
+      ],
+      "Dickleodeon": [
+        "20:00"
+      ],
+      "Dizzy": [
+        "17:00",
+        "21:00"
+      ],
+      "GirlyPop": [
+        "17:00"
+      ],
+      "Japanime": [
+        "20:00"
+      ],
+      "AAA": [
+        "21:00"
+      ],
+      "Off-Licence TV": [
+        "19:00"
+      ],
+      "Star Spangled TV": [
+        "21:00"
+      ],
+      "What": [
+        "19:00"
+      ]
+    },
+    "december": {
+      "90s Toons": [
+        "12:00",
+        "18:00"
+      ],
+      "Cartoons Cartoons": [
+        "12:00",
+        "19:00"
+      ],
+      "Dickleodeon": [
+        "12:00",
+        "18:00"
+      ],
+      "Dizzy": [
+        "12:00",
+        "18:00"
+      ],
+      "GirlyPop": [
+        "12:00",
+        "18:00"
+      ],
+      "Japanime": [
+        "20:00"
+      ],
+      "AAA": [
+        "21:00"
+      ],
+      "Off-Licence TV": [
+        "18:00"
+      ],
+      "Star Spangled TV": [
+        "18:00"
+      ],
+      "What": []
+    }
+  },
+  "holiday_spotlight_at": "12:00",
+  "special_cooldown_days": 7,
+  "series_only_movie_day": "Saturday",
+  "missing_requested_sources": [
+    "Prank Patrol (UK)",
+    "Creature Comforts (individual UK episodes)"
+  ],
+  "weekday_names": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+  ],
+  "holiday_overrides": {
+    "valentine": {
+      "Dickleodeon": {
+        "19:00": {
+          "special_content_id": "h2o:3:4:"
+        }
+      }
+    }
+  },
+  "pilot_showcase": [
+    [
+      "https://archive.org/download/korgoth-of-barbaria-s-01-e-01/Korgoth%20of%20Barbaria%20-%20S01E01.mp4",
+      "https://archive.org/download/dexters.-laboratory.-s-00-e-01-rude.-removal.-banned.-episode.-1080p.-aac-2.0.x-264-obfuscated/Dexters.Laboratory.S00E01-Rude.Removal.Banned.Episode.1080p.AAC2.0.x264-Obfuscated.mp4"
+    ],
+    [
+      "https://archive.org/download/the-modifyers-pilot/The%20Modifyers%20Pilot.mp4",
+      "https://archive.org/download/constant_payne/Constant%20Payne%202001%20Pilot%20480p%20YT%20WEB-DL%20Opus%202.0%20H.264-void.mp4",
+      "https://archive.org/download/ren-stimpy-extras/Ren%20and%20Stimpy%20Extras/Ren%20and%20Stimpy%20Other%20Material/Spumco%20%28creators%20of%20Ren%20%26%20Stimpy%29%20-%20Ranger%20Smith%20-%20%20Boo%20Boo%20Runs%20Wild.mp4"
+    ],
+    [
+      "https://archive.org/download/the-amazing-screw-on-head-2006/The.Amazing.Screw.On.Head-PHRENiAC.2006.mp4",
+      "https://archive.org/download/he-hog-the-atomic-pig-unedited-pilot-john-k-1999/HeHog%20The%20Atomic%20Pig%20UNEDITED%20PILOT%20%20John%20K%201999.mp4"
+    ],
+    [
+      "https://archive.org/download/tomp-3.cc-welcome-to-eltingville-dvd-rip-full-version-360p/tomp3.cc%20-%20Welcome%20to%20Eltingville%20DVD%20RIP%20FULL%20VERSION_360p.mp4",
+      "https://archive.org/download/the_groovenians/The%20Groovenians%20%282002%29.mp4"
+    ]
+  ],
+  "monthly_features": [
+    {
+      "channel": "AAA",
+      "at": "20:00",
+      "end": "22:00",
+      "feature_urls": [
+        "https://archive.org/download/futurama.-benders.-big.-score.-2007.720p.-web-dl.x-265-heteam_202502/Futurama.Benders.Big.Score.2007.720p.WEB-DL.x265-HETeam.mp4",
+        "https://archive.org/download/futurama.-benders.-big.-score.-2007.720p.-web-dl.x-265-heteam_202502/Futurama.Benders.Game.2008.720p.BluRay.x265-HETeam.mp4",
+        "https://archive.org/download/futurama.-benders.-big.-score.-2007.720p.-web-dl.x-265-heteam_202502/Futurama.Into.The.Wild.Green.Yonder.2009.720p.BluRay.x265-HETeam.mp4",
+        "https://archive.org/download/futurama.-benders.-big.-score.-2007.720p.-web-dl.x-265-heteam_202502/Futurama.The.Beast.with.a.Billion.Backs.720p.WEB-DL.x265-HETeam.mp4",
+        "https://archive.org/download/party-wagon-2004/Party%20Wagon.mp4"
+      ]
+    }
+  ],
+  "authored_source_urls": [
+    "https://archive.org/download/korgoth-of-barbaria-s-01-e-01/Korgoth%20of%20Barbaria%20-%20S01E01.mp4",
+    "https://archive.org/download/the-modifyers-pilot/The%20Modifyers%20Pilot.mp4",
+    "https://archive.org/download/constant_payne/Constant%20Payne%202001%20Pilot%20480p%20YT%20WEB-DL%20Opus%202.0%20H.264-void.mp4",
+    "https://archive.org/download/the_groovenians/The%20Groovenians%20%282002%29.mp4",
+    "https://archive.org/download/the-amazing-screw-on-head-2006/The.Amazing.Screw.On.Head-PHRENiAC.2006.mp4",
+    "https://archive.org/download/he-hog-the-atomic-pig-unedited-pilot-john-k-1999/HeHog%20The%20Atomic%20Pig%20UNEDITED%20PILOT%20%20John%20K%201999.mp4",
+    "https://archive.org/download/tomp-3.cc-welcome-to-eltingville-dvd-rip-full-version-360p/tomp3.cc%20-%20Welcome%20to%20Eltingville%20DVD%20RIP%20FULL%20VERSION_360p.mp4",
+    "https://archive.org/download/dexters.-laboratory.-s-00-e-01-rude.-removal.-banned.-episode.-1080p.-aac-2.0.x-264-obfuscated/Dexters.Laboratory.S00E01-Rude.Removal.Banned.Episode.1080p.AAC2.0.x264-Obfuscated.mp4",
+    "https://archive.org/download/ren-stimpy-extras/Ren%20and%20Stimpy%20Extras/Ren%20and%20Stimpy%20Other%20Material/Spumco%20%28creators%20of%20Ren%20%26%20Stimpy%29%20-%20Ranger%20Smith%20-%20%20Boo%20Boo%20Runs%20Wild.mp4",
+    "https://archive.org/download/party-wagon-2004/Party%20Wagon.mp4",
+    "https://archive.org/download/futurama.-benders.-big.-score.-2007.720p.-web-dl.x-265-heteam_202502/Futurama.Benders.Big.Score.2007.720p.WEB-DL.x265-HETeam.mp4",
+    "https://archive.org/download/futurama.-benders.-big.-score.-2007.720p.-web-dl.x-265-heteam_202502/Futurama.Benders.Game.2008.720p.BluRay.x265-HETeam.mp4",
+    "https://archive.org/download/futurama.-benders.-big.-score.-2007.720p.-web-dl.x-265-heteam_202502/Futurama.Into.The.Wild.Green.Yonder.2009.720p.BluRay.x265-HETeam.mp4",
+    "https://archive.org/download/futurama.-benders.-big.-score.-2007.720p.-web-dl.x-265-heteam_202502/Futurama.The.Beast.with.a.Billion.Backs.720p.WEB-DL.x265-HETeam.mp4"
+  ],
+  "series_runs": {
+    "90s-toons-1200": {
+      "name": "Afternoon action — complete series runs",
+      "series": [
+        "cadillacs",
+        "restored-robocop-the-animated-series",
+        "restored-street-sharks",
+        "restored-the-avengers-united-they-stand"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "90s-toons-1700": {
+      "name": "Classic adventure — complete series runs",
+      "series": [
+        "earthworm",
+        "restored-harlem-globetrotters",
+        "restored-sherlock-holmes-in-the-22nd-century"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "aaa-2000": {
+      "name": "Animation comedy — complete series runs",
+      "series": [
+        "downtown",
+        "restored-the-oblongs",
+        "restored-fish-police",
+        "restored-dan-vs",
+        "restored-final-space"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "aaa-0000": {
+      "name": "Late animation — complete series runs",
+      "series": [
+        "drawn",
+        "restored-stripperella",
+        "restored-aeon-flux"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "cartoons-cartoons-1700": {
+      "name": "After school cartoons — complete series runs",
+      "series": [
+        "johnny",
+        "restored-the-land-before-time-tv-series",
+        "restored-duck-dodgers",
+        "restored-hi-hi-puffy-amiyumi",
+        "restored-skatoony-uk"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "cartoons-cartoons-1600": {
+      "name": "Afternoon action — complete series runs",
+      "series": [
+        "ben10",
+        "restored-xiaolin-showdown",
+        "restored-loonatics-unleashed",
+        "mucha",
+        "restored-secret-mountain-fort-awesome",
+        "restored-the-amazing-world-of-gumball",
+        "restored-teen-titans",
+        "restored-xiaolin-chronicles"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "dickleodeon-1100": {
+      "name": "Nick afternoon adventures — complete series runs",
+      "series": [
+        "teenage-robot",
+        "restored-the-zeta-project",
+        "restored-maxie-s-world"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "dickleodeon-1700": {
+      "name": "Nick comedy — complete series runs",
+      "series": [
+        "amanda",
+        "restored-drake-josh"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "dizzy-1400": {
+      "name": "Afternoon animation — complete series runs",
+      "series": [
+        "jake",
+        "restored-total-drama-island"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "girlypop-1500": {
+      "name": "After school adventures — complete series runs",
+      "series": [
+        "trollz",
+        "restored-mary-kate-and-ashley-in-action",
+        "restored-sonic-the-hedgehog-satam",
+        "restored-tattooed-teenage-alien-fighters-from-beverly-hills"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "off-licence-tv-1700": {
+      "name": "Travel and kitchen programmes — complete series runs",
+      "series": [
+        "idiot",
+        "moaning",
+        "restored-kitchen-nightmares-us"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "off-licence-tv-0000": {
+      "name": "After dark drama and documentaries — complete series runs",
+      "series": [
+        "blackmirror",
+        "beinghuman",
+        "restored-sacred-weeds",
+        "utopia"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "off-licence-tv-2300": {
+      "name": "Late comedy — complete series runs",
+      "series": [
+        "boosh",
+        "restored-the-ricky-gervais-show",
+        "restored-brass-eye"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "star-spangled-tv-1800": {
+      "name": "US evening drama — complete series runs",
+      "series": [
+        "70s",
+        "restored-the-o-c",
+        "buffy"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "star-spangled-tv-2200": {
+      "name": "Late US factual and comedy — complete series runs",
+      "series": [
+        "osbournes",
+        "restored-norm-macdonald-live",
+        "restored-to-catch-a-predator"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "star-spangled-tv-1500": {
+      "name": "US comedy — complete series runs",
+      "series": [
+        "homeimprovement",
+        "office-us"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "what-1300": {
+      "name": "Factual daytime — complete series runs",
+      "series": [
+        "robotwars",
+        "restored-man-v-food",
+        "restored-man-v-food-nation",
+        "restored-overhaulin"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "what-1800": {
+      "name": "Factual evenings — complete series runs",
+      "series": [
+        "ancient",
+        "restored-doomsday-preppers",
+        "restored-maximum-exposure",
+        "restored-most-shocking"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "japanime-1400": {
+      "name": "Family anime afternoons — complete series runs",
+      "series": [
+        "bakugan",
+        "restored-the-helpful-fox-senko-san",
+        "restored-bakuman",
+        "restored-barakamon",
+        "restored-cross-game-japanese-english-subs",
+        "restored-little-witch-academia",
+        "restored-powerpuff-girls-z"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "japanime-1500": {
+      "name": "Afternoon anime stories — complete series runs",
+      "series": [
+        "ouran",
+        "restored-urusei-yatsura",
+        "restored-welcome-to-the-nhk",
+        "restored-frieren-beyond-journey-s-end",
+        "restored-the-melancholy-of-haruhi-suzumiya",
+        "restored-steins-gate",
+        "restored-durarara",
+        "restored-amagi-brilliant-park",
+        "restored-assassination-classroom",
+        "restored-clannad",
+        "restored-danmachi-sword-oratoria",
+        "restored-gintama",
+        "restored-maid-sama",
+        "restored-no-game-no-life",
+        "restored-reincarnated-as-a-sword"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "japanime-1600": {
+      "name": "Afternoon anime adventures — complete series runs",
+      "series": [
+        "azumanga",
+        "restored-cromartie-high-school",
+        "restored-neo-ranga",
+        "restored-air-gear",
+        "restored-x-men-marvel-anime",
+        "restored-7-seeds",
+        "restored-snow-white-with-the-red-hair",
+        "restored-amnesia",
+        "restored-assassins-pride",
+        "restored-crest-of-the-stars-english-japanese",
+        "restored-eden-of-the-east",
+        "restored-great-teacher-onizuka",
+        "restored-love-hina-again",
+        "restored-watamote",
+        "restored-revolutionary-girl-utena",
+        "restored-toradora",
+        "restored-yamada-kun-and-the-seven-witches"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "japanime-2000": {
+      "name": "Evening anime stories — complete series runs",
+      "series": [
+        "ouran",
+        "restored-kyouran-kazoku-nikki",
+        "restored-overlord",
+        "restored-rosario-vampire",
+        "restored-wolf-s-rain",
+        "restored-absolute-duo",
+        "restored-amagami-ss",
+        "restored-ano-natsu-de-matteru",
+        "restored-azur-lane",
+        "restored-dandadan",
+        "restored-genshiken",
+        "restored-itakiss",
+        "restored-maison-ikkoku",
+        "restored-re-zero",
+        "restored-akashic-records-of-bastard-magic-instructor",
+        "restored-trigun-english-japanese"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "japanime-1900": {
+      "name": "Evening anime mystery — complete series runs",
+      "series": [
+        "noir",
+        "restored-dirty-pair-flash",
+        "restored-parasyte-the-maxim",
+        "restored-dominion-tank-police",
+        "restored-angels-of-death",
+        "restored-chaos-head",
+        "restored-death-parade-english-japanese",
+        "restored-ergo-proxy-japanese",
+        "restored-monster"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "japanime-2200": {
+      "name": "Late anime thrillers — complete series runs",
+      "series": [
+        "deathnote",
+        "restored-paranoia-agent",
+        "restored-desert-punk",
+        "restored-91-days",
+        "restored-another",
+        "restored-cyberpunk-edgerunners",
+        "restored-dirty-pair",
+        "restored-jormungand-complete-eng-sub-720p-season-1-2"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "japanime-0000": {
+      "name": "Adults after midnight — complete series runs",
+      "series": [
+        "blacklagoon",
+        "restored-heaven-s-lost-property",
+        "restored-prison-school",
+        "restored-elfen-lied",
+        "restored-golden-boy",
+        "restored-angel-cop-all-ova-s-1989-1994",
+        "restored-maken-ki",
+        "restored-valkyrie-drive-mermaid"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "japanime-0100": {
+      "name": "Adults after midnight — complete series runs",
+      "series": [
+        "hellsing",
+        "restored-sekirei",
+        "restored-high-school-dxd",
+        "restored-panty-stocking-with-garterbelt",
+        "restored-queen-s-blade",
+        "restored-hajimete-no-gal",
+        "restored-to-love-ru",
+        "restored-witchblade"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "what-1400": {
+      "name": "Documentary features — complete series runs",
+      "series": [
+        "restored-louis-theroux",
+        "nova"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "japanime-0630": {
+      "name": "Anime stories — complete series runs",
+      "series": [
+        "bebop",
+        "restored-sonny-boy-english-japanese"
+      ],
+      "repeat_after_full_cycle": true
+    },
+    "japanime-1700": {
+      "name": "Anime stories — complete series runs",
+      "series": [
+        "dragonball",
+        "restored-vandread"
+      ],
+      "repeat_after_full_cycle": true
+    }
+  },
+  "film_windows": [
+    {
+      "channel": "90s Toons",
+      "weekday": 5,
+      "at": "15:00",
+      "end": "18:00",
+      "fallback": [
+        "jackie",
+        "spiderman-unlimited",
+        "earthworm"
+      ],
+      "block": "Family feature"
+    },
+    {
+      "channel": "Cartoons Cartoons",
+      "weekday": 6,
+      "at": "14:00",
+      "end": "17:00",
+      "fallback": [
+        "ed-edd-eddy",
+        "knd",
+        "ben10"
+      ],
+      "block": "Family feature"
+    },
+    {
+      "channel": "Dickleodeon",
+      "weekday": 6,
+      "at": "14:00",
+      "end": "17:00",
+      "fallback": [
+        "jimmy",
+        "avatar",
+        "static"
+      ],
+      "block": "Family feature"
+    },
+    {
+      "channel": "Dizzy",
+      "weekday": 5,
+      "at": "14:00",
+      "end": "17:00",
+      "fallback": [
+        "jake",
+        "kim",
+        "fillmore"
+      ],
+      "block": "Family feature"
+    },
+    {
+      "channel": "Dizzy",
+      "weekday": 6,
+      "at": "14:00",
+      "end": "17:00",
+      "fallback": [
+        "jake",
+        "kim",
+        "fillmore"
+      ],
+      "block": "Family feature"
+    },
+    {
+      "channel": "GirlyPop",
+      "weekday": 6,
+      "at": "14:00",
+      "end": "17:00",
+      "fallback": [
+        "bratz",
+        "trollz",
+        "spies"
+      ],
+      "block": "Family feature"
+    },
+    {
+      "channel": "Japanime",
+      "weekday": 5,
+      "at": "20:00",
+      "end": "23:00",
+      "fallback": [
+        "ouran",
+        "bebop",
+        "deathnote"
+      ],
+      "block": "Saturday anime cinema"
+    },
+    {
+      "channel": "AAA",
+      "weekday": 5,
+      "at": "20:00",
+      "end": "23:00",
+      "fallback": [
+        "downtown",
+        "boondocks",
+        "aqua"
+      ],
+      "block": "Late animation feature"
+    },
+    {
+      "channel": "Off-Licence TV",
+      "weekday": 5,
+      "at": "21:00",
+      "end": "24:00",
+      "fallback": [
+        "office-uk",
+        "itcrowd",
+        "father-ted",
+        "boosh"
+      ],
+      "block": "British film night"
+    },
+    {
+      "channel": "Star Spangled TV",
+      "weekday": 4,
+      "at": "21:00",
+      "end": "24:00",
+      "fallback": [
+        "madtv",
+        "osbournes",
+        "trailerpark"
+      ],
+      "block": "Weekend film night"
+    },
+    {
+      "channel": "Star Spangled TV",
+      "weekday": 5,
+      "at": "21:00",
+      "end": "24:00",
+      "fallback": [
+        "madtv",
+        "osbournes",
+        "trailerpark"
+      ],
+      "block": "Weekend film night"
+    },
+    {
+      "channel": "Star Spangled TV",
+      "weekday": 6,
+      "at": "20:00",
+      "end": "24:00",
+      "fallback": [
+        "jerry",
+        "madtv",
+        "osbournes"
+      ],
+      "block": "Weekend film night"
+    },
+    {
+      "channel": "What",
+      "weekday": 6,
+      "at": "21:00",
+      "end": "23:00",
+      "fallback": [
+        "ghosthunters",
+        "scariest"
+      ],
+      "block": "Documentary and film feature",
+      "month_days_max": 7
+    }
+  ],
+  "movie_cooldown_days": 28,
+  "holiday_film_windows": [
+    {
+      "event": "st-patrick",
+      "channel": "Dizzy",
+      "at": "17:00",
+      "end": "19:00",
+      "fallback": [
+        "gravity",
+        "evenstevens"
+      ],
+      "block": "St Patrick’s Day family feature"
+    },
+    {
+      "event": "st-patrick",
+      "channel": "Off-Licence TV",
+      "at": "21:00",
+      "end": "24:00",
+      "fallback": [
+        "office-uk",
+        "itcrowd",
+        "father-ted"
+      ],
+      "block": "St Patrick’s Day film"
+    }
+  ]
+}

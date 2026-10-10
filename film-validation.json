@@ -1,0 +1,33 @@
+{
+  "version": "0.36.1",
+  "status": "passed",
+  "authored_film_appointments": 638,
+  "actual_film_screenings": 648,
+  "distinct_films": 288,
+  "screenings_by_channel": {
+    "Star Spangled TV": 156,
+    "90s Toons": 52,
+    "Japanime": 52,
+    "Off-Licence TV": 53,
+    "AAA": 62,
+    "Dizzy": 105,
+    "Cartoons Cartoons": 52,
+    "Dickleodeon": 52,
+    "GirlyPop": 52,
+    "What": 12
+  },
+  "distinct_films_by_channel": {
+    "Star Spangled TV": 84,
+    "90s Toons": 11,
+    "Japanime": 47,
+    "Off-Licence TV": 16,
+    "AAA": 21,
+    "Dizzy": 49,
+    "Cartoons Cartoons": 7,
+    "Dickleodeon": 24,
+    "GirlyPop": 25,
+    "What": 4
+  },
+  "errors": [],
+  "scope": "Full 2026 static calendar; exact authored copies, complete measured lengths, readable film titles and 28-day per-channel film repeat gap. External playback and spoken language not re-reviewed."
+}

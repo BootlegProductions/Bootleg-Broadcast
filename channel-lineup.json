@@ -1,0 +1,3985 @@
+{
+  "version": "0.36.1",
+  "year": 2026,
+  "scope": "Actual compiled calendar; excludes adverts, idents and fireplace filler. Series counts count programme identities, not individual episodes. Films/specials count distinct displayed titles.",
+  "channels": {
+    "90s Toons": {
+      "counts": {
+        "Series": 33,
+        "Films": 11,
+        "Specials and one-offs": 62
+      },
+      "programmes": {
+        "Series": [
+          {
+            "name": "A Pup Named Scooby-Doo",
+            "distinct_episodes": 30
+          },
+          {
+            "name": "Alvin and the Chipmunks (1983)",
+            "distinct_episodes": 95
+          },
+          {
+            "name": "Archies",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Batman Beyond",
+            "distinct_episodes": 52
+          },
+          {
+            "name": "Beast Wars: Transformers",
+            "distinct_episodes": 52
+          },
+          {
+            "name": "Beetlejuice",
+            "distinct_episodes": 32
+          },
+          {
+            "name": "Bump in the Night",
+            "distinct_episodes": 24
+          },
+          {
+            "name": "Cadillacs and Dinosaurs",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "Earthworm Jim",
+            "distinct_episodes": 23
+          },
+          {
+            "name": "Freakazoid!",
+            "distinct_episodes": 23
+          },
+          {
+            "name": "Gargoyles",
+            "distinct_episodes": 75
+          },
+          {
+            "name": "Godzilla: The Series (1998)",
+            "distinct_episodes": 38
+          },
+          {
+            "name": "Harlem Globetrotters",
+            "distinct_episodes": 17
+          },
+          {
+            "name": "Inspector Gadget",
+            "distinct_episodes": 86
+          },
+          {
+            "name": "Iron Man (1994)",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "Jackie Chan Adventures",
+            "distinct_episodes": 56
+          },
+          {
+            "name": "Men in Black: The Series",
+            "distinct_episodes": 52
+          },
+          {
+            "name": "Pinky and the Brain",
+            "distinct_episodes": 95
+          },
+          {
+            "name": "ReBoot",
+            "distinct_episodes": 47
+          },
+          {
+            "name": "RoboCop: The Animated Series",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Scooby-Doo, Where Are You!",
+            "distinct_episodes": 41
+          },
+          {
+            "name": "Sherlock Holmes In The 22nd Century",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "Spider-Man Unlimited",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "Spider-Man: The Animated Series (1994)",
+            "distinct_episodes": 62
+          },
+          {
+            "name": "Street Sharks",
+            "distinct_episodes": 40
+          },
+          {
+            "name": "The Avengers: United They Stand",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "The Batman (2004)",
+            "distinct_episodes": 65
+          },
+          {
+            "name": "The Incredible Hulk (1994)",
+            "distinct_episodes": 21
+          },
+          {
+            "name": "The Real Ghostbusters",
+            "distinct_episodes": 32
+          },
+          {
+            "name": "The Scooby-Doo Show",
+            "distinct_episodes": 40
+          },
+          {
+            "name": "The Smurfs Christmas Specials",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Tick",
+            "distinct_episodes": 34
+          },
+          {
+            "name": "X-Men: The Animated Series (1992)",
+            "distinct_episodes": 76
+          }
+        ],
+        "Specials and one-offs": [
+          {
+            "name": "1 It's A Wonderful Tiny Toon's Christmas Special 1996 WARNER HOME VIDEO VHS",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1930 - Fleischer Studios - Swing You Sinners",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1930 - MGM - The Cuckoo Murder Case",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1932 - MGM - Spooks",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1933 - Betty Boop's Halloween Party",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1934 - Popeye the Sailor - Shiver Me Timbers",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1937 - Porky Pig - The Case Of The Stuttering Pig",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1937 - UB Iwerks - Skeleton Dance",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1940 - Night on Bald Mountain segment from FANTASIA",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1942 - Daffy Duck - The Impatient Patient",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1942 - MGM - Bats in the Belfry",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1943 - Tex Avery - Who Killed Who",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1946 - Bugs Bunny - Hair-Raising Hare",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1947 - Daffy Duck - Birth Of A Notion",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1948 - Porky Pig - Scaredy Cat",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1951 - Porky Pig - The Wearing Of The Grin",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1952 - Bugs Bunny - Water, Water Every Hare",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1953 - UPA - The Tell Tale Heart",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1956 - Bugs Bunny - Broom-Stick Bunny",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1956 -Tom and Jerry - The Flying Sorceress",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1961 - Tom and Jerry - Switchin Kitten",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1963 - Bugs Bunny - Transylvania 6-5000",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1967 - Pink Panther - Pink Panic",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1975 - Pink Panther - Pink Plasma",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1977 - Halloween is Grinch Night",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1978 - What a Nightmare, Charlie Brown!",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1986 - Happy New Year, Charlie Brown!",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Charlie Brown Thanksgiving",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Charlie Brown Valentine",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Flintstone Christmas (1977)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Garfield Christmas (1987)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Pink Christmas (1978)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Pup Named Scooby-Doo - Ghost Who's Coming to Dinner",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Very Pink Christmas (2011)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Adventures Of Sonic The Hedgehog - Sonic Christmas Blast (1996)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Alvin and the Chipmunks Christmas Special",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Batman The Animated Series - Christmas with the Joker (1992)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bugs Bunny's Looney Christmas Tales (1979)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Casper’s Halloween Special",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Charlie Brown's Christmas Tales",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Daffy Ducks Easter Special",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Fat Albert and The Cosby Kids - The Fat Albert Christmas Special (1977)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Frosty the Snowman (1953)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Frosty The Snowman (1969)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Garfield's Halloween Adventure",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Halloween Is Grinch Night",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Hanna-Barbera's Christmas Sing-A-Long!",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "He-Man & She-Ra - A Christmas Special (1985)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "I Want a Dog for Christmas, Charlie Brown",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "It's Christmastime Again, Charlie Brown",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "It's the Great Pumpkin, Charlie Brown",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Life with Louie - A Christmas Surprise for Mrs Stillman (1994)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Mister Magoo's Christmas Carol (1962)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Nestor, The Long-Eared Christmas Donkey (1977)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pinocchios Christmas (1980)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The First Christmas The Story of the First Christmas Snow (1975)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Leprechauns Christmas Gold (1981)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Little Rascals Christmas Special",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Real Ghostbusters - - Xmas Marks the Spot (1986)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Tick-The Tick Loves Santa! (1995)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Twas The Night Before Christmas (1974)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Witch's Night Out (1978)",
+            "distinct_episodes": 1
+          }
+        ],
+        "Films": [
+          {
+            "name": "A Flintstones Christmas Carol (1994)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bon Voyage, Charlie Brown (and Don't Come Back!!)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Godzilla (1998)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Race for Your Life, Charlie Brown",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Spider-man (2002)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Spider-man 2",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Spider-man 3",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Amazing Spider-Man (2012)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Amazing Spider-Man 2 (2014)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Yogi Bear (2010)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Yogi's First Christmas (1980)",
+            "distinct_episodes": 1
+          }
+        ]
+      }
+    },
+    "Cartoons Cartoons": {
+      "counts": {
+        "Series": 43,
+        "Films": 7,
+        "Specials and one-offs": 24
+      },
+      "programmes": {
+        "Series": [
+          {
+            "name": "Adventure Time",
+            "distinct_episodes": 14
+          },
+          {
+            "name": "Ben 10 (2005)",
+            "distinct_episodes": 49
+          },
+          {
+            "name": "Ben 10 The Complete Season 3 (2008) DVD ISOs",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Camp Lazlo",
+            "distinct_episodes": 129
+          },
+          {
+            "name": "Christmas specials",
+            "distinct_episodes": 3
+          },
+          {
+            "name": "Class of 3000",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Class of 3000 - Cartoon Network TV Rips 2006-2007 + Extras + HD Rips +",
+            "distinct_episodes": 2
+          },
+          {
+            "name": "Class of 3000 Season 1-2 + Christmas Special (WEB-DLHDTVTV Rips)",
+            "distinct_episodes": 32
+          },
+          {
+            "name": "Class of 3000 Season 2 Episode 8",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Class of 3000 Season 2 Episode 9",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Codename: Kids Next Door",
+            "distinct_episodes": 78
+          },
+          {
+            "name": "Courage the Cowardly Dog",
+            "distinct_episodes": 66
+          },
+          {
+            "name": "Cow and Chicken",
+            "distinct_episodes": 106
+          },
+          {
+            "name": "Dexter’s Laboratory",
+            "distinct_episodes": 80
+          },
+          {
+            "name": "Duck Dodgers",
+            "distinct_episodes": 48
+          },
+          {
+            "name": "Ed, Edd n Eddy",
+            "distinct_episodes": 124
+          },
+          {
+            "name": "Evil Con Carne",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Foster’s Home for Imaginary Friends",
+            "distinct_episodes": 90
+          },
+          {
+            "name": "Hi Hi Puffy AmiYumi",
+            "distinct_episodes": 39
+          },
+          {
+            "name": "I Am Weasel",
+            "distinct_episodes": 27
+          },
+          {
+            "name": "Johnny Bravo / JBVO",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "Loonatics Unleashed",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "Megas XLR",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Mucha Lucha",
+            "distinct_episodes": 9
+          },
+          {
+            "name": "Over the Garden Wall",
+            "distinct_episodes": 10
+          },
+          {
+            "name": "Regular Show",
+            "distinct_episodes": 277
+          },
+          {
+            "name": "Secret Mountain Fort Awesome",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "Skatoony (UK)",
+            "distinct_episodes": 38
+          },
+          {
+            "name": "Teen Titans",
+            "distinct_episodes": 65
+          },
+          {
+            "name": "The Amazing World of Gumball",
+            "distinct_episodes": 56
+          },
+          {
+            "name": "The Complete Classic CN Shows - Individual Version (2.0)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Flintstones",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "The Grim Adventures of Billy & Mandy",
+            "distinct_episodes": 91
+          },
+          {
+            "name": "The Jetsons",
+            "distinct_episodes": 24
+          },
+          {
+            "name": "The Land Before Time (TV Series)",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "The Life and Times of Juniper Lee",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Powerpuff Girls (1998)",
+            "distinct_episodes": 218
+          },
+          {
+            "name": "The Secret Saturdays",
+            "distinct_episodes": 36
+          },
+          {
+            "name": "Tom and Jerry",
+            "distinct_episodes": 10
+          },
+          {
+            "name": "Wacky Races",
+            "distinct_episodes": 34
+          },
+          {
+            "name": "What's New Scooby-Doo!",
+            "distinct_episodes": 2
+          },
+          {
+            "name": "Xiaolin Chronicles",
+            "distinct_episodes": 9
+          },
+          {
+            "name": "Xiaolin Showdown",
+            "distinct_episodes": 52
+          }
+        ],
+        "Films": [
+          {
+            "name": "Ben 10: Secret of the Omnitrix",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Ed, Edd n Eddy’s Big Picture Show",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Scooby-Doo (2002)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Scooby-Doo 2 Monsters Unleashed",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Scooby-Doo and the Ghoul School",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Scooby-Doo! Frankencreepy",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Halloween Tree",
+            "distinct_episodes": 1
+          }
+        ],
+        "Specials and one-offs": [
+          {
+            "name": "Adventure Time - Holly Jolly Secrets",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Adventure Time - The Creeps",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Ben 10 - Merry Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Codename Kids Next Door - Operation N A U G H T Y (2005)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Courage the Cowardly Dog - A Beaver's TaleThe Nutcracker (2002)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Courage the Cowardly Dog - The Fog of Courage",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Courage the Cowardly Dog - The Nutcracker",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Ed Edd n Eddy Special Ed, Edd n Eddy’s Jingle Jingle Jangle (2004)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Ed, Edd n Eddy — Boo Haw Haw",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Fosters Home for Imaginary Friends - Nightmare on Wilson Way",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Johnny Bravo I Used to Be Funny - My Fair Dork - Twas the Night (1997)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Johnny Bravo Specials A Johnny Bravo Christmas (2001)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "My Gym Partner’s a Monkey - It’s the Scary Old Custodian, Adam Lyon",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Regular Show - The Christmas Special",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Scary Godmother: Halloween Spooktacular",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Scary Godmother: The Revenge of Jimmy",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Grim Adventures of Billy & Mandy - Billy & Mandy Save Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Grim Adventures of Billy & Mandy - Billy and Mandy's Jacked Up Halloween",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Grim Adventures of Billy and Mandy - S2 - Billy and Mandy Save Christmas - emory",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Powerpuff Girls - ‘Twas the Fight Before Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "We Bare Bears - Charlie’s Halloween Thing",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "We Bare Bears - Charlie’s Halloween Thing 2",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "What's New Scooby-Doo! - A Scooby-Doo Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "What's New Scooby-Doo! - A Scooby-Doo Halloween",
+            "distinct_episodes": 1
+          }
+        ]
+      }
+    },
+    "Japanime": {
+      "counts": {
+        "Series": 109,
+        "Films": 47,
+        "Specials and one-offs": 14
+      },
+      "programmes": {
+        "Series": [
+          {
+            "name": "7 Seeds",
+            "distinct_episodes": 24
+          },
+          {
+            "name": "91 Days",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Absolute Duo",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Air Gear",
+            "distinct_episodes": 25
+          },
+          {
+            "name": "Akashic Records of Bastard Magic Instructor",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Amagami SS",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "Amagi Brilliant Park",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "Amnesia",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Angel Cop all OVA's 1989-1994",
+            "distinct_episodes": 6
+          },
+          {
+            "name": "Angels of Death",
+            "distinct_episodes": 16
+          },
+          {
+            "name": "Ano Natsu De Matteru",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Another",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Assassination Classroom",
+            "distinct_episodes": 22
+          },
+          {
+            "name": "Assassins Pride",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Azumanga Daioh",
+            "distinct_episodes": 27
+          },
+          {
+            "name": "Azur Lane",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Bakugan",
+            "distinct_episodes": 276
+          },
+          {
+            "name": "Bakuman",
+            "distinct_episodes": 75
+          },
+          {
+            "name": "Barakamon",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Beastars",
+            "distinct_episodes": 24
+          },
+          {
+            "name": "Black Lagoon",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Cardcaptors",
+            "distinct_episodes": 42
+          },
+          {
+            "name": "Chaos;Head",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Clannad",
+            "distinct_episodes": 47
+          },
+          {
+            "name": "Cowboy Bebop",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "Crest of the Stars",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "Cromartie High School",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "Cross Game",
+            "distinct_episodes": 50
+          },
+          {
+            "name": "Cyberpunk: Edgerunners",
+            "distinct_episodes": 10
+          },
+          {
+            "name": "Dandadan",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "Danmachi - Sword Oratoria",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Death Note",
+            "distinct_episodes": 37
+          },
+          {
+            "name": "Death Parade",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Demashita! Powerpuff Girls Z - Full Series (Japanese Dub)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Desert Punk",
+            "distinct_episodes": 24
+          },
+          {
+            "name": "Digimon Data Squad",
+            "distinct_episodes": 48
+          },
+          {
+            "name": "Digimon Universe: Appli Monsters",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Dirty Pair",
+            "distinct_episodes": 35
+          },
+          {
+            "name": "Dirty Pair Flash",
+            "distinct_episodes": 16
+          },
+          {
+            "name": "Dominion Tank Police",
+            "distinct_episodes": 4
+          },
+          {
+            "name": "Dragon Ball",
+            "distinct_episodes": 151
+          },
+          {
+            "name": "Dragon Ball Z Kai",
+            "distinct_episodes": 167
+          },
+          {
+            "name": "Durarara!!",
+            "distinct_episodes": 25
+          },
+          {
+            "name": "Eden of the East",
+            "distinct_episodes": 11
+          },
+          {
+            "name": "Elfen Lied",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "Ergo Proxy (Japanese)",
+            "distinct_episodes": 23
+          },
+          {
+            "name": "Frieren Beyond Journey's End",
+            "distinct_episodes": 28
+          },
+          {
+            "name": "Genshiken",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Ghost Stories",
+            "distinct_episodes": 20
+          },
+          {
+            "name": "Gintama",
+            "distinct_episodes": 340
+          },
+          {
+            "name": "Golden Boy",
+            "distinct_episodes": 6
+          },
+          {
+            "name": "Great Teacher Onizuka",
+            "distinct_episodes": 43
+          },
+          {
+            "name": "Hajimete No Gal",
+            "distinct_episodes": 10
+          },
+          {
+            "name": "Hamtaro — S03E03 — Ham-Ham Halloween!",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Heaven's Lost Property",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "Hellsing",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "High School DxD",
+            "distinct_episodes": 24
+          },
+          {
+            "name": "ItaKiss",
+            "distinct_episodes": 25
+          },
+          {
+            "name": "Jormungand",
+            "distinct_episodes": 24
+          },
+          {
+            "name": "Kyouran Kazoku Nikki",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "Lady Jewelpet",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Little Witch Academia",
+            "distinct_episodes": 25
+          },
+          {
+            "name": "Love Hina Again",
+            "distinct_episodes": 3
+          },
+          {
+            "name": "Love Hina Christmas Movie",
+            "distinct_episodes": 2
+          },
+          {
+            "name": "Lucky Star",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Maid Sama!",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "Maison Ikkoku",
+            "distinct_episodes": 96
+          },
+          {
+            "name": "Maken-Ki!",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Mew Mew Power",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "Monster",
+            "distinct_episodes": 74
+          },
+          {
+            "name": "Neo Ranga",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Neon Genesis Evangelion",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "No Game, No Life",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Noir",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "Ouran High School Host Club",
+            "distinct_episodes": 28
+          },
+          {
+            "name": "Overlord",
+            "distinct_episodes": 39
+          },
+          {
+            "name": "Panty & Stocking with Garterbelt",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "Paranoia Agent",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "Parasyte -the maxim-",
+            "distinct_episodes": 24
+          },
+          {
+            "name": "Pokémon Advanced",
+            "distinct_episodes": 40
+          },
+          {
+            "name": "Pokémon: Original Series",
+            "distinct_episodes": 52
+          },
+          {
+            "name": "Powerpuff Girls Z",
+            "distinct_episodes": 52
+          },
+          {
+            "name": "Prison School",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Queen's Blade",
+            "distinct_episodes": 36
+          },
+          {
+            "name": "Re:Zero",
+            "distinct_episodes": 24
+          },
+          {
+            "name": "Reincarnated as a Sword",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Revolutionary Girl Utena",
+            "distinct_episodes": 39
+          },
+          {
+            "name": "Rosario + Vampire",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Sekirei",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "Serial Experiments Lain",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "Shinzo",
+            "distinct_episodes": 32
+          },
+          {
+            "name": "Snow White with the Red Hair",
+            "distinct_episodes": 24
+          },
+          {
+            "name": "Sonny Boy",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Steins;Gate",
+            "distinct_episodes": 25
+          },
+          {
+            "name": "Suite PreCure",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Helpful Fox Senko-san",
+            "distinct_episodes": 11
+          },
+          {
+            "name": "The Melancholy of Haruhi Suzumiya",
+            "distinct_episodes": 28
+          },
+          {
+            "name": "To Love-Ru",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "Toradora!",
+            "distinct_episodes": 25
+          },
+          {
+            "name": "Trigun",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "Urusei Yatsura",
+            "distinct_episodes": 69
+          },
+          {
+            "name": "Valkyrie Drive: Mermaid",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Vandread",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "WataMote",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Welcome to the NHK",
+            "distinct_episodes": 24
+          },
+          {
+            "name": "Witchblade",
+            "distinct_episodes": 24
+          },
+          {
+            "name": "Wolf’s Rain",
+            "distinct_episodes": 16
+          },
+          {
+            "name": "X-Men (Marvel Anime)",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Yamada-kun and the Seven Witches",
+            "distinct_episodes": 12
+          }
+        ],
+        "Films": [
+          {
+            "name": "Akira",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bayonetta Bloody Fate",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Castle in the Sky (1986)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Grave of the Fireflies",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Gundam I",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Gundam II",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Gundam III",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "howls moving castle",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Itsudatte My Santa",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Kiki’s Delivery Service",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "My Neighbour Totoro",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Nausicaä of the Valley of the Wind",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Paprika",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Perfect Blue",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 01 Mewtwo Strikes Back",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 02 The Power of One",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 03 2 Mewtwo Returns",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 03 Spell of the Unknown",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 04 Pokemon 4Ever Celebi Voice of the Forest",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 05 Heroes Latios & Latias",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 06 Jirachi Wish Maker",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 07 Destiny Deoxys",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 08 Lucario And The Mystery Of Mew",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 09 Pokemon Ranger and the Temple of the Sea",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 10 The Rise Of Darkrai",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 11 Giratina and the Sky Warrior",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 12 Arceus and The Jewel of Life",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 13 Zoroark - Master of Illusions",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 14 2 Black Victini and Reshiram",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 14 White Victini and Zekrom",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 15 Kyurem vs the Sword of Justice",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 16 Genesect and The Legend Awakened",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 17 Diancie And The Cocoon Of Destruction",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 18 Hoopa and the Clash of Ages",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 19 Volcanion and the Mechanical Marvel",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 20 I Choose You!",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 21 The Power of Us",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pokemon Movie 22 Mewtwo Strikes Back Evolution",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Princess Mononoke",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Saiyuki Requiem",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Shin Godzilla (2016)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Spirited Away (2001) English",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Street Fighter II - The Animated Movie UNCENSORED - (1994)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Summer Wars",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Boy and the Heron",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Cat Returns",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Tokyo Godfathers",
+            "distinct_episodes": 1
+          }
+        ],
+        "Specials and one-offs": [
+          {
+            "name": "Anpanman - Christmas 1995",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Anpanman - Christmas 1997",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Anpanman - Christmas 1999",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Anpanman - Christmas 2001",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Anpanman - Christmas 2003",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Anpanman - Christmas 2005",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Anpanman - Christmas 2006",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Anpanman - Christmas 2007",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Anpanman - Christmas 2009",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Anpanman - Christmas 2010",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Anpanman - Christmas 2011",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Anpanman - Christmas 2013",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Anpanman - Christmas 2018",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Anpanman - Christmas 2023",
+            "distinct_episodes": 1
+          }
+        ]
+      }
+    },
+    "Off-Licence TV": {
+      "counts": {
+        "Series": 35,
+        "Films": 16,
+        "Specials and one-offs": 30
+      },
+      "programmes": {
+        "Series": [
+          {
+            "name": "8 Out of 10 Cats Does Countdown",
+            "distinct_episodes": 71
+          },
+          {
+            "name": "An Idiot Abroad",
+            "distinct_episodes": 19
+          },
+          {
+            "name": "Being Human (UK)",
+            "distinct_episodes": 32
+          },
+          {
+            "name": "Black Mirror",
+            "distinct_episodes": 11
+          },
+          {
+            "name": "Blackadder Remastered The Ultimate Collection [PAL DVD ISO]",
+            "distinct_episodes": 3
+          },
+          {
+            "name": "Brass Eye",
+            "distinct_episodes": 7
+          },
+          {
+            "name": "ChuckleVision",
+            "distinct_episodes": 15
+          },
+          {
+            "name": "Come Fly With Me",
+            "distinct_episodes": 6
+          },
+          {
+            "name": "Dennis & Gnasher",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "Doctor Who",
+            "distinct_episodes": 36
+          },
+          {
+            "name": "Father Ted",
+            "distinct_episodes": 24
+          },
+          {
+            "name": "Grizzly Tales for Gruesome Kids",
+            "distinct_episodes": 25
+          },
+          {
+            "name": "Horrible Histories",
+            "distinct_episodes": 9
+          },
+          {
+            "name": "I’m Alan Partridge",
+            "distinct_episodes": 6
+          },
+          {
+            "name": "Kitchen Nightmares (US)",
+            "distinct_episodes": 10
+          },
+          {
+            "name": "Little Britain",
+            "distinct_episodes": 27
+          },
+          {
+            "name": "Mr. Bean",
+            "distinct_episodes": 5
+          },
+          {
+            "name": "Peep Show",
+            "distinct_episodes": 54
+          },
+          {
+            "name": "Red Dwarf",
+            "distinct_episodes": 6
+          },
+          {
+            "name": "Robot Wars (UK)",
+            "distinct_episodes": 61
+          },
+          {
+            "name": "Sacred Weeds",
+            "distinct_episodes": 4
+          },
+          {
+            "name": "Sherlock",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "The Inbetweeners",
+            "distinct_episodes": 18
+          },
+          {
+            "name": "The IT Crowd",
+            "distinct_episodes": 22
+          },
+          {
+            "name": "The Jeremy Kyle Show",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Mighty Boosh",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "The Moaning of Life",
+            "distinct_episodes": 11
+          },
+          {
+            "name": "The Office (UK)",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "The Ricky Gervais Show",
+            "distinct_episodes": 39
+          },
+          {
+            "name": "The Slammer",
+            "distinct_episodes": 74
+          },
+          {
+            "name": "The Story of Tracy Beaker",
+            "distinct_episodes": 69
+          },
+          {
+            "name": "The Trap Door",
+            "distinct_episodes": 8
+          },
+          {
+            "name": "Top Gear (UK)",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Utopia (UK)",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "Wallace & Gromit",
+            "distinct_episodes": 4
+          }
+        ],
+        "Films": [
+          {
+            "name": "28 Days Later",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "28 Weeks Later (2007)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "28 Years Later (2025)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Christmas Carol (1984)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Christmas Carol (1997)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Christmas Carol (1999)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bean the Movie - The Extended Director's Cut",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Chicken Run (2000)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Flushed Away",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Ghostwatch",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "James And The Giant Peach",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "St Patrick: The Irish Legend",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Inbetweeners 2 2014",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Inbetweeners 2011 Extended",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Worst Witch (1986)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Wallace And Gromit",
+            "distinct_episodes": 1
+          }
+        ],
+        "Specials and one-offs": [
+          {
+            "name": "8 Out of 10 Cats Does Countdown - S06E00 - Christmas Special 2014 (",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "8 Out of 10 Cats Does Countdown - S12E00 - Christmas Special 2016-RelaTVity",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "8 Out of 10 Cats Does Countdown - S15E00 - Christmas Special 2017 (",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "8 Out of 10 Cats Does Countdown - S17E00 - Christmas Special 2018-DJV",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Christmas Carol (1971)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bob the Builder - Bob's White Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Charlie and Lola - How Many More Minutes Until Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Charlie And Lola - What Can I Wear For Halloween",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Kenny Everett Christmas Show (1984)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Maisy - Snow; Cards; Christmas Tree; Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Merry Christmas Mr Bean (1992)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Only When I laugh — Away for Christmas (1981)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Sherlock Holmes THE CHRISTMAS PUDDING (1955)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Teletubbies - Christmas Carols",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Teletubbies - Christmas Crackers",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Teletubbies - Christmas In Finland",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Teletubbies - Christmas In South Africa",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Teletubbies - Christmas In Spain",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Teletubbies - Christmas In The UK",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Teletubbies - Christmas Tree",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Teletubbies - Making Christmas Cards",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Christmas Carol (1949)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Good Life — Silly, But It's Fun (1977 Xmas Special)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Larkins — Christmas With The Larkins",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Snowman (1932)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Snowman (1982)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Snowman and The Snowdog (2014)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Thomas & Friends - Halloween",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Till Death Us Do Part — Christmas Club Books",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Till Death Us Do Part — Outback Bound Christmas Special",
+            "distinct_episodes": 1
+          }
+        ]
+      }
+    },
+    "Star Spangled TV": {
+      "counts": {
+        "Series": 21,
+        "Films": 84,
+        "Specials and one-offs": 31
+      },
+      "programmes": {
+        "Series": [
+          {
+            "name": "All in the Family",
+            "distinct_episodes": 46
+          },
+          {
+            "name": "America’s Funniest Home Videos",
+            "distinct_episodes": 126
+          },
+          {
+            "name": "Buffy the Vampire Slayer",
+            "distinct_episodes": 8
+          },
+          {
+            "name": "Cops",
+            "distinct_episodes": 72
+          },
+          {
+            "name": "Family Matters",
+            "distinct_episodes": 210
+          },
+          {
+            "name": "Home Improvement",
+            "distinct_episodes": 85
+          },
+          {
+            "name": "Jackass",
+            "distinct_episodes": 24
+          },
+          {
+            "name": "Liberty’s Kids",
+            "distinct_episodes": 40
+          },
+          {
+            "name": "MADtv",
+            "distinct_episodes": 245
+          },
+          {
+            "name": "Malcolm in the Middle",
+            "distinct_episodes": 151
+          },
+          {
+            "name": "Norm Macdonald Live",
+            "distinct_episodes": 33
+          },
+          {
+            "name": "That ’70s Show",
+            "distinct_episodes": 98
+          },
+          {
+            "name": "The Dukes of Hazzard",
+            "distinct_episodes": 279
+          },
+          {
+            "name": "The Jerry Springer Show",
+            "distinct_episodes": 29
+          },
+          {
+            "name": "The Magic School Bus",
+            "distinct_episodes": 52
+          },
+          {
+            "name": "The O.C.",
+            "distinct_episodes": 91
+          },
+          {
+            "name": "The Office (US)",
+            "distinct_episodes": 170
+          },
+          {
+            "name": "The Osbournes",
+            "distinct_episodes": 158
+          },
+          {
+            "name": "The Twilight Zone",
+            "distinct_episodes": 12
+          },
+          {
+            "name": "To Catch a Predator",
+            "distinct_episodes": 18
+          },
+          {
+            "name": "Trailer Park Boys",
+            "distinct_episodes": 55
+          }
+        ],
+        "Specials and one-offs": [
+          {
+            "name": "06 - It's a Miserable Life",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Beverly Hillbilly’s Christmas at Hooterville (1963)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Charlie Brown Christmas (1965)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Christmas Tree 1972 VHS",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Claymation Christmas Celebration (1987)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Cosmic Christmas (1977)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Cosmic Christmas - Nelvana - 1977",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Muppet Family Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Muppet Family Christmas (1987)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Wish for Wings That Work (1991)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Adventures from the Book of Virtues - A Christmas Carol (Part 1)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Adventures from the Book of Virtues - A Christmas Carol (Part 2)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Adventures In Odyssey Electric Christmas (1994)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Charlie Brown Christmas (Original 1965 Airing)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Christmas Comes But Once a Year (1936)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Christmas Tales & Tunes",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Creepshow (2019) - S01E07 - A Creepshow Animated Special꞉ Survivor Type & Twittering from the Circus of the Dead",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Creepshow (2019) - S01E08 - A Creepshow Holiday Special꞉ Shapeshifters Anonymous",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Doug - Doug's Christmas Story",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Frosty Returns (1993)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "George and the Christmas Star (1985)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Gilligan's Island Birds Gotta Fly, Fish Gotta Talk (1964)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Grandma Got Run Over by a Reindeer (2000)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "How the Grinch Stole Christmas! (1966)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "I Want a Dog for Christmas, Charlie Brown (2003)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Intergalactic Thanksgiving - Nelvana - 1979",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Miser Brothers Christmas (2008)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pee-wee’s Playhouse Christmas Special",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Rudolph's Shiny New Year (1976)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Magic School Bus — A Magic School Bus Halloween (1995)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Paul Lynde Halloween Special",
+            "distinct_episodes": 1
+          }
+        ],
+        "Films": [
+          {
+            "name": "2 Leprechaun 2 (1994)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "2001 A Space Odyssey (1968)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "3 Leprechaun 3 (1995)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "30 Days of Night (2007)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "30 Days of Night: Dark Days",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "4 Leprechaun 4 In Space (1996)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "5 Leprechaun In The Hood (2000)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "6 Leprechaun Back 2 tha Hood (2003)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "7 Leprechaun Returns (2018)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "8 Mile (2002)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Christmas Story (1983)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Hobo's Christmas (1987)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Nightmare on Elm Street (1984)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Abraham Lincoln Vampire Hunter (2012)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Arthur Christmas (2011)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Austin Powers International Man of Mystery",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Batteries Not Included (1987)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Beetlejuice (1988)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Big Daddy (1999)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Billy Madison (1995)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Black Christmas (1974)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Boyz n The Hood (1991)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bubble Boy 2001",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Cast Away (2000)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Click (2006)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Dead Poets Society (1989)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Dumb and Dumber (1994)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "E T (1982)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Elf (2003)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Ernest Saves Christmas (1988)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Ferris Bullers Day Off (1986)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Five Nights at Freddy’s (2023)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Five Nights at Freddy’s 2 (2025)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Forrest Gump (1994)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Freddy Got Fingered (2001)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Freddy vs Jason (2003)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Friday (1995)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Ghost Dog - the Way of the Samurai (1999)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Ghost Rider (2007)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Ghost Rider: Spirit of Vengeance (2011)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Godzilla (2014)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Godzilla King of The Monsters",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Godzilla Vs Kong (2021)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Godzilla Vs Kong 2 The New Empire",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Good Morning, Vietnam (1987)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Good Will Hunting (1997)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Gremlins (1984)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Gremlins 2: The New Batch (1990)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Halloween (1978)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Halloween (2007)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Halloween 2 (2009)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Hellraiser (1987)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Hellraiser II (1988)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Home Alone (1990)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Home Alone 2: Lost in New York (1992)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "How the Grinch Stole Christmas (2000)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Iron Man (2008)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Iron Man 2",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Iron Man 3",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "It's a Wonderful Life (1946)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Jumanji (1995)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Jurrasic Park (1993)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Leprechaun (1993)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Miracle on 34th Street (1947)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Miracle on 34th Street (1994)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Misery (1990)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "My Bloody Valentine (1981)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Of Mice and Men (1992)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Rambo I",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Rambo II",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Rambo III",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Rambo IV",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Reservoir Dogs 1992",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Scream (1996)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Spawn",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Superbad (2007)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Tenacious D in the Pick of Destinity (2006)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Blair Witch Project (1999)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Cabin in the Woods (2011)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Green Mile 1999",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Slumber Party Massacre (1982)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Texas Chain Saw Massacre (1974)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Texas Chainsaw Massacre 2 (1986)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Thing (1982)",
+            "distinct_episodes": 1
+          }
+        ]
+      }
+    },
+    "AAA": {
+      "counts": {
+        "Series": 26,
+        "Films": 21,
+        "Specials and one-offs": 14
+      },
+      "programmes": {
+        "Series": [
+          {
+            "name": "Aeon Flux",
+            "distinct_episodes": 10
+          },
+          {
+            "name": "American Dad!",
+            "distinct_episodes": 5
+          },
+          {
+            "name": "Aqua Teen Hunger Force",
+            "distinct_episodes": 137
+          },
+          {
+            "name": "Beavis and Butt-Head",
+            "distinct_episodes": 201
+          },
+          {
+            "name": "Beavis And Butt-Head Time-Life DVD Collection",
+            "distinct_episodes": 2
+          },
+          {
+            "name": "Chozen",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "Clerks: The Animated Series",
+            "distinct_episodes": 6
+          },
+          {
+            "name": "Dan Vs.",
+            "distinct_episodes": 53
+          },
+          {
+            "name": "Dr. Katz, Professional Therapist",
+            "distinct_episodes": 81
+          },
+          {
+            "name": "Drawn Together",
+            "distinct_episodes": 35
+          },
+          {
+            "name": "Duckman",
+            "distinct_episodes": 70
+          },
+          {
+            "name": "Final Space",
+            "distinct_episodes": 36
+          },
+          {
+            "name": "Fish Police",
+            "distinct_episodes": 6
+          },
+          {
+            "name": "Futurama",
+            "distinct_episodes": 3
+          },
+          {
+            "name": "Glenn Martin, DDS",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Home Movies",
+            "distinct_episodes": 80
+          },
+          {
+            "name": "MTV’s Downtown",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "Primal",
+            "distinct_episodes": 20
+          },
+          {
+            "name": "Stripperella",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "The Boondocks",
+            "distinct_episodes": 53
+          },
+          {
+            "name": "The Critic",
+            "distinct_episodes": 25
+          },
+          {
+            "name": "The Maxx",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "The Oblongs",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "The Simpsons",
+            "distinct_episodes": 39
+          },
+          {
+            "name": "The Venture Bros.",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "Undergrads",
+            "distinct_episodes": 13
+          }
+        ],
+        "Specials and one-offs": [
+          {
+            "name": "01 - Beavis and Butt-head Do Thanksgiving (Special Episode)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "02 - Bungholio, Lord of the Harvest",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "04 - Huh-Huh-Humbug",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Boo Boo Runs Wild — One-off special",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Constant Payne — Pilot",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Dexter’s Laboratory — Rude Removal",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "He-Hog the Atomic Pig — Unaired pilot",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Korgoth of Barbaria — Pilot",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Party Wagon (2004)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Amazing Screw-On Head — Pilot",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The David S Pumpkins Halloween Special",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Groovenians — Pilot",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Modifyers — Pilot",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Welcome to Eltingville — Pilot",
+            "distinct_episodes": 1
+          }
+        ],
+        "Films": [
+          {
+            "name": "9 (2009)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Scanner Darkly",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "American Pop - Ralph Bakshi - 1981",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Aqua Teen Forever: Plantasm",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Beavis and Butt-Head Do America (1996)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Beavis and Butt-Head Do the Universe (2022)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Cool World (1992)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Coonskin aka Street Fight ☆ Ralph Bakshi ☆1975",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Fire And Ice 1983",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Fritz The Cat",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Futurama: Bender’s Big Score",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Futurama: Bender’s Game",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Futurama: Into The Wild Green Yonder",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Futurama: The Beast with a Billion Backs",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Heavy Metal 1981",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Hey Good Lookin",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Osmosis Jones",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "South Park Bigger Long and Uncut (1999)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Lord of the Rings",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Who Framed Roger Rabbit",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "y2mate com - bernie vs trump rZlYUgSUt7Q 360p",
+            "distinct_episodes": 1
+          }
+        ]
+      }
+    },
+    "Dickleodeon": {
+      "counts": {
+        "Series": 16,
+        "Films": 24,
+        "Specials and one-offs": 87
+      },
+      "programmes": {
+        "Series": [
+          {
+            "name": "Are You Afraid of the Dark?",
+            "distinct_episodes": 62
+          },
+          {
+            "name": "Arthur",
+            "distinct_episodes": 2
+          },
+          {
+            "name": "Avatar: The Last Airbender",
+            "distinct_episodes": 62
+          },
+          {
+            "name": "Drake & Josh",
+            "distinct_episodes": 8
+          },
+          {
+            "name": "H2O: Just Add Water",
+            "distinct_episodes": 78
+          },
+          {
+            "name": "Hey Arnold!",
+            "distinct_episodes": 98
+          },
+          {
+            "name": "Maxie's World",
+            "distinct_episodes": 16
+          },
+          {
+            "name": "My Life as a Teenage Robot",
+            "distinct_episodes": 73
+          },
+          {
+            "name": "Nickelodeon holiday Specials",
+            "distinct_episodes": 2
+          },
+          {
+            "name": "SpongeBob SquarePants",
+            "distinct_episodes": 516
+          },
+          {
+            "name": "Static Shock",
+            "distinct_episodes": 52
+          },
+          {
+            "name": "The Adventures of Jimmy Neutron",
+            "distinct_episodes": 60
+          },
+          {
+            "name": "The Amanda Show",
+            "distinct_episodes": 40
+          },
+          {
+            "name": "The Fairly OddParents",
+            "distinct_episodes": 159
+          },
+          {
+            "name": "The Legend of Korra",
+            "distinct_episodes": 35
+          },
+          {
+            "name": "The Zeta Project",
+            "distinct_episodes": 26
+          }
+        ],
+        "Specials and one-offs": [
+          {
+            "name": "A Chuckie Finster Christmas, Chanukah, Kwanzaa, Winter Solstice",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Sesame Street Christmas Carol (2006)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Aaahh!!! Real Monsters - Gone Shopp'n",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "All Grown Up! - It’s Cupid, Stupid",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "All Grown Up! - The Finster Who Stole Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Allegra's Window - Mr Cook's Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Alma's Way - Alma's Nochebuena-Three King's Day Do-Over",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Alma's Way - No Sleep 'Til New Years:Nurse Alma",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Arthur - Arthur Perfect Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "As Told By Ginger - An Even Steven Holiday Special",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "As Told by Ginger — The Easter Ham",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Back at the Barnyard - It's an Udderful Life!",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Barney & Friends - A Visit to Santa",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Barney & Friends - Barney's Christmas Star",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Barney & Friends - Barney's Halloween Party",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Barney & Friends - Barney's Night Before Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Barney & Friends - Gift of the Dinos:A Visit to Santa",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Barney & The Backyard Gang - Waiting for Santa",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Barney’s Halloween Party",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Breadwinners - A Crustmas Story",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bunsen Is a Beast - Beast Halloween Ever",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bunsen Is a Beast - Bunsen Saves Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "C Elmo Saves Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "CatDog - A Very Catdog Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "ChalkZone - When Santas Collide",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Clifford's Puppy Days - Clifford The Scary Puppy; Things That Go Bump",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Curious George - A Very Monkey Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Danny Phantom - Fright Night",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Danny Phantom - The Fright Before Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Danny Phantom – The Fright Before Christmas (2005)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Donkey's Caroling Christmas-tacular",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Dora the Explorer - A Present for Santa",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Dora the Explorer - Halloween Parade",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Doug - Doug's Secret Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "E A Sesame Street Christmas Carol",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "F Sesame Street Elmo's Christmas Countdown",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Fanboy & Chum Chum - A Very Brrr-y Icemas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Franklin - Franklin Has a Sleepover:Franklin's Halloween",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Franklin - Franklin's Christmas Gift:Franklin's Granny",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Franklin - Franklin's Halloween",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "G Sesame Street Once Upon A Sesame Street Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Gullah Gullah Island - A Gullah Gullah Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Hey Arnold – Arnold’s Christmas (1996)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Hey Arnold! - Arnold's Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Hey Arnold! - Arnold’s Halloween",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Ice Age A Mammoth Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Ice Age A Mammoth Christmas (2011)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Invader Zim - Halloween Spectacular of Spooky Doom",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Invader Zim - The Most Horrible X-Mas Ever",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "It’s Pony – Bramley Holiday",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Kung Fu Panda Holiday (2010)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Kung Fu Panda Legends of Awesomeness - Present Tense",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Kung Fu Panda Legends of Awesomeness - The Po Who Cried Ghost",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "LazyTown - LazyTown's Surprise Santa",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Little Bill - Merry Christmas Little Bill",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Little Bill - The Halloween Costume; The Haunted Halloween Party",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Madagascar Holiday Short I Merry Madagascar",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Madagascar Penguins - Christmas Caper",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Max & Ruby - Ruby & The Beast; Max & Ruby’s Halloween House; Max’s Trick or Treat",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Merry Madagascar (2009)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Middlemost Post - More Scary Stories to Tell Your Cloud",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Middlemost Post – Parker Saves Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Monsters vs Aliens: Mutant Pumpkins from Outer Space",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "My Life as a Teenage Robot - A Robot For All Seasons",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Ni Hao, Kai-Lan - Ni Hao, Halloween",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Oobi - Halloween!",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Peg + Cat - The Christmas Problem",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Robot and Monster - Baconmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Rocket Power - A Rocket X-Mas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Rocko's Modern Life - Rocko's Modern Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Rugrats - The Santa Experience",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Sesame Street - A Magical Halloween Adventure",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Sesame Street - Christmas Eve on Sesame Street",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Sesame Street - Elmo Saves Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Sesame Street - Elmo's Christmas Countdown",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Shrek Holiday Short I Shrek the Halls",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Shrek Holiday Short II Scared Shrekless",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Shrek Holiday Short III Donkey's Christmas Shrektacular",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Shrek the Halls (2007)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "SpongeBob SquarePants - Christmas Who",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "SpongeBob SquarePants - Christmas Who (2000)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "SpongeBob SquarePants — The Legend of Boo-Kini Bottom (DVD presentation)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Super WHY! - The Ghost Who Was Afraid of Halloween",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Adventures of Jimmy Neutron Boy Genius - Nightmare in Retroville",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Casagrandes - New Haunts",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Fairly OddParents - Scary Godparents",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Yo Gabba Gabba - Halloween",
+            "distinct_episodes": 1
+          }
+        ],
+        "Films": [
+          {
+            "name": "Bee Movie (2007)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bolt (2008)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Chicken Little (2005)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Curious George: A Halloween Boofest",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Good Burger (1997)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Goonies (1985)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Kung Fu Panda (2008)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Kung Fu Panda 2",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Kung Fu Panda 3",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Kung Fu Panda 4",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Madagascar (2005)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Madagascar 3 Europe's Most Wanted",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Madagascar: Escape 2 Africa (2008)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Monster House (2006)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Monsters Vs Aliens (2009)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Over the Hedge (2006)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Rise of the Guardians (2012)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Rugrats Go Wild",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Rugrats In Paris The Movie",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Shrek (2001)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Shrek 2",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Shrek 3 Shrek the Third",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Shrek 4 Forever and After",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Shrek the Musical (2013)",
+            "distinct_episodes": 1
+          }
+        ]
+      }
+    },
+    "GirlyPop": {
+      "counts": {
+        "Series": 20,
+        "Films": 25,
+        "Specials and one-offs": 7
+      },
+      "programmes": {
+        "Series": [
+          {
+            "name": "64 Zoo Lane",
+            "distinct_episodes": 24
+          },
+          {
+            "name": "6teen",
+            "distinct_episodes": 91
+          },
+          {
+            "name": "Arthur",
+            "distinct_episodes": 254
+          },
+          {
+            "name": "Braceface",
+            "distinct_episodes": 78
+          },
+          {
+            "name": "Bratz",
+            "distinct_episodes": 38
+          },
+          {
+            "name": "Dragon Tales",
+            "distinct_episodes": 94
+          },
+          {
+            "name": "Franny’s Feet",
+            "distinct_episodes": 45
+          },
+          {
+            "name": "Hello Kitty’s Furry Tale Theater",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "LazyTown",
+            "distinct_episodes": 27
+          },
+          {
+            "name": "Mary-Kate and Ashley in Action!",
+            "distinct_episodes": 19
+          },
+          {
+            "name": "Mona the Vampire",
+            "distinct_episodes": 65
+          },
+          {
+            "name": "Pingu",
+            "distinct_episodes": 157
+          },
+          {
+            "name": "Ruby Gloom",
+            "distinct_episodes": 39
+          },
+          {
+            "name": "Sabrina: The Animated Series",
+            "distinct_episodes": 65
+          },
+          {
+            "name": "Sonic the Hedgehog (SatAM)",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "Strawberry Shortcake",
+            "distinct_episodes": 37
+          },
+          {
+            "name": "Tattooed Teenage Alien Fighters From Beverly Hills",
+            "distinct_episodes": 40
+          },
+          {
+            "name": "Totally Spies!",
+            "distinct_episodes": 156
+          },
+          {
+            "name": "Trollz",
+            "distinct_episodes": 27
+          },
+          {
+            "name": "Winx Club",
+            "distinct_episodes": 78
+          }
+        ],
+        "Films": [
+          {
+            "name": "Barbie 12 dancing princesses",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Barbie and the Magic of Pegasus",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Barbie as Rapunzel (2002)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Barbie Fairytopia",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Barbie Nutcracker",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "BARBIE OF SWAN LAKE13",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Barbie Princess And Pauper",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bratz Babyz Save Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bratz Babyz The Movie",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bratz Desert Jewelz",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bratz Fashion Pixiez",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bratz Genie Magic",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bratz Girlz Really Rock",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bratz Go To Paris",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bratz Kidz Fairy-Tales",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bratz Kidz Sleep Over Adventure",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bratz Pampered Petz",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bratz Passion 4 Fashion Diamondz",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bratz Rock Angelz",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bratz Starrin & Stylin",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bratz Super Babyz",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Coraline (2009)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "My Little Pony Special; Rainbow Roadtrip (2019)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "My Little Pony; The Movie (2017)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Nightmare Before Christmas (1993)",
+            "distinct_episodes": 1
+          }
+        ],
+        "Specials and one-offs": [
+          {
+            "name": "22 Winx Club A Magix Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Fairy Tale Christmas (2005)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Snow White Christmas (1980)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Angelina Ballerina - Henry’s Halloween",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Cabbage Patch Kids - Cabbage Patch Kids First Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Cabbage Patch Kids - Vernon's Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pinkalicious and Peterrific - Gingerbread House-Christmas Tree Trouble",
+            "distinct_episodes": 1
+          }
+        ]
+      }
+    },
+    "Dizzy": {
+      "counts": {
+        "Series": 16,
+        "Films": 49,
+        "Specials and one-offs": 49
+      },
+      "programmes": {
+        "Series": [
+          {
+            "name": "American Dragon: Jake Long",
+            "distinct_episodes": 52
+          },
+          {
+            "name": "Even Stevens",
+            "distinct_episodes": 65
+          },
+          {
+            "name": "Fillmore!",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "Gravity Falls",
+            "distinct_episodes": 39
+          },
+          {
+            "name": "Hannah Montana",
+            "distinct_episodes": 57
+          },
+          {
+            "name": "Kim Possible",
+            "distinct_episodes": 38
+          },
+          {
+            "name": "Lilo & Stitch: The Series",
+            "distinct_episodes": 18
+          },
+          {
+            "name": "Lizzie McGuire",
+            "distinct_episodes": 31
+          },
+          {
+            "name": "Mickey Mouse Works",
+            "distinct_episodes": 19
+          },
+          {
+            "name": "Mulaney",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Phil of the Future",
+            "distinct_episodes": 43
+          },
+          {
+            "name": "Phineas and Ferb",
+            "distinct_episodes": 167
+          },
+          {
+            "name": "Recess",
+            "distinct_episodes": 127
+          },
+          {
+            "name": "Total Drama Island",
+            "distinct_episodes": 27
+          },
+          {
+            "name": "Wolverine and the X-Men",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "X-Men: Evolution",
+            "distinct_episodes": 45
+          }
+        ],
+        "Films": [
+          {
+            "name": "A Bug's Life",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Goofy Movie (1995)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Aladdin (1992)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Aladdin II The Return Of Jafar",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Aladdin III The King Of Thieves",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Atlantis: Milo’s Return",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Atlantis: The Lost Empire (2001)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bambi (1941)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bambi II",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Beauty and the Beast The Enchanted Christmas (1997)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Dumbo (1941)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Dumbo (2019)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Finding Nemo (2003)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Frankenweenie — feature presentation",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Lemonade Mouth 2011",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Meet The Robinsons",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Monsters Inc (2001)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Monsters University (2013)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Phineas and Ferb the Movie Across the 2nd Dimension",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Phineas and Ferb the Movie Candace Against the Universe",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pocahontas (1995)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pocahontas II; Journey to the New World",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Pooh's Heffalump Halloween Movie",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Rango",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Ratatouille (2007)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Recess: All Growed Down",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Recess: Miracle On Third Street",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Recess: School’s Out",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Recess: Taking The Fifth Grade",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Tarzan & Jane",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Tarzan (1999)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Tarzan II",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Cat In The Hat 2003",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Incredibles (2004)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Iron Giant (1999)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Lion King (1994)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Lion King (2019)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Lion King 1½",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Lion King II; Simba's Pride",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Luck of the Irish (2001)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Muppet Christmas Carol (1992)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Toy Story (1995)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Toy Story 2 (1999)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Toy Story 3 (2010)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Toy Story 4",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Toy Story 5 (2026)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Up! (2009)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Wall-E (2008)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Winnie the Pooh: Springtime with Roo",
+            "distinct_episodes": 1
+          }
+        ],
+        "Specials and one-offs": [
+          {
+            "name": "1929 - Disney - Hell's Bells",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1929 - Disney -The Skeleton Dance",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1929 - Mickey Mouse -The Haunted House",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1933 - Mickey Mouse - The Mad Doctor",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1935 - Disney - Pluto's Judgement Day",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1937 - Disney - The Old Mill",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1937 - Mickey Mouse - Lonesome Ghosts",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1944 - Donald Duck and the Gorilla",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1949 - Disney - The Legend Of Sleepy Hollow",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "1952 - Donald Duck - Trick or Treat",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Disney Christmas Gift (1982)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Walt Disney Christmas (1982)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Winnie the Pooh Thanksgiving",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "American Dragon Jake Long - Hairy Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "American Dragon Jake Long - The Halloween Bash",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Amphibia - Froggy Little Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bear in the Big Blue House - A Berry Bear Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bear in the Big Blue House - A Berry Bear Christmas (Part 1)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bear in the Big Blue House - A Berry Bear Christmas (Part 2)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Bear in the Big Blue House - Halloween Bear",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Big City Greens - Green Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Buzz Lightyear of Star Command Holiday Time (2000)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Disney's DTV Monster Hits (1987)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Doc McStuffins - A Very McStuffins Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "DuckTales (2017) - How Santa Stole Christmas!",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "DuckTales (2017) - Last Christmas!",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "DuckTales - Last Christmas!",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Fish Hooks - Halloween Haul",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Handy Mandy - Halloween",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Higglytown Heroes - Higgly Halloween",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "House of Mouse - Mickey's Magical Christmas Snowed in at the House of Mouse (2001)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "JoJo's Circus - A Circus Town Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Kim Possible - A Very Possible Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Kim Possible – A Very Possible Christmas (2003)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Lilo & Stitch The Series - Spooky",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Little Einsteins - A Little Einsteins Halloween",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Little Einsteins - The Christmas Wish",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Mickey Mouse Clubhouse - Mickey Saves Santa",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Milo Murphy’s Law - A Christmas Peril",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Muppet Babies (2018) - A Very Muppet Babies Christmas; Summer’s Super Fabulous Holiday Surprise",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Muppet Babies (2018) - Happy Hallowocka; The Teeth-Chattering Tale of the Haunted Pancakes",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "My Friends Tigger & Pooh - Super Sleuth Christmas Movie",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "PB&J Otter - A Hoohaw Halloween",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Phineas and Ferb - Phineas and Ferb Christmas Vacation",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Rolie Polie Olie - The Legend of the Spookie Ookie; Oooh Scary!; Zowie Queen of the Pumpkins",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Emperor’s New School - A Giftmas Story",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Emperor’s New School A Giftmas Story (2007)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Proud Family - A Hero for Halloween",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Small One (1978)",
+            "distinct_episodes": 1
+          }
+        ]
+      }
+    },
+    "What": {
+      "counts": {
+        "Series": 23,
+        "Films": 4,
+        "Specials and one-offs": 9
+      },
+      "programmes": {
+        "Series": [
+          {
+            "name": "Ancient Aliens",
+            "distinct_episodes": 201
+          },
+          {
+            "name": "Animal X",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "Arthur C. Clarke’s Mysterious World",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "Cosmos: A Personal Voyage",
+            "distinct_episodes": 13
+          },
+          {
+            "name": "David Attenborough",
+            "distinct_episodes": 53
+          },
+          {
+            "name": "Doomsday Preppers",
+            "distinct_episodes": 51
+          },
+          {
+            "name": "Ghost Adventures",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Ghost Hunters",
+            "distinct_episodes": 26
+          },
+          {
+            "name": "Haunted History",
+            "distinct_episodes": 18
+          },
+          {
+            "name": "In Search Of…",
+            "distinct_episodes": 87
+          },
+          {
+            "name": "Lost Tapes",
+            "distinct_episodes": 34
+          },
+          {
+            "name": "Louis Theroux",
+            "distinct_episodes": 3
+          },
+          {
+            "name": "Man v. Food",
+            "distinct_episodes": 77
+          },
+          {
+            "name": "Man v. Food Nation",
+            "distinct_episodes": 19
+          },
+          {
+            "name": "Maximum Exposure",
+            "distinct_episodes": 50
+          },
+          {
+            "name": "Mayday / Air Crash Investigation",
+            "distinct_episodes": 116
+          },
+          {
+            "name": "Most Haunted",
+            "distinct_episodes": 5
+          },
+          {
+            "name": "Most Shocking",
+            "distinct_episodes": 42
+          },
+          {
+            "name": "NOVA",
+            "distinct_episodes": 182
+          },
+          {
+            "name": "Overhaulin'",
+            "distinct_episodes": 11
+          },
+          {
+            "name": "River Monsters",
+            "distinct_episodes": 50
+          },
+          {
+            "name": "Robot Wars (UK)",
+            "distinct_episodes": 61
+          },
+          {
+            "name": "Scariest Places on Earth",
+            "distinct_episodes": 20
+          }
+        ],
+        "Films": [
+          {
+            "name": "George W Bush The 9 11 Interview (2011)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Reefer Madness (1936)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Super Size Me (2004)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Twister",
+            "distinct_episodes": 1
+          }
+        ],
+        "Specials and one-offs": [
+          {
+            "name": "A Christmas Carol (1971)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Claymation Christmas Celebration (1987)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Muppet Family Christmas (1987)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "A Sesame Street Christmas Carol (2006)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Ghost Adventures (2004 documentary)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Most Haunted in America (2002)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Most Haunted Journeys (2004)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Strange but True? — The Rendlesham Incident",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Haunted History of Halloween",
+            "distinct_episodes": 1
+          }
+        ]
+      }
+    }
+  }
+}

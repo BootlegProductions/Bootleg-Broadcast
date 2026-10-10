@@ -1,0 +1,557 @@
+{
+  "identifier": "the-o.c.",
+  "files": [
+    {
+      "name": "Season 1/The.o.c.s01e01.pilot.amzn-web-dl.720p.x264.mp4",
+      "length": "2706.6",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e02.the.model.home.amzn-web-dl.720p.x264.mp4",
+      "length": "2624.11",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e03.the.gamble.amzn-web-dl.720p.x264.mp4",
+      "length": "2630.57",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e04.the.debut.amzn-web-dl.720p.x264.mp4",
+      "length": "2648.26",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e05.the.outsider.amzn-web-dl.720p.x264.mp4",
+      "length": "2644.74",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e06.the.girlfriend.amzn-web-dl.720p.x264.mp4",
+      "length": "2631.21",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e07.the.escape.amzn-web-dl.720p.x264.mp4",
+      "length": "2620.42",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e08.the.rescue.amzn-web-dl.720p.x264.mp4",
+      "length": "2626.11",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e09.the.heights.amzn-web-dl.720p.x264.mp4",
+      "length": "2601.32",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e10.the.perfect.couple.amzn-web-dl.720p.x264.mp4",
+      "length": "2625.41",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e11.the.homecoming.amzn-web-dl.720p.x264.mp4",
+      "length": "2604.65",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e12.the.secret.amzn-web-dl.720p.x264.mp4",
+      "length": "2606",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e13.the.best.chrismukkah.ever.amzn-web-dl.720p.x264.mp4",
+      "length": "2583.87",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e14.the.countdown.amzn-web-dl.720p.x264.mp4",
+      "length": "2593.47",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e15.the.third.wheel.amzn-web-dl.720p.x264.mp4",
+      "length": "2626.94",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e16.the.links.amzn-web-dl.720p.x264.mp4",
+      "length": "2629.7",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e17.the.rivals.amzn-web-dl.720p.x264.mp4",
+      "length": "2628.86",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e18.the.truth.amzn-web-dl.720p.x264.mp4",
+      "length": "2627.56",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e19.the.heartbreak.amzn-web-dl.720p.x264.mp4",
+      "length": "2611.95",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e20.the.telenovela.amzn-web-dl.720p.x264.mp4",
+      "length": "2620.48",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e21.the.goodbye.girl.amzn-web-dl.720p.x264.mp4",
+      "length": "2626.8",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e22.the.l.a.amzn-web-dl.720p.x264.mp4",
+      "length": "2619.95",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e23.the.nana.amzn-web-dl.720p.x264.mp4",
+      "length": "2626.35",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e24.the.proposal.amzn-web-dl.720p.x264.mp4",
+      "length": "2633.09",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e25.the.shower.amzn-web-dl.720p.x264.mp4",
+      "length": "2635.52",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e26.the.strip.amzn-web-dl.720p.x264.mp4",
+      "length": "2622.21",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 1/The.o.c.s01e27.the.ties.that.bind.amzn-web-dl.720p.x264.mp4",
+      "length": "2622.72",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e01.the.distance.amzn-web-dl.720p.x264.mp4",
+      "length": "2622.4",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e02.the.way.we.were.amzn-web-dl.720p.x264.mp4",
+      "length": "2612.22",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e03.the.new.kids.on.the.block.amzn-web-dl.720p.x264.mp4",
+      "length": "2607.62",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e04.the.new.era.amzn-web-dl.720p.x264.mp4",
+      "length": "2610.94",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e05.the.sno.c.amzn-web-dl.720p.x264.mp4",
+      "length": "2610.99",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e06.the.chrismukkah.that.almost.wasn't.amzn-web-dl.720p.x264.mp4",
+      "length": "2615.4",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e07.the.family.ties.amzn-web-dl.720p.x264.mp4",
+      "length": "2624.51",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e08.the.power.of.love.amzn-web-dl.720p.x264.mp4",
+      "length": "2625.52",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e09.the.ex.factor.amzn-web-dl.720p.x264.mp4",
+      "length": "2621.87",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e10.the.accomplice.amzn-web-dl.720p.x264.mp4",
+      "length": "2627.07",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e11.the.second.chance.amzn-web-dl.720p.x264.mp4",
+      "length": "2613.93",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e12.the.lonely.hearts.club.amzn-web-dl.720p.x264.mp4",
+      "length": "2614.64",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e13.the.father.knows.best.amzn-web-dl.720p.x264.mp4",
+      "length": "2614.38",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e14.the.rainy.day.women.amzn-web-dl.720p.x264.mp4",
+      "length": "2616.56",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e15.the.mallpisode.amzn-web-dl.720p.x264.mp4",
+      "length": "2527.53",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e16.the.blaze.of.glory.amzn-web-dl.720p.x264.mp4",
+      "length": "2620.86",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e17.the.brothers.grim.amzn-web-dl.720p.x264.mp4",
+      "length": "2623.42",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e18.the.risky.business.amzn-web-dl.720p.x264.mp4",
+      "length": "2623.62",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e19.the.rager.amzn-web-dl.720p.x264.mp4",
+      "length": "2623.23",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e20.the.o.c.confidential.amzn-web-dl.720p.x264.mp4",
+      "length": "2620.59",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e21.the.return.of.the.nana.amzn-web-dl.720p.x264.mp4",
+      "length": "2610.16",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e22.the.showdown.amzn-web-dl.720p.x264.mp4",
+      "length": "2622.34",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e23.the.o.sea.amzn-web-dl.720p.x264.mp4",
+      "length": "2621.76",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 2/The.o.c.s02e24.the.dearly.beloved.amzn-web-dl.720p.x264.mp4",
+      "length": "2622.34",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e01.the.aftermath.amzn-web-dl.720p.x264.mp4",
+      "length": "2618.62",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e02.the.shape.of.things.to.come.amzn-web-dl.720p.x264.mp4",
+      "length": "2620.61",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e03.the.end.of.innocence.amzn-web-dl.720p.x264.mp4",
+      "length": "2633.52",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e04.the.last.waltz.amzn-web-dl.720p.x264.mp4",
+      "length": "2630.34",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e05.the.perfect.storm.amzn-web-dl.720p.x264.mp4",
+      "length": "2633.07",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e06.the.swells.amzn-web-dl.720p.x264.mp4",
+      "length": "2605.06",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e07.the.anger.management.amzn-web-dl.720p.x264.mp4",
+      "length": "2628.52",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e08.the.game.plan.amzn-web-dl.720p.x264.mp4",
+      "length": "2642.94",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e09.the.disconnect.amzn-web-dl.720p.x264.mp4",
+      "length": "2636.93",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e10.the.chrismukkah.bar.mitz.vahkkah.amzn-web-dl.720p.x264.mp4",
+      "length": "2626.92",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e11.the.safe.harbor.amzn-web-dl.720p.x264.mp4",
+      "length": "2622.76",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e12.the.sister.act.amzn-web-dl.720p.x264.mp4",
+      "length": "2626.37",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e13.the.pot.stirrer.amzn-web-dl.720p.x264.mp4",
+      "length": "2631.4",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e14.the.cliffhanger.amzn-web-dl.720p.x264.mp4",
+      "length": "2606.19",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e15.the.heavy.lifting.amzn-web-dl.720p.x264.mp4",
+      "length": "2628.03",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e16.the.road.warrior.amzn-web-dl.720p.x264.mp4",
+      "length": "2598.46",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e17.the.journey.amzn-web-dl.720p.x264.mp4",
+      "length": "2641.6",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e18.the.undertow.amzn-web-dl.720p.x264.mp4",
+      "length": "2627.84",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e19.the.secrets.and.lies.amzn-web-dl.720p.x264.mp4",
+      "length": "2640.62",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e20.the.day.after.tomorrow.amzn-web-dl.720p.x264.mp4",
+      "length": "2632.49",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e21.the.dawn.patrol.amzn-web-dl.720p.x264.mp4",
+      "length": "2627.46",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e22.the.college.try.amzn-web-dl.720p.x264.mp4",
+      "length": "2638.14",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e23.the.party.favor.amzn-web-dl.720p.x264.mp4",
+      "length": "2598.46",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e24.the.man.of.the.year.amzn-web-dl.720p.x264.mp4",
+      "length": "2632.24",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 3/The.o.c.s03e25.the.graduates.amzn-web-dl.720p.x264.mp4",
+      "length": "2634.37",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 4/The.o.c.s04e01.the.avengers.amzn-web-dl.720p.x264.mp4",
+      "length": "2608.45",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 4/The.o.c.s04e02.the.gringos.amzn-web-dl.720p.x264.mp4",
+      "length": "2615.62",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 4/The.o.c.s04e03.the.cold.turkey.amzn-web-dl.720p.x264.mp4",
+      "length": "2556.1",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 4/The.o.c.s04e04.the.metamorphosis.amzn-web-dl.720p.x264.mp4",
+      "length": "2611.82",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 4/The.o.c.s04e05.the.sleeping.beauty.amzn-web-dl.720p.x264.mp4",
+      "length": "2618.88",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 4/The.o.c.s04e06.the.summer.bummer.amzn-web-dl.720p.x264.mp4",
+      "length": "2610.8",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 4/The.o.c.s04e07.the.chrismukk.huh.amzn-web-dl.720p.x264.mp4",
+      "length": "2621.57",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 4/The.o.c.s04e08.the.earth.girls.are.easy.amzn-web-dl.720p.x264.mp4",
+      "length": "2590.51",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 4/The.o.c.s04e09.my.two.dads.amzn-web-dl.720p.x264.mp4",
+      "length": "2622.34",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 4/The.o.c.s04e10.the.french.connection.amzn-web-dl.720p.x264.mp4",
+      "length": "2616.9",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 4/The.o.c.s04e11.the.dream.lover.amzn-web-dl.720p.x264.mp4",
+      "length": "2614.85",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 4/The.o.c.s04e12.the.groundhog.day.amzn-web-dl.720p.x264.mp4",
+      "length": "2610.92",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 4/The.o.c.s04e13.the.case.of.the.franks.amzn-web-dl.720p.x264.mp4",
+      "length": "2621.29",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 4/The.o.c.s04e14.the.shake.up.1080p.amzn-web-dl.720p.x264.mp4",
+      "length": "2616.88",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 4/The.o.c.s04e15.the.night.moves.amzn-web-dl.720p.x264.mp4",
+      "length": "2619.31",
+      "format": "h.264",
+      "source": "derivative"
+    },
+    {
+      "name": "Season 4/The.o.c.s04e16.the.end's.not.near,.it's.here.amzn-web-dl.720p.x264.mp4",
+      "length": "2612.72",
+      "format": "h.264",
+      "source": "derivative"
+    }
+  ]
+}
