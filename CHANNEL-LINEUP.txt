@@ -1,4 +1,4 @@
-BOOTLEG BROADCAST v0.36.1 — WHAT ACTUALLY PLAYS
+BOOTLEG BROADCAST v0.36.4 — WHAT ACTUALLY PLAYS
 Ten channels; compiled 2026 calendar. Seasonal programmes are included.
 Counts below come from the finished schedules, not the source library.
 Episode counts are distinct episodes actually scheduled during this year.
@@ -476,24 +476,24 @@ STAR SPANGLED TV
 21 series; 84 films; 31 specials/one-offs.
 
 Series:
-- All in the Family (46 distinct episodes)
+- All in the Family (42 distinct episodes)
 - America’s Funniest Home Videos (126 distinct episodes)
 - Buffy the Vampire Slayer (8 distinct episodes)
 - Cops (72 distinct episodes)
 - Family Matters (210 distinct episodes)
-- Home Improvement (85 distinct episodes)
+- Home Improvement (51 distinct episodes)
 - Jackass (24 distinct episodes)
 - Liberty’s Kids (40 distinct episodes)
 - MADtv (245 distinct episodes)
 - Malcolm in the Middle (151 distinct episodes)
 - Norm Macdonald Live (33 distinct episodes)
-- That ’70s Show (98 distinct episodes)
-- The Dukes of Hazzard (279 distinct episodes)
+- That ’70s Show (99 distinct episodes)
+- The Dukes of Hazzard (94 distinct episodes)
 - The Jerry Springer Show (29 distinct episodes)
 - The Magic School Bus (52 distinct episodes)
 - The O.C. (91 distinct episodes)
 - The Office (US) (170 distinct episodes)
-- The Osbournes (158 distinct episodes)
+- The Osbournes (36 distinct episodes)
 - The Twilight Zone (12 distinct episodes)
 - To Catch a Predator (18 distinct episodes)
 - Trailer Park Boys (55 distinct episodes)

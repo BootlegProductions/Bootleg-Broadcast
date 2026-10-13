@@ -1,5 +1,5 @@
 {
-  "version": "0.36.1",
+  "version": "0.36.4",
   "year": 2026,
   "scope": "Actual compiled calendar; excludes adverts, idents and fireplace filler. Series counts count programme identities, not individual episodes. Films/specials count distinct displayed titles.",
   "channels": {
@@ -1797,7 +1797,7 @@
         "Series": [
           {
             "name": "All in the Family",
-            "distinct_episodes": 46
+            "distinct_episodes": 42
           },
           {
             "name": "America’s Funniest Home Videos",
@@ -1817,7 +1817,7 @@
           },
           {
             "name": "Home Improvement",
-            "distinct_episodes": 85
+            "distinct_episodes": 51
           },
           {
             "name": "Jackass",
@@ -1841,11 +1841,11 @@
           },
           {
             "name": "That ’70s Show",
-            "distinct_episodes": 98
+            "distinct_episodes": 99
           },
           {
             "name": "The Dukes of Hazzard",
-            "distinct_episodes": 279
+            "distinct_episodes": 94
           },
           {
             "name": "The Jerry Springer Show",
@@ -1865,7 +1865,7 @@
           },
           {
             "name": "The Osbournes",
-            "distinct_episodes": 158
+            "distinct_episodes": 36
           },
           {
             "name": "The Twilight Zone",

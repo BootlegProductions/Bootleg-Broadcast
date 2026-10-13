@@ -1,0 +1,157 @@
+BOOTLEG BROADCAST v0.36.4 — CHANNEL ADVERTS & IDENTS
+35 checked clips: 13 UK adverts, 6 Disney idents and 16 Nickelodeon idents.
+All selected clips are shorter than 60 seconds. Existing advert/trailer/bumper pools are now also capped at 60 seconds.
+Exact original MP4s only, measured with ffprobe; H.264/AAC and complete decode checks passed.
+English is declared by uploaders; no full independent listening review.
+UK products stay on Off-Licence; Disney and Nickelodeon station branding stay on Dizzy and Dickleodeon respectively.
+Some Disney idents were captured from the English Australian feed in 2002; the source description is retained.
+PG Tips Monkey promotion is from 2007; the Christmas spot is from 1992. Dates have not been relabelled as earlier adverts.
+Christmas clips are December-only; Cadbury Mini Eggs has been held for its oversized original copy.
+
+OFF-LICENCE TV
+
+Cadbury’s Darkness Chocolate Tray Advert — 30.378 seconds
+https://archive.org/details/CadburysDarknessChocolateTrayAdvert1996
+https://archive.org/download/CadburysDarknessChocolateTrayAdvert1996/Cadburys%20Darkness%20Chocolate%20Tray%20Advert.mp4
+
+Cadbury's Double Decker Advert — 29.930 seconds
+https://archive.org/details/CadburysDoubleDeckerAdvert
+https://archive.org/download/CadburysDoubleDeckerAdvert/Cadbury%27s%20Double%20Decker%20Advert.mp4
+
+Cadbury's Highlights Advert — 40.320 seconds
+https://archive.org/details/CadburysHighlightsAdvert
+https://archive.org/download/CadburysHighlightsAdvert/Cadbury%27s%20Highlights%20Advert.mp4
+
+Cadbury’s Roses Advert — 10.320 seconds
+https://archive.org/details/CadburysRoses2001Advert
+https://archive.org/download/CadburysRoses2001Advert/Cadburys%20Roses%20Advert.mp4
+
+PG Tips Christmas Advert — 10.133 seconds
+https://archive.org/details/PGTipsChristmasAdvert1992
+https://archive.org/download/PGTipsChristmasAdvert1992/PG%20Tips%20Christmas%20Advert.mp4
+
+PG Tips. Free Monkey — 10.356 seconds
+https://archive.org/details/pg-tips.-free-monkey
+https://archive.org/download/pg-tips.-free-monkey/PG_Tips._Free_Monkey.mp4
+
+Irn Bru Advert — 30.378 seconds
+https://archive.org/details/IrnBruAdvert
+https://archive.org/download/IrnBruAdvert/Irn%20Bru%20Advert.mp4
+
+Robinsons Squash x Toy Story 2 Advert — 30.954 seconds
+https://archive.org/details/RobinsonsSquashxToyStory2Advert2000
+https://archive.org/download/RobinsonsSquashxToyStory2Advert2000/Robinsons%20Squash%20x%20Toy%20Story%202%20Advert.mp4
+
+Tango Orange Advert — 29.738 seconds
+https://archive.org/details/TangoOrangeAdvert
+https://archive.org/download/TangoOrangeAdvert/Tango%20Orange%20Advert.mp4
+
+Robinsons Squash Advert — 29.525 seconds
+https://archive.org/details/RobinsonsSquashAdvert
+https://archive.org/download/RobinsonsSquashAdvert/Robinsons%20Squash%20Advert.mp4
+
+Walkers Crisps Advert with Gary Lineker — 39.936 seconds
+https://archive.org/details/WalkersCrispsAdvert1999withGaryLinekar
+https://archive.org/download/WalkersCrispsAdvert1999withGaryLinekar/Walkers%20Crisps%20Advert%20with%20Gary%20Linekar.mp4
+
+Robinsons Fruit and Barley Advert — 29.696 seconds
+https://archive.org/details/RobinsonsFruitandBarleyAdvert1999
+https://archive.org/download/RobinsonsFruitandBarleyAdvert1999/Robinsons%20Fruit%20and%20Barley%20Advert.mp4
+
+Walkers Crisps Advert — 40.000 seconds
+https://archive.org/details/WalkersCrispsAdvert
+https://archive.org/download/WalkersCrispsAdvert/Walkers%20Crisps%20Advert.mp4
+
+DIZZY
+
+Disney Channel ident (15) — 13.205 seconds
+https://archive.org/details/disney-channel-ident-15
+https://archive.org/download/disney-channel-ident-15/Disney%20Channel%20ident%20%2815%29.mp4
+
+Disney Channel ident (16) — 11.115 seconds
+https://archive.org/details/disney-channel-ident-16
+https://archive.org/download/disney-channel-ident-16/Disney%20Channel%20ident%20%2816%29.mp4
+
+Disney Channel ident (17) — 4.352 seconds
+https://archive.org/details/disney-channel-ident-17
+https://archive.org/download/disney-channel-ident-17/Disney%20Channel%20ident%20%2817%29.mp4
+
+Disney Channel ident (18) — 12.139 seconds
+https://archive.org/details/disney-channel-ident-18
+https://archive.org/download/disney-channel-ident-18/Disney%20Channel%20ident%20%2818%29.mp4
+
+Disney Channel Open — 25.125 seconds
+https://archive.org/details/disney-channel-idents-2002
+https://archive.org/download/disney-channel-idents-2002/Disney%20Channel%20Open%20%5B50535270%5D.mp4
+
+Disney WandIDs — 32.499 seconds
+https://archive.org/details/disney-channel-idents-2002
+https://archive.org/download/disney-channel-idents-2002/Disney%20WandIDs%20%5B50535272%5D.mp4
+
+DICKLEODEON
+
+Nickelodeon promo - Tropical — 10.005 seconds
+https://archive.org/details/nickelodeon-promo-tropical
+https://archive.org/download/nickelodeon-promo-tropical/Nickelodeon%20promo%20-%20Tropical.mp4
+
+Nickelodeon promo - Robots — 10.176 seconds
+https://archive.org/details/nickelodeon-promo-robots
+https://archive.org/download/nickelodeon-promo-robots/Nickelodeon%20promo%20-%20Robots.mp4
+
+Nickelodeon ident - Mina & the Count — 9.963 seconds
+https://archive.org/details/nickelodeon-ident-mina-the-count
+https://archive.org/download/nickelodeon-ident-mina-the-count/Nickelodeon%20ident%20-%20Mina%20%26%20the%20Count.mp4
+
+Nickelodeon promo - Barks — 10.027 seconds
+https://archive.org/details/nickelodeon-promo-barks
+https://archive.org/download/nickelodeon-promo-barks/Nickelodeon%20promo%20-%20Barks.mp4
+
+Nickelodeon ident  - Drain (flip) — 10.069 seconds
+https://archive.org/details/nickelodeon-ident-drain-flip
+https://archive.org/download/nickelodeon-ident-drain-flip/Nickelodeon%20ident%20%20-%20Drain%20%28flip%29.mp4
+
+Nickelodeon promo - Cereal and cup — 10.069 seconds
+https://archive.org/details/nickelodeon-promo-cereal-and-cup
+https://archive.org/download/nickelodeon-promo-cereal-and-cup/Nickelodeon%20promo%20-%20Cereal%20and%20cup.mp4
+
+Nickelodeon ident - SpongeBob SquarePants — 10.098 seconds
+https://archive.org/details/nickelodeon-ident-sponge-bob-square-pants
+https://archive.org/download/nickelodeon-ident-sponge-bob-square-pants/Nickelodeon%20ident%20-%20SpongeBob%20SquarePants.mp4
+
+NICKELODEON Claymation IDs — 41.322 seconds
+https://archive.org/details/nick-ids-comp_202202
+https://archive.org/download/nick-ids-comp_202202/NICKELODEON%20Claymation%20IDs.mp4
+
+Nick Games (2002, highest quality) — 5.480 seconds
+https://archive.org/details/nick-ids-comp_202202
+https://archive.org/download/nick-ids-comp_202202/Nick%20Games%20%282002%2C%20highest%20quality%29.mp4
+
+Nickelodeon Bumper - Nickelodeon Machine — 30.100 seconds
+https://archive.org/details/nick-ids-comp_202202
+https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20Bumper%20-%20Nickelodeon%20Machine.mp4
+
+Nickelodeon Bumper - Orange Shapes — 30.279 seconds
+https://archive.org/details/nick-ids-comp_202202
+https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20Bumper%20-%20Orange%20Shapes.mp4
+
+Nickelodeon Bumper - Time Machine (HQ Rare) — 20.016 seconds
+https://archive.org/details/nick-ids-comp_202202
+https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20Bumper%20-%20Time%20Machine%20%28HQ_Rare%29.mp4
+
+Nickelodeon ID - Toaster — 8.000 seconds
+https://archive.org/details/nick-ids-comp_202202
+https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20ID%20-%20Toaster.mp4
+
+Nickelodeon Orange You Glad Bumper — 10.077 seconds
+https://archive.org/details/nick-ids-comp_202202
+https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20Orange%20You%20Glad%20Bumper.mp4
+
+Nicktoons 'Blob' ID (1993) — 20.619 seconds
+https://archive.org/details/nick-ids-comp_202202
+https://archive.org/download/nick-ids-comp_202202/Nicktoons%20%27Blob%27%20ID%20%281993%29.mp4
+
+Nicktoons   The Dancer Bumper 2004 — 30.232 seconds
+https://archive.org/details/nick-ids-comp_202202
+https://archive.org/download/nick-ids-comp_202202/Nicktoons%20_%20The%20Dancer%20Bumper%202004.mp4
+
+Held clips and reasons are retained in channel-interstitial-source-review.json. No original link or asset has been deleted.

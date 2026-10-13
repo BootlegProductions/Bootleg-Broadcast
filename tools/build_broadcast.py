@@ -29,7 +29,7 @@ def decorate(p):
  length=f.get('length') or f.get('duration')
  try:duration=float(length or p.get('duration_seconds') or 0)
  except (ValueError,TypeError):duration=0
- if duration>0:p['duration_seconds']=round(duration,3);p['duration_evidence']='IA exact filename length' if length else p.get('duration_evidence','Previously recorded runtime')
+ if duration>0:p['duration_seconds']=round(duration,3);p['duration_evidence']=f.get('duration_evidence','IA exact filename length') if length else p.get('duration_evidence','Previously recorded runtime')
  p.setdefault('source_show',p.get('show'));key=lookups.get(p.get('source_show')) or (p.get('series_id') if p.get('series_id') in defs else None);stem=(filename or p.get('title','')).rsplit('/',1)[-1];text=urllib.parse.unquote(stem)
  text=text.replace('_',' ')
  season=number(p.get('season_number',p.get('season')),1);episode=number(p.get('episode_number',p.get('episode')));part=p.get('episode_part','')
@@ -140,27 +140,38 @@ for p in records:
 long_series={'utopia','jeremy','robotwars','topgear','doctorwho','countdown','idiot','moaning','blackmirror','beinghuman','sherlock','cosmos','attenborough','nova','river','mayday','ancient','haunted','hauntedhistory','scariest','afhv','dukes','jerry','madtv'}
 for key in defs:
  maxlen=defs[key].get('max_episode_seconds') or (7200 if key=='sherlock' else 4500 if key in ['cosmos','jeremy'] else 5400 if key=='hauntedhistory' else 3600 if key in long_series or key=='reboot' else 2100)
- rows=[p for p in profiles[key] if (not defs[key].get('require_mapped_episode') or p.get('restoration_evidence')) and p['duration_seconds']<=maxlen and (key not in ['topgear','doctorwho','cosmos','countdown','beinghuman','blackmirror'] or p['duration_seconds']>=1200)];rows.sort(key=lambda p:(p.get('season_number',1),p.get('episode_number') if p.get('episode_number') is not None else p.get('editorial_order',99999),p.get('episode_part',''),not p.get('preferred_source',False),p.get('title','')))
+ rows=[p for p in profiles[key] if (not defs[key].get('require_mapped_episode') or p.get('restoration_evidence')) and p['duration_seconds']<=maxlen and (not any(ch=='Star Spangled TV' for ch in p.get('channels',[p.get('channel')])) or p['duration_seconds']>=600) and (key not in ['topgear','doctorwho','cosmos','countdown','beinghuman','blackmirror'] or p['duration_seconds']>=1200)];rows.sort(key=lambda p:(p.get('season_number',1),p.get('episode_number') if p.get('episode_number') is not None else p.get('editorial_order',99999),p.get('episode_part',''),not p.get('preferred_source',False),p.get('title','')))
+ # Explicit source order protects an authored sequence from display-title cleanup.
+ if defs[key].get('source_order'):
+  rank={url:i for i,url in enumerate(defs[key]['source_order'])};rows.sort(key=lambda p:rank.get(p['url'],len(rank)))
  seen=set();profiles[key]=[p for p in rows if not(p['content_id'] in seen or seen.add(p['content_id']))]
  report['series'][key]={'name':defs[key]['name'],'measured_episodes':len(profiles[key])}
  if not profiles[key]:report['missing_series'].append(key)
 # Station idents come from the user's original channel files, never another channel's brand.
 ident_files={'90s Toons':'90s Toons ident.mp4','AAA':'AAA ident.mp4','Cartoons Cartoons':'Cartoons Cartoons ident.mp4','Dickleodeon':'Dickleodeon ident.mp4','Dizzy':'Dizzy Ident.mp4','GirlyPop':'Girly Pop Ident.mp4','Japanime':'Japanime Ident.mp4','Off-Licence TV':'Off Licence Tv Ident.mp4','Star Spangled TV':'Star Spangled Tv Ident.mp4','What':'What Ident.mp4'}
+nostalgia=read('nostalgic-american-adverts.json') if (ROOT/'nostalgic-american-adverts.json').exists() else {'adverts':[]}
+interstitials=read('channel-interstitials.json') if (ROOT/'channel-interstitials.json').exists() else {'clips':[]}
+held_interstitial_urls={urllib.parse.unquote(p['url']) for p in interstitials.get('held',[])}
 channel_breaks={}
 for channel in config['channels']:
  path='assets/idents/'+ident_files[channel]
  if not local.get(path):raise RuntimeError('Missing measured channel ident: '+path)
  ident={'type':'Ident','show':channel,'title':channel+' — Station ident','url':path,'duration_seconds':local[path]}
- selected=[];pool=adverts.get(channel,[])[:]
+ selected=[];branded=[p for p in interstitials['clips'] if channel in p.get('channels',[]) and p.get('station_brand')];products=[p for p in interstitials['clips'] if channel in p.get('channels',[]) and not p.get('station_brand')]+[p for p in nostalgia['adverts'] if channel in p.get('channels',[])]
+ fresh=[]
+ while branded or products:
+  fresh+=products[:2];products=products[2:]
+  if branded:fresh.append(branded.pop(0))
+ pool=fresh+adverts.get(channel,[])[:]
  if channel=='Cartoons Cartoons':pool+=oldbreaks.get('city',[])+sum([oldbreaks.get(s,{}).get('adverts',[]) for s in ['october','december']],[])
  if channel=='AAA':pool+=sum([oldbreaks.get(s,{}).get('adverts',[]) for s in ['october','december']],[])
  seen=set()
  for a in pool:
   p=decorate(a);title=a.get('title','');u=p.get('url','');l=p.get('duration_seconds',0)
-  if not u.endswith('.mp4') or '.ia.mp4' in u or '/Commercials.zip/' in u or not 5<=l<=90 or u in seen:continue
+  if not u.endswith('.mp4') or '.ia.mp4' in u or urllib.parse.unquote(u) in held_interstitial_urls or '/Commercials.zip/' in u or not (3 if p.get('curated_interstitial') else 5)<=l<=60 or u in seen:continue
   cn=bool(re.search(r'\bCN\b|cartoon network|CN City|toon city',title,re.I));disney=bool(re.search(r'disney',title,re.I));adult=bool(re.search(r'adult.?swim|AdultswimBumps',title+' '+u,re.I));nick=bool(re.search(r'nickelodeon|nicktoons|nick bumper',title,re.I))
   if cn and channel!='Cartoons Cartoons':continue
-  if disney and channel!='Dizzy':continue
+  if disney and channel!='Dizzy' and not p.get('product_advert'):continue
   if adult and channel not in ['AAA','Cartoons Cartoons']:continue
   if nick and channel!='Dickleodeon':continue
   if channel=='Cartoons Cartoons' and adult and not cn:continue
@@ -168,13 +179,14 @@ for channel in config['channels']:
   if 'halloween' in title.lower() or 'pumpkin' in title.lower():p['seasonal_tags']=['halloween']
   if 'christmas' in title.lower() or 'xmas' in title.lower():p['seasonal_tags']=['christmas']
   p['title']=channel+' — '+title;p['type']='Advert';seen.add(u);selected.append(p)
- channel_breaks[channel]={'ident':ident,'adverts':selected[:120]}
+ channel_breaks[channel]={'ident':ident,'adverts':selected[:120+sum(channel in p.get('channels',[]) for p in nostalgia['adverts']+interstitials['clips'])]}
 write('channel-breaks.json',{'channels':channel_breaks})
 film_calendar=read('editorial-film-calendar.json') if (ROOT/'editorial-film-calendar.json').exists() else None
 # Calendar specials only enter designated editorial appointments.
 specials=collections.defaultdict(list)
 authored_urls=set(config.get('authored_source_urls',[]))
 for p in records:
+ if p.get('type') in ['Advert','Ident','Break','Filler']:continue
  if p.get('url') in authored_urls:continue
  if not usable(p) or ('.ia.mp4' in p['url'] and p.get('catalogue_status')!='broadcast'):continue
  explicit=p.get('type') in ['Movie','Special'] or bool(re.search(r'halloween|terror tales|christmas|xmas|valentine|thanksgiving|new year|easter|st.?patrick',p['title'],re.I))
@@ -264,12 +276,15 @@ for ordinal in range(366 if calendar.isleap(YEAR) else 365):
    if p.get('loop'):entry['loop']=True
    playlist.append(entry);return t+seconds
   def breaks(t,stop,label):
-   ads=[a for a in channel_breaks[ch]['adverts'] if (not a.get('seasonal_tags') or ('halloween' in a['seasonal_tags'] and date.month==10) or ('christmas' in a['seasonal_tags'] and date.month==12)) and (date.month!=10 or not('christmas' in a.get('holiday_events',[])))]
+   ads=[a for a in channel_breaks[ch]['adverts'] if allowed(a,date) and (not a.get('seasonal_tags') or ('halloween' in a['seasonal_tags'] and date.month==10) or ('christmas' in a['seasonal_tags'] and date.month==12)) and (date.month!=10 or not('christmas' in a.get('holiday_events',[])))]
    count=0
    while stop-t>.0001:
     ident=channel_breaks[ch]['ident'];p=ident
     if count%4!=0 and ads:
-     p=ads[ad_cursor[ch]%len(ads)];ad_cursor[ch]+=1
+     for attempt in range(len(ads)):
+      candidate=ads[(ad_cursor[ch]+attempt)%len(ads)]
+      if candidate['duration_seconds']<=stop-t+.0001:
+       p=candidate;ad_cursor[ch]+=attempt+1;break
     length=min(p['duration_seconds'],stop-t)
     t=append(p,t,length,label);count+=1
    report['filler_minutes_by_channel'][ch]+=(stop-(playlist[-count]['broadcast_start_seconds'] if count else stop))/60 if count else 0
@@ -315,7 +330,7 @@ for ordinal in range(366 if calendar.isleap(YEAR) else 365):
    if key.startswith('@') and not key.startswith('@run:'):choices=appointment.get('fallback',[])
    n=0
    for series in choices:
-    for _ in range(appointment.get('episodes',1)):
+    for _ in range(12 if ch=='Star Spangled TV' and key not in ['@film','@aaa-feature','@pilot-showcase'] else appointment.get('episodes',1)):
      p=run_episode(ch,series[5:],date,used,max(0,stop-t)) if series.startswith('@run:') else episode(ch,series,date,used,max(0,stop-t))
      if not p:break
      if series.startswith('@run:'):p={**p,'editorial_run':series[5:]}
@@ -334,6 +349,15 @@ for ordinal in range(366 if calendar.isleap(YEAR) else 365):
      compact[-1]['break_sequence'].append(index);compact[-1]['broadcast_end_seconds']=p['broadcast_end_seconds']
     else:compact.append({'type':'Break','title':ch+' — Channel break','show':ch,'break_sequence':[index],'broadcast_start_seconds':p['broadcast_start_seconds'],'broadcast_end_seconds':p['broadcast_end_seconds'],'block':p['block']})
    else:compact.append(p)
+  cleaned=[]
+  for entry in compact:
+   if entry['type']=='Break' and entry['break_sequence'] and all(i==-1 for i in entry['break_sequence']) and len(entry['break_sequence'])>1:
+    finish=min(entry['broadcast_end_seconds'],entry['broadcast_start_seconds']+channel_breaks[ch]['ident']['duration_seconds'])
+    cleaned.append({**entry,'break_sequence':[-1],'broadcast_end_seconds':finish})
+    if finish<entry['broadcast_end_seconds']:
+     cleaned.append({'type':'Filler','title':ch+' — Programme interval','show':ch,'presentation':True,'broadcast_start_seconds':finish,'broadcast_end_seconds':entry['broadcast_end_seconds'],'block':entry['block']})
+   else:cleaned.append(entry)
+  compact=cleaned
   day['channels'].append({'name':ch,'playlist':compact});report['channel_days']+=1
  month_outputs[date.month]['weeks'][0]['week'].append(day)
 for m,data in month_outputs.items():write('schedules/'+calendar.month_name[m].lower()+'.json',data)

@@ -1,4 +1,4 @@
-BOOTLEG BROADCAST v0.36.1 — RESTORATION STATUS
+BOOTLEG BROADCAST v0.36.4 — RESTORATION STATUS
 288 distinct films now actually air across all ten channels (648 screenings in 2026), with full runtimes and at least 28 days between repeats on a channel.
 See FILM-CALENDAR.txt for exact films, dates and UK times.
 129 series collections restored or expanded and integrated into authored runs; see CHANNEL-LINEUP.txt for the full actual lineup.

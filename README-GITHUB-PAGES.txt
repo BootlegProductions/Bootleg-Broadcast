@@ -1,4 +1,4 @@
-BOOTLEG BROADCAST — GitHub Pages v0.36.1
+BOOTLEG BROADCAST — GitHub Pages v0.36.4
 
 UPDATE
 1. In GitHub Desktop select your existing Bootleg-Broadcast repository. Fetch/Pull origin before copying files.
@@ -48,11 +48,11 @@ EDITING THE WRITTEN SCHEDULE
 This release contains the 2026 calendar. Rebuild with the required year before using a later calendar year; holiday dates and UK clock changes depend on that year. The verification script uses each monthly file’s year.
 The current playback verification script checks the 2026 release and needs its test calendar updated when preparing another year.
 
-NEW IN v0.36.1
+NEW IN v0.36.4
 Expanded Star Spangled educational mornings, eight additional cartoon/anime series in named weekly slots, partial Futurama recovery and AAA Pilot & Oddities Night at 22:00 Fridays. First Sundays at 20:00 have an occasional animation feature. Sources are assigned explicitly in editorial-lineups.json. CHANNEL-LINEUP.txt lists every programme actually scheduled this year.
 After rebuilding, run tools/write_channel_roster.py to refresh both this roster and source-library actual date filters. Run tools/verify_additions.py for the new appointments.
 
-NEW IN v0.36.1
+NEW IN v0.36.4
 Original markdown series restored to authored successor runs. A block completes the available ordered episodes, then moves to its next named series. It repeats only after the whole authored chain finishes. Core 90s Toons breakfast and Cartoons Cartoons classic mornings remain.
 series-run-calendar.json: actual series handover dates for each authored block.
 RESTORATION-STATUS.txt: restored series, measured episode counts and sources held for mapping/replacement.
@@ -60,5 +60,14 @@ restoration-validation.json: succession, restored airtime and original collectio
 The VHS candle is lower; two desktop candles follow the CRT frame. The tuning noise is a quiet 120 ms burst, capped at 140 ms, with mute/power-off cancellation.
 Browser-rendered visual inspection could not be completed in this environment. Please check the extra candle positions on your desktop preview; mobile scene rules hide the added candles. Automated checks do not replace a full viewing/audio review of Archive sources.
 
-FILMS IN v0.36.1
+FILMS IN v0.36.4
 Full-length weekly film appointments now appear on all ten channels. Japanime cinema is Saturday 20:00; Pokémon alternates with other anime outside October/December. October prioritises horror/spooky films; December prioritises Christmas/winter films. Films have a 28-day repeat gap per channel. The explicit editorial-film-calendar.json selects exact source copies; FILM-CALENDAR.txt lists every actual film with date, channel and UK start time. Known unmeasured/held sources remain in the library. Run tools/verify_films.py after rebuilding.
+
+NEW IN v0.36.4
+Fixed repeated live-slot reloads near clip endings and bounded recovery attempts. An unavailable or early-ending programme plays its station ident once, then shows a labelled interval with the next actual programme and start time. Channels with no measured adverts no longer repeat their ident throughout scheduled gaps. Star Spangled fills blocks with additional ordered episodes when they fit; sub-ten-minute DVD fragments are excluded from its regular episode profiles. The remaining intervals need suitable short adverts/programmes to fill them with video. This is a player/schedule repair, not a new external source review.
+
+NEW IN v0.36.4
+23 fully decoded original American adverts fill previously empty break pools. See AMERICAN-ADVERTS.txt for every title and exact MP4/source URL, and advert-source-review.json for accepted/held evidence. Uploaders declare English; full independent spoken-audio review was not performed. HEVC, MPEG-4 Part 2, corrupt, inaccessible and unknown-language candidates are held. Curated product adverts are in nostalgic-american-adverts.json; no station bumper has been reassigned. Rebuild the calendar after editing this pool. Whole adverts fit into available gaps; tiny remaining tails can still show an ident/labelled interval.
+
+NEW IN v0.36.4
+Channel-specific UK adverts, Disney idents and Nickelodeon idents are in channel-interstitials.json. CHANNEL-ADVERTS-AND-IDENTS.txt lists exact links and runtimes. All compiled advert/trailer/bumper clips now have a hard 60-second cap. Shorter idents play at their original duration. Original Bootleg channel idents remain. Rebuild all months after editing interstitials; full clips fit within each break. Held originals and reasons remain in channel-interstitial-source-review.json. English is uploader-declared, not a full independent listening review.

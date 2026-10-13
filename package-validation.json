@@ -1,5 +1,5 @@
 {
-  "version": "0.36.1",
+  "version": "0.36.4",
   "status": "passed",
   "all_twelve_months": true,
   "entrypoint_at_root": true,
@@ -10,10 +10,14 @@
   "full_external_playback_audio_review": false,
   "backend_required": false,
   "calendar_year": 2026,
-  "files": 1534,
+  "files": 1580,
   "notes": [
     "Contains original assets and source documents, all twelve compiled month schedules, catalogue, static player, reports, authored lineups and measured runtime cache.",
     "No live site was published.",
-    "Only exact paths in FILES-TO-DELETE.txt are recommended for deletion."
-  ]
+    "Only exact paths in FILES-TO-DELETE.txt are recommended for deletion.",
+    "Playback transition regression checks passed. Empty break pools use a single ident then a labelled interval, not an endless ident loop.",
+    "23 H.264/AAC original American adverts fully decoded, exact runtimes measured, all actually scheduled; programme lineups compared against v0.36.2 unchanged.",
+    "35 checked UK/Disney/Nickelodeon interstitials actually scheduled on their assigned channels; all compiled adverts/bumpers are capped at 60 seconds."
+  ],
+  "complete_extraction_checked": true
 }

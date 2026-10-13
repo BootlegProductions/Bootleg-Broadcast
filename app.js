@@ -1,4 +1,4 @@
-/* Bootleg Broadcast v0.36.1 — CRT television, seasonal rotation and source recovery. */
+/* Bootleg Broadcast v0.36.4 — CRT television, seasonal rotation and source recovery. */
 'use strict';
 const $ = id => document.getElementById(id);
 const player = $('player');
@@ -45,7 +45,7 @@ function playChannelNoise(){stopChannelNoise();if(player.muted||!poweredOn)retur
 function showStatic(){clearTimeout(staticTimer);$('static').style.opacity=1;staticTimer=setTimeout(()=>$('static').style.opacity=0,140);}
 function cancelRecovery(){clearTimeout(recoveryTimer);clearTimeout(sourceTimer);}
 function resetPlayer(){++tuningGeneration;cancelRecovery();player.onloadedmetadata=null;player.pause();player.removeAttribute('src');player.load();}
-function armSourceTimeout(delay=22000){clearTimeout(sourceTimer);if(!poweredOn)return;const generation=tuningGeneration;sourceTimer=setTimeout(()=>{if(generation===tuningGeneration&&poweredOn&&!player.paused)recoverSource('SIGNAL TIMED OUT');else if(generation===tuningGeneration&&poweredOn&&player.readyState<2)recoverSource('SIGNAL TIMED OUT');},delay);}
+function armSourceTimeout(delay=22000){clearTimeout(sourceTimer);if(!poweredOn||Broadcast.holding())return;const generation=tuningGeneration;sourceTimer=setTimeout(()=>{if(generation===tuningGeneration&&poweredOn&&!Broadcast.holding()&&!player.paused)recoverSource('SIGNAL TIMED OUT');else if(generation===tuningGeneration&&poweredOn&&!Broadcast.holding()&&player.readyState<2)recoverSource('SIGNAL TIMED OUT');},delay);}
 function safePlay(){if(!poweredOn||!player.getAttribute('src'))return;player.play().catch(err=>{if(err.name==='NotAllowedError')showStatus('PRESS PLAY TO START',0);else if(err.name==='NotSupportedError')recoverSource('SOURCE UNSUPPORTED');});}
 function loadItemSource(item,index=0,seek=0){cancelRecovery();const sources=getItemSources(item);if(!sources.length)return false;sourceIndex=index;pendingSeek=seek;const generation=++tuningGeneration;player.onloadedmetadata=()=>{if(generation!==tuningGeneration)return;if(Broadcast.mode()==='live')pendingSeek=Broadcast.seek();if(pendingSeek>0&&Number.isFinite(player.duration)){if(pendingSeek>=player.duration&&!item.loop){Broadcast.fillGap();return;}player.currentTime=Math.min(pendingSeek,Math.max(0,player.duration-0.1));}pendingSeek=0;if(poweredOn)safePlay();};player.src=sources[index];player.load();if(poweredOn){showStatus(index?'TRYING BACKUP SOURCE…':'TUNING…',0);armSourceTimeout();safePlay();}updateRemote();return true;}
 function tryNextAlternateSource(manual=false){return Broadcast.alternate(manual);}
@@ -99,7 +99,7 @@ $('guide-today').addEventListener('click',async()=>{await selectSchedule(MONTHS[
 $('source-button').addEventListener('click',()=>{if(!tryNextAlternateSource(true)){Broadcast.retry();showStatus('RETRYING CURRENT SOURCE…',1800);}});
 player.addEventListener('ended',()=>Broadcast.ended());
 player.addEventListener('error',()=>{if(player.getAttribute('src')&&!Broadcast.holding())recoverSource('PROGRAMME UNAVAILABLE');});
-player.addEventListener('playing',()=>{cancelRecovery();consecutiveFailures=0;sourceRetry=0;stalledAttempts=0;hideStatus();updateRemote();});
+player.addEventListener('playing',()=>{cancelRecovery();consecutiveFailures=0;stalledAttempts=0;hideStatus();updateRemote();});
 player.addEventListener('pause',updateRemote);
 player.addEventListener('waiting',()=>{if(poweredOn&&!Broadcast.holding()){showStatus('BUFFERING…',0);armSourceTimeout(25000);}});
 player.addEventListener('stalled',()=>{if(poweredOn&&!Broadcast.holding())armSourceTimeout(18000);});

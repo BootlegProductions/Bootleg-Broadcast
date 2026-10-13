@@ -3,7 +3,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 import json,datetime,calendar,random
 ROOT=Path(__file__).resolve().parents[1];read=lambda f:json.loads((ROOT/f).read_text());c=read('editorial-lineups.json');defs=read('editorial-series.json');report=read('editorial-review.json');year=c['year'];zone=ZoneInfo(c['timezone'])
-lines=['BOOTLEG BROADCAST v0.36.1 — WRITTEN TV LINEUPS','All times Europe/London. Programme starts within each block use measured media runtimes.','Named fallbacks only cover missing/unfitting sources. No random programme selection.','After hours 02:30–07:00. December fireplace 03:00–04:00.','']
+lines=['BOOTLEG BROADCAST v0.36.4 — WRITTEN TV LINEUPS','All times Europe/London. Programme starts within each block use measured media runtimes.','Named fallbacks only cover missing/unfitting sources. No random programme selection.','After hours 02:30–07:00. December fireplace 03:00–04:00.','']
 for ch,slots in c['channels'].items():
  lines+=['',ch.upper()]
  for s in slots:

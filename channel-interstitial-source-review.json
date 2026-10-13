@@ -1,0 +1,2423 @@
+{
+  "version": "0.36.4",
+  "clips": [
+    {
+      "type": "Advert",
+      "title": "Cadbury’s Dairy Milk Advert",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/CadburysDairyMilkAdvert/Cadburys%20Dairy%20Milk%20Advert.mp4",
+      "filename": "Cadburys Dairy Milk Advert.mp4",
+      "archive_identifier": "CadburysDairyMilkAdvert",
+      "source_page": "https://archive.org/details/CadburysDairyMilkAdvert",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 29.93,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "An advert for Cadburys Dairy Milk broadcast summer 2000 during a transmission of Ace Ventura Pet Detective on ITV.",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "link_status": "held",
+      "check_error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "type": "Advert",
+      "title": "Cadbury’s Darkness Chocolate Tray Advert",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/CadburysDarknessChocolateTrayAdvert1996/Cadburys%20Darkness%20Chocolate%20Tray%20Advert.mp4",
+      "filename": "Cadburys Darkness Chocolate Tray Advert.mp4",
+      "archive_identifier": "CadburysDarknessChocolateTrayAdvert1996",
+      "source_page": "https://archive.org/details/CadburysDarknessChocolateTrayAdvert1996",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 30.378,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "UK television advert broadcast sometime in 1996",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 60668376,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/CadburysDarknessChocolateTrayAdvert1996/Cadburys%20Darkness%20Chocolate%20Tray%20Advert.mp4",
+      "stream_megabits_per_second": 15.977
+    },
+    {
+      "type": "Advert",
+      "title": "Cadbury's Double Decker Advert",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/CadburysDoubleDeckerAdvert/Cadbury%27s%20Double%20Decker%20Advert.mp4",
+      "filename": "Cadbury's Double Decker Advert.mp4",
+      "archive_identifier": "CadburysDoubleDeckerAdvert",
+      "source_page": "https://archive.org/details/CadburysDoubleDeckerAdvert",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 29.93,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "An advert for Cadbury's Double Decker broadcast 1989 on ITV.",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 32424472,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/CadburysDoubleDeckerAdvert/Cadbury%27s%20Double%20Decker%20Advert.mp4",
+      "stream_megabits_per_second": 8.667
+    },
+    {
+      "type": "Advert",
+      "title": "Cadbury's Highlights Advert",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/CadburysHighlightsAdvert/Cadbury%27s%20Highlights%20Advert.mp4",
+      "filename": "Cadbury's Highlights Advert.mp4",
+      "archive_identifier": "CadburysHighlightsAdvert",
+      "source_page": "https://archive.org/details/CadburysHighlightsAdvert",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 40.32,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "An advert for Cadbury's Highlights broadcast October 1993 on CARLTON.",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 48347047,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/CadburysHighlightsAdvert/Cadbury%27s%20Highlights%20Advert.mp4",
+      "stream_megabits_per_second": 9.593
+    },
+    {
+      "type": "Advert",
+      "title": "Cadbury’s Milk Tray Advert",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/CadburysMilkTrayAdvert1994/Cadburys%20Milk%20Tray%20Advert.mp4",
+      "filename": "Cadburys Milk Tray Advert.mp4",
+      "archive_identifier": "CadburysMilkTrayAdvert1994",
+      "source_page": "https://archive.org/details/CadburysMilkTrayAdvert1994",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 30.57,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "UK television advert broadcast 15th December 1994",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "link_status": "held",
+      "check_error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "type": "Advert",
+      "title": "Cadbury's Mini Eggs Advert",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/CadburysMiniEggsAdvert/Cadbury%27s%20Mini%20Eggs%20Advert.mp4",
+      "filename": "Cadbury's Mini Eggs Advert.mp4",
+      "archive_identifier": "CadburysMiniEggsAdvert",
+      "source_page": "https://archive.org/details/CadburysMiniEggsAdvert",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 20.015,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "An advert for Cadbury's Mini Eggs broadcast 1993 on Carlton.",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "holiday_events": [
+        "easter"
+      ],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 69283459,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "held",
+      "content_id": "interstitial:https://archive.org/download/CadburysMiniEggsAdvert/Cadbury%27s%20Mini%20Eggs%20Advert.mp4",
+      "stream_megabits_per_second": 27.693,
+      "check_error": "Oversized original streaming copy; 27.693 Mbps for a short interstitial"
+    },
+    {
+      "type": "Advert",
+      "title": "Cadbury’s Roses Advert",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/CadburysRoses2001Advert/Cadburys%20Roses%20Advert.mp4",
+      "filename": "Cadburys Roses Advert.mp4",
+      "archive_identifier": "CadburysRoses2001Advert",
+      "source_page": "https://archive.org/details/CadburysRoses2001Advert",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 10.32,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "pending",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 4940389,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/CadburysRoses2001Advert/Cadburys%20Roses%20Advert.mp4",
+      "stream_megabits_per_second": 3.83
+    },
+    {
+      "type": "Advert",
+      "title": "PG Tips Christmas Advert",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/PGTipsChristmasAdvert1992/PG%20Tips%20Christmas%20Advert.mp4",
+      "filename": "PG Tips Christmas Advert.mp4",
+      "archive_identifier": "PGTipsChristmasAdvert1992",
+      "source_page": "https://archive.org/details/PGTipsChristmasAdvert1992",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 10.133,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "An advert for PG Tips Christmas broadcast 1992 on Sky Movies Plus.",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [
+        "christmas"
+      ],
+      "holiday_events": [
+        "christmas"
+      ],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 4430067,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/PGTipsChristmasAdvert1992/PG%20Tips%20Christmas%20Advert.mp4",
+      "stream_megabits_per_second": 3.498
+    },
+    {
+      "type": "Advert",
+      "title": "PG Tips. Free Monkey",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/pg-tips.-free-monkey/PG_Tips._Free_Monkey.mp4",
+      "filename": "PG_Tips._Free_Monkey.mp4",
+      "archive_identifier": "pg-tips.-free-monkey",
+      "source_page": "https://archive.org/details/pg-tips.-free-monkey",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 10.356,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "A advert for the British TV brand Pg tips, which advertises there free monkey campaign.",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 433227,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/pg-tips.-free-monkey/PG_Tips._Free_Monkey.mp4",
+      "stream_megabits_per_second": 0.335
+    },
+    {
+      "type": "Advert",
+      "title": "Yorkshire Tea Advert",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/YorkshireTeaAdvert1994/Yorkshire%20Tea%20Advert.mp4",
+      "filename": "Yorkshire Tea Advert.mp4",
+      "archive_identifier": "YorkshireTeaAdvert1994",
+      "source_page": "https://archive.org/details/YorkshireTeaAdvert1994",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 20.693,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "UK television advert broadcast 15th December 1994",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 41577436,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "held",
+      "content_id": "interstitial:https://archive.org/download/YorkshireTeaAdvert1994/Yorkshire%20Tea%20Advert.mp4",
+      "stream_megabits_per_second": 16.074,
+      "check_error": "Oversized original streaming copy; 16.074 Mbps for a short interstitial"
+    },
+    {
+      "type": "Advert",
+      "title": "Irn Bru Advert",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/IrnBruAdvert/Irn%20Bru%20Advert.mp4",
+      "filename": "Irn Bru Advert.mp4",
+      "archive_identifier": "IrnBruAdvert",
+      "source_page": "https://archive.org/details/IrnBruAdvert",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 30.378,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "An advert for Irn Bru broadcast 1990 during a transmission of A View to Kill on ITV.",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 40921636,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/IrnBruAdvert/Irn%20Bru%20Advert.mp4",
+      "stream_megabits_per_second": 10.777
+    },
+    {
+      "type": "Advert",
+      "title": "Tango Apple Advert",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/TangoAppleAdvert/Tango%20Apple%20Advert.mp4",
+      "filename": "Tango Apple Advert.mp4",
+      "archive_identifier": "TangoAppleAdvert",
+      "source_page": "https://archive.org/details/TangoAppleAdvert",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 29.53,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "An advert for Tango Apple broadcast 2004 during a transmission of Friends on Channel 4.",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "link_status": "held",
+      "check_error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "type": "Advert",
+      "title": "Robinsons Squash x Toy Story 2 Advert",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/RobinsonsSquashxToyStory2Advert2000/Robinsons%20Squash%20x%20Toy%20Story%202%20Advert.mp4",
+      "filename": "Robinsons Squash x Toy Story 2 Advert.mp4",
+      "archive_identifier": "RobinsonsSquashxToyStory2Advert2000",
+      "source_page": "https://archive.org/details/RobinsonsSquashxToyStory2Advert2000",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 30.954,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "UK television advert broadcast 12th February 2000 on ITV Anglia during Breaking the Magicians Code",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 58250049,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/RobinsonsSquashxToyStory2Advert2000/Robinsons%20Squash%20x%20Toy%20Story%202%20Advert.mp4",
+      "stream_megabits_per_second": 15.055
+    },
+    {
+      "type": "Advert",
+      "title": "Tango Orange Advert",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/TangoOrangeAdvert/Tango%20Orange%20Advert.mp4",
+      "filename": "Tango Orange Advert.mp4",
+      "archive_identifier": "TangoOrangeAdvert",
+      "source_page": "https://archive.org/details/TangoOrangeAdvert",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 29.738,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "An advert for Tango Orange broadcast October 1993 broadcast on LWT.",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 37554975,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/TangoOrangeAdvert/Tango%20Orange%20Advert.mp4",
+      "stream_megabits_per_second": 10.103
+    },
+    {
+      "type": "Advert",
+      "title": "Robinsons Squash Advert",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/RobinsonsSquashAdvert/Robinsons%20Squash%20Advert.mp4",
+      "filename": "Robinsons Squash Advert.mp4",
+      "archive_identifier": "RobinsonsSquashAdvert",
+      "source_page": "https://archive.org/details/RobinsonsSquashAdvert",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 29.525,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "An advert for Robisons Sqaush broadcast 2nd November 2000 during a transmission of The 11 o'lock Show on Channel 4.",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 32267544,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/RobinsonsSquashAdvert/Robinsons%20Squash%20Advert.mp4",
+      "stream_megabits_per_second": 8.743
+    },
+    {
+      "type": "Advert",
+      "title": "Walkers Crisps Advert with Gary Lineker",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/WalkersCrispsAdvert1999withGaryLinekar/Walkers%20Crisps%20Advert%20with%20Gary%20Linekar.mp4",
+      "filename": "Walkers Crisps Advert with Gary Linekar.mp4",
+      "archive_identifier": "WalkersCrispsAdvert1999withGaryLinekar",
+      "source_page": "https://archive.org/details/WalkersCrispsAdvert1999withGaryLinekar",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 39.936,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "An advert for Walkers Crisps with Gary Linekar broadcast 1999 on Five.",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 14036518,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/WalkersCrispsAdvert1999withGaryLinekar/Walkers%20Crisps%20Advert%20with%20Gary%20Linekar.mp4",
+      "stream_megabits_per_second": 2.812
+    },
+    {
+      "type": "Advert",
+      "title": "Robinsons Fruit and Barley Advert",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/RobinsonsFruitandBarleyAdvert1999/Robinsons%20Fruit%20and%20Barley%20Advert.mp4",
+      "filename": "Robinsons Fruit and Barley Advert.mp4",
+      "archive_identifier": "RobinsonsFruitandBarleyAdvert1999",
+      "source_page": "https://archive.org/details/RobinsonsFruitandBarleyAdvert1999",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 29.696,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "An advert for Robinsons Fruit and Barley broadcast 1999 on Five.",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 12123674,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/RobinsonsFruitandBarleyAdvert1999/Robinsons%20Fruit%20and%20Barley%20Advert.mp4",
+      "stream_megabits_per_second": 3.266
+    },
+    {
+      "type": "Advert",
+      "title": "Robinsons Fruit Spring Advert",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/RobinsonsFruitSpringAdvert/Robinsons%20Fruit%20Spring%20Advert.mp4",
+      "filename": "Robinsons Fruit Spring Advert.mp4",
+      "archive_identifier": "RobinsonsFruitSpringAdvert",
+      "source_page": "https://archive.org/details/RobinsonsFruitSpringAdvert",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 19.84,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "An advert for Robinsons Fruit Spring broadcast 2004 during a transmission of Will and Grace on Channel 4.",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "link_status": "held",
+      "check_error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "type": "Advert",
+      "title": "Walkers Crisps Advert",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/WalkersCrispsAdvert/Walkers%20Crisps%20Advert.mp4",
+      "filename": "Walkers Crisps Advert.mp4",
+      "archive_identifier": "WalkersCrispsAdvert",
+      "source_page": "https://archive.org/details/WalkersCrispsAdvert",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 40.0,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "An advert for Walkers Crisps broadcast 1989 on ITV.",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 63505588,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/WalkersCrispsAdvert/Walkers%20Crisps%20Advert.mp4",
+      "stream_megabits_per_second": 12.701
+    },
+    {
+      "type": "Advert",
+      "title": "Robinsons Fruit Shoot Advert",
+      "show": "Off-Licence TV continuity",
+      "url": "https://archive.org/download/RobinsonsFruitShootAdvert/Robinsons%20Fruit%20Shoot%20Advert.mp4",
+      "filename": "Robinsons Fruit Shoot Advert.mp4",
+      "archive_identifier": "RobinsonsFruitShootAdvert",
+      "source_page": "https://archive.org/details/RobinsonsFruitShootAdvert",
+      "channel": "Off-Licence TV",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "duration_seconds": 30.441,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": true,
+      "station_brand": null,
+      "source_description": "An advert for Robinsons Fruit Shoot broadcast 2002 on Anglia.",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 83874845,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "held",
+      "content_id": "interstitial:https://archive.org/download/RobinsonsFruitShootAdvert/Robinsons%20Fruit%20Shoot%20Advert.mp4",
+      "stream_megabits_per_second": 22.043,
+      "check_error": "Oversized original streaming copy; 22.043 Mbps for a short interstitial"
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident/Disney%20Channel%20ident.mp4",
+      "filename": "Disney Channel ident.mp4",
+      "archive_identifier": "disney-channel-ident",
+      "source_page": "https://archive.org/details/disney-channel-ident",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 7.1,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "link_status": "held",
+      "check_error": "Decode failure: [null @ 0x5638c72fbcc0] Application provided invalid, non monotonically increasing dts to muxer in s"
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (2)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-2/Disney%20Channel%20ident%20%282%29.mp4",
+      "filename": "Disney Channel ident (2).mp4",
+      "archive_identifier": "disney-channel-ident-2",
+      "source_page": "https://archive.org/details/disney-channel-ident-2",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 7.125,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 35227597,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "held",
+      "content_id": "interstitial:https://archive.org/download/disney-channel-ident-2/Disney%20Channel%20ident%20%282%29.mp4",
+      "stream_megabits_per_second": 39.554,
+      "check_error": "Oversized original streaming copy; 39.554 Mbps for a short interstitial"
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (3)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-3/Disney%20Channel%20ident%20%283%29.mp4",
+      "filename": "Disney Channel ident (3).mp4",
+      "archive_identifier": "disney-channel-ident-3",
+      "source_page": "https://archive.org/details/disney-channel-ident-3",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 11.008,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. I don't know when it was produced. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 41161816,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "held",
+      "content_id": "interstitial:https://archive.org/download/disney-channel-ident-3/Disney%20Channel%20ident%20%283%29.mp4",
+      "stream_megabits_per_second": 29.914,
+      "check_error": "Oversized original streaming copy; 29.914 Mbps for a short interstitial"
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (4)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-4/Disney%20Channel%20ident%20%284%29.mp4",
+      "filename": "Disney Channel ident (4).mp4",
+      "archive_identifier": "disney-channel-ident-4",
+      "source_page": "https://archive.org/details/disney-channel-ident-4",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 14.37,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "link_status": "held",
+      "check_error": "Decode failure: [null @ 0x562143f32900] Application provided invalid, non monotonically increasing dts to muxer in s"
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (5)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-5/Disney%20Channel%20ident%20%285%29.mp4",
+      "filename": "Disney Channel ident (5).mp4",
+      "archive_identifier": "disney-channel-ident-5",
+      "source_page": "https://archive.org/details/disney-channel-ident-5",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 10.56,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 35639845,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "held",
+      "content_id": "interstitial:https://archive.org/download/disney-channel-ident-5/Disney%20Channel%20ident%20%285%29.mp4",
+      "stream_megabits_per_second": 27.0,
+      "check_error": "Oversized original streaming copy; 27.0 Mbps for a short interstitial"
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (6)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-6/Disney%20Channel%20ident%20%286%29.mp4",
+      "filename": "Disney Channel ident (6).mp4",
+      "archive_identifier": "disney-channel-ident-6",
+      "source_page": "https://archive.org/details/disney-channel-ident-6",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 5.184,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 15241232,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "held",
+      "content_id": "interstitial:https://archive.org/download/disney-channel-ident-6/Disney%20Channel%20ident%20%286%29.mp4",
+      "stream_megabits_per_second": 23.52,
+      "check_error": "Oversized original streaming copy; 23.52 Mbps for a short interstitial"
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (7)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-7/Disney%20Channel%20ident%20%287%29.mp4",
+      "filename": "Disney Channel ident (7).mp4",
+      "archive_identifier": "disney-channel-ident-7",
+      "source_page": "https://archive.org/details/disney-channel-ident-7",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 5.12,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 11417519,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "held",
+      "content_id": "interstitial:https://archive.org/download/disney-channel-ident-7/Disney%20Channel%20ident%20%287%29.mp4",
+      "stream_megabits_per_second": 17.84,
+      "check_error": "Oversized original streaming copy; 17.84 Mbps for a short interstitial"
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (8)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-8/Disney%20Channel%20ident%20%288%29.mp4",
+      "filename": "Disney Channel ident (8).mp4",
+      "archive_identifier": "disney-channel-ident-8",
+      "source_page": "https://archive.org/details/disney-channel-ident-8",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 7.106,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 22636369,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "held",
+      "content_id": "interstitial:https://archive.org/download/disney-channel-ident-8/Disney%20Channel%20ident%20%288%29.mp4",
+      "stream_megabits_per_second": 25.484,
+      "check_error": "Oversized original streaming copy; 25.484 Mbps for a short interstitial"
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (9)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-9/Disney%20Channel%20ident%20%289%29.mp4",
+      "filename": "Disney Channel ident (9).mp4",
+      "archive_identifier": "disney-channel-ident-9",
+      "source_page": "https://archive.org/details/disney-channel-ident-9",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 10.155,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 24504825,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "held",
+      "content_id": "interstitial:https://archive.org/download/disney-channel-ident-9/Disney%20Channel%20ident%20%289%29.mp4",
+      "stream_megabits_per_second": 19.305,
+      "check_error": "Oversized original streaming copy; 19.305 Mbps for a short interstitial"
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (10)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-10/Disney%20Channel%20ident%20%2810%29.mp4",
+      "filename": "Disney Channel ident (10).mp4",
+      "archive_identifier": "disney-channel-ident-10",
+      "source_page": "https://archive.org/details/disney-channel-ident-10",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 9.07,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "link_status": "held",
+      "check_error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (11)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-11/Disney%20Channel%20ident%20%2811%29.mp4",
+      "filename": "Disney Channel ident (11).mp4",
+      "archive_identifier": "disney-channel-ident-11",
+      "source_page": "https://archive.org/details/disney-channel-ident-11",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 10.22,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "link_status": "held",
+      "check_error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (12)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-12/Disney%20Channel%20ident%20%2812%29.mp4",
+      "filename": "Disney Channel ident (12).mp4",
+      "archive_identifier": "disney-channel-ident-12",
+      "source_page": "https://archive.org/details/disney-channel-ident-12",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 5.542,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. I don't know when it was produced. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 14119807,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "held",
+      "content_id": "interstitial:https://archive.org/download/disney-channel-ident-12/Disney%20Channel%20ident%20%2812%29.mp4",
+      "stream_megabits_per_second": 20.382,
+      "check_error": "Oversized original streaming copy; 20.382 Mbps for a short interstitial"
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (13)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-13/Disney%20Channel%20ident%20%2813%29.mp4",
+      "filename": "Disney Channel ident (13).mp4",
+      "archive_identifier": "disney-channel-ident-13",
+      "source_page": "https://archive.org/details/disney-channel-ident-13",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 10.133,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. I don't know when it was produced. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 32636810,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "held",
+      "content_id": "interstitial:https://archive.org/download/disney-channel-ident-13/Disney%20Channel%20ident%20%2813%29.mp4",
+      "stream_megabits_per_second": 25.767,
+      "check_error": "Oversized original streaming copy; 25.767 Mbps for a short interstitial"
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (14)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-14/Disney%20Channel%20ident%20%2814%29.mp4",
+      "filename": "Disney Channel ident (14).mp4",
+      "archive_identifier": "disney-channel-ident-14",
+      "source_page": "https://archive.org/details/disney-channel-ident-14",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 4.25,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. I don't know when it was produced. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 11465852,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "held",
+      "content_id": "interstitial:https://archive.org/download/disney-channel-ident-14/Disney%20Channel%20ident%20%2814%29.mp4",
+      "stream_megabits_per_second": 21.583,
+      "check_error": "Oversized original streaming copy; 21.583 Mbps for a short interstitial"
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (15)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-15/Disney%20Channel%20ident%20%2815%29.mp4",
+      "filename": "Disney Channel ident (15).mp4",
+      "archive_identifier": "disney-channel-ident-15",
+      "source_page": "https://archive.org/details/disney-channel-ident-15",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 13.205,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. I don't know when it was produced. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 14070320,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/disney-channel-ident-15/Disney%20Channel%20ident%20%2815%29.mp4",
+      "stream_megabits_per_second": 8.524
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (16)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-16/Disney%20Channel%20ident%20%2816%29.mp4",
+      "filename": "Disney Channel ident (16).mp4",
+      "archive_identifier": "disney-channel-ident-16",
+      "source_page": "https://archive.org/details/disney-channel-ident-16",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 11.115,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. I don't know when it was produced. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 14032892,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/disney-channel-ident-16/Disney%20Channel%20ident%20%2816%29.mp4",
+      "stream_megabits_per_second": 10.1
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (17)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-17/Disney%20Channel%20ident%20%2817%29.mp4",
+      "filename": "Disney Channel ident (17).mp4",
+      "archive_identifier": "disney-channel-ident-17",
+      "source_page": "https://archive.org/details/disney-channel-ident-17",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 4.352,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. I don't know when it was produced. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 5503672,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/disney-channel-ident-17/Disney%20Channel%20ident%20%2817%29.mp4",
+      "stream_megabits_per_second": 10.117
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (18)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-18/Disney%20Channel%20ident%20%2818%29.mp4",
+      "filename": "Disney Channel ident (18).mp4",
+      "archive_identifier": "disney-channel-ident-18",
+      "source_page": "https://archive.org/details/disney-channel-ident-18",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 12.139,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. I don't know when it was produced. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 12732542,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/disney-channel-ident-18/Disney%20Channel%20ident%20%2818%29.mp4",
+      "stream_megabits_per_second": 8.391
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (19)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-19/Disney%20Channel%20ident%20%2819%29.mp4",
+      "filename": "Disney Channel ident (19).mp4",
+      "archive_identifier": "disney-channel-ident-19",
+      "source_page": "https://archive.org/details/disney-channel-ident-19",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 4.99,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. I don't know when it was produced. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "link_status": "held",
+      "check_error": "Decode failure: [null @ 0x5645e76c0400] Application provided invalid, non monotonically increasing dts to muxer in s"
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel ident (20)",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-ident-20/Disney%20Channel%20ident%20%2820%29.mp4",
+      "filename": "Disney Channel ident (20).mp4",
+      "archive_identifier": "disney-channel-ident-20",
+      "source_page": "https://archive.org/details/disney-channel-ident-20",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 13.27,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2002. I don't know when or where it was produced. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "link_status": "held",
+      "check_error": "Decode failure: [null @ 0x5654c8ddb4c0] Application provided invalid, non monotonically increasing dts to muxer in s"
+    },
+    {
+      "type": "Advert",
+      "title": "Disney Channel Open",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-idents-2002/Disney%20Channel%20Open%20%5B50535270%5D.mp4",
+      "filename": "Disney Channel Open [50535270].mp4",
+      "archive_identifier": "disney-channel-idents-2002",
+      "source_page": "https://archive.org/details/disney-channel-idents-2002",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 25.125,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "<font color=\"#2c2c2c\" face=\"Helvetica Neue, Helvetica, Arial, sans-serif\"><span style=\"font-size:14px;background-color:rgb(255,255,255);\">This is a collection of short idents from the Disney Channel 2002 rebrand by PMcD Design.</span></font><br />",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 2691019,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/disney-channel-idents-2002/Disney%20Channel%20Open%20%5B50535270%5D.mp4",
+      "stream_megabits_per_second": 0.857
+    },
+    {
+      "type": "Advert",
+      "title": "Disney WandIDs",
+      "show": "Dizzy continuity",
+      "url": "https://archive.org/download/disney-channel-idents-2002/Disney%20WandIDs%20%5B50535272%5D.mp4",
+      "filename": "Disney WandIDs [50535272].mp4",
+      "archive_identifier": "disney-channel-idents-2002",
+      "source_page": "https://archive.org/details/disney-channel-idents-2002",
+      "channel": "Dizzy",
+      "channels": [
+        "Dizzy"
+      ],
+      "duration_seconds": 32.499,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Disney",
+      "source_description": "<font color=\"#2c2c2c\" face=\"Helvetica Neue, Helvetica, Arial, sans-serif\"><span style=\"font-size:14px;background-color:rgb(255,255,255);\">This is a collection of short idents from the Disney Channel 2002 rebrand by PMcD Design.</span></font><br />",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 3510304,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/disney-channel-idents-2002/Disney%20WandIDs%20%5B50535272%5D.mp4",
+      "stream_megabits_per_second": 0.864
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon promo - Fish in head",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nickelodeon-promo-fish-in-head/Nickelodeon%20promo%20-%20Fish%20in%20head.mp4",
+      "filename": "Nickelodeon promo - Fish in head.mp4",
+      "archive_identifier": "nickelodeon-promo-fish-in-head",
+      "source_page": "https://archive.org/details/nickelodeon-promo-fish-in-head",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 9.94,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "<div>A 1984 U.S. ident which I taped off the Australia version of Nickelodeon during the early 2000s. <br /></div>",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "link_status": "held",
+      "check_error": "Decode failure: [null @ 0x559ba7a50380] Application provided invalid, non monotonically increasing dts to muxer in s"
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon promo - Tropical",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nickelodeon-promo-tropical/Nickelodeon%20promo%20-%20Tropical.mp4",
+      "filename": "Nickelodeon promo - Tropical.mp4",
+      "archive_identifier": "nickelodeon-promo-tropical",
+      "source_page": "https://archive.org/details/nickelodeon-promo-tropical",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 10.005,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "A 1993 American ident which I taped off the Australian version of the channel during 2003. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 9490326,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/nickelodeon-promo-tropical/Nickelodeon%20promo%20-%20Tropical.mp4",
+      "stream_megabits_per_second": 7.588
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon promo - Robots",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nickelodeon-promo-robots/Nickelodeon%20promo%20-%20Robots.mp4",
+      "filename": "Nickelodeon promo - Robots.mp4",
+      "archive_identifier": "nickelodeon-promo-robots",
+      "source_page": "https://archive.org/details/nickelodeon-promo-robots",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 10.176,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "A 1984 American ident which I taped off the Australian version of the channel during 2000. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 16844086,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/nickelodeon-promo-robots/Nickelodeon%20promo%20-%20Robots.mp4",
+      "stream_megabits_per_second": 13.242
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon ident - Farm",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nickelodeon-ident-farm/Nickelodeon%20ident%20-%20Farm.mp4",
+      "filename": "Nickelodeon ident - Farm.mp4",
+      "archive_identifier": "nickelodeon-ident-farm",
+      "source_page": "https://archive.org/details/nickelodeon-ident-farm",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 9.003,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "A 1993 American ident which I taped off the Australian version of the channel during 2000. <div><br /></div><div>I swear I thought I had already uploaded this, but I can't find it in my folder of uploaded Nickelodeon material. </div>",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 22636162,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "held",
+      "content_id": "interstitial:https://archive.org/download/nickelodeon-ident-farm/Nickelodeon%20ident%20-%20Farm.mp4",
+      "stream_megabits_per_second": 20.114,
+      "check_error": "Oversized original streaming copy; 20.114 Mbps for a short interstitial"
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon ident - Gruff",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nickelodeon-ident-gruff/Nickelodeon%20ident%20-%20Gruff.mp4",
+      "filename": "Nickelodeon ident - Gruff.mp4",
+      "archive_identifier": "nickelodeon-ident-gruff",
+      "source_page": "https://archive.org/details/nickelodeon-ident-gruff",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 14.977,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "An ident which I taped off the Australian version of the channel during 2000. I don't know the exact name of this ident, but the dog's name is Gruff. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 41454128,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "held",
+      "content_id": "interstitial:https://archive.org/download/nickelodeon-ident-gruff/Nickelodeon%20ident%20-%20Gruff.mp4",
+      "stream_megabits_per_second": 22.143,
+      "check_error": "Oversized original streaming copy; 22.143 Mbps for a short interstitial"
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon ident - Mina & the Count",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nickelodeon-ident-mina-the-count/Nickelodeon%20ident%20-%20Mina%20%26%20the%20Count.mp4",
+      "filename": "Nickelodeon ident - Mina & the Count.mp4",
+      "archive_identifier": "nickelodeon-ident-mina-the-count",
+      "source_page": "https://archive.org/details/nickelodeon-ident-mina-the-count",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 9.963,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "A 1999 American ident which I taped off the Australian version of the channel during 2000. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 19118503,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/nickelodeon-ident-mina-the-count/Nickelodeon%20ident%20-%20Mina%20%26%20the%20Count.mp4",
+      "stream_megabits_per_second": 15.352
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon ident - Ripping",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nickelodeon-ident-ripping/Nickelodeon%20ident%20-%20Ripping.mp4",
+      "filename": "Nickelodeon ident - Ripping.mp4",
+      "archive_identifier": "nickelodeon-ident-ripping",
+      "source_page": "https://archive.org/details/nickelodeon-ident-ripping",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 10.13,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "A 1984 American ident which I taped off the Australian version of the channel during 2000. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "link_status": "held",
+      "check_error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon bumper",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nickelodeon-bumper/Nickelodeon%20bumper.mp4",
+      "filename": "Nickelodeon bumper.mp4",
+      "archive_identifier": "nickelodeon-bumper",
+      "source_page": "https://archive.org/details/nickelodeon-bumper",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 5.06,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "A 1996 American ident which I taped off the Australian version of the channel during 2000. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "link_status": "held",
+      "check_error": "Decode failure: [null @ 0x55a52d229680] Application provided invalid, non monotonically increasing dts to muxer in s"
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon promo - Barks",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nickelodeon-promo-barks/Nickelodeon%20promo%20-%20Barks.mp4",
+      "filename": "Nickelodeon promo - Barks.mp4",
+      "archive_identifier": "nickelodeon-promo-barks",
+      "source_page": "https://archive.org/details/nickelodeon-promo-barks",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 10.027,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "A 1984 American ID which I taped off the Australian version of Nickelodeon during 2001.",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 9527994,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/nickelodeon-promo-barks/Nickelodeon%20promo%20-%20Barks.mp4",
+      "stream_megabits_per_second": 7.602
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon promo - Frog and Alligator",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nickelodeon-promo-frog-and-alligator/Nickelodeon%20promo%20-%20Frog%20and%20Alligator.mp4",
+      "filename": "Nickelodeon promo - Frog and Alligator.mp4",
+      "archive_identifier": "nickelodeon-promo-frog-and-alligator",
+      "source_page": "https://archive.org/details/nickelodeon-promo-frog-and-alligator",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 10.069,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "A vintage Nickelodeon promo/ID. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 29444142,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "held",
+      "content_id": "interstitial:https://archive.org/download/nickelodeon-promo-frog-and-alligator/Nickelodeon%20promo%20-%20Frog%20and%20Alligator.mp4",
+      "stream_megabits_per_second": 23.394,
+      "check_error": "Oversized original streaming copy; 23.394 Mbps for a short interstitial"
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon ident  - Drain (flip)",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nickelodeon-ident-drain-flip/Nickelodeon%20ident%20%20-%20Drain%20%28flip%29.mp4",
+      "filename": "Nickelodeon ident  - Drain (flip).mp4",
+      "archive_identifier": "nickelodeon-ident-drain-flip",
+      "source_page": "https://archive.org/details/nickelodeon-ident-drain-flip",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 10.069,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "A 1984 Nickelodeon ident. <div><br /></div><div>Note: I taped this off the Australian version of the channel during 2000. The version of the channel here regularly showed vintage 80s/90s American idents during the early 2000s.  </div>",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 13379062,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/nickelodeon-ident-drain-flip/Nickelodeon%20ident%20%20-%20Drain%20%28flip%29.mp4",
+      "stream_megabits_per_second": 10.63
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon promo - Cereal and cup",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nickelodeon-promo-cereal-and-cup/Nickelodeon%20promo%20-%20Cereal%20and%20cup.mp4",
+      "filename": "Nickelodeon promo - Cereal and cup.mp4",
+      "archive_identifier": "nickelodeon-promo-cereal-and-cup",
+      "source_page": "https://archive.org/details/nickelodeon-promo-cereal-and-cup",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 10.069,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "A 1987 American ident which I taped off the Australian version of the channel during 2000. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 11081903,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/nickelodeon-promo-cereal-and-cup/Nickelodeon%20promo%20-%20Cereal%20and%20cup.mp4",
+      "stream_megabits_per_second": 8.805
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon promo - Clay worms",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nickelodeon-promo-clay-worms/Nickelodeon%20promo%20-%20Clay%20worms.mp4",
+      "filename": "Nickelodeon promo - Clay worms.mp4",
+      "archive_identifier": "nickelodeon-promo-clay-worms",
+      "source_page": "https://archive.org/details/nickelodeon-promo-clay-worms",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 10.027,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "A 1985 American ID which I taped off the Australian version of the channel during 2000. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 29261820,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "held",
+      "content_id": "interstitial:https://archive.org/download/nickelodeon-promo-clay-worms/Nickelodeon%20promo%20-%20Clay%20worms.mp4",
+      "stream_megabits_per_second": 23.346,
+      "check_error": "Oversized original streaming copy; 23.346 Mbps for a short interstitial"
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon ident - SpongeBob SquarePants",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nickelodeon-ident-sponge-bob-square-pants/Nickelodeon%20ident%20-%20SpongeBob%20SquarePants.mp4",
+      "filename": "Nickelodeon ident - SpongeBob SquarePants.mp4",
+      "archive_identifier": "nickelodeon-ident-sponge-bob-square-pants",
+      "source_page": "https://archive.org/details/nickelodeon-ident-sponge-bob-square-pants",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 10.098,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "A 1999 American ident. For some weird reason, even though I watched the series regularly, I very very rarely taped it. ",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 19392385,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/nickelodeon-ident-sponge-bob-square-pants/Nickelodeon%20ident%20-%20SpongeBob%20SquarePants.mp4",
+      "stream_megabits_per_second": 15.363
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon promo - Anteater",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nickelodeon-promo-anteater/Nickelodeon%20promo%20-%20Anteater.mp4",
+      "filename": "Nickelodeon promo - Anteater.mp4",
+      "archive_identifier": "nickelodeon-promo-anteater",
+      "source_page": "https://archive.org/details/nickelodeon-promo-anteater",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 10.01,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "A 1986 American ID which I taped off the Australian version of Nickelodeon during 2000.",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "link_status": "held",
+      "check_error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "type": "Advert",
+      "title": "NICKELODEON Claymation IDs",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nick-ids-comp_202202/NICKELODEON%20Claymation%20IDs.mp4",
+      "filename": "NICKELODEON Claymation IDs.mp4",
+      "archive_identifier": "nick-ids-comp_202202",
+      "source_page": "https://archive.org/details/nick-ids-comp_202202",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 41.322,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "So many bumpers, so much fun!",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 24314408,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/nick-ids-comp_202202/NICKELODEON%20Claymation%20IDs.mp4",
+      "stream_megabits_per_second": 4.707
+    },
+    {
+      "type": "Advert",
+      "title": "Nick Games (2002, highest quality)",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nick-ids-comp_202202/Nick%20Games%20%282002%2C%20highest%20quality%29.mp4",
+      "filename": "Nick Games (2002, highest quality).mp4",
+      "archive_identifier": "nick-ids-comp_202202",
+      "source_page": "https://archive.org/details/nick-ids-comp_202202",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 5.48,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "So many bumpers, so much fun!",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 466591,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/nick-ids-comp_202202/Nick%20Games%20%282002%2C%20highest%20quality%29.mp4",
+      "stream_megabits_per_second": 0.681
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon Bumper - Nickelodeon Machine",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20Bumper%20-%20Nickelodeon%20Machine.mp4",
+      "filename": "Nickelodeon Bumper - Nickelodeon Machine.mp4",
+      "archive_identifier": "nick-ids-comp_202202",
+      "source_page": "https://archive.org/details/nick-ids-comp_202202",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 30.1,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "So many bumpers, so much fun!",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 21300905,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20Bumper%20-%20Nickelodeon%20Machine.mp4",
+      "stream_megabits_per_second": 5.661
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon Bumper - Orange Shapes",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20Bumper%20-%20Orange%20Shapes.mp4",
+      "filename": "Nickelodeon Bumper - Orange Shapes.mp4",
+      "archive_identifier": "nick-ids-comp_202202",
+      "source_page": "https://archive.org/details/nick-ids-comp_202202",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 30.279,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "So many bumpers, so much fun!",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 2581206,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20Bumper%20-%20Orange%20Shapes.mp4",
+      "stream_megabits_per_second": 0.682
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon Bumper - Time Machine (HQ Rare)",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20Bumper%20-%20Time%20Machine%20%28HQ_Rare%29.mp4",
+      "filename": "Nickelodeon Bumper - Time Machine (HQ_Rare).mp4",
+      "archive_identifier": "nick-ids-comp_202202",
+      "source_page": "https://archive.org/details/nick-ids-comp_202202",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 20.016,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "So many bumpers, so much fun!",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 900919,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20Bumper%20-%20Time%20Machine%20%28HQ_Rare%29.mp4",
+      "stream_megabits_per_second": 0.36
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon Bumper Segue (Early 90's)  - Nick Time",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20Bumper%20Segue%20%28Early%2090%27s%29%20%20-%20Nick%20Time.mp4",
+      "filename": "Nickelodeon Bumper Segue (Early 90's)  - Nick Time.mp4",
+      "archive_identifier": "nick-ids-comp_202202",
+      "source_page": "https://archive.org/details/nick-ids-comp_202202",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 30.47,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "So many bumpers, so much fun!",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "link_status": "held",
+      "check_error": "Decode failure: [null @ 0x5638d764acc0] Application provided invalid, non monotonically increasing dts to muxer in s"
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon ID - Toaster",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20ID%20-%20Toaster.mp4",
+      "filename": "Nickelodeon ID - Toaster.mp4",
+      "archive_identifier": "nick-ids-comp_202202",
+      "source_page": "https://archive.org/details/nick-ids-comp_202202",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 8.0,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "So many bumpers, so much fun!",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 2746584,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20ID%20-%20Toaster.mp4",
+      "stream_megabits_per_second": 2.747
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon Orange You Glad Bumper",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20Orange%20You%20Glad%20Bumper.mp4",
+      "filename": "Nickelodeon Orange You Glad Bumper.mp4",
+      "archive_identifier": "nick-ids-comp_202202",
+      "source_page": "https://archive.org/details/nick-ids-comp_202202",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 10.077,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "So many bumpers, so much fun!",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 2450857,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20Orange%20You%20Glad%20Bumper.mp4",
+      "stream_megabits_per_second": 1.946
+    },
+    {
+      "type": "Advert",
+      "title": "Nickelodeon Skateboard Ident",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20Skateboard%20Ident.mp4",
+      "filename": "Nickelodeon Skateboard Ident.mp4",
+      "archive_identifier": "nick-ids-comp_202202",
+      "source_page": "https://archive.org/details/nick-ids-comp_202202",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 6.53,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "So many bumpers, so much fun!",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "link_status": "held",
+      "check_error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "type": "Advert",
+      "title": "Nicktoons 'Blob' ID (1993)",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nick-ids-comp_202202/Nicktoons%20%27Blob%27%20ID%20%281993%29.mp4",
+      "filename": "Nicktoons 'Blob' ID (1993).mp4",
+      "archive_identifier": "nick-ids-comp_202202",
+      "source_page": "https://archive.org/details/nick-ids-comp_202202",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 20.619,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "So many bumpers, so much fun!",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 947340,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/nick-ids-comp_202202/Nicktoons%20%27Blob%27%20ID%20%281993%29.mp4",
+      "stream_megabits_per_second": 0.368
+    },
+    {
+      "type": "Advert",
+      "title": "Nicktoons   The Dancer Bumper 2004",
+      "show": "Dickleodeon continuity",
+      "url": "https://archive.org/download/nick-ids-comp_202202/Nicktoons%20_%20The%20Dancer%20Bumper%202004.mp4",
+      "filename": "Nicktoons _ The Dancer Bumper 2004.mp4",
+      "archive_identifier": "nick-ids-comp_202202",
+      "source_page": "https://archive.org/details/nick-ids-comp_202202",
+      "channel": "Dickleodeon",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "duration_seconds": 30.232,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent listening review",
+      "curated_interstitial": true,
+      "product_advert": false,
+      "station_brand": "Nickelodeon",
+      "source_description": "So many bumpers, so much fun!",
+      "evidence_language": [
+        "eng"
+      ],
+      "seasonal_tags": [],
+      "duration_evidence": "Complete MP4 ffprobe",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 3839491,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "link_status": "complete-file-decode-passed",
+      "content_id": "interstitial:https://archive.org/download/nick-ids-comp_202202/Nicktoons%20_%20The%20Dancer%20Bumper%202004.mp4",
+      "stream_megabits_per_second": 1.016
+    }
+  ],
+  "limits": "Uploader English claims and source descriptions identify language/origin; runtime/codec/decode checks do not replace full independent listening. High bitrate short originals are held for this pass."
+}

@@ -1,0 +1,1194 @@
+{
+  "version": "0.36.3",
+  "note": "Exact original Internet Archive MP4s; English declared by uploaders. H.264/AAC and complete file decode verified. No full independent spoken-audio review. Round-robin category ordering. Product adverts can cross American channels; station idents remain channel-specific.",
+  "adverts": [
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Disney World 25th Anniversary (1997)",
+      "url": "https://archive.org/download/1997-disney-world-25th-anniversary-commercial/1997%20Disney%20World%2025th%20Anniversary%20Commercial.mp4",
+      "filename": "1997 Disney World 25th Anniversary Commercial.mp4",
+      "archive_identifier": "1997-disney-world-25th-anniversary-commercial",
+      "source_page": "https://archive.org/details/1997-disney-world-25th-anniversary-commercial",
+      "duration_seconds": 29.696,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1997,
+      "advert_category": "theme-park",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 18246917,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Disney World 25th Anniversary (1997)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "AAA",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy",
+        "What"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/1997-disney-world-25th-anniversary-commercial/1997%20Disney%20World%2025th%20Anniversary%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Halloween 1995 Toys “R” Us (1995)",
+      "url": "https://archive.org/download/halloween-1995-toys-r-us-commercial/Halloween%201995%20Toys%20R%20Us%20Commercial.mp4",
+      "filename": "Halloween 1995 Toys R Us Commercial.mp4",
+      "archive_identifier": "halloween-1995-toys-r-us-commercial",
+      "source_page": "https://archive.org/details/halloween-1995-toys-r-us-commercial",
+      "duration_seconds": 29.963,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1995,
+      "advert_category": "toys-games",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [
+        "halloween"
+      ],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 18060252,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Halloween 1995 Toys “R” Us (1995)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/halloween-1995-toys-r-us-commercial/Halloween%201995%20Toys%20R%20Us%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Carnation Hot Chocolate (1993)",
+      "url": "https://archive.org/download/1993variouscommercials/1993%20Carnation%20Hot%20Chocolate%20Commercial.mp4",
+      "filename": "1993 Carnation Hot Chocolate Commercial.mp4",
+      "archive_identifier": "1993variouscommercials",
+      "source_page": "https://archive.org/details/1993variouscommercials",
+      "duration_seconds": 30.156,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1993,
+      "advert_category": "chocolate-candy",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 90157051,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Carnation Hot Chocolate (1993)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "AAA",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy",
+        "What"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/1993variouscommercials/1993%20Carnation%20Hot%20Chocolate%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "FRUIT GUSHERS (1992)",
+      "url": "https://archive.org/download/fruit-gushers-1992-commercial/FRUIT%20GUSHERS%20-%201992%20Commercial.mp4",
+      "filename": "FRUIT GUSHERS - 1992 Commercial.mp4",
+      "archive_identifier": "fruit-gushers-1992-commercial",
+      "source_page": "https://archive.org/details/fruit-gushers-1992-commercial",
+      "duration_seconds": 30.48,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1992,
+      "advert_category": "food-drink",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 3970705,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "FRUIT GUSHERS (1992)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "AAA",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy",
+        "What"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/fruit-gushers-1992-commercial/FRUIT%20GUSHERS%20-%201992%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Six Flags Park (1999)",
+      "url": "https://archive.org/download/1999variouscommercials/1999%20Six%20Flags%20Park%20Commercial.mp4",
+      "filename": "1999 Six Flags Park Commercial.mp4",
+      "archive_identifier": "1999variouscommercials",
+      "source_page": "https://archive.org/details/1999variouscommercials",
+      "duration_seconds": 30.163,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1999,
+      "advert_category": "theme-park",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 2879807,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Six Flags Park (1999)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "AAA",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy",
+        "What"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/1999variouscommercials/1999%20Six%20Flags%20Park%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Crayola Color Wipeoff (1998)",
+      "url": "https://archive.org/download/1998variouscommercials/1998%20Crayola%20Color%20Wipeoff%20Commercial.mp4",
+      "filename": "1998 Crayola Color Wipeoff Commercial.mp4",
+      "archive_identifier": "1998variouscommercials",
+      "source_page": "https://archive.org/details/1998variouscommercials",
+      "duration_seconds": 15.015,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1998,
+      "advert_category": "toys-games",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 1403224,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Crayola Color Wipeoff (1998)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/1998variouscommercials/1998%20Crayola%20Color%20Wipeoff%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Carnation Hot Chocolate (1994)",
+      "url": "https://archive.org/download/1994variouscommercials/1994%20Carnation%20Hot%20Chocolate%20Commercial.mp4",
+      "filename": "1994 Carnation Hot Chocolate Commercial.mp4",
+      "archive_identifier": "1994variouscommercials",
+      "source_page": "https://archive.org/details/1994variouscommercials",
+      "duration_seconds": 35.164,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1994,
+      "advert_category": "chocolate-candy",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 67568515,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Carnation Hot Chocolate (1994)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "AAA",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy",
+        "What"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/1994variouscommercials/1994%20Carnation%20Hot%20Chocolate%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Six Flags Darien Lake Superman (1999)",
+      "url": "https://archive.org/download/six-flags-darien-lake-superman-commercial-1999/Six%20Flags%20Darien%20Lake%20Superman%20commercial%201999.mp4",
+      "filename": "Six Flags Darien Lake Superman commercial 1999.mp4",
+      "archive_identifier": "six-flags-darien-lake-superman-commercial-1999",
+      "source_page": "https://archive.org/details/six-flags-darien-lake-superman-commercial-1999",
+      "duration_seconds": 30.697,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1999,
+      "advert_category": "theme-park",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 3906303,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Six Flags Darien Lake Superman (1999)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "AAA",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy",
+        "What"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/six-flags-darien-lake-superman-commercial-1999/Six%20Flags%20Darien%20Lake%20Superman%20commercial%201999.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "M&M’s Chocolate Camp Candy (1994)",
+      "url": "https://archive.org/download/1994variouscommercials/1994%20M%26Ms%20Chocolate%20Camp%20Candy%20Commercial.mp4",
+      "filename": "1994 M&Ms Chocolate Camp Candy Commercial.mp4",
+      "archive_identifier": "1994variouscommercials",
+      "source_page": "https://archive.org/details/1994variouscommercials",
+      "duration_seconds": 30.063,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1994,
+      "advert_category": "chocolate-candy",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 3186081,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "M&M’s Chocolate Camp Candy (1994)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "AAA",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy",
+        "What"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/1994variouscommercials/1994%20M%26Ms%20Chocolate%20Camp%20Candy%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Kellogg's Corn Flakes Cereal (1993)",
+      "url": "https://archive.org/download/1993variouscommercials/1993%20Kellogg%27s%20Corn%20Flakes%20Cereal%20Commercial.mp4",
+      "filename": "1993 Kellogg's Corn Flakes Cereal Commercial.mp4",
+      "archive_identifier": "1993variouscommercials",
+      "source_page": "https://archive.org/details/1993variouscommercials",
+      "duration_seconds": 29.692,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1993,
+      "advert_category": "food-drink",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 59667300,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Kellogg's Corn Flakes Cereal (1993)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "AAA",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy",
+        "What"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/1993variouscommercials/1993%20Kellogg%27s%20Corn%20Flakes%20Cereal%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Chuck E. Cheese (2000)",
+      "url": "https://archive.org/download/2000VariousCommercials/2000%20Chuck%20E.%20Cheese%20Commercial.mp4",
+      "filename": "2000 Chuck E. Cheese Commercial.mp4",
+      "archive_identifier": "2000VariousCommercials",
+      "source_page": "https://archive.org/details/2000VariousCommercials",
+      "duration_seconds": 30.43,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 2000,
+      "advert_category": "theme-park",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 58650733,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Chuck E. Cheese (2000)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "AAA",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy",
+        "What"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/2000VariousCommercials/2000%20Chuck%20E.%20Cheese%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Hot Wheels - Shark Park (2000)",
+      "url": "https://archive.org/download/hot-wheels-shark-park-2000/Hot%20Wheels%20-%20Shark%20Park%202000.mp4",
+      "filename": "Hot Wheels - Shark Park 2000.mp4",
+      "archive_identifier": "hot-wheels-shark-park-2000",
+      "source_page": "https://archive.org/details/hot-wheels-shark-park-2000",
+      "duration_seconds": 30.975,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 2000,
+      "advert_category": "toys-games",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "English"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 910268,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Hot Wheels - Shark Park (2000)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/hot-wheels-shark-park-2000/Hot%20Wheels%20-%20Shark%20Park%202000.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Kellogg's Corn Flakes Cereal 2 (1993)",
+      "url": "https://archive.org/download/1993variouscommercials/1993%20Kellogg%27s%20Corn%20Flakes%20Cereal%202%20Commercial.mp4",
+      "filename": "1993 Kellogg's Corn Flakes Cereal 2 Commercial.mp4",
+      "archive_identifier": "1993variouscommercials",
+      "source_page": "https://archive.org/details/1993variouscommercials",
+      "duration_seconds": 30.132,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1993,
+      "advert_category": "food-drink",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 57942525,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Kellogg's Corn Flakes Cereal 2 (1993)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "AAA",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy",
+        "What"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/1993variouscommercials/1993%20Kellogg%27s%20Corn%20Flakes%20Cereal%202%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Hot Wheels Raptor Blast (2003)",
+      "url": "https://archive.org/download/2003-commercial-for-hot-wheels-raptor-blast/2003%20commercial%20for%20Hot%20Wheels%20Raptor%20Blast.mp4",
+      "filename": "2003 commercial for Hot Wheels Raptor Blast.mp4",
+      "archive_identifier": "2003-commercial-for-hot-wheels-raptor-blast",
+      "source_page": "https://archive.org/details/2003-commercial-for-hot-wheels-raptor-blast",
+      "duration_seconds": 30.037,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 2003,
+      "advert_category": "toys-games",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 45641301,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Hot Wheels Raptor Blast (2003)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/2003-commercial-for-hot-wheels-raptor-blast/2003%20commercial%20for%20Hot%20Wheels%20Raptor%20Blast.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Oreo Cookie (1993)",
+      "url": "https://archive.org/download/1993variouscommercials/1993%20Oreo%20Cookie%20Commercial.mp4",
+      "filename": "1993 Oreo Cookie Commercial.mp4",
+      "archive_identifier": "1993variouscommercials",
+      "source_page": "https://archive.org/details/1993variouscommercials",
+      "duration_seconds": 29.767,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1993,
+      "advert_category": "food-drink",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 3140127,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Oreo Cookie (1993)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "AAA",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy",
+        "What"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/1993variouscommercials/1993%20Oreo%20Cookie%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Hot Wheels Zero-G (2004)",
+      "url": "https://archive.org/download/2004-commercial-for-hot-wheels-zero-g/2004%20commercial%20for%20Hot%20Wheels%20Zero-G.mp4",
+      "filename": "2004 commercial for Hot Wheels Zero-G.mp4",
+      "archive_identifier": "2004-commercial-for-hot-wheels-zero-g",
+      "source_page": "https://archive.org/details/2004-commercial-for-hot-wheels-zero-g",
+      "duration_seconds": 30.123,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 2004,
+      "advert_category": "toys-games",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 37752659,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Hot Wheels Zero-G (2004)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/2004-commercial-for-hot-wheels-zero-g/2004%20commercial%20for%20Hot%20Wheels%20Zero-G.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Snickers Candy Hungry Why Wait (1999)",
+      "url": "https://archive.org/download/1999variouscommercials/1999%20Snickers%20Candy%20Hungry%20Why%20Wait%20Commercial.mp4",
+      "filename": "1999 Snickers Candy Hungry Why Wait Commercial.mp4",
+      "archive_identifier": "1999variouscommercials",
+      "source_page": "https://archive.org/details/1999variouscommercials",
+      "duration_seconds": 30.264,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1999,
+      "advert_category": "chocolate-candy",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 2939249,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Snickers Candy Hungry Why Wait (1999)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "AAA",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy",
+        "What"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/1999variouscommercials/1999%20Snickers%20Candy%20Hungry%20Why%20Wait%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Burger King Whopper Jr. Fast Food (1994)",
+      "url": "https://archive.org/download/1994variouscommercials/1994%20Burger%20King%20Whopper%20Jr.%20Fast%20Food%20Commercial.mp4",
+      "filename": "1994 Burger King Whopper Jr. Fast Food Commercial.mp4",
+      "archive_identifier": "1994variouscommercials",
+      "source_page": "https://archive.org/details/1994variouscommercials",
+      "duration_seconds": 29.964,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1994,
+      "advert_category": "food-drink",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 3169200,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Burger King Whopper Jr. Fast Food (1994)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "AAA",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy",
+        "What"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/1994variouscommercials/1994%20Burger%20King%20Whopper%20Jr.%20Fast%20Food%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Coca Cola (1994)",
+      "url": "https://archive.org/download/1994variouscommercials/1994%20Coca%20Cola%20Commercial.mp4",
+      "filename": "1994 Coca Cola Commercial.mp4",
+      "archive_identifier": "1994variouscommercials",
+      "source_page": "https://archive.org/details/1994variouscommercials",
+      "duration_seconds": 30.494,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1994,
+      "advert_category": "food-drink",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 57845043,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Coca Cola (1994)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "AAA",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy",
+        "What"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/1994variouscommercials/1994%20Coca%20Cola%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Coca Cola Red Hot Summer Model Inc. (1994)",
+      "url": "https://archive.org/download/1994variouscommercials/1994%20Coca%20Cola%20Red%20Hot%20Summer%20Model%20Inc.%20Commercial.mp4",
+      "filename": "1994 Coca Cola Red Hot Summer Model Inc. Commercial.mp4",
+      "archive_identifier": "1994variouscommercials",
+      "source_page": "https://archive.org/details/1994variouscommercials",
+      "duration_seconds": 30.089,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1994,
+      "advert_category": "food-drink",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 54525952,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Coca Cola Red Hot Summer Model Inc. (1994)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "AAA",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy",
+        "What"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/1994variouscommercials/1994%20Coca%20Cola%20Red%20Hot%20Summer%20Model%20Inc.%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Sunny Delight California Style (1994)",
+      "url": "https://archive.org/download/1994variouscommercials/1994%20Sunny%20Delight%20California%20Style%20Commercial.mp4",
+      "filename": "1994 Sunny Delight California Style Commercial.mp4",
+      "archive_identifier": "1994variouscommercials",
+      "source_page": "https://archive.org/details/1994variouscommercials",
+      "duration_seconds": 30.457,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1994,
+      "advert_category": "food-drink",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 57539760,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Sunny Delight California Style (1994)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "AAA",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy",
+        "What"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/1994variouscommercials/1994%20Sunny%20Delight%20California%20Style%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Honey Nut Cheerios Cereal Little Red Riding Hood (1999)",
+      "url": "https://archive.org/download/1999variouscommercials/1999%20Honey%20Nut%20Cherrios%20Cereal%20Little%20Red%20Riding%20Hood%20Commercial.mp4",
+      "filename": "1999 Honey Nut Cherrios Cereal Little Red Riding Hood Commercial.mp4",
+      "archive_identifier": "1999variouscommercials",
+      "source_page": "https://archive.org/details/1999variouscommercials",
+      "duration_seconds": 15.716,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1999,
+      "advert_category": "food-drink",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 206,
+        "content_type": "video/mp4",
+        "mp4_header_confirmed": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 1569248,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Honey Nut Cheerios Cereal Little Red Riding Hood (1999)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "AAA",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy",
+        "What"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/1999variouscommercials/1999%20Honey%20Nut%20Cherrios%20Cereal%20Little%20Red%20Riding%20Hood%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    },
+    {
+      "type": "Advert",
+      "show": "American nostalgia adverts",
+      "title": "Taco Bell - Chihuahua Gorditas Sing a long (1998)",
+      "url": "https://archive.org/download/1998-taco-bell-chihuahua-gorditas-sing-a-long-commercial/1998%20Taco%20Bell%20-%20Chihuahua%20Gorditas%20Sing%20a%20long%20Commercial.mp4",
+      "filename": "1998 Taco Bell - Chihuahua Gorditas Sing a long Commercial.mp4",
+      "archive_identifier": "1998-taco-bell-chihuahua-gorditas-sing-a-long-commercial",
+      "source_page": "https://archive.org/details/1998-taco-bell-chihuahua-gorditas-sing-a-long-commercial",
+      "duration_seconds": 30.828,
+      "duration_evidence": "Complete MP4 ffprobe",
+      "year": 1998,
+      "advert_category": "food-drink",
+      "product_advert": true,
+      "language_status": "uploader-declared-english",
+      "language_label": "Uploader declares English; no full independent audio review",
+      "seasonal_tags": [],
+      "evidence_language": [
+        "eng"
+      ],
+      "direct_link_check": {
+        "http_status": 200,
+        "mp4_header_confirmed": true,
+        "complete_sample_download": true
+      },
+      "link_status": "complete-file-decode-passed",
+      "codec_check": {
+        "video": "h264",
+        "audio": "aac",
+        "evidence": "Complete MP4 ffprobe and full ffmpeg decode"
+      },
+      "full_file_check": {
+        "bytes": 63031677,
+        "decode": "passed",
+        "spoken_audio_review": false
+      },
+      "source_title": "Taco Bell - Chihuahua Gorditas Sing a long (1998)",
+      "source": "Internet Archive American nostalgia advert pass — 13 October 2026",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons",
+        "Japanime",
+        "Star Spangled TV",
+        "AAA",
+        "Dickleodeon",
+        "GirlyPop",
+        "Dizzy",
+        "What"
+      ],
+      "channel": "90s Toons",
+      "content_id": "advert:https://archive.org/download/1998-taco-bell-chihuahua-gorditas-sing-a-long-commercial/1998%20Taco%20Bell%20-%20Chihuahua%20Gorditas%20Sing%20a%20long%20Commercial.mp4",
+      "catalogue_status": "broadcast"
+    }
+  ]
+}

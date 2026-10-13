@@ -1,0 +1,15 @@
+{
+  "version": "0.36.4",
+  "status": "passed",
+  "curated_clips": 35,
+  "actually_scheduled": 35,
+  "by_channel": {
+    "Off-Licence TV": 13,
+    "Dizzy": 6,
+    "Dickleodeon": 16
+  },
+  "channel_days": 3650,
+  "maximum_compiled_advert_seconds": 59.95,
+  "errors": [],
+  "scope": "Complete static calendar, exact source/routing/seasonal placement and measured media checks. No full independent listening or browser streaming review."
+}

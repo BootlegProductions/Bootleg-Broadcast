@@ -1,0 +1,14 @@
+{
+  "version": "0.36.4",
+  "status": "passed",
+  "fully_decoded_new_adverts": 23,
+  "new_adverts_actually_scheduled": 23,
+  "channel_days": 3650,
+  "changed_programme_days": 0,
+  "comparison_scope": "Programme identity, source, episode order and timing; display-title cleanup is permitted",
+  "previous_release_compared": true,
+  "maximum_remaining_interval_seconds": 28.81,
+  "new_ad_screenings": 1394904,
+  "errors": [],
+  "scope": "Exact MP4/runtime/codec/full decode evidence, complete advert placement and unchanged programme lineup across 2026. Uploader English declaration is not an independent full listening review."
+}
