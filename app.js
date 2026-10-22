@@ -1,4 +1,4 @@
-/* Bootleg Broadcast v0.37.0 — CRT television, seasonal rotation and source recovery. */
+/* Bootleg Broadcast v0.37.1 — CRT television, seasonal rotation and source recovery. */
 'use strict';
 const $ = id => document.getElementById(id);
 const player = $('player');
@@ -24,8 +24,8 @@ remoteControl.classList.toggle('active',settings.remoteOpen !== false);
 function escapeHtml(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));}
 function persistSettings(){try{localStorage.setItem(SETTINGS_KEY,JSON.stringify({currentChannel,channelMemory,volume:player.volume,muted:player.muted,remoteOpen:remoteControl.classList.contains('active')}));}catch{}}
 function playSound(sound,volume=0.2){if(player.muted)return;sound.pause();sound.currentTime=0;sound.volume=volume;sound.play().catch(()=>{});}
-function showStatus(message,duration=1600,className=''){clearTimeout(statusTimer);$('statusOverlay').textContent=message;$('statusOverlay').className=`visible ${className}`;if(duration>0)statusTimer=setTimeout(hideStatus,duration);}
-function hideStatus(){clearTimeout(statusTimer);$('statusOverlay').className='';}
+function showStatus(message,duration=1600,className=''){clearTimeout(statusTimer);$('statusOverlay').textContent=message;$('statusOverlay').className=`visible ${className}`;$('screen').classList.toggle('signal-interrupted',className==='signal');if(duration>0)statusTimer=setTimeout(hideStatus,duration);}
+function hideStatus(){clearTimeout(statusTimer);$('statusOverlay').className='';$('screen').classList.remove('signal-interrupted');}
 function flattenDays(data=schedule){return data?.weeks?data.weeks.flatMap(w=>w.week||[]):data?.week||[];}
 function getRotationDay(){const days=flattenDays();if(!days.length)return null;const day=previewDate||Number(ukParts().day);if(schedule?.weeks)return days.find(d=>Number(d.date)===day)||days[(day-1)%days.length];const weekday=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',weekday:'long'}).format(new Date());return days.find(d=>d.day===weekday)||days[(day-1)%days.length];}
 function getTodaySchedule(){return Broadcast.day()||getRotationDay();}
@@ -47,7 +47,7 @@ function cancelRecovery(){clearTimeout(recoveryTimer);clearTimeout(sourceTimer);
 function resetPlayer(){++tuningGeneration;cancelRecovery();player.onloadedmetadata=null;player.pause();player.removeAttribute('src');player.load();}
 function armSourceTimeout(delay=22000){clearTimeout(sourceTimer);if(!poweredOn||Broadcast.holding())return;const generation=tuningGeneration;sourceTimer=setTimeout(()=>{if(generation===tuningGeneration&&poweredOn&&!Broadcast.holding()&&!player.paused)recoverSource('SIGNAL TIMED OUT');else if(generation===tuningGeneration&&poweredOn&&!Broadcast.holding()&&player.readyState<2)recoverSource('SIGNAL TIMED OUT');},delay);}
 function safePlay(){if(!poweredOn||!player.getAttribute('src'))return;player.play().catch(err=>{if(err.name==='NotAllowedError')showStatus('PRESS PLAY TO START',0);else if(err.name==='NotSupportedError')recoverSource('SOURCE UNSUPPORTED');});}
-function loadItemSource(item,index=0,seek=0){cancelRecovery();const sources=getItemSources(item);if(!sources.length)return false;sourceIndex=index;pendingSeek=seek;const generation=++tuningGeneration;player.onloadedmetadata=()=>{if(generation!==tuningGeneration)return;if(Broadcast.mode()==='live')pendingSeek=Broadcast.seek();if(pendingSeek>0&&Number.isFinite(player.duration)){if(pendingSeek>=player.duration&&!item.loop){Broadcast.fillGap();return;}player.currentTime=Math.min(pendingSeek,Math.max(0,player.duration-0.1));}pendingSeek=0;if(poweredOn)safePlay();};player.src=sources[index];player.load();if(poweredOn){showStatus(index?'TRYING BACKUP SOURCE…':'TUNING…',0);armSourceTimeout();safePlay();}updateRemote();return true;}
+function loadItemSource(item,index=0,seek=0){cancelRecovery();const sources=getItemSources(item);if(!sources.length)return false;sourceIndex=index;pendingSeek=seek;const generation=++tuningGeneration;player.onloadedmetadata=()=>{if(generation!==tuningGeneration)return;if(Broadcast.mode()==='live')pendingSeek=Broadcast.seek();if(pendingSeek>0&&Number.isFinite(player.duration)){if(pendingSeek>=player.duration&&!item.loop){Broadcast.fillGap();return;}player.currentTime=Math.min(pendingSeek,Math.max(0,player.duration-0.1));}pendingSeek=0;if(poweredOn)safePlay();};player.src=sources[index];player.load();if(poweredOn){showStatus(index?'RETUNING BACKUP SIGNAL…':'SEARCHING FOR SIGNAL…',0,'signal');armSourceTimeout();safePlay();}updateRemote();return true;}
 function tryNextAlternateSource(manual=false){return Broadcast.alternate(manual);}
 function recoverSource(reason){return Broadcast.recover(reason);}
 function nextProgrammeIndex(items,from,direction=1){for(let step=1;step<=items.length;step++){const n=(from+direction*step+items.length*2)%items.length;if(items[n]?.url&&!NON_PROGRAMME.has(items[n].type)&&items[n].type!=='Filler'&&!items[n].presentation)return n;}return -1;}
@@ -101,8 +101,8 @@ player.addEventListener('ended',()=>Broadcast.ended());
 player.addEventListener('error',()=>{if(player.getAttribute('src')&&!Broadcast.holding())recoverSource('PROGRAMME UNAVAILABLE');});
 player.addEventListener('playing',()=>{cancelRecovery();consecutiveFailures=0;stalledAttempts=0;hideStatus();updateRemote();});
 player.addEventListener('pause',updateRemote);
-player.addEventListener('waiting',()=>{if(poweredOn&&!Broadcast.holding()){showStatus('BUFFERING…',0);armSourceTimeout(25000);}});
-player.addEventListener('stalled',()=>{if(poweredOn&&!Broadcast.holding())armSourceTimeout(18000);});
+player.addEventListener('waiting',()=>{if(poweredOn&&!Broadcast.holding()){showStatus('SIGNAL INTERRUPTED · RETUNING…',0,'signal');armSourceTimeout(25000);}});
+player.addEventListener('stalled',()=>{if(poweredOn&&!Broadcast.holding()){showStatus('SIGNAL INTERRUPTED · RETUNING…',0,'signal');armSourceTimeout(18000);}});
 player.addEventListener('timeupdate',()=>{if(poweredOn&&!player.paused&&player.readyState>=3){clearTimeout(sourceTimer);}});
 document.addEventListener('keydown',e=>{const tag=document.activeElement?.tagName;if(['INPUT','TEXTAREA','SELECT'].includes(tag)||e.ctrlKey||e.metaKey||e.altKey)return;if($('guidePanel').open)return;if($('helpOverlay').classList.contains('active')){if(e.key==='Escape')toggleHelp(false);else if(e.key==='Tab'){e.preventDefault();$('helpClose').focus();}return;}const key=e.key.toLowerCase();const actions={'arrowright':nextChannel,'arrowleft':prevChannel,'arrowup':volumeUp,'arrowdown':volumeDown,'m':toggleMute,'s':toggleScheduleOverlay,'g':openGuide,'f':toggleVideoFullscreen,'b':toggleBigPicture,'r':toggleRemote,'p':togglePower,' ':togglePause,'n':()=>skipProgramme(1),'a':()=> $('source-button').click(),'escape':()=>{$('scheduleOverlay').classList.remove('active');},'enter':commitDigits};if(/^\d$/.test(key)){e.preventDefault();enterDigit(key);}else if(actions[key]){if(key===' '&&tag==='BUTTON')return;e.preventDefault();if(!e.repeat||key.startsWith('arrow'))actions[key]();}});
 // Swipes retain the physical-TV feel on phones; buttons remain keyboard operable.
