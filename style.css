@@ -54,7 +54,8 @@ body {
   width: var(--stage-width);
   height: var(--stage-height);
   transform: translate(-50%, -50%);
-  overflow: hidden;
+  /* Clip without becoming a scroll container when a guide returns focus. */
+  overflow: clip;
   background: #000;
 }
 
@@ -73,6 +74,9 @@ body {
   background-size: cover;
   background-color: #000;
 }
+
+/* A preloaded video frame must not show through a television in standby. */
+body:not(.tv-powered-on) #player { visibility: hidden; }
 
 #ambient-glow {
   position: absolute;
