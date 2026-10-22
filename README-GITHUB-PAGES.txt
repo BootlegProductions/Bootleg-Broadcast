@@ -1,4 +1,4 @@
-BOOTLEG BROADCAST — GitHub Pages v0.36.4
+BOOTLEG BROADCAST — GitHub Pages v0.37.0
 
 UPDATE
 1. In GitHub Desktop select your existing Bootleg-Broadcast repository. Fetch/Pull origin before copying files.
@@ -6,7 +6,10 @@ UPDATE
 3. Delete only the exact obsolete paths listed in FILES-TO-DELETE.txt. Keep all other original files unless you have a separate reason to remove them.
 4. Commit to your existing Pages branch and Push origin. Check the new Pages deployment in GitHub Actions. After its green tick, refresh the site with Ctrl+F5.
 
-No npm build, backend, server key or API is required. Keep your existing Pages branch/root configuration. This export has not changed the live site.
+No npm build, backend, server key or API is required. Keep your existing Pages branch/root configuration. GitHub Pages publishes this repository after a successful Pages deployment. Direct commits no longer require copying a ZIP.
+
+DIRECT GITHUB UPDATES
+Changes can now be committed directly to the existing Pages branch. Check the Pages workflow result before assuming the live site has changed. Preserve the Google Search Console verification file and meta tag.
 
 LOCAL PREVIEW
 Serve the extracted folder with VS Code Live Server or another static HTTP server. Opening index.html directly as a file can block JSON loading.
@@ -15,7 +18,10 @@ WHERE TO LOOK
 sources.html: complete collection, language/evidence filters and exportable local source flags.
 schedule-audit.html: current written UK timetable, series airtime, episode repetition and channel overlap.
 VERSION-HISTORY.txt: current and historical release notes; append future version changes here.
-release-validation.json: current automated checks.
+release-validation.json: current full-year timing checks.
+seasonal-validation.json: dated winter appointments, fireplace hours and local-link checks.
+seasonal-source-review.json: exact originals, codec probes, sample decode checks and unresolved branded fireplaces.
+SITE-REVIEW.txt: current changes, audit results and remaining source limits.
 editorial-review.json: measured series availability and named fallback review.
 playback-validation.json: clock expansion and source-recovery checks.
 CHANNEL-LINEUP.txt: simple per-channel list and counts of programmes actually scheduled.
@@ -31,7 +37,7 @@ FLAGS
 Flags stay on the same browser/device. Reload the TV after flagging. They hold playback without changing the shared slot times. Clearing a flag and reloading restores eligibility. Incognito or a different device will not share flags; export to preserve/send them.
 
 BROADCAST
-All timetable positions use the viewer device clock in Europe/London. Correct clocks produce the same plan, but no server clock is required. After hours is 02:30–07:00 UK; December fireplace is 03:00–04:00. On-demand selections return to the scheduled broadcast when finished. Central repair/report sharing remains a future backend feature.
+All timetable positions use the viewer device clock in Europe/London. Correct clocks produce the same plan, but no server clock is required. After hours is 02:30–07:00 UK; December fireplace is 04:00–05:00. On-demand selections return to the scheduled broadcast when finished. Central repair/report sharing remains a future backend feature.
 
 Keep Archive evidence and metadata reports for maintenance. A source can disappear or be mislabeled; catalogue membership does not guarantee current playback.
 

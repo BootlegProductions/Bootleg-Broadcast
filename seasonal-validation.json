@@ -1,0 +1,14 @@
+{
+  "version": "0.37.0",
+  "status": "passed",
+  "dated_appointments": 76,
+  "distinct_appointed_sources": 48,
+  "december_fireplace_hours": 310,
+  "local_links_checked": 46,
+  "identified_regular_episode_pools": {
+    "powerpuff": 78,
+    "simpsons": 419
+  },
+  "errors": [],
+  "scope": "Static calendar and local links. External availability is recorded separately in seasonal-source-review.json; no full audio review."
+}

@@ -1,7 +1,7 @@
-BOOTLEG BROADCAST v0.36.4 — WRITTEN TV LINEUPS
+BOOTLEG BROADCAST v0.37.0 — WRITTEN TV LINEUPS
 All times Europe/London. Programme starts within each block use measured media runtimes.
 Named fallbacks only cover missing/unfitting sources. No random programme selection.
-After hours 02:30–07:00. December fireplace 03:00–04:00.
+After hours 02:30–07:00. December fireplace 04:00–05:00.
 
 
 90S TOONS
@@ -379,10 +379,9 @@ Japanime 0630 2026-01-25 → 2026-02-06  Sonny Boy
 AAA 0000 2026-01-25 → 2026-01-30  Aeon Flux
 Japanime 0000 2026-01-26 → 2026-01-29  Golden Boy
 Japanime 0100 2026-01-26 → 2026-02-01  Panty & Stocking with Garterbelt
-Japanime 1600 2026-01-27 → 2026-01-28  Neo Ranga
+Japanime 1600 2026-01-27 → 2026-02-09  Air Gear
 Japanime 1900 2026-01-27 → 2026-01-30  Dominion Tank Police
 Dickleodeon 1700 2026-01-27 → 2026-02-04  The Amanda Show
-Japanime 1600 2026-01-28 → 2026-02-09  Air Gear
 Japanime 2200 2026-01-28 → 2026-02-03  91 Days
 Dickleodeon 1100 2026-01-28 → 2026-02-05  Maxie's World
 Japanime 0000 2026-01-29 → 2026-02-01  Angel Cop all OVA's 1989-1994
@@ -505,7 +504,7 @@ Japanime 0630 2026-03-22 → 2026-04-03  Sonny Boy
 Off-Licence TV 0000 2026-03-22 → 2026-03-24  Sacred Weeds
 Off-Licence TV 1700 2026-03-22 → 2026-04-10  An Idiot Abroad
 Japanime 1500 2026-03-23 → 2026-04-05  Steins;Gate
-Japanime 1600 2026-03-23 → 2026-03-30  Crest of the Stars
+Japanime 1600 2026-03-23 → 2026-03-29  Crest of the Stars
 AAA 2000 2026-03-23 → 2026-03-26  Fish Police
 Dickleodeon 1100 2026-03-23 → 2026-03-25  My Life as a Teenage Robot
 Cartoons Cartoons 1700 2026-03-24 → 2026-03-30  Johnny Bravo / JBVO
@@ -522,9 +521,9 @@ GirlyPop 1500 2026-03-27 → 2026-04-20  Tattooed Teenage Alien Fighters From Be
 Japanime 0000 2026-03-28 → 2026-04-03  Black Lagoon
 Japanime 0100 2026-03-28 → 2026-04-04  Sekirei
 Dickleodeon 1700 2026-03-28 → 2026-04-05  The Amanda Show
+Japanime 1600 2026-03-29 → 2026-04-04  Eden of the East
 AAA 0000 2026-03-29 → 2026-04-15  Drawn Together
 Cartoons Cartoons 1700 2026-03-30 → 2026-04-12  The Land Before Time (TV Series)
-Japanime 1600 2026-03-30 → 2026-04-05  Eden of the East
 Dizzy 1400 2026-03-30 → 2026-04-16  Total Drama Island
 Cartoons Cartoons 1600 2026-03-31 → 2026-04-06  Mucha Lucha
 Off-Licence TV 0000 2026-03-31 → 2026-04-05  Black Mirror
@@ -534,9 +533,9 @@ Japanime 2000 2026-04-01 → 2026-04-08  Azur Lane
 Japanime 0000 2026-04-03 → 2026-04-09  Heaven's Lost Property
 Japanime 0630 2026-04-03 → 2026-04-05  Cowboy Bebop
 Japanime 0100 2026-04-04 → 2026-04-16  High School DxD
+Japanime 1600 2026-04-04 → 2026-04-27  Great Teacher Onizuka
 Japanime 0630 2026-04-05 → 2026-04-17  Sonny Boy
 Japanime 1500 2026-04-05 → 2026-04-17  Durarara!!
-Japanime 1600 2026-04-05 → 2026-04-28  Great Teacher Onizuka
 Off-Licence TV 0000 2026-04-05 → 2026-04-21  Being Human (UK)
 Dickleodeon 1700 2026-04-05 → 2026-04-09  Drake & Josh
 Cartoons Cartoons 1600 2026-04-06 → 2026-04-15  Secret Mountain Fort Awesome
@@ -582,15 +581,15 @@ Off-Licence TV 2300 2026-04-24 → 2026-04-27  The Mighty Boosh
 Japanime 0000 2026-04-25 → 2026-04-28  Angel Cop all OVA's 1989-1994
 Japanime 2200 2026-04-25 → 2026-05-12  Dirty Pair
 90s Toons 1700 2026-04-26 → 2026-05-10  Earthworm Jim
+Japanime 1600 2026-04-27 → 2026-04-28  Love Hina Again
 Off-Licence TV 2300 2026-04-27 → 2026-06-11  The Ricky Gervais Show
 AAA 0000 2026-04-27 → 2026-05-14  Drawn Together
 AAA 2000 2026-04-27 → 2026-05-19  Final Space
 Dizzy 1400 2026-04-27 → 2026-05-14  Total Drama Island
 Japanime 0000 2026-04-28 → 2026-05-04  Maken-Ki!
-Japanime 1600 2026-04-28 → 2026-04-29  Love Hina Again
+Japanime 1600 2026-04-28 → 2026-05-04  WataMote
 Star Spangled TV 1500 2026-04-28 → 2026-05-06  Home Improvement
 90s Toons 1200 2026-04-29 → 2026-05-06  Cadillacs and Dinosaurs
-Japanime 1600 2026-04-29 → 2026-05-05  WataMote
 Off-Licence TV 0000 2026-04-29 → 2026-05-05  Black Mirror
 Dickleodeon 1700 2026-04-29 → 2026-05-03  Drake & Josh
 Japanime 1700 2026-04-30 → 2026-05-07  Vandread
@@ -601,9 +600,9 @@ GirlyPop 1500 2026-05-02 → 2026-05-18  Sonic the Hedgehog (SatAM)
 Japanime 0630 2026-05-03 → 2026-05-15  Sonny Boy
 Dickleodeon 1700 2026-05-03 → 2026-05-11  The Amanda Show
 Japanime 0000 2026-05-04 → 2026-05-10  Valkyrie Drive: Mermaid
+Japanime 1600 2026-05-04 → 2026-05-24  Revolutionary Girl Utena
 What 1400 2026-05-04 → 2026-05-05  Louis Theroux
 Japanime 1500 2026-05-05 → 2026-05-28  Clannad
-Japanime 1600 2026-05-05 → 2026-05-25  Revolutionary Girl Utena
 Japanime 1900 2026-05-05 → 2026-05-08  Dominion Tank Police
 Off-Licence TV 0000 2026-05-05 → 2026-05-21  Being Human (UK)
 What 1400 2026-05-05 → 2026-07-05  NOVA
@@ -647,10 +646,10 @@ Off-Licence TV 0000 2026-05-23 → 2026-05-29  Utopia (UK)
 Dickleodeon 1100 2026-05-23 → 2026-05-31  Maxie's World
 Dickleodeon 1700 2026-05-23 → 2026-05-27  Drake & Josh
 Japanime 1400 2026-05-24 → 2026-07-01  Bakuman
+Japanime 1600 2026-05-24 → 2026-06-05  Toradora!
 Japanime 2200 2026-05-24 → 2026-05-29  Death Note
 AAA 2000 2026-05-24 → 2026-05-31  The Oblongs
 Cartoons Cartoons 1600 2026-05-25 → 2026-07-08  Teen Titans
-Japanime 1600 2026-05-25 → 2026-06-06  Toradora!
 Star Spangled TV 2200 2026-05-25 → 2026-07-13  Norm Macdonald Live
 Cartoons Cartoons 1700 2026-05-26 → 2026-06-14  Skatoony (UK)
 AAA 0000 2026-05-26 → 2026-06-12  Drawn Together
@@ -677,7 +676,7 @@ Japanime 0000 2026-06-04 → 2026-06-07  Golden Boy
 Japanime 2200 2026-06-04 → 2026-06-16  Desert Punk
 Dickleodeon 1700 2026-06-04 → 2026-06-08  Drake & Josh
 Dizzy 1400 2026-06-04 → 2026-06-15  American Dragon: Jake Long
-Japanime 1600 2026-06-06 → 2026-06-12  Yamada-kun and the Seven Witches
+Japanime 1600 2026-06-05 → 2026-06-11  Yamada-kun and the Seven Witches
 90s Toons 1200 2026-06-07 → 2026-06-14  Cadillacs and Dinosaurs
 Japanime 0000 2026-06-07 → 2026-06-10  Angel Cop all OVA's 1989-1994
 What 1300 2026-06-07 → 2026-06-18  Overhaulin'
@@ -688,9 +687,9 @@ Japanime 0100 2026-06-10 → 2026-06-16  Hellsing
 Japanime 1700 2026-06-10 → 2026-06-17  Vandread
 Off-Licence TV 1700 2026-06-10 → 2026-06-29  An Idiot Abroad
 GirlyPop 1500 2026-06-10 → 2026-06-13  Trollz
+Japanime 1600 2026-06-11 → 2026-06-25  Azumanga Daioh
 Off-Licence TV 2300 2026-06-11 → 2026-06-19  Brass Eye
 Japanime 0630 2026-06-12 → 2026-06-14  Cowboy Bebop
-Japanime 1600 2026-06-12 → 2026-06-26  Azumanga Daioh
 AAA 0000 2026-06-12 → 2026-06-19  Stripperella
 GirlyPop 1500 2026-06-13 → 2026-06-24  Mary-Kate and Ashley in Action!
 90s Toons 1200 2026-06-14 → 2026-06-20  RoboCop: The Animated Series
@@ -719,10 +718,10 @@ Japanime 0100 2026-06-23 → 2026-07-05  High School DxD
 Dickleodeon 1100 2026-06-23 → 2026-06-25  My Life as a Teenage Robot
 AAA 0000 2026-06-24 → 2026-07-11  Drawn Together
 GirlyPop 1500 2026-06-24 → 2026-07-09  Sonic the Hedgehog (SatAM)
+Japanime 1600 2026-06-25 → 2026-07-08  Cromartie High School
 Dickleodeon 1100 2026-06-25 → 2026-07-08  The Zeta Project
 90s Toons 1700 2026-06-26 → 2026-07-12  Sherlock Holmes In The 22nd Century
 Japanime 0630 2026-06-26 → 2026-06-28  Cowboy Bebop
-Japanime 1600 2026-06-26 → 2026-07-09  Cromartie High School
 Star Spangled TV 1500 2026-06-26 → 2026-07-03  Home Improvement
 Off-Licence TV 0000 2026-06-27 → 2026-07-03  Black Mirror
 Japanime 0000 2026-06-28 → 2026-07-04  Heaven's Lost Property
@@ -745,9 +744,8 @@ What 1400 2026-07-06 → 2026-09-04  NOVA
 Japanime 1400 2026-07-07 → 2026-08-01  Cross Game
 AAA 2000 2026-07-07 → 2026-07-28  Final Space
 Cartoons Cartoons 1600 2026-07-08 → 2026-07-15  Xiaolin Chronicles
+Japanime 1600 2026-07-08 → 2026-07-20  Air Gear
 Dickleodeon 1100 2026-07-08 → 2026-07-16  Maxie's World
-Japanime 1600 2026-07-09 → 2026-07-09  Neo Ranga
-Japanime 1600 2026-07-09 → 2026-07-22  Air Gear
 GirlyPop 1500 2026-07-09 → 2026-08-01  Tattooed Teenage Alien Fighters From Beverly Hills
 90s Toons 1200 2026-07-10 → 2026-07-16  The Avengers: United They Stand
 Japanime 0000 2026-07-10 → 2026-07-17  Elfen Lied
@@ -772,12 +770,12 @@ AAA 0000 2026-07-18 → 2026-07-23  Aeon Flux
 Dickleodeon 1100 2026-07-18 → 2026-07-31  The Zeta Project
 Off-Licence TV 0000 2026-07-19 → 2026-07-21  Sacred Weeds
 Japanime 0000 2026-07-20 → 2026-07-23  Angel Cop all OVA's 1989-1994
+Japanime 1600 2026-07-20 → 2026-07-26  X-Men (Marvel Anime)
 Off-Licence TV 1700 2026-07-20 → 2026-08-08  An Idiot Abroad
 Japanime 1700 2026-07-21 → 2026-07-28  Vandread
 Japanime 2200 2026-07-21 → 2026-08-02  Jormungand
 Off-Licence TV 0000 2026-07-21 → 2026-07-27  Utopia (UK)
 What 1800 2026-07-21 → 2026-09-10  Doomsday Preppers
-Japanime 1600 2026-07-22 → 2026-07-28  X-Men (Marvel Anime)
 Japanime 1900 2026-07-22 → 2026-07-30  Dirty Pair Flash
 Dickleodeon 1700 2026-07-22 → 2026-07-26  Drake & Josh
 90s Toons 1200 2026-07-23 → 2026-07-29  RoboCop: The Animated Series
@@ -787,10 +785,10 @@ AAA 0000 2026-07-23 → 2026-08-09  Drawn Together
 Japanime 0630 2026-07-24 → 2026-07-26  Cowboy Bebop
 90s Toons 1700 2026-07-26 → 2026-08-04  Harlem Globetrotters
 Japanime 0630 2026-07-26 → 2026-08-07  Sonny Boy
+Japanime 1600 2026-07-26 → 2026-08-07  7 Seeds
 Dickleodeon 1700 2026-07-26 → 2026-08-03  The Amanda Show
 Cartoons Cartoons 1700 2026-07-27 → 2026-08-16  Hi Hi Puffy AmiYumi
 Off-Licence TV 0000 2026-07-27 → 2026-08-01  Black Mirror
-Japanime 1600 2026-07-28 → 2026-08-09  7 Seeds
 Japanime 1700 2026-07-28 → 2026-08-31  Dragon Ball
 Star Spangled TV 2200 2026-07-28 → 2026-07-30  The Osbournes
 AAA 2000 2026-07-28 → 2026-07-29  MTV’s Downtown
@@ -815,13 +813,13 @@ GirlyPop 1500 2026-08-04 → 2026-08-14  Mary-Kate and Ashley in Action!
 Off-Licence TV 2300 2026-08-05 → 2026-08-13  Brass Eye
 Japanime 2200 2026-08-06 → 2026-08-13  Paranoia Agent
 Japanime 0630 2026-08-07 → 2026-08-09  Cowboy Bebop
+Japanime 1600 2026-08-07 → 2026-08-19  Snow White with the Red Hair
 Japanime 2000 2026-08-07 → 2026-08-10  Ouran High School Host Club
 AAA 2000 2026-08-07 → 2026-08-11  Fish Police
 Dickleodeon 1700 2026-08-07 → 2026-08-15  The Amanda Show
 Off-Licence TV 1700 2026-08-08 → 2026-08-19  The Moaning of Life
 Dickleodeon 1100 2026-08-08 → 2026-08-10  My Life as a Teenage Robot
 Japanime 0630 2026-08-09 → 2026-08-21  Sonny Boy
-Japanime 1600 2026-08-09 → 2026-08-21  Snow White with the Red Hair
 AAA 0000 2026-08-09 → 2026-08-16  Stripperella
 Japanime 0000 2026-08-10 → 2026-08-16  Heaven's Lost Property
 Japanime 2000 2026-08-10 → 2026-08-25  Kyouran Kazoku Nikki
@@ -844,12 +842,12 @@ Off-Licence TV 2300 2026-08-17 → 2026-10-01  The Ricky Gervais Show
 Cartoons Cartoons 1600 2026-08-18 → 2026-09-23  Xiaolin Showdown
 What 1300 2026-08-18 → 2026-11-03  Man v. Food
 90s Toons 1700 2026-08-19 → 2026-09-02  Earthworm Jim
+Japanime 1600 2026-08-19 → 2026-08-25  Amnesia
 Off-Licence TV 0000 2026-08-19 → 2026-08-25  Utopia (UK)
 Off-Licence TV 1700 2026-08-19 → 2026-08-29  Kitchen Nightmares (US)
 Dickleodeon 1700 2026-08-19 → 2026-08-27  The Amanda Show
 Dizzy 1400 2026-08-20 → 2026-08-31  American Dragon: Jake Long
 Japanime 0630 2026-08-21 → 2026-08-23  Cowboy Bebop
-Japanime 1600 2026-08-21 → 2026-08-27  Amnesia
 AAA 0000 2026-08-21 → 2026-09-07  Drawn Together
 Japanime 0000 2026-08-22 → 2026-08-29  Elfen Lied
 Japanime 0630 2026-08-23 → 2026-09-04  Sonny Boy
@@ -857,10 +855,10 @@ Japanime 1900 2026-08-23 → 2026-08-29  Chaos;Head
 Star Spangled TV 1500 2026-08-23 → 2026-08-31  Home Improvement
 Dickleodeon 1100 2026-08-23 → 2026-08-31  Maxie's World
 90s Toons 1200 2026-08-24 → 2026-08-31  Cadillacs and Dinosaurs
+Japanime 1600 2026-08-25 → 2026-08-31  Assassins Pride
 Japanime 2000 2026-08-25 → 2026-09-17  Overlord
 Japanime 2200 2026-08-25 → 2026-08-31  91 Days
 Off-Licence TV 0000 2026-08-25 → 2026-08-31  Black Mirror
-Japanime 1600 2026-08-27 → 2026-09-02  Assassins Pride
 Dickleodeon 1700 2026-08-27 → 2026-08-31  Drake & Josh
 Japanime 0100 2026-08-28 → 2026-09-04  Hellsing
 Japanime 0000 2026-08-29 → 2026-09-01  Golden Boy
@@ -868,6 +866,7 @@ Japanime 1900 2026-08-29 → 2026-09-04  Death Parade
 Off-Licence TV 1700 2026-08-29 → 2026-09-17  An Idiot Abroad
 GirlyPop 1500 2026-08-29 → 2026-09-22  Tattooed Teenage Alien Fighters From Beverly Hills
 90s Toons 1200 2026-08-31 → 2026-09-06  RoboCop: The Animated Series
+Japanime 1600 2026-08-31 → 2026-09-07  Crest of the Stars
 Japanime 1700 2026-08-31 → 2026-09-07  Vandread
 Japanime 2200 2026-08-31 → 2026-09-06  Another
 Off-Licence TV 0000 2026-08-31 → 2026-09-16  Being Human (UK)
@@ -877,7 +876,6 @@ Dickleodeon 1700 2026-08-31 → 2026-09-08  The Amanda Show
 Dizzy 1400 2026-08-31 → 2026-09-17  Total Drama Island
 Japanime 0000 2026-09-01 → 2026-09-04  Angel Cop all OVA's 1989-1994
 90s Toons 1700 2026-09-02 → 2026-09-11  Harlem Globetrotters
-Japanime 1600 2026-09-02 → 2026-09-08  Crest of the Stars
 Dickleodeon 1100 2026-09-02 → 2026-09-15  The Zeta Project
 Cartoons Cartoons 1700 2026-09-04 → 2026-09-10  Johnny Bravo / JBVO
 Japanime 0000 2026-09-04 → 2026-09-10  Maken-Ki!
@@ -889,10 +887,10 @@ What 1400 2026-09-04 → 2026-09-06  Louis Theroux
 Japanime 0630 2026-09-06 → 2026-09-18  Sonny Boy
 Japanime 2200 2026-09-06 → 2026-09-11  Cyberpunk: Edgerunners
 What 1400 2026-09-06 → 2026-11-05  NOVA
+Japanime 1600 2026-09-07 → 2026-09-13  Eden of the East
 Japanime 1700 2026-09-07 → 2026-10-11  Dragon Ball
 AAA 0000 2026-09-07 → 2026-09-14  Stripperella
 Japanime 1400 2026-09-08 → unfinished in this calendar  Bakugan
-Japanime 1600 2026-09-08 → 2026-09-14  Eden of the East
 Dickleodeon 1700 2026-09-08 → 2026-09-12  Drake & Josh
 Cartoons Cartoons 1700 2026-09-10 → 2026-09-23  The Land Before Time (TV Series)
 Japanime 0000 2026-09-10 → 2026-09-16  Valkyrie Drive: Mermaid
@@ -902,7 +900,7 @@ What 1800 2026-09-10 → 2026-10-30  Maximum Exposure
 Japanime 2200 2026-09-11 → 2026-09-28  Dirty Pair
 AAA 2000 2026-09-11 → 2026-10-02  Final Space
 Dickleodeon 1700 2026-09-12 → 2026-09-20  The Amanda Show
-Japanime 1600 2026-09-14 → 2026-10-07  Great Teacher Onizuka
+Japanime 1600 2026-09-13 → 2026-10-06  Great Teacher Onizuka
 AAA 0000 2026-09-14 → 2026-09-19  Aeon Flux
 Japanime 1900 2026-09-15 → 2026-10-22  Monster
 Dickleodeon 1100 2026-09-15 → 2026-09-23  Maxie's World
@@ -945,13 +943,13 @@ Japanime 0000 2026-10-04 → 2026-10-11  Elfen Lied
 Japanime 0630 2026-10-04 → 2026-10-16  Sonny Boy
 Japanime 2000 2026-10-05 → 2026-10-15  Absolute Duo
 Star Spangled TV 2200 2026-10-05 → 2026-10-06  The Osbournes
+Japanime 1600 2026-10-06 → 2026-10-07  Love Hina Again
 Star Spangled TV 2200 2026-10-06 → 2026-11-24  Norm Macdonald Live
 AAA 0000 2026-10-06 → 2026-10-13  Stripperella
 AAA 2000 2026-10-06 → 2026-10-14  The Oblongs
 Dickleodeon 1700 2026-10-06 → 2026-10-14  The Amanda Show
 GirlyPop 1500 2026-10-06 → 2026-10-21  Sonic the Hedgehog (SatAM)
-Japanime 1600 2026-10-07 → 2026-10-08  Love Hina Again
-Japanime 1600 2026-10-08 → 2026-10-14  WataMote
+Japanime 1600 2026-10-07 → 2026-10-13  WataMote
 Off-Licence TV 1700 2026-10-08 → 2026-10-27  An Idiot Abroad
 Dickleodeon 1100 2026-10-08 → 2026-10-16  Maxie's World
 90s Toons 1200 2026-10-09 → 2026-10-17  RoboCop: The Animated Series
@@ -961,10 +959,10 @@ Japanime 2200 2026-10-10 → 2026-10-15  Death Note
 Japanime 0000 2026-10-11 → 2026-10-14  Golden Boy
 Japanime 1700 2026-10-11 → 2026-10-18  Vandread
 Off-Licence TV 2300 2026-10-11 → 2026-11-25  The Ricky Gervais Show
+Japanime 1600 2026-10-13 → 2026-11-02  Revolutionary Girl Utena
 AAA 0000 2026-10-13 → 2026-10-18  Aeon Flux
 Cartoons Cartoons 1600 2026-10-14 → 2026-10-21  Mucha Lucha
 Japanime 0000 2026-10-14 → 2026-10-17  Angel Cop all OVA's 1989-1994
-Japanime 1600 2026-10-14 → 2026-11-03  Revolutionary Girl Utena
 AAA 2000 2026-10-14 → 2026-10-18  Fish Police
 Dickleodeon 1700 2026-10-14 → 2026-10-18  Drake & Josh
 Japanime 2000 2026-10-15 → 2026-11-05  Amagami SS
@@ -994,7 +992,7 @@ Japanime 0100 2026-10-22 → 2026-11-04  To Love-Ru
 Japanime 1900 2026-10-22 → 2026-10-28  Noir
 Japanime 0000 2026-10-23 → 2026-10-29  Valkyrie Drive: Mermaid
 Off-Licence TV 0000 2026-10-23 → 2026-10-29  Black Mirror
-Star Spangled TV 1800 2026-10-23 → 2026-12-30  That ’70s Show
+Star Spangled TV 1800 2026-10-23 → 2026-12-26  That ’70s Show
 Dickleodeon 1700 2026-10-26 → 2026-10-30  Drake & Josh
 Off-Licence TV 1700 2026-10-27 → 2026-11-07  The Moaning of Life
 Dizzy 1400 2026-10-27 → 2026-11-13  Total Drama Island
@@ -1004,12 +1002,12 @@ Japanime 0000 2026-10-29 → 2026-11-04  Black Lagoon
 Off-Licence TV 0000 2026-10-29 → 2026-11-14  Being Human (UK)
 Japanime 0630 2026-10-30 → 2026-11-01  Cowboy Bebop
 Dickleodeon 1700 2026-10-30 → 2026-11-07  The Amanda Show
-What 1800 2026-10-30 → 2026-12-11  Most Shocking
+What 1800 2026-10-30 → 2026-12-12  Most Shocking
 Dickleodeon 1100 2026-10-31 → 2026-11-08  Maxie's World
 Japanime 0630 2026-11-01 → 2026-11-13  Sonny Boy
+Japanime 1600 2026-11-02 → 2026-11-14  Toradora!
 Japanime 2200 2026-11-02 → 2026-11-08  91 Days
 Cartoons Cartoons 1600 2026-11-03 → 2026-12-12  The Amazing World of Gumball
-Japanime 1600 2026-11-03 → 2026-11-15  Toradora!
 What 1300 2026-11-03 → 2026-11-22  Man v. Food Nation
 90s Toons 1700 2026-11-04 → 2026-11-18  Earthworm Jim
 Japanime 0000 2026-11-04 → 2026-11-10  Heaven's Lost Property
@@ -1033,11 +1031,11 @@ Japanime 2000 2026-11-12 → 2026-11-19  Azur Lane
 Japanime 0630 2026-11-13 → 2026-11-15  Cowboy Bebop
 GirlyPop 1500 2026-11-13 → 2026-11-16  Trollz
 Dizzy 1400 2026-11-13 → 2026-11-25  American Dragon: Jake Long
+Japanime 1600 2026-11-14 → 2026-11-20  Yamada-kun and the Seven Witches
 Japanime 2200 2026-11-14 → 2026-11-19  Cyberpunk: Edgerunners
 Off-Licence TV 0000 2026-11-14 → 2026-11-16  Sacred Weeds
 90s Toons 1200 2026-11-15 → 2026-11-21  Cadillacs and Dinosaurs
 Japanime 0630 2026-11-15 → 2026-11-27  Sonny Boy
-Japanime 1600 2026-11-15 → 2026-11-21  Yamada-kun and the Seven Witches
 Japanime 0000 2026-11-16 → 2026-11-23  Elfen Lied
 Japanime 0100 2026-11-16 → 2026-11-22  Hellsing
 Off-Licence TV 0000 2026-11-16 → 2026-11-22  Utopia (UK)
@@ -1050,10 +1048,10 @@ AAA 2000 2026-11-18 → 2026-12-10  Final Space
 Japanime 2000 2026-11-19 → 2026-11-26  Dandadan
 Japanime 2200 2026-11-19 → 2026-12-07  Dirty Pair
 Dickleodeon 1700 2026-11-19 → 2026-11-23  Drake & Josh
+Japanime 1600 2026-11-20 → 2026-12-04  Azumanga Daioh
 Japanime 1900 2026-11-20 → 2026-11-29  Angels of Death
 90s Toons 1200 2026-11-21 → 2026-11-28  RoboCop: The Animated Series
 Japanime 1500 2026-11-21 → 2026-12-04  Maid Sama!
-Japanime 1600 2026-11-21 → 2026-12-05  Azumanga Daioh
 Japanime 1700 2026-11-21 → 2026-11-28  Vandread
 Japanime 0100 2026-11-22 → 2026-11-29  Sekirei
 Off-Licence TV 0000 2026-11-22 → 2026-11-27  Black Mirror
@@ -1071,27 +1069,27 @@ GirlyPop 1500 2026-11-26 → 2026-12-11  Sonic the Hedgehog (SatAM)
 90s Toons 1700 2026-11-27 → 2026-12-13  Sherlock Holmes In The 22nd Century
 Japanime 0630 2026-11-27 → 2026-11-29  Cowboy Bebop
 Off-Licence TV 0000 2026-11-27 → 2026-12-13  Being Human (UK)
-90s Toons 1200 2026-11-28 → unfinished in this calendar  Street Sharks
+90s Toons 1200 2026-11-28 → 2026-12-31  Street Sharks
 Japanime 1700 2026-11-28 → unfinished in this calendar  Dragon Ball
 Japanime 0000 2026-11-29 → 2026-12-05  Maken-Ki!
 Japanime 0100 2026-11-29 → 2026-12-11  High School DxD
 Japanime 0630 2026-11-29 → 2026-12-11  Sonny Boy
 Japanime 1900 2026-11-29 → 2026-12-05  Chaos;Head
 Cartoons Cartoons 1700 2026-12-01 → 2026-12-14  The Land Before Time (TV Series)
-Dickleodeon 1100 2026-12-01 → 2026-12-07  My Life as a Teenage Robot
+Dickleodeon 1100 2026-12-01 → 2026-12-04  My Life as a Teenage Robot
 Dickleodeon 1700 2026-12-01 → 2026-12-05  Drake & Josh
-Off-Licence TV 2300 2026-12-03 → 2026-12-07  The Mighty Boosh
+Off-Licence TV 2300 2026-12-03 → 2026-12-09  The Mighty Boosh
 AAA 0000 2026-12-03 → 2026-12-10  Stripperella
 What 1300 2026-12-03 → unfinished in this calendar  Robot Wars (UK)
 Japanime 1500 2026-12-04 → 2026-12-10  No Game, No Life
+Japanime 1600 2026-12-04 → 2026-12-17  Cromartie High School
+Dickleodeon 1100 2026-12-04 → 2026-12-17  The Zeta Project
 Japanime 0000 2026-12-05 → 2026-12-11  Valkyrie Drive: Mermaid
-Japanime 1600 2026-12-05 → 2026-12-18  Cromartie High School
 Japanime 1900 2026-12-05 → 2026-12-11  Death Parade
 Dickleodeon 1700 2026-12-05 → 2026-12-13  The Amanda Show
 Off-Licence TV 1700 2026-12-06 → 2026-12-17  The Moaning of Life
 Japanime 2200 2026-12-07 → 2026-12-19  Jormungand
-Off-Licence TV 2300 2026-12-07 → unfinished in this calendar  The Ricky Gervais Show
-Dickleodeon 1100 2026-12-07 → 2026-12-20  The Zeta Project
+Off-Licence TV 2300 2026-12-09 → unfinished in this calendar  The Ricky Gervais Show
 Star Spangled TV 2200 2026-12-09 → 2026-12-17  The Osbournes
 Japanime 1500 2026-12-10 → 2026-12-16  Reincarnated as a Sword
 AAA 0000 2026-12-10 → 2026-12-15  Aeon Flux
@@ -1101,53 +1099,53 @@ Japanime 0100 2026-12-11 → 2026-12-17  Panty & Stocking with Garterbelt
 Japanime 0630 2026-12-11 → 2026-12-13  Cowboy Bebop
 Japanime 1900 2026-12-11 → 2026-12-22  Ergo Proxy (Japanese)
 GirlyPop 1500 2026-12-11 → unfinished in this calendar  Tattooed Teenage Alien Fighters From Beverly Hills
-What 1800 2026-12-11 → unfinished in this calendar  Ancient Aliens
 Cartoons Cartoons 1600 2026-12-12 → unfinished in this calendar  Teen Titans
+What 1800 2026-12-12 → unfinished in this calendar  Ancient Aliens
 90s Toons 1700 2026-12-13 → 2026-12-27  Earthworm Jim
 Japanime 0630 2026-12-13 → 2026-12-25  Sonny Boy
 Off-Licence TV 0000 2026-12-13 → 2026-12-15  Sacred Weeds
 AAA 2000 2026-12-13 → 2026-12-21  The Oblongs
 Dickleodeon 1700 2026-12-13 → 2026-12-17  Drake & Josh
 Cartoons Cartoons 1700 2026-12-14 → unfinished in this calendar  Duck Dodgers
-Dizzy 1400 2026-12-14 → 2026-12-24  American Dragon: Jake Long
+Dizzy 1400 2026-12-14 → 2026-12-17  American Dragon: Jake Long
 Off-Licence TV 0000 2026-12-15 → 2026-12-21  Utopia (UK)
 AAA 0000 2026-12-15 → unfinished in this calendar  Drawn Together
 Japanime 1500 2026-12-16 → 2026-12-25  Ouran High School Host Club
 Japanime 0000 2026-12-17 → 2026-12-23  Heaven's Lost Property
 Japanime 0100 2026-12-17 → unfinished in this calendar  Queen's Blade
+Japanime 1600 2026-12-17 → 2026-12-29  Air Gear
 Japanime 2000 2026-12-17 → unfinished in this calendar  ItaKiss
 Off-Licence TV 1700 2026-12-17 → 2026-12-27  Kitchen Nightmares (US)
 Star Spangled TV 2200 2026-12-17 → unfinished in this calendar  Norm Macdonald Live
+Dickleodeon 1100 2026-12-17 → 2026-12-25  Maxie's World
 Dickleodeon 1700 2026-12-17 → 2026-12-25  The Amanda Show
-Japanime 1600 2026-12-18 → 2026-12-18  Neo Ranga
-Japanime 1600 2026-12-18 → 2026-12-31  Air Gear
+Dizzy 1400 2026-12-17 → unfinished in this calendar  Total Drama Island
 Star Spangled TV 1500 2026-12-18 → 2026-12-26  Home Improvement
 Japanime 2200 2026-12-19 → 2026-12-23  Death Note
-Dickleodeon 1100 2026-12-20 → 2026-12-28  Maxie's World
 Off-Licence TV 0000 2026-12-21 → 2026-12-27  Black Mirror
 AAA 2000 2026-12-21 → 2026-12-24  Fish Police
 Japanime 1900 2026-12-22 → unfinished in this calendar  Monster
 Japanime 0000 2026-12-23 → 2026-12-29  Prison School
 Japanime 2200 2026-12-23 → 2026-12-30  Paranoia Agent
 AAA 2000 2026-12-24 → unfinished in this calendar  Dan Vs.
-Dizzy 1400 2026-12-24 → unfinished in this calendar  Total Drama Island
 Japanime 0630 2026-12-25 → 2026-12-27  Cowboy Bebop
 Japanime 1500 2026-12-25 → unfinished in this calendar  Urusei Yatsura
+Dickleodeon 1100 2026-12-25 → unfinished in this calendar  My Life as a Teenage Robot
 Dickleodeon 1700 2026-12-25 → 2026-12-29  Drake & Josh
 Star Spangled TV 1500 2026-12-26 → unfinished in this calendar  The Office (US)
+Star Spangled TV 1800 2026-12-26 → unfinished in this calendar  The O.C.
 90s Toons 1700 2026-12-27 → unfinished in this calendar  Harlem Globetrotters
 Japanime 0630 2026-12-27 → unfinished in this calendar  Sonny Boy
 Off-Licence TV 0000 2026-12-27 → unfinished in this calendar  Being Human (UK)
 Off-Licence TV 1700 2026-12-27 → unfinished in this calendar  An Idiot Abroad
-Dickleodeon 1100 2026-12-28 → unfinished in this calendar  My Life as a Teenage Robot
 Japanime 0000 2026-12-29 → unfinished in this calendar  Elfen Lied
+Japanime 1600 2026-12-29 → unfinished in this calendar  X-Men (Marvel Anime)
 Dickleodeon 1700 2026-12-29 → unfinished in this calendar  The Amanda Show
 Japanime 2200 2026-12-30 → unfinished in this calendar  Desert Punk
-Star Spangled TV 1800 2026-12-30 → unfinished in this calendar  The O.C.
-Japanime 1600 2026-12-31 → unfinished in this calendar  X-Men (Marvel Anime)
+90s Toons 1200 2026-12-31 → unfinished in this calendar  The Avengers: United They Stand
 
 SOURCE LIMITS
-Not scheduled: Samurai Jack, Zoey 101, Fullmetal Alchemist. No compatible, identified replacement files were found for these shows. Their existing catalogue links remain searchable.
+Not scheduled: Samurai Jack, Zoey 101, Fullmetal Alchemist, Neo Ranga. No compatible, identified replacement files were found for these shows. Their existing catalogue links remain searchable.
 Requested UK Prank Patrol and individual Creature Comforts episodes still need usable full-episode sources.
 Archive runtime metadata and uploader language declarations are evidence, not complete viewing/audio verification.
 Some DVD sources have no evidenced episode names; these are labelled DVD programmes rather than given invented titles.
@@ -1248,8 +1246,8 @@ Cartoons Cartoons
 11:26–11:51  The Jetsons — S01E04
 12:00–12:22  Dexter’s Laboratory — S02E10
 12:22–12:44  Dexter’s Laboratory — S02E11
-13:00–13:22  The Powerpuff Girls (1998) — Powerpuff Girls - 06,07 - Custody Battle - City of Nutsville
-13:23–13:45  The Powerpuff Girls (1998) — Powerpuff Girls - 06,07 - Custody Battle - City of Nutsville
+13:00–13:22  The Powerpuff Girls (1998) — S02E12 — Speed Demon - Mojo Jonesin
+13:22–13:47  The Powerpuff Girls (1998) — S02E13 — Something’s a Ms - Slumbering with the Enemy
 14:00–14:11  Ed, Edd n Eddy — S05E07 — (1999) - S05E07 - No Speak Da Ed-hevcmp4
 14:11–14:23  Ed, Edd n Eddy — S05E08 — (1999) - S05E08 - Cool Hand Ed-hevcmp4
 14:23–14:34  Ed, Edd n Eddy — S05E09 — (1999) - S05E09 - Too Smart for His Own Ed-hevcmp4
@@ -1311,8 +1309,8 @@ Japanime
 14:24–14:49  Bakuman — S03E01
 15:00–15:24  Gintama — S01E29
 15:24–15:49  Gintama — S01E30
-16:00–16:25  Azumanga Daioh — S01E11
-16:25–16:50  Azumanga Daioh — S01E12
+16:00–16:25  Azumanga Daioh — S01E13
+16:25–16:50  Azumanga Daioh — S01E14
 17:00–17:20  Dragon Ball — S01E19 — To The Tournament
 17:20–17:41  Dragon Ball — S01E20 — Elimination Round
 18:00–18:23  Dragon Ball Z Kai — S01E07 — Dragon Ball Kai - 07
@@ -1404,8 +1402,8 @@ Star Spangled TV
 16:18–16:51  The Office (US) — S07E23 — The Office Extended Cut S07E23 The Inner Circle
 17:00–17:22  Malcolm in the Middle — S02E25 — Flashback
 17:22–17:44  Malcolm in the Middle — S03E01 — Houseboat
-18:00–18:21  That ’70s Show — Afterglow
-18:21–18:43  That ’70s Show — Kitty and Eric's Night Out
+18:00–18:21  That ’70s Show — That 70's Show - 217 - Afterglow
+18:21–18:43  That ’70s Show — That 70's Show - 218 - Kitty and Eric's Night Out
 19:00–19:19  Cops — S09E04 — Cops Season 9 Episode 4 Miami Florida #14
 19:20–19:41  Cops — S09E05 — Cops season 9 episode 5 Miami Florida
 20:00–20:42  The Jerry Springer Show — S01E16 — TBA
@@ -1431,8 +1429,8 @@ AAA
 05:30–05:50  Dr. Katz, Professional Therapist — S02E07 — Sticky Notes (Judy Tenuta, Garry Shandling)
 05:51–06:11  Dr. Katz, Professional Therapist — S02E08 — It Takes Some Getting Used To (Bill Braudis, Lew Schneider)
 06:30–06:52  Home Movies — S02E11 — Writers Block-11
-07:00–07:21  The Simpsons — S27E05 — Treehouse of Horror XXVI
-07:21–07:44  The Simpsons — S28E04 — Treehouse of Horror XXVII
+07:00–07:22  The Simpsons — S13E08 — Sweets and Sour Marge
+07:22–07:45  The Simpsons — S13E09 — Jaws Wired Shut
 08:00–08:22  Duckman — S04E03 — Aged Heat 2 Women in Heat
 08:22–08:45  Duckman — S04E04 — All About Elliott
 09:00–09:22  The Critic — S01E21 — All the Duke's Men
@@ -1441,8 +1439,8 @@ AAA
 10:22–10:45  Home Movies — S02E13 — The Wedding-13
 11:00–11:21  Undergrads — S01E10 — Identity Crisis
 11:21–11:43  Undergrads — S01E11 — Work Study
-12:00–12:21  The Simpsons — S29E04 — Treehouse of Horror XXVIII
-12:21–12:43  The Simpsons — S30E04 — Treehouse of Horror XXIX
+12:00–12:22  The Simpsons — S13E10 — Half-Decent Proposal
+12:22–12:45  The Simpsons — S13E11 — The Bart Wants What It Wants
 13:00–13:21  American Dad! — S12E09 — ! — The Witches of Langley
 13:21–13:43  American Dad! — S06E03 — ! — Best Little Horror House in Langley Falls
 14:00–14:23  Clerks: The Animated Series — S01E01 — Clerks - S01e01 1
@@ -1754,10 +1752,8 @@ Cartoons Cartoons
 11:25–11:51  The Jetsons — S01E08
 12:00–12:22  Dexter’s Laboratory — S02E06
 12:22–12:44  Dexter’s Laboratory — S02E07
-13:00–13:01  The Powerpuff Girls (1998) — Mojo Jojo vs Ed
-13:01–13:03  The Powerpuff Girls (1998) — Mojo Music Video
-13:03–13:06  The Powerpuff Girls (1998) — Mojo Music Video
-13:06–13:29  The Powerpuff Girls (1998) — Powerpuff Girls - 01,01 - Insect Inside - Powerpuff Bluff
+13:00–13:22  The Powerpuff Girls (1998) — S02E08 — Mo Job - Pet Feud
+13:22–13:44  The Powerpuff Girls (1998) — S02E09 — Imaginary Fiend - Cootie Gras
 14:00–15:13  Scooby-Doo! Frankencreepy
 15:14–15:25  Ed, Edd n Eddy — S05E12 — (1999) - S05E12 - Truth or Ed-hevcmp4
 15:25–15:37  Ed, Edd n Eddy — S05E13 — (1999) - S05E13 - This Won't Hurt an Ed-hevcmp4
@@ -1824,8 +1820,8 @@ Japanime
 14:22–14:45  Bakugan — S01E82 — Battle Planet S01E82E83
 15:00–15:24  Gintama — S01E259
 15:24–15:48  Gintama — S01E260
-16:00–16:23  WataMote — S01E06 — s1
-16:24–16:47  WataMote — S01E07 — s1
+16:00–16:23  WataMote — S01E08 — s1
+16:24–16:47  WataMote — S01E09 — s1
 17:00–17:19  Dragon Ball — S01E153 — The Quest To Save A King
 17:20–17:44  Vandread — S01E01 — English Dub
 18:00–18:23  Dragon Ball Z Kai — S01E133 — Dragon Ball Kai - 133
@@ -1942,8 +1938,8 @@ AAA
 05:30–05:52  Dr. Katz, Professional Therapist — S06E18 — Lerapy (Whoopi Goldberg, Conan O'Brien)
 05:52–06:14  Dr. Katz, Professional Therapist — S01E01 — Pot-Bellied Pigs (Dom Irrera, Bill Braudis)
 06:30–06:52  Home Movies — S04E11 — Definite
-07:00–07:21  The Simpsons — S31E04 — Treehouse of Horror XXX
-07:21–07:43  The Simpsons — S32E04 — Treehouse of Horror XXXI
+07:00–07:21  The Simpsons — S15E18 — Catch 'Em If You Can
+07:22–07:44  The Simpsons — S15E19 — Simple Simpson
 08:00–08:22  Duckman — S02E02 — Married Alive
 08:22–08:45  Duckman — S02E03 — Days of Whining and Neurosis
 09:00–09:22  The Critic — S01E06 — Eyes on the Prize
@@ -1952,8 +1948,8 @@ AAA
 10:22–10:45  Home Movies — S04E13 — Focus Grill-13
 11:00–11:21  Undergrads — S01E02 — Traditions
 11:21–11:43  Undergrads — S01E03 — Virgins
-12:00–12:21  The Simpsons — S33E03 — Treehouse of Horror XXXII
-12:22–12:43  The Simpsons — S34E05 — Treehouse of Horror
+12:00–12:22  The Simpsons — S15E20 — The Way We Weren't
+12:22–12:44  The Simpsons — S15E21 — Bart-Mangled Banner
 13:00–13:23  Futurama — S03E04 — The Luck Of The Fryrish
 13:30–13:51  American Dad! — S07E01 — ! — Hot Water
 14:00–14:23  Clerks: The Animated Series — S01E03 — Clerks - S01e03 3
@@ -1970,8 +1966,8 @@ AAA
 19:22–19:45  The Venture Bros. — S02E09
 20:00–20:21  The Oblongs — S01E08 — Oblongs S01E08 - Disfigured Debbie
 20:21–20:42  The Oblongs — S02E01 — Oblongs S02E01 - Pickles Little Amazons
-21:00–21:22  The Boondocks — S03E08 — Pause
-21:22–21:45  The Boondocks — S03E09 — A Date With the Booty Warrior
+21:00–21:22  The Simpsons — S10E04 — Treehouse of Horror IX
+21:22–21:45  The Boondocks — S03E04 — The Story of Jimmy Rebel
 22:00–22:11  Aqua Teen Hunger Force — S03E12 — (2000) - s03e12 - Hypno-Germ
 22:11–22:23  Aqua Teen Hunger Force — S03E13 — (2000) - s03e13 - Spacegate World
 22:23–22:34  Aqua Teen Hunger Force — S04E01 — (2000) - s04e01 - Dirtfoot
@@ -2176,11 +2172,11 @@ What
 01:00–01:21  Men in Black: The Series — S04E13 — The Endgame Syndrome (2)
 01:21–01:42  Men in Black: The Series — S01E01 — The Long So-Long Syndrome
 02:00–02:08  A Pup Named Scooby-Doo — S03E08 — The Wrath of Waitro
-02:30–02:52  Beetlejuice — S01E01 — (Critter Sitters)
-03:00–04:00  Christmas overnight fireplace
-04:30–04:49  Bump in the Night — S01E05 — Unexploded Squishington -- Loss of Face
-04:49–05:09  Bump in the Night — S01E06 — Sock It to Me -- Comforting the Uncomfortable
-05:09–05:29  Bump in the Night — S01E07 — Baby Jail -- Night of the Living Bread
+02:30–02:52  Beetlejuice — S03E04 — (Ghost to Ghost)
+02:53–03:15  Beetlejuice — S03E05 — (Spitting Image - Awards to the Wise)
+03:30–03:53  The Real Ghostbusters — S01E12 — Janine's Genie SDTV
+04:00–05:00  Christmas overnight — Crackling Fireplace
+05:00–05:19  Bump in the Night — S01E11 — Penny for Your Thoughts -- Farewell 2 Arms
 05:30–05:52  The Scooby-Doo Show — S03E13 — A Menace in Venice
 05:53–06:15  The Scooby-Doo Show — S03E14 — Don't Go Near the Fortress of Fear
 06:30–06:52  Inspector Gadget — S01E27 — Photo Safari (Black Devil)
@@ -2192,11 +2188,12 @@ What
 09:21–09:43  Godzilla: The Series (1998) — S02E14 — Lizard Season
 10:00–10:22  Inspector Gadget — S01E28 — The Coo Coo Clock Caper
 10:22–10:45  Inspector Gadget — S01E29 — Bermuda Triangle
-11:00–11:11  Pinky and the Brain — S03E27 — Leggo My Ego
-11:11–11:22  Pinky and the Brain — S03E28 — Big in Japan
-12:00–12:02  Frosty the Snowman (1953)
-12:02–12:24  Street Sharks — S03E17 — Shark Jacked - Season 3 - Episode 17 - (Full episode)
-12:24–12:46  Street Sharks — S03E18 — Turbo Sharks - Season 3 - Episode 18 - (Full episode)
+11:00–11:21  Pinky and the Brain — S03E24 — Brains Way
+11:21–11:44  Pinky and the Brain — S03E25 — A Pinky and the Brain Halloween
+12:00–12:06  Winter Draws On (1948)
+12:06–12:12  Snow Foolin’ (1949)
+12:13–12:34  Street Sharks — S03E20 — Ancient Sharkonauts - Season 3 - Episode 20 - (Full episode)
+12:35–12:56  Street Sharks — S03E21 — Sharkotic Reaction - Season 3 - Episode 21 - (Full episode)
 13:00–13:22  Iron Man (1994) — S02E15 — Fire and Rain
 13:22–13:44  Iron Man (1994) — S02E16 — Cell of Iron
 14:00–14:20  The Incredible Hulk (1994) — S01E09 — Mortal Bounds
@@ -2207,18 +2204,18 @@ What
 16:20–16:41  Spider-Man Unlimited — S01E05 — E05 - Steel Cold Heart
 17:00–17:21  Earthworm Jim — S02E09 — Wizard of Ooze
 17:21–17:42  Earthworm Jim — S02E10 — For Whom the Jingle Bell Tolls
-18:00–18:24  Hanna-Barbera's Christmas Sing-A-Long!
-18:24–18:47  Gargoyles — S02E03 — Legion
+18:00–18:20  Adventures Of Sonic The Hedgehog - Sonic Christmas Blast (1996)
+18:20–18:43  Gargoyles — S02E03 — Legion
 19:00–19:21  The Batman (2004) — S03E12
 19:21–19:42  The Batman (2004) — S03E13
 20:00–20:21  Freakazoid! — S01E05 — Foamy The Freakadog Office Visit-Ode To Leonard Nimoy-E B S -Conversational Norwegian
 20:21–20:43  Freakazoid! — S01E06 — Chip, The (Part 1)
 21:00–21:20  Scooby-Doo, Where Are You! — S01E12
 21:21–21:42  Scooby-Doo, Where Are You! — S01E13
-22:00–22:22  The Real Ghostbusters — S02E07 — Night Game DVD
-22:22–22:45  The Real Ghostbusters — S02E08 — Rollerghoster DVD
-23:00–23:22  Beetlejuice — S01E02 — (The Big Face Off - Skeletons in the Closet)
-23:23–23:45  Beetlejuice — S01E03 — (A Dandy Handy Man - Out of My Mind)
+22:00–22:23  The Real Ghostbusters — S01E13 — Xmas Marks the Spot SDTV
+22:24–22:46  The Real Ghostbusters — S02E01 — Janine's Day Off DVD
+23:00–23:22  Beetlejuice — S03E06 — (The Prince of Rock and Roll)
+23:23–23:45  Beetlejuice — S03E07 — (A Ghoul and His Money - Brides of Funkenstein)
 
 Cartoons Cartoons
 00:00–00:11  Ed, Edd n Eddy — S05E10 — (1999) - S05E10 - Who's Minding the Ed-hevcmp4
@@ -2229,11 +2226,11 @@ Cartoons Cartoons
 02:11–02:23  Over the Garden Wall — S01E02 — (2014) - S01E02 - Hard Times at the Huskin' Bee
 02:30–02:41  Courage the Cowardly Dog — S01E18 — Everyone Wants to Direct
 02:41–02:52  Courage the Cowardly Dog — S01E19 — The Snowman Cometh
-03:00–04:00  Christmas overnight fireplace
-04:00–04:06  I Am Weasel — S05E02 — I Am Viking
-04:06–04:14  I Am Weasel — S05E03 — The Drinking Fountain of Youth
-04:14–04:21  I Am Weasel — S05E04 — Leave it to Weasel
-04:21–04:28  I Am Weasel — S05E05 — The Fairy Godfather
+03:00–03:06  Cow and Chicken — S03E01b — Horn Envy
+03:06–03:13  Cow and Chicken — S03E02a — Goin' My Way
+03:13–03:20  Cow and Chicken — S03E02b — The Babysitter
+03:20–03:27  Cow and Chicken — S03E03a — Cow Fly
+04:00–05:00  Unikitty — One Hour of Relaxing Yule Log
 05:00–05:11  Camp Lazlo — S03E13 — Temper Tee Pee (307b)
 05:11–05:23  Camp Lazlo — S03E14 — Tusk Wizard (308a)
 06:00–06:22  Foster’s Home for Imaginary Friends — S06E07
@@ -2241,8 +2238,8 @@ Cartoons Cartoons
 07:00–07:11  Wacky Races — S01E23 — Eeny, Miny Missouri Go!
 07:12–07:23  Wacky Races — S01E24 — The Super Silly Swamp Sprint
 07:23–07:35  Wacky Races — S01E25 — The Dopey Dakota Derby
-08:00–08:25  The Jetsons — S01E17
-08:26–08:51  The Jetsons — S01E18
+08:00–08:25  The Jetsons — S01E11
+08:26–08:52  The Jetsons — S01E12
 09:00–09:00  The Flintstones — SEASON2 D311
 09:00–09:05  The Flintstones — SEASON2 D312
 10:00–10:08  Tom and Jerry — Puss Gets the Boot Ep1
@@ -2250,12 +2247,13 @@ Cartoons Cartoons
 10:16–10:24  Tom and Jerry — The Truce Hurts Ep35
 10:30–10:41  Wacky Races — S01E26 — Dash to Delaware
 10:41–10:53  Wacky Races — S01E27 — Speeding for Smogland
-11:00–11:25  The Jetsons — S01E19
-11:26–11:52  The Jetsons — S01E20
+11:00–11:07  The Shanty Where Santy Claus Lives (1933)
+11:07–11:13  Hector’s Hectic Life (1948)
+11:14–11:40  The Jetsons — S01E13
 12:00–12:22  Johnny Bravo I Used to Be Funny - My Fair Dork - Twas the Night (1997)
 12:22–12:44  Dexter’s Laboratory — S04E01
-13:00–13:21  The Powerpuff Girls (1998) — Powerpuff Girls - 06,11 - West in Pieces
-13:22–13:44  The Powerpuff Girls (1998) — Powerpuff Girls - 06,11 - West in Pieces
+13:00–13:19  The Powerpuff Girls (1998) — S01E13 — Uh Oh Dynamo
+13:19–13:43  The Powerpuff Girls (1998) — S02E01 — Stuck Up, Up and Away - Schoolhouse Rocked
 14:00–14:11  Ed, Edd n Eddy — S05E12 — (1999) - S05E12 - Truth or Ed-hevcmp4
 14:11–14:23  Ed, Edd n Eddy — S05E13 — (1999) - S05E13 - This Won't Hurt an Ed-hevcmp4
 14:23–14:34  Ed, Edd n Eddy — S05E14 — (1999) - S05E14 - Tinker Ed-hevcmp4
@@ -2290,10 +2288,11 @@ Japanime
 01:00–01:23  Queen's Blade — S02E04
 01:24–01:47  Queen's Blade — S02E05
 02:00–02:23  Serial Experiments Lain — S01E08
-02:30–02:53  Neon Genesis Evangelion — S01E17 — Fourth CHILD
-03:00–04:00  Christmas overnight fireplace
-04:30–04:53  Ghost Stories — S01E17
-04:53–05:17  Ghost Stories — S01E18
+02:30–02:53  Neon Genesis Evangelion — S01E15 — Those Women Longed For the Touch of Others' Lips, and Thus Invited Their Kisses
+02:53–03:16  Neon Genesis Evangelion — S01E16 — Splitting of the Breast
+03:30–03:54  Noir — S01E13 — NOIR 13 Season of Hell Jun29 2001 Eng DUB
+04:00–05:00  Christmas overnight — Crackling Fireplace
+05:00–05:23  Ghost Stories — S01E13
 05:30–05:52  Death Note — S01E03 — E03 - Dealings
 05:53–06:16  Death Note — S01E04 — E04 - Pursuit
 06:30–06:54  Cowboy Bebop — S01E23
@@ -2314,8 +2313,8 @@ Japanime
 14:22–14:44  Bakugan — Mechtanium Surge - 39 - Enemy Infiltration
 15:00–15:25  Urusei Yatsura — S01E01
 15:25–15:51  Urusei Yatsura — S01E02
-16:00–16:23  Air Gear — S01E14 — ) Episode 14
-16:24–16:48  Air Gear — S01E15 — ) Episode 15
+16:00–16:23  Air Gear — S01E17 — ) Episode 17
+16:24–16:48  Air Gear — S01E18 — ) Episode 18
 17:00–17:18  Dragon Ball — S01E121 — The Biggest Crisis!
 17:19–17:39  Dragon Ball — S01E122 — Goku Dethrones The King!
 18:00–18:23  Dragon Ball Z Kai — S01E99 — Dragon Ball Kai - 99
@@ -2335,21 +2334,20 @@ Off-Licence TV
 00:52–01:52  Black Mirror — S04E03 — Crocodile
 02:00–02:26  The Inbetweeners — S03E06 — The Camping Trip
 02:30–02:54  Peep Show — S06E05 — The Party
-03:00–04:00  Christmas overnight fireplace
-04:00–04:27  The Mighty Boosh — S03E05 — Party
-04:27–04:56  The Mighty Boosh — S03E06 — The Chokes
+03:00–03:32  Red Dwarf — DVD programme — Recording 112
+04:00–05:00  Christmas overnight — Crackling Fireplace
 05:00–05:29  I’m Alan Partridge — S01E03
 05:29–05:58  I’m Alan Partridge — S01E04
 06:00–06:25  Mr. Bean — S01E01 — Mr Bean (1990) 540p DVD
 06:25–06:49  Mr. Bean — S01E06 — Mr Bean Rides Again (1992) 540p DVD
 07:00–07:18  The Trap Door — Season 2 - Episodes 11-15
 07:20–07:41  Dennis & Gnasher — S02E02 — ) S02E02 - Summer Holiday
-07:45–08:10  The Story of Tracy Beaker — S03E02 — Series 3 - 02 Jackie Free Louise
+07:45–08:10  The Story of Tracy Beaker — S02E13 — Series 2 - 13 Get Lost Home and Hosed
 08:15–08:45  The Slammer — S06E04 — X Marks the Spot Factor
 08:50–09:08  ChuckleVision — S05E14 — Spooks and Gardens
 09:10–09:34  Wallace & Gromit — S01E03 — Wallace & Gromit - A Grand Day Out (1989)
 09:45–09:55  Grizzly Tales for Gruesome Kids — S01E10 — The Chipper Chums Go Scrumping
-10:00–10:26  The Story of Tracy Beaker — S03E03 — Series 3 - 03 The
+10:00–10:26  The Story of Tracy Beaker — S03E01 — Series 3 - 01 Leavin on a Jet Plane Supernatural Shelley
 10:30–10:58  Horrible Histories — S01E08
 11:00–11:25  Mr. Bean — S01E07 — Merry Christmas Mr Bean (1992) 540p DVD
 11:30–11:51  Dennis & Gnasher — S02E03 — ) S02E03 - Menace Power
@@ -2369,7 +2367,7 @@ Off-Licence TV
 21:30–21:53  The IT Crowd — S04E21 — Something Happened
 22:00–22:24  Father Ted — S03E03 — Speed 3
 22:30–22:58  I’m Alan Partridge — S01E05
-23:00–23:24  The Ricky Gervais Show — S02E04 — Onion
+23:00–23:23  The Ricky Gervais Show — S02E02 — Doppleganger
 23:30–23:51  The Inbetweeners — S01E01 — First Day
 
 Star Spangled TV
@@ -2379,26 +2377,28 @@ Star Spangled TV
 01:20–01:41  Jackass — S03E08 — Bloody Carpet
 02:00–02:20  The Osbournes — DISC23
 02:30–02:55  The Twilight Zone — S01E22 — S01E22 The Monsters Are Due on Maple Street
-03:00–04:00  Christmas overnight fireplace
-04:30–05:19  The Dukes of Hazzard — DUKES OF HAZZARD SEASON2 D4A9
-05:30–05:51  Family Matters — S01E07 — Body Damage (TV
-05:51–06:12  Family Matters — S01E08 — Mr Badwrench
+02:55–03:20  The Twilight Zone — S01E23 — S01E23 A World of Difference
+03:30–03:55  All in the Family — DVD programme — Recording 25
+04:00–05:00  Christmas overnight — Crackling Fireplace
+05:00–05:21  Family Matters — S02E04 — Flashpants
+05:30–05:51  Family Matters — S02E05 — The Crash Course
+05:51–06:12  Family Matters — S02E06 — Boxcar Blues
 06:30–06:55  The Magic School Bus — Episode 35 — Works Out
 07:00–07:23  Liberty’s Kids — S01E37 — The Man Who Wouldnt Be King
 07:23–07:46  Liberty’s Kids — S01E38 — Born Free And Equal
 08:00–08:25  The Magic School Bus — Episode 36 — Gets Planted
 08:26–08:52  The Magic School Bus — Episode 37 — In the Rainforest
-09:00–09:21  Family Matters — S01E09 — Stake-Out(TV
-09:21–09:42  Family Matters — S01E10 — False Arrest (TV
+09:00–09:21  Family Matters — S02E07 — Dog Day Halloween
+09:21–09:42  Family Matters — S02E08 — Cousin Urkel
 10:00–10:23  Home Improvement — S6,D1 DES6
 10:23–10:47  Home Improvement — S6,D2 DES
 11:00–11:41  America’s Funniest Home Videos — S17E16 — Canine Comedians, Old Fogeys, and Hot Girls Versus Hot Grills
-12:00–12:25  Gilligan's Island Birds Gotta Fly, Fish Gotta Talk (1964)
-12:25–12:58  The Dukes of Hazzard — DUKES OF HAZZARD SEASON2 D4B10
-13:00–13:25  All in the Family — DVD programme — Recording 38
-13:25–13:51  All in the Family — DVD programme — Recording 38
-14:00–14:21  Family Matters — S01E11 — The Quilt (TV
-14:21–14:42  Family Matters — S01E12 — Laura's First Date (TV
+12:00–12:20  Family Matters — S02E13 — Have Yourself a Very Winslow Christmas (
+12:21–12:42  Family Matters — S02E09 — Dedicated to the One I Love
+13:00–13:25  All in the Family — DVD programme — Recording 26
+13:25–13:52  All in the Family — DVD programme — Recording 26
+14:00–14:21  Family Matters — S02E10 — The Science Project
+14:21–14:42  Family Matters — S02E11 — Requiem for an Urkel
 15:00–15:22  Home Improvement — S6,D2 DES10
 15:23–15:46  Home Improvement — S6,D2 DES12
 15:46–16:09  Home Improvement — S6,D2 DES14
@@ -2406,7 +2406,8 @@ Star Spangled TV
 16:33–16:56  Home Improvement — S6,D2 DES2
 17:00–17:21  Malcolm in the Middle — S06E19 — Motivational Seminar
 17:22–17:44  Malcolm in the Middle — S06E20 — Stilts
-18:00–18:50  Grandma Got Run Over by a Reindeer (2000)
+18:00–18:21  Family Matters — S05E11 — Christmas is Where the Heart Is (
+18:21–18:43  That ’70s Show — Won't Get Fooled Again
 19:00–19:20  Cops — S11E08 — Cops Season 11 Episode 8 Virginia Beach
 19:20–19:42  Cops — S11E36 — Cops Season 11 Episode 36 Phoenix Arizona
 20:00–20:42  The Jerry Springer Show — S02E02
@@ -2420,24 +2421,27 @@ AAA
 01:20–01:41  Beavis and Butt-Head — S08E03 — S8 EP 03 Holycornholio
 02:00–02:11  Aqua Teen Hunger Force — S02E01 — (2000) - s02e01 - Super
 02:11–02:23  Aqua Teen Hunger Force — S02E02 — (2000) - s02e02 - Super Hero
-02:30–02:52  Primal — S02E03
-03:00–04:00  Christmas overnight fireplace
-04:30–04:52  Duckman — S03E11 — Pig Amok
-04:52–05:15  Duckman — S03E12 — The Once and Future Duck
+02:30–02:52  Primal — S02E07
+02:52–03:13  Primal — S02E08
+03:30–03:40  The Maxx — S01E11
+03:41–03:54  The Maxx — S01E12
+04:00–05:00  Christmas overnight — Crackling Fireplace
+05:00–05:22  Duckman — S01E09 — It's the Thing of the Principal
 05:30–05:51  Dr. Katz, Professional Therapist — S06E06 — Used Car (Ian Bagg, Greg
 05:52–06:14  Dr. Katz, Professional Therapist — S06E07 — Ball and Chain (Todd Barry, Carol Leifer, Kevin Meaney)
 06:30–06:52  Home Movies — S03E03 — Bad Influences-3
-07:00–07:21  The Simpsons — S24E02 — Treehouse of Horror XXIII
-07:21–07:43  The Simpsons — S25E02 — Treehouse of Horror XXIV
-08:00–08:22  Duckman — S03E13 — The One with Lisa Kudrow in a Small Role
-08:22–08:45  Duckman — S03E14 — Aged Heat
+07:00–07:22  The Simpsons — S10E05 — When You Dish Upon a Star
+07:22–07:45  The Simpsons — S10E06 — D'oh-in' in the Wind
+08:00–08:22  Duckman — S01E10 — Cellar Beware
+08:22–08:45  Duckman — S01E11 — American Dicks
 09:00–09:22  The Critic — S01E06 — Eyes on the Prize
 09:23–09:45  The Critic — S01E07 — Every Doris Has Her Day
 10:00–10:22  Home Movies — S03E04 — Improving Your Life Through Improv-4
 10:22–10:45  Home Movies — S03E05 — Fours Company-5
 11:00–11:21  Undergrads — S01E03 — Virgins
 11:21–11:43  Undergrads — S01E04 — New Friends
-12:00–12:40  Beavis And Butt-Head Time-Life DVD Collection — Butt-O-Ween & Beavis and Butt-Head Do Christmas2
+12:00–12:21  The Simpsons — S15E07 — 'Tis the Fifteenth Season
+12:22–12:44  The Simpsons — S10E07 — Lisa Gets an 'A'
 13:00–13:21  American Dad! — S09E02 — ! — Poltergasm
 13:21–13:43  American Dad! — S12E09 — ! — The Witches of Langley
 14:00–14:23  Clerks: The Animated Series — S01E03 — Clerks - S01e03 3
@@ -2454,8 +2458,7 @@ AAA
 19:23–19:45  The Venture Bros. — S02E03
 20:00–20:22  Dan Vs. — S01E03
 20:22–20:44  Dan Vs. — S01E04
-21:00–21:21  Glenn Martin, DDS — S02E15 — A Very Martin Christmas
-21:21–21:43  The Boondocks — S03E03 — The Red Ball
+21:00–21:51  Beavis And Butt-Head Time-Life DVD Collection — Butt-O-Ween & Beavis and Butt-Head Do Christmas1
 22:00–22:21  The Amazing Screw-On Head — Pilot
 22:22–22:36  He-Hog the Atomic Pig — Unaired pilot
 22:37–22:59  Home Movies — S03E08 — Guitarmaggedon-8
@@ -2468,32 +2471,35 @@ Dickleodeon
 01:00–01:23  The Legend of Korra — S02E13 — Chapter 13 - Darkness Falls
 01:24–01:48  The Legend of Korra — S02E14 — Chapter 14 - Light in the Dark
 02:00–02:21  Static Shock — S04E04
-02:30–02:53  Avatar: The Last Airbender — S01E05 — AVATAR WATER22
-03:00–04:00  Christmas overnight fireplace
-04:30–04:53  Hey Arnold! — S04E02 — ! 4x02
-04:53–05:16  Hey Arnold! — S04E03 — ! 4x03
+02:30–02:54  Avatar: The Last Airbender — S02E09 — AVATAR EARTH24
+02:54–03:19  Avatar: The Last Airbender — S02E10 — AVATAR EARTH25
+03:30–03:41  My Life as a Teenage Robot — S02E16 — Designing women
+03:41–03:52  My Life as a Teenage Robot — S02E17 — Robot riot
+04:00–05:00  Nickelodeon — The Splat Yule Log
+05:00–05:23  Hey Arnold! — S02E17 — ! 2x17
 05:30–05:53  SpongeBob SquarePants — S09E28 — Sponge Bob Square Pants S09E28
 05:53–06:17  SpongeBob SquarePants — S09E29 — Sponge Bob Square Pants S09E29
-06:30–06:54  The Fairly OddParents — S07E18 — Lights Out:Dad Overboard
-07:00–07:22  SpongeBob SquarePants — S09E30 — Sponge Bob Square Pants S09E30
-07:22–07:35  SpongeBob SquarePants — S09E31 — Sponge Bob Square Pants S09E31
-07:35–07:47  SpongeBob SquarePants — S09E32 — Sponge Bob Square Pants S09E32
-08:00–08:23  The Fairly OddParents — S07E19 — Farm Pit:Crock Talk
-08:23–08:47  The Fairly OddParents — S07E20 — Spellementary School:Operation Dinkleberg
+06:30–06:54  The Fairly OddParents — S07E17 — Take and Fake:Cosmo Rules
+07:00–07:24  Little Bear — The First Frost / Hello Snow / Duck and the Winter Moon
+07:24–07:47  SpongeBob SquarePants — S09E30 — Sponge Bob Square Pants S09E30
+07:47–07:59  SpongeBob SquarePants — S09E31 — Sponge Bob Square Pants S09E31
+08:00–08:24  The Fairly OddParents — S07E18 — Lights Out:Dad Overboard
+08:24–08:47  The Fairly OddParents — S07E19 — Farm Pit:Crock Talk
 09:00–09:23  The Adventures of Jimmy Neutron — S02E02 — Sorry, Wrong Era
 09:23–09:47  The Adventures of Jimmy Neutron — S02E03 — The Retroville 9 and Grumpy Young Men
-10:00–10:24  Hey Arnold! — S04E04 — ! 4x04
-10:24–10:48  Hey Arnold! — S04E05 — ! 4x05
-11:00–11:22  Maxie's World — S01E11 — Friend or UFO and Photo Opportunity
-11:22–11:44  Maxie's World — S01E12 — Do or Diary and Beach Blanket Battle
+10:00–10:23  Hey Arnold! — S02E18 — ! 2x18
+10:23–10:47  Hey Arnold! — S02E19 — ! 2x19
+11:00–11:11  My Life as a Teenage Robot — S02E18 — Bradventure
+11:11–11:22  My Life as a Teenage Robot — S02E19 — Mama drama
 12:00–12:23  Nickelodeon holiday Specials — Sponge Bob Square Pants - Christmas Who
-12:23–12:47  SpongeBob SquarePants — S09E33 — Sponge Bob Square Pants S09E33
-13:00–13:23  The Fairly OddParents — S08E01 — Love Triangle
-13:23–13:47  The Fairly OddParents — S08E03 — Invasion of the Dads
+12:23–12:35  SpongeBob SquarePants — S09E32 — Sponge Bob Square Pants S09E32
+12:35–12:59  SpongeBob SquarePants — S09E33 — Sponge Bob Square Pants S09E33
+13:00–13:23  The Fairly OddParents — S07E20 — Spellementary School:Operation Dinkleberg
+13:23–13:47  The Fairly OddParents — S08E01 — Love Triangle
 14:00–14:23  The Adventures of Jimmy Neutron — S02E05 — Nightmare in Retroville
 14:23–14:47  The Adventures of Jimmy Neutron — S02E06 — Monster Hunt and Jimmy for President
-15:00–15:23  Avatar: The Last Airbender — S01E06 — AVATAR WATER23
-15:24–15:47  Avatar: The Last Airbender — S01E07 — AVATAR WATER24
+15:00–15:24  Avatar: The Last Airbender — S02E11 — AVATAR EARTH26
+15:24–15:49  Avatar: The Last Airbender — S02E12 — AVATAR EARTH32
 16:00–16:21  Static Shock — S04E05
 16:21–16:42  Static Shock — S04E06
 17:00–17:24  Drake & Josh — Pilot Episode
@@ -2517,10 +2523,11 @@ GirlyPop
 01:00–01:24  Mona the Vampire — S01E02 — Von Kreepsula Runs Amok The Nefarious Computer Virus
 01:24–01:48  Mona the Vampire — S01E03 — The Miserable Phantom Dog Jurassic Parking
 02:00–02:22  Sabrina: The Animated Series — S01E35 — Saturday Night Furor
-02:30–02:51  Totally Spies! — S06E21 — ! Season 6 - Episode 21 Baddies on a Blimp (HD Full Episode)
-03:00–04:00  Christmas overnight fireplace
-04:30–04:52  Trollz — S01E24 — Boyz and Girlz Together
-04:52–05:14  Trollz — S01E25 — Where The Trollz Are
+02:30–02:51  Totally Spies! — S01E19 — ! Season 1 - Episode 19 Game Girls (HD Full Episode)
+02:51–03:13  Totally Spies! — S01E20 — ! Season 1 - Episode 20 A Spy is Born (HD Full Episode)
+03:30–03:52  Winx Club — S06E05 — The Golden Auditorium
+04:00–05:00  Christmas overnight — Crackling Fireplace
+05:00–05:22  Trollz — S01E27 — Krakatrolla Needs His Java
 05:30–05:53  Hello Kitty’s Furry Tale Theater — S01E04 — Hello Kitty's Furry Tale Theater 04 - Kittylocks and the Three Bears - Paws
 05:53–06:17  Hello Kitty’s Furry Tale Theater — S01E05 — Hello Kitty's Furry Tale Theater 05 - Cat Wars - Tar-Sam of the Jungle
 06:30–06:35  Pingu — S05E15 — aaf-pingu s05e15 pingu and the knitting machine
@@ -2531,8 +2538,8 @@ GirlyPop
 07:22–07:34  64 Zoo Lane — S02E03 — The Story of Hercule Mustache
 08:00–08:20  Franny’s Feet — S03E08 — On Your Toes It Figures
 08:21–08:42  Franny’s Feet — S03E13 — Going Ape Halloween Harvest
-09:00–09:23  LazyTown — S01E15 — Lazy Town S01E15 The Laziest Town
-09:23–09:47  LazyTown — S01E16 — Lazy Town S01E16 Dear Diary
+09:00–09:23  LazyTown — S01E09 — Lazy Town S01E09 Happy Brush Day
+09:23–09:47  LazyTown — S01E10 — Lazy Town S01E10 Lazy Scouts
 10:00–10:26  Arthur — S19E03 — E04 - Sue Ellen Adds It Up + Wish You Were Here
 10:26–10:53  Arthur — S19E05 — E06 - Arthur's Toy Trouble + Spar for the Course
 11:00–11:22  Strawberry Shortcake — S04E13 — S04E13 Sleeping Beauty
@@ -2545,16 +2552,16 @@ GirlyPop
 14:21–14:42  Bratz — S01E04 — Slumber Party
 15:00–15:20  Tattooed Teenage Alien Fighters From Beverly Hills — S01E24 — Penny For Your Thoughts
 15:20–15:41  Tattooed Teenage Alien Fighters From Beverly Hills — S01E25 — The Chocolate War
-16:00–16:21  Totally Spies! — S06E22 — ! Season 6 - Episode 22 Jungle Boogie (HD Full Episode)
-16:21–16:43  Totally Spies! — S06E23 — ! Season 6 - Episode 23 Danger TV (HD Full Episode)
-17:00–17:22  Winx Club — S08E07 — Trapped on
-17:23–17:45  Winx Club — S08E08 — Into the Depths on Andros
+16:00–16:21  Totally Spies! — S01E21 — ! Season 1 - Episode 21 Passion Patties (HD Full Episode)
+16:21–16:43  Totally Spies! — S01E22 — ! Season 1 - Episode 22 Soul Collector (HD Full Episode)
+17:00–17:22  Winx Club — S06E06 — Vortex of Flames
+17:23–17:45  Winx Club — S06E07 — The Lost Library
 18:00–18:23  Hello Kitty’s Furry Tale Theater — S01E13 — Hello Kitty's Furry Tale Theater 13 - How Scrinchenip Stole Christmas
 18:23–18:46  Braceface — S01E11 — Twenty Four Hours
 19:00–19:22  6teen — S04E09 — Out of This World
 19:22–19:44  6teen — S04E10 — On Your Mark, Get Set Date!
-20:00–20:21  Totally Spies! — S06E24 — ! Season 6 - Episode 24 Solo Spies (HD Full Episode)
-20:21–20:43  Totally Spies! — S06E25 — ! Season 6 - Episode 25 So Totally Versailles! Part 1 (HD Full Episode)
+20:00–20:21  Totally Spies! — S01E23 — ! Season 1 - Episode 23 Malled (HD Full Episode)
+20:21–20:43  Totally Spies! — S01E24 — ! Season 1 - Episode 24 Do You Believe in Magic (HD Full Episode)
 21:00–21:24  Mona the Vampire — S01E04 — The Whirling Void There's No Place Like Gnome
 21:24–21:48  Mona the Vampire — S01E05 — The Dreaded Human Spider Night of the Living Mannequin
 22:00–22:22  Ruby Gloom — S02E10 — Hair(Less) the Musical, Pt 1
@@ -2568,11 +2575,11 @@ Dizzy
 01:00–01:21  X-Men: Evolution — S03E10 — Cruise Control
 01:21–01:43  X-Men: Evolution — S03E11 — X23
 02:00–02:22  Wolverine and the X-Men — S01E09 — Future X
-02:30–02:41  Kim Possible — S02E06a — Rufus In Show (
-02:41–02:53  Kim Possible — S02E06b — Adventures In Rufus-Sitting (
-03:00–04:00  Christmas overnight fireplace
-04:30–04:52  Fillmore! — S02E08 — ! - 2x08 - The Unseen Reflection
-04:52–05:15  Fillmore! — S02E09 — ! - 2x09 - Code Name - Electric Haircut
+02:30–02:51  Kim Possible — S01E09 — Animal Attraction (
+02:52–03:14  Kim Possible — S01E10 — All the News (
+03:30–03:52  American Dragon: Jake Long — S01E15 — (2005) - S01E15 - Jake Takes the Cake (
+04:00–05:00  Christmas overnight — Crackling Fireplace
+05:00–05:22  Fillmore! — S02E08 — ! - 2x08 - The Unseen Reflection
 05:30–05:54  Lilo & Stitch: The Series — S01E17 — (2003) - S01E17 - Elastico (
 05:54–06:18  Lilo & Stitch: The Series — S01E18 — (2003) - S01E18 - Yaarp (
 06:30–06:40  Recess — S02E24 — the beauty contest
@@ -2585,10 +2592,10 @@ Dizzy
 08:44–08:56  Phineas and Ferb — S04E17 — – Just Desserts
 09:00–09:24  Lilo & Stitch: The Series — S01E01 — (2003) - S01E01 - Richter (
 09:24–09:48  Lilo & Stitch: The Series — S01E02 — (2003) - S01E02 - Phantasmo (
-10:00–10:22  Kim Possible — S02E07 — Job Unfair (
-10:23–10:46  Kim Possible — S02E22 — Blush (
-11:00–11:22  Fillmore! — S02E10 — ! - 2x10 - Play On, Maestro, Play On
-11:22–11:45  Fillmore! — S02E11 — ! - 2x11 - This Savior, A Snitch
+10:00–10:21  Kim Possible — S01E11 — Sink or Swim (
+10:22–10:44  Kim Possible — S01E12 — Number One (
+11:00–11:22  Fillmore! — S02E09 — ! - 2x09 - Code Name - Electric Haircut
+11:22–11:45  Fillmore! — S02E10 — ! - 2x10 - Play On, Maestro, Play On
 12:00–12:24  Little Einsteins - The Christmas Wish
 12:24–12:35  Phineas and Ferb — S04E18 — – La Candace-Cabra
 12:35–12:47  Phineas and Ferb — S04E19 — – Happy
@@ -2596,12 +2603,12 @@ Dizzy
 13:00–13:10  Recess — S03E03 — dodgeball city
 13:10–13:20  Recess — S03E04 — a career to remember
 13:20–13:30  Recess — S03E05 — kindergarten derby
-14:00–14:22  Total Drama Island — S01E03 — Total Drama Island - Episode 3 - The Big Sleep
-14:22–14:44  Total Drama Island — S01E04 — Total Drama Island - Episode 4 - Dodgebrawl
-15:00–15:22  Kim Possible — S02E23
-15:23–15:46  Kim Possible — S02E24 — Oh Boyz (
-16:00–16:22  Fillmore! — S02E12 — ! - 2x12 - A Dark Score Evened
-16:22–16:45  Fillmore! — S02E13 — ! - 2x13 - Field Trip Of The Just
+14:00–14:22  Total Drama Island — S01E13 — Total Drama Island - Episode 13 - X Treme Torture
+14:22–14:44  Total Drama Island — S01E14 — Total Drama Island - Episode 14 - Bunch of Disgustingness
+15:00–15:21  Kim Possible — S01E13 — Crush (
+15:22–15:43  Kim Possible — S01E14 — Monkey Ninjas in Space (
+16:00–16:22  Fillmore! — S02E11 — ! - 2x11 - This Savior, A Snitch
+16:22–16:45  Fillmore! — S02E12 — ! - 2x12 - A Dark Score Evened
 17:00–17:22  Gravity Falls — S01E12 — (2012) - S01E12 - Summerween (
 17:22–17:44  Gravity Falls — S01E13 — (2012) - S01E13 - Boss Mabel (
 18:00–18:23  Mickey Mouse Clubhouse - Mickey Saves Santa
@@ -2621,12 +2628,13 @@ What
 00:00–00:44  Most Haunted — S01E12 — Treasure Holt
 01:00–01:43  Scariest Places on Earth — S01E04 — The Scariest Places on Earth - Ep 04 - Dungeons of Alcatraz
 02:00–02:19  Lost Tapes — S02E07 — Jersey Devil
-02:30–02:54  Ghost Hunters — S03E07 — ) — Ghost Hunters S03E07 - Spirits Of Bodmin Moor
-03:00–04:00  Christmas overnight fireplace
-04:30–04:56  Arthur C. Clarke’s Mysterious World — S01E03 — Arthur C Clarke Mysterious World S01E03 Ancient Wisdom
-04:56–05:22  Arthur C. Clarke’s Mysterious World — S01E04 — Arthur C Clarke Mysterious World S01E04 The Missing Apeman
-05:30–05:51  In Search Of… — S04E11 — D B Cooper
-05:51–06:14  In Search Of… — S04E12 — The Ten Commandments
+02:30–02:53  Ghost Hunters — S03E05 — ) — Ghost Hunters S03E05 - Echoes from beyond the Grave
+02:53–03:17  Ghost Hunters — S03E06 — ) — Ghost Hunters S03E06 - The Priest And The Professor
+03:30–03:52  In Search Of… — S05E11 — Fountain of Youth
+04:00–05:00  Christmas overnight — Crackling Fireplace
+05:00–05:26  Arthur C. Clarke’s Mysterious World — S01E05 — Arthur C Clarke Mysterious World S01E05 Giants for the Gods
+05:30–05:52  In Search Of… — S05E12 — Laugh Therapy
+05:52–06:14  In Search Of… — S05E13 — Salem Witches
 06:30–06:52  Animal X — S02E02 — Marsupial Lion, Thunderbirds, Animals Sealed in Stone
 07:00–07:49  David Attenborough — The Life of Mammals - 07 - Return to the Water
 08:00–09:01  Cosmos: A Personal Voyage — S01E08 — Carl Sagan's Cosmos A
@@ -2634,19 +2642,19 @@ What
 10:15–10:58  River Monsters — S02E02
 11:15–11:37  Animal X — S02E03 — Megalodon, Pets That Save, Animal Plagues
 12:00–12:24  A Claymation Christmas Celebration (1987)
-12:24–12:46  In Search Of… — S04E13 — The Dark Star
+12:24–12:46  In Search Of… — S05E14 — Super Children
 13:00–13:43  Robot Wars (UK) — S03E01 — Heat A
 14:00–14:52  NOVA — PBS Nova - Treasures of the Earth - Metals
 14:53–15:46  NOVA — PBS Nova - Volcano Under the City
-16:00–16:22  In Search Of… — S04E14 — The San Andreas Fault
-16:22–16:44  In Search Of… — S04E15 — The Missing Heir
-17:00–17:26  Arthur C. Clarke’s Mysterious World — S01E05 — Arthur C Clarke Mysterious World S01E05 Giants for the Gods
-17:26–17:52  Arthur C. Clarke’s Mysterious World — S01E06 — Arthur C Clarke Mysterious World S01E06 Monsters of the Lakes
-18:00–18:43  Ancient Aliens — S03E05 — Aliens and Mysterious Rituals
+16:00–16:22  In Search Of… — S05E15 — The Great Wall of China
+16:22–16:44  In Search Of… — S05E16 — The Castle of Secrets (aka Coral Castle)
+17:00–17:26  Arthur C. Clarke’s Mysterious World — S01E06 — Arthur C Clarke Mysterious World S01E06 Monsters of the Lakes
+17:26–17:52  Arthur C. Clarke’s Mysterious World — S01E07 — Arthur C Clarke Mysterious World S01E07 The Great Siberian Explosion
+18:00–18:43  Ancient Aliens — S03E02 — Aliens and Monsters
 19:00–20:00  Haunted History — S02E09 — The Rockies
-20:30–20:54  Ghost Hunters — S03E08 — ) — Ghost Hunters S03E08 - The Case of the Gorton Poltergeist
-21:00–21:24  Ghost Hunters — S04E01 — ) — Ghost Hunters S04E01 - Shadow Of Snowdonia
-21:24–21:48  Ghost Hunters — S04E02 — ) — Ghost Hunters S04E02 - Spectres of the Severn
+20:30–20:54  Ghost Hunters — S03E07 — ) — Ghost Hunters S03E07 - Spirits Of Bodmin Moor
+21:00–21:24  Ghost Hunters — S03E08 — ) — Ghost Hunters S03E08 - The Case of the Gorton Poltergeist
+21:24–21:48  Ghost Hunters — S04E01 — ) — Ghost Hunters S04E01 - Shadow Of Snowdonia
 22:00–22:43  Scariest Places on Earth — S01E05 — The Scariest Places on Earth - Ep 05 - Chillingham
 23:00–23:19  Lost Tapes — S02E08 — Alien
 23:19–23:38  Lost Tapes — S02E09 — Bear Lake Monster

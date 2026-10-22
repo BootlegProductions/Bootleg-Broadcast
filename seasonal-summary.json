@@ -1,192 +1,592 @@
 {
   "october": {
     "days": 31,
-    "source_pool_programmes": {
-      "90s Toons": 366,
-      "AAA": 68,
-      "Cartoons Cartoons": 68,
-      "Dickleodeon": 144,
-      "Dizzy": 77,
-      "GirlyPop": 92,
-      "Japanime": 171,
-      "Off-Licence TV": 73,
-      "Star Spangled TV": 107,
-      "What": 25
+    "source": "Actual compiled timetable; not a historic rotation estimate",
+    "distinct_scheduled_sources": {
+      "90s Toons": 1020,
+      "Cartoons Cartoons": 1144,
+      "Japanime": 1108,
+      "Off-Licence TV": 593,
+      "Star Spangled TV": 925,
+      "AAA": 902,
+      "Dickleodeon": 1086,
+      "GirlyPop": 972,
+      "Dizzy": 787,
+      "What": 490
     },
-    "daily_minimum": 8,
+    "seasonally_tagged_screenings": {
+      "90s Toons": 299,
+      "Cartoons Cartoons": 229,
+      "Japanime": 36,
+      "Off-Licence TV": 19,
+      "Star Spangled TV": 37,
+      "AAA": 169,
+      "Dickleodeon": 35,
+      "GirlyPop": 16,
+      "Dizzy": 68,
+      "What": 656
+    },
     "featured_movies": [
       {
-        "date": 1,
-        "channel": "Star Spangled TV",
-        "title": "A Nightmare on Elm Street (1984) "
-      },
-      {
-        "date": 2,
-        "channel": "Star Spangled TV",
-        "title": "Freddy vs. Jason (2003) "
-      },
-      {
-        "date": 3,
-        "channel": "Star Spangled TV",
-        "title": "Gremlins (1984)"
-      },
-      {
-        "date": 4,
-        "channel": "Star Spangled TV",
-        "title": "Gremlins 2: The New Batch (1990)"
-      },
-      {
-        "date": 5,
-        "channel": "Star Spangled TV",
-        "title": "Ghost Rider (2007)"
-      },
-      {
-        "date": 6,
-        "channel": "Star Spangled TV",
-        "title": "Ghost Rider: Spirit of Vengeance (2011)"
-      },
-      {
-        "date": 7,
-        "channel": "Star Spangled TV",
-        "title": "Abraham Lincoln Vampire Hunter (2012)"
-      },
-      {
-        "date": 8,
-        "channel": "Star Spangled TV",
-        "title": "Beetlejuice (1988)"
-      },
-      {
-        "date": 9,
-        "channel": "Star Spangled TV",
-        "title": "The Cabin in the Woods (2011)"
-      },
-      {
-        "date": 10,
-        "channel": "Star Spangled TV",
-        "title": "Spawn"
-      },
-      {
-        "date": 11,
-        "channel": "Star Spangled TV",
-        "title": "Halloween (2007)"
-      },
-      {
-        "date": 12,
-        "channel": "Star Spangled TV",
-        "title": "Halloween 2 (2009)"
-      },
-      {
-        "date": 13,
-        "channel": "Star Spangled TV",
-        "title": "Five Nights at Freddy\u2019s (2023)"
-      },
-      {
-        "date": 14,
-        "channel": "Star Spangled TV",
-        "title": "Five Nights at Freddy\u2019s 2 (2025)"
-      },
-      {
-        "date": 15,
-        "channel": "Star Spangled TV",
-        "title": "The Shining (1997)"
-      },
-      {
-        "date": 16,
-        "channel": "Star Spangled TV",
-        "title": "The Slumber Party Massacre (1982)"
-      },
-      {
-        "date": 17,
-        "channel": "Star Spangled TV",
-        "title": "The Texas Chain Saw Massacre (1974)"
-      },
-      {
-        "date": 18,
-        "channel": "Star Spangled TV",
-        "title": "The Texas Chainsaw Massacre 2 (1986)"
-      },
-      {
-        "date": 19,
-        "channel": "Star Spangled TV",
-        "title": "Scream (1996)"
-      },
-      {
-        "date": 20,
+        "date": "2",
         "channel": "Star Spangled TV",
         "title": "Hellraiser (1987)"
       },
       {
-        "date": 21,
+        "date": "3",
+        "channel": "90s Toons",
+        "title": "Spider-man (2002)"
+      },
+      {
+        "date": "3",
+        "channel": "Japanime",
+        "title": "Akira"
+      },
+      {
+        "date": "3",
+        "channel": "Off-Licence TV",
+        "title": "Ghostwatch"
+      },
+      {
+        "date": "3",
         "channel": "Star Spangled TV",
         "title": "Hellraiser II (1988)"
       },
       {
-        "date": 22,
+        "date": "3",
+        "channel": "AAA",
+        "title": "Beavis and Butt-Head Do the Universe (2022)"
+      },
+      {
+        "date": "3",
+        "channel": "Dizzy",
+        "title": "Frankenweenie — feature presentation"
+      },
+      {
+        "date": "4",
+        "channel": "Cartoons Cartoons",
+        "title": "Scooby-Doo and the Ghoul School"
+      },
+      {
+        "date": "4",
+        "channel": "Star Spangled TV",
+        "title": "Leprechaun (1993)"
+      },
+      {
+        "date": "4",
+        "channel": "Dickleodeon",
+        "title": "Curious George: A Halloween Boofest"
+      },
+      {
+        "date": "4",
+        "channel": "GirlyPop",
+        "title": "The Nightmare Before Christmas (1993)"
+      },
+      {
+        "date": "4",
+        "channel": "Dizzy",
+        "title": "Pooh's Heffalump Halloween Movie"
+      },
+      {
+        "date": "4",
+        "channel": "What",
+        "title": "Reefer Madness (1936)"
+      },
+      {
+        "date": "9",
+        "channel": "Star Spangled TV",
+        "title": "Misery (1990)"
+      },
+      {
+        "date": "10",
+        "channel": "90s Toons",
+        "title": "Spider-man 2"
+      },
+      {
+        "date": "10",
+        "channel": "Japanime",
+        "title": "Bayonetta Bloody Fate"
+      },
+      {
+        "date": "10",
+        "channel": "Off-Licence TV",
+        "title": "The Worst Witch (1986)"
+      },
+      {
+        "date": "10",
+        "channel": "Star Spangled TV",
+        "title": "My Bloody Valentine (1981)"
+      },
+      {
+        "date": "10",
+        "channel": "AAA",
+        "title": "Cool World (1992)"
+      },
+      {
+        "date": "10",
+        "channel": "Dizzy",
+        "title": "Tarzan II"
+      },
+      {
+        "date": "11",
+        "channel": "Cartoons Cartoons",
+        "title": "Scooby-Doo! Frankencreepy"
+      },
+      {
+        "date": "11",
+        "channel": "Star Spangled TV",
+        "title": "Scream (1996)"
+      },
+      {
+        "date": "11",
+        "channel": "Dickleodeon",
+        "title": "Monster House (2006)"
+      },
+      {
+        "date": "11",
+        "channel": "GirlyPop",
+        "title": "Coraline (2009)"
+      },
+      {
+        "date": "11",
+        "channel": "Dizzy",
+        "title": "The Cat In The Hat 2003"
+      },
+      {
+        "date": "16",
         "channel": "Star Spangled TV",
         "title": "The Blair Witch Project (1999)"
       },
       {
-        "date": 23,
-        "channel": "Star Spangled TV",
-        "title": "A Nightmare on Elm Street (1984) "
+        "date": "17",
+        "channel": "90s Toons",
+        "title": "Godzilla (1998)"
       },
       {
-        "date": 24,
-        "channel": "Star Spangled TV",
-        "title": "Freddy vs. Jason (2003) "
+        "date": "17",
+        "channel": "Japanime",
+        "title": "Paprika"
       },
       {
-        "date": 25,
-        "channel": "Star Spangled TV",
-        "title": "Gremlins (1984)"
+        "date": "17",
+        "channel": "Off-Licence TV",
+        "title": "28 Weeks Later (2007)"
       },
       {
-        "date": 26,
-        "channel": "Star Spangled TV",
-        "title": "Gremlins 2: The New Batch (1990)"
-      },
-      {
-        "date": 27,
-        "channel": "Star Spangled TV",
-        "title": "Ghost Rider (2007)"
-      },
-      {
-        "date": 28,
-        "channel": "Star Spangled TV",
-        "title": "Ghost Rider: Spirit of Vengeance (2011)"
-      },
-      {
-        "date": 29,
-        "channel": "Star Spangled TV",
-        "title": "Abraham Lincoln Vampire Hunter (2012)"
-      },
-      {
-        "date": 30,
-        "channel": "Star Spangled TV",
-        "title": "Beetlejuice (1988)"
-      },
-      {
-        "date": 31,
+        "date": "17",
         "channel": "Star Spangled TV",
         "title": "The Cabin in the Woods (2011)"
+      },
+      {
+        "date": "17",
+        "channel": "AAA",
+        "title": "Coonskin aka Street Fight ☆ Ralph Bakshi ☆1975"
+      },
+      {
+        "date": "17",
+        "channel": "Dizzy",
+        "title": "The Incredibles (2004)"
+      },
+      {
+        "date": "18",
+        "channel": "Cartoons Cartoons",
+        "title": "The Halloween Tree"
+      },
+      {
+        "date": "18",
+        "channel": "Star Spangled TV",
+        "title": "The Texas Chain Saw Massacre (1974)"
+      },
+      {
+        "date": "18",
+        "channel": "Dickleodeon",
+        "title": "Rugrats Go Wild"
+      },
+      {
+        "date": "18",
+        "channel": "GirlyPop",
+        "title": "Bratz Starrin & Stylin"
+      },
+      {
+        "date": "18",
+        "channel": "Dizzy",
+        "title": "The Iron Giant (1999)"
+      },
+      {
+        "date": "23",
+        "channel": "Star Spangled TV",
+        "title": "The Texas Chainsaw Massacre 2 (1986)"
+      },
+      {
+        "date": "24",
+        "channel": "90s Toons",
+        "title": "Spider-man 3"
+      },
+      {
+        "date": "24",
+        "channel": "Japanime",
+        "title": "Perfect Blue"
+      },
+      {
+        "date": "24",
+        "channel": "Off-Licence TV",
+        "title": "28 Years Later (2025)"
+      },
+      {
+        "date": "24",
+        "channel": "Star Spangled TV",
+        "title": "The Thing (1982)"
+      },
+      {
+        "date": "24",
+        "channel": "AAA",
+        "title": "Fire And Ice 1983"
+      },
+      {
+        "date": "24",
+        "channel": "Dizzy",
+        "title": "The Lion King (1994)"
+      },
+      {
+        "date": "25",
+        "channel": "Cartoons Cartoons",
+        "title": "Scooby-Doo (2002)"
+      },
+      {
+        "date": "25",
+        "channel": "Star Spangled TV",
+        "title": "2 Leprechaun 2 (1994)"
+      },
+      {
+        "date": "25",
+        "channel": "Dickleodeon",
+        "title": "Rugrats In Paris The Movie"
+      },
+      {
+        "date": "25",
+        "channel": "GirlyPop",
+        "title": "Bratz Super Babyz"
+      },
+      {
+        "date": "25",
+        "channel": "Dizzy",
+        "title": "The Lion King (2019)"
+      },
+      {
+        "date": "30",
+        "channel": "Star Spangled TV",
+        "title": "3 Leprechaun 3 (1995)"
+      },
+      {
+        "date": "31",
+        "channel": "90s Toons",
+        "title": "The Amazing Spider-Man (2012)"
+      },
+      {
+        "date": "31",
+        "channel": "Japanime",
+        "title": "Shin Godzilla (2016)"
+      },
+      {
+        "date": "31",
+        "channel": "Off-Licence TV",
+        "title": "Ghostwatch"
+      },
+      {
+        "date": "31",
+        "channel": "Star Spangled TV",
+        "title": "30 Days of Night (2007)"
+      },
+      {
+        "date": "31",
+        "channel": "AAA",
+        "title": "Fritz The Cat"
+      },
+      {
+        "date": "31",
+        "channel": "Dizzy",
+        "title": "Frankenweenie — feature presentation"
       }
     ]
   },
   "december": {
     "days": 31,
-    "source_pool_programmes": {
-      "90s Toons": 9,
-      "AAA": 9,
-      "Cartoons Cartoons": 14,
-      "Dickleodeon": 79,
-      "Dizzy": 17,
-      "GirlyPop": 5,
-      "Japanime": 19,
-      "Off-Licence TV": 27,
-      "Star Spangled TV": 40,
-      "What": 20
+    "source": "Actual compiled timetable; not a historic rotation estimate",
+    "distinct_scheduled_sources": {
+      "90s Toons": 971,
+      "Cartoons Cartoons": 1134,
+      "Japanime": 1091,
+      "Off-Licence TV": 612,
+      "Star Spangled TV": 934,
+      "AAA": 877,
+      "Dickleodeon": 1065,
+      "GirlyPop": 985,
+      "Dizzy": 732,
+      "What": 486
     },
-    "daily_minimum": 5,
-    "featured_movies": []
+    "seasonally_tagged_screenings": {
+      "90s Toons": 253,
+      "Cartoons Cartoons": 240,
+      "Off-Licence TV": 37,
+      "Star Spangled TV": 54,
+      "AAA": 146,
+      "Dickleodeon": 63,
+      "Dizzy": 57,
+      "What": 598,
+      "GirlyPop": 59,
+      "Japanime": 9
+    },
+    "featured_movies": [
+      {
+        "date": "4",
+        "channel": "Star Spangled TV",
+        "title": "A Christmas Story (1983)"
+      },
+      {
+        "date": "5",
+        "channel": "90s Toons",
+        "title": "A Flintstones Christmas Carol (1994)"
+      },
+      {
+        "date": "5",
+        "channel": "Japanime",
+        "title": "Tokyo Godfathers"
+      },
+      {
+        "date": "5",
+        "channel": "Off-Licence TV",
+        "title": "A Christmas Carol (1984)"
+      },
+      {
+        "date": "5",
+        "channel": "Star Spangled TV",
+        "title": "A Hobo's Christmas (1987)"
+      },
+      {
+        "date": "5",
+        "channel": "AAA",
+        "title": "The Lord of the Rings"
+      },
+      {
+        "date": "5",
+        "channel": "Dizzy",
+        "title": "Beauty and the Beast The Enchanted Christmas (1997)"
+      },
+      {
+        "date": "6",
+        "channel": "Cartoons Cartoons",
+        "title": "The Halloween Tree"
+      },
+      {
+        "date": "6",
+        "channel": "Star Spangled TV",
+        "title": "Arthur Christmas (2011)"
+      },
+      {
+        "date": "6",
+        "channel": "AAA",
+        "title": "Futurama: Bender’s Game"
+      },
+      {
+        "date": "6",
+        "channel": "Dickleodeon",
+        "title": "Rise of the Guardians (2012)"
+      },
+      {
+        "date": "6",
+        "channel": "GirlyPop",
+        "title": "Barbie Nutcracker"
+      },
+      {
+        "date": "6",
+        "channel": "Dizzy",
+        "title": "The Muppet Christmas Carol (1992)"
+      },
+      {
+        "date": "6",
+        "channel": "What",
+        "title": "Twister"
+      },
+      {
+        "date": "11",
+        "channel": "Star Spangled TV",
+        "title": "Black Christmas (1974)"
+      },
+      {
+        "date": "12",
+        "channel": "90s Toons",
+        "title": "Yogi's First Christmas (1980)"
+      },
+      {
+        "date": "12",
+        "channel": "Japanime",
+        "title": "Pokemon Movie 20 I Choose You!"
+      },
+      {
+        "date": "12",
+        "channel": "Off-Licence TV",
+        "title": "A Christmas Carol (1997)"
+      },
+      {
+        "date": "12",
+        "channel": "Star Spangled TV",
+        "title": "Ernest Saves Christmas (1988)"
+      },
+      {
+        "date": "12",
+        "channel": "AAA",
+        "title": "Who Framed Roger Rabbit"
+      },
+      {
+        "date": "12",
+        "channel": "Dizzy",
+        "title": "A Bug's Life"
+      },
+      {
+        "date": "13",
+        "channel": "Cartoons Cartoons",
+        "title": "Scooby-Doo (2002)"
+      },
+      {
+        "date": "13",
+        "channel": "Star Spangled TV",
+        "title": "Gremlins (1984)"
+      },
+      {
+        "date": "13",
+        "channel": "Dickleodeon",
+        "title": "Bee Movie (2007)"
+      },
+      {
+        "date": "13",
+        "channel": "GirlyPop",
+        "title": "Bratz Babyz Save Christmas"
+      },
+      {
+        "date": "13",
+        "channel": "Dizzy",
+        "title": "A Goofy Movie (1995)"
+      },
+      {
+        "date": "18",
+        "channel": "Star Spangled TV",
+        "title": "Home Alone (1990)"
+      },
+      {
+        "date": "19",
+        "channel": "90s Toons",
+        "title": "Spider-man (2002)"
+      },
+      {
+        "date": "19",
+        "channel": "Japanime",
+        "title": "Pokemon Movie 21 The Power of Us"
+      },
+      {
+        "date": "19",
+        "channel": "Off-Licence TV",
+        "title": "A Christmas Carol (1999)"
+      },
+      {
+        "date": "19",
+        "channel": "Star Spangled TV",
+        "title": "Home Alone 2: Lost in New York (1992)"
+      },
+      {
+        "date": "19",
+        "channel": "AAA",
+        "title": "y2mate com - bernie vs trump rZlYUgSUt7Q 360p"
+      },
+      {
+        "date": "19",
+        "channel": "Dizzy",
+        "title": "Aladdin (1992)"
+      },
+      {
+        "date": "20",
+        "channel": "Cartoons Cartoons",
+        "title": "Ben 10: Secret of the Omnitrix"
+      },
+      {
+        "date": "20",
+        "channel": "Star Spangled TV",
+        "title": "How the Grinch Stole Christmas (2000)"
+      },
+      {
+        "date": "20",
+        "channel": "Dickleodeon",
+        "title": "Bolt (2008)"
+      },
+      {
+        "date": "20",
+        "channel": "GirlyPop",
+        "title": "The Nightmare Before Christmas (1993)"
+      },
+      {
+        "date": "20",
+        "channel": "Dizzy",
+        "title": "Aladdin II The Return Of Jafar"
+      },
+      {
+        "date": "25",
+        "channel": "Star Spangled TV",
+        "title": "It's a Wonderful Life (1946)"
+      },
+      {
+        "date": "26",
+        "channel": "90s Toons",
+        "title": "Spider-man 2"
+      },
+      {
+        "date": "26",
+        "channel": "Japanime",
+        "title": "Pokemon Movie 22 Mewtwo Strikes Back Evolution"
+      },
+      {
+        "date": "26",
+        "channel": "Off-Licence TV",
+        "title": "St Patrick: The Irish Legend"
+      },
+      {
+        "date": "26",
+        "channel": "Star Spangled TV",
+        "title": "Miracle on 34th Street (1947)"
+      },
+      {
+        "date": "26",
+        "channel": "AAA",
+        "title": "9 (2009)"
+      },
+      {
+        "date": "26",
+        "channel": "Dizzy",
+        "title": "Aladdin III The King Of Thieves"
+      },
+      {
+        "date": "27",
+        "channel": "Cartoons Cartoons",
+        "title": "Ed, Edd n Eddy’s Big Picture Show"
+      },
+      {
+        "date": "27",
+        "channel": "Star Spangled TV",
+        "title": "Miracle on 34th Street (1994)"
+      },
+      {
+        "date": "27",
+        "channel": "Dickleodeon",
+        "title": "Chicken Little (2005)"
+      },
+      {
+        "date": "27",
+        "channel": "GirlyPop",
+        "title": "Barbie Fairytopia"
+      },
+      {
+        "date": "27",
+        "channel": "Dizzy",
+        "title": "Atlantis: Milo’s Return"
+      }
+    ]
   }
 }

@@ -1,0 +1,33 @@
+BOOTLEG BROADCAST — CURRENT SITE REVIEW (22 October 2026)
+
+SEASONAL ROOMS
+Your two supplied desktop backgrounds are installed unchanged. Halloween has darker edges and one gentle room-only dimming pulse every 37 seconds. Christmas has slow coloured bulb glows aligned with the painted lights. Reduced-motion disables these animations. Existing portrait artwork remains; the landscape CRT now sits on the higher seasonal tabletop. Duplicate Halloween cutouts are hidden over the new landscape artwork.
+
+PROGRAMMING
+76 fixed seasonal appointments: 18 October Treehouse of Horror screenings and 58 December winter/Christmas appointments. These are explicitly dated programme/source choices. Snow days, ski trips, Arctic/Alaska stories and Christmas episodes supplement the established seasonal specials.
+Five original classic shorts: Jack Frost (1934), Snow Foolin’ (1949), Winter Draws On (1948), Hector’s Hectic Life (1948), The Shanty Where Santy Claus Lives (1933). They air in written short-film blocks on Cartoons Cartoons and 90s Toons.
+December 04:00–05:00 UK: Unikitty fireplace on Cartoons Cartoons, The Splat fireplace on Dickleodeon, general crackling fireplace on the other channels. Short ambient sources intentionally repeat within this one hour. Normal programmes return at 05:00. After hours remains 02:30–07:00.
+All 648 film screenings / 288 distinct films remain. All adverts/bumpers remain at most 60 seconds, with station branding restricted to the correct channels.
+
+ORIGINAL SOURCE AUDIT
+All 21,363 original markdown URLs remain searchable. An original copy not airing often has a preferred alternate copy already in the schedule.
+The Simpsons: original Sxx, Exx filename evidence restored from the Yellowson collection; 419 distinct regular episodes now available versus 44 before. Seasonal specials receive explicit October/December appointments.
+The Powerpuff Girls: comma-numbered filenames now map to 78 numbered regular episodes. Duplicate uploads and unnumbered music videos/extras no longer inflate the episode run. Named specials are kept separate.
+Mixed ADV collection files now use their actual folder/show names. 152 DVD recordings stay searchable but are held until their episodes can be identified. Neo Ranga disc 5 had incorrectly been treated as episode 5; it is held pending mapping. The other 128 previously restored series still receive airtime.
+Samurai Jack, Zoey 101 and Fullmetal Alchemist still lack working compatible replacement sources.
+Suitable original direct MP4s of Rick and Morty / Simpsons branded fireplaces were not found; these have not been replaced with guessed links.
+
+CLEANUP AND VERIFICATION
+One cumulative VERSION-HISTORY.txt. Three previously listed obsolete files removed: 90s-Toons-Three-Day-Schedules.txt, three-day-audit.json, tools/rebuild_schedules.py.
+Local HTTP startup now works without crypto.randomUUID or session storage. Returning focus from the guide no longer scrolls the whole room upward.
+All 3,650 channel-days checked for coverage, runtimes, same-day identity repeats, UK clock changes and channel-brand routing. Existing film, restored-run, advert, pilot and playback-transition checks pass. 21 viewport/season geometry scenarios checked; seasonal rooms visually inspected in the browser.
+New media: exact original MP4s, remote H.264/AAC codec/runtime checks and start/middle/end decoding samples. Two shorts also downloaded in full and decoded after transient remote seek failures; Snow Foolin’ has a timestamp warning, with no decoding failure. Full source evidence is in seasonal-source-review.json.
+These are not full independent spoken-language/subtitle reviews. Original sources retain their language labels; new English uploader declarations are labelled as declarations, and ambient audio is unreviewed. The schedule does not require a backend.
+
+WHERE TO LOOK
+CHANNEL-LINEUP.txt — actual programme names and counts for all ten channels.
+BROADCAST-LINEUP-GUIDE.txt — channel blocks and full sample days.
+seasonal-programming.json — exact dated seasonal appointments and fireplace sources.
+seasonal-validation.json / release-validation.json — current automated results.
+source-coverage-review.json — original markdown reconciliation.
+VERSION-HISTORY.txt — cumulative changes.

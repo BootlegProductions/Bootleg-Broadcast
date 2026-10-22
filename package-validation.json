@@ -1,23 +1,31 @@
 {
-  "version": "0.36.4",
+  "version": "0.37.0",
   "status": "passed",
+  "delivery": "direct GitHub commit",
+  "baseline_commit": "fbd01650874b64465e3040e05495683d66dea85e",
   "all_twelve_months": true,
   "entrypoint_at_root": true,
-  "original_assets_preserved_byte_for_byte": 47,
-  "original_markdowns_preserved_byte_for_byte": 13,
-  "all_automated_checks": "passed",
-  "browser_visual_preview": "unavailable; no claim of fresh visual verification",
+  "unchanged_original_assets_checked": 46,
+  "unchanged_original_markdowns_checked": 13,
+  "intentionally_replaced_backgrounds": [
+    "assets/background/december-desktop.png",
+    "assets/background/october-desktop.png"
+  ],
+  "automated_check_reports": [
+    "release-validation.json",
+    "restoration-validation.json",
+    "film-validation.json",
+    "seasonal-validation.json",
+    "addition-validation.json",
+    "advert-validation.json",
+    "channel-interstitial-validation.json",
+    "playback-validation.json",
+    "tuning-audio-validation.json"
+  ],
+  "browser_visual_preview": "Halloween and Christmas rooms, guide return focus",
+  "responsive_geometry_scenarios": 21,
   "full_external_playback_audio_review": false,
   "backend_required": false,
   "calendar_year": 2026,
-  "files": 1580,
-  "notes": [
-    "Contains original assets and source documents, all twelve compiled month schedules, catalogue, static player, reports, authored lineups and measured runtime cache.",
-    "No live site was published.",
-    "Only exact paths in FILES-TO-DELETE.txt are recommended for deletion.",
-    "Playback transition regression checks passed. Empty break pools use a single ident then a labelled interval, not an endless ident loop.",
-    "23 H.264/AAC original American adverts fully decoded, exact runtimes measured, all actually scheduled; programme lineups compared against v0.36.2 unchanged.",
-    "35 checked UK/Disney/Nickelodeon interstitials actually scheduled on their assigned channels; all compiled adverts/bumpers are capped at 60 seconds."
-  ],
-  "complete_extraction_checked": true
+  "errors": []
 }

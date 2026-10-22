@@ -1,0 +1,74 @@
+{
+  "audit_scope": "Read-only audit of baseline2026 compiled calendar and original source markdown recheck; original URL not airing does not imply missing series.",
+  "original_recheck_heading_rows": 577,
+  "original_distinct_urls": 21363,
+  "urls_missing_from_searchable_catalogue": [],
+  "original_urls_airing_as_exact_copies": 11963,
+  "original_urls_airing_after_urlencoding_or_ia_encode_normalization": 12763,
+  "original_urls_associated_with_an_airing_series": 15377,
+  "defined_series_without_actual_airtime": [
+    {
+      "key": "samurai",
+      "name": "Samurai Jack"
+    },
+    {
+      "key": "zoey",
+      "name": "Zoey 101"
+    },
+    {
+      "key": "fma",
+      "name": "Fullmetal Alchemist"
+    }
+  ],
+  "generic_aliases_for_manual_review": [
+    {
+      "key": "fairly",
+      "alias": "The Whole Fairly Oddparents Franchise"
+    },
+    {
+      "key": "jimmy",
+      "alias": "The Whole Jimmy Neutron Franchise (Reupload)"
+    },
+    {
+      "key": "lazytown",
+      "alias": "LazyTown HD Episodes Collection"
+    },
+    {
+      "key": "bakugan",
+      "alias": "Bakugan Collection"
+    },
+    {
+      "key": "bakugan",
+      "alias": "Bakugan 52 Episode DVD Collection Season 1 Cartoon Network"
+    },
+    {
+      "key": "nova",
+      "alias": "PBS Nova Documentaries"
+    },
+    {
+      "key": "restored-neo-ranga",
+      "alias": "ADV Films Complete Collection MKV Files"
+    }
+  ],
+  "mixed_ADV_issue": {
+    "cause": "Generic ADV collection alias assigned to restored-neo-ranga. Mixed folder programmes mislabelled in catalogue. Other-show files were not actually in broadcast pool.",
+    "false_episode_mapping": "8 Neo Ranga 5-C1_tXX DVD chapter files all mapped to episode5; disc5 is not an episode number. Actual pool deduplicated to one of these files.",
+    "recommendation": "Remove broad alias; preserve searchable folder titles. Hold8 DVD chapters until episode mapping; all original links remain accessible for review."
+  },
+  "winter_checks": "17/17 HTTP206 video/mp4 with ftyp header. Exact runtimes from existing IA metadata. No complete codec/decode/language claim.",
+  "new_short_recommendation": "The Shanty Where Santy Claus Lives1933 originalMP4 has eng uploader declaration,431.28s,384995987bytes; not yet decoded or independently language-reviewed.",
+  "other_findings": [
+    "Every current defined series has actual airtime except known-dead Samurai Jack, Zoey101, Fullmetal Alchemist.",
+    "Old exact source copies may not air because preferred alternate editions are selected.",
+    "Winter/Snow titles require human theme review; Snow White, Cold Sore, Skips are false-positive search hits.",
+    "Current generic-series labels to review listed separately; do not mass-remap without filename evidence."
+  ],
+  "baseline": "GitHub main fbd01650874b64465e3040e05495683d66dea85e, before v0.37.0",
+  "after_changes": {
+    "original_urls_removed": 0,
+    "mixed_ADV_records_relabelled_and_held": 152,
+    "neo_ranga_status": "DVD recording numbers are not episode numbers; searchable pending mapping",
+    "simpsons_regular_pool": 419,
+    "powerpuff_regular_pool": 78
+  }
+}

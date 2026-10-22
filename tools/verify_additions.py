@@ -25,10 +25,11 @@ for url in wanted:
 assert review['series']['magicbus']['measured_episodes']==52
 assert review['series']['libertykids']['measured_episodes']==40
 assert review['series']['futurama']['measured_episodes']==3
-assert review['missing_series']==['samurai','zoey','fma']
+mapping_holds={k for k,v in read('restoration-report.json')['restored'].items() if v.get('status')=='held-for-episode-mapping'}
+assert set(review['missing_series'])=={'samurai','zoey','fma'}|mapping_holds
 # Build the roster independently from schedule content and compare its grouping counts.
 roster=read('channel-lineup.json')
 for ch,row in roster['channels'].items():
  assert sum(row['counts'].values())==sum(len(v) for v in row['programmes'].values())
-result={'version':'0.36.4','status':'passed' if not errors else 'failed','authored_sources_scheduled':len(actual),'checks':['All eleven updated/new series actually air','Magic School Bus 52 and Liberty’s Kids 40 measured episodes','Only three Futurama episodes, weekly Sunday appointment','AAA pilots on Friday late-night four-week cycle','Four Futurama films and Party Wagon on occasional first Sundays','No added one-off or film repeated within 28 days','Source-limit list reflects three remaining missing shows','Actual roster counts agree with its grouped programme list'],'errors':errors}
+result={'version':'0.37.0','status':'passed' if not errors else 'failed','authored_sources_scheduled':len(actual),'checks':['All eleven updated/new series actually air','Magic School Bus 52 and Liberty’s Kids 40 measured episodes','Only three Futurama episodes, weekly Sunday appointment','AAA pilots on Friday late-night four-week cycle','Four Futurama films and Party Wagon on occasional first Sundays','No added one-off or film repeated within 28 days','Source limits distinguish unavailable shows from documented episode-mapping holds','Actual roster counts agree with its grouped programme list'],'errors':errors}
 (R/'addition-validation.json').write_text(json.dumps(result,indent=2));print(json.dumps(result,indent=2));raise SystemExit(bool(errors))

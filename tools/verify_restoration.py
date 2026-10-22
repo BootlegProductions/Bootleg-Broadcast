@@ -16,6 +16,10 @@ for m in range(1,13):
     if p.get('series_id') in report['restored'] and p['type']=='Episode':actual[p['series_id']]+=1
     if p.get('editorial_run'):sequence[ch['name'],p['editorial_run']].append((m,int(day['date']),p))
 for key,v in report['restored'].items():
+ if v.get('status')=='held-for-episode-mapping':
+  if actual[key]:errors.append('Unmapped DVD series still receives airtime: '+v['name'])
+  if not v.get('hold_reason'):errors.append('Mapping hold has no evidence: '+v['name'])
+  continue
  if not actual[key]:errors.append('Restored series has no actual airtime: '+v['name'])
 # A newly restored show must progress through its evidenced order within a run.
 checked=0
@@ -43,5 +47,5 @@ with wave.open(str(R/'assets/static sfx/channel-tune-short.wav')) as w:
  duration=w.getnframes()/w.getframerate()
  if not .1<=duration<=.14:errors.append('Tuning noise is too long')
 if review['empty_appointments']:errors.append('Empty authored appointments')
-result={'version':'0.36.4','status':'passed' if not errors else 'failed','restored_series_with_actual_airtime':len(actual),'ordered_episode_transitions_checked':checked,'original_markdown_links_preserved':len(original_urls),'tuning_noise_seconds':duration,'errors':errors,'scope':'Static authored runs, measured media metadata, full original catalogue and short tuning audio. Not a complete Archive playback, subtitle or browser visual review.'}
+result={'version':'0.37.0','status':'passed' if not errors else 'failed','restored_series_with_actual_airtime':len(actual),'ordered_episode_transitions_checked':checked,'original_markdown_links_preserved':len(original_urls),'tuning_noise_seconds':duration,'errors':errors,'scope':'Static authored runs, measured media metadata, full original catalogue and short tuning audio. Not a complete Archive playback, subtitle or browser visual review.'}
 (R/'restoration-validation.json').write_text(json.dumps(result,indent=2));print(json.dumps({**result,'errors':errors[:20]},indent=2));raise SystemExit(bool(errors))

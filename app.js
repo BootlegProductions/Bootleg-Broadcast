@@ -1,4 +1,4 @@
-/* Bootleg Broadcast v0.36.4 — CRT television, seasonal rotation and source recovery. */
+/* Bootleg Broadcast v0.37.0 — CRT television, seasonal rotation and source recovery. */
 'use strict';
 const $ = id => document.getElementById(id);
 const player = $('player');

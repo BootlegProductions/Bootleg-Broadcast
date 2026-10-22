@@ -7,12 +7,14 @@ for month in range(1,13):
  for day in read('schedules/'+calendar.month_name[month].lower()+'.json')['weeks'][0]['week']:
   for ch in day['channels']:
    for p in ch['playlist']:
+    if p['type']=='Filler' and p.get('url'):
+     dates[p['url']][calendar.month_name[month].lower()].add(int(day['date']));url_channels[p['url']].add(ch['name'])
     if p['type'] in ['Break','Ident','Advert','Filler']:continue
     kind='Series' if p['type']=='Episode' else 'Films' if p['type']=='Movie' else 'Specials and one-offs'
     name=p.get('series_label') or p['show'] if kind=='Series' else p['title']
     groups[ch['name']][kind][name].add(p['content_id']);dates[p['url']][calendar.month_name[month].lower()].add(int(day['date']));url_channels[p['url']].add(ch['name'])
-result={'version':'0.36.4','year':config['year'],'scope':'Actual compiled calendar; excludes adverts, idents and fireplace filler. Series counts count programme identities, not individual episodes. Films/specials count distinct displayed titles.','channels':{}}
-lines=['BOOTLEG BROADCAST v0.36.4 — WHAT ACTUALLY PLAYS','Ten channels; compiled 2026 calendar. Seasonal programmes are included.','Counts below come from the finished schedules, not the source library.','Episode counts are distinct episodes actually scheduled during this year.','Films/specials are listed separately; adverts, idents and fireplace filler are excluded.','']
+result={'version':'0.37.0','year':config['year'],'scope':'Actual compiled calendar; excludes adverts, idents and fireplace filler. Series counts count programme identities, not individual episodes. Films/specials count distinct displayed titles.','channels':{}}
+lines=['BOOTLEG BROADCAST v0.37.0 — WHAT ACTUALLY PLAYS','Ten channels; compiled 2026 calendar. Seasonal programmes are included.','Counts below come from the finished schedules, not the source library.','Episode counts are distinct episodes actually scheduled during this year.','Films/specials are listed separately; adverts, idents and fireplace filler are excluded.','']
 for ch,categories in groups.items():
  out={kind:[{'name':name,'distinct_episodes':len(ids)} for name,ids in sorted(rows.items(),key=lambda x:x[0].casefold())] for kind,rows in categories.items()};counts={kind:len(out.get(kind,[])) for kind in ['Series','Films','Specials and one-offs']};result['channels'][ch]={'counts':counts,'programmes':out};lines+=['',ch.upper(),f"{counts['Series']} series; {counts['Films']} films; {counts['Specials and one-offs']} specials/one-offs."]
  for kind in ['Series','Films','Specials and one-offs']:
@@ -25,5 +27,7 @@ lines+=['','NOT CURRENTLY SCHEDULED: Samurai Jack, Zoey 101, Fullmetal Alchemist
 cat=read('source-library.json');month_numbers={calendar.month_name[i].lower():i for i in range(1,13)}
 for p in cat['programmes']:
  p['scheduled_dates']={m:sorted(ds) for m,ds in dates[p['url']].items()};p['schedule_months']=sorted(month_numbers[m] for m in dates[p['url']]);p['scheduled_channels']=sorted(url_channels[p['url']])
+summary=cat.setdefault('catalogue_summary',{})
+summary['entries']=len(cat['programmes']);summary['language_counts']=dict(collections.Counter(p.get('language_status','unknown') for p in cat['programmes']));summary['broadcast_held_entries']=sum(bool(p.get('broadcast_held')) for p in cat['programmes'])
 (ROOT/'source-library.json').write_text(json.dumps(cat,ensure_ascii=False,separators=(',',':')))
 print(json.dumps({ch:v['counts'] for ch,v in result['channels'].items()},indent=2))

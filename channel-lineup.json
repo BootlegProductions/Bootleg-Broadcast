@@ -1,5 +1,5 @@
 {
-  "version": "0.36.4",
+  "version": "0.37.0",
   "year": 2026,
   "scope": "Actual compiled calendar; excludes adverts, idents and fireplace filler. Series counts count programme identities, not individual episodes. Films/specials count distinct displayed titles.",
   "channels": {
@@ -7,7 +7,7 @@
       "counts": {
         "Series": 33,
         "Films": 11,
-        "Specials and one-offs": 62
+        "Specials and one-offs": 67
       },
       "programmes": {
         "Series": [
@@ -338,6 +338,10 @@
             "distinct_episodes": 1
           },
           {
+            "name": "Hector’s Hectic Life (1948)",
+            "distinct_episodes": 1
+          },
+          {
             "name": "I Want a Dog for Christmas, Charlie Brown",
             "distinct_episodes": 1
           },
@@ -347,6 +351,10 @@
           },
           {
             "name": "It's the Great Pumpkin, Charlie Brown",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Jack Frost (1934)",
             "distinct_episodes": 1
           },
           {
@@ -366,6 +374,10 @@
             "distinct_episodes": 1
           },
           {
+            "name": "Snow Foolin’ (1949)",
+            "distinct_episodes": 1
+          },
+          {
             "name": "The First Christmas The Story of the First Christmas Snow (1975)",
             "distinct_episodes": 1
           },
@@ -382,11 +394,19 @@
             "distinct_episodes": 1
           },
           {
+            "name": "The Shanty Where Santy Claus Lives (1933)",
+            "distinct_episodes": 1
+          },
+          {
             "name": "The Tick-The Tick Loves Santa! (1995)",
             "distinct_episodes": 1
           },
           {
             "name": "Twas The Night Before Christmas (1974)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Winter Draws On (1948)",
             "distinct_episodes": 1
           },
           {
@@ -446,7 +466,7 @@
       "counts": {
         "Series": 43,
         "Films": 7,
-        "Specials and one-offs": 24
+        "Specials and one-offs": 29
       },
       "programmes": {
         "Series": [
@@ -596,7 +616,7 @@
           },
           {
             "name": "The Powerpuff Girls (1998)",
-            "distinct_episodes": 218
+            "distinct_episodes": 78
           },
           {
             "name": "The Secret Saturdays",
@@ -695,6 +715,14 @@
             "distinct_episodes": 1
           },
           {
+            "name": "Hector’s Hectic Life (1948)",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Jack Frost (1934)",
+            "distinct_episodes": 1
+          },
+          {
             "name": "Johnny Bravo I Used to Be Funny - My Fair Dork - Twas the Night (1997)",
             "distinct_episodes": 1
           },
@@ -719,6 +747,10 @@
             "distinct_episodes": 1
           },
           {
+            "name": "Snow Foolin’ (1949)",
+            "distinct_episodes": 1
+          },
+          {
             "name": "The Grim Adventures of Billy & Mandy - Billy & Mandy Save Christmas",
             "distinct_episodes": 1
           },
@@ -731,7 +763,11 @@
             "distinct_episodes": 1
           },
           {
-            "name": "The Powerpuff Girls - ‘Twas the Fight Before Christmas",
+            "name": "The Powerpuff Girls — ’Twas the Fight Before Christmas",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "The Shanty Where Santy Claus Lives (1933)",
             "distinct_episodes": 1
           },
           {
@@ -749,13 +785,17 @@
           {
             "name": "What's New Scooby-Doo! - A Scooby-Doo Halloween",
             "distinct_episodes": 1
+          },
+          {
+            "name": "Winter Draws On (1948)",
+            "distinct_episodes": 1
           }
         ]
       }
     },
     "Japanime": {
       "counts": {
-        "Series": 109,
+        "Series": 108,
         "Films": 47,
         "Specials and one-offs": 14
       },
@@ -1040,10 +1080,6 @@
           {
             "name": "Monster",
             "distinct_episodes": 74
-          },
-          {
-            "name": "Neo Ranga",
-            "distinct_episodes": 1
           },
           {
             "name": "Neon Genesis Evangelion",
@@ -1789,9 +1825,9 @@
     },
     "Star Spangled TV": {
       "counts": {
-        "Series": 21,
+        "Series": 22,
         "Films": 84,
-        "Specials and one-offs": 31
+        "Specials and one-offs": 30
       },
       "programmes": {
         "Series": [
@@ -1812,6 +1848,10 @@
             "distinct_episodes": 72
           },
           {
+            "name": "Dragon Tales",
+            "distinct_episodes": 1
+          },
+          {
             "name": "Family Matters",
             "distinct_episodes": 210
           },
@@ -1829,11 +1869,11 @@
           },
           {
             "name": "MADtv",
-            "distinct_episodes": 245
+            "distinct_episodes": 244
           },
           {
             "name": "Malcolm in the Middle",
-            "distinct_episodes": 151
+            "distinct_episodes": 150
           },
           {
             "name": "Norm Macdonald Live",
@@ -1974,6 +2014,10 @@
             "distinct_episodes": 1
           },
           {
+            "name": "Hector’s Hectic Life (1948)",
+            "distinct_episodes": 1
+          },
+          {
             "name": "How the Grinch Stole Christmas! (1966)",
             "distinct_episodes": 1
           },
@@ -1983,14 +2027,6 @@
           },
           {
             "name": "Intergalactic Thanksgiving - Nelvana - 1979",
-            "distinct_episodes": 1
-          },
-          {
-            "name": "Miser Brothers Christmas (2008)",
-            "distinct_episodes": 1
-          },
-          {
-            "name": "Pee-wee’s Playhouse Christmas Special",
             "distinct_episodes": 1
           },
           {
@@ -2448,7 +2484,7 @@
           },
           {
             "name": "The Simpsons",
-            "distinct_episodes": 39
+            "distinct_episodes": 413
           },
           {
             "name": "The Venture Bros.",
@@ -2609,7 +2645,7 @@
       "counts": {
         "Series": 16,
         "Films": 24,
-        "Specials and one-offs": 87
+        "Specials and one-offs": 89
       },
       "programmes": {
         "Series": [
@@ -2893,6 +2929,14 @@
           },
           {
             "name": "LazyTown - LazyTown's Surprise Santa",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Little Bear — Snowball Fight / Winter Solstice / Snowbound",
+            "distinct_episodes": 1
+          },
+          {
+            "name": "Little Bear — The First Frost / Hello Snow / Duck and the Winter Moon",
             "distinct_episodes": 1
           },
           {

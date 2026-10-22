@@ -1,4 +1,4 @@
-BOOTLEG BROADCAST v0.36.4 — WHAT ACTUALLY PLAYS
+BOOTLEG BROADCAST v0.37.0 — WHAT ACTUALLY PLAYS
 Ten channels; compiled 2026 calendar. Seasonal programmes are included.
 Counts below come from the finished schedules, not the source library.
 Episode counts are distinct episodes actually scheduled during this year.
@@ -6,7 +6,7 @@ Films/specials are listed separately; adverts, idents and fireplace filler are e
 
 
 90S TOONS
-33 series; 11 films; 62 specials/one-offs.
+33 series; 11 films; 67 specials/one-offs.
 
 Series:
 - A Pup Named Scooby-Doo (30 distinct episodes)
@@ -105,23 +105,28 @@ Specials and one-offs:
 - Halloween Is Grinch Night
 - Hanna-Barbera's Christmas Sing-A-Long!
 - He-Man & She-Ra - A Christmas Special (1985)
+- Hector’s Hectic Life (1948)
 - I Want a Dog for Christmas, Charlie Brown
 - It's Christmastime Again, Charlie Brown
 - It's the Great Pumpkin, Charlie Brown
+- Jack Frost (1934)
 - Life with Louie - A Christmas Surprise for Mrs Stillman (1994)
 - Mister Magoo's Christmas Carol (1962)
 - Nestor, The Long-Eared Christmas Donkey (1977)
 - Pinocchios Christmas (1980)
+- Snow Foolin’ (1949)
 - The First Christmas The Story of the First Christmas Snow (1975)
 - The Leprechauns Christmas Gold (1981)
 - The Little Rascals Christmas Special
 - The Real Ghostbusters - - Xmas Marks the Spot (1986)
+- The Shanty Where Santy Claus Lives (1933)
 - The Tick-The Tick Loves Santa! (1995)
 - Twas The Night Before Christmas (1974)
+- Winter Draws On (1948)
 - Witch's Night Out (1978)
 
 CARTOONS CARTOONS
-43 series; 7 films; 24 specials/one-offs.
+43 series; 7 films; 29 specials/one-offs.
 
 Series:
 - Adventure Time (14 distinct episodes)
@@ -160,7 +165,7 @@ Series:
 - The Jetsons (24 distinct episodes)
 - The Land Before Time (TV Series) (26 distinct episodes)
 - The Life and Times of Juniper Lee (1 distinct episodes)
-- The Powerpuff Girls (1998) (218 distinct episodes)
+- The Powerpuff Girls (1998) (78 distinct episodes)
 - The Secret Saturdays (36 distinct episodes)
 - Tom and Jerry (10 distinct episodes)
 - Wacky Races (34 distinct episodes)
@@ -188,23 +193,28 @@ Specials and one-offs:
 - Ed Edd n Eddy Special Ed, Edd n Eddy’s Jingle Jingle Jangle (2004)
 - Ed, Edd n Eddy — Boo Haw Haw
 - Fosters Home for Imaginary Friends - Nightmare on Wilson Way
+- Hector’s Hectic Life (1948)
+- Jack Frost (1934)
 - Johnny Bravo I Used to Be Funny - My Fair Dork - Twas the Night (1997)
 - Johnny Bravo Specials A Johnny Bravo Christmas (2001)
 - My Gym Partner’s a Monkey - It’s the Scary Old Custodian, Adam Lyon
 - Regular Show - The Christmas Special
 - Scary Godmother: Halloween Spooktacular
 - Scary Godmother: The Revenge of Jimmy
+- Snow Foolin’ (1949)
 - The Grim Adventures of Billy & Mandy - Billy & Mandy Save Christmas
 - The Grim Adventures of Billy & Mandy - Billy and Mandy's Jacked Up Halloween
 - The Grim Adventures of Billy and Mandy - S2 - Billy and Mandy Save Christmas - emory
-- The Powerpuff Girls - ‘Twas the Fight Before Christmas
+- The Powerpuff Girls — ’Twas the Fight Before Christmas
+- The Shanty Where Santy Claus Lives (1933)
 - We Bare Bears - Charlie’s Halloween Thing
 - We Bare Bears - Charlie’s Halloween Thing 2
 - What's New Scooby-Doo! - A Scooby-Doo Christmas
 - What's New Scooby-Doo! - A Scooby-Doo Halloween
+- Winter Draws On (1948)
 
 JAPANIME
-109 series; 47 films; 14 specials/one-offs.
+108 series; 47 films; 14 specials/one-offs.
 
 Series:
 - 7 Seeds (24 distinct episodes)
@@ -277,7 +287,6 @@ Series:
 - Maken-Ki! (12 distinct episodes)
 - Mew Mew Power (26 distinct episodes)
 - Monster (74 distinct episodes)
-- Neo Ranga (1 distinct episodes)
 - Neon Genesis Evangelion (26 distinct episodes)
 - No Game, No Life (12 distinct episodes)
 - Noir (26 distinct episodes)
@@ -473,19 +482,20 @@ Specials and one-offs:
 - Till Death Us Do Part — Outback Bound Christmas Special
 
 STAR SPANGLED TV
-21 series; 84 films; 31 specials/one-offs.
+22 series; 84 films; 30 specials/one-offs.
 
 Series:
 - All in the Family (42 distinct episodes)
 - America’s Funniest Home Videos (126 distinct episodes)
 - Buffy the Vampire Slayer (8 distinct episodes)
 - Cops (72 distinct episodes)
+- Dragon Tales (1 distinct episodes)
 - Family Matters (210 distinct episodes)
 - Home Improvement (51 distinct episodes)
 - Jackass (24 distinct episodes)
 - Liberty’s Kids (40 distinct episodes)
-- MADtv (245 distinct episodes)
-- Malcolm in the Middle (151 distinct episodes)
+- MADtv (244 distinct episodes)
+- Malcolm in the Middle (150 distinct episodes)
 - Norm Macdonald Live (33 distinct episodes)
 - That ’70s Show (99 distinct episodes)
 - The Dukes of Hazzard (94 distinct episodes)
@@ -608,11 +618,10 @@ Specials and one-offs:
 - George and the Christmas Star (1985)
 - Gilligan's Island Birds Gotta Fly, Fish Gotta Talk (1964)
 - Grandma Got Run Over by a Reindeer (2000)
+- Hector’s Hectic Life (1948)
 - How the Grinch Stole Christmas! (1966)
 - I Want a Dog for Christmas, Charlie Brown (2003)
 - Intergalactic Thanksgiving - Nelvana - 1979
-- Miser Brothers Christmas (2008)
-- Pee-wee’s Playhouse Christmas Special
 - Rudolph's Shiny New Year (1976)
 - The Magic School Bus — A Magic School Bus Halloween (1995)
 - The Paul Lynde Halloween Special
@@ -644,7 +653,7 @@ Series:
 - The Critic (25 distinct episodes)
 - The Maxx (13 distinct episodes)
 - The Oblongs (13 distinct episodes)
-- The Simpsons (39 distinct episodes)
+- The Simpsons (413 distinct episodes)
 - The Venture Bros. (26 distinct episodes)
 - Undergrads (13 distinct episodes)
 
@@ -688,7 +697,7 @@ Specials and one-offs:
 - Welcome to Eltingville — Pilot
 
 DICKLEODEON
-16 series; 24 films; 87 specials/one-offs.
+16 series; 24 films; 89 specials/one-offs.
 
 Series:
 - Are You Afraid of the Dark? (62 distinct episodes)
@@ -789,6 +798,8 @@ Specials and one-offs:
 - Kung Fu Panda Legends of Awesomeness - Present Tense
 - Kung Fu Panda Legends of Awesomeness - The Po Who Cried Ghost
 - LazyTown - LazyTown's Surprise Santa
+- Little Bear — Snowball Fight / Winter Solstice / Snowbound
+- Little Bear — The First Frost / Hello Snow / Duck and the Winter Moon
 - Little Bill - Merry Christmas Little Bill
 - Little Bill - The Halloween Costume; The Haunted Halloween Party
 - Madagascar Holiday Short I Merry Madagascar

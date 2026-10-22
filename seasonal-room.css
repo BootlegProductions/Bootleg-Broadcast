@@ -1,0 +1,46 @@
+/* Seasonal room effects stay behind the CRT, guides and remote. */
+body[data-season="october"] #room-bg {
+  background-image: url('assets/background/october-desktop.png') !important;
+}
+body[data-season="october"] #room-bg::before {
+  content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(ellipse at 62% 49%, rgba(4,0,10,.12) 12%, rgba(3,0,8,.38) 58%, rgba(0,0,3,.86) 100%);
+}
+body[data-season="october"] #room-bg::after {
+  content: ''; position: absolute; inset: 0; background: #08010c;
+  pointer-events: none; opacity: .08;
+  animation: october-room-flicker 37s linear infinite;
+}
+/* One quiet, short dip per cycle; never flash the video or controls. */
+@keyframes october-room-flicker {
+  0%, 79%, 82%, 100% { opacity: .08; }
+  80% { opacity: .24; }
+  81% { opacity: .13; }
+}
+.christmas-bulbs { display: none; position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+body[data-season="december"] .christmas-bulbs { display: block; }
+.christmas-bulbs .bulb-glow { animation: december-bulb-glow 5.6s ease-in-out infinite alternate; opacity: .28; }
+.christmas-bulbs .bulb-glow:nth-child(3n+2) { animation-delay: -3.7s; }
+.christmas-bulbs .bulb-glow:nth-child(3n) { animation-delay: -1.9s; }
+@keyframes december-bulb-glow { from { opacity: .12; } to { opacity: .62; } }
+/* These cutouts duplicated details already painted into the new landscape art. */
+@media (orientation: landscape), (min-width: 1401px) {
+  body[data-season="october"] #halloween-decorations,
+  body[data-season="october"] .tv-halloween-candle { display: none !important; }
+  body[data-season="october"]:not(.mobile-scene) #tv-container,
+  body[data-season="december"]:not(.mobile-scene) #tv-container {
+    width: var(--season-tv-width, 920px); top: var(--season-tv-top, 5%); bottom: auto;
+  }
+}
+/* Retain the existing portrait artwork and its matching tabletop positions. */
+@media (orientation: portrait) and (max-width: 1400px) {
+  body[data-season="october"] #room-bg { background-image: url('assets/background/october-tablet.png') !important; }
+  .christmas-bulbs { display: none !important; }
+}
+@media (orientation: portrait) and (max-width: 700px) {
+  body[data-season="october"] #room-bg { background-image: url('assets/background/october-mobile.png') !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  body[data-season="october"] #room-bg::after,
+  .christmas-bulbs .bulb-glow { animation: none; }
+}

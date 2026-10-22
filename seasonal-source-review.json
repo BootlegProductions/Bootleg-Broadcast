@@ -1,0 +1,1251 @@
+{
+  "checked_at": "2026-10-22",
+  "new_media": [
+    {
+      "identifier": "JackFrost1934",
+      "file": {
+        "name": "Jack Frost (1934).mp4",
+        "source": "original",
+        "mtime": "1535398924",
+        "size": "48358100",
+        "md5": "51e5f9cb27c194e58baac2a7d59c1535",
+        "crc32": "334322c5",
+        "sha1": "f83538f395945eed1800734687cda1abb33fccd0",
+        "format": "MPEG4",
+        "length": "511.44",
+        "height": "480",
+        "width": "600"
+      },
+      "url": "https://archive.org/download/JackFrost1934/Jack%20Frost%20%281934%29.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 600,
+            "height": 480
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "511.442721"
+        }
+      },
+      "error": "",
+      "title": "Jack Frost (1934)",
+      "language_metadata": "eng",
+      "language_review": "Uploader declaration where present; no full independent spoken-audio review"
+    },
+    {
+      "identifier": "snow-foolin-1949-hd-i-screen-songs-christmas-cartoon",
+      "file": {
+        "name": "Snow Foolin (1949) (HD) I Screen Songs Christmas Cartoon.mp4",
+        "source": "original",
+        "mtime": "1764648407",
+        "size": "77154380",
+        "md5": "b98d11fd2489386974da73b56b654262",
+        "crc32": "1ada9ae5",
+        "sha1": "5f0c0ae55572f38a9cb32f3118048e6ebb252b7a",
+        "format": "MPEG4",
+        "length": "360.65",
+        "width": "1920",
+        "height": "1080"
+      },
+      "url": "https://archive.org/download/snow-foolin-1949-hd-i-screen-songs-christmas-cartoon/Snow%20Foolin%20%281949%29%20%28HD%29%20I%20Screen%20Songs%20Christmas%20Cartoon.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "360.652336"
+        }
+      },
+      "error": "",
+      "title": "Snow Foolin’ (1949)",
+      "language_metadata": "eng",
+      "language_review": "Uploader declaration where present; no full independent spoken-audio review"
+    },
+    {
+      "identifier": "1948publicdomainanimation",
+      "file": {
+        "name": "1948.03.19 - Winter Draws On.mp4",
+        "source": "original",
+        "mtime": "1678561367",
+        "size": "43282442",
+        "md5": "f5be68ce9a5856f07761f3cb4e51131d",
+        "crc32": "d30e37e4",
+        "sha1": "f4e1e4d5648d0fb84e7e980aa24d8702fb12a733",
+        "format": "MPEG4",
+        "length": "402.03",
+        "width": "640",
+        "height": "480"
+      },
+      "url": "https://archive.org/download/1948publicdomainanimation/1948.03.19%20-%20Winter%20Draws%20On.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 640,
+            "height": 480
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "402.030295"
+        }
+      },
+      "error": "",
+      "title": "Winter Draws On (1948)",
+      "language_metadata": null,
+      "language_review": "Uploader declaration where present; no full independent spoken-audio review"
+    },
+    {
+      "identifier": "1948publicdomainanimation",
+      "file": {
+        "name": "1948.11.19 - Hector's Hectic Life.mp4",
+        "source": "original",
+        "mtime": "1677950453",
+        "size": "861355525",
+        "md5": "9dbec32d041ce8cc984c235380620dbc",
+        "crc32": "f27873bd",
+        "sha1": "00cfa8706e5d85a69208e06d921643dc7686f660",
+        "format": "MPEG4",
+        "length": "389.35",
+        "width": "1920",
+        "height": "1080"
+      },
+      "url": "https://archive.org/download/1948publicdomainanimation/1948.11.19%20-%20Hector%27s%20Hectic%20Life.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          },
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "format": {
+          "duration": "389.347292"
+        }
+      },
+      "error": "",
+      "title": "Hector’s Hectic Life (1948)",
+      "language_metadata": null,
+      "language_review": "Uploader declaration where present; no full independent spoken-audio review"
+    },
+    {
+      "identifier": "the-shanty-where-santy-claus-lives-1933_202305",
+      "file": {
+        "name": "The Shanty Where Santy Claus Lives (1933).mp4",
+        "source": "original",
+        "mtime": "1684750497",
+        "size": "384995987",
+        "md5": "7d002fd409d0d194865e3c0d011edd60",
+        "crc32": "89eee715",
+        "sha1": "e0ec36468d9732a81657ea763581d191baca41e2",
+        "format": "MPEG4",
+        "length": "431.28",
+        "width": "1384",
+        "height": "1080"
+      },
+      "url": "https://archive.org/download/the-shanty-where-santy-claus-lives-1933_202305/The%20Shanty%20Where%20Santy%20Claus%20Lives%20%281933%29.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          },
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1384,
+            "height": 1080
+          },
+          {
+            "codec_name": "bin_data",
+            "codec_type": "data"
+          }
+        ],
+        "format": {
+          "duration": "431.282667"
+        }
+      },
+      "error": "",
+      "title": "The Shanty Where Santy Claus Lives (1933)",
+      "language_metadata": "eng",
+      "language_review": "Uploader declaration where present; no full independent spoken-audio review"
+    },
+    {
+      "identifier": "unikitty-one-hour-of-relaxing-yule-log-cartoon-network-1080",
+      "file": {
+        "name": "Unikitty  One Hour of Relaxing Yule Log  Cartoon Network - 1080.mp4",
+        "source": "original",
+        "mtime": "1662690018",
+        "size": "583253691",
+        "md5": "1ab6f666669a4da3fff1b107fdda67a9",
+        "crc32": "b2c3371c",
+        "sha1": "5ef065c203b28bb9260f01ba807446ebdb0bfcf9",
+        "format": "MPEG4",
+        "length": "3593.99",
+        "width": "1920",
+        "height": "1080"
+      },
+      "url": "https://archive.org/download/unikitty-one-hour-of-relaxing-yule-log-cartoon-network-1080/Unikitty%20%20One%20Hour%20of%20Relaxing%20Yule%20Log%20%20Cartoon%20Network%20-%201080.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "3593.990400"
+        }
+      },
+      "error": "",
+      "title": "Unikitty — One Hour of Relaxing Yule Log",
+      "language_review": "Ambient broadcast; full audio not independently reviewed"
+    },
+    {
+      "identifier": "SplatYuleLog",
+      "file": {
+        "name": "#SplatYuleLog.mp4",
+        "source": "original",
+        "mtime": "1543758736",
+        "size": "196485446",
+        "md5": "4b65a0903f2f96197caea48d15af4763",
+        "crc32": "6f81f2f7",
+        "sha1": "194f6b5dfae8553da7b6b4fef228e8cb7a461713",
+        "format": "MPEG4",
+        "length": "1799.37",
+        "height": "346",
+        "width": "640"
+      },
+      "url": "https://archive.org/download/SplatYuleLog/%23SplatYuleLog.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 640,
+            "height": 346
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1799.364233"
+        }
+      },
+      "error": "",
+      "title": "Nickelodeon — The Splat Yule Log",
+      "language_review": "Ambient broadcast; full audio not independently reviewed"
+    },
+    {
+      "identifier": "1-hour-cozy-fire-crackling-fireplace-320",
+      "file": {
+        "name": "1 hour Cozy Fire Crackling Fireplace 320.mp4",
+        "source": "original",
+        "mtime": "1702760978",
+        "size": "63359775",
+        "md5": "db467b459604a36a66c508455742abf0",
+        "crc32": "556d430c",
+        "sha1": "3839b06ed887b16a8533c35c99d10b523ef1f002",
+        "format": "MPEG4",
+        "length": "3591.2",
+        "width": "1920",
+        "height": "1080"
+      },
+      "url": "https://archive.org/download/1-hour-cozy-fire-crackling-fireplace-320/1%20hour%20Cozy%20Fire%20Crackling%20Fireplace%20320.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "3591.200000"
+        }
+      },
+      "error": "",
+      "title": "Christmas overnight — Crackling Fireplace",
+      "language_review": "Ambient broadcast; full audio not independently reviewed"
+    }
+  ],
+  "existing_winter_sources": [
+    {
+      "title": "American Dragon: Jake Long — S01E12 — (2005) - S01E12 - Ski Trip (",
+      "url": "https://archive.org/download/the-suite-life-of-zack-cody-s-01-e-09-band-in-boston/American%20Dragon%20Jake%20Long%20%282005%29%20-%20S01E12%20-%20Ski%20Trip%20%281080p%20WEB-DL%20x265%20RCVR%29.mp4",
+      "duration_seconds": 1362.84,
+      "source_page": "https://archive.org/details/the-suite-life-of-zack-cody-s-01-e-09-band-in-boston",
+      "archive_identifier": "the-suite-life-of-zack-cody-s-01-e-09-band-in-boston",
+      "filename": "American Dragon Jake Long (2005) - S01E12 - Ski Trip (1080p WEB-DL x265 RCVR).mp4",
+      "channels": [
+        "Dizzy"
+      ],
+      "series_id": "jake",
+      "direct_check": {
+        "status": 206,
+        "content_type": "video/mp4",
+        "mp4_header": "ftyp",
+        "bytes_read": 512
+      },
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1362.802335"
+        }
+      },
+      "probe_error": ""
+    },
+    {
+      "title": "Arthur — S03E29 — Season 3/Arthur - S03E29-E30 - Arthur and D W Clean Up + The Long, Dull Winter SDTV",
+      "url": "https://archive.org/download/arthur-1996-complete_202203/Season%203%2FArthur%20-%20S03E29-E30%20-%20Arthur%20and%20D.W.%20Clean%20Up%20%2B%20The%20Long%2C%20Dull%20Winter%20SDTV.mp4",
+      "duration_seconds": 1591.0,
+      "source_page": "https://archive.org/details/arthur-1996-complete_202203",
+      "archive_identifier": "arthur-1996-complete_202203",
+      "filename": "Season 3/Arthur - S03E29-E30 - Arthur and D.W. Clean Up + The Long, Dull Winter SDTV.mp4",
+      "channels": [
+        "GirlyPop"
+      ],
+      "series_id": "arthur",
+      "direct_check": {
+        "status": 206,
+        "content_type": "video/mp4",
+        "mp4_header": "ftyp",
+        "bytes_read": 512
+      },
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1590.992494"
+        }
+      },
+      "probe_error": ""
+    },
+    {
+      "title": "Arthur — S08E05 — Season 8/Arthur - S08E05-E06 - Arthur's Snow Biz + Bugged",
+      "url": "https://archive.org/download/arthur-1996-complete_202203/Season%208%2FArthur%20-%20S08E05-E06%20-%20Arthur%27s%20Snow%20Biz%20%2B%20Bugged%20WEBDL-480p.mp4",
+      "duration_seconds": 1621.63,
+      "source_page": "https://archive.org/details/arthur-1996-complete_202203",
+      "archive_identifier": "arthur-1996-complete_202203",
+      "filename": "Season 8/Arthur - S08E05-E06 - Arthur's Snow Biz + Bugged WEBDL-480p.mp4",
+      "channels": [
+        "GirlyPop"
+      ],
+      "series_id": "arthur",
+      "direct_check": {
+        "status": 206,
+        "content_type": "video/mp4",
+        "mp4_header": "ftyp",
+        "bytes_read": 512
+      },
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1621.590000"
+        }
+      },
+      "probe_error": ""
+    },
+    {
+      "title": "Arthur — S03E29 — E30 - Arthur and D W Clean Up + The Long, Dull Winter SDTV",
+      "url": "https://archive.org/download/arthur-1996-complete_202203/Season%203/Arthur%20-%20S03E29-E30%20-%20Arthur%20and%20D.W.%20Clean%20Up%20%2B%20The%20Long%2C%20Dull%20Winter%20SDTV.mp4",
+      "duration_seconds": 1591.0,
+      "source_page": "https://archive.org/details/arthur-1996-complete_202203",
+      "archive_identifier": "arthur-1996-complete_202203",
+      "filename": "Season 3/Arthur - S03E29-E30 - Arthur and D.W. Clean Up + The Long, Dull Winter SDTV.mp4",
+      "channels": [
+        "GirlyPop"
+      ],
+      "series_id": "arthur",
+      "direct_check": {
+        "status": 206,
+        "content_type": "video/mp4",
+        "mp4_header": "ftyp",
+        "bytes_read": 512
+      },
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1590.992494"
+        }
+      },
+      "probe_error": ""
+    },
+    {
+      "title": "Arthur — S08E05 — E06 - Arthur's Snow Biz + Bugged",
+      "url": "https://archive.org/download/arthur-1996-complete_202203/Season%208/Arthur%20-%20S08E05-E06%20-%20Arthur%27s%20Snow%20Biz%20%2B%20Bugged%20WEBDL-480p.mp4",
+      "duration_seconds": 1621.63,
+      "source_page": "https://archive.org/details/arthur-1996-complete_202203",
+      "archive_identifier": "arthur-1996-complete_202203",
+      "filename": "Season 8/Arthur - S08E05-E06 - Arthur's Snow Biz + Bugged WEBDL-480p.mp4",
+      "channels": [
+        "GirlyPop"
+      ],
+      "series_id": "arthur",
+      "direct_check": {
+        "status": 206,
+        "content_type": "video/mp4",
+        "mp4_header": "ftyp",
+        "bytes_read": 512
+      },
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1621.590000"
+        }
+      },
+      "probe_error": ""
+    },
+    {
+      "title": "Camp Lazlo — S02E17 — Snow Beans (209a)",
+      "url": "https://archive.org/download/camp-lazlo-s-03-e-01-hello-summer-goodbye-camp-301/Camp%20Lazlo%20Episodes/Season%202/Camp%20Lazlo%20-%20S02E17%20-%20Snow%20Beans%20%28209a%29.mp4",
+      "duration_seconds": 711.15,
+      "source_page": "https://archive.org/details/camp-lazlo-s-03-e-01-hello-summer-goodbye-camp-301",
+      "archive_identifier": "camp-lazlo-s-03-e-01-hello-summer-goodbye-camp-301",
+      "filename": "Camp Lazlo Episodes/Season 2/Camp Lazlo - S02E17 - Snow Beans (209a).mp4",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "series_id": "camp-lazlo",
+      "direct_check": {
+        "status": 206,
+        "content_type": "video/mp4",
+        "mp4_header": "ftyp",
+        "bytes_read": 512
+      },
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "711.104000"
+        }
+      },
+      "probe_error": ""
+    },
+    {
+      "title": "David Attenborough — Footsteps in the Snow",
+      "url": "https://archive.org/download/bbcdavidattenborough/David%20Attenborough/1993%20-%20Life%20in%20the%20Freezer-%5BKRISH%5D/06%20Footsteps%20in%20the%20Snow.mp4",
+      "duration_seconds": 1756.22,
+      "source_page": "https://archive.org/details/bbcdavidattenborough",
+      "archive_identifier": "bbcdavidattenborough",
+      "filename": "David Attenborough/1993 - Life in the Freezer-[KRISH]/06 Footsteps in the Snow.mp4",
+      "channels": [
+        "What"
+      ],
+      "series_id": "attenborough",
+      "direct_check": {
+        "status": 206,
+        "content_type": "video/mp4",
+        "mp4_header": "ftyp",
+        "bytes_read": 512
+      },
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1756.200000"
+        }
+      },
+      "probe_error": ""
+    },
+    {
+      "title": "Franny’s Feet — S01E07 — Egg-Sitting Arctic Antics",
+      "url": "https://archive.org/download/frannys-feet_/Frannys%20Feet%20S01E07%20Egg-Sitting%20%20Arctic%20Antics.mp4",
+      "duration_seconds": 1306.17,
+      "source_page": "https://archive.org/details/frannys-feet_",
+      "archive_identifier": "frannys-feet_",
+      "filename": "Frannys Feet S01E07 Egg-Sitting  Arctic Antics.mp4",
+      "channels": [
+        "GirlyPop"
+      ],
+      "series_id": "franny",
+      "direct_check": {
+        "status": 206,
+        "content_type": "video/mp4",
+        "mp4_header": "ftyp",
+        "bytes_read": 512
+      },
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1306.121995"
+        }
+      },
+      "probe_error": ""
+    },
+    {
+      "title": "Little Bear - Snowball Fight:Winter Solstice:Snowbound",
+      "url": "https://archive.org/download/christmas-specials_202412/Little%20Bear%20-%20Snowball%20Fight%3AWinter%20Solstice%3ASnowbound.mp4",
+      "duration_seconds": 1454.03,
+      "source_page": "https://archive.org/details/christmas-specials_202412",
+      "archive_identifier": "christmas-specials_202412",
+      "filename": "Little Bear - Snowball Fight:Winter Solstice:Snowbound.mp4",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "series_id": null,
+      "direct_check": {
+        "status": 206,
+        "content_type": "video/mp4",
+        "mp4_header": "ftyp",
+        "bytes_read": 512
+      },
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1454.033560"
+        }
+      },
+      "probe_error": ""
+    },
+    {
+      "title": "Little Bear - The First Frost:Hello Snow:Duck And The Winter Moon",
+      "url": "https://archive.org/download/christmas-specials_202412/Little%20Bear%20-%20The%20First%20Frost%3AHello%20Snow%3ADuck%20And%20The%20Winter%20Moon.mp4",
+      "duration_seconds": 1452.04,
+      "source_page": "https://archive.org/details/christmas-specials_202412",
+      "archive_identifier": "christmas-specials_202412",
+      "filename": "Little Bear - The First Frost:Hello Snow:Duck And The Winter Moon.mp4",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "series_id": null,
+      "direct_check": {
+        "status": 206,
+        "content_type": "video/mp4",
+        "mp4_header": "ftyp",
+        "bytes_read": 512
+      },
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1452.036644"
+        }
+      },
+      "probe_error": ""
+    },
+    {
+      "title": "The Powerpuff Girls (1998) — Powerpuff Girls - 01,08 - Paste Makes Waste - Ice Sore",
+      "url": "https://archive.org/download/powerpuff-girls-complete-series/Powerpuff%20Girls%20-%2001%2C08%20-%20Paste%20Makes%20Waste%20-%20Ice%20Sore.mp4",
+      "duration_seconds": 1357.44,
+      "source_page": "https://archive.org/details/powerpuff-girls-complete-series",
+      "archive_identifier": "powerpuff-girls-complete-series",
+      "filename": "Powerpuff Girls - 01,08 - Paste Makes Waste - Ice Sore.mp4",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "series_id": "powerpuff",
+      "direct_check": {
+        "status": 206,
+        "content_type": "video/mp4",
+        "mp4_header": "ftyp",
+        "bytes_read": 512
+      },
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1357.418000"
+        }
+      },
+      "probe_error": ""
+    },
+    {
+      "title": "River Monsters — S07E04 — Alaskas Cold Water Killer",
+      "url": "https://archive.org/download/river-monsters-season-1-9-reupload/River.Monsters.S01-S09.1080p.AMZN.WEBRip.WEB-DL.720p.HDTV.h.264-Mixed/River.Monsters.S07.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb/River.Monsters.S07E04.Alaskas.Cold.Water.Killer.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.mp4",
+      "duration_seconds": 2502.24,
+      "source_page": "https://archive.org/details/river-monsters-season-1-9-reupload",
+      "archive_identifier": "river-monsters-season-1-9-reupload",
+      "filename": "River.Monsters.S01-S09.1080p.AMZN.WEBRip.WEB-DL.720p.HDTV.h.264-Mixed/River.Monsters.S07.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb/River.Monsters.S07E04.Alaskas.Cold.Water.Killer.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.mp4",
+      "channels": [
+        "What"
+      ],
+      "series_id": "river",
+      "direct_check": {
+        "status": 206,
+        "content_type": "video/mp4",
+        "mp4_header": "ftyp",
+        "bytes_read": 512
+      },
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "2502.240000"
+        }
+      },
+      "probe_error": ""
+    },
+    {
+      "title": "That ’70s Show — Ice Shack",
+      "url": "https://archive.org/download/that-70s-show-season-3/That%2070%27s%20Show%20-%20310%20-%20Ice%20Shack.mp4",
+      "duration_seconds": 1300.4,
+      "source_page": "https://archive.org/details/that-70s-show-season-3",
+      "archive_identifier": "that-70s-show-season-3",
+      "filename": "That 70's Show - 310 - Ice Shack.mp4",
+      "channels": [
+        "Star Spangled TV"
+      ],
+      "series_id": "70s",
+      "direct_check": {
+        "status": 206,
+        "content_type": "video/mp4",
+        "mp4_header": "ftyp",
+        "bytes_read": 512
+      },
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1300.350998"
+        }
+      },
+      "probe_error": ""
+    },
+    {
+      "title": "That ’70s Show — Ski Trip",
+      "url": "https://archive.org/download/that-70s-show-season-1/That%2070%27s%20Show%20-113-%20Ski%20Trip.mp4",
+      "duration_seconds": 1320.69,
+      "source_page": "https://archive.org/details/that-70s-show-season-1",
+      "archive_identifier": "that-70s-show-season-1",
+      "filename": "That 70's Show -113- Ski Trip.mp4",
+      "channels": [
+        "Star Spangled TV"
+      ],
+      "series_id": "70s",
+      "direct_check": {
+        "status": 206,
+        "content_type": "video/mp4",
+        "mp4_header": "ftyp",
+        "bytes_read": 512
+      },
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1320.646009"
+        }
+      },
+      "probe_error": ""
+    },
+    {
+      "title": "The Powerpuff Girls (1998) — Powerpuff Girls - 01,08 - Paste Makes Waste - Ice Sore",
+      "url": "https://archive.org/download/the-powerpuff-girls-1998-the-complete-series/Powerpuff%20Girls%20-%2001%2C08%20-%20Paste%20Makes%20Waste%20-%20Ice%20Sore.mp4",
+      "duration_seconds": 1357.44,
+      "source_page": "https://archive.org/details/the-powerpuff-girls-1998-the-complete-series",
+      "archive_identifier": "the-powerpuff-girls-1998-the-complete-series",
+      "filename": "Powerpuff Girls - 01,08 - Paste Makes Waste - Ice Sore.mp4",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "series_id": "powerpuff",
+      "direct_check": {
+        "status": 206,
+        "content_type": "video/mp4",
+        "mp4_header": "ftyp",
+        "bytes_read": 512
+      },
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1357.418000"
+        }
+      },
+      "probe_error": ""
+    },
+    {
+      "title": "The Yellowson's Collection. — The Simpsons S12, E08 - Skinner's Sense of Snow",
+      "url": "https://archive.org/download/doh_20240725/The%20Simpsons%20S12%2C%20E08%20-%20Skinner%27s%20Sense%20of%20Snow.mp4",
+      "duration_seconds": 1350.44,
+      "source_page": "https://archive.org/details/doh_20240725",
+      "archive_identifier": "doh_20240725",
+      "filename": "The Simpsons S12, E08 - Skinner's Sense of Snow.mp4",
+      "channels": [
+        "AAA"
+      ],
+      "series_id": null,
+      "direct_check": {
+        "status": 206,
+        "content_type": "video/mp4",
+        "mp4_header": "ftyp",
+        "bytes_read": 512
+      },
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1350.440863"
+        }
+      },
+      "probe_error": ""
+    },
+    {
+      "title": "Dragon Tales — S03E28 — Super Snow Day - Make No Mistake",
+      "url": "https://archive.org/download/DragonTalesTVSeries/Dragon.Tales.S03E28.Super.Snow.Day.-.Make.No.Mistake.WEBRip.AAC2.0.x264-SA89.mp4",
+      "duration_seconds": 1495.6,
+      "source_page": "https://archive.org/details/DragonTalesTVSeries",
+      "archive_identifier": "DragonTalesTVSeries",
+      "filename": "Dragon.Tales.S03E28.Super.Snow.Day.-.Make.No.Mistake.WEBRip.AAC2.0.x264-SA89.mp4",
+      "channels": [
+        "GirlyPop"
+      ],
+      "series_id": "dragon-tales",
+      "direct_check": {
+        "status": 206,
+        "content_type": "video/mp4",
+        "mp4_header": "ftyp",
+        "bytes_read": 512
+      },
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1495.552000"
+        }
+      },
+      "probe_error": ""
+    }
+  ],
+  "rejected": [
+    {
+      "identifier": "SnowFoolin",
+      "reason": "Original MP4 uses MPEG-4 Part 2; selected H.264 HD copy instead"
+    },
+    {
+      "identifier": "ChristmasComesButOnceAYear",
+      "reason": "Original MP4 MPEG-4 Part 2; no new derivative imported"
+    },
+    {
+      "identifier": "SantasSurprise",
+      "reason": "Original MP4 MPEG-4 Part 2; no new derivative imported"
+    }
+  ],
+  "unresolved": [
+    "Rick and Morty branded Yule Log: no suitable original direct MP4 located",
+    "Simpsons branded fireplace: no suitable original direct MP4 located"
+  ],
+  "scope": "Fresh remote ffprobe codec/runtime checks; range/header checks on existing winter links. No full independent language or end-to-end external playback review. Selected files must be original .mp4, never newly imported .ia.mp4.",
+  "sample_decode_checks": [
+    {
+      "url": "https://archive.org/download/JackFrost1934/Jack%20Frost%20%281934%29.mp4",
+      "checks": [
+        {
+          "offset_seconds": 0,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        },
+        {
+          "offset_seconds": 252.721,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        },
+        {
+          "offset_seconds": 506.443,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        }
+      ]
+    },
+    {
+      "url": "https://archive.org/download/snow-foolin-1949-hd-i-screen-songs-christmas-cartoon/Snow%20Foolin%20%281949%29%20%28HD%29%20I%20Screen%20Songs%20Christmas%20Cartoon.mp4",
+      "checks": [
+        {
+          "offset_seconds": 0,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        },
+        {
+          "offset_seconds": 177.326,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        },
+        {
+          "offset_seconds": 355.652,
+          "error": "Command '['ffmpeg', '-v', 'error', '-rw_timeout', '12000000', '-ss', '355.652336', '-i', 'https://archive.org/download/snow-foolin-1949-hd-i-screen-songs-christmas-cartoon/Snow%20Foolin%20%281949%29%20%28HD%29%20I%20Screen%20Songs%20Christmas%20Cartoon.mp4', '-t', '3', '-map', '0:v:0', '-map', '0:a:0?', '-f', 'null', '-']' timed out after 50 seconds"
+        }
+      ]
+    },
+    {
+      "url": "https://archive.org/download/1948publicdomainanimation/1948.03.19%20-%20Winter%20Draws%20On.mp4",
+      "checks": [
+        {
+          "offset_seconds": 0,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        },
+        {
+          "offset_seconds": 198.015,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": " @ 0x55840f9a9c80] stream 1, offset 0xc3b72b: partial file\n[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x55840f9a9b80] Error during demuxing: Invalid data found when processing input\n[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x55840f9a9b80] Error retrieving a packet from demuxer: Invalid data found when processing input\n"
+        },
+        {
+          "offset_seconds": 397.03,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        }
+      ]
+    },
+    {
+      "url": "https://archive.org/download/1948publicdomainanimation/1948.11.19%20-%20Hector%27s%20Hectic%20Life.mp4",
+      "checks": [
+        {
+          "offset_seconds": 0,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        },
+        {
+          "offset_seconds": 191.674,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        },
+        {
+          "offset_seconds": 384.347,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        }
+      ]
+    },
+    {
+      "url": "https://archive.org/download/the-shanty-where-santy-claus-lives-1933_202305/The%20Shanty%20Where%20Santy%20Claus%20Lives%20%281933%29.mp4",
+      "checks": [
+        {
+          "offset_seconds": 0,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        },
+        {
+          "offset_seconds": 212.641,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        },
+        {
+          "offset_seconds": 426.283,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        }
+      ]
+    },
+    {
+      "url": "https://archive.org/download/unikitty-one-hour-of-relaxing-yule-log-cartoon-network-1080/Unikitty%20%20One%20Hour%20of%20Relaxing%20Yule%20Log%20%20Cartoon%20Network%20-%201080.mp4",
+      "checks": [
+        {
+          "offset_seconds": 0,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        },
+        {
+          "offset_seconds": 1793.995,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        },
+        {
+          "offset_seconds": 3588.99,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        }
+      ]
+    },
+    {
+      "url": "https://archive.org/download/SplatYuleLog/%23SplatYuleLog.mp4",
+      "checks": [
+        {
+          "offset_seconds": 0,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        },
+        {
+          "offset_seconds": 896.682,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        },
+        {
+          "offset_seconds": 1794.364,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        }
+      ]
+    },
+    {
+      "url": "https://archive.org/download/1-hour-cozy-fire-crackling-fireplace-320/1%20hour%20Cozy%20Fire%20Crackling%20Fireplace%20320.mp4",
+      "checks": [
+        {
+          "offset_seconds": 0,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        },
+        {
+          "offset_seconds": 1792.6,
+          "error": "Command '['ffmpeg', '-v', 'error', '-rw_timeout', '12000000', '-ss', '1792.6', '-i', 'https://archive.org/download/1-hour-cozy-fire-crackling-fireplace-320/1%20hour%20Cozy%20Fire%20Crackling%20Fireplace%20320.mp4', '-t', '3', '-map', '0:v:0', '-map', '0:a:0?', '-f', 'null', '-']' timed out after 50 seconds"
+        },
+        {
+          "offset_seconds": 3586.2,
+          "seconds": 3,
+          "exit_code": 0,
+          "errors": ""
+        }
+      ]
+    }
+  ],
+  "local_decode_rechecks": [
+    {
+      "url": "https://archive.org/download/1948publicdomainanimation/1948.03.19%20-%20Winter%20Draws%20On.mp4",
+      "downloaded_bytes": 43282442,
+      "expected_bytes": 43282442,
+      "full_decode_exit_code": 0,
+      "errors": ""
+    },
+    {
+      "url": "https://archive.org/download/snow-foolin-1949-hd-i-screen-songs-christmas-cartoon/Snow%20Foolin%20%281949%29%20%28HD%29%20I%20Screen%20Songs%20Christmas%20Cartoon.mp4",
+      "downloaded_bytes": 77154380,
+      "expected_bytes": 77154380,
+      "full_decode_exit_code": 0,
+      "errors": "[null @ 0x5604620f4480] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 8642 >= 8642\n"
+    },
+    {
+      "url": "https://archive.org/download/1-hour-cozy-fire-crackling-fireplace-320/1%20hour%20Cozy%20Fire%20Crackling%20Fireplace%20320.mp4",
+      "downloaded_bytes": 63359775,
+      "expected_bytes": 63359775,
+      "middle_sample_exit_code": 0,
+      "errors": ""
+    }
+  ],
+  "restored_simpsons_representative_probes": [
+    {
+      "url": "https://archive.org/download/doh_20240725/01-The%20Tracey%20Ullman%20Show%20Simpsons%20-%20All%20Episodes%2001-48%20%281987-1989%29.mp4",
+      "error": "'title_override'"
+    },
+    {
+      "title": "The Simpsons — S04E01 — Kamp Krusty",
+      "url": "https://archive.org/download/doh_20240725/The%20Simpsons%20S04%2C%20E01%20-%20Kamp%20Krusty.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1371.605000"
+        }
+      },
+      "error": ""
+    },
+    {
+      "title": "The Simpsons — S08E01 — Treehouse of Horror VII",
+      "url": "https://archive.org/download/doh_20240725/The%20Simpsons%20S08%2C%20E01%20-%20Treehouse%20of%20Horror%20VII.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1361.621000"
+        }
+      },
+      "error": ""
+    },
+    {
+      "title": "The Simpsons — S12E01 — Treehouse of Horror XI",
+      "url": "https://archive.org/download/doh_20240725/The%20Simpsons%20S12%2C%20E01%20-%20Treehouse%20of%20Horror%20XI.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1350.229000"
+        }
+      },
+      "error": ""
+    },
+    {
+      "title": "The Simpsons — S16E01 — Treehouse of Horror XV",
+      "url": "https://archive.org/download/doh_20240725/The%20Simpsons%20S16%2C%20E01%20-%20Treehouse%20of%20Horror%20XV.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1314.005000"
+        }
+      },
+      "error": ""
+    },
+    {
+      "title": "The Simpsons — S01E01 — Simpsons Roasting on an Open Fire",
+      "url": "https://archive.org/download/doh_20240725/The%20Simpsons%20S01%2C%20E01%20-%20Simpsons%20Roasting%20on%20an%20Open%20Fire.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "1389.354000"
+        }
+      },
+      "error": ""
+    }
+  ],
+  "restored_simpsons_scope": "Original user collection has 400 exact Sxx, Exx filename records; six representative seasonal copies probed H.264/AAC. English audio has not been independently reviewed for every file. Existing language flags are preserved."
+}

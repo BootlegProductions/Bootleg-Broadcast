@@ -1,8 +1,8 @@
 {
-  "version": "0.36.4",
+  "version": "0.37.0",
   "status": "passed",
-  "restored_series_with_actual_airtime": 129,
-  "ordered_episode_transitions_checked": 10540,
+  "restored_series_with_actual_airtime": 128,
+  "ordered_episode_transitions_checked": 10556,
   "original_markdown_links_preserved": 21363,
   "tuning_noise_seconds": 0.12,
   "errors": [],

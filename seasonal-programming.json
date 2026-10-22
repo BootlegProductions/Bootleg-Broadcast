@@ -1,0 +1,733 @@
+{
+  "version": "0.37.0",
+  "year": 2026,
+  "timezone": "Europe/London",
+  "note": "Explicit dated appointments, not a random seasonal rotation. Fireplace hour is 04:00–05:00 UK in December; shorter ambient videos deliberately repeat within that hour only. Re-author dated appointments for future calendar years.",
+  "appointments": [
+    {
+      "date": "2026-12-01",
+      "channel": "Cartoons Cartoons",
+      "at": "11:00",
+      "urls": [
+        "https://archive.org/download/JackFrost1934/Jack%20Frost%20%281934%29.mp4",
+        "https://archive.org/download/1948publicdomainanimation/1948.03.19%20-%20Winter%20Draws%20On.mp4"
+      ],
+      "block": "Classic winter cartoon shorts"
+    },
+    {
+      "date": "2026-12-01",
+      "channel": "Star Spangled TV",
+      "at": "18:00",
+      "urls": [
+        "https://archive.org/download/that-70s-show-season-1/That%2070%27s%20Show%20-113-%20Ski%20Trip.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-02",
+      "channel": "90s Toons",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/x-men-the-animated-series-1080p-ai-upscale_202204/EP06%20-%20Cold%20Vengeance.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-02",
+      "channel": "GirlyPop",
+      "at": "09:00",
+      "urls": [
+        "https://archive.org/download/arthur-1996-complete_202203/Season%203/Arthur%20-%20S03E29-E30%20-%20Arthur%20and%20D.W.%20Clean%20Up%20%2B%20The%20Long%2C%20Dull%20Winter%20SDTV.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-03",
+      "channel": "Cartoons Cartoons",
+      "at": "17:00",
+      "urls": [
+        "https://archive.org/download/camp-lazlo-s-03-e-01-hello-summer-goodbye-camp-301/Camp%20Lazlo%20Episodes/Season%202/Camp%20Lazlo%20-%20S02E17%20-%20Snow%20Beans%20%28209a%29.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-03",
+      "channel": "Dizzy",
+      "at": "16:00",
+      "urls": [
+        "https://archive.org/download/the-suite-life-of-zack-cody-s-01-e-09-band-in-boston/American%20Dragon%20Jake%20Long%20%282005%29%20-%20S01E12%20-%20Ski%20Trip%20%281080p%20WEB-DL%20x265%20RCVR%29.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-04",
+      "channel": "90s Toons",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/JackFrost1934/Jack%20Frost%20%281934%29.mp4",
+        "https://archive.org/download/1948publicdomainanimation/1948.03.19%20-%20Winter%20Draws%20On.mp4"
+      ],
+      "block": "Classic winter cartoon shorts"
+    },
+    {
+      "date": "2026-12-04",
+      "channel": "Dickleodeon",
+      "at": "07:00",
+      "urls": [
+        "https://archive.org/download/christmas-specials_202412/Little%20Bear%20-%20Snowball%20Fight%3AWinter%20Solstice%3ASnowbound.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-05",
+      "channel": "Cartoons Cartoons",
+      "at": "11:00",
+      "urls": [
+        "https://archive.org/download/snow-foolin-1949-hd-i-screen-songs-christmas-cartoon/Snow%20Foolin%20%281949%29%20%28HD%29%20I%20Screen%20Songs%20Christmas%20Cartoon.mp4",
+        "https://archive.org/download/1948publicdomainanimation/1948.11.19%20-%20Hector%27s%20Hectic%20Life.mp4"
+      ],
+      "block": "Classic winter cartoon shorts"
+    },
+    {
+      "date": "2026-12-05",
+      "channel": "Star Spangled TV",
+      "at": "09:00",
+      "urls": [
+        "https://archive.org/download/DragonTalesTVSeries/Dragon.Tales.S03E28.Super.Snow.Day.-.Make.No.Mistake.WEBRip.AAC2.0.x264-SA89.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-05",
+      "channel": "What",
+      "at": "18:00",
+      "urls": [
+        "https://archive.org/download/bbcdavidattenborough/David%20Attenborough/1993%20-%20Life%20in%20the%20Freezer-%5BKRISH%5D/06%20Footsteps%20in%20the%20Snow.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-06",
+      "channel": "AAA",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S12%2C%20E08%20-%20Skinner%27s%20Sense%20of%20Snow.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-06",
+      "channel": "Dickleodeon",
+      "at": "13:00",
+      "urls": [
+        "https://archive.org/download/0x-08-scouts-honor/3x17%20Chip%20Off%20the%20Old%20Chip%3ASnow%20Bound.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-06",
+      "channel": "GirlyPop",
+      "at": "09:00",
+      "urls": [
+        "https://archive.org/download/arthur-1996-complete_202203/Season%208/Arthur%20-%20S08E05-E06%20-%20Arthur%27s%20Snow%20Biz%20%2B%20Bugged%20WEBDL-480p.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-07",
+      "channel": "90s Toons",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/random-tv-shows-and-movies/A%20Pup%20Named%20Scooby-Doo%20-%20S01E07%20-%20Snow%20Place%20Like%20Home%20SDTV.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-07",
+      "channel": "Cartoons Cartoons",
+      "at": "13:00",
+      "urls": [
+        "https://archive.org/download/powerpuff-girls-complete-series/Powerpuff%20Girls%20-%2001%2C08%20-%20Paste%20Makes%20Waste%20-%20Ice%20Sore.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-08",
+      "channel": "Off-Licence TV",
+      "at": "10:00",
+      "urls": [
+        "https://archive.org/download/random-tv-shows-and-movies/Dennis%20%26%20Gnasher%20(1998)%20S02E12%20-%20Snowbound.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-08",
+      "channel": "Star Spangled TV",
+      "at": "18:00",
+      "urls": [
+        "https://archive.org/download/that-70s-show-season-3/That%2070%27s%20Show%20-%20310%20-%20Ice%20Shack.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-09",
+      "channel": "90s Toons",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E01%20Winter%20Olympics.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-09",
+      "channel": "Cartoons Cartoons",
+      "at": "11:00",
+      "urls": [
+        "https://archive.org/download/the-shanty-where-santy-claus-lives-1933_202305/The%20Shanty%20Where%20Santy%20Claus%20Lives%20%281933%29.mp4",
+        "https://archive.org/download/JackFrost1934/Jack%20Frost%20%281934%29.mp4"
+      ],
+      "block": "Classic winter cartoon shorts"
+    },
+    {
+      "date": "2026-12-09",
+      "channel": "GirlyPop",
+      "at": "09:00",
+      "urls": [
+        "https://archive.org/download/frannys-feet_/Frannys%20Feet%20S01E07%20Egg-Sitting%20%20Arctic%20Antics.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-11",
+      "channel": "90s Toons",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/snow-foolin-1949-hd-i-screen-songs-christmas-cartoon/Snow%20Foolin%20%281949%29%20%28HD%29%20I%20Screen%20Songs%20Christmas%20Cartoon.mp4",
+        "https://archive.org/download/1948publicdomainanimation/1948.11.19%20-%20Hector%27s%20Hectic%20Life.mp4"
+      ],
+      "block": "Classic winter cartoon shorts"
+    },
+    {
+      "date": "2026-12-11",
+      "channel": "Dickleodeon",
+      "at": "07:00",
+      "urls": [
+        "https://archive.org/download/christmas-specials_202412/Little%20Bear%20-%20The%20First%20Frost%3AHello%20Snow%3ADuck%20And%20The%20Winter%20Moon.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-12",
+      "channel": "What",
+      "at": "18:00",
+      "urls": [
+        "https://archive.org/download/river-monsters-season-1-9-reupload/River.Monsters.S01-S09.1080p.AMZN.WEBRip.WEB-DL.720p.HDTV.h.264-Mixed/River.Monsters.S07.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb/River.Monsters.S07E04.Alaskas.Cold.Water.Killer.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-13",
+      "channel": "Cartoons Cartoons",
+      "at": "11:00",
+      "urls": [
+        "https://archive.org/download/1948publicdomainanimation/1948.03.19%20-%20Winter%20Draws%20On.mp4",
+        "https://archive.org/download/snow-foolin-1949-hd-i-screen-songs-christmas-cartoon/Snow%20Foolin%20%281949%29%20%28HD%29%20I%20Screen%20Songs%20Christmas%20Cartoon.mp4"
+      ],
+      "block": "Classic winter cartoon shorts"
+    },
+    {
+      "date": "2026-12-15",
+      "channel": "Star Spangled TV",
+      "at": "18:00",
+      "urls": [
+        "https://archive.org/download/that-70s-show-season-1/That%2070%27s%20Show%20-113-%20Ski%20Trip.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-16",
+      "channel": "90s Toons",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/x-men-the-animated-series-1080p-ai-upscale_202204/EP06%20-%20Cold%20Vengeance.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-16",
+      "channel": "GirlyPop",
+      "at": "09:00",
+      "urls": [
+        "https://archive.org/download/arthur-1996-complete_202203/Season%203/Arthur%20-%20S03E29-E30%20-%20Arthur%20and%20D.W.%20Clean%20Up%20%2B%20The%20Long%2C%20Dull%20Winter%20SDTV.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-17",
+      "channel": "Cartoons Cartoons",
+      "at": "11:00",
+      "urls": [
+        "https://archive.org/download/1948publicdomainanimation/1948.11.19%20-%20Hector%27s%20Hectic%20Life.mp4",
+        "https://archive.org/download/the-shanty-where-santy-claus-lives-1933_202305/The%20Shanty%20Where%20Santy%20Claus%20Lives%20%281933%29.mp4"
+      ],
+      "block": "Classic winter cartoon shorts"
+    },
+    {
+      "date": "2026-12-17",
+      "channel": "Cartoons Cartoons",
+      "at": "17:00",
+      "urls": [
+        "https://archive.org/download/camp-lazlo-s-03-e-01-hello-summer-goodbye-camp-301/Camp%20Lazlo%20Episodes/Season%202/Camp%20Lazlo%20-%20S02E17%20-%20Snow%20Beans%20%28209a%29.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-17",
+      "channel": "Dizzy",
+      "at": "16:00",
+      "urls": [
+        "https://archive.org/download/the-suite-life-of-zack-cody-s-01-e-09-band-in-boston/American%20Dragon%20Jake%20Long%20%282005%29%20-%20S01E12%20-%20Ski%20Trip%20%281080p%20WEB-DL%20x265%20RCVR%29.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-18",
+      "channel": "90s Toons",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/the-shanty-where-santy-claus-lives-1933_202305/The%20Shanty%20Where%20Santy%20Claus%20Lives%20%281933%29.mp4",
+        "https://archive.org/download/JackFrost1934/Jack%20Frost%20%281934%29.mp4"
+      ],
+      "block": "Classic winter cartoon shorts"
+    },
+    {
+      "date": "2026-12-18",
+      "channel": "Dickleodeon",
+      "at": "07:00",
+      "urls": [
+        "https://archive.org/download/christmas-specials_202412/Little%20Bear%20-%20Snowball%20Fight%3AWinter%20Solstice%3ASnowbound.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-19",
+      "channel": "Star Spangled TV",
+      "at": "09:00",
+      "urls": [
+        "https://archive.org/download/DragonTalesTVSeries/Dragon.Tales.S03E28.Super.Snow.Day.-.Make.No.Mistake.WEBRip.AAC2.0.x264-SA89.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-19",
+      "channel": "What",
+      "at": "18:00",
+      "urls": [
+        "https://archive.org/download/bbcdavidattenborough/David%20Attenborough/1993%20-%20Life%20in%20the%20Freezer-%5BKRISH%5D/06%20Footsteps%20in%20the%20Snow.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-20",
+      "channel": "AAA",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S12%2C%20E08%20-%20Skinner%27s%20Sense%20of%20Snow.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-20",
+      "channel": "Dickleodeon",
+      "at": "13:00",
+      "urls": [
+        "https://archive.org/download/0x-08-scouts-honor/3x17%20Chip%20Off%20the%20Old%20Chip%3ASnow%20Bound.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-20",
+      "channel": "GirlyPop",
+      "at": "09:00",
+      "urls": [
+        "https://archive.org/download/arthur-1996-complete_202203/Season%208/Arthur%20-%20S08E05-E06%20-%20Arthur%27s%20Snow%20Biz%20%2B%20Bugged%20WEBDL-480p.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-21",
+      "channel": "90s Toons",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/random-tv-shows-and-movies/A%20Pup%20Named%20Scooby-Doo%20-%20S01E07%20-%20Snow%20Place%20Like%20Home%20SDTV.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-21",
+      "channel": "Cartoons Cartoons",
+      "at": "11:00",
+      "urls": [
+        "https://archive.org/download/JackFrost1934/Jack%20Frost%20%281934%29.mp4",
+        "https://archive.org/download/snow-foolin-1949-hd-i-screen-songs-christmas-cartoon/Snow%20Foolin%20%281949%29%20%28HD%29%20I%20Screen%20Songs%20Christmas%20Cartoon.mp4"
+      ],
+      "block": "Classic winter cartoon shorts"
+    },
+    {
+      "date": "2026-12-21",
+      "channel": "Cartoons Cartoons",
+      "at": "13:00",
+      "urls": [
+        "https://archive.org/download/powerpuff-girls-complete-series/Powerpuff%20Girls%20-%2001%2C08%20-%20Paste%20Makes%20Waste%20-%20Ice%20Sore.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-22",
+      "channel": "Off-Licence TV",
+      "at": "10:00",
+      "urls": [
+        "https://archive.org/download/random-tv-shows-and-movies/Dennis%20%26%20Gnasher%20(1998)%20S02E12%20-%20Snowbound.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-22",
+      "channel": "Star Spangled TV",
+      "at": "18:00",
+      "urls": [
+        "https://archive.org/download/that-70s-show-season-3/That%2070%27s%20Show%20-%20310%20-%20Ice%20Shack.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-23",
+      "channel": "90s Toons",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E01%20Winter%20Olympics.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-23",
+      "channel": "GirlyPop",
+      "at": "09:00",
+      "urls": [
+        "https://archive.org/download/frannys-feet_/Frannys%20Feet%20S01E07%20Egg-Sitting%20%20Arctic%20Antics.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-25",
+      "channel": "90s Toons",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/1948publicdomainanimation/1948.03.19%20-%20Winter%20Draws%20On.mp4",
+        "https://archive.org/download/snow-foolin-1949-hd-i-screen-songs-christmas-cartoon/Snow%20Foolin%20%281949%29%20%28HD%29%20I%20Screen%20Songs%20Christmas%20Cartoon.mp4"
+      ],
+      "block": "Classic winter cartoon shorts"
+    },
+    {
+      "date": "2026-12-25",
+      "channel": "Cartoons Cartoons",
+      "at": "11:00",
+      "urls": [
+        "https://archive.org/download/the-shanty-where-santy-claus-lives-1933_202305/The%20Shanty%20Where%20Santy%20Claus%20Lives%20%281933%29.mp4",
+        "https://archive.org/download/1948publicdomainanimation/1948.11.19%20-%20Hector%27s%20Hectic%20Life.mp4"
+      ],
+      "block": "Classic winter cartoon shorts"
+    },
+    {
+      "date": "2026-12-25",
+      "channel": "Dickleodeon",
+      "at": "07:00",
+      "urls": [
+        "https://archive.org/download/christmas-specials_202412/Little%20Bear%20-%20The%20First%20Frost%3AHello%20Snow%3ADuck%20And%20The%20Winter%20Moon.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-26",
+      "channel": "What",
+      "at": "18:00",
+      "urls": [
+        "https://archive.org/download/river-monsters-season-1-9-reupload/River.Monsters.S01-S09.1080p.AMZN.WEBRip.WEB-DL.720p.HDTV.h.264-Mixed/River.Monsters.S07.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb/River.Monsters.S07E04.Alaskas.Cold.Water.Killer.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-12-29",
+      "channel": "Cartoons Cartoons",
+      "at": "11:00",
+      "urls": [
+        "https://archive.org/download/1948publicdomainanimation/1948.03.19%20-%20Winter%20Draws%20On.mp4",
+        "https://archive.org/download/JackFrost1934/Jack%20Frost%20%281934%29.mp4"
+      ],
+      "block": "Classic winter cartoon shorts"
+    },
+    {
+      "date": "2026-12-29",
+      "channel": "Star Spangled TV",
+      "at": "18:00",
+      "urls": [
+        "https://archive.org/download/that-70s-show-season-1/That%2070%27s%20Show%20-113-%20Ski%20Trip.mp4"
+      ],
+      "block": "Winter stories — snow days and cold places"
+    },
+    {
+      "date": "2026-10-01",
+      "channel": "AAA",
+      "at": "21:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S02%2C%20E03%20-%20Treehouse%20of%20Horror.mp4"
+      ],
+      "block": "October animation — Treehouse of Horror"
+    },
+    {
+      "date": "2026-10-02",
+      "channel": "AAA",
+      "at": "21:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S03%2C%20E07%20-%20Treehouse%20of%20Horror%20II.mp4"
+      ],
+      "block": "October animation — Treehouse of Horror"
+    },
+    {
+      "date": "2026-10-04",
+      "channel": "AAA",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S04%2C%20E05%20-%20Treehouse%20of%20Horror%20III.mp4"
+      ],
+      "block": "October animation — Treehouse of Horror"
+    },
+    {
+      "date": "2026-10-05",
+      "channel": "AAA",
+      "at": "21:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S05%2C%20E05%20-%20Treehouse%20of%20Horror%20IV.mp4"
+      ],
+      "block": "October animation — Treehouse of Horror"
+    },
+    {
+      "date": "2026-10-06",
+      "channel": "AAA",
+      "at": "21:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S06%2C%20E06%20-%20Treehouse%20of%20Horror%20V.mp4"
+      ],
+      "block": "October animation — Treehouse of Horror"
+    },
+    {
+      "date": "2026-10-07",
+      "channel": "AAA",
+      "at": "21:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S07%2C%20E06%20-%20Treehouse%20of%20Horror%20VI.mp4"
+      ],
+      "block": "October animation — Treehouse of Horror"
+    },
+    {
+      "date": "2026-10-08",
+      "channel": "AAA",
+      "at": "21:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S08%2C%20E01%20-%20Treehouse%20of%20Horror%20VII.mp4"
+      ],
+      "block": "October animation — Treehouse of Horror"
+    },
+    {
+      "date": "2026-10-09",
+      "channel": "AAA",
+      "at": "21:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S09%2C%20E04%20-%20Treehouse%20of%20Horror%20VIII.mp4"
+      ],
+      "block": "October animation — Treehouse of Horror"
+    },
+    {
+      "date": "2026-10-11",
+      "channel": "AAA",
+      "at": "21:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S10%2C%20E04%20-%20Treehouse%20of%20Horror%20IX.mp4"
+      ],
+      "block": "October animation — Treehouse of Horror"
+    },
+    {
+      "date": "2026-10-12",
+      "channel": "AAA",
+      "at": "21:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S11%2C%20E04%20-%20Treehouse%20of%20Horror%20X.mp4"
+      ],
+      "block": "October animation — Treehouse of Horror"
+    },
+    {
+      "date": "2026-10-13",
+      "channel": "AAA",
+      "at": "21:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S12%2C%20E01%20-%20Treehouse%20of%20Horror%20XI.mp4"
+      ],
+      "block": "October animation — Treehouse of Horror"
+    },
+    {
+      "date": "2026-10-14",
+      "channel": "AAA",
+      "at": "21:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S13%2C%20E01%20-%20Treehouse%20of%20Horror%20XII.mp4"
+      ],
+      "block": "October animation — Treehouse of Horror"
+    },
+    {
+      "date": "2026-10-15",
+      "channel": "AAA",
+      "at": "21:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S14%2C%20E01%20-%20Treehouse%20of%20Horror%20XIII.mp4"
+      ],
+      "block": "October animation — Treehouse of Horror"
+    },
+    {
+      "date": "2026-10-16",
+      "channel": "AAA",
+      "at": "21:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S15%2C%20E01%20-%20Treehouse%20of%20Horror%20XIV.mp4"
+      ],
+      "block": "October animation — Treehouse of Horror"
+    },
+    {
+      "date": "2026-10-18",
+      "channel": "AAA",
+      "at": "21:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S16%2C%20E01%20-%20Treehouse%20of%20Horror%20XV.mp4"
+      ],
+      "block": "October animation — Treehouse of Horror"
+    },
+    {
+      "date": "2026-10-19",
+      "channel": "AAA",
+      "at": "21:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S17%2C%20E04%20-%20Treehouse%20of%20Horror%20XVI.mp4"
+      ],
+      "block": "October animation — Treehouse of Horror"
+    },
+    {
+      "date": "2026-10-20",
+      "channel": "AAA",
+      "at": "21:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S18%2C%20E04%20-%20Treehouse%20of%20Horror%20XVII.mp4"
+      ],
+      "block": "October animation — Treehouse of Horror"
+    },
+    {
+      "date": "2026-10-31",
+      "channel": "AAA",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S02%2C%20E03%20-%20Treehouse%20of%20Horror.mp4"
+      ],
+      "block": "Halloween day — classic Treehouse of Horror"
+    },
+    {
+      "date": "2026-12-02",
+      "channel": "AAA",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S01%2C%20E01%20-%20Simpsons%20Roasting%20on%20an%20Open%20Fire.mp4"
+      ],
+      "block": "Christmas animation — The Simpsons"
+    },
+    {
+      "date": "2026-12-09",
+      "channel": "AAA",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S07%2C%20E11%20-%20Marge%20Be%20Not%20Proud.mp4"
+      ],
+      "block": "Christmas animation — The Simpsons"
+    },
+    {
+      "date": "2026-12-16",
+      "channel": "AAA",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S09%2C%20E10%20-%20Miracle%20on%20Evergreen%20Terrace.mp4"
+      ],
+      "block": "Christmas animation — The Simpsons"
+    },
+    {
+      "date": "2026-12-23",
+      "channel": "AAA",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S11%2C%20E09%20-%20Grift%20of%20the%20Magi.mp4"
+      ],
+      "block": "Christmas animation — The Simpsons"
+    },
+    {
+      "date": "2026-12-24",
+      "channel": "AAA",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S13%2C%20E06%20-%20She%20of%20Little%20Faith.mp4"
+      ],
+      "block": "Christmas animation — The Simpsons"
+    },
+    {
+      "date": "2026-12-25",
+      "channel": "AAA",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S15%2C%20E07%20-%20%27Tis%20the%20Fifteenth%20Season.mp4"
+      ],
+      "block": "Christmas animation — The Simpsons"
+    },
+    {
+      "date": "2026-12-30",
+      "channel": "AAA",
+      "at": "12:00",
+      "urls": [
+        "https://archive.org/download/doh_20240725/The%20Simpsons%20S17%2C%20E09%20-%20Simpsons%20Christmas%20Stories.mp4"
+      ],
+      "block": "Christmas animation — The Simpsons"
+    }
+  ],
+  "fireplaces": {
+    "Cartoons Cartoons": {
+      "type": "Filler",
+      "title": "Unikitty — One Hour of Relaxing Yule Log",
+      "url": "https://archive.org/download/unikitty-one-hour-of-relaxing-yule-log-cartoon-network-1080/Unikitty%20%20One%20Hour%20of%20Relaxing%20Yule%20Log%20%20Cartoon%20Network%20-%201080.mp4",
+      "duration_seconds": 3593.99,
+      "duration_evidence": "ffprobe exact original MP4, 2026-10-22",
+      "source_page": "https://archive.org/details/unikitty-one-hour-of-relaxing-yule-log-cartoon-network-1080",
+      "loop": true
+    },
+    "Dickleodeon": {
+      "type": "Filler",
+      "title": "Nickelodeon — The Splat Yule Log",
+      "url": "https://archive.org/download/SplatYuleLog/%23SplatYuleLog.mp4",
+      "duration_seconds": 1799.364,
+      "duration_evidence": "ffprobe exact original MP4, 2026-10-22",
+      "source_page": "https://archive.org/details/SplatYuleLog",
+      "loop": true
+    },
+    "default": {
+      "type": "Filler",
+      "title": "Christmas overnight — Crackling Fireplace",
+      "url": "https://archive.org/download/1-hour-cozy-fire-crackling-fireplace-320/1%20hour%20Cozy%20Fire%20Crackling%20Fireplace%20320.mp4",
+      "duration_seconds": 3591.2,
+      "duration_evidence": "ffprobe exact original MP4, 2026-10-22",
+      "source_page": "https://archive.org/details/1-hour-cozy-fire-crackling-fireplace-320",
+      "loop": true
+    }
+  }
+}

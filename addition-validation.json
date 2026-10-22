@@ -1,5 +1,5 @@
 {
-  "version": "0.36.4",
+  "version": "0.37.0",
   "status": "passed",
   "authored_sources_scheduled": 14,
   "checks": [
@@ -9,7 +9,7 @@
     "AAA pilots on Friday late-night four-week cycle",
     "Four Futurama films and Party Wagon on occasional first Sundays",
     "No added one-off or film repeated within 28 days",
-    "Source-limit list reflects three remaining missing shows",
+    "Source limits distinguish unavailable shows from documented episode-mapping holds",
     "Actual roster counts agree with its grouped programme list"
   ],
   "errors": []

@@ -26,7 +26,7 @@ for file in sorted((ROOT/'schedules').glob('*.json')):
     if abs((b-a)-p['duration_seconds'])>.01:errors.append(label+': airtime differs from measured length')
     if '.mp4' in p['title'] or not p['title'].strip():errors.append(label+': raw or blank title')
     if 'christmas' in p.get('holiday_events',[]) and month!=12 and not (month==10 and 'nightmare before christmas' in p['title'].lower()):errors.append(label+': Christmas outside December')
-    if ch['name']=='Cartoons Cartoons' and '08:00'<=datetime.datetime.fromtimestamp(start+a,zone).strftime('%H:%M')<'12:00' and p.get('series_id') not in ['jetsons','flintstones','tom-jerry','wacky','looney','popeye']:errors.append(label+': unsuitable classics slot')
+    if ch['name']=='Cartoons Cartoons' and '08:00'<=datetime.datetime.fromtimestamp(start+a,zone).strftime('%H:%M')<'12:00' and p.get('series_id') not in ['jetsons','flintstones','tom-jerry','wacky','looney','popeye'] and p.get('editorial_kind')!='classic-short':errors.append(label+': unsuitable classics slot')
     if ch['name']=='Japanime' and p['type']=='Movie' and p['duration_seconds']>=3600 and (date.weekday()!=5 or not 19<=datetime.datetime.fromtimestamp(start+a,zone).hour<=21):errors.append(label+': anime film outside weekly cinema')
    if abs(last-length)>.01:errors.append(f'{date} {ch["name"]}: day does not end at UK midnight {last}/{length}')
 for ch,d in breaks.items():
@@ -34,5 +34,5 @@ for ch,d in breaks.items():
   t=p['title'].lower()
   if any(x in t for x in ['cartoon network','toon city','cn city']) and ch!='Cartoons Cartoons':errors.append('CN bumper on '+ch)
   if 'disney' in t and ch!='Dizzy' and not p.get('product_advert'):errors.append('Disney bumper on '+ch)
-result={'version':'0.36.4','channel_days':days,**counts,'month_file_bytes':sizes,'errors':errors,'status':'passed' if not errors else 'failed','scope':'Static schedule integrity, measured runtimes, same-day duplicates, day coverage including UK daylight saving, brand routing, classic mornings and weekly anime films. Full external video playback/audio was not tested.'}
+result={'version':'0.37.0','channel_days':days,**counts,'month_file_bytes':sizes,'errors':errors,'status':'passed' if not errors else 'failed','scope':'Static schedule integrity, measured runtimes, same-day duplicates, day coverage including UK daylight saving, brand routing, classic mornings and weekly anime films. Full external video playback/audio was not tested.'}
 (ROOT/'release-validation.json').write_text(json.dumps(result,indent=2));print(json.dumps({**result,'month_file_bytes':{},'errors':errors[:20]},indent=2));raise SystemExit(bool(errors))

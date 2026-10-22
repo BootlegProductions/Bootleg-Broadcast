@@ -9,6 +9,8 @@ ROOT=Path(__file__).resolve().parents[1];ZONE=ZoneInfo('Europe/London');UTC=date
 read=lambda name:json.loads((ROOT/name).read_text())
 write=lambda name,data:(ROOT/name).write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')))
 config=read('editorial-lineups.json');YEAR=int(sys.argv[1]) if len(sys.argv)>1 else config['year'];defs=read('editorial-series.json');catalogue=read('source-library.json');records=catalogue['programmes'];oldbreaks=read('seasonal-breaks.json');adverts=read('adverts.json')['channels'];local=read('tools/local-runtimes.json');metadata={}
+seasonal=read('seasonal-programming.json') if (ROOT/'seasonal-programming.json').exists() else {'appointments':[], 'fireplaces':{}}
+seasonal_plan={(p['date'],p['channel'],p['at']):p for p in seasonal['appointments']}
 for file in (ROOT/'tools/runtime-cache').glob('*.json'):
  d=json.loads(file.read_text());metadata[d['identifier']]={p['name']:p for p in d['files']}
 lookups={s:key for key,d in defs.items() for s in d['shows']};profiles=collections.defaultdict(list);report={'year':YEAR,'schema':'written-tv-v1','missing_runtime':[],'missing_series':[],'substitutions':collections.Counter(),'empty_appointments':collections.Counter(),'series':{},'metadata_collections':len(metadata),'channel_days':0,'programme_slots':0,'break_seconds':0,'filler_minutes_by_channel':collections.defaultdict(float),'notes':['Titles use collection/filename evidence; no invented episode names.','IA lengths and local ffprobe durations are measurements, not complete playback or language reviews.','Editorial assignments are in editorial-lineups.json. Rebuild next year with tools/build_broadcast.py YEAR.']}
@@ -44,6 +46,14 @@ def decorate(p):
   if sm:season=int(sm[1])
  if p.get('restoration_evidence'):
   season=number(p.get('evidenced_season',p.get('season_number')),1);episode=number(p.get('evidenced_episode',p.get('episode_number')));part=p.get('episode_part','')
+ if p.get('episode_mapping_required'):season=1;episode=None;part=''
+ # These original collections use comma-separated season/episode filenames.
+ if key=='powerpuff':
+  numbered=re.search(r'Powerpuff Girls\s*-\s*(\d+),(\d+)\b',text,re.I)
+  if numbered:season,episode=map(int,numbered.groups())
+ if key=='simpsons':
+  numbered=re.search(r'The Simpsons\s+S(\d+),\s*E(\d+)\b',text,re.I)
+  if numbered:season,episode=map(int,numbered.groups())
  # Several collections number episodes after a show name rather than SxxExx.
  if key in ['bebop','ouran']:
   numbered=re.search(r'\s-\s*(\d{1,3})\b',text)
@@ -71,6 +81,7 @@ def decorate(p):
  detail=re.sub(r'^(?:Series|Season)\s*\d+\s*[- ]*\d*\s*(?:Episode|Ep)\s*\d+','',detail,flags=re.I).strip(' -—')
  detail=re.sub(r'\b[bp][a-z0-9]{7}\b.*','',detail,flags=re.I).strip(' -—')
  detail=re.sub(r'^199\d\s*[-— ]*','',detail).strip(' -—')
+ if key=='powerpuff':detail=re.sub(r'^Powerpuff Girls\s*-\s*\d+,\d+\s*-\s*','',detail,flags=re.I)
  generic=not detail or re.fullmatch(r'(?:Ep(?:isode)?\s*\d+|S\d+\s*E\d+|Pokemon\s*\d+|TheLegendOfZelda\d*|InShot.*|video.*|original)',detail,re.I)
  name=p.get('series_label') or p.get('show') or 'Untitled source'
  if re.fullmatch(r'\d{4}[a-z]?',name,re.I):name=detail or p['source_title'];p['show']=name
@@ -123,6 +134,8 @@ def usable(p):
  return bool(p.get('url','').lower().endswith('.mp4') and not p.get('broadcast_held') and p.get('language_status') not in ['non-english','reported-non-english'] and not BAD_AUDIO.search(p.get('show','')+' '+p.get('filename','')) and p.get('duration_seconds',0)>0 and not BAD_EXTRA.search((p.get('filename') or '').rsplit('/',1)[-1]))
 for p in records:
  key=p.get('series_id')
+ if p.get('seasonal_spotlight_only'):continue
+ if key=='powerpuff' and p.get('episode_number') is None:continue
  if key not in defs or p.get('type') not in ['Episode','Movie','Special']:continue
  if not usable(p):
   if not p.get('duration_seconds'):report['missing_runtime'].append(p['url'])
@@ -268,7 +281,13 @@ for ordinal in range(366 if calendar.isleap(YEAR) else 365):
    for slot in slots:
     if slot['at']=='18:00' and slot['series']=='courage':slot['episodes']=4
   if date.month==12:
-   slots=[s for s in slots if not('03:00'<=s['at']<'04:00')];slots.append({'at':'03:00','end':'04:00','series':'@fireplace','episodes':1,'block':'Christmas overnight fireplace'})
+   # A fixed 04:00–05:00 appointment, retaining the surrounding overnight shows.
+   previous=max((s for s in slots if s['at']<'05:00'),key=lambda s:s['at'])
+   slots=[s for s in slots if not('04:00'<=s['at']<'05:00')]
+   for slot in slots:
+    if slot['at']<'04:00' and slot.get('end','')>'04:00':slot['end']='04:00'
+   slots.append({'at':'04:00','end':'05:00','series':'@fireplace','episodes':1,'block':'After hours — Christmas fireplace'})
+   if not any(s['at']=='05:00' for s in slots):slots.append({**previous,'at':'05:00'})
   # Preserve the 02:30–07:00 UK boundary in every channel's published day.
   slots.sort(key=lambda s:s['at']);playlist=[];used=set();season='october' if date.month==10 else 'december' if date.month==12 else None
   def append(p,t,seconds,label):
@@ -296,7 +315,17 @@ for ordinal in range(366 if calendar.isleap(YEAR) else 365):
    calendar_pick=next((config.get('holiday_overrides',{}).get(event,{}).get(ch,{}).get(appointment['at']) for event in active if config.get('holiday_overrides',{}).get(event,{}).get(ch,{}).get(appointment['at'])),None)
    key=appointment['series'];feature=bool(calendar_pick) or (appointment['at'] in config.get('seasonal_slots',{}).get(season,{}).get(ch,[])) or (active and appointment['at']==config['holiday_spotlight_at'])
    if key=='@fireplace':
-    p={**oldbreaks['fireplace'],'type':'Filler','show':ch,'title':'Christmas overnight fireplace','loop':True};t=append(p,t,stop-t,label);breaks(t,offset(slots[ix+1]['at']) if ix+1<len(slots) else next_start-start,label);continue
+    chosen=seasonal['fireplaces'].get(ch,seasonal['fireplaces'].get('default',oldbreaks['fireplace']))
+    p={**chosen,'type':'Filler','show':ch,'title':chosen.get('title','Christmas overnight fireplace'),'loop':True};t=append(p,t,stop-t,label);breaks(t,offset(slots[ix+1]['at']) if ix+1<len(slots) else next_start-start,label);continue
+   seasonal_pick=seasonal_plan.get((date.isoformat(),ch,appointment['at']))
+   if seasonal_pick:
+    for url in seasonal_pick['urls']:
+     p=next((p for p in records if p['url']==url),None)
+     if not p or not usable(p) or p['content_id'] in used or p['duration_seconds']>stop-t:
+      raise RuntimeError('Invalid seasonal appointment: '+str(date)+' '+ch+' '+url)
+     t=append(p,t,p['duration_seconds'],seasonal_pick['block']);used.add(p['content_id']);report['programme_slots']+=1;special_last[ch,p['content_id']]=date.toordinal()
+     t=breaks(t,min(stop,t+channel_breaks[ch]['ident']['duration_seconds']),label)
+    feature=False
    if key in ['@pilot-showcase','@aaa-feature']:
     source_urls=config['pilot_showcase'][(date.toordinal()//7)%len(config['pilot_showcase'])] if key=='@pilot-showcase' else [appointment['feature_urls'][(date.month-1)%len(appointment['feature_urls'])]]
     for url in source_urls:
@@ -338,7 +367,7 @@ for ordinal in range(366 if calendar.isleap(YEAR) else 365):
      t=append(p,t,p['duration_seconds'],label);used.add(p['content_id']);n+=1;report['programme_slots']+=1
      t=breaks(t,min(stop,t+min(60,channel_breaks[ch]['ident']['duration_seconds'])),label)
     if n and key not in ['@pilot-showcase','@aaa-feature','@film']:break
-   if not n and key not in ['@fireplace','@anime-film','@pilot-showcase','@aaa-feature','@film'] and not feature:report['empty_appointments'][ch+' | '+key+' | '+appointment['at']]+=1
+   if not n and key not in ['@fireplace','@anime-film','@pilot-showcase','@aaa-feature','@film'] and not feature and not seasonal_pick:report['empty_appointments'][ch+' | '+key+' | '+appointment['at']]+=1
    breaks(t,stop,label)
   # Store each break once with compact indices; expand its measured clips at playback.
   compact=[];indices={p['url']:i for i,p in enumerate(channel_breaks[ch]['adverts'])}

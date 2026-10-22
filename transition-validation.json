@@ -1,24 +1,18 @@
 {
-  "version": "0.36.4",
+  "version": "0.37.0",
   "status": "passed",
   "channel_days_checked": 3650,
-  "checks": [
-    "No ident-only repeating break chains",
-    "No Star Spangled DVD fragment shorter than ten minutes",
-    "Player end events and fallback ident do not reload the same slot",
-    "Source retry budget survives playing events"
-  ],
   "intervals_by_channel": {
     "Off-Licence TV": 281,
-    "Star Spangled TV": 37,
+    "90s Toons": 4,
     "What": 24,
+    "Dickleodeon": 26,
+    "Star Spangled TV": 37,
     "AAA": 6,
     "Dizzy": 5,
-    "Dickleodeon": 25,
     "Cartoons Cartoons": 7,
-    "GirlyPop": 6,
-    "90s Toons": 3
+    "GirlyPop": 6
   },
   "errors": [],
-  "limits": "Simulated player events and static calendar checks. No independent browser/Archive streaming test."
+  "scope": "Static ident-chain checks plus the event simulations in playback-validation.json; no full Archive streaming review."
 }
