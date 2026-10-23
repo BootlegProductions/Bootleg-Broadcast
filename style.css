@@ -1958,7 +1958,7 @@ body:not(.mobile-scene) .remote-body::before { margin-bottom: 6px; font-size: 10
   max-height: 85%;
   /* Right side of the angled glass is nearer: top-right rises,
      top-left drops, and the bottom edge widens toward the right. */
-  transform: translate(-50%,-50%) perspective(820px) rotateY(-15deg);
+  transform: translate(-50%,-50%) translateY(-3px) perspective(820px) rotateY(-15deg) skewY(-1deg);
   transform-origin: center;
   overflow-x: hidden;
   overflow-y: auto;
@@ -1986,8 +1986,9 @@ body:not(.mobile-scene) .remote-body::before { margin-bottom: 6px; font-size: 10
   border-top: 0; border-right: 0; border-bottom: 1px solid #8caf8b33; background: transparent;
 }
 #screen > #scheduleOverlay .schedule-item.now-playing { border-left: 3px solid #8cff92; background: #1b47244d; }
-#screen > #scheduleOverlay .schedule-marker { min-width: 0; font-size: 9px; }
-#screen > #scheduleOverlay .schedule-title { min-width: 0; font-size: 10px; line-height: 1.25; }
+#screen > #scheduleOverlay .schedule-marker { min-width: 0; font-size: 12px; font-weight: 700; }
+#screen > #scheduleOverlay .schedule-title { min-width: 0; font-size: 12px; line-height: 1.25; }
+#screen > #scheduleOverlay .schedule-item.now-playing .schedule-title { font-size: 13px; font-weight: 700; }
 #screen > #scheduleOverlay .guide-expand { width: 100%; margin-top: 7px; padding: 6px 4px; font-size: 10px; }
 body.mobile-scene #screen > #scheduleOverlay {
   left: 50%; top: 50%;
