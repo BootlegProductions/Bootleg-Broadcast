@@ -1882,3 +1882,60 @@ body[data-season="october"] .tv-halloween-candle {display:block;}
 .candle-tv-two {left:47%;bottom:94.5%;width:5.8%;}
 body.mobile-scene .tv-halloween-candle {display:none!important;}
 @media (max-width:1400px) and (orientation:portrait) {.tv-halloween-candle {display:none!important;}}
+
+/* v0.37.1 — CRT scale, interference screen and streamlined remote.
+   Keep phone/tablet scene geometry untouched. */
+@media screen and (min-width: 1401px) and (min-height: 820px) and (orientation: landscape) {
+  #tv-container {
+    left: auto;
+    right: -1.5vw;
+    bottom: -145px;
+    width: clamp(1060px, 68vw, 1320px);
+  }
+}
+
+/* Show the site's existing static GIF behind broadcast interruption messages. */
+#screen.signal-interrupted #static {
+  opacity: .42 !important;
+  filter: grayscale(1) contrast(1.5);
+}
+#screen.signal-interrupted #statusOverlay {
+  color: #e3f4dc;
+  letter-spacing: .13em;
+  text-shadow: 2px 2px #000, 0 0 6px #eee;
+}
+@media (prefers-reduced-motion: reduce) {
+  #screen.signal-interrupted #static { display: none; }
+}
+
+/* Everyday remote buttons stay visible; advanced controls are tucked away. */
+.remote-extras {
+  margin: 4px 0 8px;
+  border-top: 1px solid rgba(255,255,255,.13);
+  padding-top: 6px;
+}
+.remote-extras summary {
+  display: block;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  border: 1px solid #121212;
+  border-radius: 7px;
+  background: linear-gradient(#3d3d3d,#242424);
+  color: #d8d8d8;
+  padding: 9px;
+  font: bold 11px/1.2 monospace;
+  letter-spacing: .08em;
+}
+.remote-extras summary::-webkit-details-marker { display: none; }
+.remote-extras summary::after {
+  content: " +";
+  float: right;
+  color: #a5c5a5;
+}
+.remote-extras[open] summary { margin-bottom: 9px; }
+.remote-extras[open] summary::after { content: " −"; }
+.remote-extras summary:focus-visible {
+  outline: 2px solid #b7ff9a;
+  outline-offset: 2px;
+}
