@@ -17,8 +17,9 @@ const Broadcast=(()=>{
  const edArchive=/^https:\/\/archive\.org\/download\/ed-edd-n-eddy-full-series-1999-2009\//i;
  function sources(p){
   const urls=[p?.url,...p?.alternates||[]].filter(Boolean).map(u=>repairs.get(u)?.status==='replaced'?repairs.get(u).replacement:u);
+  // Never try the older .ia.mp4 derivative after the verified original.
   const expanded=urls.flatMap(u=>edArchive.test(u)&&/\.ia\.mp4(?:[?#]|$)/i.test(u)
-   ?[u.replace(/\.ia\.mp4(?=[?#]|$)/i,'.mp4'),u]:[u]);
+   ?[u.replace(/\.ia\.mp4(?=[?#]|$)/i,'.mp4')]:[u]);
   return [...new Set(expanded)];
  }
  function day(){
