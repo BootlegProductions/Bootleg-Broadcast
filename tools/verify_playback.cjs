@@ -30,6 +30,10 @@ assert(limited.test,'Player starts without randomUUID or session storage');
  context.player.duration=ident.duration_seconds;perf=1215000;const beforeEnd=loads.length;b.ended();assert.equal(loads.length,beforeEnd,'Fallback ident must not reload');assert(b.holding(),'Fallback ident ends in a clear interval');
  perf=1801000;b.sync();assert.equal(loads.at(-1).p.url,second.url);assert(!b.item().loop);
  context.sourceRetry=1;b.recover('TEST BROKEN SOURCE');assert.equal(loads.at(-1).p.url,ident.url);assert(JSON.parse(storage.get('bootleg.source.flags'))[second.url]);
+ // Reports document interruptions; they must not indefinitely ban playable media.
+ const afterInterruption=loads.length;b.load();
+ assert.equal(loads.at(-1).p.url,second.url,'A reported source must play again when re-tuned');
+ assert(loads.length>afterInterruption,'Re-tuning should actually reload the programme');
  // Final-second end events must wait for the boundary, never reload the same programme.
  perf=1799500;b.load();const beforeBoundary=loads.length;b.ended();assert.equal(loads.length,beforeBoundary);assert(b.holding());
  // A source retry stays exhausted after the source briefly starts again.
@@ -38,5 +42,5 @@ assert(limited.test,'Player starts without randomUUID or session storage');
  vm.createContext(reportContext);vm.runInContext(fs.readFileSync(path.join(root,'reports.js'),'utf8'),reportContext);
  assert(reportNodes['report-message'].textContent.includes('1 saved local flags'));assert(!reportNodes['export-reports'].disabled);
  await listeners['report-list:click']({target:{closest:()=>({dataset:{action:'clear-local',index:'0'}})}});assert.equal(Object.keys(JSON.parse(storage.get('bootleg.source.flags'))).length,0);
- console.log(JSON.stringify({status:'passed',expanded_channel_days:plans,checks:['Measured break expansion and UK midnight coverage','Early video end plays own channel ident','Fallback ident ends once without reloading','Next scheduled programme resumes at fixed time','Exhausted retries flag source durably and play ident','Static reports show and clear saved source flags without a backend']}));
+ console.log(JSON.stringify({status:'passed',expanded_channel_days:plans,checks:['Measured break expansion and UK midnight coverage','Early video end plays own channel ident','Fallback ident ends once without reloading','Next scheduled programme resumes at fixed time','Transient failures are recorded, and re-tuning still retries playable sources','Static reports show and clear saved source flags without a backend']}));
 })().catch(e=>{console.error(e);process.exitCode=1;});
