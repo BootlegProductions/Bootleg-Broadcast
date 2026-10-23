@@ -6,17 +6,23 @@
   function measure(){
     frame=0;
     const {width:w,height:h}=stage.getBoundingClientRect();
-    const mobile=w<=1400&&(w<=1180||h<=1100||matchMedia('(pointer: coarse)').matches);
+    // A 1366px laptop is a desktop, not a tablet. Preserve touch/portrait modes.
+    const mobile=matchMedia('(pointer: coarse)').matches || w<=900 || (w<=1400 && h>w);
     document.body.classList.toggle('mobile-scene',mobile);
     const seasonal=['october','december'].includes(document.body.dataset.season);
     // Supplied desktop artwork has a higher tabletop. Put both angled feet on its surface.
     if(!mobile){
       document.body.classList.remove('scene-portrait','scene-landscape');
       if(seasonal){
-        const scale=Math.max(w/1920,h/1080),table=Math.min(h-16,980*scale-(1080*scale-h)/2);
-        const width=Math.min(1320,w*.64,Math.max(200,table-24)/(1154/1258));
+        const scale=Math.max(w/1920,h/1080);
+        const table=Math.min(h-16,980*scale-(1080*scale-h)/2);
+        // Fill the right-hand side, while retaining the full CRT within the viewport.
+        // The earlier tabletop cap shrank the TV to about 920px at desktop sizes.
+        const feet=Math.min(h-12,table+Math.min(130,h*.12));
+        const ratio=1154/1258;
+        const width=Math.min(1700,w*.78,Math.max(200,feet-6)/ratio);
         root.style.setProperty('--season-tv-width',`${width}px`);
-        root.style.setProperty('--season-tv-top',`${table-width*(1154/1258)}px`);
+        root.style.setProperty('--season-tv-top',`${feet-width*ratio}px`);
       }
       wasMobile=false;return;
     }
