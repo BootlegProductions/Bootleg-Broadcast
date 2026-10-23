@@ -1958,7 +1958,7 @@ body:not(.mobile-scene) .remote-body::before { margin-bottom: 6px; font-size: 10
   max-height: 80%;
   /* Right side of the angled glass is nearer: top-right rises,
      top-left drops, and the bottom edge widens toward the right. */
-  transform: translateX(-50%) translateY(-7px) perspective(820px) rotateY(-15deg) skewY(-2deg);
+  transform: translateX(-50%) translateY(-5px) perspective(820px) rotateY(-15deg) skewY(-1.55deg);
   transform-origin: center;
   overflow-x: hidden;
   overflow-y: auto;
