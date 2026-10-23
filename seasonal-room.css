@@ -27,10 +27,6 @@ body[data-season="december"] .christmas-bulbs { display: block; }
 @media (orientation: landscape), (min-width: 1401px) {
   body[data-season="october"] #halloween-decorations,
   body[data-season="october"] .tv-halloween-candle { display: none !important; }
-  body[data-season="october"]:not(.mobile-scene) #tv-container,
-  body[data-season="december"]:not(.mobile-scene) #tv-container {
-    width: var(--season-tv-width, 920px); top: var(--season-tv-top, 5%); bottom: auto;
-  }
 }
 /* Retain the existing portrait artwork and its matching tabletop positions. */
 @media (orientation: portrait) and (max-width: 1400px) {
