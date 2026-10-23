@@ -14,7 +14,7 @@
       document.body.classList.remove('scene-portrait','scene-landscape');
       if(seasonal){
         const scale=Math.max(w/1920,h/1080),table=Math.min(h-16,980*scale-(1080*scale-h)/2);
-        const width=Math.min(920,w*.48,Math.max(200,table-48)/(1154/1258));
+        const width=Math.min(1320,w*.64,Math.max(200,table-24)/(1154/1258));
         root.style.setProperty('--season-tv-width',`${width}px`);
         root.style.setProperty('--season-tv-top',`${table-width*(1154/1258)}px`);
       }
