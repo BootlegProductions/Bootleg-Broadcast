@@ -12,7 +12,15 @@ const Broadcast=(()=>{
  async function sendReport(id,body){if(globalThis.BOOTLEG_HOSTING?.backend===false){$('feedback-state').textContent='Failed source held on this browser';return;}try{const r=await fetch('/api/report',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});if(!r.ok)throw Error();queued.delete(id);}catch{queued.set(id,body);$('feedback-state').textContent='Report waiting to save · keep this TV open';}}
  function report(url,reason){if(!/^https:\/\/archive\.org\/download\//.test(url||''))return;failed.add(url);try{const flags=JSON.parse(localStorage.getItem('bootleg.source.flags')||'{}');flags[url]={url,title:item()?.title,channel:getCurrentChannelData()?.name,reason:'Playback failure: '+reason,reported_at:new Date().toISOString()};localStorage.setItem('bootleg.source.flags',JSON.stringify(flags));}catch{}const body={url,title:item()?.title,channel:getCurrentChannelData()?.name,client,slot:mode==='live'?item()?.slot_id||slotKey:'ondemand:'+Math.floor(now()/3600000),reason};const id=url+body.slot;if(!queued.has(id))sendReport(id,body);}
  function blocked(url){return failed.has(url)||repairs.get(url)?.status==='quarantined';}
- function sources(p){return [...new Set([p?.url,...p?.alternates||[]].filter(Boolean).map(u=>repairs.get(u)?.status==='replaced'?repairs.get(u).replacement:u))];}
+ // Ed, Edd n Eddy catalogue entries pointed to Archive auto-derived .ia.mp4.
+ // The exact original .mp4 is present for all 130 affected episode filenames.
+ const edArchive=/^https:\/\/archive\.org\/download\/ed-edd-n-eddy-full-series-1999-2009\//i;
+ function sources(p){
+  const urls=[p?.url,...p?.alternates||[]].filter(Boolean).map(u=>repairs.get(u)?.status==='replaced'?repairs.get(u).replacement:u);
+  const expanded=urls.flatMap(u=>edArchive.test(u)&&/\.ia\.mp4(?:[?#]|$)/i.test(u)
+   ?[u.replace(/\.ia\.mp4(?=[?#]|$)/i,'.mp4'),u]:[u]);
+  return [...new Set(expanded)];
+ }
  function day(){
   const raw=getRotationDay();if(!raw)return null;const p=BootlegClock.parts(now()),month=MONTHS.indexOf(currentMonth)+1,d=previewDate||p.day,y=p.year,key=`${y}:${month}:${d}`;
   if(cache&&cacheSchedule===schedule&&cacheKey===key)return cache;
@@ -50,7 +58,7 @@ const Broadcast=(()=>{
   if(!poweredOn)togglePower();else{safePlay();armSourceTimeout();}showChannelOverlay();
  }
  function choose(channel,index){gapMedia=null;const p=getTodaySchedule()?.channels?.[channel]?.playlist?.[index];if(!p||NON_PROGRAMME.has(p.type)||p.type==='Filler'||p.presentation)return;resetPlayer();currentChannel=channel;currentIndex=index;selected={...p};mode='ondemand';slotKey='ondemand:'+p.url;play();if(!poweredOn)togglePower();showChannelOverlay();closeGuide();}
- function chooseItem(p){gapMedia=null;if(p.broadcast_held||failed.has(p.url)){showStatus('SOURCE HELD FOR REVIEW',3000);return;}resetPlayer();const index=getTodaySchedule()?.channels?.findIndex(c=>c.name===p.channel);if(index>=0)currentChannel=index;selected={...p};mode='ondemand';slotKey='ondemand:'+p.url;play();if(!poweredOn)togglePower();showChannelOverlay();}
+ function chooseItem(p){gapMedia=null;if(p.broadcast_held||(failed.has(p.url)&&sources(p).every(u=>blocked(u)))){showStatus('SOURCE HELD FOR REVIEW',3000);return;}resetPlayer();const index=getTodaySchedule()?.channels?.findIndex(c=>c.name===p.channel);if(index>=0)currentChannel=index;selected={...p};mode='ondemand';slotKey='ondemand:'+p.url;play();if(!poweredOn)togglePower();showChannelOverlay();}
  function skip(direction){const c=getCurrentChannelData();if(!c)return;const next=nextProgrammeIndex(c.playlist,currentIndex,direction);if(next>=0)choose(currentChannel,next);}
  function restart(){gapMedia=null;const p=item();if(!p)return;resetPlayer();selected={...p};mode='ondemand';play();if(!poweredOn)togglePower();}
  function alternate(manual=false){const p=item(),urls=sources(p);let next=sourceIndex+1;while(next<urls.length&&blocked(urls[next]))next++;if(next>=urls.length){if(!manual)return false;next=urls.findIndex(u=>!blocked(u));if(next<0)return false;}sourceRetry=0;stalledAttempts=0;clearCard();loadItemSource(p,next,seek());return true;}
