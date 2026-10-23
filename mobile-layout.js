@@ -6,23 +6,15 @@
   function measure(){
     frame=0;
     const {width:w,height:h}=stage.getBoundingClientRect();
-    // A 1366px laptop is a desktop, not a tablet. Preserve touch/portrait modes.
-    const mobile=matchMedia('(pointer: coarse)').matches || w<=900 || (w<=1400 && h>w);
+    const mobile=w<=1400&&(w<=1180||h<=1100||matchMedia('(pointer: coarse)').matches);
     document.body.classList.toggle('mobile-scene',mobile);
-    const seasonal=['october','december'].includes(document.body.dataset.season);
-    if(!mobile){
-      document.body.classList.remove('scene-portrait','scene-landscape');
-      // Desktop TV sizing is CSS-only; never jump after first paint.
-      root.style.removeProperty('--season-tv-width');
-      root.style.removeProperty('--season-tv-top');
-      wasMobile=false;return;
-    }
+    if(!mobile){document.body.classList.remove('scene-portrait','scene-landscape');wasMobile=false;return;}
     const portrait=h>=w;
     document.body.classList.toggle('scene-portrait',portrait);
     document.body.classList.toggle('scene-landscape',!portrait);
     // The art is unchanged. Match its cover crop so the TV rests on the table.
     const phone=portrait&&w<=700;
-    const image=portrait?(phone?{w:1080,h:1920,table:960}:{w:1536,h:2048,table:1030}):{w:1920,h:1080,table:seasonal?980:1060};
+    const image=portrait?(phone?{w:1080,h:1920,table:960}:{w:1536,h:2048,table:1030}):{w:1920,h:1080,table:1060};
     const scale=Math.max(w/image.w,h/image.h);
     const table=image.table*scale-(image.h*scale-h)/2;
     const margin=12;
@@ -49,6 +41,5 @@
   window.addEventListener('orientationchange',schedule);
   window.visualViewport?.addEventListener('resize',schedule);
   new ResizeObserver(schedule).observe(stage);
-  new MutationObserver(schedule).observe(document.body,{attributes:true,attributeFilter:['data-season']});
   measure();
 })();
