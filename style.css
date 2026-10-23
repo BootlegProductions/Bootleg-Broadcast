@@ -1947,18 +1947,18 @@ body:not(.mobile-scene) .remote-body::before { margin-bottom: 6px; font-size: 10
   position: absolute;
   inset: auto;
   left: 46%;
-  top: 52%;
+  top: 9.5%;
   right: auto;
   bottom: auto;
   width: 91%;
-  height: 85%;
+  height: auto;
   min-width: 0;
   min-height: 0;
   max-width: 91%;
-  max-height: 85%;
+  max-height: 80%;
   /* Right side of the angled glass is nearer: top-right rises,
      top-left drops, and the bottom edge widens toward the right. */
-  transform: translate(-50%,-50%) translateY(-3px) perspective(820px) rotateY(-15deg) skewY(-1deg);
+  transform: translateX(-50%) translateY(-7px) perspective(820px) rotateY(-15deg) skewY(-2deg);
   transform-origin: center;
   overflow-x: hidden;
   overflow-y: auto;
@@ -1969,7 +1969,7 @@ body:not(.mobile-scene) .remote-body::before { margin-bottom: 6px; font-size: 10
   background: rgba(1,18,5,.96);
   box-shadow: 0 2px 10px #0009, inset 0 0 12px #004b1a22;
   color: #bdffbd;
-  font: 10px/1.3 "Courier New",monospace;
+  font: 14px/1.3 "Courier New",monospace;
   text-align: left;
   pointer-events: auto;
 }
@@ -1977,19 +1977,22 @@ body:not(.mobile-scene) .remote-body::before { margin-bottom: 6px; font-size: 10
   display: flex; align-items: center; justify-content: space-between;
   gap: 6px; margin-bottom: 5px;
 }
-#screen > #scheduleOverlay h3 { margin: 0; padding: 0 0 3px; border: 0; font-size: clamp(10px,.95vw,13px); }
+#screen > #scheduleOverlay h3 { margin: 0; padding: 0 0 3px; border: 0; font-size: 16px; }
 #screen > #scheduleOverlay .mini-guide-header button { background: none; border: 0; font-size: 16px; padding: 0 3px; }
-#screen > #scheduleOverlay .schedule-status { padding: 3px 5px; margin-bottom: 4px; font-size: 9px; }
+#screen > #scheduleOverlay .schedule-status { padding: 4px 6px; margin-bottom: 5px; font-size: 12px; }
 #screen > #scheduleOverlay .schedule-item {
-  display: grid; width: 100%; grid-template-columns: 42px minmax(0,1fr);
-  gap: 5px; margin: 0 0 2px; padding: 4px 3px;
+  display: grid; width: 100%; grid-template-columns: 60px minmax(0,1fr);
+  gap: 8px; margin: 0 0 2px; padding: 5px 4px;
   border-top: 0; border-right: 0; border-bottom: 1px solid #8caf8b33; background: transparent;
 }
 #screen > #scheduleOverlay .schedule-item.now-playing { border-left: 3px solid #8cff92; background: #1b47244d; }
-#screen > #scheduleOverlay .schedule-marker { min-width: 0; font-size: 12px; font-weight: 700; }
-#screen > #scheduleOverlay .schedule-title { min-width: 0; font-size: 12px; line-height: 1.25; }
-#screen > #scheduleOverlay .schedule-item.now-playing .schedule-title { font-size: 13px; font-weight: 700; }
-#screen > #scheduleOverlay .guide-expand { width: 100%; margin-top: 7px; padding: 6px 4px; font-size: 10px; }
+#screen > #scheduleOverlay .schedule-marker { min-width: 0; font-size: 16px; font-weight: 700; font-variant-numeric: tabular-nums; }
+#screen > #scheduleOverlay .schedule-title { min-width: 0; font-size: 15px; line-height: 1.25; }
+#screen > #scheduleOverlay .schedule-item.now-playing .schedule-title { font-size: 15px; font-weight: 700; }
+#screen > #scheduleOverlay .guide-expand { width: 100%; margin-top: 9px; padding: 7px 4px; font-size: 13px; }
+
+/* Keep the standby power button from covering guide text; it returns on close. */
+#tv-container:has(#scheduleOverlay.active) > #power { visibility: hidden; }
 body.mobile-scene #screen > #scheduleOverlay {
   left: 50%; top: 50%;
   width: 89%; max-width: 89%; height: auto; max-height: 76%;
