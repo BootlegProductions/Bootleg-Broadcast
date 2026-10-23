@@ -13,7 +13,7 @@
 <meta property="og:url" content="https://bootlegproductions.github.io/Bootleg-Broadcast/">
 <meta property="og:image" content="https://bootlegproductions.github.io/Bootleg-Broadcast/assets/branding/bootleg-broadcast-logo.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="style.css?v=0372">
+<link rel="stylesheet" href="style.css?v=0373">
 <link rel="stylesheet" href="seasonal-room.css?v=0370">
 <link rel="icon" type="image/png" href="assets/crt angle/crt angle.png">
 </head>
@@ -58,11 +58,10 @@
       <!-- STATIC EFFECT -->
       <div id="static"></div>
 
+      <!-- Keep the guide inside the actual glass: it shares the picture's perspective
+           and is clipped by the screen, never drawn across the CRT bezel. -->
+      <div id="scheduleOverlay" role="dialog" aria-label="Channel guide"></div>
     </div>
-
-    <!-- SCHEDULE DISPLAY
-         Kept outside #screen so it does not inherit the CRT glass skew. -->
-    <div id="scheduleOverlay" role="dialog" aria-label="Channel guide"></div>
 
     <img class="tv-halloween-candle candle-tv-one" src="assets/halloween/candle.png" alt="" aria-hidden="true">
     <img class="tv-halloween-candle candle-tv-two" src="assets/halloween/candle.png" alt="" aria-hidden="true">
@@ -156,6 +155,6 @@
 <script src="broadcast-ui.js?v=0372"></script>
 <script src="app.js?v=0370"></script>
 <script src="webmcp.js"></script>
-<script src="mobile-layout.js?v=0372"></script>
+<script src="mobile-layout.js?v=0373"></script>
 </body>
 </html>
