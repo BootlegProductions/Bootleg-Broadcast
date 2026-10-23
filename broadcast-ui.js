@@ -2,7 +2,10 @@
 const Broadcast=(()=>{
  let pools={},breaks={},gapMedia=null,cache=null,cacheSchedule=null,cacheKey='',mode='live',selected=null,holding=false,slotKey='',syncing=false,clockSynced=false;
  let anchor=Date.now(),anchorPerf=performance.now();
- const failed=new Set();try{for(const url of Object.keys(JSON.parse(localStorage.getItem('bootleg.source.flags')||'{}')))failed.add(url);}catch{}const repairs=new Map(),queued=new Map();
+ // Playback interruptions are temporary, not proof that an Archive file is dead.
+ // Keep diagnostic reports, but never preload historical reports as a blacklist.
+ const failed=new Map(),repairs=new Map(),queued=new Map();
+ const FAILURE_COOLDOWN_MS=45000;
  // Local HTTP previews and older browsers may not expose randomUUID.
  const clientId=()=>globalThis.crypto?.randomUUID?.()||'device-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2);
  let client;try{client=sessionStorage.getItem('bootleg.report.client');if(!client){client=clientId();sessionStorage.setItem('bootleg.report.client',client);}}catch{client=clientId();}
@@ -10,8 +13,9 @@ const Broadcast=(()=>{
  async function clock(){if(globalThis.BOOTLEG_HOSTING?.backend===false){anchor=Date.now();anchorPerf=performance.now();clockSynced=false;return;}const before=performance.now();try{const r=await fetch('/api/time',{cache:'no-store'});if(!r.ok)throw Error();const data=await r.json();if(!Number.isFinite(data.server_time))throw Error();anchor=data.server_time+(performance.now()-before)/2;anchorPerf=performance.now();clockSynced=true;}catch{clockSynced=false;}}
  async function health(){if(globalThis.BOOTLEG_HOSTING?.backend===false){$('feedback-state').textContent='Failed sources held on this browser';return;}try{const r=await fetch('/api/health',{cache:'no-store'});if(!r.ok)throw Error();const data=await r.json();repairs.clear();for(const fix of data.repairs||[]){repairs.set(fix.url,fix);if(['restored','replaced'].includes(fix.status))failed.delete(fix.url);}$('feedback-state').textContent='Source feedback connected';for(const [id,body] of queued)sendReport(id,body);}catch{$('feedback-state').textContent='Feedback unavailable · failed sources held for this visit';}}
  async function sendReport(id,body){if(globalThis.BOOTLEG_HOSTING?.backend===false){$('feedback-state').textContent='Failed source held on this browser';return;}try{const r=await fetch('/api/report',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});if(!r.ok)throw Error();queued.delete(id);}catch{queued.set(id,body);$('feedback-state').textContent='Report waiting to save · keep this TV open';}}
- function report(url,reason){if(!/^https:\/\/archive\.org\/download\//.test(url||''))return;failed.add(url);try{const flags=JSON.parse(localStorage.getItem('bootleg.source.flags')||'{}');flags[url]={url,title:item()?.title,channel:getCurrentChannelData()?.name,reason:'Playback failure: '+reason,reported_at:new Date().toISOString()};localStorage.setItem('bootleg.source.flags',JSON.stringify(flags));}catch{}const body={url,title:item()?.title,channel:getCurrentChannelData()?.name,client,slot:mode==='live'?item()?.slot_id||slotKey:'ondemand:'+Math.floor(now()/3600000),reason};const id=url+body.slot;if(!queued.has(id))sendReport(id,body);}
- function blocked(url){return failed.has(url)||repairs.get(url)?.status==='quarantined';}
+ function report(url,reason){if(!/^https:\/\/archive\.org\/download\//.test(url||''))return;failed.set(url,Date.now()+FAILURE_COOLDOWN_MS);try{const flags=JSON.parse(localStorage.getItem('bootleg.source.flags')||'{}');flags[url]={url,title:item()?.title,channel:getCurrentChannelData()?.name,reason:'Playback interruption (not a confirmed dead link): '+reason,reported_at:new Date().toISOString()};localStorage.setItem('bootleg.source.flags',JSON.stringify(flags));}catch{}const body={url,title:item()?.title,channel:getCurrentChannelData()?.name,client,slot:mode==='live'?item()?.slot_id||slotKey:'ondemand:'+Math.floor(now()/3600000),reason};const id=url+body.slot;if(!queued.has(id))sendReport(id,body);}
+ function blocked(url){const until=failed.get(url)||0;if(until&&until<=Date.now())failed.delete(url);return until>Date.now()||repairs.get(url)?.status==='quarantined';}
+ function activeUrl(urls){return player.getAttribute?.('src')||player.currentSrc||urls[sourceIndex]||'';}
  // Ed, Edd n Eddy catalogue entries pointed to Archive auto-derived .ia.mp4.
  // The exact original .mp4 is present for all 130 affected episode filenames.
  const edArchive=/^https:\/\/archive\.org\/download\/ed-edd-n-eddy-full-series-1999-2009\//i;
@@ -78,8 +82,12 @@ const Broadcast=(()=>{
  }
  function play(){
   const p=item();if(!p)return;sourceRetry=0;stalledAttempts=0;clearCard();updateChannelOverlay();
-  const urls=sources(p),index=urls.findIndex(u=>!blocked(u));
-  if(p.presentation){presentation(p.title);}else if(index<0){fillGap('SOURCE HELD · CHANNEL IDENT BREAK');}
+  const urls=sources(p);let index=urls.findIndex(u=>!blocked(u));
+  // Never let transient interruptions suppress a source indefinitely.
+  if(index<0&&urls.some(u=>repairs.get(u)?.status!=='quarantined')){
+   urls.forEach(u=>failed.delete(u));index=urls.findIndex(u=>!blocked(u));
+  }
+  if(p.presentation){presentation(p.title);}else if(index<0){fillGap('SIGNAL UNAVAILABLE · CHANNEL IDENT BREAK');}
   else loadItemSource(p,index,mode==='live'?seek():0);
   renderScheduleOverlay();updateRemote();if($('guidePanel').open)renderGuideList();
  }
@@ -89,16 +97,27 @@ const Broadcast=(()=>{
   if(!poweredOn)togglePower();else{safePlay();armSourceTimeout();}showChannelOverlay();
  }
  function choose(channel,index){gapMedia=null;const p=getTodaySchedule()?.channels?.[channel]?.playlist?.[index];if(!p||NON_PROGRAMME.has(p.type)||p.type==='Filler'||p.presentation)return;resetPlayer();currentChannel=channel;currentIndex=index;selected={...p};mode='ondemand';slotKey='ondemand:'+p.url;play();if(!poweredOn)togglePower();showChannelOverlay();closeGuide();}
- function chooseItem(p){gapMedia=null;if(p.broadcast_held||(failed.has(p.url)&&sources(p).every(u=>blocked(u)))){showStatus('SOURCE HELD FOR REVIEW',3000);return;}resetPlayer();const index=getTodaySchedule()?.channels?.findIndex(c=>c.name===p.channel);if(index>=0)currentChannel=index;selected={...p};mode='ondemand';slotKey='ondemand:'+p.url;play();if(!poweredOn)togglePower();showChannelOverlay();}
+ function chooseItem(p){gapMedia=null;if(p.broadcast_held||(sources(p).length>0&&sources(p).every(u=>repairs.get(u)?.status==='quarantined'))){showStatus('SOURCE HELD FOR REVIEW',3000);return;}resetPlayer();const index=getTodaySchedule()?.channels?.findIndex(c=>c.name===p.channel);if(index>=0)currentChannel=index;selected={...p};mode='ondemand';slotKey='ondemand:'+p.url;play();if(!poweredOn)togglePower();showChannelOverlay();}
  function skip(direction){const c=getCurrentChannelData();if(!c)return;const next=nextProgrammeIndex(c.playlist,currentIndex,direction);if(next>=0)choose(currentChannel,next);}
  function restart(){gapMedia=null;const p=item();if(!p)return;resetPlayer();selected={...p};mode='ondemand';play();if(!poweredOn)togglePower();}
- function alternate(manual=false){const p=item(),urls=sources(p);let next=sourceIndex+1;while(next<urls.length&&blocked(urls[next]))next++;if(next>=urls.length){if(!manual)return false;next=urls.findIndex(u=>!blocked(u));if(next<0)return false;}sourceRetry=0;stalledAttempts=0;clearCard();loadItemSource(p,next,seek());return true;}
- function retry(){const p=item();if(!p)return;const urls=sources(p),index=Math.min(sourceIndex,Math.max(0,urls.length-1));failed.delete(urls[index]);clearCard();sourceRetry=0;stalledAttempts=0;loadItemSource(p,index,seek());}
+ function alternate(manual=false){const p=item(),urls=sources(p),active=activeUrl(urls);
+  // Archive metadata can arrive after playback begins and prepend a new source.
+  // Select by the URL actually playing, not by its stale numeric index.
+  let next=urls.findIndex(u=>u!==active&&!blocked(u));
+  if(next<0&&manual){next=urls.findIndex(u=>u!==active);if(next>=0)failed.delete(urls[next]);}
+  if(next<0)return false;
+  sourceRetry=0;stalledAttempts=0;clearCard();loadItemSource(p,next,seek());return true;
+ }
+ function retry(){const p=item();if(!p)return;const urls=sources(p);if(!urls.length)return;
+  const current=urls.indexOf(activeUrl(urls));const index=current>=0?current:Math.min(sourceIndex,urls.length-1);
+  failed.delete(urls[index]);clearCard();sourceRetry=0;stalledAttempts=0;loadItemSource(p,index,seek());
+ }
  function recover(reason){if(!poweredOn||holding)return;cancelRecovery();const p=item();if(!p)return;
   if(gapMedia){presentation('Signal unavailable · returning at the next scheduled programme');return;}
   if(sourceRetry<1){sourceRetry++;const gen=tuningGeneration;showStatus('RE-TUNING SIGNAL…',0);const offset=seek();recoveryTimer=setTimeout(()=>{if(gen===tuningGeneration&&poweredOn)loadItemSource(p,sourceIndex,mode==='live'?seek():offset);},700);return;}
-  report(sources(p)[sourceIndex],reason+(player.error?.code?' · media code '+player.error.code:''));
-  if(alternate())return;fillGap('SOURCE FLAGGED · CHANNEL IDENT BREAK');
+  // Log the URL in the video element, never a different source shifted by late metadata.
+  report(activeUrl(sources(p)),reason+(player.error?.code?' · media code '+player.error.code:''));
+  if(alternate())return;fillGap('SIGNAL INTERRUPTED · CHANNEL IDENT BREAK');
   if(mode!=='live'){const gen=tuningGeneration;recoveryTimer=setTimeout(()=>{if(gen===tuningGeneration&&poweredOn)returnLive();},1800);}
  }
  function ended(){
