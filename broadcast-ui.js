@@ -15,12 +15,42 @@ const Broadcast=(()=>{
  // Ed, Edd n Eddy catalogue entries pointed to Archive auto-derived .ia.mp4.
  // The exact original .mp4 is present for all 130 affected episode filenames.
  const edArchive=/^https:\/\/archive\.org\/download\/ed-edd-n-eddy-full-series-1999-2009\//i;
+ const edCollection='ed-edd-n-eddy-full-series-1999-2009';
+ let edFiles=[];
+ function edCode(text){
+   const m=String(text||'').match(/S(\d{1,2})[\s._-]*E(\d{1,2})/i)
+     ||String(text||'').match(/(?:^|[^\d])(\d{1,2})x(\d{1,2})(?!\d)/i);
+   return m?String(Number(m[1]))+':'+String(Number(m[2])):null;
+ }
+ function edEpisodeCode(p){
+   const inputs=[p?.url,...p?.alternates||[],p?.title,p?.show];
+   return inputs.map(s=>{try{return decodeURIComponent(String(s||''));}catch{return String(s||'');}})
+     .map(edCode).find(Boolean);
+ }
+ async function prepareEdFiles(){
+   try{
+     const response=await fetch('https://archive.org/metadata/'+edCollection);
+     if(!response.ok)return;
+     const metadata=await response.json();
+     if(!Array.isArray(metadata.files))return;
+     edFiles=metadata.files.filter(f=>typeof f.name==='string'&&/\.mp4$/i.test(f.name)&&!/\.ia\.mp4$/i.test(f.name));
+   }catch{}
+ }
+ function originalEdSource(p){
+   const code=edEpisodeCode(p);
+   if(!code||!edFiles.length)return null;
+   const matches=edFiles.filter(f=>edCode(f.name)===code);
+   if(matches.length!==1)return null;
+   const path=matches[0].name.split('/').map(encodeURIComponent).join('/');
+   return 'https://archive.org/download/'+edCollection+'/'+path;
+ }
  function sources(p){
-  const urls=[p?.url,...p?.alternates||[]].filter(Boolean).map(u=>repairs.get(u)?.status==='replaced'?repairs.get(u).replacement:u);
-  // Never try the older .ia.mp4 derivative after the verified original.
-  const expanded=urls.flatMap(u=>edArchive.test(u)&&/\.ia\.mp4(?:[?#]|$)/i.test(u)
-   ?[u.replace(/\.ia\.mp4(?=[?#]|$)/i,'.mp4')]:[u]);
-  return [...new Set(expanded)];
+   const urls=[p?.url,...p?.alternates||[]].filter(Boolean).map(u=>repairs.get(u)?.status==='replaced'?repairs.get(u).replacement:u);
+   const ed=urls.some(u=>edArchive.test(u))||/ed,\s*edd\s*n\s*eddy/i.test(String(p?.show||'')+' '+String(p?.title||''));
+   const original=ed?originalEdSource(p):null;
+   const expanded=urls.flatMap(u=>edArchive.test(u)&&/\.ia\.mp4(?:[?#]|$)/i.test(u)
+    ?[u.replace(/\.ia\.mp4(?=[?#]|$)/i,'.mp4')]:[u]);
+   return [...new Set([original,...expanded].filter(Boolean))];
  }
  function day(){
   const raw=getRotationDay();if(!raw)return null;const p=BootlegClock.parts(now()),month=MONTHS.indexOf(currentMonth)+1,d=previewDate||p.day,y=p.year,key=`${y}:${month}:${d}`;
@@ -93,7 +123,7 @@ const Broadcast=(()=>{
  function remote(){const c=getCurrentChannelData(),p=item();$('broadcast-button').textContent=mode==='live'&&!previewDate?'LIVE · '+(clockSynced?'UK':'DEVICE CLOCK'):'RETURN TO BROADCAST';$('broadcast-button').setAttribute('aria-pressed',String(mode==='live'&&!previewDate));$('broadcast-mode').textContent=previewDate?'DATE PREVIEW':mode==='live'?(clockSynced?'SHARED UK BROADCAST':'BROADCAST · DEVICE CLOCK'):'WATCHING A SELECTION · RETURNS TO BROADCAST';document.body.dataset.season=currentMonth==='october'?'october':currentMonth==='december'?'december':'regular';}
  function mini(){const c=getCurrentChannelData();if(!c)return;const pos=livePosition(),start=pos?.index||0;const upcoming=c.playlist.map((p,n)=>({p,n})).filter(({p,n})=>n>=start&&!NON_PROGRAMME.has(p.type)).slice(0,8);$('scheduleOverlay').innerHTML=`<div class="mini-guide-header"><h3>TV GUIDE <small>${escapeHtml(c.name)}</small></h3><button type="button" onclick="toggleScheduleOverlay()" aria-label="Close mini guide">×</button></div><div class="schedule-status">${escapeHtml(previewDate?'DATE PREVIEW':'UK BROADCAST')} · ${escapeHtml(pos?.item.block||'')}</div>${upcoming.map(({p,n})=>`<button type="button" class="schedule-item ${n===pos?.index?'now-playing':''}" onclick="chooseProgramme(${currentChannel},${n})"><span class="schedule-marker">${time(p.start)}</span><span class="schedule-title">${escapeHtml(p.title)}${n===pos?.index?' · ON AIR':''}</span></button>`).join('')}<button type="button" class="guide-expand" onclick="openGuide()">FULL DAY GUIDE</button>`;}
  function guide(){const c=getTodaySchedule()?.channels?.[Number($('guide-channel').value)],query=$('guide-search').value.trim().toLowerCase();if(!c){$('guide-list').textContent='No schedule loaded.';return;}const pos=BootlegClock.locate(c.plan,viewingTime());const list=c.playlist.map((p,n)=>({p,n})).filter(({p})=>!NON_PROGRAMME.has(p.type)&&(!query||`${p.title} ${p.show} ${p.block}`.toLowerCase().includes(query)));$('guide-count').textContent=`${list.length} slots · ${c.plan.holiday_labels?.length?c.plan.holiday_labels.join(' / ')+' · ':''}all times UK`;$('guide-list').innerHTML=list.length?list.map(({p,n})=>{const src=sourcePage(p.url);return `<article class="guide-programme ${n===pos?.index?'selected':''}"><button type="button" class="programme-play" onclick="chooseProgramme(${Number($('guide-channel').value)},${n})" ${p.type==='Filler'||p.presentation?'disabled':''}><span class="programme-type">${time(p.start)}–${time(p.end)} UK · ${escapeHtml(p.block)}${n===pos?.index?' · ON AIR':''}</span><strong>${escapeHtml(p.title)}</strong><span>${escapeHtml(p.show||'')}</span></button>${src?`<a href="${escapeHtml(src)}" target="_blank" rel="noopener noreferrer">SOURCE</a>`:''}</article>`;}).join(''):'<p class="guide-empty">No matching scheduled slots. Search the source library for more.</p>';}
- async function boot(){const data=await Promise.all([fetchJson('channel-breaks.json?v=0370'),clock(),health()]);breaks=data[0];currentMonth=MONTHS[BootlegClock.parts(now()).month-1];setInterval(sync,1000);setInterval(clock,300000);setInterval(health,60000);document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'){clock().then(()=>sync());health();}});}
+ async function boot(){const metadata=prepareEdFiles();const data=await Promise.all([fetchJson('channel-breaks.json?v=0370'),clock(),health(),Promise.race([metadata,new Promise(resolve=>setTimeout(resolve,2500))])]);breaks=data[0];currentMonth=MONTHS[BootlegClock.parts(now()).month-1];setInterval(sync,1000);setInterval(clock,300000);setInterval(health,60000);document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'){clock().then(()=>sync());health();}});}
  async function deepLink(){const url=new URLSearchParams(location.search).get('watch');if(!url)return;try{const data=await fetchJson('source-library.json?v=0370');const p=data.programmes.find(p=>p.url===url);if(p){chooseItem(p);history.replaceState(null,'',location.pathname);}}catch{showStatus('SELECTED PROGRAMME UNAVAILABLE',3000);}}
  return {boot,now,day,item,sources,seek,load,play,returnLive,choose,skip,restart,alternate,retry,recover,ended,pause,sync,remote,mini,guide,deepLink,mode:()=>mode,holding:()=>holding,fillGap,presentation};
 })();
