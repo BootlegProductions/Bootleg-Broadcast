@@ -1975,3 +1975,112 @@ body:not(.mobile-scene) .remote-btn { min-height: 32px; padding: 7px 4px; font-s
 body:not(.mobile-scene) .remote-row { gap: 6px; margin-bottom: 6px; }
 body:not(.mobile-scene) #remote-ir { margin: 3px auto 5px; }
 body:not(.mobile-scene) .remote-body::before { margin-bottom: 6px; font-size: 10px; }
+
+/* v0.37.3 — TV and mini-guide geometry corrected at the structural level.
+   The mini-guide is now INSIDE #screen. No independent angle or frame-based
+   coordinates: it follows the same perspective, clipping and radius as video. */
+body:not(.mobile-scene) #tv-container {
+  left: auto;
+  right: -.5vw;
+  width: clamp(720px, 62vw, 1220px);
+  transform: none;
+}
+#screen > #scheduleOverlay {
+  position: absolute;
+  inset: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  max-width: none;
+  min-height: 0;
+  max-height: none;
+  transform: none;
+  transform-origin: center;
+  border: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 0 28px rgba(27, 99, 37, .2);
+  background: rgba(2, 17, 7, .975);
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  touch-action: pan-y;
+  padding: clamp(8px, 1.1vw, 16px);
+  color: #c2ffc0;
+  font: 12px/1.35 "Courier New", monospace;
+  pointer-events: auto;
+}
+#screen > #scheduleOverlay .mini-guide-header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  align-items: center;
+  background: #061c0a;
+  border-bottom: 1px solid rgba(145,255,145,.4);
+  padding: 4px 0 8px;
+  margin-bottom: 8px;
+}
+#screen > #scheduleOverlay h3 {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-size: clamp(13px, 1.2vw, 18px);
+  letter-spacing: .08em;
+  line-height: 1.2;
+}
+#screen > #scheduleOverlay .schedule-status {
+  padding: 5px 8px;
+  margin-bottom: 6px;
+  font-size: clamp(10px, .9vw, 12px);
+}
+#screen > #scheduleOverlay .schedule-item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: clamp(43px, 4vw, 57px) minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+  padding: 7px 8px;
+  border: 0;
+  border-bottom: 1px solid rgba(115, 188, 119, .2);
+  border-radius: 0;
+  background: transparent;
+}
+#screen > #scheduleOverlay .schedule-item.now-playing {
+  border-left: 3px solid #96ff9f;
+  background: rgba(35, 91, 42, .55);
+}
+#screen > #scheduleOverlay .schedule-marker {
+  min-width: 0;
+  font-size: clamp(10px, .95vw, 13px);
+}
+#screen > #scheduleOverlay .schedule-title {
+  min-width: 0;
+  font-size: clamp(10px, 1vw, 14px);
+  line-height: 1.25;
+}
+#screen > #scheduleOverlay .guide-expand {
+  margin: 12px 0 2px;
+  padding: 10px 8px;
+  border-color: rgba(155,255,166,.45);
+  font-size: 12px;
+}
+body.mobile-scene #screen > #scheduleOverlay {
+  padding: clamp(5px, 1vw, 10px);
+  font-size: 10px;
+}
+body.mobile-scene #screen > #scheduleOverlay h3 {
+  font-size: clamp(11px, 1.6vw, 15px);
+}
+body.mobile-scene #screen > #scheduleOverlay .schedule-item {
+  grid-template-columns: clamp(32px, 7vw, 48px) minmax(0, 1fr);
+  gap: 4px;
+  padding: 5px 3px;
+}
+body.mobile-scene #screen > #scheduleOverlay .schedule-marker,
+body.mobile-scene #screen > #scheduleOverlay .schedule-title,
+body.mobile-scene #screen > #scheduleOverlay .schedule-status {
+  font-size: clamp(9px, 1.3vw, 12px);
+}
