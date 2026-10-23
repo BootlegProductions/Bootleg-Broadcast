@@ -1932,22 +1932,7 @@ body.mobile-scene .tv-halloween-candle {display:none!important;}
   outline-offset: 2px;
 }
 
-/* v0.37.2 — restore an appropriately sized desktop CRT and refine its controls.
-   Mobile scene geometry remains controlled by mobile-layout.js. */
-body:not(.mobile-scene) #scheduleOverlay .mini-guide-header { align-items: center; }
-#scheduleOverlay .mini-guide-header h3 { margin: 0; flex: 1; letter-spacing: .08em; }
-#scheduleOverlay .mini-guide-header h3 small {
-  display: block;
-  margin-top: 4px;
-  letter-spacing: 0;
-  color: #9cdda7;
-  font-size: .76em;
-  font-weight: 400;
-}
-#scheduleOverlay .schedule-item.now-playing {
-  border-left: 3px solid #9efa8d;
-  background: rgba(47, 114, 44, .36);
-}
+/* Preserve the smaller desktop remote. */
 body:not(.mobile-scene) #remote-control { --remote-width: 222px; max-width: 222px; }
 body:not(.mobile-scene) .remote-body { padding: 10px 12px 17px; border-radius: 21px 21px 30px 30px; }
 body:not(.mobile-scene) #remote-display { font-size: 10px; min-height: 59px; padding: 6px; }
@@ -1957,34 +1942,7 @@ body:not(.mobile-scene) .remote-row { gap: 6px; margin-bottom: 6px; }
 body:not(.mobile-scene) #remote-ir { margin: 3px auto 5px; }
 body:not(.mobile-scene) .remote-body::before { margin-bottom: 6px; font-size: 10px; }
 
-/* v0.37.4 — single desktop layout instead of competing JS / seasonal overrides.
-   The 920px initial television shown at page load is our starting reference.
-   Keep the picture legible in a normal laptop browser, even if the CRT feet
-   extend beneath the viewport. Big Picture does not change the design scale. */
-@media (min-width: 901px) and (orientation: landscape) {
-  body:not(.mobile-scene) #tv-container {
-    position: absolute;
-    left: auto;
-    right: clamp(-18px, -.6vw, -6px);
-    top: clamp(10px, 4vh, 46px);
-    bottom: auto;
-    width: clamp(760px, 68vw, 1120px);
-    transform: none;
-  }
-
-  /* Video and guide share the slight skew of the angled CRT glass. */
-  body:not(.mobile-scene) #screen {
-    top: 11.6%;
-    left: 9.1%;
-    width: 53.9%;
-    height: 67.5%;
-    transform: perspective(1050px) rotateY(1.8deg) skewY(1.15deg);
-    transform-origin: center;
-  }
-}
-
-/* Guide belongs to the picture but is not the whole picture.
-   A centered, scrollable CRT guide floats within the black glass margins. */
+/* Compact inset guide, constrained to the original, unchanged CRT glass. */
 #screen > #scheduleOverlay {
   position: absolute;
   inset: auto;
@@ -1992,102 +1950,48 @@ body:not(.mobile-scene) .remote-body::before { margin-bottom: 6px; font-size: 10
   top: 50%;
   right: auto;
   bottom: auto;
-  width: 83%;
+  width: 80%;
   height: auto;
   min-width: 0;
   min-height: 0;
-  max-width: 83%;
-  max-height: 79%;
-  transform: translate(-50%, -50%);
+  max-width: 80%;
+  max-height: 73%;
+  transform: translate(-50%,-50%) skewY(1deg);
   transform-origin: center;
-  box-sizing: border-box;
   overflow-x: hidden;
   overflow-y: auto;
   overscroll-behavior: contain;
-  touch-action: pan-y;
-  padding: clamp(7px, .8vw, 12px);
-  border: 1px solid rgba(122, 234, 137, .76);
-  border-radius: 8px;
-  background: rgba(3, 17, 7, .94);
+  padding: clamp(5px,.7vw,9px);
+  border: 1px solid rgba(123,255,144,.75);
+  border-radius: 5px;
+  background: rgba(1,18,5,.96);
+  box-shadow: 0 2px 10px #0009, inset 0 0 12px #004b1a22;
   color: #bdffbd;
-  box-shadow: 0 4px 20px rgba(0,0,0,.64), inset 0 0 18px rgba(44,129,61,.13);
-  font: 11px/1.3 "Courier New", monospace;
+  font: 10px/1.3 "Courier New",monospace;
   text-align: left;
   pointer-events: auto;
 }
 #screen > #scheduleOverlay .mini-guide-header {
-  display: flex;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 8px;
-  background: #04180a;
-  border-bottom: 1px solid rgba(123, 213, 128, .4);
-  padding: 2px 0 6px;
-  margin-bottom: 6px;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 6px; margin-bottom: 5px;
 }
-#screen > #scheduleOverlay h3 {
-  flex: 1;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: clamp(11px, 1.05vw, 15px);
-  line-height: 1.15;
-}
-#screen > #scheduleOverlay .schedule-status {
-  margin-bottom: 5px;
-  padding: 4px 6px;
-  font-size: clamp(9px, .78vw, 11px);
-}
+#screen > #scheduleOverlay h3 { margin: 0; padding: 0 0 3px; border: 0; font-size: clamp(10px,.95vw,13px); }
+#screen > #scheduleOverlay .mini-guide-header button { background: none; border: 0; font-size: 16px; padding: 0 3px; }
+#screen > #scheduleOverlay .schedule-status { padding: 3px 5px; margin-bottom: 4px; font-size: 9px; }
 #screen > #scheduleOverlay .schedule-item {
-  display: grid;
-  width: 100%;
-  grid-template-columns: clamp(42px, 4vw, 54px) minmax(0, 1fr);
-  align-items: start;
-  gap: 6px;
-  padding: 5px 6px;
-  border: 0;
-  border-left: 2px solid transparent;
-  border-bottom: 1px solid rgba(105, 180, 110, .22);
-  border-radius: 0;
-  background: transparent;
-  box-shadow: none;
+  display: grid; width: 100%; grid-template-columns: 42px minmax(0,1fr);
+  gap: 5px; margin: 0 0 2px; padding: 4px 3px;
+  border-top: 0; border-right: 0; border-bottom: 1px solid #8caf8b33; background: transparent;
 }
-#screen > #scheduleOverlay .schedule-item.now-playing {
-  border-left-color: #abff99;
-  background: rgba(43, 101, 49, .48);
-}
-#screen > #scheduleOverlay .schedule-marker {
-  min-width: 0;
-  font-size: clamp(9px, .78vw, 11px);
-}
-#screen > #scheduleOverlay .schedule-title {
-  min-width: 0;
-  font-size: clamp(9px, .84vw, 12px);
-  line-height: 1.25;
-}
-#screen > #scheduleOverlay .guide-expand {
-  width: 100%;
-  margin: 8px 0 1px;
-  padding: 7px 4px;
-  font-size: 11px;
-}
+#screen > #scheduleOverlay .schedule-item.now-playing { border-left: 3px solid #8cff92; background: #1b47244d; }
+#screen > #scheduleOverlay .schedule-marker { min-width: 0; font-size: 9px; }
+#screen > #scheduleOverlay .schedule-title { min-width: 0; font-size: 10px; line-height: 1.25; }
+#screen > #scheduleOverlay .guide-expand { width: 100%; margin-top: 7px; padding: 6px 4px; font-size: 10px; }
 body.mobile-scene #screen > #scheduleOverlay {
-  width: 94%;
-  max-width: 94%;
-  max-height: 92%;
-  padding: 5px;
-  border-radius: 5px;
+  width: 89%; max-width: 89%; max-height: 76%;
+  padding: 4px; transform: translate(-50%,-50%);
 }
-body.mobile-scene #screen > #scheduleOverlay .schedule-item {
-  grid-template-columns: clamp(28px, 6vw, 42px) minmax(0,1fr);
-  gap: 3px;
-  padding: 4px 3px;
-}
-body.mobile-scene #screen > #scheduleOverlay .schedule-title,
+body.mobile-scene #screen > #scheduleOverlay .schedule-item { grid-template-columns: 30px minmax(0,1fr); gap: 3px; padding: 3px 2px; }
 body.mobile-scene #screen > #scheduleOverlay .schedule-marker,
-body.mobile-scene #screen > #scheduleOverlay .schedule-status {
-  font-size: clamp(8px, 1.3vw, 11px);
-}
+body.mobile-scene #screen > #scheduleOverlay .schedule-title,
+body.mobile-scene #screen > #scheduleOverlay .schedule-status { font-size: clamp(7px,1.3vw,10px); }
