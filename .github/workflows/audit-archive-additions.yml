@@ -1,0 +1,36 @@
+name: Inventory Archive additions
+on:
+  push:
+    paths:
+      - 'tools/audit_archive_additions.cjs'
+      - '.github/workflows/audit-archive-additions.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archive-additions-inventory
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - name: Audit nested media files in the supplied Archive uploads
+        run: node tools/audit_archive_additions.cjs
+      - name: Commit non-playable candidate inventory
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add archive-candidate-review.json ARCHIVE-ADDITIONS-REVIEW.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Inventory Laika films and media preservation bundle files"
+            git push origin HEAD:main
+          fi
