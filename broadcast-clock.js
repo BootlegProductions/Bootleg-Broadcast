@@ -36,7 +36,8 @@ function improveContinuity(items,channel,year,month,day,breaks){
    &&!['non-english','reported-non-english'].includes(p.language_status)
    &&(!(p.seasonal_tags||[]).includes('halloween')||month===10)
    &&(!(p.seasonal_tags||[]).includes('christmas')||month===12)
-   &&(!(p.holiday_events||[]).includes('christmas')||month===12));
+   &&(p.holiday_events||[]).every(event=>event==='christmas'?month===12:eventsOn(year,month,day).includes(event))
+   &&(!(p.seasonal_tags||[]).includes('thanksgiving')||eventsOn(year,month,day).includes('thanksgiving')));
  const commercials=(station.adverts||[]).map((p,i)=>({...p,index:i})).filter(p=>
    p.duration_seconds>=3&&p.duration_seconds<=60&&!p.station_brand
    &&!/\bident\b|\bbumper\b|\bpromo\b|back to the show|we.ll be back/i.test(p.title||'')
