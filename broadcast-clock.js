@@ -20,12 +20,99 @@ function contentKey(p){
  const title=String(p.title||p.show).toLowerCase().replace(/\.mp4$/,'').replace(/[^a-z0-9]/g,'');
  return p.broadcast_identity||key+':'+title;
 }
+
+/* Continuity scheduling — short measured programmes instead of huge ad loops.
+   All originally authored programme start times remain fixed. */
+function improveContinuity(items,channel,year,month,day,breaks){
+ const station=breaks.channels?.[channel],library=root.BOOTLEG_CONTINUITY?.channels?.[channel];
+ if(!station||!Array.isArray(library)||!library.length)return items;
+ const LIMIT=125,IDENT_GAP=3600,identity=p=>p.content_id||p.url,round=v=>Math.round(v*1000)/1000;
+ const used=new Set(items.filter(p=>p.type!=='Break'&&p.type!=='Filler').map(identity).filter(Boolean));
+ const showCounts=new Map(),adLast=new Map();
+ const hash=Array.from(channel+':'+year+'-'+month+'-'+day).reduce((v,c)=>(v*33+c.charCodeAt(0))>>>0,5381);
+ const bonus=library.filter(p=>(p.type==='Episode'||p.type==='Special')
+   &&p.url?.startsWith('https://archive.org/download/')&&/\.mp4(?:[?#]|$)/i.test(p.url)
+   &&p.duration_seconds>=140&&p.duration_seconds<=3000&&!p.broadcast_held
+   &&!['non-english','reported-non-english'].includes(p.language_status)
+   &&(!(p.seasonal_tags||[]).includes('halloween')||month===10)
+   &&(!(p.seasonal_tags||[]).includes('christmas')||month===12)
+   &&(!(p.holiday_events||[]).includes('christmas')||month===12));
+ const commercials=(station.adverts||[]).map((p,i)=>({...p,index:i})).filter(p=>
+   p.duration_seconds>=3&&p.duration_seconds<=60&&!p.station_brand
+   &&!/\bident\b|\bbumper\b|\bpromo\b|back to the show|we.ll be back/i.test(p.title||'')
+   &&(!(p.seasonal_tags||[]).includes('christmas')||month===12)
+   &&(!(p.seasonal_tags||[]).includes('halloween')||month===10)
+   &&(!(p.holiday_events||[]).includes('christmas')||month===12));
+ let lastIdent=-Infinity,cursor=commercials.length?hash%commercials.length:0;
+ const out=[];
+ for(const old of items){
+  if(old.type!=='Break'){out.push(old);continue;}
+  const stop=old.broadcast_end_seconds;
+  let t=old.broadcast_start_seconds;
+  if(stop<=t)continue;
+  // Fill with complete measured shows first. Avoid airing the same source twice
+  // within a channel-day, including any programme already scheduled later.
+  for(let n=0;n<12&&stop-t>LIMIT+140;n++){
+   const capacity=stop-t-90;
+   let best=null,bestScore=Infinity;
+   for(const p of bonus){
+    const id=identity(p);
+    if(used.has(id)||p.duration_seconds>capacity+.0001)continue;
+    const score=capacity-p.duration_seconds+(showCounts.get(p.series_id||p.show)||0)*95;
+    if(score<bestScore){best=p;bestScore=score;}
+   }
+   if(!best)break;
+   const end=round(t+best.duration_seconds);
+   out.push({...best,editorial_kind:'continuity-short',block:old.block,
+     broadcast_start_seconds:round(t),broadcast_end_seconds:end});
+   used.add(identity(best));
+   const show=best.series_id||best.show;
+   showCounts.set(show,(showCounts.get(show)||0)+1);
+   t=end;
+  }
+  const limit=Math.min(LIMIT,stop-t);
+  const indices=[],seen=new Set();
+  let filled=0;
+  const identDuration=Number(station.ident?.duration_seconds)||0;
+  if(identDuration>0&&identDuration<=limit&&t-lastIdent>=IDENT_GAP){
+   indices.push(-1);filled=identDuration;lastIdent=t;
+  }
+  while(commercials.length&&limit-filled>=3){
+   let selected=null;
+   for(let pass=0;pass<2&&!selected;pass++){
+    for(let k=0;k<commercials.length;k++){
+     const p=commercials[(cursor+k)%commercials.length];
+     if(seen.has(p.index)||p.duration_seconds>limit-filled+.0001)continue;
+     if(pass===0&&t+filled-(adLast.get(p.index)??-Infinity)<1800)continue;
+     selected={p,advance:k+1};break;
+    }
+   }
+   if(!selected)break;
+   indices.push(selected.p.index);
+   filled=round(filled+selected.p.duration_seconds);
+   seen.add(selected.p.index);
+   adLast.set(selected.p.index,t+filled);
+   cursor=(cursor+selected.advance)%commercials.length;
+  }
+  if(indices.length){
+   const end=round(Math.min(stop,t+filled));
+   out.push({...old,break_sequence:indices,broadcast_start_seconds:round(t),broadcast_end_seconds:end});
+   t=end;
+  }
+  if(stop-t>.0001){
+   out.push({type:'Filler',show:channel,title:channel+' — Next programme shortly',
+     presentation:true,block:old.block,broadcast_start_seconds:round(t),broadcast_end_seconds:stop});
+  }
+ }
+ return out;
+}
 function plan({year,month,day,channel,items=[],breaks={}}){
+ const adjusted=improveContinuity(items,channel,year,month,day,breaks);
  const start=wall(year,month,day),next=new Date(Date.UTC(year,month-1,day+1)),end=wall(next.getUTCFullYear(),next.getUTCMonth()+1,next.getUTCDate());
  if(items.some(p=>!Number.isFinite(p.broadcast_start_seconds)||!Number.isFinite(p.broadcast_end_seconds)))throw new Error('Written timetable missing. Rebuild the monthly schedules.');
  const seed=`written-tv-v1:${year}-${month}-${day}:${channel}`;
  const expanded=[];
- for(const p of items){
+ for(const p of adjusted){
   if(p.type!=='Break'){expanded.push(p);continue;}
   const station=breaks.channels?.[channel];if(!station)throw new Error('Missing channel break media.');
   let t=p.broadcast_start_seconds;
