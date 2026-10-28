@@ -27,7 +27,7 @@ function improveContinuity(items,channel,year,month,day,breaks){
  const station=breaks.channels?.[channel],library=root.BOOTLEG_CONTINUITY?.channels?.[channel];
  if(!station||!Array.isArray(library)||!library.length)return items;
  const LIMIT=125,IDENT_GAP=3600,identity=p=>p.content_id||p.url,round=v=>Math.round(v*1000)/1000;
- const used=new Set(items.filter(p=>p.type!=='Break'&&p.type!=='Filler').map(identity).filter(Boolean));
+ const used=new Set(items.filter(p=>p.type!=='Break'&&p.type!=='Filler').flatMap(p=>[identity(p),p.url]).filter(Boolean));
  const showCounts=new Map(),adLast=new Map();
  const hash=Array.from(channel+':'+year+'-'+month+'-'+day).reduce((v,c)=>(v*33+c.charCodeAt(0))>>>0,5381);
  const bonus=library.filter(p=>(p.type==='Episode'||p.type==='Special')
@@ -58,7 +58,7 @@ function improveContinuity(items,channel,year,month,day,breaks){
    let best=null,bestScore=Infinity;
    for(const p of bonus){
     const id=identity(p);
-    if(used.has(id)||p.duration_seconds>capacity+.0001)continue;
+    if(used.has(id)||used.has(p.url)||p.duration_seconds>capacity+.0001)continue;
     const score=capacity-p.duration_seconds+(showCounts.get(p.series_id||p.show)||0)*95;
     if(score<bestScore){best=p;bestScore=score;}
    }
@@ -66,7 +66,7 @@ function improveContinuity(items,channel,year,month,day,breaks){
    const end=round(t+best.duration_seconds);
    out.push({...best,editorial_kind:'continuity-short',block:old.block,
      broadcast_start_seconds:round(t),broadcast_end_seconds:end});
-   used.add(identity(best));
+   used.add(identity(best));used.add(best.url);
    const show=best.series_id||best.show;
    showCounts.set(show,(showCounts.get(show)||0)+1);
    t=end;
