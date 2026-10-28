@@ -1,0 +1,14 @@
+{
+  "version": "2026-10",
+  "policy": "One ident per commercial block, no repeated adverts within a block; evening short programmes fill long 18:45–19:00 intervals",
+  "breaks": 174710,
+  "identsBefore": 1180161,
+  "identsAfter": 174691,
+  "shorts": 3849,
+  "programmeSeconds": 2378549.7999999835,
+  "primeBefore": 3258,
+  "primeBridged": 3137,
+  "primeSecondsBefore": 3069928.673000009,
+  "primeSecondsAfter": 691378.8730000004,
+  "shortContinuitySeconds": 1060.0420000000006
+}
