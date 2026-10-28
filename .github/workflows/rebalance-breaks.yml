@@ -1,0 +1,49 @@
+name: Rebalance broadcast breaks
+on:
+  push:
+    paths:
+      - 'tools/rebalance_breaks.cjs'
+      - '.github/workflows/rebalance-breaks.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebalance-broadcast-main
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout broadcast repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Check script syntax
+        run: node --check tools/rebalance_breaks.cjs
+
+      - name: Insert evening shorts and reduce repetitive idents
+        run: node tools/rebalance_breaks.cjs
+
+      - name: Verify all channels and 365 daily schedules
+        run: python tools/verify_broadcast.py
+
+      - name: Verify commercial durations and channel routing
+        run: |
+          python tools/verify_adverts.py
+          python tools/verify_channel_interstitials.py
+
+      - name: Commit reviewed schedules to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add schedules/*.json schedule.json break-rebalance-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Reduce repeated station idents and replace long evening ad blocks with shorts"
+            git push origin HEAD:main
+          fi
