@@ -8,7 +8,9 @@ const fs=require('node:fs'),path=require('node:path');
 const ROOT=path.resolve(__dirname,'..');
 const COLLECTIONS=[
  {identifier:'laika-studios-films',label:'Laika Studios films',suggestedChannels:['Cartoons Cartoons','Dizzy']},
- {identifier:'media-preservation-chamber_626',label:'Media Preservation Chamber',suggestedChannels:['Cartoons Cartoons','Dizzy','GirlyPop','AAA','90s Toons']}
+ {identifier:'media-preservation-chamber_626',label:'Media Preservation Chamber',suggestedChannels:['Cartoons Cartoons','Dizzy','GirlyPop','AAA','90s Toons']},
+ {identifier:'halloween-media-preservation-chamber_626',label:'Halloween Media Preservation Chamber',suggestedChannels:['Cartoons Cartoons','AAA','Dickleodeon','Dizzy']},
+ {identifier:'christmas-media-preservation-chamber_626',label:'Christmas Media Preservation Chamber',suggestedChannels:['Dizzy','Cartoons Cartoons','GirlyPop','90s Toons']}
 ];
 const USER='m3dia_l0aner_626';
 const BASE='https://archive.org';
