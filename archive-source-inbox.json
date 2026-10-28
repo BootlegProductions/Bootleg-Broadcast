@@ -1,0 +1,49 @@
+{
+  "version": "2026-10-28",
+  "purpose": "Review the actual constituent media files and folders, not just collection names. This inventory is not yet part of live playback.",
+  "sources": [
+    {
+      "kind": "item",
+      "identifier": "laika-studios-films",
+      "url": "https://archive.org/details/laika-studios-films",
+      "proposed_channels": [
+        "Cartoons Cartoons",
+        "Dizzy"
+      ],
+      "programming": [
+        "stop-motion film nights",
+        "Halloween family films"
+      ],
+      "verification": "pending individual filenames, measured running times, playback and rights review"
+    },
+    {
+      "kind": "item",
+      "identifier": "media-preservation-chamber_626",
+      "url": "https://archive.org/details/media-preservation-chamber_626",
+      "proposed_channels": [],
+      "programming": [
+        "discover mixed films, programmes and specials after inspecting folders"
+      ],
+      "verification": "pending nested media and bundle inspection"
+    },
+    {
+      "kind": "uploader",
+      "username": "m3dia_l0aner_626",
+      "url": "https://archive.org/details/@m3dia_l0aner_626/uploads",
+      "proposed_channels": [],
+      "programming": [
+        "inspect each uploader item, including generic preservation and Christmas-titled bundles"
+      ],
+      "verification": "pending uploader item discovery and per-file inspection"
+    }
+  ],
+  "acceptance_rules": {
+    "review_files_not_only_item_title": true,
+    "recognize_nested_paths": true,
+    "inspect_archives_before_scheduling": true,
+    "require_direct_video_file": true,
+    "require_measured_positive_runtime": true,
+    "require_rebroadcast_rights_review": true,
+    "do_not_replace_existing_sources_without_verified_playback": true
+  }
+}
