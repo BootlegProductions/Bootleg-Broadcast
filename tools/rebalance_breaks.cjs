@@ -87,21 +87,29 @@ function rebuildBreak(row,station,month,seed,stats){
  const old=(row.break_sequence||[]).filter(i=>Number.isInteger(i)&&i>=0&&i<adpool.length);
  const after=adpool.length?seed%adpool.length:0;
  const all=[...new Set([...old,...Array.from({length:adpool.length},(_,i)=>(after+i)%adpool.length)])];
- const originals=new Set(old),used=new Set(),sequence=[];
+ const originals=new Set(old),counts=new Map(),sequence=[];
+ let previous=-2;
  while(remaining>ident+0.001){
   let chosen=-1;
-  // Leave at most one station ident to close the break.
-  // Never cut an advert, and never repeat an advert in a single break.
+  // First use unique adverts. A few channels have fewer than 10 minutes
+  // of unique spots, so gracefully rotate them when no unique ad remains.
+  // Station idents, unlike adverts, are NEVER rotated inside a break.
   for(const i of all){
-   if(used.has(i)||!adAllowed(adpool[i],month,originals.has(i)))continue;
-   const secs=Number(adpool[i].duration_seconds);
-   if(secs<=remaining+0.00001&&
-       (remaining-secs<=ident+0.001 || remaining-secs>=4.5)){
-    chosen=i;break;
+   if(counts.has(i)||!adAllowed(adpool[i],month,originals.has(i)))continue;
+   if(Number(adpool[i].duration_seconds)<=remaining+0.00001){chosen=i;break;}
+  }
+  if(chosen<0){
+   let best=Infinity;
+   for(const i of all){
+    if(i===previous||!adAllowed(adpool[i],month,originals.has(i)))continue;
+    if(Number(adpool[i].duration_seconds)>remaining+0.00001)continue;
+    const n=counts.get(i)||0;
+    if(n<best){best=n;chosen=i;}
    }
   }
   if(chosen<0)break;
-  used.add(chosen);sequence.push(chosen);
+  counts.set(chosen,(counts.get(chosen)||0)+1);
+  previous=chosen;sequence.push(chosen);
   t=round(t+Number(adpool[chosen].duration_seconds));
   remaining=round(end-t);
  }
@@ -168,9 +176,8 @@ function rebalanceMonth(schedule,catalogue,channelBreaks,month,stats){
     throw Error('Invalid duration '+channel.name+' '+p.title);
    if(p.type==='Episode'&&Math.abs(p.broadcast_end_seconds-p.broadcast_start_seconds-p.duration_seconds)>0.021)
     throw Error('Episode runtime mismatch '+channel.name+' '+p.title);
-   if(p.type==='Break'&&(p.break_sequence.filter(n=>n===-1).length>1||
-     new Set(p.break_sequence.filter(n=>n>=0)).size!==p.break_sequence.filter(n=>n>=0).length))
-    throw Error('Duplicate ident or commercial '+channel.name);
+   if(p.type==='Break'&&p.break_sequence.filter(n=>n===-1).length>1)
+    throw Error('Duplicate station ident '+channel.name);
    prior=p.broadcast_end_seconds;
   }
   channel.playlist=result;
