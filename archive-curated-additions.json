@@ -1,0 +1,834 @@
+{
+  "version": 1,
+  "generated_at": "2026-10-28T23:16:31.391Z",
+  "note": "Metadata-only source candidates. Do not automatically schedule or play until source, audio and rights checks pass.",
+  "count": 42,
+  "duplicate_urls": 0,
+  "possible_existing_titles": 19,
+  "by_channel": {
+    "Cartoons Cartoons": [
+      "Coraline",
+      "Paranorman",
+      "The Boxtrolls",
+      "Kubo And The Two Strings",
+      "Missing Link",
+      "Ed, Edd n Eddy's Big Picture Show",
+      "Codename Kids Next Door Operation Z.E.R.O",
+      "The Day The Earth Blew Up A Looney Tunes Movie",
+      "A Boy Named Charlie Brown",
+      "Adventure Time — The Creeps",
+      "Camp Lazlo - Hallobeanies",
+      "Ed, Edd n Eddy’s Boo Haw Haw",
+      "Garfield's Halloween Adventure",
+      "Regular Show — Terror Tales of the Park",
+      "Scary Godmother — Halloween Spooktacular",
+      "Scary Godmother — The Revenge of Jimmy",
+      "The Amazing World of Gumball — Halloween",
+      "A Scooby-Doo Christmas",
+      "Bah, Humduck! - A Looney Tunes Christmas",
+      "Ed, Edd n Eddy’s — Jingle Jingle Jangle",
+      "Regular Show — The Christmas Special"
+    ],
+    "Dizzy": [
+      "The Boxtrolls",
+      "Kubo And The Two Strings",
+      "Missing Link",
+      "A Goofy Movie",
+      "An Extremely Goofy Movie",
+      "Gravity Falls — Summerween",
+      "Gravity Falls — Little Gift Shop Of Horrors",
+      "Kim Possible — October 31st",
+      "A Phineas and Ferb Family Christmas",
+      "Mickey's Once Upon A Christmas"
+    ],
+    "AAA": [
+      "9",
+      "Moral Orel — The Best Christmas Ever"
+    ],
+    "Japanime": [
+      "Dragon Ball Super — Broly (English Dub)",
+      "Dragon Ball Super — Super Hero (English Dub)",
+      "Pokemon — Pikachu's Winter Vacation"
+    ],
+    "90s Toons": [
+      "A Boy Named Charlie Brown",
+      "Animaniacs — Wakko's Wish",
+      "A Chipmunk Christmas"
+    ],
+    "Dickleodeon": [
+      "Hey Arnold! — Arnold’s Halloween",
+      "Invader Zim — Halloween Spectacular of Spooky Doom",
+      "SpongeBob SquarePants — The Legend of Boo-kini Bottom",
+      "Hey Arnold! — Arnold's Christmas",
+      "Invader Zim — The Most Horrible X-Mas Ever"
+    ],
+    "GirlyPop": [
+      "Arthur's Perfect Christmas"
+    ],
+    "Off-Licence TV": [
+      "Doctor Who — A Christmas Carol"
+    ]
+  },
+  "entries": [
+    {
+      "title": "Coraline",
+      "identifier": "laika-studios-films",
+      "filename": "Coraline.mp4",
+      "url": "https://archive.org/download/laika-studios-films/Coraline.mp4",
+      "source_page": "https://archive.org/details/laika-studios-films",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "slot": "Halloween film",
+      "duration_seconds": 6036.31,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Paranorman",
+      "identifier": "laika-studios-films",
+      "filename": "Paranorman.mp4",
+      "url": "https://archive.org/download/laika-studios-films/Paranorman.mp4",
+      "source_page": "https://archive.org/details/laika-studios-films",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "slot": "Halloween film",
+      "duration_seconds": 5535.23,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "The Boxtrolls",
+      "identifier": "laika-studios-films",
+      "filename": "The Boxtrolls.mp4",
+      "url": "https://archive.org/download/laika-studios-films/The%20Boxtrolls.mp4",
+      "source_page": "https://archive.org/details/laika-studios-films",
+      "channels": [
+        "Dizzy",
+        "Cartoons Cartoons"
+      ],
+      "slot": "Family film",
+      "duration_seconds": 5771.27,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Kubo And The Two Strings",
+      "identifier": "laika-studios-films",
+      "filename": "Kubo And The Two Strings.mp4",
+      "url": "https://archive.org/download/laika-studios-films/Kubo%20And%20The%20Two%20Strings.mp4",
+      "source_page": "https://archive.org/details/laika-studios-films",
+      "channels": [
+        "Dizzy",
+        "Cartoons Cartoons"
+      ],
+      "slot": "Family film",
+      "duration_seconds": 6098.3,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Missing Link",
+      "identifier": "laika-studios-films",
+      "filename": "Missing Link.mp4",
+      "url": "https://archive.org/download/laika-studios-films/Missing%20Link.mp4",
+      "source_page": "https://archive.org/details/laika-studios-films",
+      "channels": [
+        "Dizzy",
+        "Cartoons Cartoons"
+      ],
+      "slot": "Family film",
+      "duration_seconds": 5683.83,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "9",
+      "identifier": "media-preservation-chamber_626",
+      "filename": "9.mp4",
+      "url": "https://archive.org/download/media-preservation-chamber_626/9.mp4",
+      "source_page": "https://archive.org/details/media-preservation-chamber_626",
+      "channels": [
+        "AAA"
+      ],
+      "slot": "Animated feature",
+      "duration_seconds": 4754.46,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "A Goofy Movie",
+      "identifier": "media-preservation-chamber_626",
+      "filename": "A Goofy Movie.mp4",
+      "url": "https://archive.org/download/media-preservation-chamber_626/A%20Goofy%20Movie.mp4",
+      "source_page": "https://archive.org/details/media-preservation-chamber_626",
+      "channels": [
+        "Dizzy"
+      ],
+      "slot": "Family film",
+      "duration_seconds": 4660.75,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "An Extremely Goofy Movie",
+      "identifier": "media-preservation-chamber_626",
+      "filename": "An Extremely Goofy Movie.mp4",
+      "url": "https://archive.org/download/media-preservation-chamber_626/An%20Extremely%20Goofy%20Movie.mp4",
+      "source_page": "https://archive.org/details/media-preservation-chamber_626",
+      "channels": [
+        "Dizzy"
+      ],
+      "slot": "Family film",
+      "duration_seconds": 4746.82,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Ed, Edd n Eddy's Big Picture Show",
+      "identifier": "media-preservation-chamber_626",
+      "filename": "Ed, Edd n Eddy's Big Picture Show.mp4",
+      "url": "https://archive.org/download/media-preservation-chamber_626/Ed%2C%20Edd%20n%20Eddy's%20Big%20Picture%20Show.mp4",
+      "source_page": "https://archive.org/details/media-preservation-chamber_626",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "slot": "Animated feature",
+      "duration_seconds": 5388.12,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Codename Kids Next Door Operation Z.E.R.O",
+      "identifier": "media-preservation-chamber_626",
+      "filename": "Codename Kids Next Door Operation Z.E.R.O.mp4",
+      "url": "https://archive.org/download/media-preservation-chamber_626/Codename%20Kids%20Next%20Door%20Operation%20Z.E.R.O.mp4",
+      "source_page": "https://archive.org/details/media-preservation-chamber_626",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "slot": "Animated feature",
+      "duration_seconds": 4374.36,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Dragon Ball Super — Broly (English Dub)",
+      "identifier": "media-preservation-chamber_626",
+      "filename": "Dragon Ball Super; Broly (English Dub).mp4",
+      "url": "https://archive.org/download/media-preservation-chamber_626/Dragon%20Ball%20Super%3B%20Broly%20(English%20Dub).mp4",
+      "source_page": "https://archive.org/details/media-preservation-chamber_626",
+      "channels": [
+        "Japanime"
+      ],
+      "slot": "Anime film",
+      "duration_seconds": 6001.85,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Dragon Ball Super — Super Hero (English Dub)",
+      "identifier": "media-preservation-chamber_626",
+      "filename": "Dragon Ball Super; Super Hero (English Dub).mp4",
+      "url": "https://archive.org/download/media-preservation-chamber_626/Dragon%20Ball%20Super%3B%20Super%20Hero%20(English%20Dub).mp4",
+      "source_page": "https://archive.org/details/media-preservation-chamber_626",
+      "channels": [
+        "Japanime"
+      ],
+      "slot": "Anime film",
+      "duration_seconds": 5986.88,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "The Day The Earth Blew Up A Looney Tunes Movie",
+      "identifier": "media-preservation-chamber_626",
+      "filename": "The Day The Earth Blew Up  A Looney Tunes Movie.mp4",
+      "url": "https://archive.org/download/media-preservation-chamber_626/The%20Day%20The%20Earth%20Blew%20Up%20%20A%20Looney%20Tunes%20Movie.mp4",
+      "source_page": "https://archive.org/details/media-preservation-chamber_626",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "slot": "Animated feature",
+      "duration_seconds": 5465.66,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "A Boy Named Charlie Brown",
+      "identifier": "media-preservation-chamber_626",
+      "filename": "A Boy Named Charlie Brown.mp4",
+      "url": "https://archive.org/download/media-preservation-chamber_626/A%20Boy%20Named%20Charlie%20Brown.mp4",
+      "source_page": "https://archive.org/details/media-preservation-chamber_626",
+      "channels": [
+        "90s Toons",
+        "Cartoons Cartoons"
+      ],
+      "slot": "Animation film",
+      "duration_seconds": 5154.04,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Animaniacs — Wakko's Wish",
+      "identifier": "media-preservation-chamber_626",
+      "filename": "Animaniacs; Wakko's Wish.mp4",
+      "url": "https://archive.org/download/media-preservation-chamber_626/Animaniacs%3B%20Wakko's%20Wish.mp4",
+      "source_page": "https://archive.org/details/media-preservation-chamber_626",
+      "channels": [
+        "90s Toons"
+      ],
+      "slot": "Animated feature",
+      "duration_seconds": 4773.9,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Adventure Time — The Creeps",
+      "identifier": "halloween-media-preservation-chamber_626",
+      "filename": "Adventure Time; The Creeps.mp4",
+      "url": "https://archive.org/download/halloween-media-preservation-chamber_626/Adventure%20Time%3B%20The%20Creeps.mp4",
+      "source_page": "https://archive.org/details/halloween-media-preservation-chamber_626",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "slot": "Halloween short",
+      "duration_seconds": 707.75,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Camp Lazlo - Hallobeanies",
+      "identifier": "halloween-media-preservation-chamber_626",
+      "filename": "Camp Lazlo - Hallobeanies.mp4",
+      "url": "https://archive.org/download/halloween-media-preservation-chamber_626/Camp%20Lazlo%20-%20Hallobeanies.mp4",
+      "source_page": "https://archive.org/details/halloween-media-preservation-chamber_626",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "slot": "Halloween short",
+      "duration_seconds": 764.45,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Ed, Edd n Eddy’s Boo Haw Haw",
+      "identifier": "halloween-media-preservation-chamber_626",
+      "filename": "Ed, Edd n Eddy’s Boo Haw Haw.mp4",
+      "url": "https://archive.org/download/halloween-media-preservation-chamber_626/Ed%2C%20Edd%20n%20Eddy%E2%80%99s%20Boo%20Haw%20Haw.mp4",
+      "source_page": "https://archive.org/details/halloween-media-preservation-chamber_626",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "slot": "Halloween special",
+      "duration_seconds": 1473.24,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Garfield's Halloween Adventure",
+      "identifier": "halloween-media-preservation-chamber_626",
+      "filename": "Garfield's Halloween Adventure.mp4",
+      "url": "https://archive.org/download/halloween-media-preservation-chamber_626/Garfield's%20Halloween%20Adventure.mp4",
+      "source_page": "https://archive.org/details/halloween-media-preservation-chamber_626",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "slot": "Halloween special",
+      "duration_seconds": 1451.04,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Gravity Falls — Summerween",
+      "identifier": "halloween-media-preservation-chamber_626",
+      "filename": "Gravity Falls; Summerween.mp4",
+      "url": "https://archive.org/download/halloween-media-preservation-chamber_626/Gravity%20Falls%3B%20Summerween.mp4",
+      "source_page": "https://archive.org/details/halloween-media-preservation-chamber_626",
+      "channels": [
+        "Dizzy"
+      ],
+      "slot": "Halloween special",
+      "duration_seconds": 1354.92,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Gravity Falls — Little Gift Shop Of Horrors",
+      "identifier": "halloween-media-preservation-chamber_626",
+      "filename": "Gravity Falls; Little Gift Shop Of Horrors.mp4",
+      "url": "https://archive.org/download/halloween-media-preservation-chamber_626/Gravity%20Falls%3B%20Little%20Gift%20Shop%20Of%20Horrors.mp4",
+      "source_page": "https://archive.org/details/halloween-media-preservation-chamber_626",
+      "channels": [
+        "Dizzy"
+      ],
+      "slot": "Halloween special",
+      "duration_seconds": 1444.01,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Hey Arnold! — Arnold’s Halloween",
+      "identifier": "halloween-media-preservation-chamber_626",
+      "filename": "Hey Arnold!; Arnold’s Halloween.mp4",
+      "url": "https://archive.org/download/halloween-media-preservation-chamber_626/Hey%20Arnold!%3B%20Arnold%E2%80%99s%20Halloween.mp4",
+      "source_page": "https://archive.org/details/halloween-media-preservation-chamber_626",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "slot": "Halloween special",
+      "duration_seconds": 1369.37,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Invader Zim — Halloween Spectacular of Spooky Doom",
+      "identifier": "halloween-media-preservation-chamber_626",
+      "filename": "Invader Zim; Halloween Spectacular of Spooky Doom.mp4",
+      "url": "https://archive.org/download/halloween-media-preservation-chamber_626/Invader%20Zim%3B%20Halloween%20Spectacular%20of%20Spooky%20Doom.mp4",
+      "source_page": "https://archive.org/details/halloween-media-preservation-chamber_626",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "slot": "Halloween special",
+      "duration_seconds": 1425.72,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Regular Show — Terror Tales of the Park",
+      "identifier": "halloween-media-preservation-chamber_626",
+      "filename": "Regular Show; Terror Tales of the Park.mp4",
+      "url": "https://archive.org/download/halloween-media-preservation-chamber_626/Regular%20Show%3B%20Terror%20Tales%20of%20the%20Park.mp4",
+      "source_page": "https://archive.org/details/halloween-media-preservation-chamber_626",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "slot": "Halloween special",
+      "duration_seconds": 1353.52,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Scary Godmother — Halloween Spooktacular",
+      "identifier": "halloween-media-preservation-chamber_626",
+      "filename": "Scary Godmother; Halloween Spooktacular.mp4",
+      "url": "https://archive.org/download/halloween-media-preservation-chamber_626/Scary%20Godmother%3B%20Halloween%20Spooktacular.mp4",
+      "source_page": "https://archive.org/details/halloween-media-preservation-chamber_626",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "slot": "Halloween special",
+      "duration_seconds": 2865.48,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Scary Godmother — The Revenge of Jimmy",
+      "identifier": "halloween-media-preservation-chamber_626",
+      "filename": "Scary Godmother; The Revenge of Jimmy.mp4",
+      "url": "https://archive.org/download/halloween-media-preservation-chamber_626/Scary%20Godmother%3B%20The%20Revenge%20of%20Jimmy.mp4",
+      "source_page": "https://archive.org/details/halloween-media-preservation-chamber_626",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "slot": "Halloween special",
+      "duration_seconds": 2776.13,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "SpongeBob SquarePants — The Legend of Boo-kini Bottom",
+      "identifier": "halloween-media-preservation-chamber_626",
+      "filename": "SpongeBob SquarePants; The Legend of Boo-kini Bottom.mp4",
+      "url": "https://archive.org/download/halloween-media-preservation-chamber_626/SpongeBob%20SquarePants%3B%20The%20Legend%20of%20Boo-kini%20Bottom.mp4",
+      "source_page": "https://archive.org/details/halloween-media-preservation-chamber_626",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "slot": "Halloween special",
+      "duration_seconds": 1420.37,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Kim Possible — October 31st",
+      "identifier": "halloween-media-preservation-chamber_626",
+      "filename": "Kim Possible; October 31st.mp4",
+      "url": "https://archive.org/download/halloween-media-preservation-chamber_626/Kim%20Possible%3B%20October%2031st.mp4",
+      "source_page": "https://archive.org/details/halloween-media-preservation-chamber_626",
+      "channels": [
+        "Dizzy"
+      ],
+      "slot": "Halloween special",
+      "duration_seconds": 1317.63,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "The Amazing World of Gumball — Halloween",
+      "identifier": "halloween-media-preservation-chamber_626",
+      "filename": "The Amazing World of Gumball; Halloween.mp4",
+      "url": "https://archive.org/download/halloween-media-preservation-chamber_626/The%20Amazing%20World%20of%20Gumball%3B%20Halloween.mp4",
+      "source_page": "https://archive.org/details/halloween-media-preservation-chamber_626",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "slot": "Halloween short",
+      "duration_seconds": 660.84,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "A Chipmunk Christmas",
+      "identifier": "christmas-media-preservation-chamber_626",
+      "filename": "A Chipmunk Christmas.mp4",
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/A%20Chipmunk%20Christmas.mp4",
+      "source_page": "https://archive.org/details/christmas-media-preservation-chamber_626",
+      "channels": [
+        "90s Toons"
+      ],
+      "slot": "Christmas special",
+      "duration_seconds": 1458.59,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "A Scooby-Doo Christmas",
+      "identifier": "christmas-media-preservation-chamber_626",
+      "filename": "A Scooby-Doo Christmas.mp4",
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/A%20Scooby-Doo%20Christmas.mp4",
+      "source_page": "https://archive.org/details/christmas-media-preservation-chamber_626",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "slot": "Christmas special",
+      "duration_seconds": 1312.79,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "A Phineas and Ferb Family Christmas",
+      "identifier": "christmas-media-preservation-chamber_626",
+      "filename": "A Phineas and Ferb Family Christmas.mp4",
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/A%20Phineas%20and%20Ferb%20Family%20Christmas.mp4",
+      "source_page": "https://archive.org/details/christmas-media-preservation-chamber_626",
+      "channels": [
+        "Dizzy"
+      ],
+      "slot": "Christmas special",
+      "duration_seconds": 728.4,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Arthur's Perfect Christmas",
+      "identifier": "christmas-media-preservation-chamber_626",
+      "filename": "Arthur's Perfect Christmas.mp4",
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Arthur's%20Perfect%20Christmas.mp4",
+      "source_page": "https://archive.org/details/christmas-media-preservation-chamber_626",
+      "channels": [
+        "GirlyPop"
+      ],
+      "slot": "Christmas special",
+      "duration_seconds": 3271.1,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Bah, Humduck! - A Looney Tunes Christmas",
+      "identifier": "christmas-media-preservation-chamber_626",
+      "filename": "Bah, Humduck! - A Looney Tunes Christmas.mp4",
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Bah%2C%20Humduck!%20-%20A%20Looney%20Tunes%20Christmas.mp4",
+      "source_page": "https://archive.org/details/christmas-media-preservation-chamber_626",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "slot": "Christmas special",
+      "duration_seconds": 2774.16,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Doctor Who — A Christmas Carol",
+      "identifier": "christmas-media-preservation-chamber_626",
+      "filename": "Doctor Who; A Christmas Carol.mp4",
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Doctor%20Who%3B%20A%20Christmas%20Carol.mp4",
+      "source_page": "https://archive.org/details/christmas-media-preservation-chamber_626",
+      "channels": [
+        "Off-Licence TV"
+      ],
+      "slot": "Christmas special",
+      "duration_seconds": 3708,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Ed, Edd n Eddy’s — Jingle Jingle Jangle",
+      "identifier": "christmas-media-preservation-chamber_626",
+      "filename": "Ed, Edd n Eddy’s; Jingle Jingle Jangle.mp4",
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Ed%2C%20Edd%20n%20Eddy%E2%80%99s%3B%20Jingle%20Jingle%20Jangle.mp4",
+      "source_page": "https://archive.org/details/christmas-media-preservation-chamber_626",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "slot": "Christmas special",
+      "duration_seconds": 1596.51,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Hey Arnold! — Arnold's Christmas",
+      "identifier": "christmas-media-preservation-chamber_626",
+      "filename": "Hey Arnold!; Arnold's Christmas.mp4",
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Hey%20Arnold!%3B%20Arnold's%20Christmas.mp4",
+      "source_page": "https://archive.org/details/christmas-media-preservation-chamber_626",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "slot": "Christmas special",
+      "duration_seconds": 1447.11,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Mickey's Once Upon A Christmas",
+      "identifier": "christmas-media-preservation-chamber_626",
+      "filename": "Mickey's Once Upon A Christmas.mp4",
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Mickey's%20Once%20Upon%20A%20Christmas.mp4",
+      "source_page": "https://archive.org/details/christmas-media-preservation-chamber_626",
+      "channels": [
+        "Dizzy"
+      ],
+      "slot": "Christmas special",
+      "duration_seconds": 3950,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Moral Orel — The Best Christmas Ever",
+      "identifier": "christmas-media-preservation-chamber_626",
+      "filename": "Moral Orel; The Best Christmas Ever.mp4",
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Moral%20Orel%3B%20The%20Best%20Christmas%20Ever.mp4",
+      "source_page": "https://archive.org/details/christmas-media-preservation-chamber_626",
+      "channels": [
+        "AAA"
+      ],
+      "slot": "Christmas special",
+      "duration_seconds": 705.59,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Regular Show — The Christmas Special",
+      "identifier": "christmas-media-preservation-chamber_626",
+      "filename": "Regular Show; The Christmas Special.mp4",
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Regular%20Show%3B%20The%20Christmas%20Special.mp4",
+      "source_page": "https://archive.org/details/christmas-media-preservation-chamber_626",
+      "channels": [
+        "Cartoons Cartoons"
+      ],
+      "slot": "Christmas special",
+      "duration_seconds": 1367.31,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Pokemon — Pikachu's Winter Vacation",
+      "identifier": "christmas-media-preservation-chamber_626",
+      "filename": "Pokemon; Pikachu's Winter Vacation.mp4",
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Pokemon%3B%20Pikachu's%20Winter%20Vacation.mp4",
+      "source_page": "https://archive.org/details/christmas-media-preservation-chamber_626",
+      "channels": [
+        "Japanime"
+      ],
+      "slot": "Christmas special",
+      "duration_seconds": 1074.88,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": false,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    },
+    {
+      "title": "Invader Zim — The Most Horrible X-Mas Ever",
+      "identifier": "christmas-media-preservation-chamber_626",
+      "filename": "Invader Zim; The Most Horrible X-Mas Ever.mp4",
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Invader%20Zim%3B%20The%20Most%20Horrible%20X-Mas%20Ever.mp4",
+      "source_page": "https://archive.org/details/christmas-media-preservation-chamber_626",
+      "channels": [
+        "Dickleodeon"
+      ],
+      "slot": "Christmas special",
+      "duration_seconds": 1478.52,
+      "duplicate_url_in_library": false,
+      "possible_existing_title": true,
+      "audio_video_verified": false,
+      "playback_verified": false,
+      "rights_verified": false,
+      "status": "candidate — metadata checked, playback pending"
+    }
+  ]
+}
