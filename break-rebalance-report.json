@@ -1,6 +1,6 @@
 {
   "version": "2026-10",
-  "policy": "One ident per commercial block, no repeated adverts within a block; evening short programmes fill long 18:45–19:00 intervals",
+  "policy": "At most one station ident per commercial break; prioritise distinct adverts, rotating them only when a station's catalogue is too small; use measured short programmes to reduce oversized pre-19:00 breaks",
   "breaks": 174710,
   "identsBefore": 1180161,
   "identsAfter": 174691,
