@@ -59,7 +59,8 @@ for(const [month,m,days] of [['october',10,[28,29]],['december',12,[1,6,12,24,25
      if(m===12)report.christmas_ads_in_december++;
      else report.christmas_ads_in_october++;
     }
-    if(p.type==='Filler'){
+    // Overnight fireplace video is a real looping programme, not a holding card.
+    if(p.type==='Filler'&&p.presentation===true){
      const secs=p.broadcast_end_seconds-p.broadcast_start_seconds;
      audit.hold_minutes+=secs/60;report.max_intermission_seconds=Math.max(report.max_intermission_seconds,secs);
      if(secs>180)report.longest_holds.push({month,day,channel:ch.name,seconds:Math.round(secs),at:Math.round(p.broadcast_start_seconds/60),block:p.block});
