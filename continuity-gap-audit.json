@@ -1,0 +1,1310 @@
+{
+  "dates": [
+    "october 28",
+    "october 29",
+    "december 1",
+    "december 6",
+    "december 24",
+    "december 25"
+  ],
+  "stats": {
+    "90s Toons": {
+      "sampled": 6,
+      "holding_minutes": 116.31371666666728,
+      "long_holding": 11,
+      "max_holding_minutes": 3.9879000000000815
+    },
+    "Cartoons Cartoons": {
+      "sampled": 6,
+      "holding_minutes": 70.4152833333353,
+      "long_holding": 0,
+      "max_holding_minutes": 2.6118333333334403
+    },
+    "Japanime": {
+      "sampled": 6,
+      "holding_minutes": 779.787816666666,
+      "long_holding": 105,
+      "max_holding_minutes": 11.165416666666655
+    },
+    "Off-Licence TV": {
+      "sampled": 6,
+      "holding_minutes": 433.56235000000044,
+      "long_holding": 68,
+      "max_holding_minutes": 8.777833333333303
+    },
+    "Star Spangled TV": {
+      "sampled": 6,
+      "holding_minutes": 185.8346500000003,
+      "long_holding": 17,
+      "max_holding_minutes": 12.227666666666725
+    },
+    "AAA": {
+      "sampled": 6,
+      "holding_minutes": 150.92051666666572,
+      "long_holding": 9,
+      "max_holding_minutes": 6.392000000000068
+    },
+    "Dickleodeon": {
+      "sampled": 6,
+      "holding_minutes": 191.56029999999993,
+      "long_holding": 21,
+      "max_holding_minutes": 4.913283333333311
+    },
+    "GirlyPop": {
+      "sampled": 6,
+      "holding_minutes": 285.7241499999998,
+      "long_holding": 37,
+      "max_holding_minutes": 4.850299999999939
+    },
+    "Dizzy": {
+      "sampled": 6,
+      "holding_minutes": 331.91266666666684,
+      "long_holding": 36,
+      "max_holding_minutes": 9.31318333333329
+    },
+    "What": {
+      "sampled": 6,
+      "holding_minutes": 350.77001666666627,
+      "long_holding": 43,
+      "max_holding_minutes": 18.591833333333245
+    }
+  },
+  "examples": [
+    {
+      "date": "october 28",
+      "channel": "90s Toons",
+      "at1845": {
+        "title": "Gargoyles — S01E02 — Awakening (2)",
+        "type": "Episode",
+        "start": 1103.11,
+        "end": 1125.92
+      },
+      "holdingMinutes": 19.9,
+      "longHolding": [
+        {
+          "start": 1076.9,
+          "duration": 3.1
+        },
+        {
+          "start": 1196.5,
+          "duration": 3.5
+        }
+      ]
+    },
+    {
+      "date": "october 28",
+      "channel": "Japanime",
+      "at1845": {
+        "title": "Dragon Ball Z Kai — S01E35 — Dragon Ball Kai - 35",
+        "type": "Episode",
+        "start": 1103.29,
+        "end": 1126.32
+      },
+      "holdingMinutes": 148.2,
+      "longHolding": [
+        {
+          "start": 50.8,
+          "duration": 9.2
+        },
+        {
+          "start": 111.5,
+          "duration": 8.5
+        },
+        {
+          "start": 146,
+          "duration": 4
+        }
+      ]
+    },
+    {
+      "date": "october 28",
+      "channel": "Off-Licence TV",
+      "at1845": {
+        "title": "Come Fly With Me — S01E01",
+        "type": "Episode",
+        "start": 1110,
+        "end": 1138.92
+      },
+      "holdingMinutes": 77.7,
+      "longHolding": [
+        {
+          "start": 175.9,
+          "duration": 4.1
+        },
+        {
+          "start": 411.2,
+          "duration": 8.8
+        },
+        {
+          "start": 526.5,
+          "duration": 3.5
+        }
+      ]
+    },
+    {
+      "date": "october 28",
+      "channel": "Star Spangled TV",
+      "at1845": {
+        "title": "Home Improvement — DISC313",
+        "type": "Episode",
+        "start": 1124.77,
+        "end": 1131.22
+      },
+      "holdingMinutes": 26.5,
+      "longHolding": [
+        {
+          "start": 386.6,
+          "duration": 3.4
+        },
+        {
+          "start": 896.2,
+          "duration": 3.8
+        }
+      ]
+    },
+    {
+      "date": "october 28",
+      "channel": "Dickleodeon",
+      "at1845": {
+        "title": "The Legend of Korra — S02E13 — Chapter 13 - Darkness Falls",
+        "type": "Episode",
+        "start": 1103.97,
+        "end": 1127.85
+      },
+      "holdingMinutes": 29.8,
+      "longHolding": [
+        {
+          "start": 415.1,
+          "duration": 4.9
+        },
+        {
+          "start": 716.7,
+          "duration": 3.3
+        },
+        {
+          "start": 1076.6,
+          "duration": 3.4
+        }
+      ]
+    },
+    {
+      "date": "october 28",
+      "channel": "GirlyPop",
+      "at1845": {
+        "title": "Braceface — S03E06 — The Friend Zone",
+        "type": "Episode",
+        "start": 1102.68,
+        "end": 1125.08
+      },
+      "holdingMinutes": 50.2,
+      "longHolding": [
+        {
+          "start": 115.8,
+          "duration": 4.2
+        },
+        {
+          "start": 655.7,
+          "duration": 4.3
+        },
+        {
+          "start": 896,
+          "duration": 4
+        }
+      ]
+    },
+    {
+      "date": "october 28",
+      "channel": "Dizzy",
+      "at1845": {
+        "title": "Even Stevens — S01E15 — Heck of a Haukkah (",
+        "type": "Episode",
+        "start": 1102.82,
+        "end": 1125.39
+      },
+      "holdingMinutes": 47.4,
+      "longHolding": [
+        {
+          "start": 836.9,
+          "duration": 3.1
+        },
+        {
+          "start": 1316,
+          "duration": 4
+        },
+        {
+          "start": 1375.5,
+          "duration": 4.5
+        }
+      ]
+    },
+    {
+      "date": "october 28",
+      "channel": "What",
+      "at1845": {
+        "title": "Unsolved Mysteries Ghosts — D110",
+        "type": "Episode",
+        "start": 1122.36,
+        "end": 1129.65
+      },
+      "holdingMinutes": 67.2,
+      "longHolding": [
+        {
+          "start": 116.4,
+          "duration": 3.6
+        },
+        {
+          "start": 415.8,
+          "duration": 4.2
+        },
+        {
+          "start": 550.8,
+          "duration": 4.2
+        }
+      ]
+    },
+    {
+      "date": "october 29",
+      "channel": "90s Toons",
+      "at1845": {
+        "title": "Gargoyles — S01E04 — Awakening (4)",
+        "type": "Episode",
+        "start": 1103.18,
+        "end": 1126.07
+      },
+      "holdingMinutes": 25,
+      "longHolding": [
+        {
+          "start": 1076.9,
+          "duration": 3.1
+        },
+        {
+          "start": 1436,
+          "duration": 4
+        }
+      ]
+    },
+    {
+      "date": "october 29",
+      "channel": "Japanime",
+      "at1845": {
+        "title": "Dragon Ball Z Kai — S01E39 — Dragon Ball Kai - 39",
+        "type": "Episode",
+        "start": 1103.29,
+        "end": 1126.33
+      },
+      "holdingMinutes": 134.9,
+      "longHolding": [
+        {
+          "start": 111.4,
+          "duration": 8.6
+        },
+        {
+          "start": 145.8,
+          "duration": 4.2
+        },
+        {
+          "start": 198.9,
+          "duration": 11.1
+        }
+      ]
+    },
+    {
+      "date": "october 29",
+      "channel": "Off-Licence TV",
+      "at1845": {
+        "title": "Come Fly With Me — S01E02",
+        "type": "Episode",
+        "start": 1110,
+        "end": 1138.52
+      },
+      "holdingMinutes": 76.4,
+      "longHolding": [
+        {
+          "start": 116.9,
+          "duration": 3.1
+        },
+        {
+          "start": 146.6,
+          "duration": 3.4
+        },
+        {
+          "start": 176.5,
+          "duration": 3.5
+        }
+      ]
+    },
+    {
+      "date": "october 29",
+      "channel": "Star Spangled TV",
+      "at1845": {
+        "title": "Home Improvement — DISC313",
+        "type": "Episode",
+        "start": 1124.75,
+        "end": 1131.2
+      },
+      "holdingMinutes": 39.3,
+      "longHolding": [
+        {
+          "start": 386.5,
+          "duration": 3.5
+        },
+        {
+          "start": 896.7,
+          "duration": 3.3
+        },
+        {
+          "start": 1077,
+          "duration": 3
+        }
+      ]
+    },
+    {
+      "date": "october 29",
+      "channel": "Dickleodeon",
+      "at1845": {
+        "title": "SpongeBob SquarePants — S16E09 — Sponge Bob Square Pants S16E09",
+        "type": "Episode",
+        "start": 1124.93,
+        "end": 1131.15
+      },
+      "holdingMinutes": 32.2,
+      "longHolding": [
+        {
+          "start": 415.3,
+          "duration": 4.7
+        },
+        {
+          "start": 715.5,
+          "duration": 4.5
+        }
+      ]
+    },
+    {
+      "date": "october 29",
+      "channel": "GirlyPop",
+      "at1845": {
+        "title": "Franny’s Feet — S01E12 — Birds of a Feather",
+        "type": "Episode",
+        "start": 1124.91,
+        "end": 1136.46
+      },
+      "holdingMinutes": 50.8,
+      "longHolding": [
+        {
+          "start": 115.8,
+          "duration": 4.2
+        },
+        {
+          "start": 206.1,
+          "duration": 3.9
+        },
+        {
+          "start": 655.3,
+          "duration": 4.7
+        }
+      ]
+    },
+    {
+      "date": "october 29",
+      "channel": "Dizzy",
+      "at1845": {
+        "title": "Even Stevens — S01E17 — Get a Job (",
+        "type": "Episode",
+        "start": 1102.82,
+        "end": 1125.39
+      },
+      "holdingMinutes": 41.9,
+      "longHolding": [
+        {
+          "start": 836.9,
+          "duration": 3.1
+        },
+        {
+          "start": 896.8,
+          "duration": 3.2
+        },
+        {
+          "start": 1376.8,
+          "duration": 3.2
+        }
+      ]
+    },
+    {
+      "date": "october 29",
+      "channel": "What",
+      "at1845": {
+        "title": "Viva La Bam Complete Seasons 4 & 5 — VIVA LA BAM SEASON 4 AND 5 DISC 310",
+        "type": "Episode",
+        "start": 1118.58,
+        "end": 1126.31
+      },
+      "holdingMinutes": 67.3,
+      "longHolding": [
+        {
+          "start": 385.8,
+          "duration": 4.2
+        },
+        {
+          "start": 416,
+          "duration": 4
+        },
+        {
+          "start": 610,
+          "duration": 5
+        }
+      ]
+    },
+    {
+      "date": "december 1",
+      "channel": "90s Toons",
+      "at1845": {
+        "title": "A Flintstone Christmas (1977)",
+        "type": "Special",
+        "start": 1080,
+        "end": 1128.23
+      },
+      "holdingMinutes": 22.8,
+      "longHolding": [
+        {
+          "start": 1076.9,
+          "duration": 3.1
+        },
+        {
+          "start": 1256.7,
+          "duration": 3.3
+        }
+      ]
+    },
+    {
+      "date": "december 1",
+      "channel": "Japanime",
+      "at1845": {
+        "title": "Dragon Ball Z Kai — S01E04 — Dragon Ball Kai - 04",
+        "type": "Episode",
+        "start": 1103.29,
+        "end": 1126.33
+      },
+      "holdingMinutes": 127,
+      "longHolding": [
+        {
+          "start": 51.6,
+          "duration": 8.4
+        },
+        {
+          "start": 145.9,
+          "duration": 4.1
+        },
+        {
+          "start": 198.8,
+          "duration": 11.2
+        }
+      ]
+    },
+    {
+      "date": "december 1",
+      "channel": "Off-Licence TV",
+      "at1845": {
+        "title": "Come Fly With Me — S01E05",
+        "type": "Episode",
+        "start": 1110,
+        "end": 1138.05
+      },
+      "holdingMinutes": 70.5,
+      "longHolding": [
+        {
+          "start": 146.9,
+          "duration": 3.1
+        },
+        {
+          "start": 525.9,
+          "duration": 4.1
+        },
+        {
+          "start": 576.6,
+          "duration": 8.4
+        }
+      ]
+    },
+    {
+      "date": "december 1",
+      "channel": "Star Spangled TV",
+      "at1845": {
+        "title": "Trailer Park Boys The Complete Third Season — TRAILER PARK BOYS S3 D230",
+        "type": "Episode",
+        "start": 1124.35,
+        "end": 1132.81
+      },
+      "holdingMinutes": 28.5,
+      "longHolding": [
+        {
+          "start": 896.5,
+          "duration": 3.5
+        },
+        {
+          "start": 1076.9,
+          "duration": 3.1
+        },
+        {
+          "start": 1196.2,
+          "duration": 3.8
+        }
+      ]
+    },
+    {
+      "date": "december 1",
+      "channel": "AAA",
+      "at1845": {
+        "title": "Beavis and Butt-Head — S07E30 — S7 EP 30 Die fly die",
+        "type": "Episode",
+        "start": 1124.04,
+        "end": 1130.51
+      },
+      "holdingMinutes": 36.5,
+      "longHolding": [
+        {
+          "start": 896.8,
+          "duration": 3.2
+        },
+        {
+          "start": 956.2,
+          "duration": 3.8
+        },
+        {
+          "start": 1314.2,
+          "duration": 5.8
+        }
+      ]
+    },
+    {
+      "date": "december 1",
+      "channel": "Dickleodeon",
+      "at1845": {
+        "title": "A Sesame Street Christmas Carol (2006)",
+        "type": "Special",
+        "start": 1080,
+        "end": 1126.67
+      },
+      "holdingMinutes": 27,
+      "longHolding": [
+        {
+          "start": 326.2,
+          "duration": 3.8
+        },
+        {
+          "start": 415.4,
+          "duration": 4.6
+        },
+        {
+          "start": 1076.9,
+          "duration": 3.1
+        }
+      ]
+    },
+    {
+      "date": "december 1",
+      "channel": "GirlyPop",
+      "at1845": {
+        "title": "Franny’s Feet — S01E12 — Birds of a Feather",
+        "type": "Episode",
+        "start": 1124.79,
+        "end": 1136.34
+      },
+      "holdingMinutes": 44.2,
+      "longHolding": [
+        {
+          "start": 115.7,
+          "duration": 4.3
+        },
+        {
+          "start": 655.3,
+          "duration": 4.7
+        },
+        {
+          "start": 837,
+          "duration": 3
+        }
+      ]
+    },
+    {
+      "date": "december 1",
+      "channel": "Dizzy",
+      "at1845": {
+        "title": "A Walt Disney Christmas (1982)",
+        "type": "Special",
+        "start": 1080,
+        "end": 1132.23
+      },
+      "holdingMinutes": 66.2,
+      "longHolding": [
+        {
+          "start": 55.4,
+          "duration": 4.6
+        },
+        {
+          "start": 116.9,
+          "duration": 3.1
+        },
+        {
+          "start": 144.8,
+          "duration": 5.2
+        }
+      ]
+    },
+    {
+      "date": "december 1",
+      "channel": "What",
+      "at1845": {
+        "title": "jackass the box set — JACKASS D418",
+        "type": "Episode",
+        "start": 1122.47,
+        "end": 1128.19
+      },
+      "holdingMinutes": 43.9,
+      "longHolding": [
+        {
+          "start": 1013.7,
+          "duration": 6.3
+        },
+        {
+          "start": 1075,
+          "duration": 5
+        },
+        {
+          "start": 1256.2,
+          "duration": 3.8
+        }
+      ]
+    },
+    {
+      "date": "december 6",
+      "channel": "90s Toons",
+      "at1845": {
+        "title": "Gargoyles — S03E11 — To Serve Mankind",
+        "type": "Episode",
+        "start": 1102.62,
+        "end": 1125.11
+      },
+      "holdingMinutes": 13.4,
+      "longHolding": [
+        {
+          "start": 1256.7,
+          "duration": 3.3
+        }
+      ]
+    },
+    {
+      "date": "december 6",
+      "channel": "Japanime",
+      "at1845": {
+        "title": "Dragon Ball Z Kai — S01E24 — Dragon Ball Kai - 24",
+        "type": "Episode",
+        "start": 1103.29,
+        "end": 1126.33
+      },
+      "holdingMinutes": 116.3,
+      "longHolding": [
+        {
+          "start": 50.8,
+          "duration": 9.2
+        },
+        {
+          "start": 110.2,
+          "duration": 9.8
+        },
+        {
+          "start": 145.8,
+          "duration": 4.2
+        }
+      ]
+    },
+    {
+      "date": "december 6",
+      "channel": "Off-Licence TV",
+      "at1845": {
+        "title": "Come Fly With Me — S01E04",
+        "type": "Episode",
+        "start": 1110,
+        "end": 1138.2
+      },
+      "holdingMinutes": 64.6,
+      "longHolding": [
+        {
+          "start": 175.4,
+          "duration": 4.6
+        },
+        {
+          "start": 526.9,
+          "duration": 3.1
+        },
+        {
+          "start": 581.2,
+          "duration": 3.8
+        }
+      ]
+    },
+    {
+      "date": "december 6",
+      "channel": "Star Spangled TV",
+      "at1845": {
+        "title": "That ’70s Show — I'm Free",
+        "type": "Episode",
+        "start": 1104.27,
+        "end": 1125.69
+      },
+      "holdingMinutes": 24.2,
+      "longHolding": [
+        {
+          "start": 1076.6,
+          "duration": 3.4
+        }
+      ]
+    },
+    {
+      "date": "december 6",
+      "channel": "AAA",
+      "at1845": {
+        "title": "Beavis and Butt-Head — S07E30 — S7 EP 30 Die fly die",
+        "type": "Episode",
+        "start": 1124.04,
+        "end": 1130.51
+      },
+      "holdingMinutes": 19.3,
+      "longHolding": [
+        {
+          "start": 1437,
+          "duration": 3
+        }
+      ]
+    },
+    {
+      "date": "december 6",
+      "channel": "Dickleodeon",
+      "at1845": {
+        "title": "My Life as a Teenage Robot — S01E07 — Ear No Evil",
+        "type": "Episode",
+        "start": 1122.87,
+        "end": 1134.04
+      },
+      "holdingMinutes": 34.4,
+      "longHolding": [
+        {
+          "start": 325.6,
+          "duration": 4.4
+        },
+        {
+          "start": 415.6,
+          "duration": 4.4
+        },
+        {
+          "start": 716.6,
+          "duration": 3.4
+        }
+      ]
+    },
+    {
+      "date": "december 6",
+      "channel": "GirlyPop",
+      "at1845": {
+        "title": "Braceface — S03E01 — The Social Fabric",
+        "type": "Episode",
+        "start": 1102.7,
+        "end": 1125.14
+      },
+      "holdingMinutes": 39.8,
+      "longHolding": [
+        {
+          "start": 115.8,
+          "duration": 4.2
+        },
+        {
+          "start": 656.7,
+          "duration": 3.3
+        },
+        {
+          "start": 1256.8,
+          "duration": 3.2
+        }
+      ]
+    },
+    {
+      "date": "december 6",
+      "channel": "Dizzy",
+      "at1845": {
+        "title": "Even Stevens — S01E20 — Almost Perfect (",
+        "type": "Episode",
+        "start": 1102.79,
+        "end": 1125.36
+      },
+      "holdingMinutes": 59.5,
+      "longHolding": [
+        {
+          "start": 116.7,
+          "duration": 3.3
+        },
+        {
+          "start": 144.8,
+          "duration": 5.2
+        },
+        {
+          "start": 234.6,
+          "duration": 5.4
+        }
+      ]
+    },
+    {
+      "date": "december 6",
+      "channel": "What",
+      "at1845": {
+        "title": "jackass the box set — JACKASS D44",
+        "type": "Episode",
+        "start": 1122.78,
+        "end": 1129.29
+      },
+      "holdingMinutes": 55.5,
+      "longHolding": [
+        {
+          "start": 415.8,
+          "duration": 4.2
+        },
+        {
+          "start": 549.9,
+          "duration": 5.1
+        },
+        {
+          "start": 610.5,
+          "duration": 4.5
+        }
+      ]
+    },
+    {
+      "date": "december 24",
+      "channel": "90s Toons",
+      "at1845": {
+        "title": "Gargoyles — S02E02 — Metamorphosis",
+        "type": "Episode",
+        "start": 1103.27,
+        "end": 1126.11
+      },
+      "holdingMinutes": 16.7,
+      "longHolding": [
+        {
+          "start": 956.9,
+          "duration": 3.1
+        },
+        {
+          "start": 1316,
+          "duration": 4
+        }
+      ]
+    },
+    {
+      "date": "december 24",
+      "channel": "Japanime",
+      "at1845": {
+        "title": "Dragon Ball Z Kai — S01E96 — Dragon Ball Kai - 96",
+        "type": "Episode",
+        "start": 1103.29,
+        "end": 1126.32
+      },
+      "holdingMinutes": 122.7,
+      "longHolding": [
+        {
+          "start": 51.7,
+          "duration": 8.3
+        },
+        {
+          "start": 145.8,
+          "duration": 4.2
+        },
+        {
+          "start": 199,
+          "duration": 11
+        }
+      ]
+    },
+    {
+      "date": "december 24",
+      "channel": "Off-Licence TV",
+      "at1845": {
+        "title": "Come Fly With Me — S01E04",
+        "type": "Episode",
+        "start": 1110,
+        "end": 1138.2
+      },
+      "holdingMinutes": 68.5,
+      "longHolding": [
+        {
+          "start": 112.5,
+          "duration": 7.5
+        },
+        {
+          "start": 146.7,
+          "duration": 3.3
+        },
+        {
+          "start": 176.8,
+          "duration": 3.2
+        }
+      ]
+    },
+    {
+      "date": "december 24",
+      "channel": "Star Spangled TV",
+      "at1845": {
+        "title": "That ’70s Show — Who Are You",
+        "type": "Episode",
+        "start": 1103.43,
+        "end": 1125.16
+      },
+      "holdingMinutes": 37.5,
+      "longHolding": [
+        {
+          "start": 325.5,
+          "duration": 4.5
+        },
+        {
+          "start": 776.2,
+          "duration": 3.8
+        },
+        {
+          "start": 896.1,
+          "duration": 3.9
+        }
+      ]
+    },
+    {
+      "date": "december 24",
+      "channel": "AAA",
+      "at1845": {
+        "title": "Beavis and Butt-Head — S02E06 — S2 EP 06 At THe Side Show",
+        "type": "Episode",
+        "start": 1124.04,
+        "end": 1137.45
+      },
+      "holdingMinutes": 23.9,
+      "longHolding": [
+        {
+          "start": 1015.8,
+          "duration": 4.2
+        },
+        {
+          "start": 1315.9,
+          "duration": 4.1
+        }
+      ]
+    },
+    {
+      "date": "december 24",
+      "channel": "Dickleodeon",
+      "at1845": {
+        "title": "The Legend of Korra — S02E10 — Chapter 10 - A New Spiritual Age",
+        "type": "Episode",
+        "start": 1106.26,
+        "end": 1130.16
+      },
+      "holdingMinutes": 36.1,
+      "longHolding": [
+        {
+          "start": 325.6,
+          "duration": 4.4
+        },
+        {
+          "start": 416.1,
+          "duration": 3.9
+        },
+        {
+          "start": 536.8,
+          "duration": 3.2
+        }
+      ]
+    },
+    {
+      "date": "december 24",
+      "channel": "GirlyPop",
+      "at1845": {
+        "title": "Braceface — S01E08 — The Worst Date Ever Peroid",
+        "type": "Episode",
+        "start": 1117.03,
+        "end": 1139.48
+      },
+      "holdingMinutes": 53.2,
+      "longHolding": [
+        {
+          "start": 115.8,
+          "duration": 4.2
+        },
+        {
+          "start": 206.5,
+          "duration": 3.5
+        },
+        {
+          "start": 535.2,
+          "duration": 4.8
+        }
+      ]
+    },
+    {
+      "date": "december 24",
+      "channel": "Dizzy",
+      "at1845": {
+        "title": "Even Stevens — S02E15 — Sibling Rivalry (",
+        "type": "Episode",
+        "start": 1103.19,
+        "end": 1125.82
+      },
+      "holdingMinutes": 57.9,
+      "longHolding": [
+        {
+          "start": 144.7,
+          "duration": 5.3
+        },
+        {
+          "start": 234.7,
+          "duration": 5.3
+        },
+        {
+          "start": 324.5,
+          "duration": 5.5
+        }
+      ]
+    },
+    {
+      "date": "december 24",
+      "channel": "What",
+      "at1845": {
+        "title": "Unsolved Mysteries Ghosts — D29",
+        "type": "Episode",
+        "start": 1123.99,
+        "end": 1137.72
+      },
+      "holdingMinutes": 62.1,
+      "longHolding": [
+        {
+          "start": 385.7,
+          "duration": 4.3
+        },
+        {
+          "start": 415.8,
+          "duration": 4.2
+        },
+        {
+          "start": 610.8,
+          "duration": 4.2
+        }
+      ]
+    },
+    {
+      "date": "december 25",
+      "channel": "90s Toons",
+      "at1845": {
+        "title": "Pinky and the Brain — S01E18 — The Third Mouse",
+        "type": "Episode",
+        "start": 1123.79,
+        "end": 1138.15
+      },
+      "holdingMinutes": 18.4,
+      "longHolding": [
+        {
+          "start": 956.8,
+          "duration": 3.2
+        },
+        {
+          "start": 1316,
+          "duration": 4
+        }
+      ]
+    },
+    {
+      "date": "december 25",
+      "channel": "Japanime",
+      "at1845": {
+        "title": "Dragon Ball Z Kai — S01E100 — Dragon Ball Kai - 100",
+        "type": "Episode",
+        "start": 1103.37,
+        "end": 1126.49
+      },
+      "holdingMinutes": 130.7,
+      "longHolding": [
+        {
+          "start": 51.7,
+          "duration": 8.3
+        },
+        {
+          "start": 145.8,
+          "duration": 4.2
+        },
+        {
+          "start": 199,
+          "duration": 11
+        }
+      ]
+    },
+    {
+      "date": "december 25",
+      "channel": "Off-Licence TV",
+      "at1845": {
+        "title": "Come Fly With Me — S01E05",
+        "type": "Episode",
+        "start": 1110,
+        "end": 1138.05
+      },
+      "holdingMinutes": 75.8,
+      "longHolding": [
+        {
+          "start": 114.2,
+          "duration": 5.8
+        },
+        {
+          "start": 176.4,
+          "duration": 3.6
+        },
+        {
+          "start": 576.6,
+          "duration": 8.4
+        }
+      ]
+    },
+    {
+      "date": "december 25",
+      "channel": "Star Spangled TV",
+      "at1845": {
+        "title": "Trailer Park Boys The Complete Third Season — TRAILER PARK BOYS S3 D123",
+        "type": "Episode",
+        "start": 1123.55,
+        "end": 1138.01
+      },
+      "holdingMinutes": 29.9,
+      "longHolding": [
+        {
+          "start": 1255.6,
+          "duration": 4.4
+        },
+        {
+          "start": 1434.1,
+          "duration": 5.9
+        }
+      ]
+    },
+    {
+      "date": "december 25",
+      "channel": "AAA",
+      "at1845": {
+        "title": "Beavis and Butt-Head — S02E06 — S2 EP 06 At THe Side Show",
+        "type": "Episode",
+        "start": 1124.04,
+        "end": 1137.45
+      },
+      "holdingMinutes": 31.2,
+      "longHolding": [
+        {
+          "start": 896.8,
+          "duration": 3.2
+        },
+        {
+          "start": 1313.6,
+          "duration": 6.4
+        }
+      ]
+    },
+    {
+      "date": "december 25",
+      "channel": "Dickleodeon",
+      "at1845": {
+        "title": "The Legend of Korra — S03E02 — Chapter 03 - The Earth Queen",
+        "type": "Episode",
+        "start": 1105.99,
+        "end": 1128.44
+      },
+      "holdingMinutes": 32,
+      "longHolding": [
+        {
+          "start": 325.6,
+          "duration": 4.4
+        },
+        {
+          "start": 416.2,
+          "duration": 3.8
+        },
+        {
+          "start": 1076.2,
+          "duration": 3.8
+        }
+      ]
+    },
+    {
+      "date": "december 25",
+      "channel": "GirlyPop",
+      "at1845": {
+        "title": "Braceface — S01E11 — Twenty Four Hours",
+        "type": "Episode",
+        "start": 1103.99,
+        "end": 1126.43
+      },
+      "holdingMinutes": 47.5,
+      "longHolding": [
+        {
+          "start": 115.9,
+          "duration": 4.1
+        },
+        {
+          "start": 536.2,
+          "duration": 3.8
+        },
+        {
+          "start": 655.3,
+          "duration": 4.7
+        }
+      ]
+    },
+    {
+      "date": "december 25",
+      "channel": "Dizzy",
+      "at1845": {
+        "title": "Even Stevens — S02E16 — Wombat Wuv (",
+        "type": "Episode",
+        "start": 1104.24,
+        "end": 1126.87
+      },
+      "holdingMinutes": 59,
+      "longHolding": [
+        {
+          "start": 117,
+          "duration": 3
+        },
+        {
+          "start": 144.8,
+          "duration": 5.2
+        },
+        {
+          "start": 234.7,
+          "duration": 5.3
+        }
+      ]
+    },
+    {
+      "date": "december 25",
+      "channel": "What",
+      "at1845": {
+        "title": "Unsolved Mysteries Ghosts — D29",
+        "type": "Episode",
+        "start": 1123.97,
+        "end": 1137.7
+      },
+      "holdingMinutes": 54.8,
+      "longHolding": [
+        {
+          "start": 385,
+          "duration": 5
+        },
+        {
+          "start": 551.2,
+          "duration": 3.8
+        },
+        {
+          "start": 776.6,
+          "duration": 3.4
+        }
+      ]
+    }
+  ]
+}
