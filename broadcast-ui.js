@@ -54,7 +54,9 @@ const Broadcast=(()=>{
    const original=ed?originalEdSource(p):null;
    const expanded=urls.flatMap(u=>edArchive.test(u)&&/\.ia\.mp4(?:[?#]|$)/i.test(u)
     ?[u.replace(/\.ia\.mp4(?=[?#]|$)/i,'.mp4')]:[u]);
-   return [...new Set([original,...expanded].filter(Boolean))];
+   const key=String(p?.title||'').toLowerCase().replace(/[^a-z0-9]+/g,'');
+   const holidayAlternates=globalThis.BOOTLEG_HOLIDAY_ALTERNATES?.[key]||[];
+   return [...new Set([original,...expanded,...holidayAlternates].filter(Boolean))];
  }
  function day(){
   const raw=getRotationDay();if(!raw)return null;const p=BootlegClock.parts(now()),month=MONTHS.indexOf(currentMonth)+1,d=previewDate||p.day,y=p.year,key=`${y}:${month}:${d}`;
