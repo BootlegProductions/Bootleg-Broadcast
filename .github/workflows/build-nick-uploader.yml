@@ -23,5 +23,7 @@ jobs:
           git add nick-uploader-programmes.js nick-uploader-programmes-report.json
           if ! git diff --cached --quiet; then
             git commit -m "Add individually measured uploader episodes and family films to channels"
+            git fetch origin main
+            git rebase origin/main
             git push
           fi
