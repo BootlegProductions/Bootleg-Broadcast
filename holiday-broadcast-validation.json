@@ -1,0 +1,171 @@
+{
+  "status": "passed",
+  "on_demand_titles": 54,
+  "channels": {
+    "90s Toons": {
+      "library": 9,
+      "december_airings": 40,
+      "examples": [
+        "Tom and Jerry — The Night Before Christmas",
+        "Charlie Brown's Christmas Tales",
+        "A Charlie Brown Christmas"
+      ]
+    },
+    "Cartoons Cartoons": {
+      "library": 11,
+      "december_airings": 37,
+      "examples": [
+        "Bah, Humduck! - A Looney Tunes Christmas",
+        "The Garfield Show — Home for the Holidays"
+      ]
+    },
+    "Japanime": {
+      "library": 2,
+      "december_airings": 27,
+      "examples": [
+        "Pokemon — Pikachu's Winter Vacation"
+      ]
+    },
+    "Off-Licence TV": {
+      "library": 5,
+      "december_airings": 0,
+      "examples": []
+    },
+    "Star Spangled TV": {
+      "library": 6,
+      "december_airings": 6,
+      "examples": [
+        "Jack Frost"
+      ]
+    },
+    "AAA": {
+      "library": 3,
+      "december_airings": 38,
+      "examples": [
+        "Moral Orel — The Best Christmas Ever",
+        "Helluva Boss — Sinsmas"
+      ]
+    },
+    "Dickleodeon": {
+      "library": 0,
+      "december_airings": 0,
+      "examples": []
+    },
+    "GirlyPop": {
+      "library": 4,
+      "december_airings": 0,
+      "examples": []
+    },
+    "Dizzy": {
+      "library": 11,
+      "december_airings": 94,
+      "examples": [
+        "A Phineas and Ferb Family Christmas",
+        "Donald's Snow Fight",
+        "Pluto's Christmas Tree",
+        "Phineas and Ferb Christmas Vacation!"
+      ]
+    },
+    "What": {
+      "library": 3,
+      "december_airings": 31,
+      "examples": [
+        "Santa's Surprise"
+      ]
+    }
+  },
+  "december_short_airings": 273,
+  "holiday_airings": [
+    {
+      "date": "2026-12-01",
+      "channel": "90s Toons",
+      "title": "Tom and Jerry — The Night Before Christmas"
+    },
+    {
+      "date": "2026-12-01",
+      "channel": "Cartoons Cartoons",
+      "title": "Bah, Humduck! - A Looney Tunes Christmas"
+    },
+    {
+      "date": "2026-12-01",
+      "channel": "Cartoons Cartoons",
+      "title": "The Garfield Show — Home for the Holidays"
+    },
+    {
+      "date": "2026-12-01",
+      "channel": "Japanime",
+      "title": "Pokemon — Pikachu's Winter Vacation"
+    },
+    {
+      "date": "2026-12-01",
+      "channel": "AAA",
+      "title": "Moral Orel — The Best Christmas Ever"
+    },
+    {
+      "date": "2026-12-01",
+      "channel": "Dizzy",
+      "title": "A Phineas and Ferb Family Christmas"
+    },
+    {
+      "date": "2026-12-01",
+      "channel": "Dizzy",
+      "title": "Donald's Snow Fight"
+    },
+    {
+      "date": "2026-12-01",
+      "channel": "Dizzy",
+      "title": "Pluto's Christmas Tree"
+    },
+    {
+      "date": "2026-12-01",
+      "channel": "What",
+      "title": "Santa's Surprise"
+    },
+    {
+      "date": "2026-12-02",
+      "channel": "90s Toons",
+      "title": "Tom and Jerry — The Night Before Christmas"
+    },
+    {
+      "date": "2026-12-02",
+      "channel": "Cartoons Cartoons",
+      "title": "Bah, Humduck! - A Looney Tunes Christmas"
+    },
+    {
+      "date": "2026-12-02",
+      "channel": "Japanime",
+      "title": "Pokemon — Pikachu's Winter Vacation"
+    },
+    {
+      "date": "2026-12-02",
+      "channel": "AAA",
+      "title": "Moral Orel — The Best Christmas Ever"
+    },
+    {
+      "date": "2026-12-02",
+      "channel": "Dizzy",
+      "title": "A Phineas and Ferb Family Christmas"
+    },
+    {
+      "date": "2026-12-02",
+      "channel": "Dizzy",
+      "title": "Donald's Snow Fight"
+    },
+    {
+      "date": "2026-12-02",
+      "channel": "Dizzy",
+      "title": "Pluto's Christmas Tree"
+    },
+    {
+      "date": "2026-12-02",
+      "channel": "What",
+      "title": "Santa's Surprise"
+    },
+    {
+      "date": "2026-12-03",
+      "channel": "90s Toons",
+      "title": "Tom and Jerry — The Night Before Christmas"
+    }
+  ],
+  "non_december_christmas_slots": 0
+}
