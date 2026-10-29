@@ -1,0 +1,26 @@
+name: Inspect supplied Nickelodeon and Boomerang Archive media
+on:
+  push:
+    paths:
+      - '.github/workflows/scan-nick-boomerang.yml'
+      - 'tools/scan_nick_boomerang.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect source metadata, idents and uploader
+        run: python tools/scan_nick_boomerang.py
+      - name: Save inspected file inventory
+        run: |
+          git config user.name "Bootleg Broadcast Source Review"
+          git config user.email "actions@users.noreply.github.com"
+          git add archive-nick-boomerang-review.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record actual Nickelodeon and Boomerang video inventory"
+            git push
+          fi
