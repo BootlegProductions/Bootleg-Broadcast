@@ -29,7 +29,7 @@ for(const p of commercials){
 }
 const report={status:'passed',registered_programmes:media.length,registered_commercials:commercials.length,
  dates_checked:[],new_seasonal_airings:0,non_december_airings:0,christmas_ads_in_december:0,
- christmas_ads_in_october:0,max_intermission_seconds:0,airings_by_channel:{},sample_airings:[]};
+ christmas_ads_in_october:0,max_intermission_seconds:0,longest_holds:[],airings_by_channel:{},sample_airings:[]};
 for(const [month,m,days] of [['october',10,[28,29]],['december',12,[1,6,12,24,25]]]){
  const archive=JSON.parse(fs.readFileSync(path.join(ROOT,'schedules',month+'.json'),'utf8'));
  for(const day of days){
@@ -62,12 +62,14 @@ for(const [month,m,days] of [['october',10,[28,29]],['december',12,[1,6,12,24,25
     if(p.type==='Filler'){
      const secs=p.broadcast_end_seconds-p.broadcast_start_seconds;
      audit.hold_minutes+=secs/60;report.max_intermission_seconds=Math.max(report.max_intermission_seconds,secs);
+     if(secs>180)report.longest_holds.push({month,day,channel:ch.name,seconds:Math.round(secs),at:Math.round(p.broadcast_start_seconds/60),block:p.block});
     }
    }
   }
   report.dates_checked.push(audit);
  }
 }
+report.longest_holds.sort((a,b)=>b.seconds-a.seconds);report.longest_holds=report.longest_holds.slice(0,30);
 assert.equal(report.non_december_airings,0);
 assert.equal(report.christmas_ads_in_october,0);
 assert(report.new_seasonal_airings>0,'No new Christmas programmes were ever placed on air');
