@@ -1,0 +1,1694 @@
+{
+  "sources": [
+    {
+      "identifier": "lazy-town-s-01-e-03-featuring-sports-day",
+      "channel": "Dickleodeon",
+      "kind": "series",
+      "name": "LazyTown",
+      "archive_title": "LazyTown - Full Series",
+      "eligible_original_mp4": 78,
+      "already_in_catalogue_url": 0,
+      "existing_show_count": 81,
+      "videos": [
+        {
+          "filename": "LazyTown_S01E01_Featuring_ Welcome to LazyTown!.mp4",
+          "seconds": 1444.42,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E01_Featuring_%20Welcome%20to%20LazyTown%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E02_Featuring_ Defeeted.mp4",
+          "seconds": 1445.7,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E02_Featuring_%20Defeeted.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E03_Featuring_ Sports Day.mp4",
+          "seconds": 1448.11,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E03_Featuring_%20Sports%20Day.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E04_Featuring_ Crystal Caper.mp4",
+          "seconds": 1446.87,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E04_Featuring_%20Crystal%20Caper.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E05_Featuring_ Sleepless in LazyTown.mp4",
+          "seconds": 1449.43,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E05_Featuring_%20Sleepless%20in%20LazyTown.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E06_Featuring_ Swiped Sweets!.mp4",
+          "seconds": 1448.04,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E06_Featuring_%20Swiped%20Sweets%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E07_Featuring_ Hero for a Day.mp4",
+          "seconds": 1453.44,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E07_Featuring_%20Hero%20for%20a%20Day.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E08_Featuring_ Sportafake!.mp4",
+          "seconds": 1447.36,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E08_Featuring_%20Sportafake%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E09_Featuring_ Happy Brush Day!.mp4",
+          "seconds": 1448.36,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E09_Featuring_%20Happy%20Brush%20Day%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E10_Featuring_ Lazy Scouts.mp4",
+          "seconds": 1450.13,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E10_Featuring_%20Lazy%20Scouts.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E11_Featuring_ Dr_ Rottenstein!.mp4",
+          "seconds": 1453.44,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E11_Featuring_%20Dr_%20Rottenstein%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E12_Featuring_ Rottenbeard.mp4",
+          "seconds": 1452.37,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E12_Featuring_%20Rottenbeard.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E13_Featuring_ Cry Dinosaur.mp4",
+          "seconds": 1448.28,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E13_Featuring_%20Cry%20Dinosaur.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E14_Featuring_ My Treehouse.mp4",
+          "seconds": 1446.59,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E14_Featuring_%20My%20Treehouse.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E15_Featuring_ The Laziest Town.mp4",
+          "seconds": 1453.1,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E15_Featuring_%20The%20Laziest%20Town.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E16_Featuring_ Dear Diary.mp4",
+          "seconds": 1447.77,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E16_Featuring_%20Dear%20Diary.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E17_Featuring_ Zap It!.mp4",
+          "seconds": 1445.44,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E17_Featuring_%20Zap%20It%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E18_Featuring_ Records Day.mp4",
+          "seconds": 1449.05,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E18_Featuring_%20Records%20Day.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E19_Featuring_ Price Stingy.mp4",
+          "seconds": 1445.7,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E19_Featuring_%20Price%20Stingy.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E20_Featuring_ Pixelspix!.mp4",
+          "seconds": 1447.7,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E20_Featuring_%20Pixelspix%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E21_Featuring_ Play Day!.mp4",
+          "seconds": 1449.96,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E21_Featuring_%20Play%20Day%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E22_Featuring_ Remote Control.mp4",
+          "seconds": 1446.53,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E22_Featuring_%20Remote%20Control.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E23_Featuring_ Sportacus Who.mp4",
+          "seconds": 1445.21,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E23_Featuring_%20Sportacus%20Who.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E24_Featuring_ Soccer Sucker!.mp4",
+          "seconds": 1446.14,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E24_Featuring_%20Soccer%20Sucker%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E25_Featuring_ Miss Roberta.mp4",
+          "seconds": 1448.43,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E25_Featuring_%20Miss%20Roberta.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E26_Featuring_ LazyTown_s Newest Superhero!.mp4",
+          "seconds": 2793.22,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E26_Featuring_%20LazyTown_s%20Newest%20Superhero%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E27_Featuring_ Secret Agent Zero.mp4",
+          "seconds": 1445.25,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E27_Featuring_%20Secret%20Agent%20Zero.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E28_Featuring_ LazyTown_s Greatest Hits!.mp4",
+          "seconds": 1450.05,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E28_Featuring_%20LazyTown_s%20Greatest%20Hits%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E29_Featuring_ LazyTown_s Surprise Santa.mp4",
+          "seconds": 1446.59,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E29_Featuring_%20LazyTown_s%20Surprise%20Santa.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E30_Featuring_ Robbie_s Greatest Misses.mp4",
+          "seconds": 1445.7,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E30_Featuring_%20Robbie_s%20Greatest%20Misses.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E31_Featuring_ Sports Candy Festival!.mp4",
+          "seconds": 1445.8,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E31_Featuring_%20Sports%20Candy%20Festival%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E32_Featuring_ Dancing Duel!.mp4",
+          "seconds": 1445.97,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E32_Featuring_%20Dancing%20Duel%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E33_Featuring_ Ziggy_s Alien.mp4",
+          "seconds": 1445.59,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E33_Featuring_%20Ziggy_s%20Alien.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S01E34_Featuring_ Sportacus on the Move.mp4",
+          "seconds": 1445.29,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S01E34_Featuring_%20Sportacus%20on%20the%20Move.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S02E01_Featuring_ Rockin Robbie!.mp4",
+          "seconds": 1450.54,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S02E01_Featuring_%20Rockin%20Robbie%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S02E02_Featuring_ Little Sportacus.mp4",
+          "seconds": 1450.65,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S02E02_Featuring_%20Little%20Sportacus.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S02E03_Featuring_ Trash Trouble.mp4",
+          "seconds": 1441.47,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S02E03_Featuring_%20Trash%20Trouble.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S02E04_Featuring_ Double Trouble.mp4",
+          "seconds": 1451.71,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S02E04_Featuring_%20Double%20Trouble.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S02E05_Featuring_ Haunted Castle.mp4",
+          "seconds": 1435.29,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S02E05_Featuring_%20Haunted%20Castle.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S02E06_Featuring_ Snow Monster!.mp4",
+          "seconds": 1455.1,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S02E06_Featuring_%20Snow%20Monster%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S02E07_Featuring_ LazyTown Circus.mp4",
+          "seconds": 1448.26,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S02E07_Featuring_%20LazyTown%20Circus.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S02E08_Featuring_ School Scam.mp4",
+          "seconds": 1451.44,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S02E08_Featuring_%20School%20Scam.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S02E09_Featuring_ Pixel TV!.mp4",
+          "seconds": 1452.86,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S02E09_Featuring_%20Pixel%20TV%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S02E10_Featuring_ Friends Forever.mp4",
+          "seconds": 1453.76,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S02E10_Featuring_%20Friends%20Forever.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S02E11_Featuring_ Energy Book.mp4",
+          "seconds": 1450.37,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S02E11_Featuring_%20Energy%20Book.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S02E12_Featuring_ Birthday Surprise!.mp4",
+          "seconds": 1455.55,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S02E12_Featuring_%20Birthday%20Surprise%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S02E13_Featuring_ LazyTown Goes Digital.mp4",
+          "seconds": 1451.44,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S02E13_Featuring_%20LazyTown%20Goes%20Digital.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S02E14_Featuring_ The Lazy Genie.mp4",
+          "seconds": 1451.44,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S02E14_Featuring_%20The%20Lazy%20Genie.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S02E15_Featuring_ Once Upon a Time.mp4",
+          "seconds": 1447.7,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S02E15_Featuring_%20Once%20Upon%20a%20Time.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S02E16_Featuring_ The Lazy Rockets.mp4",
+          "seconds": 1451.69,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S02E16_Featuring_%20The%20Lazy%20Rockets.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S02E17_Featuring_ Dancing Dreams.mp4",
+          "seconds": 1451.8,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S02E17_Featuring_%20Dancing%20Dreams.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S02E18_Featuring_ Sportacus Saves the Toys!.mp4",
+          "seconds": 1454.27,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S02E18_Featuring_%20Sportacus%20Saves%20the%20Toys%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S03E01_Roboticus.mp4",
+          "seconds": 1383.05,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S03E01_Roboticus.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S03E02_The Greatest Gift 1080p HD.mp4",
+          "seconds": 1333.08,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S03E02_The%20Greatest%20Gift%201080p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S03E03_Little Pink Riding Hood 1080p HD.mp4",
+          "seconds": 1365.1,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S03E03_Little%20Pink%20Riding%20Hood%201080p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S03E04_Scavanger Hunt 1080p HD.mp4",
+          "seconds": 1374.04,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S03E04_Scavanger%20Hunt%201080p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S03E05_Who's Who 1080p HD.mp4",
+          "seconds": 1362.08,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S03E05_Who%27s%20Who%201080p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S03E06_Purple Panther Part 1 1080p HD.mp4",
+          "seconds": 1375.02,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S03E06_Purple%20Panther%20Part%201%201080p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S03E07_Purple Panther Part 2 1080p HD.mp4",
+          "seconds": 1364.1,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S03E07_Purple%20Panther%20Part%202%201080p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S03E08_The Blue Knight 1080p HD.mp4",
+          "seconds": 1389.09,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S03E08_The%20Blue%20Knight%201080p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S03E09_The First Day of Summer 1080p HD.mp4",
+          "seconds": 1396.1,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S03E09_The%20First%20Day%20of%20Summer%201080p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S03E10_The Lazy Cup 1080p HD.mp4",
+          "seconds": 1385.14,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S03E10_The%20Lazy%20Cup%201080p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S03E11_Chef Rottenfood 1080p HD.mp4",
+          "seconds": 1380.1,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S03E11_Chef%20Rottenfood%201080p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S03E12_Breakfast at Stephanie's 1080p HD.mp4",
+          "seconds": 1392.08,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S03E12_Breakfast%20at%20Stephanie%27s%201080p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S03E13_The Holiday Spirit 1080p HD.mp4",
+          "seconds": 1411.05,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S03E13_The%20Holiday%20Spirit%201080p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S04E01_Let's Go To The Moon 1072p HD.mp4",
+          "seconds": 1409.5,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S04E01_Let%27s%20Go%20To%20The%20Moon%201072p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S04E02_The Last Sports Candy 1072p HD.mp4",
+          "seconds": 1395.22,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S04E02_The%20Last%20Sports%20Candy%201072p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S04E03_Secret Friend Day 1072p HD.mp4",
+          "seconds": 1393.17,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S04E03_Secret%20Friend%20Day%201072p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S04E04_New Kid in Town 1072p HD.mp4",
+          "seconds": 1392.9,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S04E04_New%20Kid%20in%20Town%201072p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S04E05_Time to Learn 1072p HD.mp4",
+          "seconds": 1383.89,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S04E05_Time%20to%20Learn%201072p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S04E06_Princess Stephanie 1072p HD.mp4",
+          "seconds": 1401.6,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S04E06_Princess%20Stephanie%201072p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S04E07_Ziggy's Talking Teddy 1080p HD.mp4",
+          "seconds": 1396.05,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S04E07_Ziggy%27s%20Talking%20Teddy%201080p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S04E08_The Wizard Of Lazy Town 1080p HD.mp4",
+          "seconds": 1386.16,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S04E08_The%20Wizard%20Of%20Lazy%20Town%201080p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S04E09_The Baby Troll 1080p HD.mp4",
+          "seconds": 1394.94,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S04E09_The%20Baby%20Troll%201080p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S04E10_The Fortune Teller 1080p HD.mp4",
+          "seconds": 1384.05,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S04E10_The%20Fortune%20Teller%201080p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S04E11_Ghost Stoppers 1080p HD.mp4",
+          "seconds": 1405.02,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S04E11_Ghost%20Stoppers%201080p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S04E12_Robbie's Dream Team 1080p HD.mp4",
+          "seconds": 1375.06,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S04E12_Robbie%27s%20Dream%20Team%201080p%20HD.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "LazyTown_S04E13_Mystery Of The Pyramid 1080p HD.mp4",
+          "seconds": 1385.14,
+          "url": "https://archive.org/download/lazy-town-s-01-e-03-featuring-sports-day/LazyTown_S04E13_Mystery%20Of%20The%20Pyramid%201080p%20HD.mp4",
+          "duplicate_url": false
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "identifier": "i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202",
+      "channel": "Dickleodeon",
+      "kind": "series",
+      "name": "I Spy",
+      "archive_title": "I Spy HBO Family - Full Series",
+      "eligible_original_mp4": 26,
+      "already_in_catalogue_url": 0,
+      "existing_show_count": 0,
+      "videos": [
+        {
+          "filename": "I Spy S01E01 - A Mumble Monster_Picture Day Clouds Roll.mp4",
+          "seconds": 1516.2,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S01E01%20-%20A%20Mumble%20Monster_Picture%20Day%20Clouds%20Roll.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S01E02 - A Bike I Like_Tick Illy Hiccup.mp4",
+          "seconds": 1516.2,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S01E02%20-%20A%20Bike%20I%20Like_Tick%20Illy%20Hiccup.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S01E03 - A Broom, Whistle And A Drum_Sky High.mp4",
+          "seconds": 1516.2,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S01E03%20-%20A%20Broom%2C%20Whistle%20And%20A%20Drum_Sky%20High.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S01E04 - A Runaway Robot_Little Lost Lamb.mp4",
+          "seconds": 1516.2,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S01E04%20-%20A%20Runaway%20Robot_Little%20Lost%20Lamb.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S01E05 - A Starry Sky_Circus Things in All Three Rings.mp4",
+          "seconds": 1516.2,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S01E05%20-%20A%20Starry%20Sky_Circus%20Things%20in%20All%20Three%20Rings.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S01E06 - A Mumble Monster Mystery_Ceces Special Scrapbook.mp4",
+          "seconds": 1516.2,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S01E06%20-%20A%20Mumble%20Monster%20Mystery_Ceces%20Special%20Scrapbook.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S01E07 - A Thing That Flings_Seashells By The Seashore.mp4",
+          "seconds": 1516.2,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S01E07%20-%20A%20Thing%20That%20Flings_Seashells%20By%20The%20Seashore.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S01E08 - Home Run Fun_Race In A High Flying Place.mp4",
+          "seconds": 1516.2,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S01E08%20-%20Home%20Run%20Fun_Race%20In%20A%20High%20Flying%20Place.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S01E09 - A Mumble Monster Midday Snack_Polka Dot Princess.mp4",
+          "seconds": 1516.2,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S01E09%20-%20A%20Mumble%20Monster%20Midday%20Snack_Polka%20Dot%20Princess.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S01E10 - A Rockin Bronco_Wish For A Fish.mp4",
+          "seconds": 1516.2,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S01E10%20-%20A%20Rockin%20Bronco_Wish%20For%20A%20Fish.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S01E11 - A Bird Ive Heard_Super Silly Pizza.mp4",
+          "seconds": 1516.2,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S01E11%20-%20A%20Bird%20Ive%20Heard_Super%20Silly%20Pizza.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S01E12 - An Out of Luck Truck_A Kite in Flight.mp4",
+          "seconds": 1516.2,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S01E12%20-%20An%20Out%20of%20Luck%20Truck_A%20Kite%20in%20Flight.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S01E13 - A Campfire Night Light_Freewheelin Fun.mp4",
+          "seconds": 1519.77,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S01E13%20-%20A%20Campfire%20Night%20Light_Freewheelin%20Fun.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S02E01 - A Mumble Movie_A Book Wherever I Look.mp4",
+          "seconds": 1516.2,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S02E01%20-%20A%20Mumble%20Movie_A%20Book%20Wherever%20I%20Look.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S02E02 - A Surprise Before Your Eyes_Something Nice For The Mice.mp4",
+          "seconds": 1514.67,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S02E02%20-%20A%20Surprise%20Before%20Your%20Eyes_Something%20Nice%20For%20The%20Mice.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S02E03 - A Marble Maze Craze_Toys That Roam.mp4",
+          "seconds": 1514.67,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S02E03%20-%20A%20Marble%20Maze%20Craze_Toys%20That%20Roam.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S02E04 - A Rhyme Just in Time_A Toe Tapping Talent Show.mp4",
+          "seconds": 1514.67,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S02E04%20-%20A%20Rhyme%20Just%20in%20Time_A%20Toe%20Tapping%20Talent%20Show.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S02E05 - Red She Said_One Quick Magic Trick.mp4",
+          "seconds": 1514.67,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S02E05%20-%20Red%20She%20Said_One%20Quick%20Magic%20Trick.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S02E06 - A Superhero_A Silly Sleepover.mp4",
+          "seconds": 1514.67,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S02E06%20-%20A%20Superhero_A%20Silly%20Sleepover.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S02E07 - The Case Of The Missing Truck_Something Really Cool.mp4",
+          "seconds": 1514.7,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S02E07%20-%20The%20Case%20Of%20The%20Missing%20Truck_Something%20Really%20Cool.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S02E08 - The Best Car By Far_Something Fit For A Queen.mp4",
+          "seconds": 1514.67,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S02E08%20-%20The%20Best%20Car%20By%20Far_Something%20Fit%20For%20A%20Queen.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S02E09 - A Very Merry Musical_A Sled Up Ahead.mp4",
+          "seconds": 1514.17,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S02E09%20-%20A%20Very%20Merry%20Musical_A%20Sled%20Up%20Ahead.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S02E10 - A Rundown Robot_A Game Thats Not The Same.mp4",
+          "seconds": 1514.67,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S02E10%20-%20A%20Rundown%20Robot_A%20Game%20Thats%20Not%20The%20Same.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S02E11 - A Dinosaur With A Scritch-Scratch Itch_Fun And A Hole In A Hole.mp4",
+          "seconds": 1514.67,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S02E11%20-%20A%20Dinosaur%20With%20A%20Scritch-Scratch%20Itch_Fun%20And%20A%20Hole%20In%20A%20Hole.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S02E12 - A Moo In Act Two_A Train Back On Track.mp4",
+          "seconds": 1516.67,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S02E12%20-%20A%20Moo%20In%20Act%20Two_A%20Train%20Back%20On%20Track.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "I Spy S02E13 - Fun In The Jungle_A Squeeze For A Sneeze.mp4",
+          "seconds": 1514.7,
+          "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S02E13%20-%20Fun%20In%20The%20Jungle_A%20Squeeze%20For%20A%20Sneeze.mp4",
+          "duplicate_url": false
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "identifier": "figure_it_out_-_season_2_-_episode_06___578412314a427",
+      "channel": "Dickleodeon",
+      "kind": "series",
+      "name": "Figure It Out",
+      "archive_title": "Figure It Out 1997-1999 series",
+      "eligible_original_mp4": 159,
+      "already_in_catalogue_url": 0,
+      "existing_show_count": 0,
+      "videos": [
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_01___5784123149e39.mp4",
+          "seconds": 1461.3,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_01___5784123149e39.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_02___578412314a00b.mp4",
+          "seconds": 1460.14,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_02___578412314a00b.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_03___578412314a427.mp4",
+          "seconds": 1580.26,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_03___578412314a427.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_04___578412314a1d1.mp4",
+          "seconds": 1460.35,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_04___578412314a1d1.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_05___578412314a427.mp4",
+          "seconds": 1460.19,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_05___578412314a427.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_06___578412314a427.mp4",
+          "seconds": 1460.17,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_06___578412314a427.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_07___578412314a620.mp4",
+          "seconds": 1460.09,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_07___578412314a620.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_08___578412314a7fa.mp4",
+          "seconds": 1459.93,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_08___578412314a7fa.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_09___578412314a9c3.mp4",
+          "seconds": 1458.72,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_09___578412314a9c3.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_10___578412314adae.mp4",
+          "seconds": 1459.37,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_10___578412314adae.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_11___578416e159aaa.mp4",
+          "seconds": 1459.86,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_11___578416e159aaa.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_12___578416e15a320.mp4",
+          "seconds": 1459.47,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_12___578416e15a320.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_13___578416e15a53f.mp4",
+          "seconds": 1459.79,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_13___578416e15a53f.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_14___578416e15a73d.mp4",
+          "seconds": 1459.1,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_14___578416e15a73d.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_15___578416e15b11d.mp4",
+          "seconds": 1459.26,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_15___578416e15b11d.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_16___578416e15b50b.mp4",
+          "seconds": 1458.98,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_16___578416e15b50b.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_17___578416e15b6f8.mp4",
+          "seconds": 1459.4,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_17___578416e15b6f8.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_18___578416e15b8ab.mp4",
+          "seconds": 1460.33,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_18___578416e15b8ab.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_19___578416e15ba8a.mp4",
+          "seconds": 1458.84,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_19___578416e15ba8a.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_20___578416e15bc90.mp4",
+          "seconds": 1460.37,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_20___578416e15bc90.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_21___578416e15be56.mp4",
+          "seconds": 1459.4,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_21___578416e15be56.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_22___578416e15bffe.mp4",
+          "seconds": 1459.93,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_22___578416e15bffe.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_23___578416e15c198.mp4",
+          "seconds": 1459.75,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_23___578416e15c198.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_24___578416e15c399.mp4",
+          "seconds": 1459.4,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_24___578416e15c399.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_25___578416e15c571.mp4",
+          "seconds": 1460.37,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_25___578416e15c571.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_26___578416e15c722.mp4",
+          "seconds": 1459.14,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_26___578416e15c722.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_27___578416e15c8c5.mp4",
+          "seconds": 1459.3,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_27___578416e15c8c5.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_28___578416e15ca69.mp4",
+          "seconds": 1459.4,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_28___578416e15ca69.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_29___578416e15cc35.mp4",
+          "seconds": 1459.3,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_29___578416e15cc35.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_30___578416e15ce00.mp4",
+          "seconds": 1459.63,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_30___578416e15ce00.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_31___578416e15cfb7.mp4",
+          "seconds": 1460.37,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_31___578416e15cfb7.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_32___578416e15d191.mp4",
+          "seconds": 1458.91,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_32___578416e15d191.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_33___578416e15d752.mp4",
+          "seconds": 1460.44,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_33___578416e15d752.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_34___578416e15d91a.mp4",
+          "seconds": 1459.33,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_34___578416e15d91a.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_35___578416e15daff.mp4",
+          "seconds": 1459.44,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_35___578416e15daff.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_36___578416e15dce1.mp4",
+          "seconds": 1459.37,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_36___578416e15dce1.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_37___578416e15deb8.mp4",
+          "seconds": 1458.61,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_37___578416e15deb8.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_38___578416e15e0a0.mp4",
+          "seconds": 1459.07,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_38___578416e15e0a0.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_39___578416e15e277.mp4",
+          "seconds": 1458.86,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_39___578416e15e277.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_40___578416e15ebee.mp4",
+          "seconds": 1459.44,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_40___578416e15ebee.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_1_-_episode_41___578416e15edcc.mp4",
+          "seconds": 1458.86,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_41___578416e15edcc.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_01___578416e15ef76.mp4",
+          "seconds": 1459.33,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_01___578416e15ef76.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_02___578416e15f152.mp4",
+          "seconds": 1458.79,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_02___578416e15f152.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_03___578416e15f337.mp4",
+          "seconds": 1459.79,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_03___578416e15f337.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_04___578416e15f51e.mp4",
+          "seconds": 1459.86,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_04___578416e15f51e.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_05___578416e15f703.mp4",
+          "seconds": 1460.61,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_05___578416e15f703.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_06___578412314a427.mp4",
+          "seconds": 1580.42,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_06___578412314a427.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_07___578416e15f8c3.mp4",
+          "seconds": 1459.56,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_07___578416e15f8c3.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_08___578416e15fa8e.mp4",
+          "seconds": 1460.07,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_08___578416e15fa8e.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_09___578416e15fc70.mp4",
+          "seconds": 1460.07,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_09___578416e15fc70.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_10___578416e15fe6b.mp4",
+          "seconds": 1460.0,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_10___578416e15fe6b.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_11___578416e160046.mp4",
+          "seconds": 1459.98,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_11___578416e160046.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_12___578416e160221.mp4",
+          "seconds": 1458.98,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_12___578416e160221.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_13___578416e1603ff.mp4",
+          "seconds": 1459.84,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_13___578416e1603ff.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_14___578416e16080b.mp4",
+          "seconds": 1459.86,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_14___578416e16080b.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_15___578416e160ece.mp4",
+          "seconds": 1459.24,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_15___578416e160ece.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_16___578416e1610d2.mp4",
+          "seconds": 1459.33,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_16___578416e1610d2.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_17___578416e161419.mp4",
+          "seconds": 1459.07,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_17___578416e161419.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_18___578416e161607.mp4",
+          "seconds": 1458.84,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_18___578416e161607.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_19___578416e161aec.mp4",
+          "seconds": 1458.84,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_19___578416e161aec.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_20___578416e161cb1.mp4",
+          "seconds": 1459.37,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_20___578416e161cb1.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_21___578416e162141.mp4",
+          "seconds": 1460.33,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_21___578416e162141.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_22___578416e162323.mp4",
+          "seconds": 1459.14,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_22___578416e162323.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_23___578416e1624fa.mp4",
+          "seconds": 1460.37,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_23___578416e1624fa.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_24___578416e1626d7.mp4",
+          "seconds": 1460.3,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_24___578416e1626d7.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_25___578416e162887.mp4",
+          "seconds": 1459.26,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_25___578416e162887.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_26___578416e162a37.mp4",
+          "seconds": 1460.33,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_26___578416e162a37.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_27___578416e162bf1.mp4",
+          "seconds": 1459.86,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_27___578416e162bf1.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_28___578416e162d9b.mp4",
+          "seconds": 1459.84,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_28___578416e162d9b.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_29___578416e162f4c.mp4",
+          "seconds": 1459.79,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_29___578416e162f4c.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_30___578416e1630fb.mp4",
+          "seconds": 1459.37,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_30___578416e1630fb.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_31___578416e1632b8.mp4",
+          "seconds": 1459.37,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_31___578416e1632b8.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_32___578416e163482.mp4",
+          "seconds": 1459.37,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_32___578416e163482.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_33___578416e16363b.mp4",
+          "seconds": 1458.79,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_33___578416e16363b.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_34___578416e1637ea.mp4",
+          "seconds": 1459.54,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_34___578416e1637ea.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_35___578416e1639db.mp4",
+          "seconds": 1460.09,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_35___578416e1639db.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_36___578416e163b9b.mp4",
+          "seconds": 1460.51,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_36___578416e163b9b.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_37___578416e16468f.mp4",
+          "seconds": 1459.84,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_37___578416e16468f.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_2_-_episode_38___578416e164868.mp4",
+          "seconds": 1459.14,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_2_-_episode_38___578416e164868.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_01___578416e164a22.mp4",
+          "seconds": 1459.84,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_01___578416e164a22.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_02___578416e164c16.mp4",
+          "seconds": 1459.56,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_02___578416e164c16.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_03___578416e164e45.mp4",
+          "seconds": 1461.0,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_03___578416e164e45.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_04___578416e165032.mp4",
+          "seconds": 1459.4,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_04___578416e165032.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_05___578416e165217.mp4",
+          "seconds": 1459.79,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_05___578416e165217.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_06___57841b91341ec.mp4",
+          "seconds": 1460.4,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_06___57841b91341ec.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_07___57841b9134743.mp4",
+          "seconds": 1459.68,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_07___57841b9134743.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_08___57841b9135035.mp4",
+          "seconds": 1459.86,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_08___57841b9135035.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_09___57841b9135281.mp4",
+          "seconds": 1459.3,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_09___57841b9135281.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_10___57841b913548b.mp4",
+          "seconds": 1460.51,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_10___57841b913548b.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_11___57841b9135851.mp4",
+          "seconds": 1459.44,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_11___57841b9135851.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_12___57841b9135aec.mp4",
+          "seconds": 1459.37,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_12___57841b9135aec.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_13___57841b9135d48.mp4",
+          "seconds": 1459.86,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_13___57841b9135d48.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_14___57841b9135f8e.mp4",
+          "seconds": 1458.68,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_14___57841b9135f8e.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_15___57841b91362a7.mp4",
+          "seconds": 1460.51,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_15___57841b91362a7.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_16___57841b9136905.mp4",
+          "seconds": 1459.21,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_16___57841b9136905.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_17___57841b9136af8.mp4",
+          "seconds": 1460.07,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_17___57841b9136af8.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_18___57841b9136d05.mp4",
+          "seconds": 1459.21,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_18___57841b9136d05.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_19___57841b9136f14.mp4",
+          "seconds": 1459.44,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_19___57841b9136f14.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_20___57841b9137112.mp4",
+          "seconds": 1459.33,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_20___57841b9137112.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "figure_it_out_-_season_3_-_episode_21___57841b91394ce.mp4",
+          "seconds": 1459.84,
+          "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_3_-_episode_21___57841b91394ce.mp4",
+          "duplicate_url": false
+        }
+      ],
+      "truncated": true
+    },
+    {
+      "identifier": "splatalot-s-01-e-06-shoved-by-a-rainbow",
+      "channel": "Dickleodeon",
+      "kind": "series",
+      "name": "Splatalot",
+      "archive_title": "Splatalot! - Full Series",
+      "eligible_original_mp4": 53,
+      "already_in_catalogue_url": 0,
+      "existing_show_count": 0,
+      "videos": [
+        {
+          "filename": "Splatalot! - S01E01 - Country Style.mp4",
+          "seconds": 1397.52,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E01%20-%20Country%20Style.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E02 - Talk To The Barrel.mp4",
+          "seconds": 1400.05,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E02%20-%20Talk%20To%20The%20Barrel.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E03 - The Finger Dance.mp4",
+          "seconds": 1429.98,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E03%20-%20The%20Finger%20Dance.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E04 - Episodius Splaticus!.mp4",
+          "seconds": 1389.97,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E04%20-%20Episodius%20Splaticus%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E05 - Sarthak - the Situation.mp4",
+          "seconds": 1400.05,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E05%20-%20Sarthak%20-%20the%20Situation.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E06 - Shoved by a Rainbow.mp4",
+          "seconds": 1390.04,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E06%20-%20Shoved%20by%20a%20Rainbow.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E07 - Revenge of the Nerds.mp4",
+          "seconds": 1402.88,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E07%20-%20Revenge%20of%20the%20Nerds.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E08 - Splat of the Penguins.mp4",
+          "seconds": 1391.06,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E08%20-%20Splat%20of%20the%20Penguins.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E09 - Splatters' Delight.mp4",
+          "seconds": 1389.97,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E09%20-%20Splatters%27%20Delight.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E10 - Outnumbered Outplayed.mp4",
+          "seconds": 1399.98,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E10%20-%20Outnumbered%20Outplayed.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E11 - Barrel of Love.mp4",
+          "seconds": 1389.97,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E11%20-%20Barrel%20of%20Love.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E12 - Dilgar.mp4",
+          "seconds": 1399.98,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E12%20-%20Dilgar.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E13 - What Came First, The Chicken or the Kook.mp4",
+          "seconds": 1429.98,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E13%20-%20What%20Came%20First%2C%20The%20Chicken%20or%20the%20Kook.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E14 - Let's Get Unitarded!.mp4",
+          "seconds": 1391.06,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E14%20-%20Let%27s%20Get%20Unitarded%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E15 - Alan 'SKABB!' Tonelli.mp4",
+          "seconds": 1389.97,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E15%20-%20Alan%20%27SKABB%21%27%20Tonelli.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E16 - And the Splatty Goes To....mp4",
+          "seconds": 1390.13,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E16%20-%20And%20the%20Splatty%20Goes%20To....mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E17 - Impossible Is Nothing.mp4",
+          "seconds": 1391.06,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E17%20-%20Impossible%20Is%20Nothing.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E18 - The Cookies Crumble.mp4",
+          "seconds": 1391.06,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E18%20-%20The%20Cookies%20Crumble.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E19 - Gildar Has a Secret.mp4",
+          "seconds": 1391.06,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E19%20-%20Gildar%20Has%20a%20Secret.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E20 - Horseshoes.mp4",
+          "seconds": 1390.04,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E20%20-%20Horseshoes.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E21 - Beaver Tails.mp4",
+          "seconds": 1391.06,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E21%20-%20Beaver%20Tails.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E22 - Feel the Thunder.mp4",
+          "seconds": 1379.99,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E22%20-%20Feel%20the%20Thunder.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E23 - The Unhappy Dance.mp4",
+          "seconds": 1391.06,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E23%20-%20The%20Unhappy%20Dance.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E24 - Party Like It's $19.99.mp4",
+          "seconds": 1390.04,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E24%20-%20Party%20Like%20It%27s%20%2419.99.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E25 - It's Taco Day!.mp4",
+          "seconds": 1391.06,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E25%20-%20It%27s%20Taco%20Day%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot! - S01E26 - Crocness.mp4",
+          "seconds": 1391.06,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E26%20-%20Crocness.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E01_You Simmer Down!.mp4",
+          "seconds": 1347.29,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E01_You%20Simmer%20Down%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E02_Boys vs_ Girls Splatdown.mp4",
+          "seconds": 1344.18,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E02_Boys%20vs_%20Girls%20Splatdown.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E03_Classic Nana!.mp4",
+          "seconds": 1346.43,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E03_Classic%20Nana%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E04_Sleepy Matty.mp4",
+          "seconds": 1345.02,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E04_Sleepy%20Matty.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E05_Parents & Kids Splatdown.mp4",
+          "seconds": 1342.53,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E05_Parents%20%26%20Kids%20Splatdown.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E06_You Bet Your Trousers!.mp4",
+          "seconds": 1347.2,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E06_You%20Bet%20Your%20Trousers%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E07_We Are Not Alone.mp4",
+          "seconds": 1345.32,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E07_We%20Are%20Not%20Alone.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E08_Two Drawbridges Up!.mp4",
+          "seconds": 1345.26,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E08_Two%20Drawbridges%20Up%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E09_The Magic of Television!.mp4",
+          "seconds": 1345.32,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E09_The%20Magic%20of%20Television%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E10_Splatalot Days & Splatalot Nights!.mp4",
+          "seconds": 1344.98,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E10_Splatalot%20Days%20%26%20Splatalot%20Nights%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E11_Of Mice & Splatmen!.mp4",
+          "seconds": 1345.86,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E11_Of%20Mice%20%26%20Splatmen%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E12_Nation vs_ Nation Splatdown.mp4",
+          "seconds": 1341.12,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E12_Nation%20vs_%20Nation%20Splatdown.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E13_When Hairy Met Matty!.mp4",
+          "seconds": 1346.03,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E13_When%20Hairy%20Met%20Matty%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E14_Twins vs_ Twins Splatdown!.mp4",
+          "seconds": 1343.92,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E14_Twins%20vs_%20Twins%20Splatdown%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E15_Dude, Where_s My Crown_!!.mp4",
+          "seconds": 1346.75,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E15_Dude%2C%20Where_s%20My%20Crown_%21%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E16_Awesome Sandwich Club!.mp4",
+          "seconds": 1345.49,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E16_Awesome%20Sandwich%20Club%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E17_Teacher vs_ Students Splatdown.mp4",
+          "seconds": 1342.36,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E17_Teacher%20vs_%20Students%20Splatdown.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E18_Car Trouble!.mp4",
+          "seconds": 1347.09,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E18_Car%20Trouble%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E19_Splat-a-lot! Dance-a-lot!.mp4",
+          "seconds": 1347.22,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E19_Splat-a-lot%21%20Dance-a-lot%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E20_Three Cheers for Everything!.mp4",
+          "seconds": 1345.26,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E20_Three%20Cheers%20for%20Everything%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E21_Best Friends Splatdown!.mp4",
+          "seconds": 1343.62,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E21_Best%20Friends%20Splatdown%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E22_Bucket List_ Check!.mp4",
+          "seconds": 1347.09,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E22_Bucket%20List_%20Check%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E23_Jay and The Madman.mp4",
+          "seconds": 1345.26,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E23_Jay%20and%20The%20Madman.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E24_Parents & Kids Splatdown_ Close Encounters of the Splat Kind!.mp4",
+          "seconds": 1343.08,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E24_Parents%20%26%20Kids%20Splatdown_%20Close%20Encounters%20of%20the%20Splat%20Kind%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E25_Laundry Day!.mp4",
+          "seconds": 1345.26,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E25_Laundry%20Day%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E26_Call Matty the Handyman___Maybe!.mp4",
+          "seconds": 1345.81,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E26_Call%20Matty%20the%20Handyman___Maybe%21.mp4",
+          "duplicate_url": false
+        },
+        {
+          "filename": "Splatalot_ Season 2_S02E27_YTV_s Celebrity Splatdown.mp4",
+          "seconds": 2683.03,
+          "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot_%20Season%202_S02E27_YTV_s%20Celebrity%20Splatdown.mp4",
+          "duplicate_url": false
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "identifier": "piglet-s-big-movie",
+      "channel": "Dizzy",
+      "kind": "movie",
+      "name": "Piglet's Big Movie",
+      "archive_title": "Piglet's Big Movie (2003)",
+      "eligible_original_mp4": 1,
+      "already_in_catalogue_url": 0,
+      "existing_show_count": 0,
+      "videos": [
+        {
+          "filename": "Piglet_s Big Movie.mp4",
+          "seconds": 4490.97,
+          "url": "https://archive.org/download/piglet-s-big-movie/Piglet_s%20Big%20Movie.mp4",
+          "duplicate_url": false
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "identifier": "sesame.-street.-presents-follow.that.-bird.-1985.-web-dl.x-264-fgt",
+      "channel": "GirlyPop",
+      "kind": "movie",
+      "name": "Follow That Bird",
+      "archive_title": "Sesame Street Presents Follow that Bird (1985)",
+      "eligible_original_mp4": 1,
+      "already_in_catalogue_url": 0,
+      "existing_show_count": 0,
+      "videos": [
+        {
+          "filename": "Sesame.Street.Presents-Follow.that.Bird.1985.WEB-DL.x264-FGT.mp4",
+          "seconds": 5307.9,
+          "url": "https://archive.org/download/sesame.-street.-presents-follow.that.-bird.-1985.-web-dl.x-264-fgt/Sesame.Street.Presents-Follow.that.Bird.1985.WEB-DL.x264-FGT.mp4",
+          "duplicate_url": false
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "identifier": "lost-and-found-2008-film",
+      "channel": "GirlyPop",
+      "kind": "movie",
+      "name": "Lost And Found",
+      "archive_title": "Lost And Found (2008 Film)",
+      "eligible_original_mp4": 1,
+      "already_in_catalogue_url": 0,
+      "existing_show_count": 0,
+      "videos": [
+        {
+          "filename": "Lost and Found (2008 film).mp4",
+          "seconds": 1442.42,
+          "url": "https://archive.org/download/lost-and-found-2008-film/Lost%20and%20Found%20%282008%20film%29.mp4",
+          "duplicate_url": false
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "identifier": "sesame-street-elmos-christmas-countdown_202202",
+      "channel": "GirlyPop",
+      "kind": "christmas",
+      "name": "Elmo's Christmas Countdown",
+      "archive_title": "Sesame Street Elmo's Christmas Countdown",
+      "eligible_original_mp4": 1,
+      "already_in_catalogue_url": 0,
+      "existing_show_count": 0,
+      "videos": [
+        {
+          "filename": "Sesame Street_ Elmo's Christmas Countdown.mp4",
+          "seconds": 2662.05,
+          "url": "https://archive.org/download/sesame-street-elmos-christmas-countdown_202202/Sesame%20Street_%20Elmo%27s%20Christmas%20Countdown.mp4",
+          "duplicate_url": false
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "identifier": "a-child-s-christmas",
+      "channel": "GirlyPop",
+      "kind": "christmas",
+      "name": "A Child's Christmas",
+      "archive_title": "A Child's Christmas (2008)",
+      "eligible_original_mp4": 1,
+      "already_in_catalogue_url": 0,
+      "existing_show_count": 0,
+      "videos": [
+        {
+          "filename": "A Child_s Christmas.mp4",
+          "seconds": 1611.99,
+          "url": "https://archive.org/download/a-child-s-christmas/A%20Child_s%20Christmas.mp4",
+          "duplicate_url": false
+        }
+      ],
+      "truncated": false
+    }
+  ],
+  "errors": []
+}
