@@ -20,12 +20,20 @@ for p in catalogue:
     if p.get('type') not in ('Episode','Special'):continue
     try:dur=float(p.get('duration_seconds') or 0)
     except(ValueError,TypeError):continue
-    if not 140<=dur<=780:continue
+    if not 220<=dur<=780:continue
     channels=p.get('channels') or [p.get('channel')]
     if isinstance(channels,str):channels=[channels]
     show=str(p.get('series_id') or p.get('show') or '').casefold()
     title=str(p.get('title') or '').strip()
     if not title or not show:continue
+    # Do not put DVD menus, chapter rips, credits or generic extras on air
+    # merely because they happen to be several minutes long.
+    technical=re.compile(r'disc[-_ ]*\\d|dvd|blu.?ray|\\biso\\b|\\bmenus?\\b|\\btrailer\\b|\\bteaser\\b|'
+        r'music video|behind.the.scenes|making.of|commentary|\\bcredits\\b|\\bbumpers?\\b|'
+        r'\\bopening\\b|\\bending\\b|\\bpromo\\b|\\bq ?& ?a\\b',re.I)
+    if technical.search(title) or technical.search(str(p.get('show') or '')):continue
+    if len(re.findall(r'[A-Za-z]{3,}',title))<3 or re.fullmatch(r'(?:EP|Episode|Special)\\s*\\d+',title,re.I):continue
+    if re.search(r'queen.?s blade|berserk|high school dxd|prison school|hentai',title+' '+str(p.get('show') or ''),re.I):continue
     tags=list(p.get('seasonal_tags') or [])
     events=list(p.get('holiday_events') or [])
     if re.search(r'christmas|xmas|santa|rudolph|frosty|yule',title,re.I) and 'christmas' not in tags:
