@@ -1,0 +1,26 @@
+name: Build retro station ident pools
+on:
+  push:
+    paths:
+      - '.github/workflows/build-channel-idents.yml'
+      - 'tools/build_channel_idents.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate measured station ident playlists
+        run: python tools/build_channel_idents.py
+      - name: Save curated station ident playlists
+        run: |
+          git config user.name "Bootleg Broadcast Media"
+          git config user.email "actions@users.noreply.github.com"
+          git add channel-idents.js channel-ident-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Curate retro ident rotations for three cartoon channels"
+            git push
+          fi
