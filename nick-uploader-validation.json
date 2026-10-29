@@ -11,9 +11,9 @@
     "Lost And Found (2008)",
     "A Child's Christmas"
   ],
-  "starter_count": 18,
+  "starter_count": 78,
   "dates_checked": 56,
-  "actual_broadcast_airings": 22,
+  "actual_broadcast_airings": 58,
   "broadcasts": [
     {
       "month": "january",
@@ -30,8 +30,14 @@
     {
       "month": "january",
       "day": "1",
-      "title": "Splatalot — S01E01 — Country Style",
+      "title": "I Spy — S02E01 — A Mumble Movie A Book Wherever I Look",
       "time": 801
+    },
+    {
+      "month": "january",
+      "day": "1",
+      "title": "Splatalot — S01E01 — Country Style",
+      "time": 843
     },
     {
       "month": "january",
@@ -94,17 +100,11 @@
       "time": 682
     },
     {
-      "month": "april",
-      "day": "12",
-      "title": "Figure It Out — S01E01",
+      "month": "january",
+      "day": "7",
+      "title": "Figure It Out — S01E07",
       "time": 244
-    },
-    {
-      "month": "april",
-      "day": "12",
-      "title": "I Spy — S01E01 — A Mumble Monster Picture Day Clouds Roll",
-      "time": 544
     }
   ],
-  "max_same_day": 3
+  "max_same_day": 4
 }
