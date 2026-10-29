@@ -1,0 +1,29 @@
+name: Curate Christmas programmes and classic commercials
+on:
+  push:
+    paths:
+      - '.github/workflows/curate-seasonal-archive.yml'
+      - 'tools/curate_seasonal_archive.py'
+      - 'seasonal-archive-inventory.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check duplicate programmes and curate by channel
+        run: python tools/curate_seasonal_archive.py
+      - name: Commit holiday programme and advert feeds
+        run: |
+          git config user.name "Bootleg Broadcast Seasonal Programming"
+          git config user.email "actions@users.noreply.github.com"
+          git add seasonal-programmes.js seasonal-commercials.js seasonal-curation-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Curate measured Christmas specials and seasonal adverts for channels"
+            git fetch origin main
+            git rebase origin/main
+            git push
+          fi
