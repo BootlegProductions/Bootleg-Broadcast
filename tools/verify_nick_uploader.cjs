@@ -36,6 +36,7 @@ for(const month of ['january','april','october','december']){
   const slots=plan.slots.filter(p=>p.content_id?.startsWith('nick-uploader:'));
   const ids=new Set();
   for(const p of slots){
+   assert((p.episode_number-1)%26===(Number(d.date)-1+(m-1)*31)%26,'Uploader episode date rotation incorrect: '+p.title);
    assert(p.editorial_kind==='continuity-short','Unexpected placement type: '+p.title);
    assert(p.type==='Episode','Only measured episodes can enter the short pool');
    assert(!ids.has(p.content_id),'Duplicate episode same channel/day');
