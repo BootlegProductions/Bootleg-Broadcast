@@ -40,10 +40,10 @@
     ]
   },
   "Japanime": {
-    "extra_short_programmes": 14,
+    "extra_short_programmes": 12,
     "below_six_minutes": 4,
     "six_to_ten_minutes": 7,
-    "ten_to_thirteen_minutes": 3,
+    "ten_to_thirteen_minutes": 1,
     "sample_titles": [
       "Neon Genesis Evangelion Platinum — EVANGELION VOL 5 PLATINUM8",
       "Neon Genesis Evangelion Platinum — EVANGELION VOL 2 PLATINUM11",
@@ -60,43 +60,43 @@
     ]
   },
   "Off-Licence TV": {
-    "extra_short_programmes": 34,
-    "below_six_minutes": 31,
+    "extra_short_programmes": 13,
+    "below_six_minutes": 10,
     "six_to_ten_minutes": 3,
     "ten_to_thirteen_minutes": 0,
     "sample_titles": [
-      "Top Gear (UK) — TOP GEAR SERIES 12 DISC 15",
       "Da Ali G Show Da Compleet Second Seazon — ALI G S2 D210",
       "Da Ali G Show Da Compleet Second Seazon — ALI G S2 D29",
-      "Top Gear (UK) — TOP GEAR SERIES 10 DISC 38",
-      "Top Gear The Complete Season 13 — TOP GEAR SERIES 13 DISC 14",
-      "Top Gear (UK) — TOP GEAR SERIES 10 DISC 28",
-      "Top Gear The Complete Season 13 — TOP GEAR SERIES 13 DISC 33",
-      "Top Gear The Complete Season 13 — TOP GEAR SERIES 13 DISC 37",
       "Da Ali G Show Da Compleet Second Seazon — ALI G S2 D16",
-      "Top Gear (UK) — TOP GEAR SERIES 12 DISC 48",
       "Da Ali G Show Da Compleet First Seazon — DAALIGSHOW S1 D18",
-      "Top Gear (UK) — TOP GEAR SERIES 12 DISC 25"
+      "Da Ali G Show Da Compleet First Seazon — DAALIGSHOW S1 D15",
+      "Da Ali G Show Da Compleet First Seazon — DAALIGSHOW S1 D25",
+      "Da Ali G Show Da Compleet Second Seazon — ALI G S2 D25",
+      "Da Ali G Show Da Compleet First Seazon — DAALIGSHOW S1 D14",
+      "Da Ali G Show Da Compleet First Seazon — DAALIGSHOW S1 D17",
+      "Da Ali G Show Da Compleet Second Seazon — ALI G S2 D24",
+      "Da Ali G Show Da Compleet Second Seazon — ALI G S2 D26",
+      "Sherlock — S03E00 — Many Happy Returns"
     ]
   },
   "Star Spangled TV": {
-    "extra_short_programmes": 96,
-    "below_six_minutes": 59,
-    "six_to_ten_minutes": 27,
-    "ten_to_thirteen_minutes": 10,
+    "extra_short_programmes": 13,
+    "below_six_minutes": 12,
+    "six_to_ten_minutes": 1,
+    "ten_to_thirteen_minutes": 0,
     "sample_titles": [
-      "Home Improvement — DISC317",
-      "Trailer Park Boys The Complete Third Season — TRAILER PARK BOYS S3 D121",
-      "Trailer Park Boys The Complete Seventh Season — TRAILER PARK BOYS S7 DISC212",
-      "Trailer Park Boys Xmas Special - The Dope and Liquor Edition — TPB - DEAR SANTA V260",
       "The Dukes of Hazzard Two-Movie Collection — HAZZARD IN HOLLYWOOD5",
-      "Home Improvement — DISC115",
-      "Trailer Park Boys The Complete Third Season — TRAILER PARK BOYS S3 D126",
-      "Trailer Park Boys The Complete Fifth Season — TRAILER PARK BOYS 5 DISC 217",
-      "Trailer Park Boys The Complete Third Season — TRAILER PARK BOYS S3 D234",
-      "Trailer Park Boys The Complete Third Season — TRAILER PARK BOYS S3 D125",
-      "Trailer Park Boys Xmas Special - The Dope and Liquor Edition — TPB - DEAR SANTA V229",
-      "Trailer Park Boys The Complete Seventh Season — TRAILER PARK BOYS S7 DISC113"
+      "The Dukes of Hazzard — DUKES OF HAZZARD SEASON2 D1A11",
+      "The Dukes of Hazzard Two-Movie Collection — THE DUKES OF HAZZARD REUNION7",
+      "The Dukes of Hazzard — DUKES OF HAZZARD SEASON2 D4B14",
+      "COPS Too Hot For TV (Merchandise Segment)",
+      "The Dukes of Hazzard Two-Movie Collection — THE DUKES OF HAZZARD REUNION2",
+      "The Dukes of Hazzard — DUKES OF HAZZARD SEASON2 D4B12",
+      "The Dukes of Hazzard Two-Movie Collection — THE DUKES OF HAZZARD REUNION8",
+      "The Dukes of Hazzard — DUKES OF HAZZARD SEASON2 D4B17",
+      "The Dukes of Hazzard — DUKES OF HAZZARD S1D38",
+      "Home Improvement — S6,D1 DES25",
+      "The Dukes of Hazzard Two-Movie Collection — THE DUKES OF HAZZARD REUNION3"
     ]
   },
   "AAA": {
@@ -120,12 +120,11 @@
     ]
   },
   "Dickleodeon": {
-    "extra_short_programmes": 25,
-    "below_six_minutes": 2,
+    "extra_short_programmes": 24,
+    "below_six_minutes": 1,
     "six_to_ten_minutes": 7,
     "ten_to_thirteen_minutes": 16,
     "sample_titles": [
-      "Maxie's World — Bumpers",
       "SpongeBob SquarePants — S05E12 — Sponge Bob Square Pants S05E12",
       "SpongeBob SquarePants — S12E27 — Sponge Bob Square Pants S12E27",
       "SpongeBob SquarePants — S13E36 — Sponge Bob Square Pants S13E36",
@@ -136,7 +135,8 @@
       "SpongeBob SquarePants — S02E17 — Sponge Bob Square Pants S02E17",
       "The Angry Beavers - Gift Hoarse",
       "The Adventures of Jimmy Neutron — S00E11 — The Secrets Of The Jimmy Neutron Movie",
-      "My Life as a Teenage Robot — S03E22 — Queen bee"
+      "My Life as a Teenage Robot — S03E22 — Queen bee",
+      "Nickelodeon holloween Specials — Sponge Bob Square Pants - Scaredy Pants"
     ]
   },
   "GirlyPop": {
@@ -176,10 +176,10 @@
     ]
   },
   "What": {
-    "extra_short_programmes": 43,
-    "below_six_minutes": 30,
-    "six_to_ten_minutes": 9,
-    "ten_to_thirteen_minutes": 4,
+    "extra_short_programmes": 24,
+    "below_six_minutes": 16,
+    "six_to_ten_minutes": 5,
+    "ten_to_thirteen_minutes": 3,
     "sample_titles": [
       "Unsolved Mysteries Bizarre Murders — Unsolved Murders D44",
       "Unsolved Mysteries UFOs — UNSOLVED MYSTERIES UFO D24",
@@ -189,10 +189,10 @@
       "Unsolved Mysteries Ghosts — D14",
       "Unsolved Mysteries Bizarre Murders — UNSOLVED MYSTERIES MURDER D14",
       "Unsolved Mysteries Ghosts — D44",
-      "Viva La Bam Complete Seasons 4 & 5 — VIVA LA BAM SEASON 4 AND 5 DISC 35",
-      "jackass the box set — JACKASS DISC43",
       "jackass the lost tapes — JACKASS LOST TAPES57",
-      "Unsolved Mysteries UFOs — UNSOLVED MYSTERIES UFO D14"
+      "Unsolved Mysteries UFOs — UNSOLVED MYSTERIES UFO D14",
+      "Unsolved Mysteries Bizarre Murders — Unsolved Murders D43",
+      "jackass the box set — JACKASS D48"
     ]
   }
 }
