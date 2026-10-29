@@ -35,6 +35,7 @@
       "seconds": 5083.55,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -47,6 +48,7 @@
       "seconds": 1528.82,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -59,6 +61,7 @@
       "seconds": 1458.59,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -71,6 +74,7 @@
       "seconds": 1413.1,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -83,6 +87,7 @@
       "seconds": 728.4,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -95,6 +100,7 @@
       "seconds": 1312.79,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -107,6 +113,7 @@
       "seconds": 1353.6,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Amphibia - Froggy Little Christmas",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -119,6 +126,7 @@
       "seconds": 4405.46,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -131,6 +139,7 @@
       "seconds": 1277.98,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -143,6 +152,7 @@
       "seconds": 1278.98,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -155,6 +165,7 @@
       "seconds": 1298.05,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -167,6 +178,7 @@
       "seconds": 1273.38,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -179,6 +191,7 @@
       "seconds": 5853.01,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -191,6 +204,7 @@
       "seconds": 3271.1,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -203,6 +217,7 @@
       "seconds": 2774.16,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [
         "Cartoons Cartoons"
       ],
@@ -217,6 +232,7 @@
       "seconds": 1376.43,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Ben 10 - Merry Christmas",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -229,6 +245,7 @@
       "seconds": 1410.81,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -241,6 +258,7 @@
       "seconds": 1072.73,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -253,6 +271,7 @@
       "seconds": 1354.1,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -265,6 +284,7 @@
       "seconds": 1430.64,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Danny Phantom - The Fright Before Christmas",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -277,6 +297,7 @@
       "seconds": 3708.0,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -289,6 +310,7 @@
       "seconds": 3704.58,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -301,6 +323,7 @@
       "seconds": 3544.7,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -313,6 +336,7 @@
       "seconds": 436.74,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -325,6 +349,7 @@
       "seconds": 1366.71,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -337,6 +362,7 @@
       "seconds": 1596.51,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -349,6 +375,7 @@
       "seconds": 2643.73,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -361,6 +388,7 @@
       "seconds": 1527.5,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -373,6 +401,7 @@
       "seconds": 1447.11,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Hey Arnold! - Arnold's Christmas",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -385,6 +414,7 @@
       "seconds": 1544.59,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -397,6 +427,7 @@
       "seconds": 2474.52,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -409,6 +440,7 @@
       "seconds": 1379.05,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -421,6 +453,7 @@
       "seconds": 2904.79,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -433,6 +466,7 @@
       "seconds": 1376.21,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Kim Possible - A Very Possible Christmas",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -445,6 +479,7 @@
       "seconds": 1293.31,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -457,6 +492,7 @@
       "seconds": 3702.58,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -469,6 +505,7 @@
       "seconds": 3950.0,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -481,6 +518,7 @@
       "seconds": 3130.33,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Mister Magoo's Christmas Carol (1962)",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -493,6 +531,7 @@
       "seconds": 705.59,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -505,6 +544,7 @@
       "seconds": 2640.25,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -517,6 +557,7 @@
       "seconds": 3905.7,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -529,6 +570,7 @@
       "seconds": 1394.78,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -541,6 +583,7 @@
       "seconds": 2106.9,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -553,6 +596,7 @@
       "seconds": 405.11,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -565,6 +609,7 @@
       "seconds": 1074.88,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [
         "Japanime"
       ],
@@ -579,6 +624,7 @@
       "seconds": 1367.31,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Regular Show - The Christmas Special",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -591,6 +637,7 @@
       "seconds": 3043.83,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -603,6 +650,7 @@
       "seconds": 500.99,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -615,6 +663,7 @@
       "seconds": 1411.46,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "SpongeBob SquarePants - Christmas Who",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -627,6 +676,7 @@
       "seconds": 1437.71,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "T U F F Puppy - A Doomed Christmas",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -639,6 +689,7 @@
       "seconds": 1384.07,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "The Backyardigans - The Action Elves Save Christmas Eve",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -651,6 +702,7 @@
       "seconds": 1507.32,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "The Fairly OddParents - Christmas Everyday",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -663,6 +715,7 @@
       "seconds": 1448.74,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -675,6 +728,7 @@
       "seconds": 2171.39,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "The Grim Adventures of Billy & Mandy - Billy & Mandy Save Christmas",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -687,6 +741,7 @@
       "seconds": 1309.21,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -699,6 +754,7 @@
       "seconds": 2697.88,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -711,6 +767,7 @@
       "seconds": 1352.28,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [
         "Cartoons Cartoons"
       ],
@@ -725,6 +782,7 @@
       "seconds": 1554.97,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -737,6 +795,7 @@
       "seconds": 5321.95,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -749,6 +808,7 @@
       "seconds": 4599.92,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "The Nightmare Before Christmas (1993)",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -761,6 +821,7 @@
       "seconds": 1381.26,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -773,6 +834,7 @@
       "seconds": 5996.57,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -785,6 +847,7 @@
       "seconds": 1902.04,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -797,6 +860,7 @@
       "seconds": 2809.11,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -809,6 +873,7 @@
       "seconds": 3383.5,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "The Wiggles - It’s Always Christmas With You!",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -821,6 +886,7 @@
       "seconds": 2689.77,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "The Wiggles - Santa's Rockin'!",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -833,6 +899,7 @@
       "seconds": 2496.62,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "The Wiggles - Wiggly Wiggly Christmas",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -845,6 +912,7 @@
       "seconds": 3048.09,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -857,6 +925,7 @@
       "seconds": 524.48,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -869,6 +938,7 @@
       "seconds": 1323.47,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -881,6 +951,7 @@
       "seconds": 1323.46,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -893,6 +964,7 @@
       "seconds": 2848.49,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -905,6 +977,7 @@
       "seconds": 2923.93,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -917,6 +990,7 @@
       "seconds": 2008.06,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -929,6 +1003,7 @@
       "seconds": 1636.41,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -941,6 +1016,7 @@
       "seconds": 1519.84,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Halloween Is Grinch Night",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -953,6 +1029,7 @@
       "seconds": 1516.57,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "It's the Great Pumpkin, Charlie Brown",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -965,6 +1042,7 @@
       "seconds": 1316.39,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -977,6 +1055,7 @@
       "seconds": 4599.92,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "The Nightmare Before Christmas (1993)",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -989,6 +1068,7 @@
       "seconds": 5083.55,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1001,6 +1081,7 @@
       "seconds": 5154.04,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1013,6 +1094,7 @@
       "seconds": 2897.3,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1025,6 +1107,7 @@
       "seconds": 1528.82,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1037,6 +1120,7 @@
       "seconds": 1518.5,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1049,6 +1133,7 @@
       "seconds": 1506.48,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1061,6 +1146,7 @@
       "seconds": 1413.1,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1073,6 +1159,7 @@
       "seconds": 883.18,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1085,6 +1172,7 @@
       "seconds": 5853.01,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1097,6 +1185,7 @@
       "seconds": 2774.16,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [
         "Cartoons Cartoons"
       ],
@@ -1111,6 +1200,7 @@
       "seconds": 1514.03,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1123,6 +1213,7 @@
       "seconds": 4559.05,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1135,6 +1226,7 @@
       "seconds": 959.53,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1147,6 +1239,7 @@
       "seconds": 1504.68,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1159,6 +1252,7 @@
       "seconds": 1072.73,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1171,6 +1265,7 @@
       "seconds": 3708.0,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1183,6 +1278,7 @@
       "seconds": 3704.58,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1195,6 +1291,7 @@
       "seconds": 3544.7,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1207,6 +1304,7 @@
       "seconds": 695.85,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1219,6 +1317,7 @@
       "seconds": 2643.73,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1231,6 +1330,7 @@
       "seconds": 1527.5,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1243,6 +1343,7 @@
       "seconds": 1519.84,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Halloween Is Grinch Night",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1255,6 +1356,7 @@
       "seconds": 1458.67,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1267,6 +1369,7 @@
       "seconds": 1506.65,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1279,6 +1382,7 @@
       "seconds": 1295.21,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1291,6 +1395,7 @@
       "seconds": 1544.59,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1303,6 +1408,7 @@
       "seconds": 2474.52,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1315,6 +1421,7 @@
       "seconds": 1462.38,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1327,6 +1434,7 @@
       "seconds": 1517.68,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1339,6 +1447,7 @@
       "seconds": 1493.04,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1351,6 +1460,7 @@
       "seconds": 1379.05,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1363,6 +1473,7 @@
       "seconds": 1461.88,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1375,6 +1486,7 @@
       "seconds": 1464.55,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1387,6 +1499,7 @@
       "seconds": 1385.11,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1399,6 +1512,7 @@
       "seconds": 1457.88,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1411,6 +1525,7 @@
       "seconds": 1505.24,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1423,6 +1538,7 @@
       "seconds": 1504.17,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1435,6 +1551,7 @@
       "seconds": 1516.57,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "It's the Great Pumpkin, Charlie Brown",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1447,6 +1564,7 @@
       "seconds": 1516.72,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1459,6 +1577,7 @@
       "seconds": 2904.79,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1471,6 +1590,7 @@
       "seconds": 1458.54,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1483,6 +1603,7 @@
       "seconds": 1529.17,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1495,6 +1616,7 @@
       "seconds": 1539.54,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1507,6 +1629,7 @@
       "seconds": 3702.58,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1519,6 +1642,7 @@
       "seconds": 3950.0,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1531,6 +1655,7 @@
       "seconds": 3130.33,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Mister Magoo's Christmas Carol (1962)",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1543,6 +1668,7 @@
       "seconds": 2640.25,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1555,6 +1681,7 @@
       "seconds": 3905.7,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1567,6 +1694,7 @@
       "seconds": 1514.22,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1579,6 +1707,7 @@
       "seconds": 4549.05,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1591,6 +1720,7 @@
       "seconds": 3105.44,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1603,6 +1733,7 @@
       "seconds": 3043.83,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1615,6 +1746,7 @@
       "seconds": 1463.05,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1627,6 +1759,7 @@
       "seconds": 1463.71,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1639,6 +1772,7 @@
       "seconds": 1461.21,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1651,6 +1785,7 @@
       "seconds": 2697.88,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1663,6 +1798,7 @@
       "seconds": 5321.95,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1675,6 +1811,7 @@
       "seconds": 4599.92,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "The Nightmare Before Christmas (1993)",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1687,6 +1824,7 @@
       "seconds": 5996.57,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1699,6 +1837,7 @@
       "seconds": 2649.9,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "The Powerpuff Girls - ‘Twas the Fight Before Christmas",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1711,6 +1850,7 @@
       "seconds": 2923.93,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1723,6 +1863,7 @@
       "seconds": 2008.06,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1735,6 +1876,7 @@
       "seconds": 3048.09,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1747,6 +1889,7 @@
       "seconds": 1501.53,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1759,6 +1902,7 @@
       "seconds": 1448.88,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1771,6 +1915,7 @@
       "seconds": 2809.11,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1783,6 +1928,7 @@
       "seconds": 1440.06,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1795,6 +1941,7 @@
       "seconds": 1461.87,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1807,6 +1954,7 @@
       "seconds": 1425.24,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1819,6 +1967,7 @@
       "seconds": 2888.21,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1831,6 +1980,7 @@
       "seconds": 1523.67,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1843,6 +1993,7 @@
       "seconds": 1515.8,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1855,6 +2006,7 @@
       "seconds": 1463.57,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1867,6 +2019,7 @@
       "seconds": 1509.01,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -1879,6 +2032,7 @@
       "seconds": 5535.23,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [
         "Cartoons Cartoons",
         "Dizzy"
@@ -1894,6 +2048,7 @@
       "seconds": 6036.31,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Coraline (2009)",
       "proposed_channels": [
         "Cartoons Cartoons",
         "Dizzy"
@@ -1909,6 +2064,7 @@
       "seconds": 6098.3,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [
         "Cartoons Cartoons",
         "Dizzy"
@@ -1924,6 +2080,7 @@
       "seconds": 5683.83,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [
         "Cartoons Cartoons",
         "Dizzy"
@@ -1939,6 +2096,7 @@
       "seconds": 5535.23,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [
         "Cartoons Cartoons",
         "Dizzy"
@@ -1954,6 +2112,7 @@
       "seconds": 5771.27,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [
         "Cartoons Cartoons",
         "Dizzy"
@@ -1969,6 +2128,7 @@
       "seconds": 6036.31,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Coraline (2009)",
       "proposed_channels": [
         "Cartoons Cartoons",
         "Dizzy"
@@ -1984,6 +2144,7 @@
       "seconds": 6098.3,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [
         "Cartoons Cartoons",
         "Dizzy"
@@ -1999,6 +2160,7 @@
       "seconds": 5683.83,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [
         "Cartoons Cartoons",
         "Dizzy"
@@ -2014,6 +2176,7 @@
       "seconds": 5535.23,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [
         "Cartoons Cartoons",
         "Dizzy"
@@ -2029,6 +2192,7 @@
       "seconds": 5771.27,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [
         "Cartoons Cartoons",
         "Dizzy"
@@ -2044,6 +2208,7 @@
       "seconds": 604.83,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2056,6 +2221,7 @@
       "seconds": 4773.9,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2068,6 +2234,7 @@
       "seconds": 506.0,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2080,6 +2247,7 @@
       "seconds": 1355.13,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2092,6 +2260,7 @@
       "seconds": 3300.16,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2104,6 +2273,7 @@
       "seconds": 3320.92,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2116,6 +2286,7 @@
       "seconds": 3508.97,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2128,6 +2299,7 @@
       "seconds": 3579.92,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2140,6 +2312,7 @@
       "seconds": 4359.92,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2152,6 +2325,7 @@
       "seconds": 3641.64,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2164,6 +2338,7 @@
       "seconds": 3627.09,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2176,6 +2351,7 @@
       "seconds": 3790.0,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2188,6 +2364,7 @@
       "seconds": 3824.07,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2200,6 +2377,7 @@
       "seconds": 3594.01,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2212,6 +2390,7 @@
       "seconds": 4505.88,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2224,6 +2403,7 @@
       "seconds": 1286.25,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2236,6 +2416,7 @@
       "seconds": 447.56,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2248,6 +2429,7 @@
       "seconds": 488.89,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2260,6 +2442,7 @@
       "seconds": 1820.92,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2272,6 +2455,7 @@
       "seconds": 1323.59,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2284,6 +2468,7 @@
       "seconds": 1478.52,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Invader Zim - The Most Horrible X-Mas Ever",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2296,6 +2481,7 @@
       "seconds": 721.1,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2308,6 +2494,7 @@
       "seconds": 1423.09,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "My Life as a Teenage Robot - A Robot For All Seasons",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2320,6 +2507,7 @@
       "seconds": 2649.72,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2332,6 +2520,7 @@
       "seconds": 1325.07,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2344,6 +2533,7 @@
       "seconds": 1324.05,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2356,6 +2546,7 @@
       "seconds": 1323.24,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2368,6 +2559,7 @@
       "seconds": 1325.07,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2380,6 +2572,7 @@
       "seconds": 692.07,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2392,6 +2585,7 @@
       "seconds": 1314.1,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2404,6 +2598,7 @@
       "seconds": 1293.5,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2416,6 +2611,7 @@
       "seconds": 1294.67,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2428,6 +2624,7 @@
       "seconds": 1681.08,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Shrek the Halls",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2440,6 +2637,7 @@
       "seconds": 675.03,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2452,6 +2650,7 @@
       "seconds": 659.9,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2464,6 +2663,7 @@
       "seconds": 683.01,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2476,6 +2676,7 @@
       "seconds": 538.66,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2488,6 +2689,7 @@
       "seconds": 1357.98,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2500,6 +2702,7 @@
       "seconds": 7622.02,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2512,6 +2715,7 @@
       "seconds": 2622.95,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2524,6 +2728,7 @@
       "seconds": 3580.54,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2536,6 +2741,7 @@
       "seconds": 1492.83,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "The Adventures of Jimmy Neutron Boy Genius - Holly Jolly Jimmy",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2548,6 +2754,7 @@
       "seconds": 9707.73,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2560,6 +2767,7 @@
       "seconds": 768.05,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2572,6 +2780,7 @@
       "seconds": 1510.08,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2584,6 +2793,7 @@
       "seconds": 1433.2,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2596,6 +2806,7 @@
       "seconds": 494.47,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2608,6 +2819,7 @@
       "seconds": 456.98,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2620,6 +2832,7 @@
       "seconds": 3449.96,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2632,6 +2845,7 @@
       "seconds": 3027.12,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2644,6 +2858,7 @@
       "seconds": 2797.44,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2656,6 +2871,7 @@
       "seconds": 2700.5,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2668,6 +2884,7 @@
       "seconds": 1357.72,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2680,6 +2897,7 @@
       "seconds": 707.75,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Adventure Time - The Creeps",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2692,6 +2910,7 @@
       "seconds": 1359.82,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2704,6 +2923,7 @@
       "seconds": 1353.6,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Disney Halloween Specials — Amphibia - The Shut-In!",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2716,6 +2936,7 @@
       "seconds": 1323.64,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2728,6 +2949,7 @@
       "seconds": 1425.38,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Nickelodeon holloween Specials — Back at the",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2740,6 +2962,7 @@
       "seconds": 1296.17,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2752,6 +2975,7 @@
       "seconds": 1323.46,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Disney Halloween Specials — Big City Greens - Blood Moon",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2764,6 +2988,7 @@
       "seconds": 764.45,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Cartoon Network Halloween Specials — Camp Lazlo - Hallobeanies",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2776,6 +3001,7 @@
       "seconds": 1417.83,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Nickelodeon holloween Specials — Cat Dog - Cat Dogula",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2788,6 +3014,7 @@
       "seconds": 484.14,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Cartoon Network Halloween Specials — S01E05 — Cow and Chicken - Halloween With Dead Ghost Coast To Coast",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2800,6 +3027,7 @@
       "seconds": 1356.46,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Cartoon Network Halloween Specials — Craig of the Creek - Trick or Creek",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2812,6 +3040,7 @@
       "seconds": 1455.72,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Nickelodeon holloween Specials — S01E15 — Danny Phantom - Fright Night",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2824,6 +3053,7 @@
       "seconds": 1406.94,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Nickelodeon holloween Specials — Doug - Doug’s Halloween Adventure",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2836,6 +3066,7 @@
       "seconds": 1354.16,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2848,6 +3079,7 @@
       "seconds": 1473.24,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2860,6 +3092,7 @@
       "seconds": 1451.04,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2872,6 +3105,7 @@
       "seconds": 1374.12,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Disney Halloween Specials — Gargoyles - Eye of the",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2884,6 +3118,7 @@
       "seconds": 5388.47,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2896,6 +3131,7 @@
       "seconds": 6196.22,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2908,6 +3144,7 @@
       "seconds": 1444.01,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2920,6 +3157,7 @@
       "seconds": 1354.92,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Disney Halloween Specials — Gravity Falls - Summerween",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2932,6 +3170,7 @@
       "seconds": 1719.89,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2944,6 +3183,7 @@
       "seconds": 1369.37,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Hey Arnold! - Arnold’s Halloween",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2956,6 +3196,7 @@
       "seconds": 4512.65,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2968,6 +3209,7 @@
       "seconds": 1425.72,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Invader Zim - Halloween Spectacular of Spooky Doom",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2980,6 +3222,7 @@
       "seconds": 675.63,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -2992,6 +3235,7 @@
       "seconds": 1317.63,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Disney Halloween Specials — Kim",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3004,6 +3248,7 @@
       "seconds": null,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3016,6 +3261,7 @@
       "seconds": 1325.98,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Disney Halloween Specials — Milo Murphy’s Law - Milo Murphy’s Halloween Scream-a-Torium!",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3028,6 +3274,7 @@
       "seconds": 1324.05,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3040,6 +3287,7 @@
       "seconds": 1323.24,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3052,6 +3300,7 @@
       "seconds": 692.4,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3064,6 +3313,7 @@
       "seconds": 1359.94,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3076,6 +3326,7 @@
       "seconds": 1361.28,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3088,6 +3339,7 @@
       "seconds": 1359.98,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Disney Halloween Specials — Phineas and Ferb - Terrifying Tri-State Trilogy of Terror",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3100,6 +3352,7 @@
       "seconds": 1361.19,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3112,6 +3365,7 @@
       "seconds": 1360.9,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3124,6 +3378,7 @@
       "seconds": 1349.21,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Cartoon Network Halloween Specials — Regular Show - Terror Tales of the Park II",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3136,6 +3391,7 @@
       "seconds": 1343.34,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Cartoon Network Halloween Specials — Regular Show - Terror Tales of the Park III",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3148,6 +3404,7 @@
       "seconds": 1344.92,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Cartoon Network Halloween Specials — Regular Show - Terror Tales of the Park IV",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3160,6 +3417,7 @@
       "seconds": 1344.47,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3172,6 +3430,7 @@
       "seconds": 1347.33,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Cartoon Network Halloween Specials — Regular Show - Terror Tales of the Park VI",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3184,6 +3443,7 @@
       "seconds": 1353.52,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Cartoon Network Halloween Specials — Regular Show - Terror Tales of the Park",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3196,6 +3456,7 @@
       "seconds": 720.76,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Cartoon Network Halloween Specials — S01E18 — Robotboy - Halloween",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3208,6 +3469,7 @@
       "seconds": 768.48,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Nickelodeon holloween Specials — S01E25 — Rocket Power - The Night Before",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3220,6 +3482,7 @@
       "seconds": 804.4,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Nickelodeon holloween Specials — S01E27 — Rocko’s Modern Life - Sugar Frosted Frights",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3232,6 +3495,7 @@
       "seconds": 1397.54,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Nickelodeon holloween Specials — Rugrats - Curse of the Werewuff",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3244,6 +3508,7 @@
       "seconds": 1261.49,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3256,6 +3521,7 @@
       "seconds": 2865.48,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3268,6 +3534,7 @@
       "seconds": 2776.13,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3280,6 +3547,7 @@
       "seconds": 1354.94,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3292,6 +3560,7 @@
       "seconds": 369.88,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3304,6 +3573,7 @@
       "seconds": 680.74,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3316,6 +3586,7 @@
       "seconds": 1389.01,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3328,6 +3599,7 @@
       "seconds": 1323.51,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3340,6 +3612,7 @@
       "seconds": 1466.67,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3352,6 +3625,7 @@
       "seconds": 1420.37,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Nickelodeon holloween Specials — Sponge Bob Square Pants - The Legend of Boo-kini Bottom",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3364,6 +3638,7 @@
       "seconds": 751.31,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Nickelodeon holloween Specials — Sponge Bob Square Pants - Scaredy Pants",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3376,6 +3651,7 @@
       "seconds": 1422.62,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Nickelodeon holloween Specials — T U F F Puppy - Happy Howl-O-Ween",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3388,6 +3664,7 @@
       "seconds": 1332.9,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3400,6 +3677,7 @@
       "seconds": 1365.12,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3412,6 +3690,7 @@
       "seconds": 1379.81,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3424,6 +3703,7 @@
       "seconds": 2220.89,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3436,6 +3716,7 @@
       "seconds": 1291.71,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3448,6 +3729,7 @@
       "seconds": 1363.24,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3460,6 +3742,7 @@
       "seconds": 1363.16,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3472,6 +3755,7 @@
       "seconds": 1363.18,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3484,6 +3768,7 @@
       "seconds": 1363.26,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3496,6 +3781,7 @@
       "seconds": 1421.97,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3508,6 +3794,7 @@
       "seconds": 4084.46,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3520,6 +3807,7 @@
       "seconds": 1407.11,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Nickelodeon holloween Specials — The Adventures of Jimmy Neutron Boy Genius - Nightmare in Retroville",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3532,6 +3820,7 @@
       "seconds": 1483.06,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3544,6 +3833,7 @@
       "seconds": 660.84,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Cartoon Network Halloween Specials — S01E21 — The Amazing World of Gumball - Halloween",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3556,6 +3846,7 @@
       "seconds": 1400.0,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Nickelodeon holloween Specials — The Angry Beavers - The Day the World Got Really Screwed Up!",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3568,6 +3859,7 @@
       "seconds": 1506.21,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Nickelodeon holloween Specials — The Fairly Odd Parents - Scary Godparents",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3580,6 +3872,7 @@
       "seconds": 1520.02,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3592,6 +3885,7 @@
       "seconds": 1354.5,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Disney Halloween Specials — The Ghost and Molly Mc Gee - Frightmares on Main Street",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3604,6 +3898,7 @@
       "seconds": 1440.71,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Cartoon Network Halloween Specials — The Grim Adventures of Billy & Mandy - Billy and Mandy's Jacked Up Halloween",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3616,6 +3911,7 @@
       "seconds": 1322.18,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Cartoon Network Halloween Specials — The Jetsons - Haunted Halloween",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3628,6 +3924,7 @@
       "seconds": 1403.02,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Nickelodeon holloween Specials — The Mighty B! - Catatonic",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3640,6 +3937,7 @@
       "seconds": 2792.17,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3652,6 +3950,7 @@
       "seconds": 1350.31,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Disney Halloween Specials — S01E21 — The Proud Family - A Hero for Halloween",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3664,6 +3963,7 @@
       "seconds": 1414.19,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3676,6 +3976,7 @@
       "seconds": 1456.45,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Nickelodeon holloween Specials — The X's - The Haunting of Homebase",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3688,6 +3989,7 @@
       "seconds": 1294.28,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3700,6 +4002,7 @@
       "seconds": 1323.47,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3712,6 +4015,7 @@
       "seconds": 1323.39,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Disney Halloween Specials — Ultimate Spider-Man - Halloween Night at the Museum",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3724,6 +4028,7 @@
       "seconds": 1323.41,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3736,6 +4041,7 @@
       "seconds": 1359.21,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Cartoon Network Halloween Specials — We Bare Bears - Charlie’s Halloween Thing 2",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3748,6 +4054,7 @@
       "seconds": 682.2,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": "Cartoon Network Halloween Specials — We Bare Bears - Charlie’s Halloween Thing",
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3760,6 +4067,7 @@
       "seconds": 4754.46,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3772,6 +4080,7 @@
       "seconds": 4660.75,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3784,6 +4093,7 @@
       "seconds": 2707.88,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3796,6 +4106,7 @@
       "seconds": 5439.86,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3808,6 +4119,7 @@
       "seconds": 5075.11,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3820,6 +4132,7 @@
       "seconds": 4969.14,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3832,6 +4145,7 @@
       "seconds": 2981.04,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3844,6 +4158,7 @@
       "seconds": 4746.82,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3856,6 +4171,7 @@
       "seconds": 4773.9,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3868,6 +4184,7 @@
       "seconds": 1857.25,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3880,6 +4197,7 @@
       "seconds": 5628.65,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3892,6 +4210,7 @@
       "seconds": 3340.82,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3904,6 +4223,7 @@
       "seconds": 5440.9,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3916,6 +4236,7 @@
       "seconds": 4921.92,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3928,6 +4249,7 @@
       "seconds": 6112.77,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3940,6 +4262,7 @@
       "seconds": 4185.74,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3952,6 +4275,7 @@
       "seconds": 5393.43,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3964,6 +4288,7 @@
       "seconds": 5689.73,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3976,6 +4301,7 @@
       "seconds": 6302.04,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -3988,6 +4314,7 @@
       "seconds": 4374.36,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4000,6 +4327,7 @@
       "seconds": 4631.67,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4012,6 +4340,7 @@
       "seconds": 1714.79,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4024,6 +4353,7 @@
       "seconds": 2642.08,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4036,6 +4366,7 @@
       "seconds": 137.2,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4048,6 +4379,7 @@
       "seconds": 137.2,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4060,6 +4392,7 @@
       "seconds": 137.2,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4072,6 +4405,7 @@
       "seconds": 122.18,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4084,6 +4418,7 @@
       "seconds": 137.2,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4096,6 +4431,7 @@
       "seconds": 137.2,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4108,6 +4444,7 @@
       "seconds": 3300.16,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4120,6 +4457,7 @@
       "seconds": 3538.54,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4132,6 +4470,7 @@
       "seconds": 3320.92,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4144,6 +4483,7 @@
       "seconds": 4793.79,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4156,6 +4496,7 @@
       "seconds": 3508.97,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4168,6 +4509,7 @@
       "seconds": 3579.92,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4180,6 +4522,7 @@
       "seconds": 4359.92,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4192,6 +4535,7 @@
       "seconds": 3670.66,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4204,6 +4548,7 @@
       "seconds": 3641.64,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4216,6 +4561,7 @@
       "seconds": 3627.09,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4228,6 +4574,7 @@
       "seconds": 3790.0,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4240,6 +4587,7 @@
       "seconds": 3425.47,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4252,6 +4600,7 @@
       "seconds": 3824.07,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     },
@@ -4264,6 +4613,7 @@
       "seconds": 3727.0,
       "format": "MPEG4",
       "existing_url": false,
+      "existing_title": null,
       "proposed_channels": [],
       "needs_manual_review": true
     }
