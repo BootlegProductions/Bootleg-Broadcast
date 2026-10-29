@@ -1,0 +1,27 @@
+name: Build verified-metadata Nick uploader programme collection
+on:
+  push:
+    paths:
+      - '.github/workflows/build-nick-uploader.yml'
+      - 'tools/build_nick_uploader_programmes.py'
+      - 'nick-uploader-programmes-review.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile individual episode and movie entries
+        run: python tools/build_nick_uploader_programmes.py
+      - name: Commit new programme entries
+        run: |
+          git config user.name "Bootleg Broadcast Library"
+          git config user.email "actions@users.noreply.github.com"
+          git add nick-uploader-programmes.js nick-uploader-programmes-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Add individually measured uploader episodes and family films to channels"
+            git push
+          fi
