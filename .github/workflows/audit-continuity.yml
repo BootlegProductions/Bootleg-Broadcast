@@ -1,0 +1,26 @@
+name: Audit live continuity holding screens
+on:
+  push:
+    paths:
+      - '.github/workflows/audit-continuity.yml'
+      - 'tools/audit_continuity_gaps.cjs'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Analyze sample October and December plans
+        run: node tools/audit_continuity_gaps.cjs
+      - name: Save holding screen audit
+        run: |
+          git config user.name "Bootleg Broadcast Audit"
+          git config user.email "actions@users.noreply.github.com"
+          git add continuity-gap-audit.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record real broadcast continuity gaps"
+            git push
+          fi
