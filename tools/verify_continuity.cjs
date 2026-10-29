@@ -27,7 +27,7 @@ for(let m=1;m<=12;m++){
    const duration=p.broadcast_end_seconds-p.broadcast_start_seconds;
    if(p.editorial_kind==='continuity-short'){
     const key=p.content_id||p.url;
-    assert(p.url?.endsWith('.mp4'),'No direct MP4 source for bonus programme');
+    assert(/\.mp4(?:[?#]|$)/i.test(p.url||''),'No direct MP4 source for bonus programme: '+p.url);
     assert(!existing.has(key),'Bonus duplicates scheduled programme '+channel.name);
     assert(!added.has(key),'Repeated bonus programme '+channel.name);
     assert(Math.abs(duration-p.duration_seconds)<.005,'Clipped bonus programme '+channel.name);
