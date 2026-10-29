@@ -23,14 +23,15 @@ for source in inventory['sources']:
   url=f['url'];filename=f['filename']
   if url in existing_urls or url in used_urls:continue
   if source['name'] in series:
-   m=re.search(r'[sS](\d{1,2})\s*[-._ ]*[eE](\d{1,3})',filename)
+   m=(re.search(r'[sS](\d{1,2})\s*[-._ ]*[eE](\d{1,3})',filename)
+      or re.search(r'season[_\W]*(\d{1,2})[_\W]*episode[_\W]*(\d{1,3})',filename,re.I))
    if not m:
     skipped.append({'name':filename,'reason':'Could not confirm season/episode'});continue
    season,ep=map(int,m.groups())
    cid='nick-uploader:'+norm(source['name'])+':'+str(season)+':'+str(ep)
    if cid in seen_ids:
     skipped.append({'name':filename,'reason':'Repeated season/episode'});continue
-   suffix=re.sub(r'^.*?[sS]\d{1,2}\s*[-._ ]*[eE]\d{1,3}\s*[-._ ]*','',filename).removesuffix('.mp4')
+   suffix='' if source['name']=='Figure It Out' else re.sub(r'^.*?[sS]\d{1,2}\s*[-._ ]*[eE]\d{1,3}\s*[-._ ]*','',filename).removesuffix('.mp4')
    suffix=re.sub(r'[_]+',' ',suffix).strip(' -_.')
    if re.match(r'^[a-f0-9]{10,}$',suffix.lower()):suffix=''
    title=source['name']+' — S%02dE%02d'%(season,ep)+((' — '+suffix) if suffix else '')
