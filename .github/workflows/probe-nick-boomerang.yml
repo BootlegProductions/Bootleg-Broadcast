@@ -1,0 +1,26 @@
+name: Check new cartoon ident and series streams
+on:
+  push:
+    paths:
+      - '.github/workflows/probe-nick-boomerang.yml'
+      - 'tools/probe_nick_boomerang_links.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe new Archive MP4 links without downloading videos
+        run: python tools/probe_nick_boomerang_links.py
+      - name: Commit link check report
+        run: |
+          git config user.name "Bootleg Broadcast Validation"
+          git config user.email "actions@users.noreply.github.com"
+          git add nick-boomerang-link-check.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record Nickelodeon and Boomerang MP4 link health"
+            git push
+          fi
