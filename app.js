@@ -81,17 +81,41 @@ function openGuide(){guideReturnFocus=document.activeElement;syncGuideControls()
 function closeGuide(){$('guidePanel').close();guideReturnFocus?.focus();}
 function syncGuideControls(){const month=$('guide-month');month.value=currentMonth;const days=flattenDays();$('guide-day').innerHTML=days.map((d,n)=>`<option value="${d.date||n+1}">${d.date||n+1} ${escapeHtml(d.day||'')}</option>`).join('');$('guide-day').value=String(getTodaySchedule()?.date||previewDate||Number(ukParts().day));const channels=getTodaySchedule()?.channels||[];$('guide-channel').innerHTML=channels.map((c,n)=>`<option value="${n}">${String(n+1).padStart(2,'0')} · ${escapeHtml(c.name)}</option>`).join('');$('guide-channel').value=String(currentChannel);$('guide-notice').textContent=`${currentMonth==='october'?'Halloween rotation':currentMonth==='december'?'Christmas rotation':'Monthly rotation'} · ${previewDate?'Previewing '+currentMonth+' '+previewDate:'Today in the UK'}. Shared broadcast slots use UK time. Choose a programme to watch from the start; it returns to the broadcast afterwards.`;}
 function sourcePage(url){try{const u=new URL(url,location.href);if(u.hostname==='archive.org'&&u.pathname.startsWith('/download/'))return 'https://archive.org/details/'+encodeURIComponent(u.pathname.split('/')[2]);return null;}catch{return null;}}
+let featureView='christmas';
+function getChannelFeatures(channel){
+ const existing=globalThis.BOOTLEG_FEATURE_LIBRARY?.programmes||[];
+ const added=globalThis.BOOTLEG_HOLIDAY_MEDIA?.programmes||[];
+ const dedup=new Map();
+ // The full catalogue and the new Archive discoveries are two sources of the
+ // same title. Avoid listing the same film twice in the combined views.
+ const key=p=>String(p.title||'').toLowerCase().replace(/[^a-z0-9]+/g,'');
+ for(const p of existing)if(p.channel===channel)dedup.set(key(p),p);
+ for(const p of added)if(p.channel===channel&&!dedup.has(key(p))){
+   dedup.set(key(p),{...p,movie:p.type==='Movie',christmas:(p.seasonal_tags||[]).includes('christmas'),library_origin:'new_archive'});
+ }
+ return {all:[...dedup.values()],added:added.filter(p=>p.channel===channel)};
+}
 function renderGuideList(){
  Broadcast.guide();
  const channel=getTodaySchedule()?.channels?.[Number($('guide-channel').value)]?.name;
  const query=$('guide-search').value.trim().toLowerCase();
- const records=(globalThis.BOOTLEG_HOLIDAY_MEDIA?.programmes||[]).filter(p=>p.channel===channel&&(!query||(''+p.title+' '+p.show).toLowerCase().includes(query)));
+ const {all,added}=getChannelFeatures(channel);
+ const tabs={christmas:all.filter(p=>p.christmas),movies:all.filter(p=>p.movie),new:added};
+ const records=tabs[featureView].filter(p=>!query||(String(p.title||'')+' '+String(p.show||'')).toLowerCase().includes(query));
  const panel=$('holiday-programmes'),list=$('holiday-programmes-list');
- panel.hidden=!records.length;
- if(!records.length){list.replaceChildren();return;}
- $('holiday-programmes-title').textContent='CHRISTMAS & FEATURE LIBRARY · '+records.length+' TITLES';
- list.innerHTML=records.map(p=>'<button type="button" class="holiday-watch" data-holiday-id="'+escapeHtml(p.id)+'"><span class="holiday-title">'+escapeHtml(p.title)+'</span><small>'+Math.ceil(p.duration_seconds/60)+' MIN · '+escapeHtml(p.type.toUpperCase())+' · WATCH ON DEMAND</small></button>').join('');
- // Open for December previews or when searching for a matching holiday title.
+ panel.hidden=!all.length&&!added.length;
+ if(panel.hidden){list.replaceChildren();return;}
+ $('holiday-programmes-title').textContent='CHANNEL FILM & CHRISTMAS LIBRARY · '+(all.length)+' TITLES';
+ $('holiday-library-notice').textContent='ON-DEMAND LIBRARY · Films and seasonal specials available for this channel. Broadcast times are shown separately in the programme schedule above.';
+ for(const button of $('holiday-library-tabs').querySelectorAll('button[data-feature-view]')){
+   const view=button.dataset.featureView;
+   button.textContent=(view==='christmas'?'CHRISTMAS':view==='movies'?'FILMS':'NEW ARRIVALS')+' ('+tabs[view].length+')';
+   button.setAttribute('aria-pressed',String(view===featureView));
+ }
+ list.innerHTML=records.length?records.map(p=>
+   '<button type="button" class="holiday-watch" data-holiday-id="'+escapeHtml(p.id)+'"><span class="holiday-title">'+escapeHtml(p.title)+'</span><small>'+Math.ceil(p.duration_seconds/60)+' MIN · '+escapeHtml(p.type.toUpperCase())+' · WATCH ON DEMAND</small></button>'
+ ).join(''):'<p class="guide-empty">No matching titles in this category. Try another tab or change the search.</p>';
+ // Keep the explicit browse list open for December or when searching.
  if(currentMonth==='december'||query)panel.open=true;
 }
 function toggleHelp(force){const open=typeof force==='boolean'?force:!$('helpOverlay').classList.contains('active');if(open){helpReturnFocus=document.activeElement;$('helpOverlay').classList.add('active');$('helpClose').focus();}else{$('helpOverlay').classList.remove('active');helpReturnFocus?.focus();}}
@@ -111,9 +135,16 @@ $('guide-month').addEventListener('change',async e=>{await selectSchedule(e.targ
 $('guide-day').addEventListener('change',async e=>{await selectSchedule(currentMonth,Number(e.target.value));renderGuideList();});
 $('guide-channel').addEventListener('change',renderGuideList);
 $('guide-search').addEventListener('input',renderGuideList);
+$('holiday-library-tabs').addEventListener('click',e=>{
+ const button=e.target.closest('button[data-feature-view]');if(!button)return;
+ featureView=button.dataset.featureView;
+ renderGuideList();
+});
 $('holiday-programmes-list').addEventListener('click',e=>{
  const button=e.target.closest('button[data-holiday-id]');if(!button)return;
- const p=(globalThis.BOOTLEG_HOLIDAY_MEDIA?.programmes||[]).find(row=>row.id===button.dataset.holidayId);
+ const channel=getTodaySchedule()?.channels?.[Number($('guide-channel').value)]?.name;
+ const {all,added}=getChannelFeatures(channel);
+ const p=[...all,...added].find(row=>row.id===button.dataset.holidayId);
  if(!p)return;
  Broadcast.chooseItem(p);closeGuide();
 });
