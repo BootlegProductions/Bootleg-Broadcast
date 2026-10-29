@@ -1,0 +1,232 @@
+{
+  "checked": 25,
+  "http_reachable": 25,
+  "results": [
+    {
+      "category": "ident",
+      "channel": "Dickleodeon",
+      "title": "NICKELODEON GOLD 10 Image Piece - Short",
+      "url": "https://archive.org/download/nick-ids-comp_202202/NICKELODEON%20GOLD%2010%20Image%20Piece%20-%20Short.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "ident",
+      "channel": "Dickleodeon",
+      "title": "NICKELODEON SILVER 10 Image Piece - Short",
+      "url": "https://archive.org/download/nick-ids-comp_202202/NICKELODEON%20SILVER%2010%20Image%20Piece%20-%20Short.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "ident",
+      "channel": "Dickleodeon",
+      "title": "Nick Games (2002, highest quality)",
+      "url": "https://archive.org/download/nick-ids-comp_202202/Nick%20Games%20%282002%2C%20highest%20quality%29.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "ident",
+      "channel": "Dickleodeon",
+      "title": "Nick Rebrand IDs",
+      "url": "https://archive.org/download/nick-ids-comp_202202/Nick%20Rebrand%20IDs.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "ident",
+      "channel": "Dickleodeon",
+      "title": "Nickelodeon - Seasonal Ident - BEACH WAVE",
+      "url": "https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20-%20Seasonal%20Ident%20-%20BEACH%20WAVE.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "ident",
+      "channel": "Dickleodeon",
+      "title": "Nickelodeon - Seasonal Ident - SANTA SACK",
+      "url": "https://archive.org/download/nick-ids-comp_202202/Nickelodeon%20-%20Seasonal%20Ident%20-%20SANTA%20SACK.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "ident",
+      "channel": "90s Toons",
+      "title": "Boomerang 50 Years of the Flintstones Bumper",
+      "url": "https://archive.org/download/yt-OldMcBarney/Boomerang%2050%20Years%20of%20the%20Flintstones%20Bumper.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "ident",
+      "channel": "90s Toons",
+      "title": "Boomerang Atom Ant Bumper",
+      "url": "https://archive.org/download/yt-OldMcBarney/Boomerang%20Atom%20Ant%20Bumper.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "ident",
+      "channel": "90s Toons",
+      "title": "Boomerang Paddington Bear Bumper #2",
+      "url": "https://archive.org/download/yt-OldMcBarney/Boomerang%20Paddington%20Bear%20Bumper%20%232.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "ident",
+      "channel": "90s Toons",
+      "title": "Boomerang Paddington Bear Bumper",
+      "url": "https://archive.org/download/yt-OldMcBarney/Boomerang%20Paddington%20Bear%20Bumper.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "ident",
+      "channel": "Cartoons Cartoons",
+      "title": "CN Bumper - Dexter getting dizzy",
+      "url": "https://archive.org/download/yt-OldMcBarney/CN%20Bumper%20-%20Dexter%20getting%20dizzy.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "ident",
+      "channel": "Cartoons Cartoons",
+      "title": "CN Logo Riding A Car",
+      "url": "https://archive.org/download/yt-OldMcBarney/CN%20Logo%20Riding%20A%20Car.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "ident",
+      "channel": "Cartoons Cartoons",
+      "title": "CN Toilet Bumper",
+      "url": "https://archive.org/download/yt-OldMcBarney/CN%20Toilet%20Bumper.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "ident",
+      "channel": "Cartoons Cartoons",
+      "title": "Cartoon Network Baboon Bumper",
+      "url": "https://archive.org/download/yt-OldMcBarney/Cartoon%20Network%20Baboon%20Bumper.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "ident",
+      "channel": "Cartoons Cartoons",
+      "title": "Cartoon Network Christmas Party Bumper",
+      "url": "https://archive.org/download/yt-OldMcBarney/Cartoon%20Network%20Christmas%20Party%20Bumper.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "series",
+      "channel": "Dickleodeon",
+      "title": "Figure It Out — S01E01",
+      "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_01___5784123149e39.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "series",
+      "channel": "Dickleodeon",
+      "title": "Figure It Out — S01E02",
+      "url": "https://archive.org/download/figure_it_out_-_season_2_-_episode_06___578412314a427/figure_it_out_-_season_1_-_episode_02___578412314a00b.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "series",
+      "channel": "Dickleodeon",
+      "title": "I Spy — S01E01 — A Mumble Monster Picture Day Clouds Roll",
+      "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S01E01%20-%20A%20Mumble%20Monster_Picture%20Day%20Clouds%20Roll.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "series",
+      "channel": "Dickleodeon",
+      "title": "I Spy — S01E02 — A Bike I Like Tick Illy Hiccup",
+      "url": "https://archive.org/download/i-spy-s-01-e-13-a-campfire-night-light-freewheelin-fun_202202/I%20Spy%20S01E02%20-%20A%20Bike%20I%20Like_Tick%20Illy%20Hiccup.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "series",
+      "channel": "Dickleodeon",
+      "title": "Splatalot — S01E01 — Country Style",
+      "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E01%20-%20Country%20Style.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "series",
+      "channel": "Dickleodeon",
+      "title": "Splatalot — S01E02 — Talk To The Barrel",
+      "url": "https://archive.org/download/splatalot-s-01-e-06-shoved-by-a-rainbow/Splatalot%21%20-%20S01E02%20-%20Talk%20To%20The%20Barrel.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "film_or_special",
+      "channel": "Dizzy",
+      "title": "Piglet's Big Movie",
+      "url": "https://archive.org/download/piglet-s-big-movie/Piglet_s%20Big%20Movie.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "film_or_special",
+      "channel": "GirlyPop",
+      "title": "Follow That Bird",
+      "url": "https://archive.org/download/sesame.-street.-presents-follow.that.-bird.-1985.-web-dl.x-264-fgt/Sesame.Street.Presents-Follow.that.Bird.1985.WEB-DL.x264-FGT.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "film_or_special",
+      "channel": "GirlyPop",
+      "title": "Lost And Found (2008)",
+      "url": "https://archive.org/download/lost-and-found-2008-film/Lost%20and%20Found%20%282008%20film%29.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    },
+    {
+      "category": "film_or_special",
+      "channel": "GirlyPop",
+      "title": "A Child's Christmas",
+      "url": "https://archive.org/download/a-child-s-christmas/A%20Child_s%20Christmas.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "http_reachable": true
+    }
+  ],
+  "note": "HTTP HEAD only. Video/audio playback and rights not verified."
+}
