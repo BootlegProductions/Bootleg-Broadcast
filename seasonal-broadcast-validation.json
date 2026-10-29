@@ -22,282 +22,282 @@
       "day": 1,
       "airings": 1,
       "adverts": 47,
-      "hold_minutes": 1081.989583333333
+      "hold_minutes": 481.98958333333417
     },
     {
       "month": "december",
       "day": 6,
       "airings": 2,
       "adverts": 38,
-      "hold_minutes": 1040.0215666666666
+      "hold_minutes": 440.02156666666616
     },
     {
       "month": "december",
       "day": 12,
       "airings": 1,
       "adverts": 41,
-      "hold_minutes": 1050.9800166666657
+      "hold_minutes": 450.9800166666657
     },
     {
       "month": "december",
       "day": 24,
       "airings": 2,
       "adverts": 46,
-      "hold_minutes": 1092.2169499999998
+      "hold_minutes": 492.2169500000004
     },
     {
       "month": "december",
       "day": 25,
       "airings": 2,
       "adverts": 41,
-      "hold_minutes": 1093.8922333333326
+      "hold_minutes": 493.8922333333329
     }
   ],
   "new_seasonal_airings": 8,
   "non_december_airings": 0,
   "christmas_ads_in_december": 213,
   "christmas_ads_in_october": 0,
-  "max_intermission_seconds": 3600,
+  "max_intermission_seconds": 1115.5099999999948,
   "longest_holds": [
     {
-      "month": "december",
-      "day": 1,
-      "channel": "90s Toons",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 1,
-      "channel": "Cartoons Cartoons",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 1,
-      "channel": "Japanime",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 1,
-      "channel": "Off-Licence TV",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 1,
-      "channel": "Star Spangled TV",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 1,
-      "channel": "AAA",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 1,
-      "channel": "Dickleodeon",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 1,
-      "channel": "GirlyPop",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 1,
-      "channel": "Dizzy",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 1,
+      "month": "october",
+      "day": 29,
       "channel": "What",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
+      "seconds": 1116,
+      "at": 1421,
+      "block": "Late night"
     },
     {
-      "month": "december",
-      "day": 6,
-      "channel": "90s Toons",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 6,
-      "channel": "Cartoons Cartoons",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 6,
-      "channel": "Japanime",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 6,
-      "channel": "Off-Licence TV",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 6,
-      "channel": "Star Spangled TV",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 6,
-      "channel": "AAA",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 6,
-      "channel": "Dickleodeon",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 6,
-      "channel": "GirlyPop",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 6,
-      "channel": "Dizzy",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 6,
+      "month": "october",
+      "day": 28,
       "channel": "What",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 12,
-      "channel": "90s Toons",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 12,
-      "channel": "Cartoons Cartoons",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 12,
-      "channel": "Japanime",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 12,
-      "channel": "Off-Licence TV",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 12,
-      "channel": "Star Spangled TV",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 12,
-      "channel": "AAA",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 12,
-      "channel": "Dickleodeon",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 12,
-      "channel": "GirlyPop",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
-    },
-    {
-      "month": "december",
-      "day": 12,
-      "channel": "Dizzy",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
+      "seconds": 1105,
+      "at": 1422,
+      "block": "Late night"
     },
     {
       "month": "december",
       "day": 12,
       "channel": "What",
-      "seconds": 3600,
-      "at": 240,
-      "block": "After hours — Christmas fireplace"
+      "seconds": 1070,
+      "at": 1422,
+      "block": "Late night"
+    },
+    {
+      "month": "december",
+      "day": 24,
+      "channel": "What",
+      "seconds": 1069,
+      "at": 1422,
+      "block": "Late night"
+    },
+    {
+      "month": "october",
+      "day": 29,
+      "channel": "Star Spangled TV",
+      "seconds": 734,
+      "at": 1308,
+      "block": "Late night"
+    },
+    {
+      "month": "december",
+      "day": 25,
+      "channel": "What",
+      "seconds": 707,
+      "at": 1428,
+      "block": "Late night"
+    },
+    {
+      "month": "december",
+      "day": 1,
+      "channel": "Japanime",
+      "seconds": 670,
+      "at": 199,
+      "block": "After hours"
+    },
+    {
+      "month": "december",
+      "day": 1,
+      "channel": "What",
+      "seconds": 667,
+      "at": 1429,
+      "block": "Late night"
+    },
+    {
+      "month": "october",
+      "day": 29,
+      "channel": "Japanime",
+      "seconds": 664,
+      "at": 199,
+      "block": "After hours"
+    },
+    {
+      "month": "december",
+      "day": 24,
+      "channel": "Japanime",
+      "seconds": 662,
+      "at": 199,
+      "block": "After hours"
+    },
+    {
+      "month": "december",
+      "day": 25,
+      "channel": "Japanime",
+      "seconds": 662,
+      "at": 199,
+      "block": "After hours"
+    },
+    {
+      "month": "december",
+      "day": 25,
+      "channel": "Japanime",
+      "seconds": 660,
+      "at": 1429,
+      "block": "Late night"
+    },
+    {
+      "month": "december",
+      "day": 1,
+      "channel": "Japanime",
+      "seconds": 658,
+      "at": 469,
+      "block": "Kids anime breakfast"
+    },
+    {
+      "month": "december",
+      "day": 12,
+      "channel": "Japanime",
+      "seconds": 657,
+      "at": 199,
+      "block": "After hours"
+    },
+    {
+      "month": "october",
+      "day": 28,
+      "channel": "Japanime",
+      "seconds": 654,
+      "at": 1429,
+      "block": "Late night"
+    },
+    {
+      "month": "december",
+      "day": 6,
+      "channel": "Japanime",
+      "seconds": 651,
+      "at": 1429,
+      "block": "Late night"
+    },
+    {
+      "month": "october",
+      "day": 28,
+      "channel": "Japanime",
+      "seconds": 650,
+      "at": 469,
+      "block": "Kids anime breakfast"
+    },
+    {
+      "month": "december",
+      "day": 1,
+      "channel": "Japanime",
+      "seconds": 646,
+      "at": 1429,
+      "block": "Late night"
+    },
+    {
+      "month": "october",
+      "day": 29,
+      "channel": "Japanime",
+      "seconds": 634,
+      "at": 319,
+      "block": "After hours"
+    },
+    {
+      "month": "october",
+      "day": 28,
+      "channel": "Japanime",
+      "seconds": 631,
+      "at": 319,
+      "block": "After hours"
+    },
+    {
+      "month": "october",
+      "day": 28,
+      "channel": "Japanime",
+      "seconds": 630,
+      "at": 1010,
+      "block": "Afternoon anime adventures — complete series runs"
+    },
+    {
+      "month": "december",
+      "day": 12,
+      "channel": "Japanime",
+      "seconds": 629,
+      "at": 1430,
+      "block": "Late anime thrillers — complete series runs"
+    },
+    {
+      "month": "october",
+      "day": 29,
+      "channel": "Japanime",
+      "seconds": 626,
+      "at": 1010,
+      "block": "Afternoon anime adventures — complete series runs"
+    },
+    {
+      "month": "december",
+      "day": 6,
+      "channel": "Japanime",
+      "seconds": 621,
+      "at": 950,
+      "block": "Afternoon anime stories — complete series runs"
+    },
+    {
+      "month": "december",
+      "day": 12,
+      "channel": "Japanime",
+      "seconds": 618,
+      "at": 110,
+      "block": "Adults after midnight — complete series runs"
+    },
+    {
+      "month": "december",
+      "day": 24,
+      "channel": "Japanime",
+      "seconds": 618,
+      "at": 1430,
+      "block": "Late night"
+    },
+    {
+      "month": "october",
+      "day": 29,
+      "channel": "Japanime",
+      "seconds": 608,
+      "at": 1430,
+      "block": "Late night"
+    },
+    {
+      "month": "december",
+      "day": 25,
+      "channel": "Japanime",
+      "seconds": 602,
+      "at": 1190,
+      "block": "Evening anime mystery — complete series runs"
+    },
+    {
+      "month": "december",
+      "day": 24,
+      "channel": "Japanime",
+      "seconds": 601,
+      "at": 1010,
+      "block": "Afternoon anime adventures — complete series runs"
+    },
+    {
+      "month": "december",
+      "day": 25,
+      "channel": "Japanime",
+      "seconds": 595,
+      "at": 1010,
+      "block": "Afternoon anime adventures — complete series runs"
     }
   ],
   "airings_by_channel": {
