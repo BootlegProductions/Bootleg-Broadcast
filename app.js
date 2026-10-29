@@ -84,7 +84,7 @@ function sourcePage(url){try{const u=new URL(url,location.href);if(u.hostname===
 let featureView='christmas';
 function getChannelFeatures(channel){
  const existing=globalThis.BOOTLEG_FEATURE_LIBRARY?.programmes||[];
- const added=[...(globalThis.BOOTLEG_HOLIDAY_MEDIA?.programmes||[]),...(globalThis.BOOTLEG_UPLOADER_PROGRAMMES?.programmes||[])];
+ const added=[...(globalThis.BOOTLEG_HOLIDAY_MEDIA?.programmes||[]),...(globalThis.BOOTLEG_UPLOADER_PROGRAMMES?.programmes||[]),...(globalThis.BOOTLEG_SEASONAL_MEDIA?.programmes||[])];
  const dedup=new Map();
  // The full catalogue and the new Archive discoveries are two sources of the
  // same title. Avoid listing the same film twice in the combined views.
@@ -100,7 +100,7 @@ function renderGuideList(){
  const channel=getTodaySchedule()?.channels?.[Number($('guide-channel').value)]?.name;
  const query=$('guide-search').value.trim().toLowerCase();
  const {all,added}=getChannelFeatures(channel);
- const tabs={christmas:all.filter(p=>p.christmas),movies:all.filter(p=>p.movie),series:added.filter(p=>p.type==='Episode'),new:added.filter(p=>p.type!=='Episode')};
+ const tabs={christmas:all.filter(p=>p.christmas),movies:all.filter(p=>p.movie),seasonal:added.filter(p=>p.library_origin==='christmas_archive_2026'),series:added.filter(p=>p.type==='Episode'&&p.library_origin!=='christmas_archive_2026'),new:added.filter(p=>p.type!=='Episode'&&p.library_origin!=='christmas_archive_2026')};
  const records=tabs[featureView].filter(p=>!query||(String(p.title||'')+' '+String(p.show||'')).toLowerCase().includes(query));
  const panel=$('holiday-programmes'),list=$('holiday-programmes-list');
  panel.hidden=!all.length&&!added.length;
@@ -109,7 +109,7 @@ function renderGuideList(){
  $('holiday-library-notice').textContent='ON-DEMAND LIBRARY · Films, specials and new series. Some new episodes also fill broadcast gaps; dated airtimes remain in the schedule.';
  for(const button of $('holiday-library-tabs').querySelectorAll('button[data-feature-view]')){
    const view=button.dataset.featureView;
-   button.textContent=(view==='christmas'?'CHRISTMAS':view==='movies'?'FILMS':view==='series'?'NEW SERIES':'NEW ARRIVALS')+' ('+tabs[view].length+')';
+   button.textContent=(view==='christmas'?'CHRISTMAS':view==='movies'?'FILMS':view==='series'?'NEW SERIES':view==='seasonal'?'CHRISTMAS NEW':'NEW ARRIVALS')+' ('+tabs[view].length+')';
    button.setAttribute('aria-pressed',String(view===featureView));
  }
  list.innerHTML=records.length?records.map(p=>
