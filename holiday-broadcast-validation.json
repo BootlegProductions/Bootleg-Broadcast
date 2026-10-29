@@ -1,6 +1,7 @@
 {
   "status": "passed",
   "on_demand_titles": 54,
+  "holiday_backup_links": 24,
   "channels": {
     "90s Toons": {
       "library": 9,
