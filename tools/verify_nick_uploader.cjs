@@ -9,7 +9,7 @@ require(path.join(root,'channel-idents.js'));
 require(path.join(root,'broadcast-clock.js'));
 const programmes=globalThis.BOOTLEG_UPLOADER_PROGRAMMES.programmes;
 const breaks=JSON.parse(fs.readFileSync(path.join(root,'channel-breaks.json'),'utf8'));
-const seenIds=new Set(),seenUrls=new Set(),series={};
+const seenIds=new Set(),seenUrls=new Set(),series={},airingDays=new Set();
 for(const p of programmes){
  assert(p.url.startsWith('https://archive.org/download/')&&/\.mp4$/i.test(p.url),'Bad direct file '+p.title);
  assert(p.duration_seconds>=240,'Invalid runtime '+p.title);
@@ -24,6 +24,7 @@ for(const p of programmes){
 assert.equal(series['Figure It Out'],159);
 assert.equal(series['I Spy'],26);
 assert.equal(series['Splatalot'],53);
+assert.equal(programmes.filter(x=>x.continuity_candidate).length,78);
 const summary={status:'passed',series,films:programmes.filter(x=>x.type!=='Episode').map(x=>x.title),
  starter_count:programmes.filter(x=>x.continuity_candidate).length,dates_checked:0,actual_broadcast_airings:0,
  broadcasts:[],max_same_day:0};
@@ -40,6 +41,9 @@ for(const month of ['january','april','october','december']){
    assert(p.editorial_kind==='continuity-short','Unexpected placement type: '+p.title);
    assert(p.type==='Episode','Only measured episodes can enter the short pool');
    assert(!ids.has(p.content_id),'Duplicate episode same channel/day');
+   const dayEpisode=month+'|'+p.content_id;
+   assert(!airingDays.has(dayEpisode),'Same imported episode repeated within two weeks: '+dayEpisode);
+   airingDays.add(dayEpisode);
    ids.add(p.content_id);
   }
   summary.dates_checked++;summary.actual_broadcast_airings+=slots.length;
