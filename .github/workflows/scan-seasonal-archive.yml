@@ -1,0 +1,28 @@
+name: Scan supplied Christmas Archive collections
+on:
+  push:
+    paths:
+      - '.github/workflows/scan-seasonal-archive.yml'
+      - 'tools/scan_seasonal_archive.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch actual metadata of the three supplied Archive items
+        run: python tools/scan_seasonal_archive.py
+      - name: Commit exact source inventory
+        run: |
+          git config user.name "Bootleg Broadcast Source Review"
+          git config user.email "actions@users.noreply.github.com"
+          git add seasonal-archive-inventory.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record Christmas episodes and classic advertisement source files"
+            git fetch origin main
+            git rebase origin/main
+            git push
+          fi
