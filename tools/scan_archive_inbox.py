@@ -112,6 +112,23 @@ def inspect_item(identifier, inspect_bundles=False):
                 entry["nested_video_paths"], error = list_bundle(identifier, name)
                 if error:
                     entry["error"] = error
+                # These are leads, not verified streams. Inspect individual nested
+                # filenames; the generic ZIP or item title tells us very little.
+                entry["nested_video_candidates"] = []
+                seen_nested = set()
+                for nested in entry["nested_video_paths"]:
+                    basename = urllib.parse.unquote(urllib.parse.urlsplit(nested).path).rsplit("/", 1)[-1]
+                    if not VIDEO.search(basename) or nested in seen_nested:
+                        continue
+                    seen_nested.add(nested)
+                    channels, note = suggested_channel(basename)
+                    entry["nested_video_candidates"].append({
+                        "filename": basename,
+                        "directory_path": nested,
+                        "proposed_channels": channels,
+                        "notes": note,
+                        "review_status": "requires_individual_video_runtime_audio_rights_check"
+                    })
             bundles.append(entry)
     return {
         "identifier": identifier,
@@ -120,6 +137,7 @@ def inspect_item(identifier, inspect_bundles=False):
         "license_url": metadata.get("licenseurl"),
         "video_count": len(videos),
         "bundle_count": len(bundles),
+        "nested_candidate_count": sum(len(b.get("nested_video_candidates", [])) for b in bundles),
         "video_files": videos,
         "bundles": bundles,
     }
@@ -163,6 +181,7 @@ def run(limit, inspect_bundles):
     path.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"written": str(path), "items": len(output["items"]),
         "videos": sum(i["video_count"] for i in output["items"]),
+        "nested_video_candidates": sum(i["nested_candidate_count"] for i in output["items"]),
         "bundles": sum(i["bundle_count"] for i in output["items"]),
         "errors": output["errors"][:8]}, indent=2))
 
