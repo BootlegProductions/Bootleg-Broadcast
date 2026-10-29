@@ -21,6 +21,19 @@ function contentKey(p){
  return p.broadcast_identity||key+':'+title;
 }
 
+/* Select one short, channel-specific ident, deterministically for each hour.
+   No playlists contain compilations; seasonal clips stay in their months.
+   This changes which ident plays, not how often an ident is scheduled. */
+function stationIdent(station,channel,year,month,day,atSeconds){
+ const pool=root.BOOTLEG_IDENT_POOLS?.channels?.[channel]||[];
+ const available=[station.ident,...pool.filter(p=>!Array.isArray(p.months)||p.months.includes(month))]
+   .filter(p=>p&&p.duration_seconds>=3&&p.duration_seconds<=35&&p.url);
+ if(!available.length)return station.ident;
+ const hour=Math.floor(atSeconds/3600);
+ const rotation=(year*17+month*13+day*7+hour)%available.length;
+ return available[rotation];
+}
+
 /* Continuity scheduling — short measured programmes instead of huge ad loops.
    All originally authored programme start times remain fixed. */
 function improveContinuity(items,channel,year,month,day,breaks){
@@ -81,7 +94,7 @@ function improveContinuity(items,channel,year,month,day,breaks){
   const limit=Math.min(LIMIT,stop-t);
   const indices=[],seen=new Set();
   let filled=0;
-  const identDuration=Number(station.ident?.duration_seconds)||0;
+  const identDuration=Number(stationIdent(station,channel,year,month,day,t)?.duration_seconds)||0;
   if(identDuration>0&&identDuration<=limit&&t-lastIdent>=IDENT_GAP){
    indices.push(-1);filled=identDuration;lastIdent=t;
   }
@@ -125,7 +138,7 @@ function plan({year,month,day,channel,items=[],breaks={}}){
   const station=breaks.channels?.[channel];if(!station)throw new Error('Missing channel break media.');
   let t=p.broadcast_start_seconds;
   for(const index of p.break_sequence){
-   const clip=index===-1?station.ident:station.adverts[index];if(!clip)throw new Error('Invalid channel break index.');
+   const clip=index===-1?stationIdent(station,channel,year,month,day,t):station.adverts[index];if(!clip)throw new Error('Invalid channel break index.');
    const finish=Math.min(p.broadcast_end_seconds,t+clip.duration_seconds);
    expanded.push({...clip,block:p.block,broadcast_start_seconds:t,broadcast_end_seconds:finish});t=finish;
   }
