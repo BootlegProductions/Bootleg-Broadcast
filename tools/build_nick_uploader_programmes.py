@@ -68,7 +68,7 @@ episodes.sort(key=lambda x:(x['show'],x['season_number'],x['episode_number']))
 starter=[]
 for show in sorted(series):
  selected=[p for p in episodes if p['show']==show]
- starter.extend(selected[:6])
+ starter.extend(selected[:26])
 out={'version':'2026-10-29','programmes':episodes+features}
 code='/* Original episode files from the Nickelodeon ident uploader. */\n(function(root){\n'+\
  ' const data='+json.dumps(out,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')+';\n'+\
