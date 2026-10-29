@@ -10,6 +10,18 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 inventory = json.loads((ROOT / "archive-review-candidates.json").read_text())
 catalogue = json.loads((ROOT / "source-library.json").read_text())
 existing_urls = {p.get("url") for p in catalogue.get("programmes", [])}
+def key(value):
+    name = str(value or "").rsplit("/", 1)[-1]
+    name = re.sub(r"\\.(mp4|m4v|webm|mkv)$", "", name, flags=re.I)
+    return re.sub(r"[^a-z0-9]+", "", name.lower())
+catalogue_titles = {}
+for programme in catalogue.get("programmes", []):
+    for field in ("title", "filename"):
+        title = programme.get(field)
+        k = key(title)
+        if k and len(k) >= 7 and k not in catalogue_titles:
+            catalogue_titles[k] = programme.get("title", "")
+
 holiday = re.compile(r"christmas|xmas|santa|snow|winter|holiday|grinch|rudolph|frosty|elf|jingle|nutcracker|north.pole|scrooge|yule|noel|polar.express|charlie.brown|miser.brothers|jack.frost", re.I)
 laika = re.compile(r"coraline|paranorman|boxtrolls|kubo|missing.link|laika", re.I)
 seen = set()
@@ -33,6 +45,7 @@ for item in inventory.get("items", []):
             "seconds": video.get("length_seconds"),
             "format": video.get("format"),
             "existing_url": url in existing_urls,
+            "existing_title": catalogue_titles.get(key(name)),
             "proposed_channels": video.get("proposed_channels", []),
             "needs_manual_review": True,
         })
