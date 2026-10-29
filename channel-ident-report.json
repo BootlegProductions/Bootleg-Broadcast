@@ -1,0 +1,66 @@
+{
+  "ident_count": 44,
+  "channels": {
+    "Dickleodeon": {
+      "count": 17,
+      "regular": 12,
+      "seasonal": [
+        {
+          "title": "Nickelodeon - Seasonal Ident - BEACH WAVE",
+          "months": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "title": "Nickelodeon - Seasonal Ident - SANTA SACK",
+          "months": [
+            12
+          ]
+        },
+        {
+          "title": "Nickelodeon - Seasonal Ident - PRESENTS",
+          "months": [
+            12
+          ]
+        },
+        {
+          "title": "Nickelodeon - Seasonal Ident - EGGY EASTER",
+          "months": [
+            3,
+            4
+          ]
+        },
+        {
+          "title": "Nickelodeon - Seasonal Ident - VALENTINE BALLOONS",
+          "months": [
+            2
+          ]
+        }
+      ]
+    },
+    "90s Toons": {
+      "count": 5,
+      "regular": 5,
+      "seasonal": []
+    },
+    "Cartoons Cartoons": {
+      "count": 22,
+      "regular": 21,
+      "seasonal": [
+        {
+          "title": "Cartoon Network Christmas Party Bumper",
+          "months": [
+            12
+          ]
+        }
+      ]
+    }
+  },
+  "sources": [
+    "https://archive.org/details/nick-ids-comp_202202",
+    "https://archive.org/details/yt-OldMcBarney"
+  ],
+  "note": "Only exact original MP4 files with measured runtime 3–22 seconds. No compilations. Requires direct playback check."
+}
