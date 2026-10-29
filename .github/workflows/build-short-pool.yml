@@ -1,0 +1,26 @@
+name: Build measured short-programme continuity pool
+on:
+  push:
+    paths:
+      - '.github/workflows/build-short-pool.yml'
+      - 'tools/build_continuity_short_pool.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select catalogue shorts for each channel
+        run: python tools/build_continuity_short_pool.py
+      - name: Commit supplementary measured shorts
+        run: |
+          git config user.name "Bootleg Broadcast Library"
+          git config user.email "actions@users.noreply.github.com"
+          git add channel-shorts.js channel-shorts-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Add measured short programmes to bridge TV gaps"
+            git push
+          fi
