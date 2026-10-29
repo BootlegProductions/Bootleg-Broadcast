@@ -26,10 +26,10 @@ def channel_of(source,name):
                r"harry.enfield|the.league.of.gentlemen|absolutely.fabulous|till.death.us|in.sickness.in.health",n):return "AAA"
   return "Off-Licence TV"
  if re.search(r"father.ted|miranda|vicar.of.dibley|outnumbered|mrs.?browns|mr.?bean|hepburn|green.wing|"
-              r"league.of.gentlemen|man.down|mount.pleasant|agatha.raisin",n):return "Off-Licence TV"
+              r"league.of.gentlemen|man.down|mount.pleasant|agatha.?raisin|just.g00d.friends|just.good.friends",n):return "Off-Licence TV"
  if re.search(r"icar!y|icarly|how.2.r0ck|how.to.rock|ravho|life.w.boys|"
-              r"mentors|life.w.derek|sbtbell|saved.by.the.bell|city.guys",n):return "Dickleodeon"
- if re.search(r"boy.meets.world|the.raven|mk\+a|franklin.s.magic|that.girl|hang.time",n):return "Dizzy"
+              r"mentors|sbtbell|saved.by.the.bell|city.guys",n):return "Dickleodeon"
+ if re.search(r"boy.meets.world|the.raven|mk\+a|franklin.s.magic|life.w.derek|hang.time",n):return "Dizzy"
  if re.search(r"sabrina|full.house|fu!!_h0us3|melissa_joey|life.in.pieces|"
               r"baby.blues|aliens.in.the.family|sweet.valley.high|i.m.with.her",n):return "GirlyPop"
  if re.search(r"always.sunny|d3xt3r|dexter|two.br0ke|th3_0ffice|seinfeld|s3!nf3ld|"
@@ -47,7 +47,7 @@ def title_of(name):
  return t[:150]
 def episode_info(name):
  for rx in [r"[sS](\d{1,2})[\s._-]*[eE][pP]?(\d{1,3})\b",
-            r"season[\W_]*(\d{1,2})[\W_]*episode[\W_]*(\d{1,3})",
+            r"season[\W_]*(\d{1,2})[\W_]*(?:episode|ep)[\W_]*(\d{1,3})",
             r"\b(\d{1,2})x(\d{1,3})\b"]:
   m=re.search(rx,name,re.I)
   if m:return int(m[1]),int(m[2])
@@ -66,7 +66,7 @@ def show_of(source,name,title):
    (r"absolutely.fabulous","Absolutely Fabulous"),(r"the.goes.wrong","The Goes Wrong Show")]
  else:
   pattern=[
-   (r"3o.r0ck","30 Rock"),(r"8_simple|8simp","8 Simple Rules"),(r"friends|fr!3nds","Friends"),
+   (r"that.girl","That Girl"),(r"d3xt3r","Dexter"),(r"agatha.?raisin","Agatha Raisin"),(r"3o.r0ck","30 Rock"),(r"8_simple|8simp","8 Simple Rules"),(r"friends|fr!3nds","Friends"),
    (r"full.house|fu!!_h0us3","Full House"),(r"community","Community"),
    (r"mr.?bean","Mr Bean"),(r"father.ted","Father Ted"),(r"sabrina","Sabrina the Teenage Witch"),
    (r"icar!y","iCarly"),(r"boy.meets.world","Boy Meets World"),(r"family.guy","Family Guy"),
@@ -90,12 +90,15 @@ def show_of(source,name,title):
  return title[:55]
 def accept(source,f):
  name=f["name"]
- if not name.lower().endswith(".mp4") or f["seconds"]<150 or f["seconds"]>9500:return False
+ if not name.lower().endswith(".mp4") or f["seconds"]<780 or f["seconds"]>9500:return False
+ # In the US mixed-source upload, sub-15-minute files are often edits, partial
+ # reuploads or fragments. Do not broadcast them as complete TV episodes.
+ if source==us and f["seconds"]<900:return False
  if re.search(r"x265|hevc|non.?english|diff.language|^[-+].*sec|"
               r"\b1[_ /]3\b|\b2[_ /]3\b|\b3[_ /]3\b|"
               r"\bpart [123]\b|\bPt[. ]*[123]\b|"
               r"open(?:ing)? and clos(?:ing)?|"
-              r"commercial.?intact|"
+              r"with.commercials.intact|part.of.ep|"
               r"see.other.for|same.as.ep|looks.the.same.as|"
               r"first.15.seconds|mkv.file|clip.only|clip -|VTS_|"
               r"\bpromo\b|\btrailer\b",name,re.I):return False
