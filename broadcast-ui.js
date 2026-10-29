@@ -89,7 +89,7 @@ const Broadcast=(()=>{
   if(index<0&&urls.some(u=>repairs.get(u)?.status!=='quarantined')){
    urls.forEach(u=>failed.delete(u));index=urls.findIndex(u=>!blocked(u));
   }
-  if(p.presentation){presentation(p.title);}else if(index<0){fillGap('SIGNAL UNAVAILABLE · CHANNEL IDENT BREAK');}
+  if(p.presentation){presentation(p.type==='Filler'?'CHANNEL INTERMISSION · NEXT PROGRAMME TO FOLLOW':p.title);}else if(index<0){fillGap('SIGNAL UNAVAILABLE · CHANNEL IDENT BREAK');}
   else loadItemSource(p,index,mode==='live'?seek():0);
   renderScheduleOverlay();updateRemote();if($('guidePanel').open)renderGuideList();
  }
