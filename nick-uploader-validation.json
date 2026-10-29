@@ -13,7 +13,7 @@
   ],
   "starter_count": 18,
   "dates_checked": 56,
-  "actual_broadcast_airings": 76,
+  "actual_broadcast_airings": 22,
   "broadcasts": [
     {
       "month": "january",
@@ -30,81 +30,81 @@
     {
       "month": "january",
       "day": "1",
-      "title": "Figure It Out — S01E03",
-      "time": 556
-    },
-    {
-      "month": "january",
-      "day": "1",
-      "title": "Splatalot — S01E03 — The Finger Dance",
+      "title": "Splatalot — S01E01 — Country Style",
       "time": 801
     },
     {
       "month": "january",
-      "day": "1",
-      "title": "I Spy — S01E02 — A Bike I Like Tick Illy Hiccup",
-      "time": 867
-    },
-    {
-      "month": "january",
       "day": "2",
-      "title": "Figure It Out — S01E01",
+      "title": "Figure It Out — S01E02",
       "time": 244
     },
     {
       "month": "january",
       "day": "2",
-      "title": "I Spy — S01E01 — A Mumble Monster Picture Day Clouds Roll",
+      "title": "I Spy — S01E02 — A Bike I Like Tick Illy Hiccup",
       "time": 543
     },
     {
       "month": "january",
-      "day": "2",
+      "day": "3",
       "title": "Figure It Out — S01E03",
-      "time": 568
-    },
-    {
-      "month": "january",
-      "day": "2",
-      "title": "Splatalot — S01E03 — The Finger Dance",
-      "time": 868
-    },
-    {
-      "month": "january",
-      "day": "3",
-      "title": "Figure It Out — S01E01",
-      "time": 244
-    },
-    {
-      "month": "january",
-      "day": "3",
-      "title": "I Spy — S01E01 — A Mumble Monster Picture Day Clouds Roll",
       "time": 557
     },
     {
       "month": "january",
       "day": "3",
-      "title": "Figure It Out — S01E03",
+      "title": "I Spy — S01E03 — A Broom, Whistle And A Drum Sky High",
       "time": 682
     },
     {
       "month": "january",
       "day": "4",
-      "title": "Figure It Out — S01E01",
+      "title": "Figure It Out — S01E04",
       "time": 244
     },
     {
       "month": "january",
       "day": "4",
-      "title": "I Spy — S01E01 — A Mumble Monster Picture Day Clouds Roll",
+      "title": "I Spy — S01E04 — A Runaway Robot Little Lost Lamb",
       "time": 683
     },
     {
       "month": "january",
       "day": "5",
+      "title": "Figure It Out — S01E05",
+      "time": 244
+    },
+    {
+      "month": "january",
+      "day": "5",
+      "title": "I Spy — S01E05 — A Starry Sky Circus Things in All Three Rings",
+      "time": 683
+    },
+    {
+      "month": "january",
+      "day": "6",
+      "title": "Figure It Out — S01E06",
+      "time": 244
+    },
+    {
+      "month": "january",
+      "day": "6",
+      "title": "I Spy — S01E06 — A Mumble Monster Mystery Ceces Special Scrapbook",
+      "time": 682
+    },
+    {
+      "month": "april",
+      "day": "12",
       "title": "Figure It Out — S01E01",
       "time": 244
+    },
+    {
+      "month": "april",
+      "day": "12",
+      "title": "I Spy — S01E01 — A Mumble Monster Picture Day Clouds Roll",
+      "time": 544
     }
   ],
-  "max_same_day": 5
+  "max_same_day": 3
 }
