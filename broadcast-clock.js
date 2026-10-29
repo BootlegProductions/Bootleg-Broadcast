@@ -81,7 +81,7 @@ function improveContinuity(items,channel,year,month,day,breaks){
     // Rotate newly discovered Christmas programmes instead of broadcasting the
     // same one on consecutive December days. Let Christmas Eve-Day-Boxing Day
     // offer the complete festive selection, but still only once per day.
-    if(month===12&&p.content_id?.startsWith('archive-holiday:')&&![24,25,26].includes(day)){
+    if(month===12&&(p.content_id?.startsWith('archive-holiday:')||p.content_id?.startsWith('archive-seasonal:'))&&![24,25,26].includes(day)){
      const phase=Array.from(id).reduce((v,c)=>(v*31+c.charCodeAt(0))>>>0,7)%4;
      if((day+phase)%4!==0)continue;
     }
