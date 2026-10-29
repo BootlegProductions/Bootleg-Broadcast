@@ -2023,3 +2023,36 @@ body.mobile-scene #screen > #scheduleOverlay .schedule-status { font-size: clamp
 .holiday-library-tabs button:focus-visible { outline:2px solid #daffca; outline-offset:2px; }
 #holiday-programmes-list { max-height:min(55vh,470px); overflow-y:auto; align-content:start; }
 #holiday-programmes-list > .guide-empty { margin:0; padding:12px; color:#c8e6bf; }
+
+/* Animated analogue continuity screen; shown only when scheduling cannot fill
+   a break. It is NOT an error/no-signal graphic and does not loop idents. */
+#broadcast-card.intermission {
+  isolation:isolate; overflow:hidden; position:absolute;
+  background:radial-gradient(ellipse at 50% 42%,#17382b 0%,#07160e 55%,#030b08 100%);
+}
+#broadcast-card.intermission::before {
+  content:"";position:absolute;inset:-70% -40%;z-index:0;pointer-events:none;
+  background:repeating-linear-gradient(0deg,transparent 0 8px,rgba(157,255,177,.12) 9px 10px),
+    linear-gradient(110deg,transparent 24%,rgba(132,240,173,.14) 42%,transparent 58%);
+  animation:bootleg-continuity-scan 11s linear infinite;opacity:.75;
+}
+#broadcast-card.intermission::after {
+  content:"";position:absolute;inset:9%;z-index:0;pointer-events:none;
+  border:1px solid rgba(143,224,161,.28);border-radius:5px;
+  box-shadow:inset 0 0 25px rgba(102,194,141,.07),0 0 28px rgba(97,203,148,.06);
+  animation:bootleg-continuity-pulse 4s ease-in-out infinite;
+}
+#broadcast-card.intermission > * {position:relative;z-index:1;max-width:98%;overflow-wrap:anywhere;}
+#broadcast-card.intermission strong {letter-spacing:.09em;font-size:clamp(13px,1.5vw,23px);line-height:1.25;}
+#broadcast-card.intermission #broadcast-card-next {font-size:clamp(10px,1vw,15px);line-height:1.6;}
+@keyframes bootleg-continuity-scan {
+ from {transform:translateY(-13%) skewX(-2deg)}
+ to {transform:translateY(13%) skewX(2deg)}
+}
+@keyframes bootleg-continuity-pulse {
+ 0%,100%{opacity:.38;transform:scale(.985)}
+ 50%{opacity:1;transform:scale(1)}
+}
+@media (prefers-reduced-motion:reduce) {
+ #broadcast-card.intermission::before,#broadcast-card.intermission::after {animation:none;}
+}
