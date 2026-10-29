@@ -28,11 +28,11 @@ for p in catalogue:
     if not title or not show:continue
     # Do not put DVD menus, chapter rips, credits or generic extras on air
     # merely because they happen to be several minutes long.
-    technical=re.compile(r'disc[-_ ]*\\d|dvd|blu.?ray|\\biso\\b|\\bmenus?\\b|\\btrailer\\b|\\bteaser\\b|'
-        r'music video|behind.the.scenes|making.of|commentary|\\bcredits\\b|\\bbumpers?\\b|'
-        r'\\bopening\\b|\\bending\\b|\\bpromo\\b|\\bq ?& ?a\\b',re.I)
+    technical=re.compile(r'disc[-_ ]*\d|dvd|blu.?ray|\biso\b|\bmenus?\b|\btrailer\b|\bteaser\b|'
+        r'music video|behind.the.scenes|making.of|commentary|\bcredits\b|\bbumpers?\b|'
+        r'\bopening\b|\bending\b|\bpromo\b|\bq ?& ?a\b',re.I)
     if technical.search(title) or technical.search(str(p.get('show') or '')):continue
-    if len(re.findall(r'[A-Za-z]{3,}',title))<3 or re.fullmatch(r'(?:EP|Episode|Special)\\s*\\d+',title,re.I):continue
+    if len(re.findall(r'[A-Za-z]{3,}',title))<3 or re.fullmatch(r'(?:EP|Episode|Special)\s*\d+',title,re.I):continue
     if re.search(r'queen.?s blade|berserk|high school dxd|prison school|hentai',title+' '+str(p.get('show') or ''),re.I):continue
     tags=list(p.get('seasonal_tags') or [])
     events=list(p.get('holiday_events') or [])
