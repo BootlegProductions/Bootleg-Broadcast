@@ -1,0 +1,26 @@
+name: Review Nick uploader television and movies
+on:
+  push:
+    paths:
+      - '.github/workflows/review-nick-uploader.yml'
+      - 'tools/review_nick_uploader_programmes.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect individual series and movie MP4s and duplicates
+        run: python tools/review_nick_uploader_programmes.py
+      - name: Save measured programme shortlist
+        run: |
+          git config user.name "Bootleg Broadcast Programme Review"
+          git config user.email "actions@users.noreply.github.com"
+          git add nick-uploader-programmes-review.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record Nick uploader series and movie file candidates"
+            git push
+          fi
