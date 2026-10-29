@@ -59,6 +59,13 @@ function improveContinuity(items,channel,year,month,day,breaks){
    for(const p of bonus){
     const id=identity(p);
     if(used.has(id)||used.has(p.url)||p.duration_seconds>capacity+.0001)continue;
+    // Rotate newly discovered Christmas programmes instead of broadcasting the
+    // same one on consecutive December days. Let Christmas Eve-Day-Boxing Day
+    // offer the complete festive selection, but still only once per day.
+    if(month===12&&p.content_id?.startsWith('archive-holiday:')&&![24,25,26].includes(day)){
+     const phase=Array.from(id).reduce((v,c)=>(v*31+c.charCodeAt(0))>>>0,7)%4;
+     if((day+phase)%4!==0)continue;
+    }
     const score=capacity-p.duration_seconds+(showCounts.get(p.series_id||p.show)||0)*95;
     if(score<bestScore){best=p;bestScore=score;}
    }
