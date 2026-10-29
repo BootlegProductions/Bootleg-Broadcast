@@ -1,0 +1,31 @@
+name: Verify new Christmas broadcasts
+on:
+  push:
+    paths:
+      - '.github/workflows/verify-seasonal-broadcast.yml'
+      - 'tools/verify_seasonal_broadcast.cjs'
+      - 'broadcast-clock.js'
+      - 'seasonal-programmes.js'
+      - 'seasonal-commercials.js'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test real October and December channel calendars
+        run: node tools/verify_seasonal_broadcast.cjs
+      - name: Store generated seasonal test report
+        run: |
+          git config user.name "Bootleg Broadcast Validation"
+          git config user.email "actions@users.noreply.github.com"
+          git add seasonal-broadcast-validation.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record verified Christmas calendar and ad scheduling"
+            git fetch origin main
+            git rebase origin/main
+            git push
+          fi
