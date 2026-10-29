@@ -4,6 +4,7 @@ on:
     paths:
       - '.github/workflows/verify-channel-idents.yml'
       - 'tools/verify_channel_idents.cjs'
+      - 'tools/verify_continuity.cjs'
       - 'broadcast-clock.js'
       - 'channel-idents.js'
   workflow_dispatch:
