@@ -1,0 +1,46 @@
+{
+  "status": "file_inventory_verified_playback_not_yet_confirmed",
+  "source": "archive-christmas-candidates.json",
+  "version": "2026-10-29",
+  "total_selected": 54,
+  "eligible_for_december_continuity": 35,
+  "by_channel": {
+    "90s Toons": 9,
+    "Cartoons Cartoons": 11,
+    "Dizzy": 11,
+    "Dickleodeon": 0,
+    "Japanime": 2,
+    "GirlyPop": 4,
+    "Off-Licence TV": 5,
+    "Star Spangled TV": 6,
+    "AAA": 3,
+    "What": 3
+  },
+  "skipped": [
+    {
+      "channel": "Dizzy",
+      "filename": "Shrek the Halls.mp4",
+      "reason": "duplicate in existing source library",
+      "matched": "Shrek the Halls"
+    },
+    {
+      "channel": "Dickleodeon",
+      "filename": "Invader Zim; The Most Horrible X-Mas Ever.mp4",
+      "reason": "duplicate in existing source library",
+      "matched": "Invader Zim - The Most Horrible X-Mas Ever"
+    },
+    {
+      "channel": "Dickleodeon",
+      "filename": "My Life as a Teenage Robot; A Robot For All Seasons.mp4",
+      "reason": "duplicate in existing source library",
+      "matched": "My Life as a Teenage Robot - A Robot For All Seasons"
+    },
+    {
+      "channel": "Dickleodeon",
+      "filename": "The Adventures of Jimmy Neutron Boy Genius; Holly Jolly Jimmy.mp4",
+      "reason": "duplicate in existing source library",
+      "matched": "The Adventures of Jimmy Neutron Boy Genius - Holly Jolly Jimmy"
+    }
+  ],
+  "note": "Duplicates excluded by existing title and URL; all other selections have exact filenames and measured Archive metadata runtimes. Playback/audio and redistribution rights require independent review."
+}
