@@ -1,0 +1,110 @@
+{
+  "status": "passed",
+  "series": {
+    "Figure It Out": 159,
+    "I Spy": 26,
+    "Splatalot": 53
+  },
+  "films": [
+    "Piglet's Big Movie",
+    "Follow That Bird",
+    "Lost And Found (2008)",
+    "A Child's Christmas"
+  ],
+  "starter_count": 18,
+  "dates_checked": 56,
+  "actual_broadcast_airings": 76,
+  "broadcasts": [
+    {
+      "month": "january",
+      "day": "1",
+      "title": "Figure It Out — S01E01",
+      "time": 244
+    },
+    {
+      "month": "january",
+      "day": "1",
+      "title": "I Spy — S01E01 — A Mumble Monster Picture Day Clouds Roll",
+      "time": 501
+    },
+    {
+      "month": "january",
+      "day": "1",
+      "title": "Figure It Out — S01E03",
+      "time": 556
+    },
+    {
+      "month": "january",
+      "day": "1",
+      "title": "Splatalot — S01E03 — The Finger Dance",
+      "time": 801
+    },
+    {
+      "month": "january",
+      "day": "1",
+      "title": "I Spy — S01E02 — A Bike I Like Tick Illy Hiccup",
+      "time": 867
+    },
+    {
+      "month": "january",
+      "day": "2",
+      "title": "Figure It Out — S01E01",
+      "time": 244
+    },
+    {
+      "month": "january",
+      "day": "2",
+      "title": "I Spy — S01E01 — A Mumble Monster Picture Day Clouds Roll",
+      "time": 543
+    },
+    {
+      "month": "january",
+      "day": "2",
+      "title": "Figure It Out — S01E03",
+      "time": 568
+    },
+    {
+      "month": "january",
+      "day": "2",
+      "title": "Splatalot — S01E03 — The Finger Dance",
+      "time": 868
+    },
+    {
+      "month": "january",
+      "day": "3",
+      "title": "Figure It Out — S01E01",
+      "time": 244
+    },
+    {
+      "month": "january",
+      "day": "3",
+      "title": "I Spy — S01E01 — A Mumble Monster Picture Day Clouds Roll",
+      "time": 557
+    },
+    {
+      "month": "january",
+      "day": "3",
+      "title": "Figure It Out — S01E03",
+      "time": 682
+    },
+    {
+      "month": "january",
+      "day": "4",
+      "title": "Figure It Out — S01E01",
+      "time": 244
+    },
+    {
+      "month": "january",
+      "day": "4",
+      "title": "I Spy — S01E01 — A Mumble Monster Picture Day Clouds Roll",
+      "time": 683
+    },
+    {
+      "month": "january",
+      "day": "5",
+      "title": "Figure It Out — S01E01",
+      "time": 244
+    }
+  ],
+  "max_same_day": 5
+}
