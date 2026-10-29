@@ -72,6 +72,12 @@ function improveContinuity(items,channel,year,month,day,breaks){
    for(const p of bonus){
     const id=identity(p);
     if(used.has(id)||used.has(p.url)||p.duration_seconds>capacity+.0001)continue;
+    // New uploader seasons progress through distinct episode numbers by date,
+    // instead of replaying the same starter episodes on consecutive days.
+    if(p.content_id?.startsWith('nick-uploader:')&&Number.isInteger(p.episode_number)){
+     const slot=(day-1+(month-1)*31)%26;
+     if((p.episode_number-1)%26!==slot)continue;
+    }
     // Rotate newly discovered Christmas programmes instead of broadcasting the
     // same one on consecutive December days. Let Christmas Eve-Day-Boxing Day
     // offer the complete festive selection, but still only once per day.
