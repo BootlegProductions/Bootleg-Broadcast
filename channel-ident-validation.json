@@ -1,0 +1,194 @@
+{
+  "status": "passed",
+  "ident_pool_counts": {
+    "Dickleodeon": 17,
+    "90s Toons": 5,
+    "Cartoons Cartoons": 22
+  },
+  "checks": [
+    {
+      "month": "october",
+      "day": 28,
+      "channel": "Dickleodeon",
+      "idents": 18,
+      "new_idents": 16,
+      "examples": [
+        "Nickelodeon Bumper - Barbershop Quartet (2013) (480p SD)",
+        "Nickelodeon Bumper - Nick is Everyday 3-D (HQ)",
+        "Nickelodeon ID - Toaster"
+      ]
+    },
+    {
+      "month": "october",
+      "day": 28,
+      "channel": "90s Toons",
+      "idents": 20,
+      "new_idents": 16,
+      "examples": [
+        "Boomerang Paddington Bear Bumper",
+        "Cartoon Network Boomerang 1976 Bumper",
+        "Boomerang 50 Years of the Flintstones Bumper"
+      ]
+    },
+    {
+      "month": "october",
+      "day": 28,
+      "channel": "Cartoons Cartoons",
+      "idents": 20,
+      "new_idents": 19,
+      "examples": [
+        "Cartoon Network Cow & Chicken Bumper",
+        "Cartoon Network Coyote Bumper",
+        "Cartoon Network Dexter's Laboratory Bumpers #3"
+      ]
+    },
+    {
+      "month": "october",
+      "day": 29,
+      "channel": "Dickleodeon",
+      "idents": 18,
+      "new_idents": 16,
+      "examples": [
+        "NICKELODEON GOLD 10 Image Piece - Short",
+        "Nick Games (2002, highest quality)",
+        "Nick Rebrand IDs"
+      ]
+    },
+    {
+      "month": "october",
+      "day": 29,
+      "channel": "90s Toons",
+      "idents": 19,
+      "new_idents": 15,
+      "examples": [
+        "Cartoon Network Boomerang 1976 Bumper",
+        "Boomerang 50 Years of the Flintstones Bumper",
+        "Boomerang Atom Ant Bumper"
+      ]
+    },
+    {
+      "month": "october",
+      "day": 29,
+      "channel": "Cartoons Cartoons",
+      "idents": 20,
+      "new_idents": 19,
+      "examples": [
+        "Cartoon Network Old Logo Bumpers",
+        "Cartoon Network Old Logo Station ID #2",
+        "Cartoon Network Old Logo Station ID"
+      ]
+    },
+    {
+      "month": "december",
+      "day": 1,
+      "channel": "Dickleodeon",
+      "idents": 18,
+      "new_idents": 16,
+      "examples": [
+        "NICKELODEON GOLD 10 Image Piece - Short",
+        "Nick Games (2002, highest quality)",
+        "Nickelodeon - Orange Soda ID (Theatrical HD)"
+      ]
+    },
+    {
+      "month": "december",
+      "day": 1,
+      "channel": "90s Toons",
+      "idents": 19,
+      "new_idents": 16,
+      "examples": [
+        "Boomerang Paddington Bear Bumper #2",
+        "Boomerang Paddington Bear Bumper",
+        "Cartoon Network Boomerang 1976 Bumper"
+      ]
+    },
+    {
+      "month": "december",
+      "day": 1,
+      "channel": "Cartoons Cartoons",
+      "idents": 20,
+      "new_idents": 20,
+      "examples": [
+        "Cartoon Network Kids Next Door Bumper",
+        "Cartoon Network Logo Chase",
+        "Cartoon Network Old Logo Bumpers"
+      ]
+    },
+    {
+      "month": "december",
+      "day": 25,
+      "channel": "Dickleodeon",
+      "idents": 18,
+      "new_idents": 17,
+      "examples": [
+        "Nick Games (2002, highest quality)",
+        "Nick Rebrand IDs",
+        "Nickelodeon Bumper - Barbershop Quartet (2013) (480p SD)"
+      ]
+    },
+    {
+      "month": "december",
+      "day": 25,
+      "channel": "90s Toons",
+      "idents": 19,
+      "new_idents": 17,
+      "examples": [
+        "Boomerang Paddington Bear Bumper #2",
+        "Boomerang Paddington Bear Bumper",
+        "Cartoon Network Boomerang 1976 Bumper"
+      ]
+    },
+    {
+      "month": "december",
+      "day": 25,
+      "channel": "Cartoons Cartoons",
+      "idents": 20,
+      "new_idents": 19,
+      "examples": [
+        "Old Cartoon Network Jester Bumper",
+        "Old Cartoon Network Soup Bumper",
+        "Cartoon Network Christmas Party Bumper"
+      ]
+    },
+    {
+      "month": "january",
+      "day": 15,
+      "channel": "Dickleodeon",
+      "idents": 17,
+      "new_idents": 16,
+      "examples": [
+        "Nickelodeon Bumper - Barbershop Quartet (2013) (480p SD)",
+        "Nickelodeon Bumper - Nick is Everyday 3-D (HQ)",
+        "Nickelodeon ID - Toaster"
+      ]
+    },
+    {
+      "month": "january",
+      "day": 15,
+      "channel": "90s Toons",
+      "idents": 20,
+      "new_idents": 17,
+      "examples": [
+        "Boomerang 50 Years of the Flintstones Bumper",
+        "Boomerang Atom Ant Bumper",
+        "Boomerang Paddington Bear Bumper #2"
+      ]
+    },
+    {
+      "month": "january",
+      "day": 15,
+      "channel": "Cartoons Cartoons",
+      "idents": 20,
+      "new_idents": 19,
+      "examples": [
+        "Old Cartoon Network Jester Bumper",
+        "Old Cartoon Network Soup Bumper",
+        "CN Bumper - Dexter getting dizzy"
+      ]
+    }
+  ],
+  "sampled_ident_total": 286,
+  "rotated_new_idents": 258,
+  "incorrect_seasonal": 0,
+  "max_ident_per_channel_day": 20
+}
