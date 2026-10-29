@@ -23,5 +23,7 @@ jobs:
           git add nick-uploader-validation.json
           if ! git diff --cached --quiet; then
             git commit -m "Record integrated Nick series episode and scheduled-airtime validation"
+            git fetch origin main
+            git rebase origin/main
             git push
           fi
