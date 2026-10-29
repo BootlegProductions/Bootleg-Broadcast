@@ -1,0 +1,5427 @@
+{
+  "total_catalogue": 26840,
+  "eligible_counts": {
+    "other_specials": 275,
+    "christmas": 682,
+    "movies": 313
+  },
+  "library": {
+    "AAA": {
+      "counts": {
+        "movies": 21,
+        "christmas": 18,
+        "other_specials": 22
+      },
+      "sample_movies": [
+        {
+          "title": "9 (2009)",
+          "show": "9 (2009)",
+          "type": "Movie",
+          "seconds": 4754.46,
+          "url": "https://archive.org/download/My-Favorite-Movies_202503/9.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:92009"
+        },
+        {
+          "title": "A Scanner Darkly",
+          "show": "A Scanner Darkly",
+          "type": "Movie",
+          "seconds": 6025.07,
+          "url": "https://archive.org/download/28-days-later_202505/A%20Scanner%20Darkly.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:ascannerdarkly"
+        },
+        {
+          "title": "American Pop - Ralph Bakshi - 1981",
+          "show": "American Pop",
+          "type": "Movie",
+          "seconds": 5743.79,
+          "url": "https://archive.org/download/american-pop-ralph-bakshi-1981/American%20Pop%20-%20Ralph%20Bakshi%20-%201981.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:americanpopralphbakshi1981"
+        },
+        {
+          "title": "Aqua Teen Forever: Plantasm",
+          "show": "Aqua Teen Hunger Force",
+          "type": "Movie",
+          "seconds": 4546.58,
+          "url": "https://archive.org/download/aqua-teen-hunger-force-2000-s-01e-01-rabbot/Aqua%20Teen%20Hunger%20Force%20%282000%29%20-%20s00e177%20-%20Aqua%20Teen%20Forever%20Plantasm.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:aquateenforeverplantasm"
+        },
+        {
+          "title": "Beavis and Butt-Head Do America (1996)",
+          "show": "Beavis and Butt-Head",
+          "type": "Movie",
+          "seconds": 4850.05,
+          "url": "https://archive.org/download/transformers-2007_202602/Beavis%20and%20Butt-Head%20Do%20America%20%281996%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:beavisandbuttheaddoamerica1996"
+        },
+        {
+          "title": "Beavis and Butt-Head Do the Universe (2022)",
+          "show": "Beavis and Butt-Head",
+          "type": "Movie",
+          "seconds": 5161.25,
+          "url": "https://archive.org/download/transformers-2007_202602/Beavis%20and%20Butt-Head%20Do%20the%20Universe%20%282022%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:beavisandbuttheaddotheuniverse2022"
+        },
+        {
+          "title": "Cool World (1992)",
+          "show": "Cool World",
+          "type": "Movie",
+          "seconds": 6371.07,
+          "url": "https://archive.org/download/disneys-cool-world-1992/Cool%20World%20%281992%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:coolworld1992"
+        },
+        {
+          "title": "Coonskin aka Street Fight ☆ Ralph Bakshi ☆1975",
+          "show": "Coonskin",
+          "type": "Movie",
+          "seconds": 4972.33,
+          "url": "https://archive.org/download/coonskin-aka-street-fight-ralph-bakshi-1975/Coonskin%20aka%20Street%20Fight%20%E2%98%86%20Ralph%20Bakshi%20%E2%98%861975.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:coonskinakastreetfightralphbakshi1975"
+        },
+        {
+          "title": "Fire And Ice 1983",
+          "show": "Fire & Ice",
+          "type": "Movie",
+          "seconds": 4898.11,
+          "url": "https://archive.org/download/fire.-and.-ice.-1983.1080p.202302/Fire.And.Ice.1983.1080p.BluRay.x264-%5BYTS.AM%5D.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:fireandice1983"
+        },
+        {
+          "title": "Fritz The Cat",
+          "show": "Fritz The Cat",
+          "type": "Movie",
+          "seconds": 4709.21,
+          "url": "https://archive.org/download/fritzthecatbluray/Fritz%20The%20Cat.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:fritzthecat"
+        },
+        {
+          "title": "Heavy Metal 1981",
+          "show": "Heavy Metal",
+          "type": "Movie",
+          "seconds": 5420.52,
+          "url": "https://archive.org/download/heavy.-metal.-1981.1080p.-blu-ray.x-264.-yify/Heavy%20Metal%20%281981%29%20%5B1080p%5D/Heavy.Metal.1981.1080p.BluRay.x264.YIFY.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:heavymetal1981"
+        },
+        {
+          "title": "Hey Good Lookin",
+          "show": "Hey Good Looking",
+          "type": "Movie",
+          "seconds": 4634.17,
+          "url": "https://archive.org/download/hey-good-lookin_202111/Hey%20Good%20Lookin.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:heygoodlookin"
+        },
+        {
+          "title": "Osmosis Jones",
+          "show": "Osmosis Jones (2001)",
+          "type": "Movie",
+          "seconds": 5724.41,
+          "url": "https://archive.org/download/My-Favorite-Movies_202503/Osmosis%20Jones.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:osmosisjones"
+        },
+        {
+          "title": "The Lord of the Rings",
+          "show": "Ralph Bakshi Lord Of The Rings",
+          "type": "Movie",
+          "seconds": 7680.56,
+          "url": "https://archive.org/download/the-lord-of-the-rings_202311/The%20Lord%20of%20the%20Rings%20%281978%29/The%20Lord%20of%20the%20Rings.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:thelordoftherings"
+        },
+        {
+          "title": "South Park Bigger Long and Uncut (1999)",
+          "show": "South Park: Bigger, Longer & Uncut (1999)",
+          "type": "Movie",
+          "seconds": 4875.95,
+          "url": "https://archive.org/download/transformers-2007_202602/South%20Park%20Bigger%20Long%20and%20Uncut%20%281999%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:southparkbiggerlonganduncut1999"
+        }
+      ],
+      "sample_christmas": [
+        {
+          "title": "04 - Huh-Huh-Humbug",
+          "show": "04",
+          "type": "Special",
+          "seconds": 825.93,
+          "url": "https://archive.org/download/06-its-a-miserable-life/Beavis%20%26%20Butthead%20Specials/04%20-%20Huh-Huh-Humbug.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [],
+          "content_id": "special:04huhhuhhumbug"
+        },
+        {
+          "title": "Aqua Teen Hunger Force — S01E18 — (2000) - s01e18 - Cybernetic Ghost of Christmas Past from the Future",
+          "show": "Aqua Teen Hunger Force",
+          "type": "Episode",
+          "seconds": 706.5,
+          "url": "https://archive.org/download/aqua-teen-hunger-force-2000-s-01e-01-rabbot/Aqua%20Teen%20Hunger%20Force%20%282000%29%20-%20s01e18%20-%20Cybernetic%20Ghost%20of%20Christmas%20Past%20from%20the%20Future.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "aqua:1:18:"
+        },
+        {
+          "title": "Aqua Teen Hunger Force — S04E03 — (2000) - s04e03e04 - Star Studded Xmas Spectacular (1) - Star Studded Xmas Spectacular (2)",
+          "show": "Aqua Teen Hunger Force",
+          "type": "Episode",
+          "seconds": 1380.08,
+          "url": "https://archive.org/download/aqua-teen-hunger-force-2000-s-01e-01-rabbot/Aqua%20Teen%20Hunger%20Force%20%282000%29%20-%20s04e03e04%20-%20Star%20Studded%20Xmas%20Spectacular%20%281%29%20-%20Star%20Studded%20Xmas%20Spectacular%20%282%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "aqua:4:3:"
+        },
+        {
+          "title": "Aqua Teen Hunger Force — S07E01 — (2000) - s07e01 - A PE Christmas",
+          "show": "Aqua Teen Hunger Force",
+          "type": "Episode",
+          "seconds": 687.04,
+          "url": "https://archive.org/download/aqua-teen-hunger-force-2000-s-01e-01-rabbot/Aqua%20Teen%20Hunger%20Force%20%282000%29%20-%20s07e01%20-%20A%20PE%20Christmas.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "aqua:7:1:"
+        },
+        {
+          "title": "AS starring MF Doom Christmas Special 6 Hour Special — Adult Swim With MF Doom Christmas Special 6 Hours",
+          "show": "AS starring MF Doom Christmas Special 6 Hour Special",
+          "type": "Episode",
+          "seconds": 21627.0,
+          "url": "https://archive.org/download/adult-swim-with-mf-doom-christmas-special-6-hours-480p/Adult%20Swim%20With%20MF%20Doom%20Christmas%20Special%206%20Hours%20480p.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "https://archive.org/download/adult-swim-with-mf-doom-christmas-special-6-hours-480p/Adult%20Swim%20With%20MF%20Doom%20Christmas%20Special%206%20Hours%20480p.ia.mp4"
+        },
+        {
+          "title": "05- Letters to Santa Butt-Head I",
+          "show": "Beavis and Butt-Head",
+          "type": "Special",
+          "seconds": 335.44,
+          "url": "https://archive.org/download/06-its-a-miserable-life/Beavis%20%26%20Butthead%20Specials/05-%20Letters%20to%20Santa%20Butt-Head%20I.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:05letterstosantabuttheadi"
+        },
+        {
+          "title": "08 - Letters to Santa Butt-Head II",
+          "show": "Beavis and Butt-Head",
+          "type": "Special",
+          "seconds": 315.2,
+          "url": "https://archive.org/download/06-its-a-miserable-life/Beavis%20%26%20Butthead%20Specials/08%20-%20Letters%20to%20Santa%20Butt-Head%20II.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:08letterstosantabuttheadii"
+        },
+        {
+          "title": "Beavis And Butt-Head Time-Life DVD Collection — Butt-O-Ween & Beavis and Butt-Head Do Christmas",
+          "show": "Beavis And Butt-Head Time-Life DVD Collection",
+          "type": "Episode",
+          "seconds": 5435.8,
+          "url": "https://archive.org/download/beavis-and-butthead-timelife/Butt-O-Ween%20%26%20Beavis%20and%20Butt-Head%20Do%20Christmas.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "https://archive.org/download/beavis-and-butthead-timelife/Butt-O-Ween%20%26%20Beavis%20and%20Butt-Head%20Do%20Christmas.mp4"
+        },
+        {
+          "title": "Beavis And Butt-Head Time-Life DVD Collection — Butt-O-Ween & Beavis and Butt-Head Do Christmas1",
+          "show": "Beavis And Butt-Head Time-Life DVD Collection",
+          "type": "Episode",
+          "seconds": 3091.56,
+          "url": "https://archive.org/download/beavis-and-butthead-timelife/Butt-O-Ween%20%26%20Beavis%20and%20Butt-Head%20Do%20Christmas1.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "https://archive.org/download/beavis-and-butthead-timelife/Butt-O-Ween%20%26%20Beavis%20and%20Butt-Head%20Do%20Christmas1.mp4"
+        },
+        {
+          "title": "Beavis And Butt-Head Time-Life DVD Collection — Butt-O-Ween & Beavis and Butt-Head Do Christmas2",
+          "show": "Beavis And Butt-Head Time-Life DVD Collection",
+          "type": "Episode",
+          "seconds": 2440.07,
+          "url": "https://archive.org/download/beavis-and-butthead-timelife/Butt-O-Ween%20%26%20Beavis%20and%20Butt-Head%20Do%20Christmas2.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "https://archive.org/download/beavis-and-butthead-timelife/Butt-O-Ween%20%26%20Beavis%20and%20Butt-Head%20Do%20Christmas2.mp4"
+        },
+        {
+          "title": "Dr. Katz, Professional Therapist — S06E08 — Snow Day (Todd Barry, Dana Gould)",
+          "show": "Dr. Katz, Professional Therapist",
+          "type": "Episode",
+          "seconds": 1320.57,
+          "url": "https://archive.org/download/dr-katz-professional-therapist-0205-bees-and-sids-dom-irerra-louis-ck/Dr%20Katz%20Professional%20Therapist%20COMPLETE%20XviD-IPT/Dr%20Katz%2C%20Professional%20Therapist%200608%20Snow%20Day%20%28Todd%20Barry%2C%20Dana%20Gould%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "katz:6:8:"
+        },
+        {
+          "title": "Duckman — S04E12 — Bev Takes a Holiday",
+          "show": "Duckman",
+          "type": "Episode",
+          "seconds": 1328.0,
+          "url": "https://archive.org/download/DuckmanComplete/Duckman/Season%204/Duckman%20S04E12%20Bev%20Takes%20a%20Holiday.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "duckman:4:12:"
+        },
+        {
+          "title": "Family Guy Season 3 Episode christmas VTS 03 5",
+          "show": "Family Guy",
+          "type": "Special",
+          "seconds": 248.0,
+          "url": "https://archive.org/download/christmas-episodes-and-specials/Family%20Guy%20Season%203%20Episode%20christmas%20VTS_03_5.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:familyguyseason3episodechristmasvts035"
+        },
+        {
+          "title": "Glenn Martin, DDS — S02E15 — A Very Martin Christmas",
+          "show": "Glenn Martin, DDS",
+          "type": "Episode",
+          "seconds": 1266.37,
+          "url": "https://archive.org/download/GlennMartinDDS/35%20A%20Very%20Martin%20Christmas.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "https://archive.org/download/GlennMartinDDS/35%20A%20Very%20Martin%20Christmas.mp4"
+        },
+        {
+          "title": "The Critic — S01E02 — Miserable",
+          "show": "The Critic",
+          "type": "Episode",
+          "seconds": 1359.24,
+          "url": "https://archive.org/download/the-critic-animated-series/02%20-%20Miserable.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "critic:1:2:"
+        },
+        {
+          "title": "The Simpsons — S17E09 — S17, E09 - Simpsons Christmas Stories",
+          "show": "The Simpsons",
+          "type": "Episode",
+          "seconds": 1315.67,
+          "url": "https://archive.org/download/doh_20240725/The%20Simpsons%20S17%2C%20E09%20-%20Simpsons%20Christmas%20Stories.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "simpsons:17:9:"
+        },
+        {
+          "title": "The Simpsons Roasting on an Open Fire (1989)",
+          "show": "The Simpsons Roasting on an Open Fire (1989)",
+          "type": "Special",
+          "seconds": 1389.36,
+          "url": "https://archive.org/download/adventures-in--christmas/The%20Simpsons%20Roasting%20on%20an%20Open%20Fire%20(1989).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [],
+          "content_id": "special:thesimpsonsroastingonanopenfire1989"
+        }
+      ]
+    },
+    "Star Spangled TV": {
+      "counts": {
+        "movies": 91,
+        "christmas": 160,
+        "other_specials": 49
+      },
+      "sample_movies": [
+        {
+          "title": "2001 A Space Odyssey (1968)",
+          "show": "2001 A Space Odyssey (1968)",
+          "type": "Movie",
+          "seconds": 8928.08,
+          "url": "https://archive.org/download/28-days-later_202505/2001%20A%20Space%20Odyssey%20%281968%29.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:2001aspaceodyssey1968"
+        },
+        {
+          "title": "30 Days of Night (2007)",
+          "show": "30 Days of Night (2007)",
+          "type": "Movie",
+          "seconds": 6785.84,
+          "url": "https://archive.org/download/30-days-of-night_202106/30%20Days%20Of%20Night.mp4",
+          "seasonal_tags": [
+            "halloween",
+            "horror",
+            "snow",
+            "winter"
+          ],
+          "holiday_events": [],
+          "content_id": "special:30daysofnight2007"
+        },
+        {
+          "title": "30 Days of Night: Dark Days",
+          "show": "30 Days of Night: Dark Days",
+          "type": "Movie",
+          "seconds": 5546.6,
+          "url": "https://archive.org/download/30-days-of-night_202106/30%20Days%20Of%20Night%20Dark%20Days.mp4",
+          "seasonal_tags": [
+            "halloween",
+            "horror"
+          ],
+          "holiday_events": [],
+          "content_id": "special:30daysofnightdarkdays"
+        },
+        {
+          "title": "8 Mile (2002)",
+          "show": "8 Mile (2002)",
+          "type": "Movie",
+          "seconds": 6627.77,
+          "url": "https://archive.org/download/transformers-2007_202602/8%20Mile%20%282002%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:8mile2002"
+        },
+        {
+          "title": "A Christmas Story (1983)",
+          "show": "A Christmas Story (1983)",
+          "type": "Movie",
+          "seconds": 5603.88,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Christmas%20Story%20(1983).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmasstory1983"
+        },
+        {
+          "title": "A Hobo's Christmas (1987)",
+          "show": "A Hobo's Christmas (1987)",
+          "type": "Movie",
+          "seconds": 5600.98,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Hobo's%20Christmas%20(1987).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:ahoboschristmas1987"
+        },
+        {
+          "title": "A Nightmare on Elm Street (1984)",
+          "show": "A Nightmare on Elm Street (1984) ",
+          "type": "Movie",
+          "seconds": 5474.0,
+          "url": "https://archive.org/download/a_nightmare_on_elm_street/A%20Nightmare%20on%20Elm%20Street/01.%20A%20Nightmare%20on%20Elm%20Street%20%281984%29/A.Nightmare.On.Elm.Street.1984.720p.BrRip.x264.bitloks.YIFY.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "special:anightmareonelmstreet1984"
+        },
+        {
+          "title": "Abraham Lincoln Vampire Hunter (2012)",
+          "show": "Abraham Lincoln Vampire Hunter (2012)",
+          "type": "Movie",
+          "seconds": 6300.63,
+          "url": "https://archive.org/download/28-days-later_202505/Abraham%20Lincoln%20Vampire%20Hunter%202012.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "special:abrahamlincolnvampirehunter2012"
+        },
+        {
+          "title": "Arthur Christmas (2011)",
+          "show": "Arthur Christmas (2011)",
+          "type": "Movie",
+          "seconds": 5852.94,
+          "url": "https://archive.org/download/adventures-in--christmas/Arthur%20Christmas%20(2011).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:arthurchristmas2011"
+        },
+        {
+          "title": "Austin Powers International Man of Mystery",
+          "show": "Austin Powers International Man of Mystery",
+          "type": "Movie",
+          "seconds": 5375.53,
+          "url": "https://archive.org/download/random-tv-shows-and-movies/Austin%20Powers%20International%20Man%20of%20Mystery.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:austinpowersinternationalmanofmystery"
+        },
+        {
+          "title": "Batteries Not Included (1987)",
+          "show": "Batteries Not Included (1987)",
+          "type": "Movie",
+          "seconds": 6389.51,
+          "url": "https://archive.org/download/28-days-later_202505/Batteries%20Not%20Included%20%281987%29.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:batteriesnotincluded1987"
+        },
+        {
+          "title": "Beetlejuice (1988)",
+          "show": "Beetlejuice (1988)",
+          "type": "Movie",
+          "seconds": 5526.4,
+          "url": "https://archive.org/download/28-days-later_202505/Beetlejuice%20%281988%29.ia.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "special:beetlejuice1988"
+        },
+        {
+          "title": "Big Daddy (1999)",
+          "show": "Big Daddy (1999)",
+          "type": "Movie",
+          "seconds": 5584.63,
+          "url": "https://archive.org/download/transformers-2007_202602/Big%20Daddy%20%281999%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:bigdaddy1999"
+        },
+        {
+          "title": "Billy Madison (1995)",
+          "show": "Billy Madison (1995)",
+          "type": "Movie",
+          "seconds": 5392.02,
+          "url": "https://archive.org/download/transformers-2007_202602/Billy%20Madison%20%281995%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:billymadison1995"
+        },
+        {
+          "title": "Black Christmas (1974)",
+          "show": "Black Christmas (1974)",
+          "type": "Movie",
+          "seconds": 5864.27,
+          "url": "https://archive.org/download/black-christmas-1974-uncut/Black%20Christmas%201974%20UNCUT.mp4",
+          "seasonal_tags": [
+            "christmas",
+            "halloween",
+            "horror",
+            "winter"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:blackchristmas1974"
+        }
+      ],
+      "sample_christmas": [
+        {
+          "title": "06 - It's a Miserable Life",
+          "show": "06",
+          "type": "Special",
+          "seconds": 780.82,
+          "url": "https://archive.org/download/06-its-a-miserable-life/Beavis%20%26%20Butthead%20Specials/06%20-%20It%27s%20a%20Miserable%20Life.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [],
+          "content_id": "special:06itsamiserablelife"
+        },
+        {
+          "title": "A Beverly Hillbilly’s Christmas at Hooterville (1963)",
+          "show": "A Beverly Hillbilly’s Christmas at Hooterville (1963)",
+          "type": "Special",
+          "seconds": 1417.72,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Beverly%20Hillbilly%E2%80%99s%20Christmas%20at%20Hooterville%20(1963).ia.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:abeverlyhillbillyschristmasathooterville1963"
+        },
+        {
+          "title": "A Charlie Brown Christmas (1965)",
+          "show": "A Charlie Brown Christmas (1965)",
+          "type": "Special",
+          "seconds": 1543.73,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Charlie%20Brown%20Christmas%20(1965).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:acharliebrownchristmas1965"
+        },
+        {
+          "title": "A Charlie Brown Christmas (1965)",
+          "show": "A Charlie Brown Christmas (1965)",
+          "type": "Special",
+          "seconds": 1544.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Charlie%20Brown%20Christmas%20%281965%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:acharliebrownchristmas1965"
+        },
+        {
+          "title": "A Christmas Story (1983)",
+          "show": "A Christmas Story (1983)",
+          "type": "Movie",
+          "seconds": 5603.88,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Christmas%20Story%20(1983).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmasstory1983"
+        },
+        {
+          "title": "A Christmas Story (1983)",
+          "show": "A Christmas Story (1983)",
+          "type": "Special",
+          "seconds": 5604.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Christmas%20Story%20%281983%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmasstory1983"
+        },
+        {
+          "title": "A Christmas Tree 1972 VHS",
+          "show": "A Christmas Tree 1972 VHS",
+          "type": "Special",
+          "seconds": 1400.51,
+          "url": "https://archive.org/download/20251215_20251215_0455/A%20Christmas%20Tree%201972%20VHS.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmastree1972vhs"
+        },
+        {
+          "title": "A Claymation Christmas Celebration (1987)",
+          "show": "A Claymation Christmas Celebration (1987)",
+          "type": "Special",
+          "seconds": 1441.4,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Claymation%20Christmas%20Celebration%20(1987).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:aclaymationchristmascelebration1987"
+        },
+        {
+          "title": "A Claymation Christmas Celebration (1987)",
+          "show": "A Claymation Christmas Celebration (1987)",
+          "type": "Special",
+          "seconds": 1441.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Claymation%20Christmas%20Celebration%20%281987%29.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:aclaymationchristmascelebration1987"
+        },
+        {
+          "title": "A Cosmic Christmas - Nelvana - 1977",
+          "show": "A Cosmic Christmas",
+          "type": "Special",
+          "seconds": 1311.81,
+          "url": "https://archive.org/download/intergalacticthanksgivingnelvana1979/A%20Cosmic%20Christmas%20-%20Nelvana%20-%201977.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:acosmicchristmasnelvana1977"
+        },
+        {
+          "title": "A Cosmic Christmas (1977)",
+          "show": "A Cosmic Christmas (1977)",
+          "type": "Special",
+          "seconds": 1546.17,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Cosmic%20Christmas%20(1977).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:acosmicchristmas1977"
+        },
+        {
+          "title": "A Hobo's Christmas (1987)",
+          "show": "A Hobo's Christmas (1987)",
+          "type": "Movie",
+          "seconds": 5600.98,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Hobo's%20Christmas%20(1987).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:ahoboschristmas1987"
+        },
+        {
+          "title": "A Hobo's Christmas (1987)",
+          "show": "A Hobo's Christmas (1987)",
+          "type": "Special",
+          "seconds": 5601.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Hobo%27s%20Christmas%20%281987%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:ahoboschristmas1987"
+        },
+        {
+          "title": "A Hobo's Christmas (1987)",
+          "show": "A Hobo's Christmas (1987)",
+          "type": "Special",
+          "seconds": 5601.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Hobo's%20Christmas%20%281987%29.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:ahoboschristmas1987"
+        },
+        {
+          "title": "A Muppet Family Christmas",
+          "show": "A Muppet Family Christmas",
+          "type": "Special",
+          "seconds": 2879.88,
+          "url": "https://archive.org/download/christmas-specials_202412/A%20Muppet%20Family%20Christmas.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:amuppetfamilychristmas"
+        },
+        {
+          "title": "A Muppet Family Christmas (1987)",
+          "show": "A Muppet Family Christmas (1987)",
+          "type": "Special",
+          "seconds": 2899.78,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Muppet%20Family%20Christmas%20(1987).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:amuppetfamilychristmas1987"
+        },
+        {
+          "title": "A Muppet Family Christmas (1987)",
+          "show": "A Muppet Family Christmas (1987)",
+          "type": "Special",
+          "seconds": 2900.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Muppet%20Family%20Christmas%20%281987%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:amuppetfamilychristmas1987"
+        }
+      ]
+    },
+    "90s Toons": {
+      "counts": {
+        "movies": 11,
+        "christmas": 61,
+        "other_specials": 50
+      },
+      "sample_movies": [
+        {
+          "title": "Race for Your Life, Charlie Brown",
+          "show": "Race for Your Life, Charlie Brown",
+          "type": "Movie",
+          "seconds": 4549.05,
+          "url": "https://archive.org/download/1975a-be-my-valentine-charlie-brown_202312/1977a%20-%20Race%20for%20Your%20Life%2C%20Charlie%20Brown.ia.mp4",
+          "seasonal_tags": [
+            "summer"
+          ],
+          "holiday_events": [],
+          "content_id": "special:raceforyourlifecharliebrown"
+        },
+        {
+          "title": "Bon Voyage, Charlie Brown (and Don't Come Back!!)",
+          "show": "Bon Voyage, Charlie Brown (and Don't Come Back!!)",
+          "type": "Movie",
+          "seconds": 4559.05,
+          "url": "https://archive.org/download/1975a-be-my-valentine-charlie-brown_202312/1980b%20-%20Bon%20Voyage%2C%20Charlie%20Brown%20%28and%20Don%27t%20Come%20Back%21%21%29.ia.mp4",
+          "seasonal_tags": [
+            "summer"
+          ],
+          "holiday_events": [],
+          "content_id": "special:bonvoyagecharliebrownanddontcomeback"
+        },
+        {
+          "title": "A Flintstones Christmas Carol (1994)",
+          "show": "A Flintstones Christmas Carol (1994)",
+          "type": "Movie",
+          "seconds": 4158.65,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Flintstones%20Christmas%20Carol%20(1994).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:aflintstoneschristmascarol1994"
+        },
+        {
+          "title": "Godzilla (1998)",
+          "show": "Godzilla: The Series (1998)",
+          "type": "Movie",
+          "seconds": 8323.35,
+          "url": "https://archive.org/download/My-Favorite-Movies_202503/Godzilla%20%281998%29.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "special:godzilla1998"
+        },
+        {
+          "title": "Spider-man (2002)",
+          "show": "Spider-Man (2002)",
+          "type": "Movie",
+          "seconds": 7272.32,
+          "url": "https://archive.org/download/My-Favorite-Movies_202503/Spider-man%20%282002%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:spiderman2002"
+        },
+        {
+          "title": "Spider-man 2",
+          "show": "Spider-Man 2 (2004)",
+          "type": "Movie",
+          "seconds": 8148.18,
+          "url": "https://archive.org/download/My-Favorite-Movies_202503/Spider-man%202.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:spiderman2"
+        },
+        {
+          "title": "Spider-man 3",
+          "show": "Spider-Man 3 (2007)",
+          "type": "Movie",
+          "seconds": 8351.36,
+          "url": "https://archive.org/download/My-Favorite-Movies_202503/Spider-man%203.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:spiderman3"
+        },
+        {
+          "title": "The Amazing Spider-Man (2012)",
+          "show": "The Amazing Spider-Man (2012)",
+          "type": "Movie",
+          "seconds": 8177.18,
+          "url": "https://archive.org/download/My-Favorite-Movies_202503/Spider-man%204%20The%20Amazing%20Spider-man.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:theamazingspiderman2012"
+        },
+        {
+          "title": "The Amazing Spider-Man 2 (2014)",
+          "show": "The Amazing Spider-Man 2 (2014)",
+          "type": "Movie",
+          "seconds": 8494.78,
+          "url": "https://archive.org/download/My-Favorite-Movies_202503/Spider-man%205%20The%20Amazing%20Spider-man%202.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:theamazingspiderman22014"
+        },
+        {
+          "title": "Yogi Bear (2010)",
+          "show": "Yogi Bear (2010)",
+          "type": "Movie",
+          "seconds": 4824.44,
+          "url": "https://archive.org/download/my-collection_202607/Yogi%20Bear%20(2010).mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:yogibear2010"
+        },
+        {
+          "title": "Yogi's First Christmas (1980)",
+          "show": "Yogi's First Christmas (1980)",
+          "type": "Movie",
+          "seconds": 5929.05,
+          "url": "https://archive.org/download/adventures-in--christmas/Yogi's%20First%20Christmas%20(1980).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:yogisfirstchristmas1980"
+        }
+      ],
+      "sample_christmas": [
+        {
+          "title": "1 It's A Wonderful Tiny Toon's Christmas Special 1996 WARNER HOME VIDEO VHS",
+          "show": "1. It's A Wonderful Tiny Toon's Christmas Special 1996 WARNER HOME VIDEO VHS",
+          "type": "Special",
+          "seconds": 1557.96,
+          "url": "https://archive.org/download/3.-its-a-wonderful-tiny-toons-christmas-special/1.%20It%27s%20A%20Wonderful%20Tiny%20Toon%27s%20Christmas%20Special%201996%20WARNER%20HOME%20VIDEO%20VHS.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:1itsawonderfultinytoonschristmasspecial1996warnerhomevideovhs"
+        },
+        {
+          "title": "It's Christmastime Again, Charlie Brown",
+          "show": "It's Christmastime Again, Charlie Brown",
+          "type": "Special",
+          "seconds": 1379.54,
+          "url": "https://archive.org/download/1975a-be-my-valentine-charlie-brown_202312/1992b%20-%20It%27s%20Christmastime%20Again%2C%20Charlie%20Brown.ia.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:itschristmastimeagaincharliebrown"
+        },
+        {
+          "title": "Charlie Brown's Christmas Tales",
+          "show": "Charlie Brown's Christmas Tales",
+          "type": "Special",
+          "seconds": 1073.27,
+          "url": "https://archive.org/download/1975a-be-my-valentine-charlie-brown_202312/2002b%20-%20Charlie%20Brown%27s%20Christmas%20Tales.ia.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:charliebrownschristmastales"
+        },
+        {
+          "title": "I Want a Dog for Christmas, Charlie Brown",
+          "show": "I Want a Dog for Christmas, Charlie Brown",
+          "type": "Special",
+          "seconds": 2474.04,
+          "url": "https://archive.org/download/1975a-be-my-valentine-charlie-brown_202312/2003b%20-%20I%20Want%20a%20Dog%20for%20Christmas%2C%20Charlie%20Brown.ia.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:iwantadogforchristmascharliebrown"
+        },
+        {
+          "title": "A Flintstone Christmas (1977)",
+          "show": "A Flintstone Christmas (1977)",
+          "type": "Special",
+          "seconds": 2894.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Flintstone%20Christmas%20(1977).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:aflintstonechristmas1977"
+        },
+        {
+          "title": "A Flintstone Christmas (1977)",
+          "show": "A Flintstone Christmas (1977)",
+          "type": "Special",
+          "seconds": 2894.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Flintstone%20Christmas%20%281977%29.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:aflintstonechristmas1977"
+        },
+        {
+          "title": "A Flintstones Christmas Carol (1994)",
+          "show": "A Flintstones Christmas Carol (1994)",
+          "type": "Movie",
+          "seconds": 4158.65,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Flintstones%20Christmas%20Carol%20(1994).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:aflintstoneschristmascarol1994"
+        },
+        {
+          "title": "A Flintstones Christmas Carol (1994)",
+          "show": "A Flintstones Christmas Carol (1994)",
+          "type": "Special",
+          "seconds": 4159.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Flintstones%20Christmas%20Carol%20%281994%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:aflintstoneschristmascarol1994"
+        },
+        {
+          "title": "A Garfield Christmas (1987)",
+          "show": "A Garfield Christmas (1987)",
+          "type": "Special",
+          "seconds": 1411.14,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Garfield%20Christmas%20(1987).ia.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:agarfieldchristmas1987"
+        },
+        {
+          "title": "A Garfield Christmas (1987)",
+          "show": "A Garfield Christmas (1987)",
+          "type": "Special",
+          "seconds": 1411.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Garfield%20Christmas%20%281987%29.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:agarfieldchristmas1987"
+        },
+        {
+          "title": "A Pink Christmas (1978)",
+          "show": "A Pink Christmas (1978)",
+          "type": "Special",
+          "seconds": 1494.88,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Pink%20Christmas%20(1978).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:apinkchristmas1978"
+        },
+        {
+          "title": "A Pink Christmas (1978)",
+          "show": "A Pink Christmas (1978)",
+          "type": "Special",
+          "seconds": 1495.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Pink%20Christmas%20%281978%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:apinkchristmas1978"
+        },
+        {
+          "title": "A Pup Named Scooby-Doo — S01E07 — Snow Place Like Home",
+          "show": "A Pup Named Scooby-Doo",
+          "type": "Episode",
+          "seconds": 1379.31,
+          "url": "https://archive.org/download/random-tv-shows-and-movies/A%20Pup%20Named%20Scooby-Doo%20-%20S01E07%20-%20Snow%20Place%20Like%20Home%20SDTV.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "pup-scooby:1:7:"
+        },
+        {
+          "title": "A Very Pink Christmas (2011)",
+          "show": "A Very Pink Christmas (2011)",
+          "type": "Special",
+          "seconds": 1381.19,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Very%20Pink%20Christmas%20(2011).ia.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:averypinkchristmas2011"
+        },
+        {
+          "title": "A Very Pink Christmas (2011)",
+          "show": "A Very Pink Christmas (2011)",
+          "type": "Special",
+          "seconds": 1381.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Very%20Pink%20Christmas%20%282011%29.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:averypinkchristmas2011"
+        },
+        {
+          "title": "Adventures Of Sonic The Hedgehog - Sonic Christmas Blast (1996)",
+          "show": "Adventures Of Sonic The Hedgehog - Sonic Christmas Blast (1996)",
+          "type": "Special",
+          "seconds": 1237.06,
+          "url": "https://archive.org/download/adventures-in--christmas/Adventures%20Of%20Sonic%20The%20Hedgehog%20-%20Sonic%20Christmas%20Blast%20(1996).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:adventuresofsonicthehedgehogsonicchristmasblast1996"
+        },
+        {
+          "title": "Adventures Of Sonic The Hedgehog - Sonic Christmas Blast (1996)",
+          "show": "Adventures Of Sonic The Hedgehog - Sonic Christmas Blast (1996)",
+          "type": "Special",
+          "seconds": 1237.0,
+          "url": "https://archive.org/download/adventures-in--christmas/Adventures%20Of%20Sonic%20The%20Hedgehog%20-%20Sonic%20Christmas%20Blast%20%281996%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:adventuresofsonicthehedgehogsonicchristmasblast1996"
+        }
+      ]
+    },
+    "Off-Licence TV": {
+      "counts": {
+        "movies": 16,
+        "christmas": 102,
+        "other_specials": 11
+      },
+      "sample_movies": [
+        {
+          "title": "28 Days Later",
+          "show": "28 Days Later",
+          "type": "Movie",
+          "seconds": 6785.98,
+          "url": "https://archive.org/download/28-days-later_202505/28%20days%20later.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:28dayslater"
+        },
+        {
+          "title": "28 Weeks Later (2007)",
+          "show": "28 Weeks Later (2007)",
+          "type": "Movie",
+          "seconds": 6006.12,
+          "url": "https://archive.org/download/28-days-later_202505/28%20Weeks%20Later%202007.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:28weekslater2007"
+        },
+        {
+          "title": "28 Years Later (2025)",
+          "show": "28 Years Later (2025)",
+          "type": "Movie",
+          "seconds": 6906.11,
+          "url": "https://archive.org/download/28-days-later_202505/28%20Years%20Later%202025.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:28yearslater2025"
+        },
+        {
+          "title": "A Christmas Carol (1984)",
+          "show": "A Christmas Carol (1984)",
+          "type": "Movie",
+          "seconds": 6068.15,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20(1984).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmascarol1984"
+        },
+        {
+          "title": "A Christmas Carol (1997)",
+          "show": "A Christmas Carol (1997)",
+          "type": "Movie",
+          "seconds": 4190.74,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20(1997).ia.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmascarol1997"
+        },
+        {
+          "title": "A Christmas Carol (1999)",
+          "show": "A Christmas Carol (1999)",
+          "type": "Movie",
+          "seconds": 5833.57,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20(1999).ia.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmascarol1999"
+        },
+        {
+          "title": "Chicken Run (2000)",
+          "show": "Chicken Run (2000)",
+          "type": "Movie",
+          "seconds": 5069.26,
+          "url": "https://archive.org/download/My-Favorite-Movies_202503/Chicken%20Run%20%282000%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:chickenrun2000"
+        },
+        {
+          "title": "Flushed Away",
+          "show": "Flushed Away (2006)",
+          "type": "Movie",
+          "seconds": 5102.34,
+          "url": "https://archive.org/download/My-Favorite-Movies_202503/Flushed%20Away.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:flushedaway"
+        },
+        {
+          "title": "Ghostwatch",
+          "show": "Ghostwatch",
+          "type": "Movie",
+          "seconds": 5441.0,
+          "url": "https://archive.org/download/Ghostwatch/Ghostwatch.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "special:ghostwatch"
+        },
+        {
+          "title": "James And The Giant Peach",
+          "show": "James And The Giant Peach (1996)",
+          "type": "Movie",
+          "seconds": 4765.08,
+          "url": "https://archive.org/download/My-Favorite-Movies_202503/James%20And%20The%20Giant%20Peach.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:jamesandthegiantpeach"
+        },
+        {
+          "title": "Bean the Movie - The Extended Director's Cut",
+          "show": "Mr. Bean",
+          "type": "Movie",
+          "seconds": 6005.47,
+          "url": "https://archive.org/download/bean-the-movie-the-extended-directors-cut/Bean%20the%20Movie%20-%20The%20Extended%20Director%27s%20Cut.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:beanthemovietheextendeddirectorscut"
+        },
+        {
+          "title": "St Patrick: The Irish Legend",
+          "show": "St Patrick: The Irish Legend",
+          "type": "Movie",
+          "seconds": 5541.72,
+          "url": "https://archive.org/download/st-patrick-the-irish-legend/St%20%20Patrick%20-%20The%20Irish%20Legend.mp4",
+          "seasonal_tags": [
+            "st-patrick"
+          ],
+          "holiday_events": [],
+          "content_id": "special:stpatricktheirishlegend"
+        },
+        {
+          "title": "The Inbetweeners 2 2014",
+          "show": "The Inbetweeners",
+          "type": "Movie",
+          "seconds": 5520.16,
+          "url": "https://archive.org/download/the-inbetweeners-2011-extended-720p-blu-ray-h-265-bone/The%20Inbetweeners%20%2B%20Movies/The%20Movies/The%20Inbetweeners%202%202014%20720p%20BluRay%20H265%20BONE.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:theinbetweeners22014"
+        },
+        {
+          "title": "The Inbetweeners 2011 Extended",
+          "show": "The Inbetweeners",
+          "type": "Movie",
+          "seconds": 5827.16,
+          "url": "https://archive.org/download/the-inbetweeners-2011-extended-720p-blu-ray-h-265-bone/The%20Inbetweeners%20%2B%20Movies/The%20Movies/The%20Inbetweeners%202011%20Extended%20720p%20BluRay%20H265%20BONE.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:theinbetweeners2011extended"
+        },
+        {
+          "title": "The Worst Witch (1986)",
+          "show": "The Worst Witch (1986)",
+          "type": "Movie",
+          "seconds": 4178.0,
+          "url": "https://archive.org/download/the-worst-witch-1986_202304/The%20Worst%20Witch%20%281986%29.ia.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "special:theworstwitch1986"
+        }
+      ],
+      "sample_christmas": [
+        {
+          "title": "8 Out of 10 Cats Does Countdown - S06E00 - Christmas Special 2014 (",
+          "show": "8 Out of 10 Cats Does Countdown",
+          "type": "Special",
+          "seconds": 2847.08,
+          "url": "https://archive.org/download/8-out-of-10-cats-does-countdown/8%20Out%20of%2010%20Cats%20Does%20Countdown%20-%20S06E00%20-%20Christmas%20Special%202014%20%281080p%20ALL4%20WEB-DL%20AAC2.0%20H.264%29-RelaTVity.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:8outof10catsdoescountdowns06e00christmasspecial2014"
+        },
+        {
+          "title": "8 Out of 10 Cats Does Countdown — S08E00 — Christmas Special 2015 (",
+          "show": "8 Out of 10 Cats Does Countdown",
+          "type": "Episode",
+          "seconds": 2849.07,
+          "url": "https://archive.org/download/8-out-of-10-cats-does-countdown/8%20Out%20of%2010%20Cats%20Does%20Countdown%20-%20S08E00%20-%20Christmas%20Special%202015%20%281080p%20ALL4%20WEB-DL%20AAC2.0%20H.264%29-RelaTVity.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "countdown:8:0:"
+        },
+        {
+          "title": "8 Out of 10 Cats Does Countdown - S12E00 - Christmas Special 2016-RelaTVity",
+          "show": "8 Out of 10 Cats Does Countdown",
+          "type": "Special",
+          "seconds": 2805.08,
+          "url": "https://archive.org/download/8-out-of-10-cats-does-countdown/8%20Out%20of%2010%20Cats%20Does%20Countdown%20-%20S12E00%20-%20Christmas%20Special%202016%20%281080p%20ALL4%20WEB-DL%20AAC2.0%20H.264%29-RelaTVity.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:8outof10catsdoescountdowns12e00christmasspecial2016relatvity"
+        },
+        {
+          "title": "8 Out of 10 Cats Does Countdown — S12E01 — Stephen Mangan, Noel Fielding, Fay Ripley, Brett Domino Trio (",
+          "show": "8 Out of 10 Cats Does Countdown",
+          "type": "Episode",
+          "seconds": 2791.66,
+          "url": "https://archive.org/download/8-out-of-10-cats-does-countdown/8%20Out%20of%2010%20Cats%20Does%20Countdown%20-%20S12E01%20-%20Stephen%20Mangan%2C%20Noel%20Fielding%2C%20Fay%20Ripley%2C%20Brett%20Domino%20Trio%20%28HDTV-720p%20x264%20AC3%29%20-RelaTVity.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "countdown:12:1:"
+        },
+        {
+          "title": "8 Out of 10 Cats Does Countdown - S15E00 - Christmas Special 2017 (",
+          "show": "8 Out of 10 Cats Does Countdown",
+          "type": "Special",
+          "seconds": 2835.05,
+          "url": "https://archive.org/download/8-out-of-10-cats-does-countdown/8%20Out%20of%2010%20Cats%20Does%20Countdown%20-%20S15E00%20-%20Christmas%20Special%202017%20%28WEBDL-1080p%20x264%20AAC%29%20-RelaTVity.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:8outof10catsdoescountdowns15e00christmasspecial2017"
+        },
+        {
+          "title": "8 Out of 10 Cats Does Countdown - S17E00 - Christmas Special 2018-DJV",
+          "show": "8 Out of 10 Cats Does Countdown",
+          "type": "Special",
+          "seconds": 2841.09,
+          "url": "https://archive.org/download/8-out-of-10-cats-does-countdown/8%20Out%20of%2010%20Cats%20Does%20Countdown%20-%20S17E00%20-%20Christmas%20Special%202018%20%281080p%20WEB-DL%20AAC2.0%20H.264%29-DJV.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:8outof10catsdoescountdowns17e00christmasspecial2018djv"
+        },
+        {
+          "title": "8 Out of 10 Cats Does Countdown - S18E08 - Christmas Special 2019-DJV",
+          "show": "8 Out of 10 Cats Does Countdown",
+          "type": "Special",
+          "seconds": 2817.09,
+          "url": "https://archive.org/download/8-out-of-10-cats-does-countdown/8%20Out%20of%2010%20Cats%20Does%20Countdown%20-%20S18E08%20-%20Christmas%20Special%202019%20%281080p%20WEB-DL%20AAC2.0%20H.264%29-DJV.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:8outof10catsdoescountdowns18e08christmasspecial2019djv"
+        },
+        {
+          "title": "8 Out of 10 Cats Does Countdown - S20E06 - Christmas Special 2020-DJV",
+          "show": "8 Out of 10 Cats Does Countdown",
+          "type": "Special",
+          "seconds": 2815.1,
+          "url": "https://archive.org/download/8-out-of-10-cats-does-countdown/8%20Out%20of%2010%20Cats%20Does%20Countdown%20-%20S20E06%20-%20Christmas%20Special%202020%20%281080p%20WEB-DL%20AAC2.0%20H.264%29-DJV.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:8outof10catsdoescountdowns20e06christmasspecial2020djv"
+        },
+        {
+          "title": "8 Out of 10 Cats Does Countdown - S22E00 - Christmas Special 2021-DJV",
+          "show": "8 Out of 10 Cats Does Countdown",
+          "type": "Special",
+          "seconds": 2798.93,
+          "url": "https://archive.org/download/8-out-of-10-cats-does-countdown/8%20Out%20of%2010%20Cats%20Does%20Countdown%20-%20S22E00%20-%20Christmas%20Special%202021%20%281080p%20WEB-DL%20AAC2.0%20H.264%29-DJV.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:8outof10catsdoescountdowns22e00christmasspecial2021djv"
+        },
+        {
+          "title": "8 Out of 10 Cats Does Countdown - S24E00 - Christmas Special 2022-DJV",
+          "show": "8 Out of 10 Cats Does Countdown",
+          "type": "Special",
+          "seconds": 2828.93,
+          "url": "https://archive.org/download/8-out-of-10-cats-does-countdown/8%20Out%20of%2010%20Cats%20Does%20Countdown%20-%20S24E00%20-%20Christmas%20Special%202022%20%281080p%20ALL4%20WEB-DL%20AAC2.0%20H.264%29-DJV.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:8outof10catsdoescountdowns24e00christmasspecial2022djv"
+        },
+        {
+          "title": "A Christmas Carol (1971)",
+          "show": "A Christmas Carol (1971)",
+          "type": "Special",
+          "seconds": 1501.31,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20(1971).ia.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmascarol1971"
+        },
+        {
+          "title": "A Christmas Carol (1971)",
+          "show": "A Christmas Carol (1971)",
+          "type": "Special",
+          "seconds": 1501.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20%281971%29.ia.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmascarol1971"
+        },
+        {
+          "title": "A Christmas Carol (1984)",
+          "show": "A Christmas Carol (1984)",
+          "type": "Movie",
+          "seconds": 6068.15,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20(1984).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmascarol1984"
+        },
+        {
+          "title": "A Christmas Carol (1984)",
+          "show": "A Christmas Carol (1984)",
+          "type": "Special",
+          "seconds": 6068.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20%281984%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmascarol1984"
+        },
+        {
+          "title": "A Christmas Carol (1997)",
+          "show": "A Christmas Carol (1997)",
+          "type": "Movie",
+          "seconds": 4190.74,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20(1997).ia.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmascarol1997"
+        },
+        {
+          "title": "A Christmas Carol (1997)",
+          "show": "A Christmas Carol (1997)",
+          "type": "Special",
+          "seconds": 4191.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20%281997%29.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmascarol1997"
+        },
+        {
+          "title": "A Christmas Carol (1999)",
+          "show": "A Christmas Carol (1999)",
+          "type": "Movie",
+          "seconds": 5833.57,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20(1999).ia.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmascarol1999"
+        }
+      ]
+    },
+    "GirlyPop": {
+      "counts": {
+        "movies": 25,
+        "christmas": 52,
+        "other_specials": 7
+      },
+      "sample_movies": [
+        {
+          "title": "Barbie 12 dancing princesses",
+          "show": "Barbie 12 Dancing Princesses",
+          "type": "Movie",
+          "seconds": 4946.11,
+          "url": "https://archive.org/download/barbie-12-dancing-princesses/Barbie%2012%20dancing%20princesses.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:barbie12dancingprincesses"
+        },
+        {
+          "title": "Barbie Fairytopia",
+          "show": "Barbie Fairytopia",
+          "type": "Movie",
+          "seconds": 4217.96,
+          "url": "https://archive.org/download/barbie-fairytopia_202409/Barbie%20Fairytopia.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:barbiefairytopia"
+        },
+        {
+          "title": "Barbie Nutcracker",
+          "show": "Barbie Nutcracker",
+          "type": "Movie",
+          "seconds": 4582.97,
+          "url": "https://archive.org/download/1-frosty-the-snowman/18%20Barbie%20in%20the%20Nutcracker.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [],
+          "content_id": "special:barbienutcracker"
+        },
+        {
+          "title": "Barbie and the Magic of Pegasus",
+          "show": "Barbie Pegasus",
+          "type": "Movie",
+          "seconds": 5061.02,
+          "url": "https://archive.org/download/barbie-and-the-magic-of-pegasus/Barbie%20and%20the%20Magic%20of%20Pegasus.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:barbieandthemagicofpegasus"
+        },
+        {
+          "title": "Barbie Princess And Pauper",
+          "show": "Barbie Princess And The Pauper",
+          "type": "Movie",
+          "seconds": 5136.16,
+          "url": "https://archive.org/download/barbie-princess-and-pauper/Barbie%20Princess%20And%20Pauper.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:barbieprincessandpauper"
+        },
+        {
+          "title": "Barbie as Rapunzel (2002)",
+          "show": "Barbie Repunzel",
+          "type": "Movie",
+          "seconds": 5062.59,
+          "url": "https://archive.org/download/barbie-as-rapunzel-2002/Barbie%20as%20Rapunzel%20%282002%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:barbieasrapunzel2002"
+        },
+        {
+          "title": "BARBIE OF SWAN LAKE13",
+          "show": "Barbie Swan Lake",
+          "type": "Movie",
+          "seconds": 4971.98,
+          "url": "https://archive.org/download/barbie-of-swan-lake/BARBIE_OF_SWAN_LAKE13.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:barbieofswanlake13"
+        },
+        {
+          "title": "Bratz Babyz Save Christmas",
+          "show": "Bratz",
+          "type": "Movie",
+          "seconds": 4235.32,
+          "url": "https://archive.org/download/bratz-starrin-stylin/Bratz%20Babyz%20Save%20Christmas%20.ia.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:bratzbabyzsavechristmas"
+        },
+        {
+          "title": "Bratz Babyz The Movie",
+          "show": "Bratz",
+          "type": "Movie",
+          "seconds": 3960.81,
+          "url": "https://archive.org/download/bratz-starrin-stylin/Bratz%20Babyz%20The%20Movie%20.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:bratzbabyzthemovie"
+        },
+        {
+          "title": "Bratz Desert Jewelz",
+          "show": "Bratz",
+          "type": "Movie",
+          "seconds": 4424.1,
+          "url": "https://archive.org/download/bratz-starrin-stylin/Bratz%20Desert%20Jewelz%20.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:bratzdesertjewelz"
+        },
+        {
+          "title": "Bratz Fashion Pixiez",
+          "show": "Bratz",
+          "type": "Movie",
+          "seconds": 4125.35,
+          "url": "https://archive.org/download/bratz-starrin-stylin/Bratz%20Fashion%20Pixiez%20.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:bratzfashionpixiez"
+        },
+        {
+          "title": "Bratz Genie Magic",
+          "show": "Bratz",
+          "type": "Movie",
+          "seconds": 4188.07,
+          "url": "https://archive.org/download/bratz-starrin-stylin/Bratz%20Genie%20Magic.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:bratzgeniemagic"
+        },
+        {
+          "title": "Bratz Girlz Really Rock",
+          "show": "Bratz",
+          "type": "Movie",
+          "seconds": 4921.56,
+          "url": "https://archive.org/download/bratz-starrin-stylin/Bratz%20Girlz%20Really%20Rock%20.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:bratzgirlzreallyrock"
+        },
+        {
+          "title": "Bratz Go To Paris",
+          "show": "Bratz",
+          "type": "Movie",
+          "seconds": 3569.93,
+          "url": "https://archive.org/download/bratz-starrin-stylin/Bratz%20Go%20To%20Paris%20.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:bratzgotoparis"
+        },
+        {
+          "title": "Bratz Kidz Fairy-Tales",
+          "show": "Bratz",
+          "type": "Movie",
+          "seconds": 4263.86,
+          "url": "https://archive.org/download/bratz-starrin-stylin/Bratz%20Kidz%20Fairy-Tales.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:bratzkidzfairytales"
+        }
+      ],
+      "sample_christmas": [
+        {
+          "title": "64 Zoo Lane — S01E04 — Snowbert the Polar Bear",
+          "show": "64 Zoo Lane",
+          "type": "Episode",
+          "seconds": 664.2,
+          "url": "https://archive.org/download/64-zoo-lane-cbeebies-series-cbbc-playhouse-disney/64%20Zoo%20Lane%20S01E04%20-%20Snowbert%20the%20Polar%20Bear.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "zoo:1:4:"
+        },
+        {
+          "title": "6teen — S02E27 — Snow Job",
+          "show": "6teen",
+          "type": "Episode",
+          "seconds": 2707.24,
+          "url": "https://archive.org/download/6teen_2004_complete_series_202508/6teen%20S02E27%20Snow%20Job.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "6teen:2:27:"
+        },
+        {
+          "title": "6teen — S03E12 — How the Rent-a-cop Stole Christmas",
+          "show": "6teen",
+          "type": "Episode",
+          "seconds": 1325.72,
+          "url": "https://archive.org/download/6teen_2004_complete_series_202508/6teen%20S03E12%20How%20the%20Rent-a-cop%20Stole%20Christmas.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "6teen:3:12:"
+        },
+        {
+          "title": "A Fairy Tale Christmas (2005)",
+          "show": "A Fairy Tale Christmas (2005)",
+          "type": "Special",
+          "seconds": 2695.05,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Fairy%20Tale%20Christmas%20(2005).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:afairytalechristmas2005"
+        },
+        {
+          "title": "A Fairy Tale Christmas (2005)",
+          "show": "A Fairy Tale Christmas (2005)",
+          "type": "Special",
+          "seconds": 2695.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Fairy%20Tale%20Christmas%20%282005%29.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:afairytalechristmas2005"
+        },
+        {
+          "title": "A Snow White Christmas (1980)",
+          "show": "A Snow White Christmas (1980)",
+          "type": "Special",
+          "seconds": 2767.05,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Snow%20White%20Christmas%20(1980).ia.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:asnowwhitechristmas1980"
+        },
+        {
+          "title": "A Snow White Christmas (1980)",
+          "show": "A Snow White Christmas (1980)",
+          "type": "Special",
+          "seconds": 2767.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Snow%20White%20Christmas%20%281980%29.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:asnowwhitechristmas1980"
+        },
+        {
+          "title": "Arthur — S00E01 — Arthur's Perfect Christmas",
+          "show": "Arthur",
+          "type": "Episode",
+          "seconds": 3273.39,
+          "url": "https://archive.org/download/arthur-1996-complete_202203/Specials/Arthur%20-%20S00E01%20-%20Arthur%27s%20Perfect%20Christmas%20SDTV.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "arthur:0:1:"
+        },
+        {
+          "title": "Arthur — S01E43 — Season 1/Arthur - S01E43-E44 - D W 's Snow Mystery + Team Trouble SDTV",
+          "show": "Arthur",
+          "type": "Episode",
+          "seconds": 1621.94,
+          "url": "https://archive.org/download/arthur-1996-complete_202203/Season%201%2FArthur%20-%20S01E43-E44%20-%20D.W.%27s%20Snow%20Mystery%20%2B%20Team%20Trouble%20SDTV.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "arthur:1:43:"
+        },
+        {
+          "title": "Arthur — S17E11 — Season 17/Arthur - S17E11-E12 - Speak Up, Francine! + Waiting for Snow",
+          "show": "Arthur",
+          "type": "Episode",
+          "seconds": 1591.49,
+          "url": "https://archive.org/download/arthur-1996-complete_202203/Season%2017%2FArthur%20-%20S17E11-E12%20-%20Speak%20Up%2C%20Francine%21%20%2B%20Waiting%20for%20Snow%20HDTV-1080p.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "arthur:17:11:"
+        },
+        {
+          "title": "Arthur — S03E29 — Season 3/Arthur - S03E29-E30 - Arthur and D W Clean Up + The Long, Dull Winter SDTV",
+          "show": "Arthur",
+          "type": "Episode",
+          "seconds": 1591.0,
+          "url": "https://archive.org/download/arthur-1996-complete_202203/Season%203%2FArthur%20-%20S03E29-E30%20-%20Arthur%20and%20D.W.%20Clean%20Up%20%2B%20The%20Long%2C%20Dull%20Winter%20SDTV.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "arthur:3:29:"
+        },
+        {
+          "title": "Arthur — S08E05 — Season 8/Arthur - S08E05-E06 - Arthur's Snow Biz + Bugged",
+          "show": "Arthur",
+          "type": "Episode",
+          "seconds": 1621.63,
+          "url": "https://archive.org/download/arthur-1996-complete_202203/Season%208%2FArthur%20-%20S08E05-E06%20-%20Arthur%27s%20Snow%20Biz%20%2B%20Bugged%20WEBDL-480p.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "arthur:8:5:"
+        },
+        {
+          "title": "Arthur — S00E01 — Specials/Arthur - S00E01 - Arthur's Perfect Christmas SDTV",
+          "show": "Arthur",
+          "type": "Episode",
+          "seconds": 3273.39,
+          "url": "https://archive.org/download/arthur-1996-complete_202203/Specials%2FArthur%20-%20S00E01%20-%20Arthur%27s%20Perfect%20Christmas%20SDTV.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "arthur:0:1:"
+        },
+        {
+          "title": "Arthur — S01E43 — E44 - D W 's Snow Mystery + Team Trouble SDTV",
+          "show": "Arthur",
+          "type": "Episode",
+          "seconds": 1621.94,
+          "url": "https://archive.org/download/arthur-1996-complete_202203/Season%201/Arthur%20-%20S01E43-E44%20-%20D.W.%27s%20Snow%20Mystery%20%2B%20Team%20Trouble%20SDTV.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "arthur:1:43:"
+        },
+        {
+          "title": "Arthur — S03E29 — E30 - Arthur and D W Clean Up + The Long, Dull Winter SDTV",
+          "show": "Arthur",
+          "type": "Episode",
+          "seconds": 1591.0,
+          "url": "https://archive.org/download/arthur-1996-complete_202203/Season%203/Arthur%20-%20S03E29-E30%20-%20Arthur%20and%20D.W.%20Clean%20Up%20%2B%20The%20Long%2C%20Dull%20Winter%20SDTV.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "arthur:3:29:"
+        },
+        {
+          "title": "Arthur — S08E05 — E06 - Arthur's Snow Biz + Bugged",
+          "show": "Arthur",
+          "type": "Episode",
+          "seconds": 1621.63,
+          "url": "https://archive.org/download/arthur-1996-complete_202203/Season%208/Arthur%20-%20S08E05-E06%20-%20Arthur%27s%20Snow%20Biz%20%2B%20Bugged%20WEBDL-480p.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "arthur:8:5:"
+        },
+        {
+          "title": "Arthur — S17E11 — E12 - Speak Up, Francine! + Waiting for Snow",
+          "show": "Arthur",
+          "type": "Episode",
+          "seconds": 1591.49,
+          "url": "https://archive.org/download/arthur-1996-complete_202203/Season%2017/Arthur%20-%20S17E11-E12%20-%20Speak%20Up%2C%20Francine%21%20%2B%20Waiting%20for%20Snow%20HDTV-1080p.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "arthur:17:11:"
+        }
+      ]
+    },
+    "Dizzy": {
+      "counts": {
+        "movies": 52,
+        "christmas": 44,
+        "other_specials": 37
+      },
+      "sample_movies": [
+        {
+          "title": "A Bug's Life",
+          "show": "A Bug's Life",
+          "type": "Movie",
+          "seconds": 5693.74,
+          "url": "https://archive.org/download/my-collection_202607/A%20Bug's%20Life.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:abugslife"
+        },
+        {
+          "title": "A Goofy Movie (1995)",
+          "show": "A Goofy Movie (1995)",
+          "type": "Movie",
+          "seconds": 4660.75,
+          "url": "https://archive.org/download/transformers-2007_202602/A%20Goofy%20Movie%20%281995%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:agoofymovie1995"
+        },
+        {
+          "title": "Aladdin (1992)",
+          "show": "Aladdin (1992)",
+          "type": "Movie",
+          "seconds": 5424.5,
+          "url": "https://archive.org/download/my-collection_202607/Aladdin%20(1992).ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:aladdin1992"
+        },
+        {
+          "title": "Aladdin II The Return Of Jafar",
+          "show": "Aladdin II The Return Of Jafar",
+          "type": "Movie",
+          "seconds": 4155.22,
+          "url": "https://archive.org/download/my-collection_202607/Aladdin%20II%20The%20Return%20Of%20Jafar.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:aladdiniithereturnofjafar"
+        },
+        {
+          "title": "Aladdin III The King Of Thieves",
+          "show": "Aladdin III The King Of Thieves",
+          "type": "Movie",
+          "seconds": 4901.94,
+          "url": "https://archive.org/download/my-collection_202607/Aladdin%20III%20The%20King%20Of%20Thieves.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:aladdiniiithekingofthieves"
+        },
+        {
+          "title": "Atlantis: The Lost Empire (2001)",
+          "show": "Atlantis 1; The Lost Empire",
+          "type": "Movie",
+          "seconds": 5740.74,
+          "url": "https://archive.org/download/my-collection_202607/Atlantis%201%3B%20The%20Lost%20Empire.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:atlantisthelostempire2001"
+        },
+        {
+          "title": "Atlantis: Milo’s Return",
+          "show": "Atlantis 2; Milo’s Return",
+          "type": "Movie",
+          "seconds": 4824.86,
+          "url": "https://archive.org/download/my-collection_202607/Atlantis%202%3B%20Milo%E2%80%99s%20Return.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:atlantismilosreturn"
+        },
+        {
+          "title": "Atlantis: The Lost Empire (2001)",
+          "show": "Atlantis The Lost Empire (2001)",
+          "type": "Movie",
+          "seconds": 5743.6,
+          "url": "https://archive.org/download/28-days-later_202505/Atlantis%20The%20Lost%20Empire%202001.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:atlantisthelostempire2001"
+        },
+        {
+          "title": "Bambi (1941)",
+          "show": "Bambi (1941)",
+          "type": "Movie",
+          "seconds": 4182.69,
+          "url": "https://archive.org/download/my-collection_202607/Bambi%20(1941).ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:bambi1941"
+        },
+        {
+          "title": "Bambi II",
+          "show": "Bambi II",
+          "type": "Movie",
+          "seconds": 4341.39,
+          "url": "https://archive.org/download/my-collection_202607/Bambi%20II.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:bambiii"
+        },
+        {
+          "title": "Beauty and the Beast The Enchanted Christmas (1997)",
+          "show": "Beauty and the Beast The Enchanted Christmas (1997)",
+          "type": "Movie",
+          "seconds": 4243.52,
+          "url": "https://archive.org/download/adventures-in--christmas/Beauty%20and%20the%20Beast%20The%20Enchanted%20Christmas%20(1997).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:beautyandthebeasttheenchantedchristmas1997"
+        },
+        {
+          "title": "Dumbo (1941)",
+          "show": "Dumbo (1941)",
+          "type": "Movie",
+          "seconds": 3827.58,
+          "url": "https://archive.org/download/my-collection_202607/Dumbo%20(1941).ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:dumbo1941"
+        },
+        {
+          "title": "Dumbo (2019)",
+          "show": "Dumbo (2019)",
+          "type": "Movie",
+          "seconds": 6713.75,
+          "url": "https://archive.org/download/my-collection_202607/Dumbo%20(2019).mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:dumbo2019"
+        },
+        {
+          "title": "Finding Nemo (2003)",
+          "show": "Finding Nemo (2003)",
+          "type": "Movie",
+          "seconds": 6054.06,
+          "url": "https://archive.org/download/transformers-2007_202602/Finding%20Nemo%20%282003%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:findingnemo2003"
+        },
+        {
+          "title": "Frankenweenie — feature presentation",
+          "show": "Frankenweenie",
+          "type": "Movie",
+          "seconds": 5226.19,
+          "url": "https://archive.org/download/frankenweenie_202011/Frankenweenie.ia.mp4",
+          "seasonal_tags": [
+            "halloween",
+            "horror"
+          ],
+          "holiday_events": [],
+          "content_id": "special:frankenweeniefeaturepresentation"
+        }
+      ],
+      "sample_christmas": [
+        {
+          "title": "A Disney Christmas Gift (1982)",
+          "show": "A Disney Christmas Gift (1982)",
+          "type": "Special",
+          "seconds": 2894.88,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Disney%20Christmas%20Gift%20(1982).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:adisneychristmasgift1982"
+        },
+        {
+          "title": "A Disney Christmas Gift (1982)",
+          "show": "A Disney Christmas Gift (1982)",
+          "type": "Special",
+          "seconds": 2895.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Disney%20Christmas%20Gift%20%281982%29.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:adisneychristmasgift1982"
+        },
+        {
+          "title": "A Walt Disney Christmas (1982)",
+          "show": "A Walt Disney Christmas (1982)",
+          "type": "Special",
+          "seconds": 3134.07,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Walt%20Disney%20Christmas%20(1982).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:awaltdisneychristmas1982"
+        },
+        {
+          "title": "A Walt Disney Christmas (1982)",
+          "show": "A Walt Disney Christmas (1982)",
+          "type": "Special",
+          "seconds": 3134.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Walt%20Disney%20Christmas%20%281982%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:awaltdisneychristmas1982"
+        },
+        {
+          "title": "American Dragon: Jake Long — S02E16 — Hairy Christmas SDTV",
+          "show": "American Dragon: Jake Long",
+          "type": "Episode",
+          "seconds": 1354.9,
+          "url": "https://archive.org/download/American-Dragon-Jake-Long-The-Complete-Series/American%20Dragon%20Jake%20Long/Season%2002/American%20Dragon%20-%20Jake%20Long%20-%20S02E16%20-%20Hairy%20Christmas%20SDTV.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "jake:2:16:"
+        },
+        {
+          "title": "American Dragon Jake Long - Hairy Christmas",
+          "show": "American Dragon: Jake Long",
+          "type": "Special",
+          "seconds": 1357.98,
+          "url": "https://archive.org/download/christmas-specials_202412/American%20Dragon%20Jake%20Long%20-%20Hairy%20Christmas.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:americandragonjakelonghairychristmas"
+        },
+        {
+          "title": "Amphibia - Froggy Little Christmas",
+          "show": "Amphibia",
+          "type": "Special",
+          "seconds": 1353.6,
+          "url": "https://archive.org/download/christmas-specials_202412/Amphibia%20-%20Froggy%20Little%20Christmas.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:amphibiafroggylittlechristmas"
+        },
+        {
+          "title": "Bear in the Big Blue House - A Berry Bear Christmas",
+          "show": "Bear in the Big Blue House",
+          "type": "Special",
+          "seconds": 3343.55,
+          "url": "https://archive.org/download/christmas-specials_202412/Bear%20in%20the%20Big%20Blue%20House%20-%20A%20Berry%20Bear%20Christmas.ia.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:bearinthebigbluehouseaberrybearchristmas"
+        },
+        {
+          "title": "Bear in the Big Blue House - A Berry Bear Christmas (Part 1)",
+          "show": "Bear in the Big Blue House",
+          "type": "Special",
+          "seconds": 1442.64,
+          "url": "https://archive.org/download/christmas-specials_202412/Bear%20in%20the%20Big%20Blue%20House%20-%20A%20Berry%20Bear%20Christmas%20%28Part%201%29.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:bearinthebigbluehouseaberrybearchristmaspart1"
+        },
+        {
+          "title": "Bear in the Big Blue House - A Berry Bear Christmas (Part 2)",
+          "show": "Bear in the Big Blue House",
+          "type": "Special",
+          "seconds": 1442.96,
+          "url": "https://archive.org/download/christmas-specials_202412/Bear%20in%20the%20Big%20Blue%20House%20-%20A%20Berry%20Bear%20Christmas%20%28Part%202%29.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:bearinthebigbluehouseaberrybearchristmaspart2"
+        },
+        {
+          "title": "Beauty and the Beast The Enchanted Christmas (1997)",
+          "show": "Beauty and the Beast The Enchanted Christmas (1997)",
+          "type": "Movie",
+          "seconds": 4243.52,
+          "url": "https://archive.org/download/adventures-in--christmas/Beauty%20and%20the%20Beast%20The%20Enchanted%20Christmas%20(1997).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:beautyandthebeasttheenchantedchristmas1997"
+        },
+        {
+          "title": "Beauty and the Beast The Enchanted Christmas (1997)",
+          "show": "Beauty and the Beast The Enchanted Christmas (1997)",
+          "type": "Special",
+          "seconds": 4244.0,
+          "url": "https://archive.org/download/adventures-in--christmas/Beauty%20and%20the%20Beast%20The%20Enchanted%20Christmas%20%281997%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:beautyandthebeasttheenchantedchristmas1997"
+        },
+        {
+          "title": "Big City Greens - Green Christmas",
+          "show": "Big City Greens",
+          "type": "Special",
+          "seconds": 1413.08,
+          "url": "https://archive.org/download/christmas-specials_202412/Big%20City%20Greens%20-%20Green%20Christmas.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:bigcitygreensgreenchristmas"
+        },
+        {
+          "title": "Buzz Lightyear of Star Command Holiday Time (2000)",
+          "show": "Buzz Lightyear of Star Command Holiday Time (2000)",
+          "type": "Special",
+          "seconds": 1364.0,
+          "url": "https://archive.org/download/adventures-in--christmas/Buzz%20Lightyear%20of%20Star%20Command%20Holiday%20Time%20(2000).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [],
+          "content_id": "special:buzzlightyearofstarcommandholidaytime2000"
+        },
+        {
+          "title": "Buzz Lightyear of Star Command Holiday Time (2000)",
+          "show": "Buzz Lightyear of Star Command Holiday Time (2000)",
+          "type": "Special",
+          "seconds": 1364.0,
+          "url": "https://archive.org/download/adventures-in--christmas/Buzz%20Lightyear%20of%20Star%20Command%20Holiday%20Time%20%282000%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:buzzlightyearofstarcommandholidaytime2000"
+        },
+        {
+          "title": "Doc McStuffins - A Very McStuffins Christmas",
+          "show": "Doc McStuffins",
+          "type": "Special",
+          "seconds": 1441.92,
+          "url": "https://archive.org/download/christmas-specials_202412/Doc%20McStuffins%20-%20A%20Very%20McStuffins%20Christmas.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:docmcstuffinsaverymcstuffinschristmas"
+        },
+        {
+          "title": "DuckTales - Last Christmas!",
+          "show": "DuckTales",
+          "type": "Special",
+          "seconds": 1366.71,
+          "url": "https://archive.org/download/christmas-specials_202412/DuckTales%20-%20Last%20Christmas%21.ia.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:ducktaleslastchristmas"
+        }
+      ]
+    },
+    "What": {
+      "counts": {
+        "movies": 4,
+        "christmas": 25,
+        "other_specials": 8
+      },
+      "sample_movies": [
+        {
+          "title": "George W Bush The 9 11 Interview (2011)",
+          "show": "George W. Bush: The 9/11 Interview (2011)",
+          "type": "Movie",
+          "seconds": 2698.39,
+          "url": "https://archive.org/download/transformers-2007_202602/George%20W%20Bush%20The%209%2011%20Interview%20%282011%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:georgewbushthe911interview2011"
+        },
+        {
+          "title": "Reefer Madness (1936)",
+          "show": "Reefer Madness (1936)",
+          "type": "Movie",
+          "seconds": 2277.69,
+          "url": "https://archive.org/download/28-days-later_202505/Reefer%20Madness%20%281936%29.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:reefermadness1936"
+        },
+        {
+          "title": "Super Size Me (2004)",
+          "show": "Super Size Me (2004)",
+          "type": "Movie",
+          "seconds": 5919.9,
+          "url": "https://archive.org/download/transformers-2007_202602/Super%20Size%20Me%20%282004%29%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:supersizeme2004"
+        },
+        {
+          "title": "Twister",
+          "show": "Twister (1996)",
+          "type": "Movie",
+          "seconds": 6781.82,
+          "url": "https://archive.org/download/My-Favorite-Movies_202503/Twister.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:twister"
+        }
+      ],
+      "sample_christmas": [
+        {
+          "title": "A Christmas Carol (1971)",
+          "show": "A Christmas Carol (1971)",
+          "type": "Special",
+          "seconds": 1501.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20%281971%29.ia.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmascarol1971"
+        },
+        {
+          "title": "A Christmas Carol (1984)",
+          "show": "A Christmas Carol (1984)",
+          "type": "Special",
+          "seconds": 6068.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20%281984%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmascarol1984"
+        },
+        {
+          "title": "A Christmas Carol (1997)",
+          "show": "A Christmas Carol (1997)",
+          "type": "Special",
+          "seconds": 4191.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20%281997%29.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmascarol1997"
+        },
+        {
+          "title": "A Christmas Carol (1999)",
+          "show": "A Christmas Carol (1999)",
+          "type": "Special",
+          "seconds": 5834.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Christmas%20Carol%20%281999%29.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmascarol1999"
+        },
+        {
+          "title": "A Claymation Christmas Celebration (1987)",
+          "show": "A Claymation Christmas Celebration (1987)",
+          "type": "Special",
+          "seconds": 1441.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Claymation%20Christmas%20Celebration%20%281987%29.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:aclaymationchristmascelebration1987"
+        },
+        {
+          "title": "A Muppet Family Christmas (1987)",
+          "show": "A Muppet Family Christmas (1987)",
+          "type": "Special",
+          "seconds": 2900.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Muppet%20Family%20Christmas%20%281987%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:amuppetfamilychristmas1987"
+        },
+        {
+          "title": "A Sesame Street Christmas Carol (2006)",
+          "show": "A Sesame Street Christmas Carol (2006)",
+          "type": "Special",
+          "seconds": 2800.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Sesame%20Street%20Christmas%20Carol%20%282006%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:asesamestreetchristmascarol2006"
+        },
+        {
+          "title": "David Attenborough — Footsteps in the Snow",
+          "show": "David Attenborough",
+          "type": "Episode",
+          "seconds": 1756.22,
+          "url": "https://archive.org/download/bbcdavidattenborough/David%20Attenborough/1993%20-%20Life%20in%20the%20Freezer-%5BKRISH%5D/06%20Footsteps%20in%20the%20Snow.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "https://archive.org/download/bbcdavidattenborough/David%20Attenborough/1993%20-%20Life%20in%20the%20Freezer-%5BKRISH%5D/06%20Footsteps%20in%20the%20Snow.mp4"
+        },
+        {
+          "title": "Frosty Returns (1993)",
+          "show": "Frosty Returns (1993)",
+          "type": "Special",
+          "seconds": 1376.0,
+          "url": "https://archive.org/download/adventures-in--christmas/Frosty%20Returns%20%281993%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:frostyreturns1993"
+        },
+        {
+          "title": "Frosty the Snowman (1953)",
+          "show": "Frosty the Snowman (1953)",
+          "type": "Special",
+          "seconds": 160.0,
+          "url": "https://archive.org/download/adventures-in--christmas/Frosty%20the%20Snowman%20%281953%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:frostythesnowman1953"
+        },
+        {
+          "title": "Frosty The Snowman (1969)",
+          "show": "Frosty The Snowman (1969)",
+          "type": "Special",
+          "seconds": 1528.0,
+          "url": "https://archive.org/download/adventures-in--christmas/Frosty%20The%20Snowman%20%281969%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:frostythesnowman1969"
+        },
+        {
+          "title": "Ghost Hunters — S04E01 — ) — Ghost Hunters S04E01 - Shadow Of Snowdonia",
+          "show": "Ghost Hunters",
+          "type": "Episode",
+          "seconds": 1441.4,
+          "url": "https://archive.org/download/ghost-hunters-1996/Ghost%20Hunters%20S04E01%20-%20Shadow%20Of%20Snowdonia.mp4",
+          "seasonal_tags": [
+            "ghosts",
+            "halloween",
+            "paranormal"
+          ],
+          "holiday_events": [],
+          "content_id": "ghosthunters:4:1:"
+        },
+        {
+          "title": "How the Grinch Stole Christmas (2000)",
+          "show": "How the Grinch Stole Christmas (2000)",
+          "type": "Special",
+          "seconds": 6303.0,
+          "url": "https://archive.org/download/adventures-in--christmas/How%20the%20Grinch%20Stole%20Christmas%20%282000%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:howthegrinchstolechristmas2000"
+        },
+        {
+          "title": "How the Grinch Stole Christmas! (1966)",
+          "show": "How the Grinch Stole Christmas! (1966)",
+          "type": "Special",
+          "seconds": 1534.0,
+          "url": "https://archive.org/download/adventures-in--christmas/How%20the%20Grinch%20Stole%20Christmas%21%20%281966%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:howthegrinchstolechristmas1966"
+        },
+        {
+          "title": "In Search Of… — S04E09 — The Abominable Snowman",
+          "show": "In Search Of…",
+          "type": "Episode",
+          "seconds": 1308.09,
+          "url": "https://archive.org/download/In-Search-Of-complete-series/In%20Search%20Of.../Season%204/In%20Search%20Of..%204x09%20-%20The%20Abominable%20Snowman.mp4",
+          "seasonal_tags": [
+            "cryptids",
+            "halloween",
+            "mystery",
+            "paranormal",
+            "winter"
+          ],
+          "holiday_events": [],
+          "content_id": "insearch:4:9:"
+        },
+        {
+          "title": "Mayday / Air Crash Investigation — S09E06 — Air Crash Investigation S09E06 Snowbound",
+          "show": "Mayday / Air Crash Investigation",
+          "type": "Episode",
+          "seconds": 2695.02,
+          "url": "https://archive.org/download/mayday-aci/Air.Crash.Investigation.S09E06.Snowbound.720p.HDTV.DD2.0.x264.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "mayday:9:6:"
+        },
+        {
+          "title": "Mayday / Air Crash Investigation — S18E10 — Air Crash Investigation S18E10 Dead Of Winter",
+          "show": "Mayday / Air Crash Investigation",
+          "type": "Episode",
+          "seconds": 2639.08,
+          "url": "https://archive.org/download/mayday-aci/Air.Crash.Investigation.S18E10.Dead.Of.Winter.1080p.HDTV.x264-NOGRP.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "mayday:18:10:"
+        }
+      ]
+    },
+    "Dickleodeon": {
+      "counts": {
+        "movies": 26,
+        "christmas": 122,
+        "other_specials": 56
+      },
+      "sample_movies": [
+        {
+          "title": "Bee Movie (2007)",
+          "show": "Bee Movie (2007)",
+          "type": "Movie",
+          "seconds": 5441.11,
+          "url": "https://archive.org/download/transformers-2007_202602/Bee%20Movie%20%282007%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:beemovie2007"
+        },
+        {
+          "title": "Bolt (2008)",
+          "show": "Bolt (2008)",
+          "type": "Movie",
+          "seconds": 5781.97,
+          "url": "https://archive.org/download/transformers-2007_202602/Bolt%20%282008%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:bolt2008"
+        },
+        {
+          "title": "Chicken Little (2005)",
+          "show": "Chicken Little (2005)",
+          "type": "Movie",
+          "seconds": 4854.96,
+          "url": "https://archive.org/download/transformers-2007_202602/Chicken%20Little%20%282005%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:chickenlittle2005"
+        },
+        {
+          "title": "Curious George: A Halloween Boofest",
+          "show": "Curious George: A Halloween Boofest",
+          "type": "Movie",
+          "seconds": 3340.0,
+          "url": "https://archive.org/download/curious-george-a-halloween-boofest/Curious%20George%20-%20A%20Halloween%20Boofest.ia.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "special:curiousgeorgeahalloweenboofest"
+        },
+        {
+          "title": "Good Burger (1997)",
+          "show": "Good Burger (1997)",
+          "type": "Movie",
+          "seconds": 5718.24,
+          "url": "https://archive.org/download/transformers-2007_202602/Good%20Burger%20%281997%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:goodburger1997"
+        },
+        {
+          "title": "Kung Fu Panda (2008)",
+          "show": "Kung Fu Panda (2008)",
+          "type": "Movie",
+          "seconds": 5529.66,
+          "url": "https://archive.org/download/my-collection_202607/Kung%20Fu%20Panda%20(2008).mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:kungfupanda2008"
+        },
+        {
+          "title": "Kung Fu Panda 2",
+          "show": "Kung Fu Panda 2",
+          "type": "Movie",
+          "seconds": 5424.04,
+          "url": "https://archive.org/download/my-collection_202607/Kung%20Fu%20Panda%202.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:kungfupanda2"
+        },
+        {
+          "title": "Kung Fu Panda 3",
+          "show": "Kung Fu Panda 3",
+          "type": "Movie",
+          "seconds": 5694.72,
+          "url": "https://archive.org/download/my-collection_202607/Kung%20Fu%20Panda%203.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:kungfupanda3"
+        },
+        {
+          "title": "Kung Fu Panda 4",
+          "show": "Kung Fu Panda 4",
+          "type": "Movie",
+          "seconds": 5617.88,
+          "url": "https://archive.org/download/my-collection_202607/Kung%20Fu%20Panda%204.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:kungfupanda4"
+        },
+        {
+          "title": "Madagascar (2005)",
+          "show": "Madagascar (2005)",
+          "type": "Movie",
+          "seconds": 5154.86,
+          "url": "https://archive.org/download/my-collection_202607/Madagascar%20(2005).mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:madagascar2005"
+        },
+        {
+          "title": "Madagascar (2005)",
+          "show": "Madagascar (2005)",
+          "type": "Movie",
+          "seconds": 5158.11,
+          "url": "https://archive.org/download/transformers-2007_202602/Madagascar%20%282005%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:madagascar2005"
+        },
+        {
+          "title": "Madagascar: Escape 2 Africa (2008)",
+          "show": "Madagascar 2 Escape To Africa",
+          "type": "Movie",
+          "seconds": 5364.48,
+          "url": "https://archive.org/download/my-collection_202607/Madagascar%202%20Escape%20To%20Africa.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:madagascarescape2africa2008"
+        },
+        {
+          "title": "Madagascar 3 Europe's Most Wanted",
+          "show": "Madagascar 3 Europe's Most Wanted",
+          "type": "Movie",
+          "seconds": 5604.35,
+          "url": "https://archive.org/download/my-collection_202607/Madagascar%203%20Europe's%20Most%20Wanted.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:madagascar3europesmostwanted"
+        },
+        {
+          "title": "Madagascar: Escape 2 Africa (2008)",
+          "show": "Madagascar: Escape 2 Africa (2008)",
+          "type": "Movie",
+          "seconds": 5364.46,
+          "url": "https://archive.org/download/transformers-2007_202602/Madagascar%20Escape%202%20Africa%20%282008%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:madagascarescape2africa2008"
+        },
+        {
+          "title": "Monster House (2006)",
+          "show": "Monster House (2006) ",
+          "type": "Movie",
+          "seconds": 5438.55,
+          "url": "https://archive.org/download/My-Favorite-Movies_202503/Monster%20House.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "special:monsterhouse2006"
+        }
+      ],
+      "sample_christmas": [
+        {
+          "title": "A Sesame Street Christmas Carol (2006)",
+          "show": "A Sesame Street Christmas Carol (2006)",
+          "type": "Special",
+          "seconds": 2800.28,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Sesame%20Street%20Christmas%20Carol%20(2006).mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:asesamestreetchristmascarol2006"
+        },
+        {
+          "title": "A Christmas Eve On Sesame Street",
+          "show": "A. Christmas Eve On Sesame Street",
+          "type": "Special",
+          "seconds": 3604.67,
+          "url": "https://archive.org/download/christmas-specials_202412/A.%20Christmas%20Eve%20On%20Sesame%20Street.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:achristmaseveonsesamestreet"
+        },
+        {
+          "title": "Aaahh!!! Real Monsters - Gone Shopp'n",
+          "show": "Aaahh!!! Real Monsters",
+          "type": "Special",
+          "seconds": 758.28,
+          "url": "https://archive.org/download/planktons-holiday-hits/Aaahh%21%21%21%20Real%20Monsters%20-%20Gone%20Shopp%27n.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:aaahhrealmonstersgoneshoppn"
+        },
+        {
+          "title": "All Grown Up! - The Finster Who Stole Christmas",
+          "show": "All Grown Up!",
+          "type": "Special",
+          "seconds": 1409.73,
+          "url": "https://archive.org/download/christmas-specials_202412/All%20Grown%20Up%21%20-%20The%20Finster%20Who%20Stole%20Christmas%20.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:allgrownupthefinsterwhostolechristmas"
+        },
+        {
+          "title": "Allegra's Window - Mr Cook's Christmas",
+          "show": "Allegra's Window",
+          "type": "Special",
+          "seconds": 1444.38,
+          "url": "https://archive.org/download/christmas-specials_202412/Allegra%27s%20Window%20-%20Mr.%20Cook%27s%20Christmas.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:allegraswindowmrcookschristmas"
+        },
+        {
+          "title": "Alma's Way - Alma's Nochebuena-Three King's Day Do-Over",
+          "show": "Alma's Way",
+          "type": "Special",
+          "seconds": 1405.87,
+          "url": "https://archive.org/download/christmas-specials_202412/Alma%27s%20Way%20-%20Alma%27s%20Nochebuena-Three%20King%27s%20Day%20Do-Over.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [],
+          "content_id": "special:almaswayalmasnochebuenathreekingsdaydoover"
+        },
+        {
+          "title": "Arthur - Arthur Perfect Christmas",
+          "show": "Arthur",
+          "type": "Special",
+          "seconds": 3273.34,
+          "url": "https://archive.org/download/christmas-specials_202412/Arthur%20-%20Arthur%20Perfect%20Christmas.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:arthurarthurperfectchristmas"
+        },
+        {
+          "title": "Arthur — S00E01 — Arthur's Perfect Christmas",
+          "show": "Arthur",
+          "type": "Episode",
+          "seconds": 3273.39,
+          "url": "https://archive.org/download/arthur-1996-complete_202203/Specials/Arthur%20-%20S00E01%20-%20Arthur%27s%20Perfect%20Christmas%20SDTV.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "arthur:0:1:"
+        },
+        {
+          "title": "As Told By Ginger - An Even Steven Holiday Special",
+          "show": "As Told By Ginger",
+          "type": "Special",
+          "seconds": 1417.82,
+          "url": "https://archive.org/download/planktons-holiday-hits/As%20Told%20By%20Ginger%20-%20An%20Even%20Steven%20Holiday%20Special.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:astoldbygingeranevenstevenholidayspecial"
+        },
+        {
+          "title": "Back at the Barnyard - It's an Udderful Life!",
+          "show": "Back at the Barnyard",
+          "type": "Special",
+          "seconds": 1415.71,
+          "url": "https://archive.org/download/planktons-holiday-hits/Back%20at%20the%20Barnyard%20-%20It%27s%20an%20Udderful%20Life%21.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:backatthebarnyarditsanudderfullife"
+        },
+        {
+          "title": "Barney & Friends - A Visit to Santa",
+          "show": "Barney & Friends",
+          "type": "Special",
+          "seconds": 822.82,
+          "url": "https://archive.org/download/christmas-specials_202412/Barney%20%26%20Friends%20-%20A%20Visit%20to%20Santa.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [],
+          "content_id": "special:barneyfriendsavisittosanta"
+        },
+        {
+          "title": "Barney & Friends - Barney's Christmas Star",
+          "show": "Barney & Friends",
+          "type": "Special",
+          "seconds": 2556.84,
+          "url": "https://archive.org/download/christmas-specials_202412/Barney%20%26%20Friends%20-%20Barney%27s%20Christmas%20Star.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:barneyfriendsbarneyschristmasstar"
+        },
+        {
+          "title": "Barney & Friends - Barney's Night Before Christmas",
+          "show": "Barney & Friends",
+          "type": "Special",
+          "seconds": 3423.04,
+          "url": "https://archive.org/download/christmas-specials_202412/Barney%20%26%20Friends%20-%20Barney%27s%20Night%20Before%20Christmas.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:barneyfriendsbarneysnightbeforechristmas"
+        },
+        {
+          "title": "Barney & Friends - Gift of the Dinos:A Visit to Santa",
+          "show": "Barney & Friends",
+          "type": "Special",
+          "seconds": 1584.11,
+          "url": "https://archive.org/download/christmas-specials_202412/Barney%20%26%20Friends%20-%20Gift%20of%20the%20Dinos%3AA%20Visit%20to%20Santa.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [],
+          "content_id": "special:barneyfriendsgiftofthedinosavisittosanta"
+        },
+        {
+          "title": "Barney & Friends - Gift of the Dinos:Winter",
+          "show": "Barney & Friends",
+          "type": "Special",
+          "seconds": 1629.44,
+          "url": "https://archive.org/download/christmas-specials_202412/Barney%20%26%20Friends%20-%20Gift%20of%20the%20Dinos%3AWinter.mp4",
+          "seasonal_tags": [
+            "winter"
+          ],
+          "holiday_events": [],
+          "content_id": "special:barneyfriendsgiftofthedinoswinter"
+        },
+        {
+          "title": "Barney & Friends - Winter:Summer",
+          "show": "Barney & Friends",
+          "type": "Special",
+          "seconds": 1587.96,
+          "url": "https://archive.org/download/christmas-specials_202412/Barney%20%26%20Friends%20-%20Winter%3ASummer.ia.mp4",
+          "seasonal_tags": [
+            "summer",
+            "winter"
+          ],
+          "holiday_events": [],
+          "content_id": "special:barneyfriendswintersummer"
+        },
+        {
+          "title": "Barney & Friends- Winter",
+          "show": "Barney & Friends- Winter",
+          "type": "Special",
+          "seconds": 829.56,
+          "url": "https://archive.org/download/christmas-specials_202412/Barney%20%26%20Friends-%20Winter.mp4",
+          "seasonal_tags": [
+            "winter"
+          ],
+          "holiday_events": [],
+          "content_id": "special:barneyfriendswinter"
+        }
+      ]
+    },
+    "Cartoons Cartoons": {
+      "counts": {
+        "movies": 8,
+        "christmas": 100,
+        "other_specials": 34
+      },
+      "sample_movies": [
+        {
+          "title": "Ben 10: Secret of the Omnitrix",
+          "show": "Ben 10 (2005)",
+          "type": "Movie",
+          "seconds": 4087.81,
+          "url": "https://archive.org/download/ben-10-feature-films-pop-up-trivia-edition/1%29%20Ben%2010%20Secret%20of%20the%20Omnitrix.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:ben10secretoftheomnitrix"
+        },
+        {
+          "title": "Ed, Edd n Eddy’s Big Picture Show",
+          "show": "Ed, Edd n Eddy",
+          "type": "Movie",
+          "seconds": 5388.12,
+          "url": "https://archive.org/download/ed-edd-n-eddy-full-series-1999-2009/Season%206%20and%20Specials/Ed%2C%20Edd%20n%20Eddy%20-%20S00%20E05%20-%20Ed%2C%20Edd%20n%20Eddy%27s%20Big%20Picture%20Show%20%281080p%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:ededdneddysbigpictureshow"
+        },
+        {
+          "title": "Robotboy - Halloween",
+          "show": "Robot Boy",
+          "type": "Movie",
+          "seconds": 720.76,
+          "url": "https://archive.org/download/christmas-specials_202412/Robotboy%20-%20Halloween.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "special:robotboyhalloween"
+        },
+        {
+          "title": "Scooby-Doo (2002)",
+          "show": "Scooby-Doo (2002)",
+          "type": "Movie",
+          "seconds": 5194.77,
+          "url": "https://archive.org/download/28-days-later_202505/Scooby-Doo%20%282002%29.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "special:scoobydoo2002"
+        },
+        {
+          "title": "Scooby-Doo 2 Monsters Unleashed",
+          "show": "Scooby-Doo 2 Monsters Unleashed",
+          "type": "Movie",
+          "seconds": 5569.28,
+          "url": "https://archive.org/download/28-days-later_202505/Scooby-Doo%202%20Monsters%20Unleashed.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "special:scoobydoo2monstersunleashed"
+        },
+        {
+          "title": "Scooby-Doo and the Ghoul School",
+          "show": "Scooby-Doo and the Ghoul School",
+          "type": "Movie",
+          "seconds": 5305.83,
+          "url": "https://archive.org/download/28-days-later_202505/Scooby-Doo%20and%20the%20Ghoul%20School.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "special:scoobydooandtheghoulschool"
+        },
+        {
+          "title": "Scooby-Doo! Frankencreepy",
+          "show": "Scooby-Doo! Frankencreepy",
+          "type": "Movie",
+          "seconds": 4432.99,
+          "url": "https://archive.org/download/scooby-doo-frankencreepy_202201/singlevid%20%28video-converter.com%29.ia.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "special:scoobydoofrankencreepy"
+        },
+        {
+          "title": "The Halloween Tree",
+          "show": "The Halloween Tree",
+          "type": "Movie",
+          "seconds": 4167.0,
+          "url": "https://archive.org/download/the-halloween-tree_202210/The%20Halloween%20Tree.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "special:thehalloweentree"
+        }
+      ],
+      "sample_christmas": [
+        {
+          "title": "Adventure Time - Holly Jolly Secrets",
+          "show": "Adventure Time",
+          "type": "Special",
+          "seconds": 1419.04,
+          "url": "https://archive.org/download/christmas-specials_202412/Adventure%20Time%20-%20Holly%20Jolly%20Secrets.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [],
+          "content_id": "special:adventuretimehollyjollysecrets"
+        },
+        {
+          "title": "Batman The Brave and the Bold — S01E04 — Invasion of the Secret Santas",
+          "show": "Batman The Brave and the Bold",
+          "type": "Episode",
+          "seconds": 1364.08,
+          "url": "https://archive.org/download/random-tv-shows-and-movies/Batman%20The%20Brave%20and%20the%20Bold%20S01E04-Invasion%20of%20the%20Secret%20Santas%20(1080p).ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "https://archive.org/download/random-tv-shows-and-movies/Batman%20The%20Brave%20and%20the%20Bold%20S01E04-Invasion%20of%20the%20Secret%20Santas%20(1080p).ia.mp4"
+        },
+        {
+          "title": "Ben 10 (2005) — S03E04 — Merry Christmas",
+          "show": "Ben 10 (2005)",
+          "type": "Episode",
+          "seconds": 1367.53,
+          "url": "https://archive.org/download/Ben.10.Full.Collectio.Roshan.T.L/Ben%2010/Ben%2010%20Complete%20Seasons%20%5BBen10%2CAlien%20Force%2CUltimate%20Alien%5D%20480p%20x264%20RoshaN.T.L/Ben%2010%20480p%20x264%20RoshaN.T.L/Season%203/04%20-%20Merry%20Christmas%20.RoshaN.T.L.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "ben10:3:4:"
+        },
+        {
+          "title": "Ben 10 - Merry Christmas",
+          "show": "Ben 10 (2005)",
+          "type": "Special",
+          "seconds": 1376.43,
+          "url": "https://archive.org/download/christmas-specials_202412/Ben%2010%20-%20Merry%20Christmas.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:ben10merrychristmas"
+        },
+        {
+          "title": "Ben 10 The Complete Season 3 (2008) DVD ISOs — S03E04 — Merry Christmas",
+          "show": "Ben 10 The Complete Season 3 (2008) DVD ISOs",
+          "type": "Episode",
+          "seconds": 1325.0,
+          "url": "https://archive.org/download/ben-10-complete-season-3/SEASON%203%20EPISODES%20H.264%20DVD%20RIP/S03%20E04%20Merry%20Christmas.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "https://archive.org/download/ben-10-complete-season-3/SEASON%203%20EPISODES%20H.264%20DVD%20RIP/S03%20E04%20Merry%20Christmas.mp4"
+        },
+        {
+          "title": "Ben 10 The Complete Season 3 (2008) DVD ISOs — S03E04 — Merry Christmas",
+          "show": "Ben 10 The Complete Season 3 (2008) DVD ISOs",
+          "type": "Episode",
+          "seconds": 1325.03,
+          "url": "https://archive.org/download/ben-10-complete-season-3/SEASON%203%20EPISODES%20H.264%20DVD%20RIP/S03%20E04%20Merry%20Christmas.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "https://archive.org/download/ben-10-complete-season-3/SEASON%203%20EPISODES%20H.264%20DVD%20RIP/S03%20E04%20Merry%20Christmas.ia.mp4"
+        },
+        {
+          "title": "The Grim Adventures of Billy and Mandy - S2 - Billy and Mandy Save Christmas - emory",
+          "show": "Billy & Mandy",
+          "type": "Special",
+          "seconds": 2175.4,
+          "url": "https://archive.org/download/the-grim-adventures-of-billy-and-mandy-s-2-billy-and-mandy-save-christmas-emory/The%20Grim%20Adventures%20of%20Billy%20and%20Mandy%20-%20S2%20-%20Billy%20and%20Mandy%20Save%20Christmas%20-%20emory.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:thegrimadventuresofbillyandmandys2billyandmandysavechristmasemory"
+        },
+        {
+          "title": "Camp Lazlo — S02E17 — Snow Beans (209a)",
+          "show": "Camp Lazlo",
+          "type": "Episode",
+          "seconds": 711.15,
+          "url": "https://archive.org/download/camp-lazlo-s-03-e-01-hello-summer-goodbye-camp-301/Camp%20Lazlo%20Episodes/Season%202/Camp%20Lazlo%20-%20S02E17%20-%20Snow%20Beans%20%28209a%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "camp-lazlo:2:17:"
+        },
+        {
+          "title": "Christmas specials — A Beverly Hillbilly’s Christmas at Hooterville (1963)",
+          "show": "Christmas specials",
+          "type": "Episode",
+          "seconds": 1418.0,
+          "url": "https://archive.org/download/adventures-in--christmas/A%20Beverly%20Hillbilly%E2%80%99s%20Christmas%20at%20Hooterville%20%281963%29.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "https://archive.org/download/adventures-in--christmas/A%20Beverly%20Hillbilly%E2%80%99s%20Christmas%20at%20Hooterville%20%281963%29.ia.mp4"
+        },
+        {
+          "title": "Christmas specials — Courage the Cowardly Dog - A Beaver's Tale The Nutcracker (2002)",
+          "show": "Christmas specials",
+          "type": "Episode",
+          "seconds": 1370.0,
+          "url": "https://archive.org/download/adventures-in--christmas/Courage%20the%20Cowardly%20Dog%20-%20A%20Beaver%27s%20TaleThe%20Nutcracker%20%282002%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "https://archive.org/download/adventures-in--christmas/Courage%20the%20Cowardly%20Dog%20-%20A%20Beaver%27s%20TaleThe%20Nutcracker%20%282002%29.mp4"
+        },
+        {
+          "title": "Christmas specials — Ed, Edd n Eddy - Ed, Edd n Eddy’s Jingle Jingle Jangle",
+          "show": "Christmas specials",
+          "type": "Episode",
+          "seconds": 1596.51,
+          "url": "https://archive.org/download/christmas-specials_202412/Ed%2C%20Edd%20n%20Eddy%20-%20Ed%2C%20Edd%20n%20Eddy%E2%80%99s%20Jingle%20Jingle%20Jangle.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "https://archive.org/download/christmas-specials_202412/Ed%2C%20Edd%20n%20Eddy%20-%20Ed%2C%20Edd%20n%20Eddy%E2%80%99s%20Jingle%20Jingle%20Jangle.mp4"
+        },
+        {
+          "title": "Class of 3000 — Christmas Special",
+          "show": "Class of 3000",
+          "type": "Episode",
+          "seconds": 2665.51,
+          "url": "https://archive.org/download/classof3000episodes/Class%20of%203000%20Christmas%20Special%20%5BAnt%5D.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "classof3000christmasspecial"
+        },
+        {
+          "title": "Class of 3000 - Cartoon Network TV Rips 2006-2007 + Extras + HD Rips + — S02E08 — Class of 3000 - S02E08 - Christmas Special (WS - SD) (CROPPED)",
+          "show": "Class of 3000 - Cartoon Network TV Rips 2006-2007 + Extras + HD Rips +",
+          "type": "Episode",
+          "seconds": 1310.09,
+          "url": "https://archive.org/download/classof3000episodes/Class%20of%203000%20-%20S02E08%20-%20Christmas%20Special%20%28WS%20-%20SD%29%20%28CROPPED%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "https://archive.org/download/classof3000episodes/Class%20of%203000%20-%20S02E08%20-%20Christmas%20Special%20%28WS%20-%20SD%29%20%28CROPPED%29.mp4"
+        },
+        {
+          "title": "Class of 3000 - Cartoon Network TV Rips 2006-2007 + Extras + HD Rips + — S02E09 — Class of 3000 - S02E09 - Christmas Special (WS - SD) (online-video-cutter com)",
+          "show": "Class of 3000 - Cartoon Network TV Rips 2006-2007 + Extras + HD Rips +",
+          "type": "Episode",
+          "seconds": 1401.99,
+          "url": "https://archive.org/download/classof3000episodes/Class%20of%203000%20-%20S02E09%20-%20Christmas%20Special%20%28WS%20-%20SD%29%20%28online-video-cutter.com%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "https://archive.org/download/classof3000episodes/Class%20of%203000%20-%20S02E09%20-%20Christmas%20Special%20%28WS%20-%20SD%29%20%28online-video-cutter.com%29.mp4"
+        },
+        {
+          "title": "Class of 3000 Season 1-2 + Christmas Special (WEB-DLHDTVTV Rips) — S01E01 — Class of 3000 Season 1 Episode 1 - Home Part 1",
+          "show": "Class of 3000 Season 1-2 + Christmas Special (WEB-DLHDTVTV Rips)",
+          "type": "Episode",
+          "seconds": 1378.48,
+          "url": "https://archive.org/download/class-of-3000-season-2-episode-3-free-philly/Class%20of%203000%20Season%201%20Episode%201%20-%20Home%20Part%201.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "https://archive.org/download/class-of-3000-season-2-episode-3-free-philly/Class%20of%203000%20Season%201%20Episode%201%20-%20Home%20Part%201.mp4"
+        },
+        {
+          "title": "Class of 3000 Season 1-2 + Christmas Special (WEB-DLHDTVTV Rips) — S01E10 — Class of 3000 Season 1 Episode 10 - Love Is in the Hair Net",
+          "show": "Class of 3000 Season 1-2 + Christmas Special (WEB-DLHDTVTV Rips)",
+          "type": "Episode",
+          "seconds": 1386.9,
+          "url": "https://archive.org/download/class-of-3000-season-2-episode-3-free-philly/Class%20of%203000%20Season%201%20Episode%2010%20-%20Love%20Is%20in%20the%20Hair...%20Net.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "https://archive.org/download/class-of-3000-season-2-episode-3-free-philly/Class%20of%203000%20Season%201%20Episode%2010%20-%20Love%20Is%20in%20the%20Hair...%20Net.mp4"
+        },
+        {
+          "title": "Class of 3000 Season 1-2 + Christmas Special (WEB-DLHDTVTV Rips) — S01E10 — Class of 3000 Season 1 Episode 10 - Love Is in the Hair Net",
+          "show": "Class of 3000 Season 1-2 + Christmas Special (WEB-DLHDTVTV Rips)",
+          "type": "Episode",
+          "seconds": 1386.9,
+          "url": "https://archive.org/download/class-of-3000-season-2-episode-3-free-philly/Class%20of%203000%20Season%201%20Episode%2010%20-%20Love%20Is%20in%20the%20Hair...%20Net.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "https://archive.org/download/class-of-3000-season-2-episode-3-free-philly/Class%20of%203000%20Season%201%20Episode%2010%20-%20Love%20Is%20in%20the%20Hair...%20Net.ia.mp4"
+        }
+      ]
+    },
+    "Japanime": {
+      "counts": {
+        "movies": 59,
+        "christmas": 50,
+        "other_specials": 1
+      },
+      "sample_movies": [
+        {
+          "title": "Akira",
+          "show": "Akira",
+          "type": "Movie",
+          "seconds": 7527.8,
+          "url": "https://archive.org/download/28-days-later_202505/Akira.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "special:akira"
+        },
+        {
+          "title": "Bayonetta Bloody Fate",
+          "show": "Bayonetta: Bloody Fate",
+          "type": "Movie",
+          "seconds": 5421.47,
+          "url": "https://archive.org/download/28-days-later_202505/Bayonetta%20Bloody%20Fate.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "special:bayonettabloodyfate"
+        },
+        {
+          "title": "Castle in the Sky (1986)",
+          "show": "Castle In The Sky",
+          "type": "Movie",
+          "seconds": 7473.77,
+          "url": "https://archive.org/download/the-cat-returns_202508/All_Movies/Castle%20in%20the%20Sky%20%281986%29.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:castleinthesky1986"
+        },
+        {
+          "title": "Grave of the Fireflies",
+          "show": "Grave Of Fireflies",
+          "type": "Movie",
+          "seconds": 5305.67,
+          "url": "https://archive.org/download/the-cat-returns_202508/All_Movies/Grave%20of%20the%20Fireflies.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:graveofthefireflies"
+        },
+        {
+          "title": "Gundam I",
+          "show": "Gundam I",
+          "type": "Movie",
+          "seconds": 8365.92,
+          "url": "https://archive.org/download/28-days-later_202505/Gundam%20I.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:gundami"
+        },
+        {
+          "title": "Gundam II",
+          "show": "Gundam II",
+          "type": "Movie",
+          "seconds": 8307.4,
+          "url": "https://archive.org/download/28-days-later_202505/Gundam%20II.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:gundamii"
+        },
+        {
+          "title": "Gundam III",
+          "show": "Gundam III",
+          "type": "Movie",
+          "seconds": 8419.39,
+          "url": "https://archive.org/download/28-days-later_202505/Gundam%20III.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:gundamiii"
+        },
+        {
+          "title": "howls moving castle",
+          "show": "Howls Moving Castle",
+          "type": "Movie",
+          "seconds": 7148.94,
+          "url": "https://archive.org/download/howls-moving-castle_202506/howls%20moving%20castle.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:howlsmovingcastle"
+        },
+        {
+          "title": "Itsudatte My Santa",
+          "show": "Itsudatte My Santa",
+          "type": "Movie",
+          "seconds": 3372.0,
+          "url": "https://archive.org/download/itsudatte-my-santa_202407/Itsudatte%20My%20Santa%21.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:itsudattemysanta"
+        },
+        {
+          "title": "Kiki’s Delivery Service",
+          "show": "Kikis Delivery Service",
+          "type": "Movie",
+          "seconds": 6187.29,
+          "url": "https://archive.org/download/disney-dub-1998_202506/Disney%20Dub%20%281998%29.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:kikisdeliveryservice"
+        },
+        {
+          "title": "My Neighbour Totoro",
+          "show": "My Neighbour Totoro",
+          "type": "Movie",
+          "seconds": 5189.57,
+          "url": "https://archive.org/download/the-cat-returns_202508/All_Movies/TOTORO.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:myneighbourtotoro"
+        },
+        {
+          "title": "Nausicaä of the Valley of the Wind",
+          "show": "Nausicaa",
+          "type": "Movie",
+          "seconds": 7087.13,
+          "url": "https://archive.org/download/the-cat-returns_202508/1%20-%20Nausica%C3%A4%20of%20the%20Valley%20of%20the%20Wind.ia.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "special:nausicaaofthevalleyofthewind"
+        },
+        {
+          "title": "Paprika",
+          "show": "Paprika",
+          "type": "Movie",
+          "seconds": 5432.45,
+          "url": "https://archive.org/download/28-days-later_202505/Paprika.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "special:paprika"
+        },
+        {
+          "title": "Perfect Blue",
+          "show": "Perfect Blue",
+          "type": "Movie",
+          "seconds": 4904.35,
+          "url": "https://archive.org/download/28-days-later_202505/Perfect%20Blue.mp4",
+          "seasonal_tags": [
+            "halloween"
+          ],
+          "holiday_events": [],
+          "content_id": "special:perfectblue"
+        },
+        {
+          "title": "Pikachu Christmas",
+          "show": "Pikachu Christmas",
+          "type": "Movie",
+          "seconds": 1075.0,
+          "url": "https://archive.org/download/pokemon-chronicles-s-01-e-22/Pokemon%20Chronicles%20S01E22.mp4",
+          "seasonal_tags": [
+            "christmas"
+          ],
+          "holiday_events": [
+            "christmas"
+          ],
+          "content_id": "special:pikachuchristmas"
+        }
+      ],
+      "sample_christmas": [
+        {
+          "title": "Snow White with the Red Hair — S01E01 — Akagami no Shirayuki-hime (Dub) Episode 1",
+          "show": "Snow White with the Red Hair",
+          "type": "Episode",
+          "seconds": 1453.16,
+          "url": "https://archive.org/download/akagami-no-shirayuki-hime-seasons-1-dub/Akagami%20no%20Shirayuki-hime%20Temporada%201/Akagami%20no%20Shirayuki-hime%20%28Dub%29%20Episode%201.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "restored-snow-white-with-the-red-hair:1:1:"
+        },
+        {
+          "title": "Snow White with the Red Hair — S01E10 — Akagami no Shirayuki-hime (Dub) Episode 10",
+          "show": "Snow White with the Red Hair",
+          "type": "Episode",
+          "seconds": 1451.16,
+          "url": "https://archive.org/download/akagami-no-shirayuki-hime-seasons-1-dub/Akagami%20no%20Shirayuki-hime%20Temporada%201/Akagami%20no%20Shirayuki-hime%20%28Dub%29%20Episode%2010.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "restored-snow-white-with-the-red-hair:1:10:"
+        },
+        {
+          "title": "Snow White with the Red Hair — S01E11 — Akagami no Shirayuki-hime (Dub) Episode 11",
+          "show": "Snow White with the Red Hair",
+          "type": "Episode",
+          "seconds": 1453.16,
+          "url": "https://archive.org/download/akagami-no-shirayuki-hime-seasons-1-dub/Akagami%20no%20Shirayuki-hime%20Temporada%201/Akagami%20no%20Shirayuki-hime%20%28Dub%29%20Episode%2011.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "restored-snow-white-with-the-red-hair:1:11:"
+        },
+        {
+          "title": "Snow White with the Red Hair — S01E12 — Akagami no Shirayuki-hime (Dub) Episode 12",
+          "show": "Snow White with the Red Hair",
+          "type": "Episode",
+          "seconds": 1451.16,
+          "url": "https://archive.org/download/akagami-no-shirayuki-hime-seasons-1-dub/Akagami%20no%20Shirayuki-hime%20Temporada%201/Akagami%20no%20Shirayuki-hime%20%28Dub%29%20Episode%2012.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "restored-snow-white-with-the-red-hair:1:12:"
+        },
+        {
+          "title": "Snow White with the Red Hair — S01E02 — Akagami no Shirayuki-hime (Dub) Episode 2",
+          "show": "Snow White with the Red Hair",
+          "type": "Episode",
+          "seconds": 1451.16,
+          "url": "https://archive.org/download/akagami-no-shirayuki-hime-seasons-1-dub/Akagami%20no%20Shirayuki-hime%20Temporada%201/Akagami%20no%20Shirayuki-hime%20%28Dub%29%20Episode%202.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "restored-snow-white-with-the-red-hair:1:2:"
+        },
+        {
+          "title": "Snow White with the Red Hair — S01E03 — Akagami no Shirayuki-hime (Dub) Episode 3",
+          "show": "Snow White with the Red Hair",
+          "type": "Episode",
+          "seconds": 1453.16,
+          "url": "https://archive.org/download/akagami-no-shirayuki-hime-seasons-1-dub/Akagami%20no%20Shirayuki-hime%20Temporada%201/Akagami%20no%20Shirayuki-hime%20%28Dub%29%20Episode%203.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "restored-snow-white-with-the-red-hair:1:3:"
+        },
+        {
+          "title": "Snow White with the Red Hair — S01E04 — Akagami no Shirayuki-hime (Dub) Episode 4",
+          "show": "Snow White with the Red Hair",
+          "type": "Episode",
+          "seconds": 1451.16,
+          "url": "https://archive.org/download/akagami-no-shirayuki-hime-seasons-1-dub/Akagami%20no%20Shirayuki-hime%20Temporada%201/Akagami%20no%20Shirayuki-hime%20%28Dub%29%20Episode%204.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "restored-snow-white-with-the-red-hair:1:4:"
+        },
+        {
+          "title": "Snow White with the Red Hair — S01E05 — Akagami no Shirayuki-hime (Dub) Episode 5",
+          "show": "Snow White with the Red Hair",
+          "type": "Episode",
+          "seconds": 1453.16,
+          "url": "https://archive.org/download/akagami-no-shirayuki-hime-seasons-1-dub/Akagami%20no%20Shirayuki-hime%20Temporada%201/Akagami%20no%20Shirayuki-hime%20%28Dub%29%20Episode%205.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "restored-snow-white-with-the-red-hair:1:5:"
+        },
+        {
+          "title": "Snow White with the Red Hair — S01E06 — Akagami no Shirayuki-hime (Dub) Episode 6",
+          "show": "Snow White with the Red Hair",
+          "type": "Episode",
+          "seconds": 1451.16,
+          "url": "https://archive.org/download/akagami-no-shirayuki-hime-seasons-1-dub/Akagami%20no%20Shirayuki-hime%20Temporada%201/Akagami%20no%20Shirayuki-hime%20%28Dub%29%20Episode%206.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "restored-snow-white-with-the-red-hair:1:6:"
+        },
+        {
+          "title": "Snow White with the Red Hair — S01E07 — Akagami no Shirayuki-hime (Dub) Episode 7",
+          "show": "Snow White with the Red Hair",
+          "type": "Episode",
+          "seconds": 1452.99,
+          "url": "https://archive.org/download/akagami-no-shirayuki-hime-seasons-1-dub/Akagami%20no%20Shirayuki-hime%20Temporada%201/Akagami%20no%20Shirayuki-hime%20%28Dub%29%20Episode%207.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "restored-snow-white-with-the-red-hair:1:7:"
+        },
+        {
+          "title": "Snow White with the Red Hair — S01E08 — Akagami no Shirayuki-hime (Dub) Episode 8",
+          "show": "Snow White with the Red Hair",
+          "type": "Episode",
+          "seconds": 1451.16,
+          "url": "https://archive.org/download/akagami-no-shirayuki-hime-seasons-1-dub/Akagami%20no%20Shirayuki-hime%20Temporada%201/Akagami%20no%20Shirayuki-hime%20%28Dub%29%20Episode%208.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "restored-snow-white-with-the-red-hair:1:8:"
+        },
+        {
+          "title": "Snow White with the Red Hair — S01E09 — Akagami no Shirayuki-hime (Dub) Episode 9",
+          "show": "Snow White with the Red Hair",
+          "type": "Episode",
+          "seconds": 1453.16,
+          "url": "https://archive.org/download/akagami-no-shirayuki-hime-seasons-1-dub/Akagami%20no%20Shirayuki-hime%20Temporada%201/Akagami%20no%20Shirayuki-hime%20%28Dub%29%20Episode%209.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "restored-snow-white-with-the-red-hair:1:9:"
+        },
+        {
+          "title": "Snow White with the Red Hair — S02E01 — Akagami no Shirayuki-hime 2nd Season (Dub) Episode 1",
+          "show": "Snow White with the Red Hair",
+          "type": "Episode",
+          "seconds": 1453.16,
+          "url": "https://archive.org/download/akagami-no-shirayuki-hime-seasons-2-dub/Akagami%20no%20Shirayuki-hime%20Temporada%202/Akagami%20no%20Shirayuki-hime%202nd%20Season%20%28Dub%29%20Episode%201.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "restored-snow-white-with-the-red-hair:2:1:"
+        },
+        {
+          "title": "Snow White with the Red Hair — S02E10 — Akagami no Shirayuki-hime 2nd Season (Dub) Episode 10",
+          "show": "Snow White with the Red Hair",
+          "type": "Episode",
+          "seconds": 1451.16,
+          "url": "https://archive.org/download/akagami-no-shirayuki-hime-seasons-2-dub/Akagami%20no%20Shirayuki-hime%20Temporada%202/Akagami%20no%20Shirayuki-hime%202nd%20Season%20%28Dub%29%20Episode%2010.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "restored-snow-white-with-the-red-hair:2:10:"
+        },
+        {
+          "title": "Snow White with the Red Hair — S02E11 — Akagami no Shirayuki-hime 2nd Season (Dub) Episode 11",
+          "show": "Snow White with the Red Hair",
+          "type": "Episode",
+          "seconds": 1453.16,
+          "url": "https://archive.org/download/akagami-no-shirayuki-hime-seasons-2-dub/Akagami%20no%20Shirayuki-hime%20Temporada%202/Akagami%20no%20Shirayuki-hime%202nd%20Season%20%28Dub%29%20Episode%2011.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "restored-snow-white-with-the-red-hair:2:11:"
+        },
+        {
+          "title": "Snow White with the Red Hair — S02E12 — Akagami no Shirayuki-hime 2nd Season (Dub) Episode 12",
+          "show": "Snow White with the Red Hair",
+          "type": "Episode",
+          "seconds": 1451.16,
+          "url": "https://archive.org/download/akagami-no-shirayuki-hime-seasons-2-dub/Akagami%20no%20Shirayuki-hime%20Temporada%202/Akagami%20no%20Shirayuki-hime%202nd%20Season%20%28Dub%29%20Episode%2012.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "restored-snow-white-with-the-red-hair:2:12:"
+        },
+        {
+          "title": "Snow White with the Red Hair — S02E02 — Akagami no Shirayuki-hime 2nd Season (Dub) Episode 2",
+          "show": "Snow White with the Red Hair",
+          "type": "Episode",
+          "seconds": 1451.16,
+          "url": "https://archive.org/download/akagami-no-shirayuki-hime-seasons-2-dub/Akagami%20no%20Shirayuki-hime%20Temporada%202/Akagami%20no%20Shirayuki-hime%202nd%20Season%20%28Dub%29%20Episode%202.mp4",
+          "seasonal_tags": [],
+          "holiday_events": [],
+          "content_id": "restored-snow-white-with-the-red-hair:2:2:"
+        }
+      ]
+    }
+  },
+  "schedule": {
+    "october": {
+      "90s Toons": {
+        "movies": 5,
+        "specials": 60,
+        "breaks": 1541,
+        "film_slots": [
+          {
+            "day": "3",
+            "time": "15.0",
+            "title": "Spider-man (2002)"
+          },
+          {
+            "day": "10",
+            "time": "15.0",
+            "title": "Spider-man 2"
+          },
+          {
+            "day": "17",
+            "time": "15.0",
+            "title": "Godzilla (1998)"
+          },
+          {
+            "day": "24",
+            "time": "15.0",
+            "title": "Spider-man 3"
+          },
+          {
+            "day": "31",
+            "time": "15.0",
+            "title": "The Amazing Spider-Man (2012)"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 40.2,
+            "minutes": 19.8
+          },
+          {
+            "day": "1",
+            "start": 102.8,
+            "minutes": 17.2
+          },
+          {
+            "day": "1",
+            "start": 195.8,
+            "minutes": 14.2
+          },
+          {
+            "day": "1",
+            "start": 257.9,
+            "minutes": 12.1
+          },
+          {
+            "day": "1",
+            "start": 375.7,
+            "minutes": 14.3
+          },
+          {
+            "day": "1",
+            "start": 412.5,
+            "minutes": 7.5
+          },
+          {
+            "day": "1",
+            "start": 462.9,
+            "minutes": 17.1
+          },
+          {
+            "day": "1",
+            "start": 521.0,
+            "minutes": 19.0
+          },
+          {
+            "day": "1",
+            "start": 583.0,
+            "minutes": 17.0
+          }
+        ],
+        "gap_1845": []
+      },
+      "Cartoons Cartoons": {
+        "movies": 4,
+        "specials": 42,
+        "breaks": 2034,
+        "film_slots": [
+          {
+            "day": "4",
+            "time": "14.0",
+            "title": "Scooby-Doo and the Ghoul School"
+          },
+          {
+            "day": "11",
+            "time": "14.0",
+            "title": "Scooby-Doo! Frankencreepy"
+          },
+          {
+            "day": "18",
+            "time": "14.0",
+            "title": "The Halloween Tree"
+          },
+          {
+            "day": "25",
+            "time": "15.0",
+            "title": "Scooby-Doo (2002)"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 23.2,
+            "minutes": 36.8
+          },
+          {
+            "day": "1",
+            "start": 104.9,
+            "minutes": 15.1
+          },
+          {
+            "day": "1",
+            "start": 172.8,
+            "minutes": 7.2
+          },
+          {
+            "day": "1",
+            "start": 207.0,
+            "minutes": 33.0
+          },
+          {
+            "day": "1",
+            "start": 269.2,
+            "minutes": 30.8
+          },
+          {
+            "day": "1",
+            "start": 304.4,
+            "minutes": 55.6
+          },
+          {
+            "day": "1",
+            "start": 406.0,
+            "minutes": 14.0
+          },
+          {
+            "day": "1",
+            "start": 456.1,
+            "minutes": 23.9
+          },
+          {
+            "day": "1",
+            "start": 531.8,
+            "minutes": 8.2
+          }
+        ],
+        "gap_1845": []
+      },
+      "Japanime": {
+        "movies": 5,
+        "specials": 0,
+        "breaks": 1481,
+        "film_slots": [
+          {
+            "day": "3",
+            "time": "20.0",
+            "title": "Akira"
+          },
+          {
+            "day": "10",
+            "time": "20.0",
+            "title": "Bayonetta Bloody Fate"
+          },
+          {
+            "day": "17",
+            "time": "20.0",
+            "title": "Paprika"
+          },
+          {
+            "day": "24",
+            "time": "20.0",
+            "title": "Perfect Blue"
+          },
+          {
+            "day": "31",
+            "time": "20.0",
+            "title": "Shin Godzilla (2016)"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 49.6,
+            "minutes": 10.4
+          },
+          {
+            "day": "1",
+            "start": 107.7,
+            "minutes": 12.3
+          },
+          {
+            "day": "1",
+            "start": 197.0,
+            "minutes": 13.0
+          },
+          {
+            "day": "1",
+            "start": 259.0,
+            "minutes": 11.0
+          },
+          {
+            "day": "1",
+            "start": 317.5,
+            "minutes": 12.5
+          },
+          {
+            "day": "1",
+            "start": 375.8,
+            "minutes": 14.2
+          },
+          {
+            "day": "1",
+            "start": 464.1,
+            "minutes": 15.9
+          },
+          {
+            "day": "1",
+            "start": 520.7,
+            "minutes": 19.3
+          },
+          {
+            "day": "1",
+            "start": 582.2,
+            "minutes": 17.8
+          }
+        ],
+        "gap_1845": []
+      },
+      "Off-Licence TV": {
+        "movies": 5,
+        "specials": 10,
+        "breaks": 1218,
+        "film_slots": [
+          {
+            "day": "3",
+            "time": "21.0",
+            "title": "Ghostwatch"
+          },
+          {
+            "day": "10",
+            "time": "21.0",
+            "title": "The Worst Witch (1986)"
+          },
+          {
+            "day": "17",
+            "time": "21.0",
+            "title": "28 Weeks Later (2007)"
+          },
+          {
+            "day": "24",
+            "time": "21.0",
+            "title": "28 Years Later (2025)"
+          },
+          {
+            "day": "31",
+            "time": "21.0",
+            "title": "Ghostwatch"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 227.5,
+            "minutes": 12.5
+          },
+          {
+            "day": "1",
+            "start": 409.2,
+            "minutes": 10.8
+          },
+          {
+            "day": "1",
+            "start": 711.8,
+            "minutes": 8.2
+          },
+          {
+            "day": "1",
+            "start": 748.6,
+            "minutes": 31.4
+          },
+          {
+            "day": "1",
+            "start": 832.5,
+            "minutes": 7.5
+          },
+          {
+            "day": "1",
+            "start": 928.7,
+            "minutes": 31.3
+          },
+          {
+            "day": "1",
+            "start": 1063.5,
+            "minutes": 16.5
+          },
+          {
+            "day": "1",
+            "start": 1245.8,
+            "minutes": 14.2
+          },
+          {
+            "day": "2",
+            "start": 212.7,
+            "minutes": 27.3
+          }
+        ],
+        "gap_1845": []
+      },
+      "Star Spangled TV": {
+        "movies": 14,
+        "specials": 13,
+        "breaks": 1247,
+        "film_slots": [
+          {
+            "day": "2",
+            "time": "21.0",
+            "title": "Hellraiser (1987)"
+          },
+          {
+            "day": "3",
+            "time": "21.0",
+            "title": "Hellraiser II (1988)"
+          },
+          {
+            "day": "4",
+            "time": "20.0",
+            "title": "Leprechaun (1993)"
+          },
+          {
+            "day": "9",
+            "time": "21.0",
+            "title": "Misery (1990)"
+          },
+          {
+            "day": "10",
+            "time": "21.0",
+            "title": "My Bloody Valentine (1981)"
+          },
+          {
+            "day": "11",
+            "time": "20.0",
+            "title": "Scream (1996)"
+          },
+          {
+            "day": "16",
+            "time": "21.0",
+            "title": "The Blair Witch Project (1999)"
+          },
+          {
+            "day": "17",
+            "time": "21.0",
+            "title": "The Cabin in the Woods (2011)"
+          },
+          {
+            "day": "18",
+            "time": "20.0",
+            "title": "The Texas Chain Saw Massacre (1974)"
+          },
+          {
+            "day": "23",
+            "time": "21.0",
+            "title": "The Texas Chainsaw Massacre 2 (1986)"
+          },
+          {
+            "day": "24",
+            "time": "21.0",
+            "title": "The Thing (1982)"
+          },
+          {
+            "day": "25",
+            "time": "21.0",
+            "title": "2 Leprechaun 2 (1994)"
+          },
+          {
+            "day": "30",
+            "time": "21.0",
+            "title": "3 Leprechaun 3 (1995)"
+          },
+          {
+            "day": "31",
+            "time": "21.0",
+            "title": "30 Days of Night (2007)"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 50.8,
+            "minutes": 9.2
+          },
+          {
+            "day": "1",
+            "start": 101.2,
+            "minutes": 18.8
+          },
+          {
+            "day": "1",
+            "start": 141.6,
+            "minutes": 8.4
+          },
+          {
+            "day": "1",
+            "start": 200.3,
+            "minutes": 9.7
+          },
+          {
+            "day": "1",
+            "start": 261.5,
+            "minutes": 8.5
+          },
+          {
+            "day": "1",
+            "start": 319.3,
+            "minutes": 10.7
+          },
+          {
+            "day": "1",
+            "start": 373.5,
+            "minutes": 16.5
+          },
+          {
+            "day": "1",
+            "start": 466.5,
+            "minutes": 13.5
+          },
+          {
+            "day": "1",
+            "start": 532.0,
+            "minutes": 8.0
+          }
+        ],
+        "gap_1845": []
+      },
+      "AAA": {
+        "movies": 5,
+        "specials": 16,
+        "breaks": 1658,
+        "film_slots": [
+          {
+            "day": "3",
+            "time": "20.0",
+            "title": "Beavis and Butt-Head Do the Universe (2022)"
+          },
+          {
+            "day": "10",
+            "time": "20.0",
+            "title": "Cool World (1992)"
+          },
+          {
+            "day": "17",
+            "time": "20.0",
+            "title": "Coonskin aka Street Fight ☆ Ralph Bakshi ☆1975"
+          },
+          {
+            "day": "24",
+            "time": "20.0",
+            "title": "Fire And Ice 1983"
+          },
+          {
+            "day": "31",
+            "time": "20.0",
+            "title": "Fritz The Cat"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 44.8,
+            "minutes": 15.2
+          },
+          {
+            "day": "1",
+            "start": 104.0,
+            "minutes": 16.0
+          },
+          {
+            "day": "1",
+            "start": 195.1,
+            "minutes": 14.9
+          },
+          {
+            "day": "1",
+            "start": 246.1,
+            "minutes": 23.9
+          },
+          {
+            "day": "1",
+            "start": 315.7,
+            "minutes": 14.3
+          },
+          {
+            "day": "1",
+            "start": 373.7,
+            "minutes": 16.3
+          },
+          {
+            "day": "1",
+            "start": 412.8,
+            "minutes": 7.2
+          },
+          {
+            "day": "1",
+            "start": 464.8,
+            "minutes": 15.2
+          },
+          {
+            "day": "1",
+            "start": 525.7,
+            "minutes": 14.3
+          }
+        ],
+        "gap_1845": []
+      },
+      "Dickleodeon": {
+        "movies": 4,
+        "specials": 31,
+        "breaks": 1622,
+        "film_slots": [
+          {
+            "day": "4",
+            "time": "14.0",
+            "title": "Curious George: A Halloween Boofest"
+          },
+          {
+            "day": "11",
+            "time": "14.0",
+            "title": "Monster House (2006)"
+          },
+          {
+            "day": "18",
+            "time": "14.0",
+            "title": "Rugrats Go Wild"
+          },
+          {
+            "day": "25",
+            "time": "15.0",
+            "title": "Rugrats In Paris The Movie"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 49.1,
+            "minutes": 10.9
+          },
+          {
+            "day": "1",
+            "start": 104.9,
+            "minutes": 15.1
+          },
+          {
+            "day": "1",
+            "start": 140.9,
+            "minutes": 9.1
+          },
+          {
+            "day": "1",
+            "start": 198.3,
+            "minutes": 11.7
+          },
+          {
+            "day": "1",
+            "start": 244.0,
+            "minutes": 26.0
+          },
+          {
+            "day": "1",
+            "start": 317.4,
+            "minutes": 12.6
+          },
+          {
+            "day": "1",
+            "start": 364.7,
+            "minutes": 25.3
+          },
+          {
+            "day": "1",
+            "start": 412.3,
+            "minutes": 7.7
+          },
+          {
+            "day": "1",
+            "start": 465.8,
+            "minutes": 14.2
+          }
+        ],
+        "gap_1845": []
+      },
+      "GirlyPop": {
+        "movies": 4,
+        "specials": 5,
+        "breaks": 1581,
+        "film_slots": [
+          {
+            "day": "4",
+            "time": "14.0",
+            "title": "The Nightmare Before Christmas (1993)"
+          },
+          {
+            "day": "11",
+            "time": "14.0",
+            "title": "Coraline (2009)"
+          },
+          {
+            "day": "18",
+            "time": "14.0",
+            "title": "Bratz Starrin & Stylin"
+          },
+          {
+            "day": "25",
+            "time": "15.0",
+            "title": "Bratz Super Babyz"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 45.9,
+            "minutes": 14.1
+          },
+          {
+            "day": "1",
+            "start": 108.4,
+            "minutes": 11.6
+          },
+          {
+            "day": "1",
+            "start": 142.4,
+            "minutes": 7.6
+          },
+          {
+            "day": "1",
+            "start": 193.1,
+            "minutes": 16.9
+          },
+          {
+            "day": "1",
+            "start": 255.8,
+            "minutes": 14.2
+          },
+          {
+            "day": "1",
+            "start": 314.7,
+            "minutes": 15.3
+          },
+          {
+            "day": "1",
+            "start": 377.7,
+            "minutes": 12.3
+          },
+          {
+            "day": "1",
+            "start": 395.4,
+            "minutes": 24.6
+          },
+          {
+            "day": "1",
+            "start": 453.5,
+            "minutes": 26.5
+          }
+        ],
+        "gap_1845": []
+      },
+      "Dizzy": {
+        "movies": 9,
+        "specials": 60,
+        "breaks": 1631,
+        "film_slots": [
+          {
+            "day": "3",
+            "time": "14.0",
+            "title": "Frankenweenie — feature presentation"
+          },
+          {
+            "day": "4",
+            "time": "14.0",
+            "title": "Pooh's Heffalump Halloween Movie"
+          },
+          {
+            "day": "10",
+            "time": "14.0",
+            "title": "Tarzan II"
+          },
+          {
+            "day": "11",
+            "time": "14.0",
+            "title": "The Cat In The Hat 2003"
+          },
+          {
+            "day": "17",
+            "time": "14.0",
+            "title": "The Incredibles (2004)"
+          },
+          {
+            "day": "18",
+            "time": "14.0",
+            "title": "The Iron Giant (1999)"
+          },
+          {
+            "day": "24",
+            "time": "14.0",
+            "title": "The Lion King (1994)"
+          },
+          {
+            "day": "25",
+            "time": "15.0",
+            "title": "The Lion King (2019)"
+          },
+          {
+            "day": "31",
+            "time": "14.0",
+            "title": "Frankenweenie — feature presentation"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 43.4,
+            "minutes": 16.6
+          },
+          {
+            "day": "1",
+            "start": 102.4,
+            "minutes": 17.6
+          },
+          {
+            "day": "1",
+            "start": 142.8,
+            "minutes": 7.2
+          },
+          {
+            "day": "1",
+            "start": 194.2,
+            "minutes": 15.8
+          },
+          {
+            "day": "1",
+            "start": 255.7,
+            "minutes": 14.3
+          },
+          {
+            "day": "1",
+            "start": 315.5,
+            "minutes": 14.5
+          },
+          {
+            "day": "1",
+            "start": 378.9,
+            "minutes": 11.1
+          },
+          {
+            "day": "1",
+            "start": 410.4,
+            "minutes": 9.6
+          },
+          {
+            "day": "1",
+            "start": 450.7,
+            "minutes": 29.3
+          }
+        ],
+        "gap_1845": []
+      },
+      "What": {
+        "movies": 1,
+        "specials": 21,
+        "breaks": 1019,
+        "film_slots": [
+          {
+            "day": "4",
+            "time": "21.0",
+            "title": "Reefer Madness (1936)"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 44.3,
+            "minutes": 15.7
+          },
+          {
+            "day": "1",
+            "start": 103.0,
+            "minutes": 17.0
+          },
+          {
+            "day": "1",
+            "start": 139.2,
+            "minutes": 10.8
+          },
+          {
+            "day": "1",
+            "start": 197.2,
+            "minutes": 12.8
+          },
+          {
+            "day": "1",
+            "start": 253.6,
+            "minutes": 16.4
+          },
+          {
+            "day": "1",
+            "start": 322.0,
+            "minutes": 8.0
+          },
+          {
+            "day": "1",
+            "start": 374.8,
+            "minutes": 15.2
+          },
+          {
+            "day": "1",
+            "start": 540.4,
+            "minutes": 14.6
+          },
+          {
+            "day": "1",
+            "start": 657.3,
+            "minutes": 17.7
+          }
+        ],
+        "gap_1845": []
+      }
+    },
+    "december": {
+      "90s Toons": {
+        "movies": 4,
+        "specials": 51,
+        "breaks": 1423,
+        "film_slots": [
+          {
+            "day": "5",
+            "time": "15.0",
+            "title": "A Flintstones Christmas Carol (1994)"
+          },
+          {
+            "day": "12",
+            "time": "15.0",
+            "title": "Yogi's First Christmas (1980)"
+          },
+          {
+            "day": "19",
+            "time": "15.0",
+            "title": "Spider-man (2002)"
+          },
+          {
+            "day": "26",
+            "time": "15.0",
+            "title": "Spider-man 2"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 41.3,
+            "minutes": 18.7
+          },
+          {
+            "day": "1",
+            "start": 101.6,
+            "minutes": 18.4
+          },
+          {
+            "day": "1",
+            "start": 195.8,
+            "minutes": 14.2
+          },
+          {
+            "day": "1",
+            "start": 319.1,
+            "minutes": 10.9
+          },
+          {
+            "day": "1",
+            "start": 375.8,
+            "minutes": 14.2
+          },
+          {
+            "day": "1",
+            "start": 412.4,
+            "minutes": 7.6
+          },
+          {
+            "day": "1",
+            "start": 461.9,
+            "minutes": 18.1
+          },
+          {
+            "day": "1",
+            "start": 520.5,
+            "minutes": 19.5
+          },
+          {
+            "day": "1",
+            "start": 583.1,
+            "minutes": 16.9
+          }
+        ],
+        "gap_1845": []
+      },
+      "Cartoons Cartoons": {
+        "movies": 4,
+        "specials": 29,
+        "breaks": 1900,
+        "film_slots": [
+          {
+            "day": "6",
+            "time": "14.0",
+            "title": "The Halloween Tree"
+          },
+          {
+            "day": "13",
+            "time": "14.0",
+            "title": "Scooby-Doo (2002)"
+          },
+          {
+            "day": "20",
+            "time": "14.0",
+            "title": "Ben 10: Secret of the Omnitrix"
+          },
+          {
+            "day": "27",
+            "time": "14.0",
+            "title": "Ed, Edd n Eddy’s Big Picture Show"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 22.9,
+            "minutes": 37.1
+          },
+          {
+            "day": "1",
+            "start": 106.1,
+            "minutes": 13.9
+          },
+          {
+            "day": "1",
+            "start": 172.3,
+            "minutes": 7.7
+          },
+          {
+            "day": "1",
+            "start": 207.0,
+            "minutes": 33.0
+          },
+          {
+            "day": "1",
+            "start": 304.6,
+            "minutes": 55.4
+          },
+          {
+            "day": "1",
+            "start": 407.1,
+            "minutes": 12.9
+          },
+          {
+            "day": "1",
+            "start": 456.0,
+            "minutes": 24.0
+          },
+          {
+            "day": "1",
+            "start": 532.0,
+            "minutes": 8.0
+          },
+          {
+            "day": "1",
+            "start": 565.6,
+            "minutes": 34.4
+          }
+        ],
+        "gap_1845": [
+          {
+            "day": "1",
+            "start": 1102.9,
+            "end": 1140.0
+          },
+          {
+            "day": "2",
+            "start": 1102.7,
+            "end": 1140.0
+          },
+          {
+            "day": "3",
+            "start": 1102.9,
+            "end": 1140.0
+          },
+          {
+            "day": "4",
+            "start": 1102.6,
+            "end": 1140.0
+          }
+        ]
+      },
+      "Japanime": {
+        "movies": 4,
+        "specials": 27,
+        "breaks": 1397,
+        "film_slots": [
+          {
+            "day": "5",
+            "time": "20.0",
+            "title": "Tokyo Godfathers"
+          },
+          {
+            "day": "12",
+            "time": "20.0",
+            "title": "Pokemon Movie 20 I Choose You!"
+          },
+          {
+            "day": "19",
+            "time": "20.0",
+            "title": "Pokemon Movie 21 The Power of Us"
+          },
+          {
+            "day": "26",
+            "time": "20.0",
+            "title": "Pokemon Movie 22 Mewtwo Strikes Back Evolution"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 49.7,
+            "minutes": 10.3
+          },
+          {
+            "day": "1",
+            "start": 107.7,
+            "minutes": 12.3
+          },
+          {
+            "day": "1",
+            "start": 197.0,
+            "minutes": 13.0
+          },
+          {
+            "day": "1",
+            "start": 376.2,
+            "minutes": 13.8
+          },
+          {
+            "day": "1",
+            "start": 467.2,
+            "minutes": 12.8
+          },
+          {
+            "day": "1",
+            "start": 518.2,
+            "minutes": 21.8
+          },
+          {
+            "day": "1",
+            "start": 580.9,
+            "minutes": 19.1
+          },
+          {
+            "day": "1",
+            "start": 643.2,
+            "minutes": 16.8
+          },
+          {
+            "day": "1",
+            "start": 702.9,
+            "minutes": 17.1
+          }
+        ],
+        "gap_1845": []
+      },
+      "Off-Licence TV": {
+        "movies": 4,
+        "specials": 28,
+        "breaks": 1154,
+        "film_slots": [
+          {
+            "day": "5",
+            "time": "21.0",
+            "title": "A Christmas Carol (1984)"
+          },
+          {
+            "day": "12",
+            "time": "21.0",
+            "title": "A Christmas Carol (1997)"
+          },
+          {
+            "day": "19",
+            "time": "21.0",
+            "title": "A Christmas Carol (1999)"
+          },
+          {
+            "day": "26",
+            "time": "21.0",
+            "title": "St Patrick: The Irish Legend"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 212.7,
+            "minutes": 27.3
+          },
+          {
+            "day": "1",
+            "start": 409.2,
+            "minutes": 10.8
+          },
+          {
+            "day": "1",
+            "start": 574.6,
+            "minutes": 10.4
+          },
+          {
+            "day": "1",
+            "start": 711.3,
+            "minutes": 8.7
+          },
+          {
+            "day": "1",
+            "start": 748.6,
+            "minutes": 31.4
+          },
+          {
+            "day": "1",
+            "start": 831.1,
+            "minutes": 8.9
+          },
+          {
+            "day": "1",
+            "start": 928.5,
+            "minutes": 31.5
+          },
+          {
+            "day": "1",
+            "start": 1063.1,
+            "minutes": 16.9
+          },
+          {
+            "day": "1",
+            "start": 1185.0,
+            "minutes": 15.0
+          }
+        ],
+        "gap_1845": []
+      },
+      "Star Spangled TV": {
+        "movies": 12,
+        "specials": 25,
+        "breaks": 1236,
+        "film_slots": [
+          {
+            "day": "4",
+            "time": "21.0",
+            "title": "A Christmas Story (1983)"
+          },
+          {
+            "day": "5",
+            "time": "21.0",
+            "title": "A Hobo's Christmas (1987)"
+          },
+          {
+            "day": "6",
+            "time": "20.0",
+            "title": "Arthur Christmas (2011)"
+          },
+          {
+            "day": "11",
+            "time": "21.0",
+            "title": "Black Christmas (1974)"
+          },
+          {
+            "day": "12",
+            "time": "21.0",
+            "title": "Ernest Saves Christmas (1988)"
+          },
+          {
+            "day": "13",
+            "time": "20.0",
+            "title": "Gremlins (1984)"
+          },
+          {
+            "day": "18",
+            "time": "21.0",
+            "title": "Home Alone (1990)"
+          },
+          {
+            "day": "19",
+            "time": "21.0",
+            "title": "Home Alone 2: Lost in New York (1992)"
+          },
+          {
+            "day": "20",
+            "time": "20.0",
+            "title": "How the Grinch Stole Christmas (2000)"
+          },
+          {
+            "day": "25",
+            "time": "21.0",
+            "title": "It's a Wonderful Life (1946)"
+          },
+          {
+            "day": "26",
+            "time": "21.0",
+            "title": "Miracle on 34th Street (1947)"
+          },
+          {
+            "day": "27",
+            "time": "20.0",
+            "title": "Miracle on 34th Street (1994)"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 48.8,
+            "minutes": 11.2
+          },
+          {
+            "day": "1",
+            "start": 101.2,
+            "minutes": 18.8
+          },
+          {
+            "day": "1",
+            "start": 141.9,
+            "minutes": 8.1
+          },
+          {
+            "day": "1",
+            "start": 200.3,
+            "minutes": 9.7
+          },
+          {
+            "day": "1",
+            "start": 321.2,
+            "minutes": 8.8
+          },
+          {
+            "day": "1",
+            "start": 372.7,
+            "minutes": 17.3
+          },
+          {
+            "day": "1",
+            "start": 466.5,
+            "minutes": 13.5
+          },
+          {
+            "day": "1",
+            "start": 532.0,
+            "minutes": 8.0
+          },
+          {
+            "day": "1",
+            "start": 583.2,
+            "minutes": 16.8
+          }
+        ],
+        "gap_1845": [
+          {
+            "day": "27",
+            "start": 1105.6,
+            "end": 1140.0
+          },
+          {
+            "day": "29",
+            "start": 1102.0,
+            "end": 1140.0
+          }
+        ]
+      },
+      "AAA": {
+        "movies": 5,
+        "specials": 13,
+        "breaks": 1589,
+        "film_slots": [
+          {
+            "day": "5",
+            "time": "20.0",
+            "title": "The Lord of the Rings"
+          },
+          {
+            "day": "6",
+            "time": "20.0",
+            "title": "Futurama: Bender’s Game"
+          },
+          {
+            "day": "12",
+            "time": "20.0",
+            "title": "Who Framed Roger Rabbit"
+          },
+          {
+            "day": "19",
+            "time": "20.0",
+            "title": "y2mate com - bernie vs trump rZlYUgSUt7Q 360p"
+          },
+          {
+            "day": "26",
+            "time": "20.0",
+            "title": "9 (2009)"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 43.6,
+            "minutes": 16.4
+          },
+          {
+            "day": "1",
+            "start": 103.1,
+            "minutes": 16.9
+          },
+          {
+            "day": "1",
+            "start": 193.7,
+            "minutes": 16.3
+          },
+          {
+            "day": "1",
+            "start": 322.4,
+            "minutes": 7.6
+          },
+          {
+            "day": "1",
+            "start": 372.9,
+            "minutes": 17.1
+          },
+          {
+            "day": "1",
+            "start": 392.7,
+            "minutes": 27.3
+          },
+          {
+            "day": "1",
+            "start": 465.3,
+            "minutes": 14.7
+          },
+          {
+            "day": "1",
+            "start": 525.3,
+            "minutes": 14.7
+          },
+          {
+            "day": "1",
+            "start": 586.0,
+            "minutes": 14.0
+          }
+        ],
+        "gap_1845": []
+      },
+      "Dickleodeon": {
+        "movies": 4,
+        "specials": 63,
+        "breaks": 1542,
+        "film_slots": [
+          {
+            "day": "6",
+            "time": "14.0",
+            "title": "Rise of the Guardians (2012)"
+          },
+          {
+            "day": "13",
+            "time": "14.0",
+            "title": "Bee Movie (2007)"
+          },
+          {
+            "day": "20",
+            "time": "14.0",
+            "title": "Bolt (2008)"
+          },
+          {
+            "day": "27",
+            "time": "14.0",
+            "title": "Chicken Little (2005)"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 48.9,
+            "minutes": 11.1
+          },
+          {
+            "day": "1",
+            "start": 108.4,
+            "minutes": 11.6
+          },
+          {
+            "day": "1",
+            "start": 141.3,
+            "minutes": 8.7
+          },
+          {
+            "day": "1",
+            "start": 196.0,
+            "minutes": 14.0
+          },
+          {
+            "day": "1",
+            "start": 232.6,
+            "minutes": 7.4
+          },
+          {
+            "day": "1",
+            "start": 377.2,
+            "minutes": 12.8
+          },
+          {
+            "day": "1",
+            "start": 465.8,
+            "minutes": 14.2
+          },
+          {
+            "day": "1",
+            "start": 525.9,
+            "minutes": 14.1
+          },
+          {
+            "day": "1",
+            "start": 586.6,
+            "minutes": 13.4
+          }
+        ],
+        "gap_1845": []
+      },
+      "GirlyPop": {
+        "movies": 4,
+        "specials": 28,
+        "breaks": 1510,
+        "film_slots": [
+          {
+            "day": "6",
+            "time": "14.0",
+            "title": "Barbie Nutcracker"
+          },
+          {
+            "day": "13",
+            "time": "14.0",
+            "title": "Bratz Babyz Save Christmas"
+          },
+          {
+            "day": "20",
+            "time": "14.0",
+            "title": "The Nightmare Before Christmas (1993)"
+          },
+          {
+            "day": "27",
+            "time": "14.0",
+            "title": "Barbie Fairytopia"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 45.9,
+            "minutes": 14.1
+          },
+          {
+            "day": "1",
+            "start": 108.4,
+            "minutes": 11.6
+          },
+          {
+            "day": "1",
+            "start": 142.4,
+            "minutes": 7.6
+          },
+          {
+            "day": "1",
+            "start": 194.5,
+            "minutes": 15.5
+          },
+          {
+            "day": "1",
+            "start": 232.8,
+            "minutes": 7.2
+          },
+          {
+            "day": "1",
+            "start": 322.2,
+            "minutes": 7.8
+          },
+          {
+            "day": "1",
+            "start": 377.8,
+            "minutes": 12.2
+          },
+          {
+            "day": "1",
+            "start": 406.7,
+            "minutes": 13.3
+          },
+          {
+            "day": "1",
+            "start": 454.1,
+            "minutes": 25.9
+          }
+        ],
+        "gap_1845": []
+      },
+      "Dizzy": {
+        "movies": 8,
+        "specials": 54,
+        "breaks": 1544,
+        "film_slots": [
+          {
+            "day": "5",
+            "time": "14.0",
+            "title": "Beauty and the Beast The Enchanted Christmas (1997)"
+          },
+          {
+            "day": "6",
+            "time": "14.0",
+            "title": "The Muppet Christmas Carol (1992)"
+          },
+          {
+            "day": "12",
+            "time": "14.0",
+            "title": "A Bug's Life"
+          },
+          {
+            "day": "13",
+            "time": "14.0",
+            "title": "A Goofy Movie (1995)"
+          },
+          {
+            "day": "19",
+            "time": "14.0",
+            "title": "Aladdin (1992)"
+          },
+          {
+            "day": "20",
+            "time": "14.0",
+            "title": "Aladdin II The Return Of Jafar"
+          },
+          {
+            "day": "26",
+            "time": "14.0",
+            "title": "Aladdin III The King Of Thieves"
+          },
+          {
+            "day": "27",
+            "time": "14.0",
+            "title": "Atlantis: Milo’s Return"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 103.0,
+            "minutes": 17.0
+          },
+          {
+            "day": "1",
+            "start": 142.8,
+            "minutes": 7.2
+          },
+          {
+            "day": "1",
+            "start": 196.1,
+            "minutes": 13.9
+          },
+          {
+            "day": "1",
+            "start": 232.7,
+            "minutes": 7.3
+          },
+          {
+            "day": "1",
+            "start": 322.6,
+            "minutes": 7.4
+          },
+          {
+            "day": "1",
+            "start": 379.0,
+            "minutes": 11.0
+          },
+          {
+            "day": "1",
+            "start": 410.4,
+            "minutes": 9.6
+          },
+          {
+            "day": "1",
+            "start": 450.7,
+            "minutes": 29.3
+          },
+          {
+            "day": "1",
+            "start": 525.3,
+            "minutes": 14.7
+          }
+        ],
+        "gap_1845": []
+      },
+      "What": {
+        "movies": 1,
+        "specials": 4,
+        "breaks": 961,
+        "film_slots": [
+          {
+            "day": "6",
+            "time": "21.0",
+            "title": "Twister"
+          }
+        ],
+        "long_breaks": [
+          {
+            "day": "1",
+            "start": 46.2,
+            "minutes": 13.8
+          },
+          {
+            "day": "1",
+            "start": 103.0,
+            "minutes": 17.0
+          },
+          {
+            "day": "1",
+            "start": 140.0,
+            "minutes": 10.0
+          },
+          {
+            "day": "1",
+            "start": 197.7,
+            "minutes": 12.3
+          },
+          {
+            "day": "1",
+            "start": 231.8,
+            "minutes": 8.2
+          },
+          {
+            "day": "1",
+            "start": 374.4,
+            "minutes": 15.6
+          },
+          {
+            "day": "1",
+            "start": 412.4,
+            "minutes": 7.6
+          },
+          {
+            "day": "1",
+            "start": 543.1,
+            "minutes": 11.9
+          },
+          {
+            "day": "1",
+            "start": 586.2,
+            "minutes": 28.8
+          }
+        ],
+        "gap_1845": [
+          {
+            "day": "5",
+            "start": 1109.3,
+            "end": 1140.0
+          },
+          {
+            "day": "19",
+            "start": 1109.3,
+            "end": 1140.0
+          }
+        ]
+      }
+    }
+  },
+  "authored_film_windows": [
+    {
+      "channel": "90s Toons",
+      "weekday": 5,
+      "at": "15:00",
+      "end": "18:00",
+      "fallback": [
+        "jackie",
+        "spiderman-unlimited",
+        "earthworm"
+      ],
+      "block": "Family feature"
+    },
+    {
+      "channel": "Cartoons Cartoons",
+      "weekday": 6,
+      "at": "14:00",
+      "end": "17:00",
+      "fallback": [
+        "ed-edd-eddy",
+        "knd",
+        "ben10"
+      ],
+      "block": "Family feature"
+    },
+    {
+      "channel": "Dickleodeon",
+      "weekday": 6,
+      "at": "14:00",
+      "end": "17:00",
+      "fallback": [
+        "jimmy",
+        "avatar",
+        "static"
+      ],
+      "block": "Family feature"
+    },
+    {
+      "channel": "Dizzy",
+      "weekday": 5,
+      "at": "14:00",
+      "end": "17:00",
+      "fallback": [
+        "jake",
+        "kim",
+        "fillmore"
+      ],
+      "block": "Family feature"
+    },
+    {
+      "channel": "Dizzy",
+      "weekday": 6,
+      "at": "14:00",
+      "end": "17:00",
+      "fallback": [
+        "jake",
+        "kim",
+        "fillmore"
+      ],
+      "block": "Family feature"
+    },
+    {
+      "channel": "GirlyPop",
+      "weekday": 6,
+      "at": "14:00",
+      "end": "17:00",
+      "fallback": [
+        "bratz",
+        "trollz",
+        "spies"
+      ],
+      "block": "Family feature"
+    },
+    {
+      "channel": "Japanime",
+      "weekday": 5,
+      "at": "20:00",
+      "end": "23:00",
+      "fallback": [
+        "ouran",
+        "bebop",
+        "deathnote"
+      ],
+      "block": "Saturday anime cinema"
+    },
+    {
+      "channel": "AAA",
+      "weekday": 5,
+      "at": "20:00",
+      "end": "23:00",
+      "fallback": [
+        "downtown",
+        "boondocks",
+        "aqua"
+      ],
+      "block": "Late animation feature"
+    },
+    {
+      "channel": "Off-Licence TV",
+      "weekday": 5,
+      "at": "21:00",
+      "end": "24:00",
+      "fallback": [
+        "office-uk",
+        "itcrowd",
+        "father-ted",
+        "boosh"
+      ],
+      "block": "British film night"
+    },
+    {
+      "channel": "Star Spangled TV",
+      "weekday": 4,
+      "at": "21:00",
+      "end": "24:00",
+      "fallback": [
+        "madtv",
+        "osbournes",
+        "trailerpark"
+      ],
+      "block": "Weekend film night"
+    },
+    {
+      "channel": "Star Spangled TV",
+      "weekday": 5,
+      "at": "21:00",
+      "end": "24:00",
+      "fallback": [
+        "madtv",
+        "osbournes",
+        "trailerpark"
+      ],
+      "block": "Weekend film night"
+    },
+    {
+      "channel": "Star Spangled TV",
+      "weekday": 6,
+      "at": "20:00",
+      "end": "24:00",
+      "fallback": [
+        "jerry",
+        "madtv",
+        "osbournes"
+      ],
+      "block": "Weekend film night"
+    },
+    {
+      "channel": "What",
+      "weekday": 6,
+      "at": "21:00",
+      "end": "23:00",
+      "fallback": [
+        "ghosthunters",
+        "scariest"
+      ],
+      "block": "Documentary and film feature",
+      "month_days_max": 7
+    }
+  ]
+}
