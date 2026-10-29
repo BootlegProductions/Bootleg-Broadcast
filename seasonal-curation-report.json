@@ -1,21 +1,21 @@
 {
-  "programmes": 438,
+  "programmes": 425,
   "per_channel": {
-    "AAA": 19,
-    "Dickleodeon": 10,
-    "Dizzy": 7,
+    "AAA": 18,
+    "Dickleodeon": 9,
+    "Dizzy": 5,
     "GirlyPop": 30,
-    "Off-Licence TV": 207,
-    "Star Spangled TV": 143,
+    "Off-Licence TV": 202,
+    "Star Spangled TV": 139,
     "What": 22
   },
   "per_collection": {
-    "christmas-episodes-and-specials": 208,
-    "ChristmasSpecials": 230
+    "christmas-episodes-and-specials": 201,
+    "ChristmasSpecials": 224
   },
   "programme_types": {
-    "Episode": 245,
-    "Special": 180,
+    "Episode": 242,
+    "Special": 170,
     "Movie": 13
   },
   "christmas_commercials": 18,
@@ -24,8 +24,8 @@
     "Star Spangled TV": 3
   },
   "skipped": {
-    "not_a_complete_compatible_programme": 54,
-    "duplicate_episode_or_title_in_batch": 7,
+    "not_a_complete_compatible_programme": 66,
+    "duplicate_episode_or_title_in_batch": 8,
     "exact_source_exists": 16,
     "existing_title": 2
   },
@@ -34,7 +34,7 @@
       "2 Broke Girls — S01E10 — Two Br0ke Gir!s (2011) S01E10 And the Very Christmas Thanksgiving (",
       "Absolutely Fabulous Cold Turkey",
       "D3XT3R 1x11 Truth Be Told ice truck killer kidnaps deb christmas ep",
-      "D3XT3R — S01E11 — D3XT3R season 1 episode 11 truth be told ice truck killer kidnaps deb christmas ep",
+      "Dexter — S01E11 — D3XT3R season 1 episode 11 truth be told ice truck killer kidnaps deb christmas ep",
       "HARRY ENFIELD AND CHRISTMAS CHUMS (1997)",
       "It's Always Sunny in Philadelphia — S06E13 — Always Sunny Season 06 Episode 13 14 A Very Sunny Christmas not 5 as orig rep",
       "Men Behaving Badly — S06E07 — Men Behaving Badly S06E07 Jingle Balls",
@@ -49,7 +49,6 @@
       "City Guys 3 20 Miracle on 134th Street and Lexington Avenue (Christmas) SweetValleyHigh1994",
       "How to Rock — S01E10 — How 2 R0ck season 1 episode 10 How to Rock Christmas p+",
       "How to Rock — S01E26 — How 2 R0ck season 1 episode 26 christmas",
-      "Life with Derek — S02E07 — life w derek season 2 episode 07 christmas",
       "Mentors (S 1, Ep 7) – Family christmas (1920x1080)",
       "Raven's Home — S02E08 — ravho s02e08 snow probs christmas",
       "Raven's Home — S03E16 — ravho s03e16 CHRISTMAS EP",
@@ -61,10 +60,8 @@
       "Boy Meets World — S05E11 — boy meets world season 05 episode 11 Christmas",
       "Boy Meets World — S07E07 — boy meets world season 07 episode 07 poss christmas",
       "Franklin's Magic Christmas Special",
-      "MK+A The Case of the Christmas Caper (1995)",
-      "That Girl — S01E16 — That Girl S01E16 Christmas and the Hard Luck Kid (Dec 22, 1966)",
-      "That Girl Christmas and the Hard Luck Kid 1966 youtuber — S01E16 — That Girl Christmas and the Hard Luck Kid 1966 youtuber Raven TV That Girl S01E16",
-      "That Girl Twas the Night Before Christmas, You're Under Arrest 1967 youtuber Raven TV"
+      "Life with Derek — S02E07 — life w derek season 2 episode 07 christmas",
+      "MK+A The Case of the Christmas Caper (1995)"
     ],
     "GirlyPop": [
       "Aliens In The Family Episode 8 A Very Brody Tweeznax Christmas",
@@ -90,26 +87,26 @@
       "A Stocking Full of Christmas Cliches 1991",
       "After Henry A Quiet Christmas (1988) — S02E00 — After Henry A Quiet Christmas (1988) S2E0",
       "After Henry A Week of Sundays (1989) — S03E01 — After Henry A Week of Sundays (1989) S3E01",
+      "Agatha Raisin — S04E01 — AgathaRaisin s4 e01 Kissing Christmas Goodbye (TV Episode 2021 uk mystery comedy",
       "Alas Sage And Onion 1988",
       "All Star Comedy Carnival 1972",
       "All Star Comedy Carnival 1973",
-      "AllCreaturesGreatSmallMerryGentlemen1978S02e14 — S02E14 — AllCreaturesGreatSmallMerryGentlemen1978S02e14",
-      "AntAndDecsChristmasShow2009"
+      "AllCreaturesGreatSmallMerryGentlemen1978S02e14 — S02E14 — AllCreaturesGreatSmallMerryGentlemen1978S02e14"
     ],
     "Star Spangled TV": [
       "21 Jump st 211 Christmas in Saigon Johnny Depp, Holly Robinson Peete, Peter DeLuise, Dustin Nguyen, Steven Williams",
       "21 Jump st 425 Everyday is Christmas (21 Jump st) precinct transfer, dirt",
       "30 Rock — S03E06 — 3O R0ck S03E06 Christmas Special",
       "8 Simple Rules — S01E12 — 8 simple rules season 1 episode 12 christmas",
-      "8 Simple Rules — S03E12 — 8simp S3 E12 A Very C J Christmas",
-      "8 simple rules season 3 Ep12 A Very CJ Christmas",
+      "8 Simple Rules — S03E12 — 8 simple rules season 3 Ep12 A Very CJ Christmas",
       "9O21O — S02E12 — 9O21O season 02 episode 12 christmasy",
       "Accidenta!!y on Purp0se Episode 11 ''It Happened One Christmas'' TV Show",
-      "AgathaRaisin s4 e01 Kissing Christmas Goodbye (TV Episo — S04E01 — AgathaRaisin s4 e01 Kissing Christmas Goodbye (TV Episode 2021 uk mystery comedy",
       "All Of Us — S02E10 — All Of Us S02E10 Home For Christmas",
       "All Of Us — S03E11 — All Of Us S03E11 Who Took the Merry Out of Christmas",
       "All Of Us — S04E10 — All Of Us S04E10 Everybody Loves Rain Man CHRISTMAS EP All of Us Official",
-      "Amen — S01E11 — Amen S01E11 Your Christmas Show of Shows"
+      "Amen — S01E11 — Amen S01E11 Your Christmas Show of Shows",
+      "Amen — S02E11 — Amen S02E11 The Twelve Songs of Christmas",
+      "B Positive 208 HD A Dog, a Mousse and a Bat christmas"
     ],
     "What": [
       "9-1-1 — S02E10 — 9 1 1 s02e10 christmas",
