@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "registered_programmes": 438,
+  "registered_programmes": 425,
   "registered_commercials": 18,
   "dates_checked": [
     {
@@ -20,87 +20,299 @@
     {
       "month": "december",
       "day": 1,
-      "airings": 6,
-      "adverts": 45,
-      "hold_minutes": 1082.6663999999996
+      "airings": 1,
+      "adverts": 47,
+      "hold_minutes": 1081.989583333333
     },
     {
       "month": "december",
       "day": 6,
-      "airings": 5,
-      "adverts": 40,
-      "hold_minutes": 1040.2502666666667
+      "airings": 2,
+      "adverts": 38,
+      "hold_minutes": 1040.0215666666666
     },
     {
       "month": "december",
       "day": 12,
-      "airings": 2,
+      "airings": 1,
       "adverts": 41,
-      "hold_minutes": 1050.487516666666
+      "hold_minutes": 1050.9800166666657
     },
     {
       "month": "december",
       "day": 24,
-      "airings": 9,
-      "adverts": 42,
-      "hold_minutes": 1068.8012833333332
+      "airings": 2,
+      "adverts": 46,
+      "hold_minutes": 1092.2169499999998
     },
     {
       "month": "december",
       "day": 25,
-      "airings": 8,
+      "airings": 2,
       "adverts": 41,
-      "hold_minutes": 1090.4260333333323
+      "hold_minutes": 1093.8922333333326
     }
   ],
-  "new_seasonal_airings": 30,
+  "new_seasonal_airings": 8,
   "non_december_airings": 0,
-  "christmas_ads_in_december": 209,
+  "christmas_ads_in_december": 213,
   "christmas_ads_in_october": 0,
   "max_intermission_seconds": 3600,
-  "airings_by_channel": {
-    "Off-Licence TV": 9,
-    "Star Spangled TV": 11,
-    "AAA": 4,
-    "Dizzy": 5,
-    "GirlyPop": 1
-  },
-  "sample_airings": [
+  "longest_holds": [
     {
+      "month": "december",
+      "day": 1,
+      "channel": "90s Toons",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 1,
+      "channel": "Cartoons Cartoons",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 1,
+      "channel": "Japanime",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
       "day": 1,
       "channel": "Off-Licence TV",
-      "title": "Michael Bentines Potty Time Father Christmas 1973",
-      "at": 1247
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
     },
     {
+      "month": "december",
       "day": 1,
       "channel": "Star Spangled TV",
-      "title": "Babe in the Wood Christmas Eve Celebration",
-      "at": 532
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
     },
     {
+      "month": "december",
       "day": 1,
-      "channel": "Star Spangled TV",
-      "title": "The Folklorist (part of ep1) The Christmas Truce on Vimeo ft vimeos downloader ()",
-      "at": 832
+      "channel": "AAA",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
     },
     {
+      "month": "december",
       "day": 1,
-      "channel": "Star Spangled TV",
-      "title": "Beverly Hills Buntz #09 A Christmas Carol with commercials intact yt Michael Dare",
-      "at": 989
+      "channel": "Dickleodeon",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
     },
+    {
+      "month": "december",
+      "day": 1,
+      "channel": "GirlyPop",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 1,
+      "channel": "Dizzy",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 1,
+      "channel": "What",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 6,
+      "channel": "90s Toons",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 6,
+      "channel": "Cartoons Cartoons",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 6,
+      "channel": "Japanime",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 6,
+      "channel": "Off-Licence TV",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 6,
+      "channel": "Star Spangled TV",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 6,
+      "channel": "AAA",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 6,
+      "channel": "Dickleodeon",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 6,
+      "channel": "GirlyPop",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 6,
+      "channel": "Dizzy",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 6,
+      "channel": "What",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 12,
+      "channel": "90s Toons",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 12,
+      "channel": "Cartoons Cartoons",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 12,
+      "channel": "Japanime",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 12,
+      "channel": "Off-Licence TV",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 12,
+      "channel": "Star Spangled TV",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 12,
+      "channel": "AAA",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 12,
+      "channel": "Dickleodeon",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 12,
+      "channel": "GirlyPop",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 12,
+      "channel": "Dizzy",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    },
+    {
+      "month": "december",
+      "day": 12,
+      "channel": "What",
+      "seconds": 3600,
+      "at": 240,
+      "block": "After hours — Christmas fireplace"
+    }
+  ],
+  "airings_by_channel": {
+    "AAA": 1,
+    "Off-Licence TV": 4,
+    "Star Spangled TV": 1,
+    "GirlyPop": 1,
+    "Dizzy": 1
+  },
+  "sample_airings": [
     {
       "day": 1,
       "channel": "AAA",
       "title": "Rab C Nesbitt More",
       "at": 605
-    },
-    {
-      "day": 1,
-      "channel": "Dizzy",
-      "title": "That Girl — S01E16 — That Girl S01E16 Christmas and the Hard Luck Kid (Dec 22, 1966)",
-      "at": 811
     },
     {
       "day": 6,
@@ -115,64 +327,10 @@
       "at": 1228
     },
     {
-      "day": 6,
-      "channel": "Star Spangled TV",
-      "title": "Just G00d Friends 6 min christmas Special",
-      "at": 141
-    },
-    {
-      "day": 6,
-      "channel": "AAA",
-      "title": "childrens hospital — S05E05 — childrens hospital season 05 episode 05 CHRISTMAS",
-      "at": 645
-    },
-    {
-      "day": 6,
-      "channel": "Dizzy",
-      "title": "That Girl Christmas and the Hard Luck Kid 1966 youtuber — S01E16 — That Girl Christmas and the Hard Luck Kid 1966 youtuber Raven TV That Girl S01E16",
-      "at": 451
-    },
-    {
       "day": 12,
       "channel": "Off-Licence TV",
       "title": "Dad's Army — S05E14 — Dad's Army Broadcast To The Empire S5E14",
       "at": 1064
-    },
-    {
-      "day": 12,
-      "channel": "Dizzy",
-      "title": "That Girl Twas the Night Before Christmas, You're Under Arrest 1967 youtuber Raven TV",
-      "at": 811
-    },
-    {
-      "day": 24,
-      "channel": "Off-Licence TV",
-      "title": "Man About The House Christmas Special 1973",
-      "at": 110
-    },
-    {
-      "day": 24,
-      "channel": "Off-Licence TV",
-      "title": "Michael Bentines Potty Time Father Christmas 1973",
-      "at": 767
-    },
-    {
-      "day": 24,
-      "channel": "Star Spangled TV",
-      "title": "The Folklorist (part of ep1) The Christmas Truce on Vimeo ft vimeos downloader ()",
-      "at": 323
-    },
-    {
-      "day": 24,
-      "channel": "Star Spangled TV",
-      "title": "Babe in the Wood Christmas Eve Celebration",
-      "at": 532
-    },
-    {
-      "day": 24,
-      "channel": "Star Spangled TV",
-      "title": "Just G00d Friends 6 min christmas Special",
-      "at": 711
     },
     {
       "day": 24,
@@ -182,33 +340,21 @@
     },
     {
       "day": 24,
-      "channel": "AAA",
-      "title": "childrens hospital — S05E05 — childrens hospital season 05 episode 05 CHRISTMAS",
-      "at": 766
-    },
-    {
-      "day": 24,
       "channel": "GirlyPop",
       "title": "Full House — S02E09 — fu!! h0us3 season 02 episode 09 christmas",
       "at": 454
     },
     {
-      "day": 24,
+      "day": 25,
+      "channel": "Off-Licence TV",
+      "title": "Dad's Army — S05E14 — Dad's Army Broadcast To The Empire S5E14",
+      "at": 1184
+    },
+    {
+      "day": 25,
       "channel": "Dizzy",
-      "title": "That Girl Christmas and the Hard Luck Kid 1966 youtuber — S01E16 — That Girl Christmas and the Hard Luck Kid 1966 youtuber Raven TV That Girl S01E16",
+      "title": "MK+A The Case of the Christmas Caper (1995)",
       "at": 811
-    },
-    {
-      "day": 25,
-      "channel": "Off-Licence TV",
-      "title": "Man About The House Christmas Special 1973",
-      "at": 575
-    },
-    {
-      "day": 25,
-      "channel": "Off-Licence TV",
-      "title": "Michael Bentines Potty Time Father Christmas 1973",
-      "at": 767
     }
   ]
 }
