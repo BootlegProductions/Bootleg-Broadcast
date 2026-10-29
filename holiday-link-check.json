@@ -1,0 +1,151 @@
+{
+  "checked": 18,
+  "http_reachable": 18,
+  "results": [
+    {
+      "channel": "90s Toons",
+      "title": "A Charlie Brown Christmas",
+      "status": 200,
+      "content_type": "video/mp4",
+      "head_reachable": true,
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/A%20Charlie%20Brown%20Christmas.mp4"
+    },
+    {
+      "channel": "Cartoons Cartoons",
+      "title": "A Garfield Christmas",
+      "status": 200,
+      "content_type": "video/mp4",
+      "head_reachable": true,
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/A%20Garfield%20Christmas.mp4"
+    },
+    {
+      "channel": "Dizzy",
+      "title": "A Phineas and Ferb Family Christmas",
+      "status": 200,
+      "content_type": "video/mp4",
+      "head_reachable": true,
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/A%20Phineas%20and%20Ferb%20Family%20Christmas.mp4"
+    },
+    {
+      "channel": "Japanime",
+      "title": "Pokemon — Pikachu's Winter Vacation",
+      "status": 200,
+      "content_type": "video/mp4",
+      "head_reachable": true,
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Pokemon%3B%20Pikachu%27s%20Winter%20Vacation.mp4"
+    },
+    {
+      "channel": "GirlyPop",
+      "title": "Equstria Girls — Holidays Unwrapped",
+      "status": 200,
+      "content_type": "video/mp4",
+      "head_reachable": true,
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Equstria%20Girls%3B%20Holidays%20Unwrapped.mp4"
+    },
+    {
+      "channel": "Off-Licence TV",
+      "title": "Doctor Who — A Christmas Carol",
+      "status": 200,
+      "content_type": "video/mp4",
+      "head_reachable": true,
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Doctor%20Who%3B%20A%20Christmas%20Carol.mp4"
+    },
+    {
+      "channel": "Star Spangled TV",
+      "title": "12 Days Of Christmas Eve",
+      "status": 200,
+      "content_type": "video/mp4",
+      "head_reachable": true,
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/12%20Days%20Of%20Christmas%20Eve.mp4"
+    },
+    {
+      "channel": "AAA",
+      "title": "Clone High — Snowflake Day — A Very Special Holiday Episode",
+      "status": 200,
+      "content_type": "video/mp4",
+      "head_reachable": true,
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Clone%20High%3B%20Snowflake%20Day%3B%20A%20Very%20Special%20Holiday%20Episode.mp4"
+    },
+    {
+      "channel": "What",
+      "title": "Noel — The Happy Christmas Ornament",
+      "status": 200,
+      "content_type": "video/mp4",
+      "head_reachable": true,
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Noel%3B%20The%20Happy%20Christmas%20Ornament.mp4"
+    },
+    {
+      "channel": "Cartoons Cartoons",
+      "title": "Kubo And The Two Strings",
+      "status": 200,
+      "content_type": "video/mp4",
+      "head_reachable": true,
+      "url": "https://archive.org/download/laika-studios-films/Kubo%20And%20The%20Two%20Strings.mp4"
+    },
+    {
+      "channel": "Cartoons Cartoons",
+      "title": "Missing Link",
+      "status": 200,
+      "content_type": "video/mp4",
+      "head_reachable": true,
+      "url": "https://archive.org/download/laika-studios-films/Missing%20Link.mp4"
+    },
+    {
+      "channel": "Cartoons Cartoons",
+      "title": "Paranorman",
+      "status": 200,
+      "content_type": "video/mp4",
+      "head_reachable": true,
+      "url": "https://archive.org/download/laika-studios-films/Paranorman.mp4"
+    },
+    {
+      "channel": "Cartoons Cartoons",
+      "title": "The Boxtrolls",
+      "status": 200,
+      "content_type": "video/mp4",
+      "head_reachable": true,
+      "url": "https://archive.org/download/laika-studios-films/The%20Boxtrolls.mp4"
+    },
+    {
+      "channel": "Dizzy",
+      "title": "Arthur Christmas",
+      "status": 200,
+      "content_type": "video/mp4",
+      "head_reachable": true,
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Arthur%20Christmas.mp4"
+    },
+    {
+      "channel": "Dizzy",
+      "title": "Mickey's Magical Christmas — Snowed in at the House of Mouse",
+      "status": 200,
+      "content_type": "video/mp4",
+      "head_reachable": true,
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Mickey%27s%20Magical%20Christmas%3B%20Snowed%20in%20at%20the%20House%20of%20Mouse.mp4"
+    },
+    {
+      "channel": "Dizzy",
+      "title": "Mickey's Once Upon A Christmas",
+      "status": 200,
+      "content_type": "video/mp4",
+      "head_reachable": true,
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Mickey%27s%20Once%20Upon%20A%20Christmas.mp4"
+    },
+    {
+      "channel": "Dizzy",
+      "title": "The Muppet Christmas Carol",
+      "status": 200,
+      "content_type": "video/mp4",
+      "head_reachable": true,
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/The%20Muppet%20Christmas%20Carol.mp4"
+    },
+    {
+      "channel": "Japanime",
+      "title": "Neo Yokio — Pink Christmas (English Dub)",
+      "status": 200,
+      "content_type": "video/mp4",
+      "head_reachable": true,
+      "url": "https://archive.org/download/christmas-media-preservation-chamber_626/Neo%20Yokio%3B%20Pink%20Christmas%20%28English%20Dub%29.mp4"
+    }
+  ],
+  "note": "HEAD only; browser-compatible audio/video and rights are not verified."
+}
