@@ -38,7 +38,7 @@ for ident,target in items.items():
   out['sources'].append({'identifier':ident,**target,'archive_title':meta.get('metadata',{}).get('title'),
     'eligible_original_mp4':len(videos),'already_in_catalogue_url':sum(v['duplicate_url'] for v in videos),
     'existing_show_count':byshow.get(target['name'].lower(),0),
-    'videos':videos[:100],'truncated':len(videos)>100})
+    'videos':videos[:200],'truncated':len(videos)>200})
  except Exception as exc:out['errors'].append({'identifier':ident,'error':str(exc)[:200]})
 (root/'nick-uploader-programmes-review.json').write_text(json.dumps(out,indent=2,ensure_ascii=False)+'\n')
 print(json.dumps({'sources':[{'name':p['name'],'mp4':p['eligible_original_mp4'],
