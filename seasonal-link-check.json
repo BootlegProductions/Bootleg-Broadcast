@@ -1,0 +1,309 @@
+{
+  "checked": 32,
+  "http_reachable": 32,
+  "by_source": {
+    "yt-PL059E38785A0BB5F6": {
+      "checked": 8,
+      "head_reachable": 8
+    },
+    "christmas-episodes-and-specials": {
+      "checked": 14,
+      "head_reachable": 14
+    },
+    "ChristmasSpecials": {
+      "checked": 10,
+      "head_reachable": 10
+    }
+  },
+  "results": [
+    {
+      "source": "yt-PL059E38785A0BB5F6",
+      "name": "1980's Kentucky Fried Chicken Christmas Commercial-6XJZeW9IQZc.mp4",
+      "url": "https://archive.org/download/yt-PL059E38785A0BB5F6/1980%27s%20Kentucky%20Fried%20Chicken%20Christmas%20Commercial-6XJZeW9IQZc.mp4",
+      "seconds": 30.23,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "yt-PL059E38785A0BB5F6",
+      "name": "1980's McDonalds Star Wish Christmas Commercial-2TbUXyd25PE.mp4",
+      "url": "https://archive.org/download/yt-PL059E38785A0BB5F6/1980%27s%20McDonalds%20Star%20Wish%20Christmas%20Commercial-2TbUXyd25PE.mp4",
+      "seconds": 60.09,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "yt-PL059E38785A0BB5F6",
+      "name": "1980s Kmart Christmas Commercial-ZGgpXov8TS0.mp4",
+      "url": "https://archive.org/download/yt-PL059E38785A0BB5F6/1980s%20Kmart%20Christmas%20Commercial-ZGgpXov8TS0.mp4",
+      "seconds": 30.61,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "yt-PL059E38785A0BB5F6",
+      "name": "Budweiser Christmas Advert 1987-wz0diX7dsi8.mp4",
+      "url": "https://archive.org/download/yt-PL059E38785A0BB5F6/Budweiser%20Christmas%20Advert%201987-wz0diX7dsi8.mp4",
+      "seconds": 60.33,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "yt-PL059E38785A0BB5F6",
+      "name": "Coca Cola Christmas Commercial old-2ykRm-rYVCk.mp4",
+      "url": "https://archive.org/download/yt-PL059E38785A0BB5F6/Coca%20Cola%20Christmas%20Commercial%20old-2ykRm-rYVCk.mp4",
+      "seconds": 31.37,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "yt-PL059E38785A0BB5F6",
+      "name": "Coca-Cola 70's Christmas Hilltop Commercial-_zCsFvVg0UY.mp4",
+      "url": "https://archive.org/download/yt-PL059E38785A0BB5F6/Coca-Cola%2070%27s%20Christmas%20Hilltop%20Commercial-_zCsFvVg0UY.mp4",
+      "seconds": 51.94,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "yt-PL059E38785A0BB5F6",
+      "name": "Eat 'N Park Christmas Star Commercial-P3NhDtfZmd0.mp4",
+      "url": "https://archive.org/download/yt-PL059E38785A0BB5F6/Eat%20%27N%20Park%20Christmas%20Star%20Commercial-P3NhDtfZmd0.mp4",
+      "seconds": 31.05,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "yt-PL059E38785A0BB5F6",
+      "name": "Fruity Pebbles Christmas Commercial-MadGwgiRgAM.mp4",
+      "url": "https://archive.org/download/yt-PL059E38785A0BB5F6/Fruity%20Pebbles%20Christmas%20Commercial-MadGwgiRgAM.mp4",
+      "seconds": 29.88,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "christmas-episodes-and-specials",
+      "name": "+42 sec Motherland Christmas Special.mp4",
+      "url": "https://archive.org/download/christmas-episodes-and-specials/%2B42%20sec%20Motherland%20Christmas%20Special.mp4",
+      "seconds": 42.48,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "christmas-episodes-and-specials",
+      "name": "Just the Ten of Us Christmas Ad 1989.mp4",
+      "url": "https://archive.org/download/christmas-episodes-and-specials/Just%20the%20Ten%20of%20Us%20Christmas%20Ad%201989.mp4",
+      "seconds": 10.16,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "christmas-episodes-and-specials",
+      "name": "Just the Ten of Us Christmas Greeting 1989.mp4",
+      "url": "https://archive.org/download/christmas-episodes-and-specials/Just%20the%20Ten%20of%20Us%20Christmas%20Greeting%201989.mp4",
+      "seconds": 10.41,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "christmas-episodes-and-specials",
+      "name": "Minor Adjustments 1x20 clip -Tahj Mowry guest star in Minor Adjustments 1996 - christmas.mp4",
+      "url": "https://archive.org/download/christmas-episodes-and-specials/Minor%20Adjustments%201x20%20clip%20-Tahj%20Mowry%20guest%20star%20in%20Minor%20Adjustments%201996%20-%20christmas.mp4",
+      "seconds": 70.01,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "christmas-episodes-and-specials",
+      "name": "21 Jump st 211 Christmas in Saigon -Johnny Depp, Holly Robinson Peete, Peter DeLuise, Dustin Nguyen, Steven Williams.mp4",
+      "url": "https://archive.org/download/christmas-episodes-and-specials/21%20Jump%20st%20211%20Christmas%20in%20Saigon%20-Johnny%20Depp%2C%20Holly%20Robinson%20Peete%2C%20Peter%20DeLuise%2C%20Dustin%20Nguyen%2C%20Steven%20Williams.mp4",
+      "seconds": 2770.09,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "christmas-episodes-and-specials",
+      "name": "bones_season_5_-_episode_10___christmas.mp4",
+      "url": "https://archive.org/download/christmas-episodes-and-specials/bones_season_5_-_episode_10___christmas.mp4",
+      "seconds": 2621.12,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "christmas-episodes-and-specials",
+      "name": "first.dates.s13e07.at.christmas.1080p.hdtv.mp4",
+      "url": "https://archive.org/download/christmas-episodes-and-specials/first.dates.s13e07.at.christmas.1080p.hdtv.mp4",
+      "seconds": 2818.92,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "christmas-episodes-and-specials",
+      "name": "icar!y-_season_02_-_episode_07 not 06___christmas   - S2, Ep6 13 Dec. 2008 iChristmas.mp4",
+      "url": "https://archive.org/download/christmas-episodes-and-specials/icar%21y-_season_02_-_episode_07%20not%2006___christmas%20%20%20-%20S2%2C%20Ep6%2013%20Dec.%202008%20iChristmas.mp4",
+      "seconds": 1409.52,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "christmas-episodes-and-specials",
+      "name": "modern.family.s05e10. christmas -Ed O'Neill Sofía Vergara Julie Bowen Ty Burrell Jesse Tyler Ferguson Eric Stonestreet Sarah Hyland Ariel Winter Nolan Gould.mp4",
+      "url": "https://archive.org/download/christmas-episodes-and-specials/modern.family.s05e10.%20christmas%20-Ed%20O%27Neill%20Sof%C3%ADa%20Vergara%20Julie%20Bowen%20Ty%20Burrell%20Jesse%20Tyler%20Ferguson%20Eric%20Stonestreet%20Sarah%20Hyland%20Ariel%20Winter%20Nolan%20Gould.mp4",
+      "seconds": 1266.64,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "christmas-episodes-and-specials",
+      "name": "psych-_season_05_-_episode_14___christmas.mp4",
+      "url": "https://archive.org/download/christmas-episodes-and-specials/psych-_season_05_-_episode_14___christmas.mp4",
+      "seconds": 2584.45,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "christmas-episodes-and-specials",
+      "name": "Student Bodies 110a -- 01-10 The Christmas Concert (1_3) _ -youtuber studentbodies.mp4",
+      "url": "https://archive.org/download/christmas-episodes-and-specials/Student%20Bodies%20110a%20--%2001-10%20The%20Christmas%20Concert%20%281_3%29%20_%20-youtuber%20studentbodies.mp4",
+      "seconds": 537.61,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "christmas-episodes-and-specials",
+      "name": "A Year in the Life Mini-Series Pt. 1 The First Christmas - youtu.mp4",
+      "url": "https://archive.org/download/christmas-episodes-and-specials/A%20Year%20in%20the%20Life%20Mini-Series%20Pt.%201%20The%20First%20Christmas%20-%20youtu.mp4",
+      "seconds": 5612.28,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "christmas-episodes-and-specials",
+      "name": "AgathaRaisin s4 e01- Kissing Christmas Goodbye (TV Episode 2021 uk mystery comedy.mp4",
+      "url": "https://archive.org/download/christmas-episodes-and-specials/AgathaRaisin%20s4%20e01-%20Kissing%20Christmas%20Goodbye%20%28TV%20Episode%202021%20uk%20mystery%20comedy.mp4",
+      "seconds": 5642.2,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "christmas-episodes-and-specials",
+      "name": "Green Wing S02_E09 - movie length Christmas Special - TUBI TV - UK comedy -large.mp4",
+      "url": "https://archive.org/download/christmas-episodes-and-specials/Green%20Wing%20S02_E09%20-%20movie%20length%20Christmas%20Special%20-%20TUBI%20TV%20-%20UK%20comedy%20-large.mp4",
+      "seconds": 5508.35,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "ChristmasSpecials",
+      "name": "A Bit of a Do S01.E03 The Angling Club Christmas Party.mp4",
+      "url": "https://archive.org/download/ChristmasSpecials/A%20Bit%20of%20a%20Do%20S01.E03%20The%20Angling%20Club%20Christmas%20Party.mp4",
+      "seconds": 3007.66,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "ChristmasSpecials",
+      "name": "CarryOnChristmasMemories.mp4",
+      "url": "https://archive.org/download/ChristmasSpecials/CarryOnChristmasMemories.mp4",
+      "seconds": 1145.98,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "ChristmasSpecials",
+      "name": "Eyes Down - S02E07 - Christmas Special (2004).mp4",
+      "url": "https://archive.org/download/ChristmasSpecials/Eyes%20Down%20-%20S02E07%20-%20Christmas%20Special%20%282004%29.mp4",
+      "seconds": 1751.71,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "ChristmasSpecials",
+      "name": "InSicknessInHealth1987.mp4",
+      "url": "https://archive.org/download/ChristmasSpecials/InSicknessInHealth1987.mp4",
+      "seconds": 1785.94,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "ChristmasSpecials",
+      "name": "On The Buses S4Ep5 Christmas Duty.mp4",
+      "url": "https://archive.org/download/ChristmasSpecials/On%20The%20Buses%20S4Ep5%20Christmas%20Duty.mp4",
+      "seconds": 1365.16,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "ChristmasSpecials",
+      "name": "StillOpenAllHoursChristmasSpecial2018s05E07.mp4",
+      "url": "https://archive.org/download/ChristmasSpecials/StillOpenAllHoursChristmasSpecial2018s05E07.mp4",
+      "seconds": 1758.84,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "ChristmasSpecials",
+      "name": "The.Lenny.Henry.Christmas.Show.1995.mp4",
+      "url": "https://archive.org/download/ChristmasSpecials/The.Lenny.Henry.Christmas.Show.1995.mp4",
+      "seconds": 1723.25,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "ChristmasSpecials",
+      "name": "All.Star.Comedy.Carnival.1972.mp4",
+      "url": "https://archive.org/download/ChristmasSpecials/All.Star.Comedy.Carnival.1972.mp4",
+      "seconds": 5689.02,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "ChristmasSpecials",
+      "name": "Jimmy.Tarbucks.Christmas.All.Stars.1983.mp4",
+      "url": "https://archive.org/download/ChristmasSpecials/Jimmy.Tarbucks.Christmas.All.Stars.1983.mp4",
+      "seconds": 4841.06,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    },
+    {
+      "source": "ChristmasSpecials",
+      "name": "Only.Fools.and.Horses.Greatest.Christmas.Moments.2023.mp4",
+      "url": "https://archive.org/download/ChristmasSpecials/Only.Fools.and.Horses.Greatest.Christmas.Moments.2023.mp4",
+      "seconds": 4027.13,
+      "http": 200,
+      "mime": "video/mp4",
+      "head_reachable": true
+    }
+  ],
+  "note": "HTTP HEAD availability only; actual browser decoding, audio, streaming stability and usage rights not verified."
+}
