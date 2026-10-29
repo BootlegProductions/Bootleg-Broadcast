@@ -1,0 +1,28 @@
+name: Check seasonal Archive video links
+on:
+  push:
+    paths:
+      - '.github/workflows/probe-seasonal-links.yml'
+      - 'tools/probe_seasonal_links.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify sample archive streams are available by HTTP HEAD
+        run: python tools/probe_seasonal_links.py
+      - name: Commit observed availability without flagging files as dead
+        run: |
+          git config user.name "Bootleg Broadcast Source Check"
+          git config user.email "actions@users.noreply.github.com"
+          git add seasonal-link-check.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record sampled Christmas video link availability"
+            git fetch origin main
+            git rebase origin/main
+            git push
+          fi
