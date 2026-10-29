@@ -1,0 +1,27 @@
+name: Verify Nick uploader series and film integration
+on:
+  push:
+    paths:
+      - '.github/workflows/verify-nick-uploader.yml'
+      - 'tools/verify_nick_uploader.cjs'
+      - 'nick-uploader-programmes.js'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test new episode identities, movie entries and on-air slots
+        run: node tools/verify_nick_uploader.cjs
+      - name: Commit programme verification report
+        run: |
+          git config user.name "Bootleg Broadcast Validation"
+          git config user.email "actions@users.noreply.github.com"
+          git add nick-uploader-validation.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record integrated Nick series episode and scheduled-airtime validation"
+            git push
+          fi
