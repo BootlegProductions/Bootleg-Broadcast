@@ -2002,3 +2002,15 @@ body.mobile-scene #screen > #scheduleOverlay .schedule-item { grid-template-colu
 body.mobile-scene #screen > #scheduleOverlay .schedule-marker,
 body.mobile-scene #screen > #scheduleOverlay .schedule-title,
 body.mobile-scene #screen > #scheduleOverlay .schedule-status { font-size: clamp(7px,1.3vw,10px); }
+
+/* Channel-specific seasonal and film selections in the existing full guide.
+   This does not affect the TV screen, miniature guide or room layout. */
+.holiday-programmes { margin: 12px 0; border: 1px solid rgba(131,198,137,.48); border-radius: 8px; background: rgba(5,24,13,.84); }
+.holiday-programmes[hidden] { display: none; }
+.holiday-programmes > summary { cursor: pointer; padding: 12px 14px; color: #d4ffd0; font: bold 13px/1.4 monospace; letter-spacing: .025em; }
+.holiday-programmes > summary:focus-visible { outline: 2px solid #bfffbb; outline-offset: 2px; }
+#holiday-programmes-list { padding: 0 10px 10px; display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,240px),1fr)); gap: 8px; }
+.holiday-watch { display: flex; flex-direction: column; align-items: flex-start; gap: 5px; width: 100%; padding: 10px; border: 1px solid rgba(139,217,139,.26); border-radius: 5px; background: #102b18; color: #ddffdc; text-align: left; cursor: pointer; font: 12px/1.35 monospace; }
+.holiday-watch:hover, .holiday-watch:focus-visible { background: #1e4425; border-color: #aaffaa; }
+.holiday-watch .holiday-title { font-weight: bold; }
+.holiday-watch small { color: #a6c9a0; font-size: 10px; }
