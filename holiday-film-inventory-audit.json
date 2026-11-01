@@ -1,0 +1,319 @@
+{
+  "counts": {
+    "90s Toons": {
+      "all": 28,
+      "movies": 11,
+      "specials": 17,
+      "halloween": 2,
+      "christmas": 10,
+      "new_imports": 0
+    },
+    "Cartoons Cartoons": {
+      "all": 26,
+      "movies": 11,
+      "specials": 15,
+      "halloween": 9,
+      "christmas": 4,
+      "new_imports": 5
+    },
+    "Japanime": {
+      "all": 69,
+      "movies": 59,
+      "specials": 10,
+      "halloween": 6,
+      "christmas": 13,
+      "new_imports": 1
+    },
+    "Off-Licence TV": {
+      "all": 147,
+      "movies": 30,
+      "specials": 117,
+      "halloween": 5,
+      "christmas": 129,
+      "new_imports": 83
+    },
+    "Star Spangled TV": {
+      "all": 178,
+      "movies": 94,
+      "specials": 84,
+      "halloween": 40,
+      "christmas": 71,
+      "new_imports": 24
+    },
+    "AAA": {
+      "all": 31,
+      "movies": 17,
+      "specials": 14,
+      "halloween": 0,
+      "christmas": 9,
+      "new_imports": 9
+    },
+    "Dickleodeon": {
+      "all": 48,
+      "movies": 26,
+      "specials": 22,
+      "halloween": 6,
+      "christmas": 16,
+      "new_imports": 0
+    },
+    "GirlyPop": {
+      "all": 42,
+      "movies": 27,
+      "specials": 15,
+      "halloween": 2,
+      "christmas": 19,
+      "new_imports": 13
+    },
+    "Dizzy": {
+      "all": 77,
+      "movies": 57,
+      "specials": 20,
+      "halloween": 7,
+      "christmas": 20,
+      "new_imports": 7
+    },
+    "What": {
+      "all": 23,
+      "movies": 4,
+      "specials": 19,
+      "halloween": 7,
+      "christmas": 12,
+      "new_imports": 3
+    }
+  },
+  "existing_holiday_appointments": {
+    "october": 56,
+    "december": 49
+  },
+  "existing_calendar_entries": 638,
+  "samples": {
+    "90s Toons": {
+      "halloween": [
+        "Godzilla (1998)",
+        "It's the Great Pumpkin, Charlie Brown"
+      ],
+      "christmas": [
+        "I Want a Dog for Christmas, Charlie Brown",
+        "A Flintstone Christmas (1977)",
+        "A Flintstone Christmas (1977)",
+        "A Flintstones Christmas Carol (1994)",
+        "A Flintstones Christmas Carol (1994)",
+        "He-Man & She-Ra - A Christmas Special (1985)",
+        "He-Man & She-Ra - A Christmas Special (1985)",
+        "Mister Magoo's Christmas Carol (1962)",
+        "Pinocchios Christmas (1980)",
+        "Yogi's First Christmas (1980)"
+      ]
+    },
+    "Cartoons Cartoons": {
+      "halloween": [
+        "Scary Godmother: Halloween Spooktacular",
+        "Scary Godmother: The Revenge of Jimmy",
+        "Scooby-Doo (2002)",
+        "Scooby-Doo 2 Monsters Unleashed",
+        "Scooby-Doo and the Ghoul School",
+        "Scooby-Doo! Frankencreepy",
+        "Underfist Halloween Bash (2008)",
+        "The Halloween Tree",
+        "Paranorman"
+      ],
+      "christmas": [
+        "The Grim Adventures of Billy and Mandy - S2 - Billy and Mandy Save Christmas - emory",
+        "The Grim Adventures of Billy & Mandy - Billy & Mandy Save Christmas",
+        "The Powerpuff Girls - ‘Twas the Fight Before Christmas",
+        "Bah, Humduck! - A Looney Tunes Christmas"
+      ]
+    },
+    "Japanime": {
+      "halloween": [
+        "Akira",
+        "Bayonetta Bloody Fate",
+        "Paprika",
+        "Perfect Blue",
+        "Shin Godzilla (2016)",
+        "Spirited Away (2001) English"
+      ],
+      "christmas": [
+        "Anpanman - Christmas 1995",
+        "Anpanman - Christmas 1997",
+        "Anpanman - Christmas 1999",
+        "Anpanman - Christmas 2001",
+        "Anpanman - Christmas 2003",
+        "Anpanman - Christmas 2005",
+        "Anpanman - Christmas 2006",
+        "Anpanman - Christmas 2007",
+        "Anpanman - Christmas 2009",
+        "Anpanman - Christmas 2010",
+        "Itsudatte My Santa",
+        "Tokyo Godfathers"
+      ]
+    },
+    "Off-Licence TV": {
+      "halloween": [
+        "Ghostwatch",
+        "Jonathan Creek: The Judas Tree",
+        "Nearest And Dearest — The Ghost Of Picklers Past — XMAS SPECIAL 1969",
+        "The Worst Witch (1986)",
+        "Nearest and Dearest Special 'The Ghost Of Picklers Past'"
+      ],
+      "christmas": [
+        "8 Out of 10 Cats Does Countdown - S06E00 - Christmas Special 2014 (",
+        "8 Out of 10 Cats Does Countdown - S12E00 - Christmas Special 2016-RelaTVity",
+        "8 Out of 10 Cats Does Countdown - S15E00 - Christmas Special 2017 (",
+        "8 Out of 10 Cats Does Countdown - S17E00 - Christmas Special 2018-DJV",
+        "8 Out of 10 Cats Does Countdown - S18E08 - Christmas Special 2019-DJV",
+        "8 Out of 10 Cats Does Countdown - S20E06 - Christmas Special 2020-DJV",
+        "8 Out of 10 Cats Does Countdown - S22E00 - Christmas Special 2021-DJV",
+        "8 Out of 10 Cats Does Countdown - S24E00 - Christmas Special 2022-DJV",
+        "A Christmas Carol (1984)",
+        "A Christmas Carol (1984)",
+        "A Christmas Carol (1997)",
+        "A Christmas Carol (1997)"
+      ]
+    },
+    "Star Spangled TV": {
+      "halloween": [
+        "30 Days of Night (2007)",
+        "30 Days of Night: Dark Days",
+        "A Nightmare on Elm Street (1984)",
+        "Abraham Lincoln Vampire Hunter (2012)",
+        "Beetlejuice (1988)",
+        "Black Christmas (1974)",
+        "Creepshow (2019) - S01E07 - A Creepshow Animated Special꞉ Survivor Type & Twittering from the Circus of the Dead",
+        "Creepshow (2019) - S01E08 - A Creepshow Holiday Special꞉ Shapeshifters Anonymous",
+        "Ghost Dog - the Way of the Samurai (1999)",
+        "Ghost Rider (2007)",
+        "Ghost Rider: Spirit of Vengeance (2011)",
+        "Godzilla (2014)"
+      ],
+      "christmas": [
+        "A Christmas Story (1983)",
+        "A Christmas Story (1983)",
+        "A Hobo's Christmas (1987)",
+        "A Hobo's Christmas (1987)",
+        "A Hobo's Christmas (1987)",
+        "A Muppet Family Christmas",
+        "A Muppet Family Christmas (1987)",
+        "A Muppet Family Christmas (1987)",
+        "Arthur Christmas (2011)",
+        "Black Christmas (1974)",
+        "Creepshow (2019) - S01E08 - A Creepshow Holiday Special꞉ Shapeshifters Anonymous",
+        "Ernest Saves Christmas (1988)"
+      ]
+    },
+    "AAA": {
+      "halloween": [],
+      "christmas": [
+        "Helluva Boss — Sinsmas",
+        "Absolutely Fabulous Cold Turkey",
+        "D3XT3R 1x11 Truth Be Told ice truck killer kidnaps deb christmas ep",
+        "HARRY ENFIELD AND CHRISTMAS CHUMS (1997)",
+        "Rab C Nesbitt Christmas Special 2008",
+        "Rab C Nesbitt More",
+        "Rab C Nesbitt Pilot Seasonal Greet 31st December 1989",
+        "Rab C Nesbitt home",
+        "The Catherine Tate Christmas Special (2005)"
+      ]
+    },
+    "Dickleodeon": {
+      "halloween": [
+        "Barney & Friends - Barney's Halloween Party",
+        "Barney’s Halloween Party",
+        "Curious George: A Halloween Boofest",
+        "Monster House (2006)",
+        "Monsters Vs Aliens (2009)",
+        "Sesame Street - A Magical Halloween Adventure"
+      ],
+      "christmas": [
+        "A Sesame Street Christmas Carol (2006)",
+        "A Christmas Eve On Sesame Street",
+        "Arthur - Arthur Perfect Christmas",
+        "Barney & Friends - Barney's Christmas Star",
+        "Barney & Friends - Barney's Night Before Christmas",
+        "Barney & The Backyard Gang - Waiting for Santa",
+        "C Elmo Saves Christmas",
+        "Curious George - A Very Monkey Christmas",
+        "E A Sesame Street Christmas Carol",
+        "F Sesame Street Elmo's Christmas Countdown",
+        "G Sesame Street Once Upon A Sesame Street Christmas",
+        "Rise of the Guardians (2012)"
+      ]
+    },
+    "GirlyPop": {
+      "halloween": [
+        "Coraline (2009)",
+        "The Nightmare Before Christmas (1993)"
+      ],
+      "christmas": [
+        "A Fairy Tale Christmas (2005)",
+        "A Fairy Tale Christmas (2005)",
+        "A Snow White Christmas (1980)",
+        "A Snow White Christmas (1980)",
+        "Barbie Nutcracker",
+        "Bratz Babyz Save Christmas",
+        "The Nightmare Before Christmas (1993)",
+        "Equstria Girls — Holidays Unwrapped",
+        "My Little Pony — A Very Minty Christmas",
+        "My Little Pony Friendship Is Magic — The Best Gift Ever",
+        "Crackerjack The Story of Aladdin 1974",
+        "Super Gran Christmas Special 1986)"
+      ]
+    },
+    "Dizzy": {
+      "halloween": [
+        "A Disney Halloween (1983)",
+        "Disney's DTV Monster Hits (1987)",
+        "Frankenweenie — feature presentation",
+        "Monsters University (2013)",
+        "Monsters Inc (2001)",
+        "Pooh's Heffalump Halloween Movie",
+        "1949 - Disney - The Legend Of Sleepy Hollow"
+      ],
+      "christmas": [
+        "A Disney Christmas Gift (1982)",
+        "A Disney Christmas Gift (1982)",
+        "A Walt Disney Christmas (1982)",
+        "A Walt Disney Christmas (1982)",
+        "Bear in the Big Blue House - A Berry Bear Christmas",
+        "Beauty and the Beast The Enchanted Christmas (1997)",
+        "Beauty and the Beast The Enchanted Christmas (1997)",
+        "House of Mouse - Mickey's Magical Christmas Snowed in at the House of Mouse (2001)",
+        "House of Mouse - Mickey's Magical Christmas Snowed in at the House of Mouse (2001)",
+        "My Friends Tigger & Pooh - Super Sleuth Christmas Movie",
+        "Phineas and Ferb - Phineas and Ferb Christmas Vacation!",
+        "Phineas and Ferb - Phineas and Ferb Christmas Vacation"
+      ]
+    },
+    "What": {
+      "halloween": [
+        "Ghost Adventures S03E01 Trans Allegheny Lunatic Asylum LIVE Part 1 (1)",
+        "Ghost Adventures S03E01 Trans Allegheny Lunatic Asylum LIVE Part 2 (1)",
+        "Ghost Adventures S03E01 Trans Allegheny Lunatic Asylum LIVE Part 3 (1)",
+        "Ghost Adventures (2004 documentary)",
+        "Most Haunted in America (2002)",
+        "Most Haunted Journeys (2004)",
+        "The Haunted History of Halloween"
+      ],
+      "christmas": [
+        "A Christmas Carol (1984)",
+        "A Christmas Carol (1997)",
+        "A Christmas Carol (1999)",
+        "A Muppet Family Christmas (1987)",
+        "A Sesame Street Christmas Carol (2006)",
+        "How the Grinch Stole Christmas (2000)",
+        "Mister Magoo's Christmas Carol (1962)",
+        "Rudolph The Red Nosed Reindeer (1964)",
+        "The Muppet Christmas Carol (1992)",
+        "The Lego Star Wars Holiday Special",
+        "psych season 03, E9 Christmas Joy attach subs",
+        "scandal s05e09 720p king christmas"
+      ]
+    }
+  },
+  "origins": {
+    "catalogue": 26840,
+    "new-holiday": 54,
+    "seasonal": 425,
+    "nick": 242
+  }
+}
