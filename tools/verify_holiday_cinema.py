@@ -62,6 +62,16 @@ for ch,v in summary['by_channel'].items():
  v['unique_movies']=len(v['unique_movies'])
 summary['coverage_percent']=round(100*summary['days_with_two_or_more']/summary['channel_days'],1)
 summary['low_coverage']=summary['low_coverage'][:90]
+print(json.dumps({'preflight_coverage':{
+ 'channel_days':summary['channel_days'],
+ 'days_without_feature':summary['days_with_none'],
+ 'days_with_one':summary['days_with_one'],
+ 'days_with_two_or_more':summary['days_with_two_or_more'],
+ 'actual_movies':summary['actual_movie_airings'],
+ 'specials':summary['feature_length_specials'],
+ 'per_channel':{ch:{k:v[k] for k in ['movies','features','two_or_more','one','none','unique_movies']}
+                 for ch,v in summary['by_channel'].items()},
+ 'missing_first_25':summary['low_coverage'][:25]}},ensure_ascii=False,indent=2))
 # Never silently pass a channel that lost all holiday movie days.
 assert summary['days_with_none']==0,'At least one feature missing on some channel-days'
 assert summary['days_with_two_or_more']>=round(summary['channel_days']*.8),'Most days should feature two films'
