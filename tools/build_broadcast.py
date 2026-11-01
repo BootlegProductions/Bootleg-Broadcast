@@ -396,13 +396,21 @@ for ordinal in range(366 if calendar.isleap(YEAR) else 365):
     p={**chosen,'type':'Filler','show':ch,'title':chosen.get('title','Christmas overnight fireplace'),'loop':True};t=append(p,t,stop-t,label);breaks(t,offset(slots[ix+1]['at']) if ix+1<len(slots) else next_start-start,label);continue
    seasonal_pick=seasonal_plan.get((date.isoformat(),ch,appointment['at']))
    if seasonal_pick:
+    wrote_seasonal=False
     for url in seasonal_pick['urls']:
      p=next((p for p in records if p['url']==url),None)
      if not p or not usable(p) or p['content_id'] in used or p['duration_seconds']>stop-t:
-      raise RuntimeError('Invalid seasonal appointment: '+str(date)+' '+ch+' '+url)
+      # The authored source may have been removed/restricted after the
+      # calendar was written. Fall back to normal channel programming while
+      # recording the missing source; never invent a duration or URL.
+      report.setdefault('unavailable_seasonal_appointments',[]).append({
+       'date':date.isoformat(),'channel':ch,'at':appointment['at'],'url':url})
+      continue
      t=append(p,t,p['duration_seconds'],seasonal_pick['block']);used.add(p['content_id']);report['programme_slots']+=1;special_last[ch,p['content_id']]=date.toordinal()
      t=breaks(t,min(stop,t+channel_breaks[ch]['ident']['duration_seconds']),label)
-    feature=False
+     wrote_seasonal=True
+    if wrote_seasonal:feature=False
+    else:seasonal_pick=None
    if key in ['@pilot-showcase','@aaa-feature']:
     source_urls=config['pilot_showcase'][(date.toordinal()//7)%len(config['pilot_showcase'])] if key=='@pilot-showcase' else [appointment['feature_urls'][(date.month-1)%len(appointment['feature_urls'])]]
     for url in source_urls:
