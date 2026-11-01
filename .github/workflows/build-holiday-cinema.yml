@@ -1,0 +1,36 @@
+name: Build Halloween and Christmas daily cinema
+on:
+  push:
+    paths:
+      - '.github/workflows/build-holiday-cinema.yml'
+      - 'tools/build_broadcast.py'
+      - 'tools/verify_holiday_cinema.py'
+      - 'holiday-cinema-windows.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+      - name: Syntax-check season film compiler
+        run: python -m py_compile tools/build_broadcast.py tools/verify_holiday_cinema.py
+      - name: Build 2026 October and December daily holiday cinema
+        run: python tools/build_broadcast.py 2026 --holiday-only > holiday-cinema-build.log
+      - name: Verify daily movie counts and retained show blocks
+        run: python tools/verify_holiday_cinema.py
+      - name: Verify full-year clock and station continuity
+        run: node tools/verify_continuity.cjs
+      - name: Commit schedules and selected film appointments after successful validation
+        run: |
+          git config user.name "Bootleg Broadcast Scheduling"
+          git config user.email "actions@users.noreply.github.com"
+          git add schedules/october.json schedules/december.json schedule.json holiday-film-appointments.json holiday-cinema-validation.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Broadcast daily Halloween and Christmas cinema on every channel"
+            git fetch origin main
+            git rebase origin/main
+            git push
+          fi
