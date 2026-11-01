@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "months": [
+    10,
+    12
+  ],
+  "note": "October/December only. Two daily feature windows per channel. Existing weekly film appointments and authored seasonal screenings take precedence. Other months and fixed morning/overnight blocks stay unchanged.",
+  "channels": {
+    "90s Toons": [
+      {
+        "at": "14:00",
+        "end": "17:00",
+        "role": "matinee",
+        "block": "Seasonal cinema — matinee feature"
+      },
+      {
+        "at": "20:00",
+        "end": "23:00",
+        "role": "evening",
+        "block": "Seasonal cinema — evening feature"
+      }
+    ],
+    "Cartoons Cartoons": [
+      {
+        "at": "14:00",
+        "end": "17:00",
+        "role": "matinee",
+        "block": "Seasonal cinema — matinee feature"
+      },
+      {
+        "at": "20:00",
+        "end": "23:00",
+        "role": "evening",
+        "block": "Seasonal cinema — evening feature"
+      }
+    ],
+    "Japanime": [
+      {
+        "at": "14:00",
+        "end": "17:00",
+        "role": "matinee",
+        "block": "Seasonal cinema — matinee feature"
+      },
+      {
+        "at": "20:00",
+        "end": "23:00",
+        "role": "evening",
+        "block": "Seasonal cinema — evening feature"
+      }
+    ],
+    "Off-Licence TV": [
+      {
+        "at": "14:00",
+        "end": "17:00",
+        "role": "matinee",
+        "block": "Seasonal cinema — matinee feature"
+      },
+      {
+        "at": "21:00",
+        "end": "24:00",
+        "role": "evening",
+        "block": "Seasonal cinema — evening feature"
+      }
+    ],
+    "Star Spangled TV": [
+      {
+        "at": "14:00",
+        "end": "17:00",
+        "role": "matinee",
+        "block": "Seasonal cinema — matinee feature"
+      },
+      {
+        "at": "21:00",
+        "end": "24:00",
+        "role": "evening",
+        "block": "Seasonal cinema — evening feature"
+      }
+    ],
+    "AAA": [
+      {
+        "at": "14:00",
+        "end": "17:00",
+        "role": "matinee",
+        "block": "Seasonal cinema — matinee feature"
+      },
+      {
+        "at": "18:00",
+        "end": "21:00",
+        "role": "evening",
+        "block": "Seasonal cinema — evening feature"
+      }
+    ],
+    "Dickleodeon": [
+      {
+        "at": "14:00",
+        "end": "17:00",
+        "role": "matinee",
+        "block": "Seasonal cinema — matinee feature"
+      },
+      {
+        "at": "20:00",
+        "end": "23:00",
+        "role": "evening",
+        "block": "Seasonal cinema — evening feature"
+      }
+    ],
+    "GirlyPop": [
+      {
+        "at": "14:00",
+        "end": "17:00",
+        "role": "matinee",
+        "block": "Seasonal cinema — matinee feature"
+      },
+      {
+        "at": "19:00",
+        "end": "22:00",
+        "role": "evening",
+        "block": "Seasonal cinema — evening feature"
+      }
+    ],
+    "Dizzy": [
+      {
+        "at": "14:00",
+        "end": "17:00",
+        "role": "matinee",
+        "block": "Seasonal cinema — matinee feature"
+      },
+      {
+        "at": "20:00",
+        "end": "23:00",
+        "role": "evening",
+        "block": "Seasonal cinema — evening feature"
+      }
+    ],
+    "What": [
+      {
+        "at": "14:00",
+        "end": "17:00",
+        "role": "matinee",
+        "block": "Seasonal cinema — matinee feature"
+      },
+      {
+        "at": "21:00",
+        "end": "24:00",
+        "role": "evening",
+        "block": "Seasonal cinema — evening feature"
+      }
+    ]
+  },
+  "source_rules": {
+    "movie_min_seconds": 1800,
+    "feature_special_min_seconds": 2400,
+    "holiday_cooldown_days": 5,
+    "christmas_priority": [
+      "christmas",
+      "winter",
+      "snow"
+    ],
+    "october_priority": [
+      "halloween",
+      "horror",
+      "ghost",
+      "spooky"
+    ]
+  }
+}
