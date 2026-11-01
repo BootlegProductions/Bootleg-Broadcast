@@ -344,27 +344,27 @@ for ordinal in range(366 if calendar.isleap(YEAR) else 365):
     if slot['at']<'04:00' and slot.get('end','')>'04:00':slot['end']='04:00'
    slots.append({'at':'04:00','end':'05:00','series':'@fireplace','episodes':1,'block':'After hours — Christmas fireplace'})
    if not any(s['at']=='05:00' for s in slots):slots.append({**previous,'at':'05:00'})
-   # Two genuine feature windows per channel, every October/December day.
-   # A pre-existing hand-picked weekly film counts as a window. Do not erase
-   # explicitly curated seasonal events, pilots or overnight fireplace videos.
-   if date.month in cinema['months']:
-    for window in cinema['channels'].get(ch,[]):
-     first,last=window['at'],window['end']
-     film_overlap=any(slot.get('series')=='@film' and slot.get('at','')<last
-       and slot.get('end',last)>first for slot in slots)
-     if film_overlap:continue
-     must_keep=any((date.isoformat(),ch,slot['at']) in seasonal_plan
-       for slot in slots if first<=slot['at']<last)
-     must_keep=must_keep or any(slot.get('series') in ['@fireplace','@pilot-showcase','@aaa-feature']
-       for slot in slots if first<=slot['at']<last)
-     if must_keep:continue
-     slots=[slot for slot in slots if not first<=slot['at']<last]
-     season_name='Halloween' if date.month==10 else 'Christmas'
-     role=window.get('role','matinee')
-     label=(season_name+' fright-night film' if date.month==10 and role=='evening'
-            else season_name+' film '+('matinee' if role=='matinee' else 'night'))
-     slots.append({'at':first,'end':last,'series':'@film','episodes':1,
-        'holiday_cinema':True,'block':label})
+  # Two genuine feature windows per channel, every October/December day.
+  # A pre-existing hand-picked weekly film counts as a window. Do not erase
+  # explicitly curated seasonal events, pilots or overnight fireplace videos.
+  if date.month in cinema['months']:
+   for window in cinema['channels'].get(ch,[]):
+    first,last=window['at'],window['end']
+    film_overlap=any(slot.get('series')=='@film' and slot.get('at','')<last
+      and slot.get('end',last)>first for slot in slots)
+    if film_overlap:continue
+    must_keep=any((date.isoformat(),ch,slot['at']) in seasonal_plan
+      for slot in slots if first<=slot['at']<last)
+    must_keep=must_keep or any(slot.get('series') in ['@fireplace','@pilot-showcase','@aaa-feature']
+      for slot in slots if first<=slot['at']<last)
+    if must_keep:continue
+    slots=[slot for slot in slots if not first<=slot['at']<last]
+    season_name='Halloween' if date.month==10 else 'Christmas'
+    role=window.get('role','matinee')
+    label=(season_name+' fright-night film' if date.month==10 and role=='evening'
+           else season_name+' film '+('matinee' if role=='matinee' else 'night'))
+    slots.append({'at':first,'end':last,'series':'@film','episodes':1,
+       'holiday_cinema':True,'block':label})
   # Preserve the 02:30–07:00 UK boundary in every channel's published day.
   slots.sort(key=lambda s:s['at']);playlist=[];used=set();season='october' if date.month==10 else 'december' if date.month==12 else None
   def append(p,t,seconds,label):
