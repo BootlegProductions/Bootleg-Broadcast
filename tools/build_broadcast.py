@@ -8,7 +8,7 @@ from zoneinfo import ZoneInfo
 ROOT=Path(__file__).resolve().parents[1];ZONE=ZoneInfo('Europe/London');UTC=datetime.timezone.utc
 read=lambda name:json.loads((ROOT/name).read_text())
 write=lambda name,data:(ROOT/name).write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')))
-config=read('editorial-lineups.json');YEAR=int(sys.argv[1]) if len(sys.argv)>1 else config['year'];defs=read('editorial-series.json');catalogue=read('source-library.json');records=catalogue['programmes'];oldbreaks=read('seasonal-breaks.json');adverts=read('adverts.json')['channels'];local=read('tools/local-runtimes.json');metadata={}
+config=read('editorial-lineups.json');HOLIDAY_ONLY='--holiday-only' in sys.argv;YEAR=int(next((arg for arg in sys.argv[1:] if arg.isdigit()),config['year']));defs=read('editorial-series.json');catalogue=read('source-library.json');records=catalogue['programmes'];oldbreaks=read('seasonal-breaks.json');adverts=read('adverts.json')['channels'];local=read('tools/local-runtimes.json');metadata={}
 seasonal=read('seasonal-programming.json') if (ROOT/'seasonal-programming.json').exists() else {'appointments':[], 'fireplaces':{}}
 seasonal_plan={(p['date'],p['channel'],p['at']):p for p in seasonal['appointments']}
 for file in (ROOT/'tools/runtime-cache').glob('*.json'):
@@ -195,6 +195,8 @@ for channel in config['channels']:
  channel_breaks[channel]={'ident':ident,'adverts':selected[:120+sum(channel in p.get('channels',[]) for p in nostalgia['adverts']+interstitials['clips'])]}
 write('channel-breaks.json',{'channels':channel_breaks})
 film_calendar=read('editorial-film-calendar.json') if (ROOT/'editorial-film-calendar.json').exists() else None
+cinema=read('holiday-cinema-windows.json') if (ROOT/'holiday-cinema-windows.json').exists() else {'months':[],'channels':{}}
+holiday_movie_usage=collections.Counter();holiday_films=[]
 # Calendar specials only enter designated editorial appointments.
 specials=collections.defaultdict(list)
 authored_urls=set(config.get('authored_source_urls',[]))
@@ -206,6 +208,60 @@ for p in records:
  if not explicit:continue
  for ch in p.get('channels',[p.get('channel')]):
   if ch in config['channels']:specials[ch].append(p)
+# The additional Christmas/LAIKA source feeds contain exact-file measured
+# original MP4 records, but most have not been added to the main 26k-item
+# catalogue. Add feature-length entries to cinema only; do not rewrite the
+# complete catalogue or randomly insert 20-minute episodes as films.
+def imported_items(filename,marker):
+ path=ROOT/filename
+ if not path.exists():return []
+ text=path.read_text(encoding='utf-8')
+ if marker not in text:return []
+ try:return json.loads(text.split(marker,1)[1].split(';\n',1)[0]).get('programmes',[])
+ except (ValueError,IndexError):return []
+existing_urls={p.get('url') for p in records}
+def titlekey(s):return re.sub(r'[^a-z0-9]','',str(s or '').lower())
+existing_titles={(ch,titlekey(p.get('title'))) for p in records
+                 for ch in p.get('channels',[p.get('channel')]) if ch in config['channels']}
+for file,marker in [('holiday-programmes.js',' const db='),('seasonal-programmes.js',' const db='),('nick-uploader-programmes.js',' const data=')]:
+ for raw in imported_items(file,marker):
+  try:duration=float(raw.get('duration_seconds') or 0)
+  except (ValueError,TypeError):continue
+  if raw.get('type') not in ['Movie','Special'] or duration<2400 or duration>10500:continue
+  ch=raw.get('channel');url=raw.get('url','')
+  if ch not in config['channels'] or url in existing_urls or not usable(raw):continue
+  key=(ch,titlekey(raw.get('title')))
+  if not key[1] or key in existing_titles:continue
+  p={**raw,'channels':[ch],'duration_seconds':round(duration,3)}
+  p.setdefault('content_id',url);p.setdefault('seasonal_tags',[])
+  p.setdefault('holiday_events',[])
+  specials[ch].append(p);existing_urls.add(url);existing_titles.add(key)
+
+# A few clearly genre-compatible films can cross channels for the holiday
+# season, especially paranormal horror on What and family spooky cartoons.
+family_channels={'90s Toons','Cartoons Cartoons','Dickleodeon','GirlyPop','Dizzy'}
+for p in records:
+ if p.get('type')!='Movie' or not usable(p):continue
+ if not 2400<=p.get('duration_seconds',0)<=10500:continue
+ name=(p.get('title') or '').lower()
+ tags=p.get('seasonal_tags') or []
+ origin=set(p.get('channels',[p.get('channel')]))
+ suggested=set()
+ if 'halloween' in tags or re.search(r'ghost|haunt|horror|exorcis|witch|vampire|scream|hellraiser|beetlejuice|'
+                                        r'scooby|nightmare|blair witch|silent hill|the thing|franken|coraline|'
+                                        r'paranorman|monster house|28 days later',name,re.I):
+  if 'Star Spangled TV' in origin or 'Off-Licence TV' in origin:
+   suggested.add('What')
+  if origin & family_channels and re.search(r'scooby|monster|witch|halloween|coraline|paranorman|franken',name,re.I):
+   suggested.update({'90s Toons','Cartoons Cartoons','Dickleodeon'})
+  if 'Japanime' in origin and re.search(r'perfect blue|paprika|akira|vampire|bayonetta',name,re.I):
+   suggested.add('AAA')
+ if 'christmas' in tags and origin & family_channels:
+  suggested.update(family_channels)
+ for ch in suggested-origin:
+  if ch in config['channels'] and (ch,titlekey(p.get('title'))) not in existing_titles:
+   specials[ch].append(p);existing_titles.add((ch,titlekey(p.get('title'))))
+
 for ch,rows in specials.items():
  seen=set();planned_urls=set(film_calendar['appointments'].values()) if film_calendar else set();rows.sort(key=lambda p:(0 if p['url'] in planned_urls else 1,0 if p.get('type')=='Movie' else 1,p['title'].casefold()));specials[ch]=[p for p in rows if not(p['content_id'] in seen or seen.add(p['content_id']))]
 cursors=collections.defaultdict(int);special_last={};ad_cursor=collections.defaultdict(int)
