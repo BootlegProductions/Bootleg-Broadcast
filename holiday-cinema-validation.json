@@ -1,0 +1,1489 @@
+{
+  "status": "passed",
+  "year": 2026,
+  "target_features_per_channel_day": 2,
+  "dates": 62,
+  "channel_days": 620,
+  "feature_airings": 1154,
+  "actual_movie_airings": 1154,
+  "feature_length_specials": 0,
+  "days_with_two_or_more": 534,
+  "days_with_one": 86,
+  "days_with_none": 0,
+  "by_channel": {
+    "90s Toons": {
+      "days": 62,
+      "movies": 119,
+      "features": 119,
+      "feature_specials": 0,
+      "two_or_more": 57,
+      "one": 5,
+      "none": 0,
+      "unique_movies": 27,
+      "sample": [
+        {
+          "date": "october 1",
+          "titles": [
+            "Coraline (2009)",
+            "Curious George: A Halloween Boofest"
+          ]
+        },
+        {
+          "date": "october 2",
+          "titles": [
+            "Frankenweenie — feature presentation",
+            "Monster House (2006)"
+          ]
+        },
+        {
+          "date": "october 3",
+          "titles": [
+            "Spider-man (2002)",
+            "Pooh's Heffalump Halloween Movie"
+          ]
+        },
+        {
+          "date": "october 4",
+          "titles": [
+            "Scooby-Doo (2002)",
+            "Scooby-Doo 2 Monsters Unleashed"
+          ]
+        },
+        {
+          "date": "october 5",
+          "titles": [
+            "Scooby-Doo and the Ghoul School",
+            "Scooby-Doo! Frankencreepy"
+          ]
+        },
+        {
+          "date": "october 6",
+          "titles": [
+            "The Halloween Tree",
+            "The Nightmare Before Christmas (1993)"
+          ]
+        },
+        {
+          "date": "october 7",
+          "titles": [
+            "Godzilla (1998)",
+            "Coraline (2009)"
+          ]
+        }
+      ]
+    },
+    "Cartoons Cartoons": {
+      "days": 62,
+      "movies": 119,
+      "features": 119,
+      "feature_specials": 0,
+      "two_or_more": 57,
+      "one": 5,
+      "none": 0,
+      "unique_movies": 24,
+      "sample": [
+        {
+          "date": "october 1",
+          "titles": [
+            "Coraline (2009)",
+            "Curious George: A Halloween Boofest"
+          ]
+        },
+        {
+          "date": "october 2",
+          "titles": [
+            "Frankenweenie — feature presentation",
+            "Monster House (2006)"
+          ]
+        },
+        {
+          "date": "october 3",
+          "titles": [
+            "Pooh's Heffalump Halloween Movie",
+            "The Nightmare Before Christmas (1993)"
+          ]
+        },
+        {
+          "date": "october 4",
+          "titles": [
+            "Scooby-Doo and the Ghoul School",
+            "Scooby-Doo! Frankencreepy"
+          ]
+        },
+        {
+          "date": "october 5",
+          "titles": [
+            "The Halloween Tree",
+            "Scooby-Doo (2002)"
+          ]
+        },
+        {
+          "date": "october 6",
+          "titles": [
+            "Scooby-Doo 2 Monsters Unleashed",
+            "Coraline (2009)"
+          ]
+        },
+        {
+          "date": "october 7",
+          "titles": [
+            "Curious George: A Halloween Boofest",
+            "Frankenweenie — feature presentation"
+          ]
+        }
+      ]
+    },
+    "Japanime": {
+      "days": 62,
+      "movies": 116,
+      "features": 116,
+      "feature_specials": 0,
+      "two_or_more": 54,
+      "one": 8,
+      "none": 0,
+      "unique_movies": 50,
+      "sample": [
+        {
+          "date": "october 1",
+          "titles": [
+            "Akira",
+            "Bayonetta Bloody Fate"
+          ]
+        },
+        {
+          "date": "october 2",
+          "titles": [
+            "Paprika",
+            "Perfect Blue"
+          ]
+        },
+        {
+          "date": "october 3",
+          "titles": [
+            "Shin Godzilla (2016)"
+          ]
+        },
+        {
+          "date": "october 4",
+          "titles": [
+            "Spirited Away (2001) English",
+            "Pokemon Movie 18 Hoopa and the Clash of Ages"
+          ]
+        },
+        {
+          "date": "october 5",
+          "titles": [
+            "Pokemon Movie 19 Volcanion and the Mechanical Marvel",
+            "Pokemon Movie 20 I Choose You!"
+          ]
+        },
+        {
+          "date": "october 6",
+          "titles": [
+            "Akira",
+            "Bayonetta Bloody Fate"
+          ]
+        },
+        {
+          "date": "october 7",
+          "titles": [
+            "Paprika",
+            "Perfect Blue"
+          ]
+        }
+      ]
+    },
+    "Off-Licence TV": {
+      "days": 62,
+      "movies": 116,
+      "features": 116,
+      "feature_specials": 0,
+      "two_or_more": 54,
+      "one": 8,
+      "none": 0,
+      "unique_movies": 30,
+      "sample": [
+        {
+          "date": "october 1",
+          "titles": [
+            "Ghostwatch",
+            "The Worst Witch (1986)"
+          ]
+        },
+        {
+          "date": "october 2",
+          "titles": [
+            "28 Weeks Later (2007)",
+            "28 Years Later (2025)"
+          ]
+        },
+        {
+          "date": "october 3",
+          "titles": [
+            "Bean the Movie - The Extended Director's Cut"
+          ]
+        },
+        {
+          "date": "october 4",
+          "titles": [
+            "Chicken Run (2000)",
+            "Flushed Away"
+          ]
+        },
+        {
+          "date": "october 5",
+          "titles": [
+            "James And The Giant Peach",
+            "St Patrick: The Irish Legend"
+          ]
+        },
+        {
+          "date": "october 6",
+          "titles": [
+            "Ghostwatch",
+            "The Worst Witch (1986)"
+          ]
+        },
+        {
+          "date": "october 7",
+          "titles": [
+            "The Inbetweeners 2 2014",
+            "The Inbetweeners 2011 Extended"
+          ]
+        }
+      ]
+    },
+    "Star Spangled TV": {
+      "days": 62,
+      "movies": 98,
+      "features": 98,
+      "feature_specials": 0,
+      "two_or_more": 36,
+      "one": 26,
+      "none": 0,
+      "unique_movies": 51,
+      "sample": [
+        {
+          "date": "october 1",
+          "titles": [
+            "Hellraiser (1987)",
+            "Hellraiser II (1988)"
+          ]
+        },
+        {
+          "date": "october 2",
+          "titles": [
+            "Leprechaun (1993)"
+          ]
+        },
+        {
+          "date": "october 3",
+          "titles": [
+            "Misery (1990)"
+          ]
+        },
+        {
+          "date": "october 4",
+          "titles": [
+            "My Bloody Valentine (1981)"
+          ]
+        },
+        {
+          "date": "october 5",
+          "titles": [
+            "Scream (1996)",
+            "The Blair Witch Project (1999)"
+          ]
+        },
+        {
+          "date": "october 6",
+          "titles": [
+            "The Cabin in the Woods (2011)",
+            "The Texas Chain Saw Massacre (1974)"
+          ]
+        },
+        {
+          "date": "october 7",
+          "titles": [
+            "The Texas Chainsaw Massacre 2 (1986)",
+            "The Thing (1982)"
+          ]
+        }
+      ]
+    },
+    "AAA": {
+      "days": 62,
+      "movies": 115,
+      "features": 115,
+      "feature_specials": 0,
+      "two_or_more": 53,
+      "one": 9,
+      "none": 0,
+      "unique_movies": 22,
+      "sample": [
+        {
+          "date": "october 1",
+          "titles": [
+            "Akira",
+            "Bayonetta Bloody Fate"
+          ]
+        },
+        {
+          "date": "october 2",
+          "titles": [
+            "Paprika",
+            "Perfect Blue"
+          ]
+        },
+        {
+          "date": "october 3",
+          "titles": [
+            "Beavis and Butt-Head Do the Universe (2022)"
+          ]
+        },
+        {
+          "date": "october 4",
+          "titles": [
+            "Cool World (1992)"
+          ]
+        },
+        {
+          "date": "october 5",
+          "titles": [
+            "Coonskin aka Street Fight ☆ Ralph Bakshi ☆1975",
+            "Fire And Ice 1983"
+          ]
+        },
+        {
+          "date": "october 6",
+          "titles": [
+            "Akira",
+            "Bayonetta Bloody Fate"
+          ]
+        },
+        {
+          "date": "october 7",
+          "titles": [
+            "Paprika",
+            "Perfect Blue"
+          ]
+        }
+      ]
+    },
+    "Dickleodeon": {
+      "days": 62,
+      "movies": 119,
+      "features": 119,
+      "feature_specials": 0,
+      "two_or_more": 57,
+      "one": 5,
+      "none": 0,
+      "unique_movies": 29,
+      "sample": [
+        {
+          "date": "october 1",
+          "titles": [
+            "Coraline (2009)",
+            "Frankenweenie — feature presentation"
+          ]
+        },
+        {
+          "date": "october 2",
+          "titles": [
+            "Pooh's Heffalump Halloween Movie",
+            "Scooby-Doo (2002)"
+          ]
+        },
+        {
+          "date": "october 3",
+          "titles": [
+            "Scooby-Doo 2 Monsters Unleashed",
+            "Scooby-Doo and the Ghoul School"
+          ]
+        },
+        {
+          "date": "october 4",
+          "titles": [
+            "Curious George: A Halloween Boofest",
+            "Scooby-Doo! Frankencreepy"
+          ]
+        },
+        {
+          "date": "october 5",
+          "titles": [
+            "The Halloween Tree",
+            "The Nightmare Before Christmas (1993)"
+          ]
+        },
+        {
+          "date": "october 6",
+          "titles": [
+            "Monster House (2006)",
+            "Coraline (2009)"
+          ]
+        },
+        {
+          "date": "october 7",
+          "titles": [
+            "Frankenweenie — feature presentation",
+            "Pooh's Heffalump Halloween Movie"
+          ]
+        }
+      ]
+    },
+    "GirlyPop": {
+      "days": 62,
+      "movies": 117,
+      "features": 117,
+      "feature_specials": 0,
+      "two_or_more": 55,
+      "one": 7,
+      "none": 0,
+      "unique_movies": 32,
+      "sample": [
+        {
+          "date": "october 1",
+          "titles": [
+            "The Nightmare Before Christmas (1993)",
+            "Coraline (2009)"
+          ]
+        },
+        {
+          "date": "october 2",
+          "titles": [
+            "Follow That Bird",
+            "Bratz Starrin & Stylin"
+          ]
+        },
+        {
+          "date": "october 3",
+          "titles": [
+            "Bratz Super Babyz",
+            "My Little Pony Special; Rainbow Roadtrip (2019)"
+          ]
+        },
+        {
+          "date": "october 4",
+          "titles": [
+            "My Little Pony; The Movie (2017)"
+          ]
+        },
+        {
+          "date": "october 5",
+          "titles": [
+            "Barbie 12 dancing princesses",
+            "Barbie and the Magic of Pegasus"
+          ]
+        },
+        {
+          "date": "october 6",
+          "titles": [
+            "Coraline (2009)",
+            "The Nightmare Before Christmas (1993)"
+          ]
+        },
+        {
+          "date": "october 7",
+          "titles": [
+            "Barbie as Rapunzel (2002)",
+            "Barbie Fairytopia"
+          ]
+        }
+      ]
+    },
+    "Dizzy": {
+      "days": 62,
+      "movies": 112,
+      "features": 112,
+      "feature_specials": 0,
+      "two_or_more": 50,
+      "one": 12,
+      "none": 0,
+      "unique_movies": 48,
+      "sample": [
+        {
+          "date": "october 1",
+          "titles": [
+            "The Nightmare Before Christmas (1993)",
+            "Frankenweenie — feature presentation"
+          ]
+        },
+        {
+          "date": "october 2",
+          "titles": [
+            "Pooh's Heffalump Halloween Movie",
+            "Piglet's Big Movie"
+          ]
+        },
+        {
+          "date": "october 3",
+          "titles": [
+            "Tarzan II"
+          ]
+        },
+        {
+          "date": "october 4",
+          "titles": [
+            "The Cat In The Hat 2003"
+          ]
+        },
+        {
+          "date": "october 5",
+          "titles": [
+            "The Incredibles (2004)",
+            "The Iron Giant (1999)"
+          ]
+        },
+        {
+          "date": "october 6",
+          "titles": [
+            "Frankenweenie — feature presentation",
+            "The Nightmare Before Christmas (1993)"
+          ]
+        },
+        {
+          "date": "october 7",
+          "titles": [
+            "Pooh's Heffalump Halloween Movie",
+            "The Lion King (1994)"
+          ]
+        }
+      ]
+    },
+    "What": {
+      "days": 62,
+      "movies": 123,
+      "features": 123,
+      "feature_specials": 0,
+      "two_or_more": 61,
+      "one": 1,
+      "none": 0,
+      "unique_movies": 42,
+      "sample": [
+        {
+          "date": "october 1",
+          "titles": [
+            "2 Leprechaun 2 (1994)",
+            "3 Leprechaun 3 (1995)"
+          ]
+        },
+        {
+          "date": "october 2",
+          "titles": [
+            "30 Days of Night (2007)",
+            "30 Days of Night: Dark Days"
+          ]
+        },
+        {
+          "date": "october 3",
+          "titles": [
+            "4 Leprechaun 4 In Space (1996)",
+            "5 Leprechaun In The Hood (2000)"
+          ]
+        },
+        {
+          "date": "october 4",
+          "titles": [
+            "6 Leprechaun Back 2 tha Hood (2003)",
+            "Reefer Madness (1936)"
+          ]
+        },
+        {
+          "date": "october 5",
+          "titles": [
+            "7 Leprechaun Returns (2018)",
+            "A Nightmare on Elm Street (1984)"
+          ]
+        },
+        {
+          "date": "october 6",
+          "titles": [
+            "Abraham Lincoln Vampire Hunter (2012)",
+            "Beetlejuice (1988)"
+          ]
+        },
+        {
+          "date": "october 7",
+          "titles": [
+            "Ghostwatch",
+            "Godzilla (2014)"
+          ]
+        }
+      ]
+    }
+  },
+  "low_coverage": [
+    {
+      "date": "october 2",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "Leprechaun (1993)"
+      ]
+    },
+    {
+      "date": "october 3",
+      "channel": "Japanime",
+      "count": 1,
+      "feature_titles": [
+        "Shin Godzilla (2016)"
+      ]
+    },
+    {
+      "date": "october 3",
+      "channel": "Off-Licence TV",
+      "count": 1,
+      "feature_titles": [
+        "Bean the Movie - The Extended Director's Cut"
+      ]
+    },
+    {
+      "date": "october 3",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "Misery (1990)"
+      ]
+    },
+    {
+      "date": "october 3",
+      "channel": "AAA",
+      "count": 1,
+      "feature_titles": [
+        "Beavis and Butt-Head Do the Universe (2022)"
+      ]
+    },
+    {
+      "date": "october 3",
+      "channel": "Dizzy",
+      "count": 1,
+      "feature_titles": [
+        "Tarzan II"
+      ]
+    },
+    {
+      "date": "october 4",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "My Bloody Valentine (1981)"
+      ]
+    },
+    {
+      "date": "october 4",
+      "channel": "AAA",
+      "count": 1,
+      "feature_titles": [
+        "Cool World (1992)"
+      ]
+    },
+    {
+      "date": "october 4",
+      "channel": "GirlyPop",
+      "count": 1,
+      "feature_titles": [
+        "My Little Pony; The Movie (2017)"
+      ]
+    },
+    {
+      "date": "october 4",
+      "channel": "Dizzy",
+      "count": 1,
+      "feature_titles": [
+        "The Cat In The Hat 2003"
+      ]
+    },
+    {
+      "date": "october 9",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "30 Days of Night (2007)"
+      ]
+    },
+    {
+      "date": "october 10",
+      "channel": "Japanime",
+      "count": 1,
+      "feature_titles": [
+        "Pokemon Movie 23 Secrets of the Jungle"
+      ]
+    },
+    {
+      "date": "october 10",
+      "channel": "Off-Licence TV",
+      "count": 1,
+      "feature_titles": [
+        "Bean the Movie - The Extended Director's Cut"
+      ]
+    },
+    {
+      "date": "october 10",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "30 Days of Night: Dark Days"
+      ]
+    },
+    {
+      "date": "october 10",
+      "channel": "AAA",
+      "count": 1,
+      "feature_titles": [
+        "South Park Bigger Long and Uncut (1999)"
+      ]
+    },
+    {
+      "date": "october 10",
+      "channel": "Dizzy",
+      "count": 1,
+      "feature_titles": [
+        "Toy Story 2 (1999)"
+      ]
+    },
+    {
+      "date": "october 11",
+      "channel": "Cartoons Cartoons",
+      "count": 1,
+      "feature_titles": [
+        "The Halloween Tree"
+      ]
+    },
+    {
+      "date": "october 11",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "4 Leprechaun 4 In Space (1996)"
+      ]
+    },
+    {
+      "date": "october 11",
+      "channel": "Dickleodeon",
+      "count": 1,
+      "feature_titles": [
+        "The Nightmare Before Christmas (1993)"
+      ]
+    },
+    {
+      "date": "october 11",
+      "channel": "GirlyPop",
+      "count": 1,
+      "feature_titles": [
+        "Coraline (2009)"
+      ]
+    },
+    {
+      "date": "october 11",
+      "channel": "Dizzy",
+      "count": 1,
+      "feature_titles": [
+        "Frankenweenie — feature presentation"
+      ]
+    },
+    {
+      "date": "october 16",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "Godzilla Vs Kong (2021)"
+      ]
+    },
+    {
+      "date": "october 17",
+      "channel": "90s Toons",
+      "count": 1,
+      "feature_titles": [
+        "Scooby-Doo 2 Monsters Unleashed"
+      ]
+    },
+    {
+      "date": "october 17",
+      "channel": "Japanime",
+      "count": 1,
+      "feature_titles": [
+        "Paprika"
+      ]
+    },
+    {
+      "date": "october 17",
+      "channel": "Off-Licence TV",
+      "count": 1,
+      "feature_titles": [
+        "28 Weeks Later (2007)"
+      ]
+    },
+    {
+      "date": "october 17",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "Godzilla Vs Kong 2 The New Empire"
+      ]
+    },
+    {
+      "date": "october 17",
+      "channel": "AAA",
+      "count": 1,
+      "feature_titles": [
+        "Paprika"
+      ]
+    },
+    {
+      "date": "october 17",
+      "channel": "Dizzy",
+      "count": 1,
+      "feature_titles": [
+        "Pooh's Heffalump Halloween Movie"
+      ]
+    },
+    {
+      "date": "october 18",
+      "channel": "Cartoons Cartoons",
+      "count": 1,
+      "feature_titles": [
+        "Coraline (2009)"
+      ]
+    },
+    {
+      "date": "october 18",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "Gremlins 2: The New Batch (1990)"
+      ]
+    },
+    {
+      "date": "october 18",
+      "channel": "GirlyPop",
+      "count": 1,
+      "feature_titles": [
+        "Bratz Super Babyz"
+      ]
+    },
+    {
+      "date": "october 18",
+      "channel": "Dizzy",
+      "count": 1,
+      "feature_titles": [
+        "The Nightmare Before Christmas (1993)"
+      ]
+    },
+    {
+      "date": "october 23",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "Scream (1996)"
+      ]
+    },
+    {
+      "date": "october 24",
+      "channel": "Japanime",
+      "count": 1,
+      "feature_titles": [
+        "Spirited Away (2001) English"
+      ]
+    },
+    {
+      "date": "october 24",
+      "channel": "Off-Licence TV",
+      "count": 1,
+      "feature_titles": [
+        "28 Weeks Later (2007)"
+      ]
+    },
+    {
+      "date": "october 24",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "The Blair Witch Project (1999)"
+      ]
+    },
+    {
+      "date": "october 24",
+      "channel": "AAA",
+      "count": 1,
+      "feature_titles": [
+        "Heavy Metal 1981"
+      ]
+    },
+    {
+      "date": "october 24",
+      "channel": "Dizzy",
+      "count": 1,
+      "feature_titles": [
+        "Dumbo (1941)"
+      ]
+    },
+    {
+      "date": "october 25",
+      "channel": "Cartoons Cartoons",
+      "count": 1,
+      "feature_titles": [
+        "Frankenweenie — feature presentation"
+      ]
+    },
+    {
+      "date": "october 25",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "The Cabin in the Woods (2011)"
+      ]
+    },
+    {
+      "date": "october 25",
+      "channel": "GirlyPop",
+      "count": 1,
+      "feature_titles": [
+        "Bratz Fashion Pixiez"
+      ]
+    },
+    {
+      "date": "october 25",
+      "channel": "Dizzy",
+      "count": 1,
+      "feature_titles": [
+        "Dumbo (2019)"
+      ]
+    },
+    {
+      "date": "october 30",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "5 Leprechaun In The Hood (2000)"
+      ]
+    },
+    {
+      "date": "october 31",
+      "channel": "Japanime",
+      "count": 1,
+      "feature_titles": [
+        "Akira"
+      ]
+    },
+    {
+      "date": "october 31",
+      "channel": "Off-Licence TV",
+      "count": 1,
+      "feature_titles": [
+        "Ghostwatch"
+      ]
+    },
+    {
+      "date": "october 31",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "6 Leprechaun Back 2 tha Hood (2003)"
+      ]
+    },
+    {
+      "date": "october 31",
+      "channel": "AAA",
+      "count": 1,
+      "feature_titles": [
+        "Akira"
+      ]
+    },
+    {
+      "date": "october 31",
+      "channel": "Dizzy",
+      "count": 1,
+      "feature_titles": [
+        "Frankenweenie — feature presentation"
+      ]
+    },
+    {
+      "date": "december 3",
+      "channel": "Dizzy",
+      "count": 1,
+      "feature_titles": [
+        "Bratz Babyz Save Christmas"
+      ]
+    },
+    {
+      "date": "december 4",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "Ernest Saves Christmas (1988)"
+      ]
+    },
+    {
+      "date": "december 5",
+      "channel": "90s Toons",
+      "count": 1,
+      "feature_titles": [
+        "The Amazing Spider-Man 2 (2014)"
+      ]
+    },
+    {
+      "date": "december 5",
+      "channel": "Japanime",
+      "count": 1,
+      "feature_titles": [
+        "Pokemon Movie 09 Pokemon Ranger and the Temple of the Sea"
+      ]
+    },
+    {
+      "date": "december 5",
+      "channel": "Off-Licence TV",
+      "count": 1,
+      "feature_titles": [
+        "Doctor Who — The Christmas Invasion"
+      ]
+    },
+    {
+      "date": "december 5",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "Gremlins (1984)"
+      ]
+    },
+    {
+      "date": "december 5",
+      "channel": "Dizzy",
+      "count": 1,
+      "feature_titles": [
+        "Rise of the Guardians (2012)"
+      ]
+    },
+    {
+      "date": "december 6",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "Home Alone (1990)"
+      ]
+    },
+    {
+      "date": "december 6",
+      "channel": "Dickleodeon",
+      "count": 1,
+      "feature_titles": [
+        "A Flintstones Christmas Carol (1994)"
+      ]
+    },
+    {
+      "date": "december 6",
+      "channel": "GirlyPop",
+      "count": 1,
+      "feature_titles": [
+        "A Flintstones Christmas Carol (1994)"
+      ]
+    },
+    {
+      "date": "december 6",
+      "channel": "What",
+      "count": 1,
+      "feature_titles": [
+        "Black Christmas (1974)"
+      ]
+    },
+    {
+      "date": "december 11",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "The Polar Express"
+      ]
+    },
+    {
+      "date": "december 12",
+      "channel": "90s Toons",
+      "count": 1,
+      "feature_titles": [
+        "Beauty and the Beast The Enchanted Christmas (1997)"
+      ]
+    },
+    {
+      "date": "december 12",
+      "channel": "Off-Licence TV",
+      "count": 1,
+      "feature_titles": [
+        "All Star Comedy Carnival 1973"
+      ]
+    },
+    {
+      "date": "december 12",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "The Polar Express (2004)"
+      ]
+    },
+    {
+      "date": "december 12",
+      "channel": "AAA",
+      "count": 1,
+      "feature_titles": [
+        "Cool World (1992)"
+      ]
+    },
+    {
+      "date": "december 13",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "The Star Wars Holiday Special (1978)"
+      ]
+    },
+    {
+      "date": "december 13",
+      "channel": "Dickleodeon",
+      "count": 1,
+      "feature_titles": [
+        "Bratz Babyz Save Christmas"
+      ]
+    },
+    {
+      "date": "december 13",
+      "channel": "GirlyPop",
+      "count": 1,
+      "feature_titles": [
+        "Bratz Babyz Save Christmas"
+      ]
+    },
+    {
+      "date": "december 17",
+      "channel": "Dizzy",
+      "count": 1,
+      "feature_titles": [
+        "Mickey's Once Upon A Christmas"
+      ]
+    },
+    {
+      "date": "december 18",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "Gremlins (1984)"
+      ]
+    },
+    {
+      "date": "december 19",
+      "channel": "90s Toons",
+      "count": 1,
+      "feature_titles": [
+        "The Muppet Christmas Carol (1992)"
+      ]
+    },
+    {
+      "date": "december 19",
+      "channel": "Japanime",
+      "count": 1,
+      "feature_titles": [
+        "The Boy and the Heron"
+      ]
+    },
+    {
+      "date": "december 19",
+      "channel": "Off-Licence TV",
+      "count": 1,
+      "feature_titles": [
+        "A Christmas Carol (1984)"
+      ]
+    },
+    {
+      "date": "december 19",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "Home Alone (1990)"
+      ]
+    },
+    {
+      "date": "december 19",
+      "channel": "AAA",
+      "count": 1,
+      "feature_titles": [
+        "American Pop - Ralph Bakshi - 1981"
+      ]
+    },
+    {
+      "date": "december 20",
+      "channel": "Cartoons Cartoons",
+      "count": 1,
+      "feature_titles": [
+        "Yogi's First Christmas (1980)"
+      ]
+    },
+    {
+      "date": "december 20",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "Home Alone 2: Lost in New York (1992)"
+      ]
+    },
+    {
+      "date": "december 20",
+      "channel": "Dickleodeon",
+      "count": 1,
+      "feature_titles": [
+        "Yogi's First Christmas (1980)"
+      ]
+    },
+    {
+      "date": "december 20",
+      "channel": "GirlyPop",
+      "count": 1,
+      "feature_titles": [
+        "The Muppet Christmas Carol (1992)"
+      ]
+    },
+    {
+      "date": "december 25",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "The Polar Express (2004)"
+      ]
+    },
+    {
+      "date": "december 26",
+      "channel": "90s Toons",
+      "count": 1,
+      "feature_titles": [
+        "A Flintstones Christmas Carol (1994)"
+      ]
+    },
+    {
+      "date": "december 26",
+      "channel": "Japanime",
+      "count": 1,
+      "feature_titles": [
+        "Neo Yokio — Pink Christmas (English Dub)"
+      ]
+    },
+    {
+      "date": "december 26",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "The Star Wars Holiday Special (1978)"
+      ]
+    },
+    {
+      "date": "december 26",
+      "channel": "AAA",
+      "count": 1,
+      "feature_titles": [
+        "A Scanner Darkly"
+      ]
+    },
+    {
+      "date": "december 27",
+      "channel": "Cartoons Cartoons",
+      "count": 1,
+      "feature_titles": [
+        "Barbie Nutcracker"
+      ]
+    },
+    {
+      "date": "december 27",
+      "channel": "Star Spangled TV",
+      "count": 1,
+      "feature_titles": [
+        "White Christmas (1954)"
+      ]
+    },
+    {
+      "date": "december 27",
+      "channel": "Dickleodeon",
+      "count": 1,
+      "feature_titles": [
+        "Barbie Nutcracker"
+      ]
+    }
+  ],
+  "holiday_film_appointments": 1153,
+  "sample_film_bookings": [
+    {
+      "date": "2026-10-01",
+      "channel": "90s Toons",
+      "at": "14:00",
+      "title": "Coraline (2009)",
+      "type": "Movie",
+      "url": "https://archive.org/download/My-Favorite-Movies_202503/Coraline.mp4",
+      "seconds": 6036.18,
+      "holiday_window": true
+    },
+    {
+      "date": "2026-10-01",
+      "channel": "90s Toons",
+      "at": "20:00",
+      "title": "Curious George: A Halloween Boofest",
+      "type": "Movie",
+      "url": "https://archive.org/download/curious-george-a-halloween-boofest/Curious%20George%20-%20A%20Halloween%20Boofest.ia.mp4",
+      "seconds": 3340.0,
+      "holiday_window": true
+    },
+    {
+      "date": "2026-10-01",
+      "channel": "Cartoons Cartoons",
+      "at": "14:00",
+      "title": "Coraline (2009)",
+      "type": "Movie",
+      "url": "https://archive.org/download/My-Favorite-Movies_202503/Coraline.mp4",
+      "seconds": 6036.18,
+      "holiday_window": true
+    },
+    {
+      "date": "2026-10-01",
+      "channel": "Cartoons Cartoons",
+      "at": "20:00",
+      "title": "Curious George: A Halloween Boofest",
+      "type": "Movie",
+      "url": "https://archive.org/download/curious-george-a-halloween-boofest/Curious%20George%20-%20A%20Halloween%20Boofest.ia.mp4",
+      "seconds": 3340.0,
+      "holiday_window": true
+    },
+    {
+      "date": "2026-10-01",
+      "channel": "Japanime",
+      "at": "14:00",
+      "title": "Akira",
+      "type": "Movie",
+      "url": "https://archive.org/download/28-days-later_202505/Akira.mp4",
+      "seconds": 7527.8,
+      "holiday_window": true
+    },
+    {
+      "date": "2026-10-01",
+      "channel": "Japanime",
+      "at": "20:00",
+      "title": "Bayonetta Bloody Fate",
+      "type": "Movie",
+      "url": "https://archive.org/download/28-days-later_202505/Bayonetta%20Bloody%20Fate.mp4",
+      "seconds": 5421.47,
+      "holiday_window": true
+    },
+    {
+      "date": "2026-10-01",
+      "channel": "Off-Licence TV",
+      "at": "14:00",
+      "title": "Ghostwatch",
+      "type": "Movie",
+      "url": "https://archive.org/download/Ghostwatch/Ghostwatch.mp4",
+      "seconds": 5441.0,
+      "holiday_window": true
+    },
+    {
+      "date": "2026-10-01",
+      "channel": "Off-Licence TV",
+      "at": "21:00",
+      "title": "The Worst Witch (1986)",
+      "type": "Movie",
+      "url": "https://archive.org/download/the-worst-witch-1986_202304/The%20Worst%20Witch%20%281986%29.ia.mp4",
+      "seconds": 4178.0,
+      "holiday_window": true
+    },
+    {
+      "date": "2026-10-01",
+      "channel": "Star Spangled TV",
+      "at": "14:00",
+      "title": "Hellraiser (1987)",
+      "type": "Movie",
+      "url": "https://archive.org/download/28-days-later_202505/Hellraiser%20%281987%29%20720p%20_%20%20Horror%20Thriller%20_%20Complete%20Movie.mp4",
+      "seconds": 5602.74,
+      "holiday_window": true
+    },
+    {
+      "date": "2026-10-01",
+      "channel": "Star Spangled TV",
+      "at": "21:00",
+      "title": "Hellraiser II (1988)",
+      "type": "Movie",
+      "url": "https://archive.org/download/28-days-later_202505/Hellraiser%20II%20%281988%29.mp4",
+      "seconds": 5940.99,
+      "holiday_window": true
+    },
+    {
+      "date": "2026-10-01",
+      "channel": "AAA",
+      "at": "14:00",
+      "title": "Akira",
+      "type": "Movie",
+      "url": "https://archive.org/download/28-days-later_202505/Akira.mp4",
+      "seconds": 7527.8,
+      "holiday_window": true
+    },
+    {
+      "date": "2026-10-01",
+      "channel": "AAA",
+      "at": "18:00",
+      "title": "Bayonetta Bloody Fate",
+      "type": "Movie",
+      "url": "https://archive.org/download/28-days-later_202505/Bayonetta%20Bloody%20Fate.mp4",
+      "seconds": 5421.47,
+      "holiday_window": true
+    },
+    {
+      "date": "2026-10-01",
+      "channel": "Dickleodeon",
+      "at": "14:00",
+      "title": "Coraline (2009)",
+      "type": "Movie",
+      "url": "https://archive.org/download/My-Favorite-Movies_202503/Coraline.mp4",
+      "seconds": 6036.18,
+      "holiday_window": true
+    },
+    {
+      "date": "2026-10-01",
+      "channel": "Dickleodeon",
+      "at": "20:00",
+      "title": "Frankenweenie — feature presentation",
+      "type": "Movie",
+      "url": "https://archive.org/download/frankenweenie_202011/Frankenweenie.ia.mp4",
+      "seconds": 5226.19,
+      "holiday_window": true
+    },
+    {
+      "date": "2026-10-01",
+      "channel": "GirlyPop",
+      "at": "14:00",
+      "title": "The Nightmare Before Christmas (1993)",
+      "type": "Movie",
+      "url": "https://archive.org/download/My-Favorite-Movies_202503/The%20Nightmare%20Before%20Christmas.mp4",
+      "seconds": 4599.92,
+      "holiday_window": true
+    },
+    {
+      "date": "2026-10-01",
+      "channel": "GirlyPop",
+      "at": "19:00",
+      "title": "Coraline (2009)",
+      "type": "Movie",
+      "url": "https://archive.org/download/My-Favorite-Movies_202503/Coraline.mp4",
+      "seconds": 6036.18,
+      "holiday_window": true
+    },
+    {
+      "date": "2026-10-01",
+      "channel": "Dizzy",
+      "at": "14:00",
+      "title": "The Nightmare Before Christmas (1993)",
+      "type": "Movie",
+      "url": "https://archive.org/download/My-Favorite-Movies_202503/The%20Nightmare%20Before%20Christmas.mp4",
+      "seconds": 4599.92,
+      "holiday_window": true
+    },
+    {
+      "date": "2026-10-01",
+      "channel": "Dizzy",
+      "at": "20:00",
+      "title": "Frankenweenie — feature presentation",
+      "type": "Movie",
+      "url": "https://archive.org/download/frankenweenie_202011/Frankenweenie.ia.mp4",
+      "seconds": 5226.19,
+      "holiday_window": true
+    }
+  ],
+  "coverage_percent": 86.1
+}
