@@ -411,15 +411,45 @@ for ordinal in range(366 if calendar.isleap(YEAR) else 365):
      t=append(p,t,p['duration_seconds'],label);used.add(p['content_id']);report['programme_slots']+=1;t=breaks(t,min(stop,t+channel_breaks[ch]['ident']['duration_seconds']),label)
     feature=False
    if key=='@film':
-    candidates=[p for p in specials[ch] if p.get('type')=='Movie' and p['content_id'] not in used and allowed(p,date) and 1800<=p['duration_seconds']<=stop-t and date.toordinal()-special_last.get((ch,p['content_id']),0)>=config['movie_cooldown_days']]
-    if film_calendar is not None:
-     chosen=film_calendar['appointments'].get(date.isoformat()+'|'+ch+'|'+appointment['at'])
-     candidates=[p for p in candidates if p['url']==chosen]
+    festive=bool(appointment.get('holiday_cinema')) and date.month in cinema['months']
+    capacity=stop-t
+    floor=int(cinema.get('source_rules',{}).get('movie_min_seconds',1800))
+    pinned=film_calendar['appointments'].get(date.isoformat()+'|'+ch+'|'+appointment['at']) if film_calendar else None
+    if festive:
+     # Prefer actual films rather than disguising 20-minute cartoons as films.
+     # Feature-length TV specials can fill a cinema slot when movies run short.
+     available=[p for p in specials[ch] if p.get('type')=='Movie' and p['content_id'] not in used
+                and allowed(p,date) and floor<=p['duration_seconds']<=capacity]
+     if not available:
+      available=[p for p in specials[ch] if p.get('type')=='Special' and p['content_id'] not in used
+                 and allowed(p,date) and 2400<=p['duration_seconds']<=capacity]
+     cooldown=int(cinema.get('source_rules',{}).get('holiday_cooldown_days',5))
+     rested=[p for p in available if date.toordinal()-special_last.get((ch,p['content_id']),0)>=cooldown]
+     # When a channel has few films, use the least-recently-aired complete
+     # feature rather than leaving a three-hour commercial/holding gap.
+     candidates=rested or available
+    else:
+     candidates=[p for p in specials[ch] if p.get('type')=='Movie' and p['content_id'] not in used
+                 and allowed(p,date) and 1800<=p['duration_seconds']<=capacity and
+                 date.toordinal()-special_last.get((ch,p['content_id']),0)>=config['movie_cooldown_days']]
+    if pinned is not None:
+     candidates=[p for p in candidates if p['url']==pinned]
+    elif not festive and film_calendar is not None:
+     candidates=[]
     preferred=['halloween','horror'] if date.month==10 else ['christmas','winter','snow'] if date.month==12 else active
-    # Publish a date-specific, fixed feature appointment. Themes rank only inside this authored window.
-    candidates.sort(key=lambda p:(0 if preferred and any(tag in p.get('seasonal_tags',[])+p.get('holiday_events',[]) for tag in preferred) else 1,special_last.get((ch,p['content_id']),0),p['title'].casefold()))
+    candidates.sort(key=lambda p:(
+      0 if preferred and any(tag in p.get('seasonal_tags',[])+p.get('holiday_events',[]) for tag in preferred) else 1,
+      holiday_movie_usage[(ch,p['content_id'])] if festive else 0,
+      special_last.get((ch,p['content_id']),0),p['title'].casefold()))
     if candidates:
-     p=candidates[0];t=append(p,t,p['duration_seconds'],label);used.add(p['content_id']);report['programme_slots']+=1;special_last[ch,p['content_id']]=date.toordinal();t=breaks(t,min(stop,t+channel_breaks[ch]['ident']['duration_seconds']),label)
+     p=candidates[0];t=append(p,t,p['duration_seconds'],label);used.add(p['content_id']);report['programme_slots']+=1
+     special_last[ch,p['content_id']]=date.toordinal()
+     if date.month in cinema['months']:
+      holiday_movie_usage[(ch,p['content_id'])]+=1
+      holiday_films.append({'date':date.isoformat(),'channel':ch,'at':appointment['at'],
+         'title':p['title'],'type':p['type'],'url':p['url'],'seconds':p['duration_seconds'],
+         'holiday_window':festive})
+     t=breaks(t,min(stop,t+channel_breaks[ch]['ident']['duration_seconds']),label)
     feature=False
    if key=='@anime-film':feature=True
    if feature:
