@@ -1,0 +1,28 @@
+name: Audit holiday cinema inventory
+on:
+  push:
+    paths:
+      - '.github/workflows/audit-holiday-cinema.yml'
+      - 'tools/audit_holiday_films.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Count eligible feature-length movie and specials
+        run: python tools/audit_holiday_films.py
+      - name: Save film inventory
+        run: |
+          git config user.name "Bootleg Broadcast Audit"
+          git config user.email "actions@users.noreply.github.com"
+          git add holiday-film-inventory-audit.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record channel-specific holiday film coverage"
+            git fetch origin main
+            git rebase origin/main
+            git push
+          fi
