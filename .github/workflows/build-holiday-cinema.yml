@@ -30,6 +30,10 @@ jobs:
           git add schedules/october.json schedules/december.json schedule.json holiday-film-appointments.json holiday-cinema-validation.json
           if ! git diff --cached --quiet; then
             git commit -m "Broadcast daily Halloween and Christmas cinema on every channel"
+            # build_broadcast.py refreshes unrelated reports in the workspace.
+            # Keep those out of this release and leave the working tree clean
+            # before rebasing the validated schedule commit onto main.
+            git stash push --include-untracked -m "Unrelated annual build products" || true
             git fetch origin main
             git rebase origin/main
             git push
