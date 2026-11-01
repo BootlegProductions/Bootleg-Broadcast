@@ -496,11 +496,15 @@ for ordinal in range(366 if calendar.isleap(YEAR) else 365):
   compact=cleaned
   day['channels'].append({'name':ch,'playlist':compact});report['channel_days']+=1
  month_outputs[date.month]['weeks'][0]['week'].append(day)
-for m,data in month_outputs.items():write('schedules/'+calendar.month_name[m].lower()+'.json',data)
-write('schedule.json',month_outputs[10]);write('source-library.json',catalogue)
+for m,data in month_outputs.items():
+ if not HOLIDAY_ONLY or m in cinema['months']:
+  write('schedules/'+calendar.month_name[m].lower()+'.json',data)
+write('schedule.json',month_outputs[10])
+if not HOLIDAY_ONLY:write('source-library.json',catalogue)
+write('holiday-film-appointments.json',{'year':YEAR,'film_windows':holiday_films,'note':'Fixed dates and actual selected source URLs from the October/December holiday cinema.'})
 # The searchable catalogue stays complete. This file lists sources selected by the editor, not a browser rotation pool.
 pool_keys={ch:list(dict.fromkeys([k for s in base for k in (config['series_runs'][s['series'][5:]]['series'] if s['series'].startswith('@run:') else [s['series']]) if not k.startswith('@')]+[k for patches in config.get('weekly_overrides',{}).get(ch,{}).values() for s in patches.values() for k in [s['series']] if not k.startswith('@')])) for ch,base in config['channels'].items()}
-write('broadcast-pools.json',{'channels':{ch:[slim(p) for key in keys for p in profiles[key]] for ch,keys in pool_keys.items()}})
-write('series-run-calendar.json',{'year':YEAR,'timezone':'Europe/London','runs':run_log,'note':'Run end dates indicate handover, not an invented broadcast duration. A null end means the series has not finished in this calendar; future calendars require rebuilding.'})
+if not HOLIDAY_ONLY:write('broadcast-pools.json',{'channels':{ch:[slim(p) for key in keys for p in profiles[key]] for ch,keys in pool_keys.items()}})
+if not HOLIDAY_ONLY:write('series-run-calendar.json',{'year':YEAR,'timezone':'Europe/London','runs':run_log,'note':'Run end dates indicate handover, not an invented broadcast duration. A null end means the series has not finished in this calendar; future calendars require rebuilding.'})
 report['substitutions']=dict(report['substitutions']);report['empty_appointments']=dict(report['empty_appointments']);report['filler_minutes_by_channel']=dict(report['filler_minutes_by_channel']);write('editorial-review.json',report)
 print(json.dumps({k:report[k] for k in ['channel_days','programme_slots','missing_series','empty_appointments','substitutions']},indent=2))
