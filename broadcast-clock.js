@@ -38,12 +38,12 @@ function stationIdent(station,channel,year,month,day,atSeconds){
    All originally authored programme start times remain fixed. */
 function improveContinuity(items,channel,year,month,day,breaks){
  const station=breaks.channels?.[channel],library=root.BOOTLEG_CONTINUITY?.channels?.[channel];
- if(!station||!Array.isArray(library)||!library.length)return items;
+ if(!station)return items;
  const LIMIT=125,IDENT_GAP=3600,identity=p=>p.content_id||p.url,round=v=>Math.round(v*1000)/1000;
  const used=new Set(items.filter(p=>p.type!=='Break'&&p.type!=='Filler').flatMap(p=>[identity(p),p.url]).filter(Boolean));
  const showCounts=new Map(),adLast=new Map();
  const hash=Array.from(channel+':'+year+'-'+month+'-'+day).reduce((v,c)=>(v*33+c.charCodeAt(0))>>>0,5381);
- const bonus=library.filter(p=>(p.type==='Episode'||p.type==='Special')
+ const bonus=[...(library||[]),...(root.BOOTLEG_EXTRA_SHORTS?.channels?.[channel]||[])].filter(p=>(p.type==='Episode'||p.type==='Special')
    &&p.url?.startsWith('https://archive.org/download/')&&/\.mp4(?:[?#]|$)/i.test(p.url)
    &&p.duration_seconds>=140&&p.duration_seconds<=3000&&!p.broadcast_held
    &&!['non-english','reported-non-english'].includes(p.language_status)
@@ -53,7 +53,7 @@ function improveContinuity(items,channel,year,month,day,breaks){
    &&(!(p.seasonal_tags||[]).includes('thanksgiving')||eventsOn(year,month,day).includes('thanksgiving')));
  const commercials=(station.adverts||[]).map((p,i)=>({...p,index:i})).filter(p=>
    p.duration_seconds>=3&&p.duration_seconds<=60&&!p.station_brand
-   &&!/\bident\b|\bbumper\b|\bpromo\b|back to the show|we.ll be back/i.test(p.title||'')
+   &&p.url&&!/\bident\b|\bbumper\b|back to the show|we.ll be back/i.test(p.title||'')
    &&(!(p.seasonal_tags||[]).includes('christmas')||month===12)
    &&(!(p.seasonal_tags||[]).includes('halloween')||month===10)
    &&(!(p.holiday_events||[]).includes('christmas')||month===12));
@@ -66,8 +66,8 @@ function improveContinuity(items,channel,year,month,day,breaks){
   if(stop<=t)continue;
   // Fill with complete measured shows first. Avoid airing the same source twice
   // within a channel-day, including any programme already scheduled later.
-  for(let n=0;n<12&&stop-t>LIMIT+140;n++){
-   const capacity=stop-t-90;
+  while(stop-t>=140){
+   const capacity=stop-t;
    let best=null,bestScore=Infinity;
    for(const p of bonus){
     const id=identity(p);
@@ -97,6 +97,20 @@ function improveContinuity(items,channel,year,month,day,breaks){
    showCounts.set(show,(showCounts.get(show)||0)+1);
    t=end;
   }
+  // Keep long gaps watchable when every unused full short is too long.
+  // An excerpt leaves the authored programme after the break on its original clock.
+  if(stop-t>LIMIT){
+   const remaining=stop-t;
+   const preview=bonus.filter(p=>p.duration_seconds>remaining&&!used.has(identity(p))&&!used.has(p.url))
+     .reduce((best,p)=>!best||p.duration_seconds<best.duration_seconds?p:best,null);
+   if(preview){
+    const end=round(stop-Math.min(60,remaining-LIMIT));
+    out.push({...preview,title:preview.title+' — Preview',editorial_kind:'continuity-preview',
+      block:old.block,broadcast_start_seconds:t,broadcast_end_seconds:end});
+    used.add(identity(preview));used.add(preview.url);
+    t=end;
+   }
+  }
   const limit=Math.min(LIMIT,stop-t);
   const indices=[],seen=new Set();
   let filled=0;
@@ -109,15 +123,21 @@ function improveContinuity(items,channel,year,month,day,breaks){
    for(let pass=0;pass<2&&!selected;pass++){
     for(let k=0;k<commercials.length;k++){
      const p=commercials[(cursor+k)%commercials.length];
-     if(seen.has(p.index)||p.duration_seconds>limit-filled+.0001)continue;
+     if(seen.has(p.url)||p.duration_seconds>limit-filled+.0001)continue;
      if(pass===0&&t+filled-(adLast.get(p.index)??-Infinity)<1800)continue;
      selected={p,advance:k+1};break;
     }
    }
+   if(!selected&&limit===stop-t){
+    // The next programme takes over on time, even if the final clip runs longer.
+    const p=commercials.filter(p=>!seen.has(p.url)&&p.duration_seconds>limit-filled)
+      .reduce((best,p)=>!best||p.duration_seconds<best.duration_seconds?p:best,null);
+    if(p)selected={p,advance:commercials.indexOf(p)-cursor+1+commercials.length};
+   }
    if(!selected)break;
    indices.push(selected.p.index);
-   filled=round(filled+selected.p.duration_seconds);
-   seen.add(selected.p.index);
+   filled=Math.min(limit,round(filled+selected.p.duration_seconds));
+   seen.add(selected.p.url);
    adLast.set(selected.p.index,t+filled);
    cursor=(cursor+selected.advance)%commercials.length;
   }
