@@ -8,353 +8,209 @@
       "day": 28,
       "airings": 0,
       "adverts": 0,
-      "hold_minutes": 498.3316833333326
+      "hold_minutes": 1.2542499999996382
     },
     {
       "month": "october",
       "day": 29,
       "airings": 0,
       "adverts": 0,
-      "hold_minutes": 502.4179000000003
+      "hold_minutes": 1.6248333333336629
     },
     {
       "month": "december",
       "day": 1,
-      "airings": 1,
-      "adverts": 47,
-      "hold_minutes": 481.98958333333417
+      "airings": 10,
+      "adverts": 1,
+      "hold_minutes": 2.218233333334335
     },
     {
       "month": "december",
       "day": 6,
-      "airings": 2,
-      "adverts": 38,
-      "hold_minutes": 440.02156666666616
+      "airings": 8,
+      "adverts": 10,
+      "hold_minutes": 2.1254833333332983
     },
     {
       "month": "december",
       "day": 12,
-      "airings": 1,
-      "adverts": 41,
-      "hold_minutes": 450.9800166666657
+      "airings": 7,
+      "adverts": 2,
+      "hold_minutes": 1.598600000001533
     },
     {
       "month": "december",
       "day": 24,
-      "airings": 2,
-      "adverts": 46,
-      "hold_minutes": 492.2169500000004
+      "airings": 19,
+      "adverts": 5,
+      "hold_minutes": 1.7908333333335418
     },
     {
       "month": "december",
       "day": 25,
-      "airings": 2,
-      "adverts": 41,
-      "hold_minutes": 493.8922333333329
+      "airings": 19,
+      "adverts": 6,
+      "hold_minutes": 1.8310999999999917
     }
   ],
-  "new_seasonal_airings": 8,
+  "new_seasonal_airings": 63,
   "non_december_airings": 0,
-  "christmas_ads_in_december": 213,
+  "christmas_ads_in_december": 24,
   "christmas_ads_in_october": 0,
-  "max_intermission_seconds": 1115.5099999999948,
-  "longest_holds": [
-    {
-      "month": "october",
-      "day": 29,
-      "channel": "What",
-      "seconds": 1116,
-      "at": 1421,
-      "block": "Late night"
-    },
-    {
-      "month": "october",
-      "day": 28,
-      "channel": "What",
-      "seconds": 1105,
-      "at": 1422,
-      "block": "Late night"
-    },
-    {
-      "month": "december",
-      "day": 12,
-      "channel": "What",
-      "seconds": 1070,
-      "at": 1422,
-      "block": "Late night"
-    },
-    {
-      "month": "december",
-      "day": 24,
-      "channel": "What",
-      "seconds": 1069,
-      "at": 1422,
-      "block": "Late night"
-    },
-    {
-      "month": "october",
-      "day": 29,
-      "channel": "Star Spangled TV",
-      "seconds": 734,
-      "at": 1308,
-      "block": "Late night"
-    },
-    {
-      "month": "december",
-      "day": 25,
-      "channel": "What",
-      "seconds": 707,
-      "at": 1428,
-      "block": "Late night"
-    },
-    {
-      "month": "december",
-      "day": 1,
-      "channel": "Japanime",
-      "seconds": 670,
-      "at": 199,
-      "block": "After hours"
-    },
-    {
-      "month": "december",
-      "day": 1,
-      "channel": "What",
-      "seconds": 667,
-      "at": 1429,
-      "block": "Late night"
-    },
-    {
-      "month": "october",
-      "day": 29,
-      "channel": "Japanime",
-      "seconds": 664,
-      "at": 199,
-      "block": "After hours"
-    },
-    {
-      "month": "december",
-      "day": 24,
-      "channel": "Japanime",
-      "seconds": 662,
-      "at": 199,
-      "block": "After hours"
-    },
-    {
-      "month": "december",
-      "day": 25,
-      "channel": "Japanime",
-      "seconds": 662,
-      "at": 199,
-      "block": "After hours"
-    },
-    {
-      "month": "december",
-      "day": 25,
-      "channel": "Japanime",
-      "seconds": 660,
-      "at": 1429,
-      "block": "Late night"
-    },
-    {
-      "month": "december",
-      "day": 1,
-      "channel": "Japanime",
-      "seconds": 658,
-      "at": 469,
-      "block": "Kids anime breakfast"
-    },
-    {
-      "month": "december",
-      "day": 12,
-      "channel": "Japanime",
-      "seconds": 657,
-      "at": 199,
-      "block": "After hours"
-    },
-    {
-      "month": "october",
-      "day": 28,
-      "channel": "Japanime",
-      "seconds": 654,
-      "at": 1429,
-      "block": "Late night"
-    },
-    {
-      "month": "december",
-      "day": 6,
-      "channel": "Japanime",
-      "seconds": 651,
-      "at": 1429,
-      "block": "Late night"
-    },
-    {
-      "month": "october",
-      "day": 28,
-      "channel": "Japanime",
-      "seconds": 650,
-      "at": 469,
-      "block": "Kids anime breakfast"
-    },
-    {
-      "month": "december",
-      "day": 1,
-      "channel": "Japanime",
-      "seconds": 646,
-      "at": 1429,
-      "block": "Late night"
-    },
-    {
-      "month": "october",
-      "day": 29,
-      "channel": "Japanime",
-      "seconds": 634,
-      "at": 319,
-      "block": "After hours"
-    },
-    {
-      "month": "october",
-      "day": 28,
-      "channel": "Japanime",
-      "seconds": 631,
-      "at": 319,
-      "block": "After hours"
-    },
-    {
-      "month": "october",
-      "day": 28,
-      "channel": "Japanime",
-      "seconds": 630,
-      "at": 1010,
-      "block": "Afternoon anime adventures — complete series runs"
-    },
-    {
-      "month": "december",
-      "day": 12,
-      "channel": "Japanime",
-      "seconds": 629,
-      "at": 1430,
-      "block": "Late anime thrillers — complete series runs"
-    },
-    {
-      "month": "october",
-      "day": 29,
-      "channel": "Japanime",
-      "seconds": 626,
-      "at": 1010,
-      "block": "Afternoon anime adventures — complete series runs"
-    },
-    {
-      "month": "december",
-      "day": 6,
-      "channel": "Japanime",
-      "seconds": 621,
-      "at": 950,
-      "block": "Afternoon anime stories — complete series runs"
-    },
-    {
-      "month": "december",
-      "day": 12,
-      "channel": "Japanime",
-      "seconds": 618,
-      "at": 110,
-      "block": "Adults after midnight — complete series runs"
-    },
-    {
-      "month": "december",
-      "day": 24,
-      "channel": "Japanime",
-      "seconds": 618,
-      "at": 1430,
-      "block": "Late night"
-    },
-    {
-      "month": "october",
-      "day": 29,
-      "channel": "Japanime",
-      "seconds": 608,
-      "at": 1430,
-      "block": "Late night"
-    },
-    {
-      "month": "december",
-      "day": 25,
-      "channel": "Japanime",
-      "seconds": 602,
-      "at": 1190,
-      "block": "Evening anime mystery — complete series runs"
-    },
-    {
-      "month": "december",
-      "day": 24,
-      "channel": "Japanime",
-      "seconds": 601,
-      "at": 1010,
-      "block": "Afternoon anime adventures — complete series runs"
-    },
-    {
-      "month": "december",
-      "day": 25,
-      "channel": "Japanime",
-      "seconds": 595,
-      "at": 1010,
-      "block": "Afternoon anime adventures — complete series runs"
-    }
-  ],
+  "max_intermission_seconds": 24.9800000000032,
+  "longest_holds": [],
   "airings_by_channel": {
-    "AAA": 1,
-    "Off-Licence TV": 4,
-    "Star Spangled TV": 1,
-    "GirlyPop": 1,
-    "Dizzy": 1
+    "Off-Licence TV": 25,
+    "Star Spangled TV": 12,
+    "AAA": 14,
+    "GirlyPop": 7,
+    "Dizzy": 3,
+    "What": 2
   },
   "sample_airings": [
     {
       "day": 1,
+      "channel": "Off-Licence TV",
+      "title": "Killinaskully Christmas Special 4 the last round",
+      "at": 213
+    },
+    {
+      "day": 1,
+      "channel": "Off-Licence TV",
+      "title": "Dave Allen Live On New Years Eve 1986",
+      "at": 941
+    },
+    {
+      "day": 1,
+      "channel": "Off-Licence TV",
+      "title": "Sorry! Winter's Tales (1988) — S07E05 — Sorry! Winter's Tales (1988) S07E05",
+      "at": 991
+    },
+    {
+      "day": 1,
+      "channel": "Off-Licence TV",
+      "title": "Family — S05E14 — Family S05E14 Glad Tidings We Bring",
+      "at": 1330
+    },
+    {
+      "day": 1,
+      "channel": "Off-Licence TV",
+      "title": "Dave Allen Christmas 1979",
+      "at": 1379
+    },
+    {
+      "day": 1,
+      "channel": "Star Spangled TV",
+      "title": "St Elsewhere — S06E11 — St Elsewhere S6e011 A Coupla White Dummies Sitting Around Talking (santa christmas)",
+      "at": 925
+    },
+    {
+      "day": 1,
+      "channel": "Star Spangled TV",
+      "title": "MelPl season 03x15 Holiday On Ice Christmas",
+      "at": 973
+    },
+    {
+      "day": 1,
+      "channel": "AAA",
+      "title": "Smack The Pony Christmas Special 1",
+      "at": 626
+    },
+    {
+      "day": 1,
       "channel": "AAA",
       "title": "Rab C Nesbitt More",
-      "at": 605
+      "at": 936
+    },
+    {
+      "day": 1,
+      "channel": "AAA",
+      "title": "Rab C Nesbitt Christmas Special 2008",
+      "at": 1156
+    },
+    {
+      "day": 6,
+      "channel": "Off-Licence TV",
+      "title": "DesmondsChristmasSpecial1994",
+      "at": 895
+    },
+    {
+      "day": 6,
+      "channel": "Off-Licence TV",
+      "title": "Hale And Pace Christmas Extravaganda (1986) S1Ep0 — S01E00 — Hale And Pace Christmas Extravaganda (1986) S1Ep0",
+      "at": 945
     },
     {
       "day": 6,
       "channel": "Off-Licence TV",
       "title": "Happy Ever After Christmas (1978) — S03E10 — Happy Ever After Christmas (1978) S3E10",
-      "at": 929
+      "at": 1228
     },
     {
       "day": 6,
       "channel": "Off-Licence TV",
-      "title": "Dad's Army — S07E06 — Dad's Army Turkey Dinner S07E06",
-      "at": 1228
+      "title": "Family — S05E15 — Family S05E15 And ill Cry If I Want To",
+      "at": 1319
+    },
+    {
+      "day": 6,
+      "channel": "Star Spangled TV",
+      "title": "Phoenix (ABC, 1992) — S01E02 — Phoenix (ABC, 1992) S01E02 Christmas in July",
+      "at": 943
+    },
+    {
+      "day": 6,
+      "channel": "AAA",
+      "title": "Men Behaving Badly — S06E07 — Men Behaving Badly S06E07 Jingle Balls",
+      "at": 917
+    },
+    {
+      "day": 6,
+      "channel": "AAA",
+      "title": "Till Death Us Do Part — S04E07 — Till Death Us Do Part S4E07 Christmas Special 1972",
+      "at": 961
+    },
+    {
+      "day": 6,
+      "channel": "GirlyPop",
+      "title": "sweet valley high — S02E15 — sweet valley high season 02 episode 15 christmas",
+      "at": 1301
     },
     {
       "day": 12,
       "channel": "Off-Licence TV",
-      "title": "Dad's Army — S05E14 — Dad's Army Broadcast To The Empire S5E14",
-      "at": 1064
+      "title": "All Star Comedy Carnival 1973",
+      "at": 840
     },
     {
-      "day": 24,
+      "day": 12,
+      "channel": "Off-Licence TV",
+      "title": "Carry on Christmas Carry on Stuffing (1972)",
+      "at": 919
+    },
+    {
+      "day": 12,
+      "channel": "Off-Licence TV",
+      "title": "Carry On Christmas (1969)",
+      "at": 969
+    },
+    {
+      "day": 12,
       "channel": "Star Spangled TV",
       "title": "m@gnum p ! — S01E04 — m@gnum p ! season 01 episode 04 christmas ep",
-      "at": 1377
+      "at": 940
     },
     {
-      "day": 24,
+      "day": 12,
+      "channel": "AAA",
+      "title": "Rab C Nesbitt home",
+      "at": 946
+    },
+    {
+      "day": 12,
       "channel": "GirlyPop",
-      "title": "Full House — S02E09 — fu!! h0us3 season 02 episode 09 christmas",
-      "at": 454
-    },
-    {
-      "day": 25,
-      "channel": "Off-Licence TV",
-      "title": "Dad's Army — S05E14 — Dad's Army Broadcast To The Empire S5E14",
-      "at": 1184
-    },
-    {
-      "day": 25,
-      "channel": "Dizzy",
-      "title": "MK+A The Case of the Christmas Caper (1995)",
-      "at": 811
+      "title": "French Fields — S02E07 — French Fields 2x07 Noel Noel",
+      "at": 1256
     }
   ]
 }
