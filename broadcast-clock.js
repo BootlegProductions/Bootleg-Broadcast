@@ -154,9 +154,26 @@ function improveContinuity(items,channel,year,month,day,breaks){
  return out;
 }
 function plan({year,month,day,channel,items=[],breaks={}}){
- const adjusted=improveContinuity(items,channel,year,month,day,breaks);
  const start=wall(year,month,day),next=new Date(Date.UTC(year,month-1,day+1)),end=wall(next.getUTCFullYear(),next.getUTCMonth()+1,next.getUTCDate());
  if(items.some(p=>!Number.isFinite(p.broadcast_start_seconds)||!Number.isFinite(p.broadcast_end_seconds)))throw new Error('Written timetable missing. Rebuild the monthly schedules.');
+ const additions=root.BOOTLEG_ARCHIVE_APPOINTMENTS?.[month]?.[day]?.[channel]||[];
+ const scheduled=items.flatMap(item=>{
+  if(item.type!=='Break')return [item];
+  const start=item.broadcast_start_seconds, end=item.broadcast_end_seconds;
+  const contained=additions.filter(p=>p.broadcast_start_seconds>=start&&p.broadcast_end_seconds<=end);
+  if(!contained.length)return [item];
+  const segments=[];
+  let cursor=start;
+  for(const programme of contained){
+   if(programme.broadcast_start_seconds<cursor)continue;
+   if(cursor<programme.broadcast_start_seconds)segments.push({...item,broadcast_start_seconds:cursor,broadcast_end_seconds:programme.broadcast_start_seconds});
+   segments.push({...programme,block:item.block});
+   cursor=programme.broadcast_end_seconds;
+  }
+  if(cursor<end)segments.push({...item,broadcast_start_seconds:cursor});
+  return segments;
+ });
+ const adjusted=improveContinuity(scheduled,channel,year,month,day,breaks);
  const seed=`written-tv-v1:${year}-${month}-${day}:${channel}`;
  const expanded=[];
  for(const p of adjusted){
