@@ -50,6 +50,8 @@
 <body>
   <h1>Jellyfin Browser Test</h1>
 
+  <label for="jellyfinKey">Jellyfin API key</label>
+  <input id="jellyfinKey" type="password" autocomplete="off">
   <button id="loadShowsButton">Load Cartoons</button>
 
   <div id="status">Ready.</div>
@@ -62,8 +64,7 @@
   <script>
     const JELLYFIN_URL = "http://192.168.0.184:8096";
 
-    // Keep this file local. Do not commit the real key to GitHub.
-    const JELLYFIN_API_KEY = "e196df24559843679918242cab90c2d1";
+    const jellyfinKey = () => document.getElementById("jellyfinKey").value.trim();
 
     const loadShowsButton = document.getElementById("loadShowsButton");
     const status = document.getElementById("status");
@@ -74,7 +75,7 @@
     async function jellyfinFetch(path) {
       const response = await fetch(`${JELLYFIN_URL}${path}`, {
         headers: {
-          "X-Emby-Token": JELLYFIN_API_KEY
+          "X-Emby-Token": jellyfinKey()
         }
       });
 
@@ -202,7 +203,7 @@
       const streamUrl =
         `${JELLYFIN_URL}/Videos/${episode.Id}/stream` +
         `?Static=true` +
-        `&api_key=${encodeURIComponent(JELLYFIN_API_KEY)}`;
+        `&api_key=${encodeURIComponent(jellyfinKey())}`;
 
       status.textContent = `Playing: ${episode.SeriesName} — ${episode.Name}`;
 
