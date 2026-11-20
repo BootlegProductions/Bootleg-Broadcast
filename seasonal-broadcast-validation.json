@@ -28,8 +28,8 @@
       "month": "december",
       "day": 6,
       "airings": 8,
-      "adverts": 10,
-      "hold_minutes": 2.1254833333332983
+      "adverts": 6,
+      "hold_minutes": 2.1787000000000143
     },
     {
       "month": "december",
@@ -42,8 +42,8 @@
       "month": "december",
       "day": 24,
       "airings": 19,
-      "adverts": 5,
-      "hold_minutes": 1.7908333333335418
+      "adverts": 4,
+      "hold_minutes": 1.7746500000002463
     },
     {
       "month": "december",
@@ -55,7 +55,7 @@
   ],
   "new_seasonal_airings": 63,
   "non_december_airings": 0,
-  "christmas_ads_in_december": 24,
+  "christmas_ads_in_december": 19,
   "christmas_ads_in_october": 0,
   "max_intermission_seconds": 24.9800000000032,
   "longest_holds": [],
