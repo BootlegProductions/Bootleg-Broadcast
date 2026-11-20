@@ -71,7 +71,7 @@ const Broadcast=(()=>{
    return [...new Set([...compatible,...fallbacks])];
  }
  function publicEdSegment(item){
-   if(!edArchive.test(item.url))return item;
+   if(!edArchive.test(item.url)||item.editorial_kind==='continuity-preview')return item;
    const code=edEpisodeCode(item)?.split(':').map(n=>n.padStart(2,'0')).join(':');
    const segment=globalThis.BOOTLEG_PUBLIC_ED_SEGMENTS?.[code];
    if(!segment)return item;
@@ -81,18 +81,23 @@ const Broadcast=(()=>{
  function day(){
   const raw=getRotationDay();if(!raw)return null;const p=BootlegClock.parts(now()),month=MONTHS.indexOf(currentMonth)+1,d=previewDate||p.day,y=p.year,key=`${y}:${month}:${d}`;
   if(cache&&cacheSchedule===schedule&&cacheKey===key)return cache;
-  cache={...raw,channels:raw.channels.map(c=>{const plan=BootlegClock.plan({year:y,month,day:d,channel:c.name,items:c.playlist.map(publicEdSegment),pools,breaks});return {...c,playlist:plan.slots,plan};})};cacheSchedule=schedule;cacheKey=key;return cache;
+  cache={...raw,channels:raw.channels.map(c=>{const plan=BootlegClock.plan({year:y,month,day:d,channel:c.name,items:c.playlist,pools,breaks});const playlist=plan.slots.map(publicEdSegment);return {...c,playlist,plan:{...plan,slots:playlist}};})};cacheSchedule=schedule;cacheKey=key;return cache;
  }
  function viewingTime(){if(!previewDate)return now();const p=BootlegClock.parts(now());return BootlegClock.wall(p.year,MONTHS.indexOf(currentMonth)+1,previewDate,p.hour)+p.minute*60000+p.second*1000;}
  function livePosition(){const c=getCurrentChannelData();return c?.plan?BootlegClock.locate(c.plan,viewingTime()):null;}
  function item(){return selected||gapMedia||getCurrentChannelData()?.playlist?.[currentIndex]||null;}
  const time=ms=>new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(new Date(ms));
- function seek(){if(mode==='live'){const pos=livePosition();let offset=gapMedia ? Math.max(0,(viewingTime()-gapMedia.start)/1000) : pos?.offset||0;if(item()?.loop&&Number.isFinite(player.duration)&&player.duration>0)offset%=player.duration;return offset+(item()?.mediaStart||0);}return player.currentTime||pendingSeek||item()?.mediaStart||0;}
+ function playbackRate(p){
+  if(mode!=='live'||!p?.mediaEnd||gapMedia)return 1;
+  const slotSeconds=(p.end-p.start)/1000;
+  return slotSeconds>0?(p.mediaEnd-p.mediaStart)/slotSeconds:1;
+ }
+ function seek(){if(mode==='live'){const pos=livePosition();let offset=gapMedia ? Math.max(0,(viewingTime()-gapMedia.start)/1000) : pos?.offset||0;if(item()?.loop&&Number.isFinite(player.duration)&&player.duration>0)offset%=player.duration;return offset*playbackRate(item())+(item()?.mediaStart||0);}return player.currentTime||pendingSeek||item()?.mediaStart||0;}
  function fillGap(message){
   if(mode!=='live'){returnLive();return;}
   const c=getCurrentChannelData(),original=c?.playlist?.[currentIndex],now=viewingTime();
   if(!original||now>=original.end){sync();return;}
-  const upcoming=c.playlist.slice(currentIndex+1).filter(p=>!p.presentation&&p.type!=='Filler'&&!NON_PROGRAMME.has(p.type)).slice(0,6);
+  const upcoming=c.playlist.slice(currentIndex+1).filter(p=>!p.presentation&&p.type!=='Filler'&&p.editorial_kind!=='continuity-preview'&&!NON_PROGRAMME.has(p.type)).slice(0,6);
   const ident=breaks.channels?.[c.name]?.ident;
   const candidates=[...upcoming,ident].filter(Boolean);
   for(const candidate of candidates){
@@ -199,5 +204,5 @@ const Broadcast=(()=>{
   }
 currentMonth=MONTHS[BootlegClock.parts(now()).month-1];setInterval(sync,1000);setInterval(clock,300000);setInterval(health,60000);document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'){clock().then(()=>sync());health();}});}
  async function deepLink(){const url=new URLSearchParams(location.search).get('watch');if(!url)return;try{const data=await fetchJson('source-library.json?v=0370');const p=data.programmes.find(p=>p.url===url);if(p){chooseItem(p);history.replaceState(null,'',location.pathname);}}catch{showStatus('SELECTED PROGRAMME UNAVAILABLE',3000);}}
- return {boot,now,day,item,sources,seek,load,play,returnLive,choose,chooseItem,skip,restart,alternate,retry,recover,ended,pause,sync,remote,mini,guide,deepLink,mode:()=>mode,holding:()=>holding,fillGap,presentation};
+ return {boot,now,day,item,sources,seek,playbackRate,load,play,returnLive,choose,chooseItem,skip,restart,alternate,retry,recover,ended,pause,sync,remote,mini,guide,deepLink,mode:()=>mode,holding:()=>holding,fillGap,presentation};
 })();
