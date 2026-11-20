@@ -16,8 +16,8 @@ const Broadcast=(()=>{
  function report(url,reason){if(!/^https:\/\/archive\.org\/download\//.test(url||''))return;failed.set(url,Date.now()+FAILURE_COOLDOWN_MS);try{const flags=JSON.parse(localStorage.getItem('bootleg.source.flags')||'{}');flags[url]={url,title:item()?.title,channel:getCurrentChannelData()?.name,reason:'Playback interruption (not a confirmed dead link): '+reason,reported_at:new Date().toISOString()};localStorage.setItem('bootleg.source.flags',JSON.stringify(flags));}catch{}const body={url,title:item()?.title,channel:getCurrentChannelData()?.name,client,slot:mode==='live'?item()?.slot_id||slotKey:'ondemand:'+Math.floor(now()/3600000),reason};const id=url+body.slot;if(!queued.has(id))sendReport(id,body);}
  function blocked(url){const until=failed.get(url)||0;if(until&&until<=Date.now())failed.delete(url);return until>Date.now()||repairs.get(url)?.status==='quarantined';}
  function activeUrl(urls){return player.getAttribute?.('src')||player.currentSrc||urls[sourceIndex]||'';}
- // Ed, Edd n Eddy catalogue entries pointed to Archive auto-derived .ia.mp4.
- // The exact original .mp4 is present for all 130 affected episode filenames.
+ // This collection’s original HEVC uploads can play audio without video.
+ // Prefer the Archive H.264 derivatives in both live and guide playback.
  const edArchive=/^https:\/\/archive\.org\/download\/ed-edd-n-eddy-full-series-1999-2009\//i;
  const edCollection='ed-edd-n-eddy-full-series-1999-2009';
  let edFiles=[];
@@ -37,10 +37,10 @@ const Broadcast=(()=>{
      if(!response.ok)return;
      const metadata=await response.json();
      if(!Array.isArray(metadata.files))return;
-     edFiles=metadata.files.filter(f=>typeof f.name==='string'&&/\.mp4$/i.test(f.name)&&!/\.ia\.mp4$/i.test(f.name));
+     edFiles=metadata.files.filter(f=>typeof f.name==='string'&&/\.ia\.mp4$/i.test(f.name)&&f.format==='h.264 IA');
    }catch{}
  }
- function originalEdSource(p){
+ function compatibleEdSource(p){
    const code=edEpisodeCode(p);
    if(!code||!edFiles.length)return null;
    const matches=edFiles.filter(f=>edCode(f.name)===code);
@@ -51,12 +51,18 @@ const Broadcast=(()=>{
  function sources(p){
    const urls=[p?.url,...p?.alternates||[]].filter(Boolean).map(u=>repairs.get(u)?.status==='replaced'?repairs.get(u).replacement:u);
    const ed=urls.some(u=>edArchive.test(u))||/ed,\s*edd\s*n\s*eddy/i.test(String(p?.show||'')+' '+String(p?.title||''));
-   const original=ed?originalEdSource(p):null;
-   const expanded=urls.flatMap(u=>edArchive.test(u)&&/\.ia\.mp4(?:[?#]|$)/i.test(u)
-    ?[u.replace(/\.ia\.mp4(?=[?#]|$)/i,'.mp4')]:[u]);
    const key=String(p?.title||'').toLowerCase().replace(/[^a-z0-9]+/g,'');
    const holidayAlternates=globalThis.BOOTLEG_HOLIDAY_ALTERNATES?.[key]||[];
-   return [...new Set([original,...expanded,...holidayAlternates].filter(Boolean))];
+   const candidates=[...urls,...holidayAlternates];
+   if(!ed)return [...new Set(candidates)];
+   const direct=candidates.filter(u=>edArchive.test(u)&&/\.ia\.mp4(?:[?#]|$)/i.test(u));
+   const compatible=direct.length?direct:[compatibleEdSource(p)].filter(Boolean);
+   const originals=new Set(compatible.map(u=>decodeURIComponent(new URL(u).pathname).replace(/\.ia\.mp4$/i,'.mp4')));
+   const fallbacks=candidates.filter(u=>{
+     if(!edArchive.test(u))return true;
+     try{return !originals.has(decodeURIComponent(new URL(u).pathname));}catch{return true;}
+   });
+   return [...new Set([...compatible,...fallbacks])];
  }
  function day(){
   const raw=getRotationDay();if(!raw)return null;const p=BootlegClock.parts(now()),month=MONTHS.indexOf(currentMonth)+1,d=previewDate||p.day,y=p.year,key=`${y}:${month}:${d}`;
