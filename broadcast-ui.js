@@ -5,6 +5,7 @@ const Broadcast=(()=>{
  // Playback interruptions are temporary, not proof that an Archive file is dead.
  // Keep diagnostic reports, but never preload historical reports as a blacklist.
  const failed=new Map(),repairs=new Map(),queued=new Map();
+ const triedGapSources=new Set();
  const FAILURE_COOLDOWN_MS=45000;
  // Local HTTP previews and older browsers may not expose randomUUID.
  const clientId=()=>globalThis.crypto?.randomUUID?.()||'device-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2);
@@ -55,6 +56,10 @@ const Broadcast=(()=>{
    const holidayAlternates=globalThis.BOOTLEG_HOLIDAY_ALTERNATES?.[key]||[];
    const candidates=[...urls,...holidayAlternates];
    if(!ed)return [...new Set(candidates)];
+   if(candidates.some(u=>edArchive.test(u)&&/Big%20Picture%20Show/i.test(u))){
+     const publicFeature="https://archive.org/download/ed-edd-n-eddy-collection-480p/Ed%2C%20Edd%20n%20Eddy%20-%20S00%20E05%20-%20Ed%2C%20Edd%20n%20Eddy%27s%20Big%20Picture%20Show%20%28720p%29.mp4";
+     return [...new Set([publicFeature,...candidates.filter(u=>!edArchive.test(u))])];
+   }
    const direct=candidates.filter(u=>edArchive.test(u)&&/\.ia\.mp4(?:[?#]|$)/i.test(u));
    const compatible=direct.length?direct:[compatibleEdSource(p)].filter(Boolean);
    const originals=new Set(compatible.map(u=>decodeURIComponent(new URL(u).pathname).replace(/\.ia\.mp4$/i,'.mp4')));
@@ -76,11 +81,23 @@ const Broadcast=(()=>{
  function seek(){if(mode==='live'){const pos=livePosition();let offset=gapMedia ? Math.max(0,(viewingTime()-gapMedia.start)/1000) : pos?.offset||0;if(item()?.loop&&Number.isFinite(player.duration)&&player.duration>0)offset%=player.duration;return offset;}return player.currentTime||pendingSeek;}
  function fillGap(message){
   if(mode!=='live'){returnLive();return;}
-  const c=getCurrentChannelData(),original=c?.playlist?.[currentIndex],ident=breaks.channels?.[c?.name]?.ident;
-  if(!original||!ident||gapMedia){presentation('Signal unavailable · channel ident could not load');return;}
-  gapMedia={...ident,start:viewingTime(),end:original.end,slot_id:original.slot_id,loop:false,gap_ident:true};
-  resetPlayer();clearCard();sourceRetry=0;stalledAttempts=0;loadItemSource(gapMedia,0,seek());
-  if(message)showStatus(message,2000);updateRemote();
+  const c=getCurrentChannelData(),original=c?.playlist?.[currentIndex],now=viewingTime();
+  if(!original||now>=original.end){sync();return;}
+  const upcoming=c.playlist.slice(currentIndex+1).filter(p=>!p.presentation&&p.type!=='Filler'&&!NON_PROGRAMME.has(p.type)).slice(0,6);
+  const ident=breaks.channels?.[c.name]?.ident;
+  const candidates=[...upcoming,ident].filter(Boolean);
+  for(const candidate of candidates){
+   const urls=sources(candidate);
+   const index=urls.findIndex(url=>!edArchive.test(url)&&!blocked(url)&&!triedGapSources.has(url)&&url!==original.url);
+   if(index<0)continue;
+   triedGapSources.add(urls[index]);
+   gapMedia={...candidate,start:now,end:original.end,slot_id:original.slot_id,loop:false};
+   resetPlayer();clearCard();sourceRetry=0;stalledAttempts=0;
+   loadItemSource(gapMedia,index,0);
+   if(message)showStatus(message,2000);
+   updateRemote();return;
+  }
+  presentation('RETUNING · NEXT SCHEDULED PROGRAMME TO FOLLOW');
  }
 
  function updateIntermission(){
@@ -98,7 +115,7 @@ const Broadcast=(()=>{
  function presentation(message){holding=true;player.pause();cancelRecovery();$('broadcast-card').hidden=false;$('broadcast-card').classList.toggle('intermission',item()?.type==='Filler');$('broadcast-card-channel').textContent=getCurrentChannelData()?.name||'BOOTLEG BROADCAST';$('broadcast-card-title').textContent=message||item()?.title||'Stay tuned';const next=getCurrentChannelData()?.playlist?.find(p=>p.start>viewingTime()&&!NON_PROGRAMME.has(p.type)&&p.type!=='Filler'&&!p.presentation);$('broadcast-card-next').textContent=mode==='live'&&next?'Next: '+next.title+' · '+time(next.start)+' UK':'Returning to scheduled broadcast…';hideStatus();updateIntermission();updateRemote();}
  function clearCard(){holding=false;$('broadcast-card').hidden=true;$('broadcast-card').classList.remove('intermission');}
  function load(){
-  gapMedia=null;
+  gapMedia=null;triedGapSources.clear();
   const c=getCurrentChannelData();if(!c?.playlist?.length)return;selected=null;mode='live';const pos=livePosition();if(!pos)return;currentIndex=pos.index;slotKey=pos.item.slot_id;play();
  }
  function play(){
@@ -108,7 +125,7 @@ const Broadcast=(()=>{
   if(index<0&&urls.some(u=>repairs.get(u)?.status!=='quarantined')){
    urls.forEach(u=>failed.delete(u));index=urls.findIndex(u=>!blocked(u));
   }
-  if(p.presentation){presentation(p.type==='Filler'?'CHANNEL INTERMISSION · NEXT PROGRAMME TO FOLLOW':p.title);}else if(index<0){fillGap('SIGNAL UNAVAILABLE · CHANNEL IDENT BREAK');}
+  if(p.presentation){presentation(p.type==='Filler'?'CHANNEL INTERMISSION · NEXT PROGRAMME TO FOLLOW':p.title);}else if(index<0){fillGap('RETUNING TO BACKUP PROGRAMMING');}
   else loadItemSource(p,index,mode==='live'?seek():0);
   renderScheduleOverlay();updateRemote();if($('guidePanel').open)renderGuideList();
  }
@@ -134,12 +151,12 @@ const Broadcast=(()=>{
   failed.delete(urls[index]);clearCard();sourceRetry=0;stalledAttempts=0;loadItemSource(p,index,seek());
  }
  function recover(reason){if(!poweredOn||holding)return;cancelRecovery();const p=item();if(!p)return;
-  if(gapMedia){presentation('Signal unavailable · returning at the next scheduled programme');return;}
+  if(gapMedia){report(activeUrl(sources(p)),reason);fillGap('RETUNING TO BACKUP PROGRAMMING');return;}
   if(sourceRetry<1){sourceRetry++;const gen=tuningGeneration;showStatus('RE-TUNING SIGNAL…',0);const offset=seek();recoveryTimer=setTimeout(()=>{if(gen===tuningGeneration&&poweredOn)loadItemSource(p,sourceIndex,mode==='live'?seek():offset);},700);return;}
   // Log the URL in the video element, never a different source shifted by late metadata.
   report(activeUrl(sources(p)),reason+(player.error?.code?' · media code '+player.error.code:''));
-  if(alternate())return;fillGap('SIGNAL INTERRUPTED · CHANNEL IDENT BREAK');
-  if(mode!=='live'){const gen=tuningGeneration;recoveryTimer=setTimeout(()=>{if(gen===tuningGeneration&&poweredOn)returnLive();},1800);}
+  if(alternate())return;
+  fillGap('RETUNING TO BACKUP PROGRAMMING');
  }
  function ended(){
   if(!poweredOn)return;
@@ -148,7 +165,8 @@ const Broadcast=(()=>{
   // An early media end must never force a reload of the same clock slot.
   if(pos&&pos.item.slot_id!==slotKey){sync();return;}
   if(p.loop){player.currentTime=0;safePlay();return;}
-  if(gapMedia||NON_PROGRAMME.has(p.type)||viewingTime()>=p.end-1000){presentation(gapMedia?'Source unavailable · waiting for the next scheduled programme':'Next programme starts shortly');return;}
+  if(gapMedia){fillGap();return;}
+  if(NON_PROGRAMME.has(p.type)||viewingTime()>=p.end-1000){presentation('Next programme starts shortly');return;}
   fillGap('PROGRAMME ENDED EARLY · CHECK SOURCE RUNTIME');
  }
  function pause(){if(!poweredOn){togglePower();return;}if(holding){returnLive();return;}if(player.paused){safePlay();armSourceTimeout();}else{selected={...item()};mode='timeshift';player.pause();cancelRecovery();showStatus('PAUSED · RETURN TO BROADCAST TO REJOIN',0);}updateRemote();}
